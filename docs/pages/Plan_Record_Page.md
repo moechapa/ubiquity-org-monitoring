@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Plan__c|
+|Sobject Type|[Plan__c](../objects/Plan__c.md)|
 |Type| Record Page|
 |Master Label|Client Health|
 |Template|flexipage:recordHomeTemplateDesktop|

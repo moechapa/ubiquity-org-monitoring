@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Forecast_Plan__c|
+|Sobject Type|[Forecast_Plan__c](../objects/Forecast_Plan__c.md)|
 |Type| Record Page|
 |Master Label|Forecast Plan Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

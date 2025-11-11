@@ -14,6 +14,7 @@ graph TD
 dsfs__DocuSign_Recipient_Status__c["dsfs__DocuSign_Recipient_Status__c"]:::mainObject
 click dsfs__DocuSign_Recipient_Status__c "/objects/dsfs__DocuSign_Recipient_Status__c/"
 Opportunity["Opportunity"]:::object
+click Opportunity "/objects/Opportunity/"
 
 dsfs__DocuSign_Recipient_Status__c -->|Opportunity__c| Opportunity
 

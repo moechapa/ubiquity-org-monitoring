@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Escalation__c|
+|Sobject Type|[Escalation__c](../objects/Escalation__c.md)|
 |Type| Record Page|
 |Master Label|Escalation Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 Proposal__c["Proposal"]:::customObject
+click Proposal__c "/objects/Proposal__c/"
 External_Response__c["External Response"]:::mainObject
 click External_Response__c "/objects/External_Response__c/"
 

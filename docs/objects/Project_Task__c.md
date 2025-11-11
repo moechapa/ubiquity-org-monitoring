@@ -10,10 +10,13 @@ hide:
 ## Schema
 
 ```mermaid
-graph TD
+graph LR
 User["User"]:::object
+click User "/objects/User/"
 Transition__c["Transition"]:::customObject
+click Transition__c "/objects/Transition__c/"
 Quality_Assurance_QA__c["Quality Assurance (QA)"]:::customObject
+click Quality_Assurance_QA__c "/objects/Quality_Assurance_QA__c/"
 Project_Task__c["Project Task"]:::mainObject
 click Project_Task__c "/objects/Project_Task__c/"
 Project_Deliverables__c["Project Deliverable"]:::customObject

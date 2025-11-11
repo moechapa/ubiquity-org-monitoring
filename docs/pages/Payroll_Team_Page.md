@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Case|
+|Sobject Type|[Case](../objects/Case.md)|
 |Type| Record Page|
 |Master Label|Payroll Team Page|
 |Template|flexipage:recordHomeLeftSidebarTemplateDesktop|

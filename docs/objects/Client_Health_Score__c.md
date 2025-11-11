@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 Plan__c["Plan"]:::customObject
+click Plan__c "/objects/Plan__c/"
 Client_Health_Score__c["Client Health Score"]:::mainObject
 click Client_Health_Score__c "/objects/Client_Health_Score__c/"
 

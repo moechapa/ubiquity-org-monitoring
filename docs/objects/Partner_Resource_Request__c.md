@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 User["User"]:::object
+click User "/objects/User/"
 Partner_Resource_Request__c["Partner Resource Request"]:::mainObject
 click Partner_Resource_Request__c "/objects/Partner_Resource_Request__c/"
 Contact["Contact"]:::object

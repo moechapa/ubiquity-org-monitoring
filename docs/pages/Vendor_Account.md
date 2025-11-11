@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Account|
+|Sobject Type|[Account](../objects/Account.md)|
 |Type| Record Page|
 |Master Label|Vendor Account|
 |Template|flexipage:recordHomeTemplateDesktop|

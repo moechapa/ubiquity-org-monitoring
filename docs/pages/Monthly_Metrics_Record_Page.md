@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Monthly_Metrics__c|
+|Sobject Type|[Monthly_Metrics__c](../objects/Monthly_Metrics__c.md)|
 |Type| Record Page|
 |Master Label|Monthly Metrics Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

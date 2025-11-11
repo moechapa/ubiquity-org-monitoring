@@ -14,6 +14,7 @@ graph TD
 Project_Item__c["Project Item"]:::mainObject
 click Project_Item__c "/objects/Project_Item__c/"
 Project_Item_Assignments__c["Project Item Assignment"]:::customObject
+click Project_Item_Assignments__c "/objects/Project_Item_Assignments__c/"
 Complex_Project__c["Complex Project"]:::customObject
 click Complex_Project__c "/objects/Complex_Project__c/"
 

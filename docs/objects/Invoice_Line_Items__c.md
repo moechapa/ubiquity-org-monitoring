@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 Product_Subscription__c["Product/Subscription"]:::customObject
+click Product_Subscription__c "/objects/Product_Subscription__c/"
 Invoice__c["Invoice"]:::customObject
 click Invoice__c "/objects/Invoice__c/"
 Invoice_Line_Items__c["Invoice Line Item"]:::mainObject

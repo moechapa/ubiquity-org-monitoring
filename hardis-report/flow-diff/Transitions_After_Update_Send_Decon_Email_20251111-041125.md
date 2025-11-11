@@ -1,0 +1,138 @@
+# Transitions | After Update | Send Decon Email
+
+## Flow Diagram [(_View History_)](Transitions_After_Update_Send_Decon_Email-history.md)
+
+```mermaid
+%% If you read this, your Markdown visualizer does not handle MermaidJS syntax.
+%% - If you are in VS Code, install extension `Markdown Preview Mermaid Support` at https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
+%% - If you are using sfdx-hardis, try to define env variable `MERMAID_MODES=cli,docker` ,then run again the command to regenerate markdown with SVG images.
+%% - If you are within mkdocs-material, define mermaid plugin in `mkdocs.yml` as described in https://squidfunk.github.io/mkdocs-material/extensions/mermaid/
+%% - As a last resort, you can copy-paste this MermaidJS code into https://mermaid.live/ to see the flow diagram
+
+flowchart TB
+START(["START<br/><b>AutoLaunched Flow</b></br>Type: <b> Record After Save</b>"]):::startClass
+click START "#general-information" "473759472"
+
+Send_Decon_Confirmation_Email("📧 <em></em><br/>Send Decon Confirmation Email"):::actionCalls
+click Send_Decon_Confirmation_Email "#send_decon_confirmation_email" "2863564948"
+
+Create_Error_Case_for_Transitions[("➕ <em></em><br/>Create Error Case for Transitions")]:::recordCreates
+click Create_Error_Case_for_Transitions "#create_error_case_for_transitions" "2711357511"
+
+Send_Decon_Confirmation_Email --> END_Send_Decon_Confirmation_Email
+Send_Decon_Confirmation_Email -. Fault .->Create_Error_Case_for_Transitions
+Create_Error_Case_for_Transitions --> END_Create_Error_Case_for_Transitions
+START -->  Send_Decon_Confirmation_Email
+END_Send_Decon_Confirmation_Email(( END )):::endClass
+END_Create_Error_Case_for_Transitions(( END )):::endClass
+
+
+classDef actionCalls fill:#D4E4FC,color:black,text-decoration:none,max-height:100px
+classDef assignments fill:#FBEED7,color:black,text-decoration:none,max-height:100px
+classDef collectionProcessors fill:#F0E3FA,color:black,text-decoration:none,max-height:100px
+classDef customErrors fill:#FFE9E9,color:black,text-decoration:none,max-height:100px
+classDef decisions fill:#FDEAF6,color:black,text-decoration:none,max-height:100px
+classDef loops fill:#FDEAF6,color:black,text-decoration:none,max-height:100px
+classDef recordCreates fill:#FFF8C9,color:black,text-decoration:none,max-height:100px
+classDef recordDeletes fill:#FFF8C9,color:black,text-decoration:none,max-height:100px
+classDef recordLookups fill:#EDEAFF,color:black,text-decoration:none,max-height:100px
+classDef recordUpdates fill:#FFF8C9,color:black,text-decoration:none,max-height:100px
+classDef screens fill:#DFF6FF,color:black,text-decoration:none,max-height:100px
+classDef subflows fill:#D4E4FC,color:black,text-decoration:none,max-height:100px
+classDef startClass fill:#D9F2E6,color:black,text-decoration:none,max-height:100px
+classDef endClass fill:#F9BABA,color:black,text-decoration:none,max-height:100px
+classDef transforms fill:#FDEAF6,color:black,text-decoration:none,max-height:100px
+
+
+```
+
+<!-- Flow description -->
+
+## General Information
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Object|Transition__c|
+|Process Type| Auto Launched Flow|
+|Trigger Type| Record After Save|
+|Record Trigger Type| Update|
+|Label|Transitions | After Update | Send Decon Email|
+|Status|Active|
+|Environments|Default|
+|Interview Label|Transitions | After Update | Send Decon Email {!$Flow.CurrentDateTime}|
+| Builder Type (PM)|LightningFlowBuilder|
+| Canvas Mode (PM)|AUTO_LAYOUT_CANVAS|
+| Origin Builder Type (PM)|LightningFlowBuilder|
+|Connector|[Send_Decon_Confirmation_Email](#send_decon_confirmation_email)|
+|Next Node|[Send_Decon_Confirmation_Email](#send_decon_confirmation_email)|
+
+
+#### Filters (logic: **1 AND 2 AND (3 OR 4)**)
+
+|Filter Id|Field|Operator|Value|
+|:-- |:-- |:--:|:--: |
+|1|Deconversion_Date__c| Is Null|<!-- -->|
+|2|Deconversion_Date__c| Is Changed|✅|
+|3|Transition_Type__c| Equal To|Termination/Merger|
+|4|Transition_Type__c| Equal To|Deconversion|
+
+
+## Flow Nodes Details
+
+### Send_Decon_Confirmation_Email
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Action Call|
+|Label|Send Decon Confirmation Email|
+|Action Type|Email Simple|
+|Action Name|emailSimple|
+|Fault Connector|[Create_Error_Case_for_Transitions](#create_error_case_for_transitions)|
+|Flow Transaction Model|CurrentTransaction|
+|Name Segment|emailSimple|
+|Offset|0|
+|Version String|1.0.1|
+|Sender Type (input)|OrgWideEmailAddress|
+|Sender Address (input)|dontrespond@myubiquity.com|
+|Use Email Template (input)|True|
+|Email Template Id (input)|00XUo000002mw5NMAQ|
+|Recipient Id (input)|$Record.Contact__c|
+|Related Record Id (input)|$Record.Id|
+|Log Email On Send (input)|✅|
+
+
+### Create_Error_Case_for_Transitions
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Record Create|
+|Object|Case|
+|Label|Create Error Case for Transitions|
+|Store Output Automatically|✅|
+
+
+#### Input Assignments
+
+|Field|Value|
+|:-- |:--: |
+|AccountId|$Record.Account__c|
+|Department__c|Transitions|
+|Description|caseDesc|
+|Origin|Internal|
+|OwnerId|00500000006xUkf|
+|Plan__c|$Record.Plan__c|
+|RecordTypeId|01237000000XwY4AAK|
+|Sender_Role__c|Sponsor|
+|Subject|Decon Confirmation Email Failed to Send|
+|Transition__c|$Record.Id|
+
+
+
+
+
+
+
+
+___
+
+_Documentation generated from branch monitoring_myubiquity by [sfdx-hardis](https://sfdx-hardis.cloudity.com), featuring [salesforce-flow-visualiser](https://github.com/toddhalfpenny/salesforce-flow-visualiser)_

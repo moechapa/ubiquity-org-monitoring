@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Case|
+|Sobject Type|[Case](../objects/Case.md)|
 |Type| Record Page|
 |Master Label|New CE Case Page|
 |Template|flexipage:recordHomeLeftSidebarTemplateDesktop|

@@ -12,8 +12,11 @@ hide:
 ```mermaid
 graph LR
 Plan__c["Plan"]:::customObject
+click Plan__c "/objects/Plan__c/"
 Opportunity["Opportunity"]:::object
+click Opportunity "/objects/Opportunity/"
 Implementation__c["Implementation"]:::customObject
+click Implementation__c "/objects/Implementation__c/"
 Fund_List__c["Fund List"]:::mainObject
 click Fund_List__c "/objects/Fund_List__c/"
 Contact["Contact"]:::object

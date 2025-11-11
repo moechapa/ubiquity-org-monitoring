@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 Promotions__c["Promotion"]:::customObject
+click Promotions__c "/objects/Promotions__c/"
 Lead["Lead"]:::mainObject
 click Lead "/objects/Lead/"
 Contact["Contact"]:::object

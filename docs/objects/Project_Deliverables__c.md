@@ -12,9 +12,13 @@ hide:
 ```mermaid
 graph TD
 Work_Breakdown_Structure__c["Work Breakdown Structure"]:::customObject
+click Work_Breakdown_Structure__c "/objects/Work_Breakdown_Structure__c/"
 User["User"]:::object
+click User "/objects/User/"
 Required_Action__c["Required Action"]:::customObject
+click Required_Action__c "/objects/Required_Action__c/"
 Project_Task__c["Project Task"]:::customObject
+click Project_Task__c "/objects/Project_Task__c/"
 Project_Deliverables__c["Project Deliverable"]:::mainObject
 click Project_Deliverables__c "/objects/Project_Deliverables__c/"
 Case["Case"]:::object

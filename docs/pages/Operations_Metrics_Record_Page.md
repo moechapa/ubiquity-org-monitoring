@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Operations_Metrics__c|
+|Sobject Type|[Operations_Metrics__c](../objects/Operations_Metrics__c.md)|
 |Type| Record Page|
 |Master Label|Operations Metrics Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

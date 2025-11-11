@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Reviews__c|
+|Sobject Type|[Reviews__c](../objects/Reviews__c.md)|
 |Type| Record Page|
 |Master Label|Review Record Page|
 |Template|flexipage:recordHomeSimpleViewTemplate|

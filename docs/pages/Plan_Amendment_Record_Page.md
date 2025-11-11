@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Plan_Amendment__c|
+|Sobject Type|[Plan_Amendment__c](../objects/Plan_Amendment__c.md)|
 |Type| Record Page|
 |Master Label|Plan Amendment Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

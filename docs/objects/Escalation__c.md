@@ -12,9 +12,13 @@ hide:
 ```mermaid
 graph LR
 User["User"]:::object
+click User "/objects/User/"
 Plan__c["Plan"]:::customObject
+click Plan__c "/objects/Plan__c/"
 Opportunity["Opportunity"]:::object
+click Opportunity "/objects/Opportunity/"
 Implementation__c["Implementation"]:::customObject
+click Implementation__c "/objects/Implementation__c/"
 Escalation__c["Escalation"]:::mainObject
 click Escalation__c "/objects/Escalation__c/"
 Contact["Contact"]:::object

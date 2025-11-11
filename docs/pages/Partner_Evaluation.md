@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Partner_Evaluation__c|
+|Sobject Type|[Partner_Evaluation__c](../objects/Partner_Evaluation__c.md)|
 |Type| Record Page|
 |Master Label|Partner Evaluation|
 |Template|flexipage:recordHomeWithSubheaderTemplateDesktop|

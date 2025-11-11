@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|LiveChatTranscript|
+|Sobject Type|[LiveChatTranscript](../objects/LiveChatTranscript.md)|
 |Type| Record Page|
 |Master Label|Chat Transcript Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

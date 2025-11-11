@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 Products_Services__c["Products & Services"]:::customObject
+click Products_Services__c "/objects/Products_Services__c/"
 Product_Pricing__c["Product Price"]:::mainObject
 click Product_Pricing__c "/objects/Product_Pricing__c/"
 Account["Account"]:::object

@@ -12,8 +12,11 @@ hide:
 ```mermaid
 graph TD
 simplesurvey__Survey__c["simplesurvey__Survey__c"]:::customObjectManaged
+click simplesurvey__Survey__c "/objects/simplesurvey__Survey__c/"
 Plan__c["Plan"]:::customObject
+click Plan__c "/objects/Plan__c/"
 Contact["Contact"]:::object
+click Contact "/objects/Contact/"
 Compliance__c["Compliance"]:::mainObject
 click Compliance__c "/objects/Compliance__c/"
 Account["Account"]:::object

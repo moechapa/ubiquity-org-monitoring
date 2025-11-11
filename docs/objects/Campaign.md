@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 Opportunity["Opportunity"]:::object
+click Opportunity "/objects/Opportunity/"
 Campaign["Campaign"]:::mainObject
 click Campaign "/objects/Campaign/"
 Activity["Activity"]:::object

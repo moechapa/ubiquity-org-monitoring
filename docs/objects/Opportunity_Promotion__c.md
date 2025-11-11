@@ -12,9 +12,11 @@ hide:
 ```mermaid
 graph TD
 Promotions__c["Promotion"]:::customObject
+click Promotions__c "/objects/Promotions__c/"
 Opportunity_Promotion__c["Opportunity Promotion"]:::mainObject
 click Opportunity_Promotion__c "/objects/Opportunity_Promotion__c/"
 Opportunity["Opportunity"]:::object
+click Opportunity "/objects/Opportunity/"
 
 Promotions__c -->|Opportunities__c| Opportunity
 Opportunity_Promotion__c ==>|Promotion__c| Promotions__c

@@ -14,6 +14,7 @@ graph TD
 Product_Subscription__c["Product/Subscription"]:::mainObject
 click Product_Subscription__c "/objects/Product_Subscription__c/"
 Product2["Product2"]:::object
+click Product2 "/objects/Product2/"
 Pricebook2["Pricebook2"]:::object
 click Pricebook2 "/objects/Pricebook2/"
 Plan__c["Plan"]:::customObject

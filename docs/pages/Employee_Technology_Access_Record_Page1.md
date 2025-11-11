@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Employee_Technology_Access__c|
+|Sobject Type|[Employee_Technology_Access__c](../objects/Employee_Technology_Access__c.md)|
 |Type| Record Page|
 |Master Label|Employee Technology Access Record Page|
 |Template|flexipage:recordHomeSimpleViewTemplate|

@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Campaign|
+|Sobject Type|[Campaign](../objects/Campaign.md)|
 |Type| Record Page|
 |Master Label|Campaign Record Page - Biz Dev|
 |Template|flexipage:recordHomeWithSubheaderTemplateDesktop|

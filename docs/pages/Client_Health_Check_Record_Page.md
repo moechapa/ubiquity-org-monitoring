@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Client_Health_Check__c|
+|Sobject Type|[Client_Health_Check__c](../objects/Client_Health_Check__c.md)|
 |Type| Record Page|
 |Master Label|Client Health Check Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

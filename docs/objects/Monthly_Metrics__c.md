@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 Person__c["Person"]:::customObject
+click Person__c "/objects/Person__c/"
 Monthly_Metrics__c["Monthly Metrics"]:::mainObject
 click Monthly_Metrics__c "/objects/Monthly_Metrics__c/"
 

@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|QA_Design_Version__c|
+|Sobject Type|[QA_Design_Version__c](../objects/QA_Design_Version__c.md)|
 |Type| Record Page|
 |Master Label|QA Design Version Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

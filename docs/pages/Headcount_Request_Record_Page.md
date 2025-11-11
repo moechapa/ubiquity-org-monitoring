@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Headcount_Request__c|
+|Sobject Type|[Headcount_Request__c](../objects/Headcount_Request__c.md)|
 |Type| Record Page|
 |Master Label|Headcount Request Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

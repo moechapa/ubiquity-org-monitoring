@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Invoice__c|
+|Sobject Type|[Invoice__c](../objects/Invoice__c.md)|
 |Type| Record Page|
 |Master Label|Invoice Record Page|
 |Template|flexipage:recordHomeSingleColTemplateDesktop|

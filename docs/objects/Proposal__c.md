@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 ProposalsBatch__c["ProposalsBatch"]:::customObject
+click ProposalsBatch__c "/objects/ProposalsBatch__c/"
 Proposal__c["Proposal"]:::mainObject
 click Proposal__c "/objects/Proposal__c/"
 Opportunity["Opportunity"]:::object

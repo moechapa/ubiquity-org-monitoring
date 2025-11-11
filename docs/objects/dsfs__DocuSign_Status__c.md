@@ -14,8 +14,11 @@ graph TD
 dsfs__DocuSign_Status__c["dsfs__DocuSign_Status__c"]:::mainObject
 click dsfs__DocuSign_Status__c "/objects/dsfs__DocuSign_Status__c/"
 User["User"]:::object
+click User "/objects/User/"
 Opportunity["Opportunity"]:::object
+click Opportunity "/objects/Opportunity/"
 Implementation__c["Implementation"]:::customObject
+click Implementation__c "/objects/Implementation__c/"
 
 dsfs__DocuSign_Status__c -->|Opportunity_Owner__c| User
 dsfs__DocuSign_Status__c -->|Implementation__c| Implementation__c

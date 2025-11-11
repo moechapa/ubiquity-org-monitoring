@@ -12,8 +12,11 @@ hide:
 ```mermaid
 graph TD
 Plan__c["Plan"]:::customObject
+click Plan__c "/objects/Plan__c/"
 Opportunity["Opportunity"]:::object
+click Opportunity "/objects/Opportunity/"
 Case["Case"]:::object
+click Case "/objects/Case/"
 Calculation__c["Calculation"]:::mainObject
 click Calculation__c "/objects/Calculation__c/"
 Account["Account"]:::object

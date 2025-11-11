@@ -10,22 +10,37 @@ hide:
 ## Schema
 
 ```mermaid
-graph TD
+graph LR
 Transition__c["Transition"]:::customObject
+click Transition__c "/objects/Transition__c/"
 Quality_Assurance_QA__c["Quality Assurance (QA)"]:::customObject
+click Quality_Assurance_QA__c "/objects/Quality_Assurance_QA__c/"
 Project_Task__c["Project Task"]:::customObject
+click Project_Task__c "/objects/Project_Task__c/"
 Project_Deliverables__c["Project Deliverable"]:::customObject
+click Project_Deliverables__c "/objects/Project_Deliverables__c/"
 Plan__c["Plan"]:::customObject
+click Plan__c "/objects/Plan__c/"
 Person__c["Person"]:::customObject
+click Person__c "/objects/Person__c/"
 Opportunity["Opportunity"]:::object
+click Opportunity "/objects/Opportunity/"
 Objective__c["Objective"]:::customObject
+click Objective__c "/objects/Objective__c/"
 Implementation__c["Implementation"]:::customObject
+click Implementation__c "/objects/Implementation__c/"
 Fund_List__c["Fund List"]:::customObject
+click Fund_List__c "/objects/Fund_List__c/"
 Fee_Waiver__c["Fee Waiver"]:::customObject
+click Fee_Waiver__c "/objects/Fee_Waiver__c/"
 Escalation__c["Escalation"]:::customObject
+click Escalation__c "/objects/Escalation__c/"
 Contact["Contact"]:::object
+click Contact "/objects/Contact/"
 Complex_Project__c["Complex Project"]:::customObject
+click Complex_Project__c "/objects/Complex_Project__c/"
 Complaint_Form__c["Complaint Form"]:::customObject
+click Complaint_Form__c "/objects/Complaint_Form__c/"
 Case["Case"]:::mainObject
 click Case "/objects/Case/"
 Calculation__c["Calculation"]:::customObject

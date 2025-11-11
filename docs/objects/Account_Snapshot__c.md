@@ -14,6 +14,7 @@ graph TD
 Account_Snapshot__c["Account Snapshot"]:::mainObject
 click Account_Snapshot__c "/objects/Account_Snapshot__c/"
 Account["Account"]:::object
+click Account "/objects/Account/"
 
 Account_Snapshot__c ==>|Account__c| Account
 Account -->|Linked_Company__c| Account

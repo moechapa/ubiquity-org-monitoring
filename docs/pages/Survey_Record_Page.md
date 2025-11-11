@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|simplesurvey__Survey__c|
+|Sobject Type|[simplesurvey__Survey__c](../objects/simplesurvey__Survey__c.md)|
 |Type| Record Page|
 |Master Label|Survey Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

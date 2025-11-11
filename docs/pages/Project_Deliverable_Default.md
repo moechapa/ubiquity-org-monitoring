@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Project_Deliverables__c|
+|Sobject Type|[Project_Deliverables__c](../objects/Project_Deliverables__c.md)|
 |Type| Record Page|
 |Master Label|Project Deliverable Default|
 |Template|flexipage:recordHomeLeftSidebarTemplateDesktop|

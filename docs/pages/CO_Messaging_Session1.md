@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|MessagingSession|
+|Sobject Type|[MessagingSession](../objects/MessagingSession.md)|
 |Type| Record Page|
 |Master Label|CO Messaging Session|
 |Template|flexipage:recordHomeTemplateDesktop|

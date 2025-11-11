@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Calculation__c|
+|Sobject Type|[Calculation__c](../objects/Calculation__c.md)|
 |Type| Record Page|
 |Master Label|Calculation Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

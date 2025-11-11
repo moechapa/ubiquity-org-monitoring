@@ -12,40 +12,75 @@ hide:
 ```mermaid
 graph LR
 Vendor_Review__c["Vendor Review"]:::customObject
+click Vendor_Review__c "/objects/Vendor_Review__c/"
 Transition__c["Transition"]:::customObject
+click Transition__c "/objects/Transition__c/"
 Reviews__c["Review"]:::customObject
+click Reviews__c "/objects/Reviews__c/"
 Proposal__c["Proposal"]:::customObject
+click Proposal__c "/objects/Proposal__c/"
 Products_Services__c["Products & Services"]:::customObject
+click Products_Services__c "/objects/Products_Services__c/"
 Product_Subscription__c["Product/Subscription"]:::customObject
+click Product_Subscription__c "/objects/Product_Subscription__c/"
 Product_Pricing__c["Product Price"]:::customObject
+click Product_Pricing__c "/objects/Product_Pricing__c/"
 Pricebook2["Pricebook2"]:::object
+click Pricebook2 "/objects/Pricebook2/"
 Plan__c["Plan"]:::customObject
+click Plan__c "/objects/Plan__c/"
 Partner_Resource_Request__c["Partner Resource Request"]:::customObject
+click Partner_Resource_Request__c "/objects/Partner_Resource_Request__c/"
 Partner_Partner_Association__c["Account Partner Association"]:::customObject
+click Partner_Partner_Association__c "/objects/Partner_Partner_Association__c/"
 Partner_Evaluation__c["Partner Evaluation"]:::customObject
+click Partner_Evaluation__c "/objects/Partner_Evaluation__c/"
 Partner_Add_On_Association__c["Partner Add-On Association"]:::customObject
+click Partner_Add_On_Association__c "/objects/Partner_Add_On_Association__c/"
 OpportunityLineItem["OpportunityLineItem"]:::object
+click OpportunityLineItem "/objects/OpportunityLineItem/"
 Opportunity["Opportunity"]:::object
+click Opportunity "/objects/Opportunity/"
 Objective__c["Objective"]:::customObject
+click Objective__c "/objects/Objective__c/"
 Lead["Lead"]:::object
+click Lead "/objects/Lead/"
 Invoice__c["Invoice"]:::customObject
+click Invoice__c "/objects/Invoice__c/"
 Implementation__c["Implementation"]:::customObject
+click Implementation__c "/objects/Implementation__c/"
 Fund_List__c["Fund List"]:::customObject
+click Fund_List__c "/objects/Fund_List__c/"
 Fund_Lineup_Change__c["Fund Lineup Change"]:::customObject
+click Fund_Lineup_Change__c "/objects/Fund_Lineup_Change__c/"
 Forecast_Plan__c["Forecast Plan"]:::customObject
+click Forecast_Plan__c "/objects/Forecast_Plan__c/"
 Forecast_Channel__c["Forecast Channel"]:::customObject
+click Forecast_Channel__c "/objects/Forecast_Channel__c/"
 Fee_Waiver__c["Fee Waiver"]:::customObject
+click Fee_Waiver__c "/objects/Fee_Waiver__c/"
 Escalation__c["Escalation"]:::customObject
+click Escalation__c "/objects/Escalation__c/"
 EmailMessage["EmailMessage"]:::object
+click EmailMessage "/objects/EmailMessage/"
 Contact["Contact"]:::object
+click Contact "/objects/Contact/"
 Compliance__c["Compliance"]:::customObject
+click Compliance__c "/objects/Compliance__c/"
 Complaint_Form__c["Complaint Form"]:::customObject
+click Complaint_Form__c "/objects/Complaint_Form__c/"
 Client_Health_Check__c["Client Health Check"]:::customObject
+click Client_Health_Check__c "/objects/Client_Health_Check__c/"
 Calculation__c["Calculation"]:::customObject
+click Calculation__c "/objects/Calculation__c/"
 Associated_Partner__c["Associated Partner"]:::customObject
+click Associated_Partner__c "/objects/Associated_Partner__c/"
 Associated_Contact__c["Associated Contact"]:::customObject
+click Associated_Contact__c "/objects/Associated_Contact__c/"
 Add_On_Products__c["Add-On Product"]:::customObject
+click Add_On_Products__c "/objects/Add_On_Products__c/"
 Activity["Activity"]:::object
+click Activity "/objects/Activity/"
 Account_Snapshot__c["Account Snapshot"]:::customObject
 click Account_Snapshot__c "/objects/Account_Snapshot__c/"
 Account["Account"]:::mainObject

@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Implementation__c|
+|Sobject Type|[Implementation__c](../objects/Implementation__c.md)|
 |Type| Record Page|
 |Master Label|Implementation - Default Record Layout|
 |Template|flexipage:recordHomeTemplateDesktop|

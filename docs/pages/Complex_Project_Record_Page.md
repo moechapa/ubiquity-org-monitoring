@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Complex_Project__c|
+|Sobject Type|[Complex_Project__c](../objects/Complex_Project__c.md)|
 |Type| Record Page|
 |Master Label|Complex Project Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Contact|
+|Sobject Type|[Contact](../objects/Contact.md)|
 |Type| Record Page|
 |Master Label|Starter Contact Record Page|
 |Template|flexipage:recordHomeThreeColHeaderTemplateDesktop|

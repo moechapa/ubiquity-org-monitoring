@@ -12,7 +12,9 @@ hide:
 ```mermaid
 graph TD
 User["User"]:::object
+click User "/objects/User/"
 Implementation__c["Implementation"]:::customObject
+click Implementation__c "/objects/Implementation__c/"
 EntityMilestone["EntityMilestone"]:::mainObject
 click EntityMilestone "/objects/EntityMilestone/"
 

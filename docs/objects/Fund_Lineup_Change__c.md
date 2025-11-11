@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 Plan__c["Plan"]:::customObject
+click Plan__c "/objects/Plan__c/"
 Fund_Lineup_Change__c["Fund Lineup Change"]:::mainObject
 click Fund_Lineup_Change__c "/objects/Fund_Lineup_Change__c/"
 Account["Account"]:::object

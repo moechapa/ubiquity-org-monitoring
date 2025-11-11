@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Client_Health_Score__c|
+|Sobject Type|[Client_Health_Score__c](../objects/Client_Health_Score__c.md)|
 |Type| Record Page|
 |Master Label|Client Health Score Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

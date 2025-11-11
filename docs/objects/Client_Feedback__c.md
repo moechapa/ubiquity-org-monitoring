@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 Contact["Contact"]:::object
+click Contact "/objects/Contact/"
 Client_Feedback__c["Client Feedback"]:::mainObject
 click Client_Feedback__c "/objects/Client_Feedback__c/"
 

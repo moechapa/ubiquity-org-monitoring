@@ -14,6 +14,7 @@ graph TD
 QA_Design__c["QA Design"]:::mainObject
 click QA_Design__c "/objects/QA_Design__c/"
 QA_Design_Version__c["QA Design Version"]:::customObject
+click QA_Design_Version__c "/objects/QA_Design_Version__c/"
 
 QA_Design_Version__c ==>|QA_Design__c| QA_Design__c
 

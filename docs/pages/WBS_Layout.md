@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Work_Breakdown_Structure__c|
+|Sobject Type|[Work_Breakdown_Structure__c](../objects/Work_Breakdown_Structure__c.md)|
 |Type| Record Page|
 |Master Label|WBS Layout|
 |Template|flexipage:recordHomeSimpleViewTemplate|

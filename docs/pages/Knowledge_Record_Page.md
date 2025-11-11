@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Knowledge__kav|
+|Sobject Type|[Knowledge__kav](../objects/Knowledge__kav.md)|
 |Type| Record Page|
 |Master Label|Knowledge Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

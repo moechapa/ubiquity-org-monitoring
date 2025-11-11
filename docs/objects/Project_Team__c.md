@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 User["User"]:::object
+click User "/objects/User/"
 Project_Team__c["Project Team"]:::mainObject
 click Project_Team__c "/objects/Project_Team__c/"
 Project_Item_Assignments__c["Project Item Assignment"]:::customObject

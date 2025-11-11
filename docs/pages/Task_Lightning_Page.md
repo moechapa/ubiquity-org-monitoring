@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Task|
+|Sobject Type|[Task](../objects/Task.md)|
 |Type| Record Page|
 |Master Label|Task Lightning Page|
 |Template|flexipage:recordHomeTemplateDesktop|

@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph LR
 User["User"]:::object
+click User "/objects/User/"
 Transition__c["Transition"]:::mainObject
 click Transition__c "/objects/Transition__c/"
 Project_Task__c["Project Task"]:::customObject

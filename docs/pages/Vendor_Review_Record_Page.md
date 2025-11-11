@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Vendor_Review__c|
+|Sobject Type|[Vendor_Review__c](../objects/Vendor_Review__c.md)|
 |Type| Record Page|
 |Master Label|Vendor Review Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

@@ -12,9 +12,13 @@ hide:
 ```mermaid
 graph TD
 Transition__c["Transition"]:::customObject
+click Transition__c "/objects/Transition__c/"
 Plan__c["Plan"]:::customObject
+click Plan__c "/objects/Plan__c/"
 Opportunity["Opportunity"]:::object
+click Opportunity "/objects/Opportunity/"
 Implementation__c["Implementation"]:::customObject
+click Implementation__c "/objects/Implementation__c/"
 Associated_Partner__c["Associated Partner"]:::mainObject
 click Associated_Partner__c "/objects/Associated_Partner__c/"
 Account["Account"]:::object

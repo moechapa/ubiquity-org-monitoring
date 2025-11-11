@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Partner_Resource_Request__c|
+|Sobject Type|[Partner_Resource_Request__c](../objects/Partner_Resource_Request__c.md)|
 |Type| Record Page|
 |Master Label|Partner Resource Request|
 |Template|flexipage:recordHomeWithSubheaderTemplateDesktop|

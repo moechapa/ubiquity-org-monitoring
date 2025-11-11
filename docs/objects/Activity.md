@@ -12,8 +12,11 @@ hide:
 ```mermaid
 graph TD
 zoom_app__Zoom_Call_Log__c["zoom_app__Zoom_Call_Log__c"]:::customObjectManaged
+click zoom_app__Zoom_Call_Log__c "/objects/zoom_app__Zoom_Call_Log__c/"
 Implementation__c["Implementation"]:::customObject
+click Implementation__c "/objects/Implementation__c/"
 Campaign["Campaign"]:::object
+click Campaign "/objects/Campaign/"
 Activity["Activity"]:::mainObject
 click Activity "/objects/Activity/"
 Account["Account"]:::object

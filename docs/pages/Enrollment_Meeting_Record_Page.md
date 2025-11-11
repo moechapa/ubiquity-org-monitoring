@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Enrollment_Meeting__c|
+|Sobject Type|[Enrollment_Meeting__c](../objects/Enrollment_Meeting__c.md)|
 |Type| Record Page|
 |Master Label|Enrollment Meeting Record Page|
 |Template|flexipage:recordHomeSimpleViewTemplate|

@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Fund_Lineup_Change__c|
+|Sobject Type|[Fund_Lineup_Change__c](../objects/Fund_Lineup_Change__c.md)|
 |Type| Record Page|
 |Master Label|Fund Lineup Change Record Page|
 |Template|flexipage:recordHomeSimpleViewTemplate|

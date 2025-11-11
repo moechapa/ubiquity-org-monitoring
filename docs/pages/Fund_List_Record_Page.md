@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Fund_List__c|
+|Sobject Type|[Fund_List__c](../objects/Fund_List__c.md)|
 |Type| Record Page|
 |Master Label|Fund List Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

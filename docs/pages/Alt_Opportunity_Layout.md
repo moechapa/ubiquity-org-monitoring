@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Opportunity|
+|Sobject Type|[Opportunity](../objects/Opportunity.md)|
 |Type| Record Page|
 |Master Label|Alt Opportunity Layout|
 |Template|flexipage:recordHomeTemplateDesktop|

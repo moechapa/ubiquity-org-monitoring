@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Lead|
+|Sobject Type|[Lead](../objects/Lead.md)|
 |Type| Record Page|
 |Master Label|Dynamic Lead Page|
 |Template|flexipage:recordHomeLeftSidebarTemplateDesktop|

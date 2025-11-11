@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Transition__c|
+|Sobject Type|[Transition__c](../objects/Transition__c.md)|
 |Type| Record Page|
 |Master Label|Transition Record Page|
 |Template|flexipage:recordHomeSimpleViewTemplate|

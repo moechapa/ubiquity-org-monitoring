@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Saver_Rate__c|
+|Sobject Type|[Saver_Rate__c](../objects/Saver_Rate__c.md)|
 |Type| Record Page|
 |Master Label|Saver Rate Record Page|
 |Template|flexipage:recordHomeSimpleViewTemplate|

@@ -12,8 +12,11 @@ hide:
 ```mermaid
 graph TD
 simplesurvey__Survey__c["simplesurvey__Survey__c"]:::customObjectManaged
+click simplesurvey__Survey__c "/objects/simplesurvey__Survey__c/"
 Quality_Assurance_QA__c["Quality Assurance (QA)"]:::customObject
+click Quality_Assurance_QA__c "/objects/Quality_Assurance_QA__c/"
 Plan__c["Plan"]:::customObject
+click Plan__c "/objects/Plan__c/"
 MessagingSession["MessagingSession"]:::mainObject
 click MessagingSession "/objects/MessagingSession/"
 

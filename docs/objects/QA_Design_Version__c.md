@@ -12,7 +12,9 @@ hide:
 ```mermaid
 graph TD
 Quality_Assurance_QA__c["Quality Assurance (QA)"]:::customObject
+click Quality_Assurance_QA__c "/objects/Quality_Assurance_QA__c/"
 QA_Question_Info__c["QA Question Info"]:::customObject
+click QA_Question_Info__c "/objects/QA_Question_Info__c/"
 QA_Design__c["QA Design"]:::customObject
 click QA_Design__c "/objects/QA_Design__c/"
 QA_Design_Version__c["QA Design Version"]:::mainObject

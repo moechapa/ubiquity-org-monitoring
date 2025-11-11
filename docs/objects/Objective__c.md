@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 Opportunity["Opportunity"]:::object
+click Opportunity "/objects/Opportunity/"
 Objective__c["Objective"]:::mainObject
 click Objective__c "/objects/Objective__c/"
 Key_Result__c["Key Result"]:::customObject

@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 User["User"]:::object
+click User "/objects/User/"
 Complaint_Form__c["Complaint Form"]:::mainObject
 click Complaint_Form__c "/objects/Complaint_Form__c/"
 Case["Case"]:::object

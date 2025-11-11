@@ -12,7 +12,9 @@ hide:
 ```mermaid
 graph TD
 simplesurvey__Survey__c["simplesurvey__Survey__c"]:::customObjectManaged
+click simplesurvey__Survey__c "/objects/simplesurvey__Survey__c/"
 Opportunity["Opportunity"]:::object
+click Opportunity "/objects/Opportunity/"
 LiveChatTranscript["LiveChatTranscript"]:::mainObject
 click LiveChatTranscript "/objects/LiveChatTranscript/"
 

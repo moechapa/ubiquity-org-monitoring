@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 Objective__c["Objective"]:::customObject
+click Objective__c "/objects/Objective__c/"
 Key_Result__c["Key Result"]:::mainObject
 click Key_Result__c "/objects/Key_Result__c/"
 Contact["Contact"]:::object

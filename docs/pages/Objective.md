@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Objective__c|
+|Sobject Type|[Objective__c](../objects/Objective__c.md)|
 |Type| Record Page|
 |Master Label|Objective|
 |Template|flexipage:recordHomeTwoColEqualHeaderTemplateDesktop|

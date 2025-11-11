@@ -12,24 +12,26 @@ hide:
 ```mermaid
 graph TD
 LoggerScenario__c["Logger Scenario"]:::customObject
+click LoggerScenario__c "/objects/LoggerScenario__c/"
 Log__c["Log"]:::customObject
 click Log__c "/objects/Log__c/"
 LogEntry__c["Log Entry"]:::mainObject
 click LogEntry__c "/objects/LogEntry__c/"
 LogEntryTag__c["Log Entry Tag"]:::customObject
+click LogEntryTag__c "/objects/LogEntryTag__c/"
 
 Log__c -->|TransactionScenario__c| LoggerScenario__c
 Log__c -->|ParentLog__c| Log__c
-LogEntryTag__c ==>|LogEntry__c| LogEntry__c
 LogEntry__c ==>|Log__c| Log__c
 LogEntry__c -->|EntryScenario__c| LoggerScenario__c
+LogEntryTag__c ==>|LogEntry__c| LogEntry__c
 
 classDef object fill:#D6E9FF,stroke:#0070D2,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef customObject fill:#FFF4C2,stroke:#CCAA00,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef customObjectManaged fill:#FFD8B2,stroke:#CC5500,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef mainObject fill:#FFB3B3,stroke:#A94442,stroke-width:4px,rx:14px,ry:14px,shadow:drop,color:#333,font-weight:bold;
-linkStyle 2,3 stroke:#4C9F70,stroke-width:4px;
-linkStyle 0,1,4 stroke:#A6A6A6,stroke-width:2px;
+linkStyle 2,4 stroke:#4C9F70,stroke-width:4px;
+linkStyle 0,1,3 stroke:#A6A6A6,stroke-width:2px;
 
 ```
 

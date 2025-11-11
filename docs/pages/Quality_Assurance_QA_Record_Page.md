@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Quality_Assurance_QA__c|
+|Sobject Type|[Quality_Assurance_QA__c](../objects/Quality_Assurance_QA__c.md)|
 |Type| Record Page|
 |Master Label|Quality Assurance (QA) Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

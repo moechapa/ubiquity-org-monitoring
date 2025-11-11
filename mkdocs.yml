@@ -908,94 +908,6 @@ nav:
           Vendor_Review_Button_Confirm_Review: flows/Vendor_Review_Button_Confirm_Review.md
           Zoom_Calls_Trigger_After_Insert: flows/Zoom_Calls_Trigger_After_Insert.md
   - Authorizations:
-      - Profiles:
-          All Profiles: profiles/index.md
-          Admin: profiles/Admin.md
-          Analytics Cloud Integration User: profiles/Analytics Cloud Integration User.md
-          Analytics Cloud Security User: profiles/Analytics Cloud Security User.md
-          Anypoint Integration: profiles/Anypoint Integration.md
-          B2BMA Integration User: profiles/B2BMA Integration User.md
-          Billing User: profiles/Billing User.md
-          Bot Profile: profiles/Bot Profile.md
-          Business Development: profiles/Business Development.md
-          Call Center: profiles/Call Center.md
-          Chatter External User: profiles/Chatter External User.md
-          Chatter Free User: profiles/Chatter Free User.md
-          Chatter Moderator User: profiles/Chatter Moderator User.md
-          Client Onboarding - Admin: profiles/Client Onboarding - Admin.md
-          Client Onboarding - RM: profiles/Client Onboarding - RM.md
-          Client Servicing Team: profiles/Client Servicing Team.md
-          Compliance Manager: profiles/Compliance Manager.md
-          ContractManager: profiles/ContractManager.md
-          Director of Operations: profiles/Director of Operations.md
-          Director of Sales: profiles/Director of Sales.md
-          Distributions: profiles/Distributions.md
-          Einstein Agent User: profiles/Einstein Agent User.md
-          ESW_Agentforce_MIAW_1748035300267 Profile: profiles/ESW_Agentforce_MIAW_1748035300267 Profile.md
-          ESW_Agentforce_MIAW_1748385215843 Profile: profiles/ESW_Agentforce_MIAW_1748385215843 Profile.md
-          ESW_CE_Chat_1692890394498 Profile: profiles/ESW_CE_Chat_1692890394498 Profile.md
-          ESW_CE_Chat_Moe_1693182845676 Profile: profiles/ESW_CE_Chat_Moe_1693182845676 Profile.md
-          ESW_Login_Help_1697133738638 Profile: profiles/ESW_Login_Help_1697133738638 Profile.md
-          ESW_Login_Help_Simply_1700075140889 Profile: profiles/ESW_Login_Help_Simply_1700075140889 Profile.md
-          ESW_Omni_Messaging_1694183770479 Profile: profiles/ESW_Omni_Messaging_1694183770479 Profile.md
-          ESW_Omni_Messaging_CO_1696448547822 Profile: profiles/ESW_Omni_Messaging_CO_1696448547822 Profile.md
-          ESW_Omni_Messaging_Sallus_1700075448386 Profile: profiles/ESW_Omni_Messaging_Sallus_1700075448386 Profile.md
-          ESW_Omni_Messaging_Simply_1700076370188 Profile: profiles/ESW_Omni_Messaging_Simply_1700076370188 Profile.md
-          ESW_QA_Login_1699666348585 Profile: profiles/ESW_QA_Login_1699666348585 Profile.md
-          ESW_QA_Messaging_1699974036493 Profile: profiles/ESW_QA_Messaging_1699974036493 Profile.md
-          ESW_Sales_Chat_1697460991337 Profile: profiles/ESW_Sales_Chat_1697460991337 Profile.md
-          ESW_Sallus_Login_Chat_1700072925200 Profile: profiles/ESW_Sallus_Login_Chat_1700072925200 Profile.md
-          External Apps Login User: profiles/External Apps Login User.md
-          Finance Manager Lightning: profiles/Finance Manager Lightning.md
-          Guest License User: profiles/Guest License User.md
-          Help Center Profile: profiles/Help Center Profile.md
-          Identity User: profiles/Identity User.md
-          Incoming_SMS Profile: profiles/Incoming_SMS Profile.md
-          IT: profiles/IT.md
-          Leadership Lightning: profiles/Leadership Lightning.md
-          Leadership: profiles/Leadership.md
-          Learning %26 Development: profiles/Learning %26 Development.md
-          Lightning Client Onboarding: profiles/Lightning Client Onboarding.md
-          Lightning Compliance: profiles/Lightning Compliance.md
-          Lightning Saver User: profiles/Lightning Saver User.md
-          Lightning Service Manager: profiles/Lightning Service Manager.md
-          Lightning Service User: profiles/Lightning Service User.md
-          Marketing Team: profiles/Marketing Team.md
-          MarketingProfile: profiles/MarketingProfile.md
-          Master Administrator: profiles/Master Administrator.md
-          Minimum Access - API Only Integrations: profiles/Minimum Access - API Only Integrations.md
-          Minimum Access - Salesforce: profiles/Minimum Access - Salesforce.md
-          myubiquity Profile: profiles/myubiquity Profile.md
-          Operations VP: profiles/Operations VP.md
-          Operations: profiles/Operations.md
-          Paradigm Help Center Profile: profiles/Paradigm Help Center Profile.md
-          Payroll Koncierge: profiles/Payroll Koncierge.md
-          Payroll Team: profiles/Payroll Team.md
-          People %26 Culture: profiles/People %26 Culture.md
-          Pre-chat Site Profile: profiles/Pre-chat Site Profile.md
-          Product Innovation Leadership: profiles/Product Innovation Leadership.md
-          Product Innovation User: profiles/Product Innovation User.md
-          PSM Team: profiles/PSM Team.md
-          R%26W: profiles/R%26W.md
-          Read Only: profiles/Read Only.md
-          Sales Administrator: profiles/Sales Administrator.md
-          Sales Coordinator: profiles/Sales Coordinator.md
-          Sales Insights Integration User: profiles/Sales Insights Integration User.md
-          Sales Team - Limited: profiles/Sales Team - Limited.md
-          Sales Team: profiles/Sales Team.md
-          Salesforce API Only System Integrations: profiles/Salesforce API Only System Integrations.md
-          SalesforceIQ Integration User: profiles/SalesforceIQ Integration User.md
-          Saver Manager: profiles/Saver Manager.md
-          Simple Survey Profile: profiles/Simple Survey Profile.md
-          Simply Help Center Profile: profiles/Simply Help Center Profile.md
-          SolutionManager: profiles/SolutionManager.md
-          Standard: profiles/Standard.md
-          StandardAul: profiles/StandardAul.md
-          Super System Administrator: profiles/Super System Administrator.md
-          Sys Dev Admin: profiles/Sys Dev Admin.md
-          Transitions Team: profiles/Transitions Team.md
-          Ubiquity Help Center Profile: profiles/Ubiquity Help Center Profile.md
-          Zoom Webhooks Profile: profiles/Zoom Webhooks Profile.md
       - Permission Set Groups:
           All Permission Set Groups: permissionsetgroups/index.md
           Automation_Team_Integration_User: permissionsetgroups/Automation_Team_Integration_User.md
@@ -1135,6 +1047,94 @@ nav:
           Zoom_Integration_Manager_Permission_Set: permissionsets/Zoom_Integration_Manager_Permission_Set.md
           Zoom_Permissions: permissionsets/Zoom_Permissions.md
           Zoom_User_Webinar: permissionsets/Zoom_User_Webinar.md
+      - Profiles:
+          All Profiles: profiles/index.md
+          Admin: profiles/Admin.md
+          Analytics Cloud Integration User: profiles/Analytics Cloud Integration User.md
+          Analytics Cloud Security User: profiles/Analytics Cloud Security User.md
+          Anypoint Integration: profiles/Anypoint Integration.md
+          B2BMA Integration User: profiles/B2BMA Integration User.md
+          Billing User: profiles/Billing User.md
+          Bot Profile: profiles/Bot Profile.md
+          Business Development: profiles/Business Development.md
+          Call Center: profiles/Call Center.md
+          Chatter External User: profiles/Chatter External User.md
+          Chatter Free User: profiles/Chatter Free User.md
+          Chatter Moderator User: profiles/Chatter Moderator User.md
+          Client Onboarding - Admin: profiles/Client Onboarding - Admin.md
+          Client Onboarding - RM: profiles/Client Onboarding - RM.md
+          Client Servicing Team: profiles/Client Servicing Team.md
+          Compliance Manager: profiles/Compliance Manager.md
+          ContractManager: profiles/ContractManager.md
+          Director of Operations: profiles/Director of Operations.md
+          Director of Sales: profiles/Director of Sales.md
+          Distributions: profiles/Distributions.md
+          Einstein Agent User: profiles/Einstein Agent User.md
+          ESW_Agentforce_MIAW_1748035300267 Profile: profiles/ESW_Agentforce_MIAW_1748035300267 Profile.md
+          ESW_Agentforce_MIAW_1748385215843 Profile: profiles/ESW_Agentforce_MIAW_1748385215843 Profile.md
+          ESW_CE_Chat_1692890394498 Profile: profiles/ESW_CE_Chat_1692890394498 Profile.md
+          ESW_CE_Chat_Moe_1693182845676 Profile: profiles/ESW_CE_Chat_Moe_1693182845676 Profile.md
+          ESW_Login_Help_1697133738638 Profile: profiles/ESW_Login_Help_1697133738638 Profile.md
+          ESW_Login_Help_Simply_1700075140889 Profile: profiles/ESW_Login_Help_Simply_1700075140889 Profile.md
+          ESW_Omni_Messaging_1694183770479 Profile: profiles/ESW_Omni_Messaging_1694183770479 Profile.md
+          ESW_Omni_Messaging_CO_1696448547822 Profile: profiles/ESW_Omni_Messaging_CO_1696448547822 Profile.md
+          ESW_Omni_Messaging_Sallus_1700075448386 Profile: profiles/ESW_Omni_Messaging_Sallus_1700075448386 Profile.md
+          ESW_Omni_Messaging_Simply_1700076370188 Profile: profiles/ESW_Omni_Messaging_Simply_1700076370188 Profile.md
+          ESW_QA_Login_1699666348585 Profile: profiles/ESW_QA_Login_1699666348585 Profile.md
+          ESW_QA_Messaging_1699974036493 Profile: profiles/ESW_QA_Messaging_1699974036493 Profile.md
+          ESW_Sales_Chat_1697460991337 Profile: profiles/ESW_Sales_Chat_1697460991337 Profile.md
+          ESW_Sallus_Login_Chat_1700072925200 Profile: profiles/ESW_Sallus_Login_Chat_1700072925200 Profile.md
+          External Apps Login User: profiles/External Apps Login User.md
+          Finance Manager Lightning: profiles/Finance Manager Lightning.md
+          Guest License User: profiles/Guest License User.md
+          Help Center Profile: profiles/Help Center Profile.md
+          Identity User: profiles/Identity User.md
+          Incoming_SMS Profile: profiles/Incoming_SMS Profile.md
+          IT: profiles/IT.md
+          Leadership Lightning: profiles/Leadership Lightning.md
+          Leadership: profiles/Leadership.md
+          Learning %26 Development: profiles/Learning %26 Development.md
+          Lightning Client Onboarding: profiles/Lightning Client Onboarding.md
+          Lightning Compliance: profiles/Lightning Compliance.md
+          Lightning Saver User: profiles/Lightning Saver User.md
+          Lightning Service Manager: profiles/Lightning Service Manager.md
+          Lightning Service User: profiles/Lightning Service User.md
+          Marketing Team: profiles/Marketing Team.md
+          MarketingProfile: profiles/MarketingProfile.md
+          Master Administrator: profiles/Master Administrator.md
+          Minimum Access - API Only Integrations: profiles/Minimum Access - API Only Integrations.md
+          Minimum Access - Salesforce: profiles/Minimum Access - Salesforce.md
+          myubiquity Profile: profiles/myubiquity Profile.md
+          Operations VP: profiles/Operations VP.md
+          Operations: profiles/Operations.md
+          Paradigm Help Center Profile: profiles/Paradigm Help Center Profile.md
+          Payroll Koncierge: profiles/Payroll Koncierge.md
+          Payroll Team: profiles/Payroll Team.md
+          People %26 Culture: profiles/People %26 Culture.md
+          Pre-chat Site Profile: profiles/Pre-chat Site Profile.md
+          Product Innovation Leadership: profiles/Product Innovation Leadership.md
+          Product Innovation User: profiles/Product Innovation User.md
+          PSM Team: profiles/PSM Team.md
+          R%26W: profiles/R%26W.md
+          Read Only: profiles/Read Only.md
+          Sales Administrator: profiles/Sales Administrator.md
+          Sales Coordinator: profiles/Sales Coordinator.md
+          Sales Insights Integration User: profiles/Sales Insights Integration User.md
+          Sales Team - Limited: profiles/Sales Team - Limited.md
+          Sales Team: profiles/Sales Team.md
+          Salesforce API Only System Integrations: profiles/Salesforce API Only System Integrations.md
+          SalesforceIQ Integration User: profiles/SalesforceIQ Integration User.md
+          Saver Manager: profiles/Saver Manager.md
+          Simple Survey Profile: profiles/Simple Survey Profile.md
+          Simply Help Center Profile: profiles/Simply Help Center Profile.md
+          SolutionManager: profiles/SolutionManager.md
+          Standard: profiles/Standard.md
+          StandardAul: profiles/StandardAul.md
+          Super System Administrator: profiles/Super System Administrator.md
+          Sys Dev Admin: profiles/Sys Dev Admin.md
+          Transitions Team: profiles/Transitions Team.md
+          Ubiquity Help Center Profile: profiles/Ubiquity Help Center Profile.md
+          Zoom Webhooks Profile: profiles/Zoom Webhooks Profile.md
   - Code:
       - Apex:
           All Apex Classes: apex/index.md

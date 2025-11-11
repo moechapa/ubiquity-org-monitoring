@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|dsfs__DocuSign_Status__c|
+|Sobject Type|[dsfs__DocuSign_Status__c](../objects/dsfs__DocuSign_Status__c.md)|
 |Type| Record Page|
 |Master Label|DocuSign Status Record Page|
 |Template|flexipage:recordHomeSimpleViewTemplate|

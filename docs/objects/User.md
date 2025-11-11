@@ -14,6 +14,7 @@ graph LR
 dsfs__DocuSign_Status__c["dsfs__DocuSign_Status__c"]:::customObjectManaged
 click dsfs__DocuSign_Status__c "/objects/dsfs__DocuSign_Status__c/"
 Zoom_Users_Info__c["Zoom Users"]:::customObject
+click Zoom_Users_Info__c "/objects/Zoom_Users_Info__c/"
 User["User"]:::mainObject
 click User "/objects/User/"
 Transition__c["Transition"]:::customObject

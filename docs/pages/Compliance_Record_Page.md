@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Compliance__c|
+|Sobject Type|[Compliance__c](../objects/Compliance__c.md)|
 |Type| Record Page|
 |Master Label|Compliance Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

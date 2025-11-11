@@ -12,15 +12,23 @@ hide:
 ```mermaid
 graph LR
 simplesurvey__Survey__c["simplesurvey__Survey__c"]:::customObjectManaged
+click simplesurvey__Survey__c "/objects/simplesurvey__Survey__c/"
 dsfs__DocuSign_Status__c["dsfs__DocuSign_Status__c"]:::customObjectManaged
 click dsfs__DocuSign_Status__c "/objects/dsfs__DocuSign_Status__c/"
 User["User"]:::object
+click User "/objects/User/"
 Quality_Assurance_QA__c["Quality Assurance (QA)"]:::customObject
+click Quality_Assurance_QA__c "/objects/Quality_Assurance_QA__c/"
 Proposal__c["Proposal"]:::customObject
+click Proposal__c "/objects/Proposal__c/"
 Project_Task__c["Project Task"]:::customObject
+click Project_Task__c "/objects/Project_Task__c/"
 Products_Services__c["Products & Services"]:::customObject
+click Products_Services__c "/objects/Products_Services__c/"
 Plan__c["Plan"]:::customObject
+click Plan__c "/objects/Plan__c/"
 Opportunity["Opportunity"]:::object
+click Opportunity "/objects/Opportunity/"
 Implementation__c["Implementation"]:::mainObject
 click Implementation__c "/objects/Implementation__c/"
 Fund_List__c["Fund List"]:::customObject

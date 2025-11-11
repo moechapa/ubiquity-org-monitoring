@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Forecast_Channel__c|
+|Sobject Type|[Forecast_Channel__c](../objects/Forecast_Channel__c.md)|
 |Type| Record Page|
 |Master Label|Forecast Channel Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

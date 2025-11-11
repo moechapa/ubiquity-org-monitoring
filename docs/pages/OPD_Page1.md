@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Proposal__c|
+|Sobject Type|[Proposal__c](../objects/Proposal__c.md)|
 |Type| Record Page|
 |Master Label|Purchase API|
 |Template|flexipage:recordHomeTemplateDesktop|

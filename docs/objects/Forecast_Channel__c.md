@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 Forecast_Plan__c["Forecast Plan"]:::customObject
+click Forecast_Plan__c "/objects/Forecast_Plan__c/"
 Forecast_Channel__c["Forecast Channel"]:::mainObject
 click Forecast_Channel__c "/objects/Forecast_Channel__c/"
 Account["Account"]:::object

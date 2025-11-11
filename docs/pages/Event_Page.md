@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Event|
+|Sobject Type|[Event](../objects/Event.md)|
 |Type| Record Page|
 |Master Label|Event Page|
 |Template|flexipage:recordHomeSimpleViewTemplate|

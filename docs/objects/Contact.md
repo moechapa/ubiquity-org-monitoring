@@ -12,25 +12,45 @@ hide:
 ```mermaid
 graph LR
 zoom_app__Zoom_Call_Log__c["zoom_app__Zoom_Call_Log__c"]:::customObjectManaged
+click zoom_app__Zoom_Call_Log__c "/objects/zoom_app__Zoom_Call_Log__c/"
 Vendor_Review__c["Vendor Review"]:::customObject
+click Vendor_Review__c "/objects/Vendor_Review__c/"
 User["User"]:::object
+click User "/objects/User/"
 Transition__c["Transition"]:::customObject
+click Transition__c "/objects/Transition__c/"
 Reviews__c["Review"]:::customObject
+click Reviews__c "/objects/Reviews__c/"
 Quality_Assurance_QA__c["Quality Assurance (QA)"]:::customObject
+click Quality_Assurance_QA__c "/objects/Quality_Assurance_QA__c/"
 Proposal__c["Proposal"]:::customObject
+click Proposal__c "/objects/Proposal__c/"
 Project_Team__c["Project Team"]:::customObject
+click Project_Team__c "/objects/Project_Team__c/"
 Plan__c["Plan"]:::customObject
+click Plan__c "/objects/Plan__c/"
 Partner_Resource_Request__c["Partner Resource Request"]:::customObject
+click Partner_Resource_Request__c "/objects/Partner_Resource_Request__c/"
 Partner_Contact_Add_On_Association__c["Partner Contact Add-On Association"]:::customObject
+click Partner_Contact_Add_On_Association__c "/objects/Partner_Contact_Add_On_Association__c/"
 Opportunity["Opportunity"]:::object
+click Opportunity "/objects/Opportunity/"
 Objective__c["Objective"]:::customObject
+click Objective__c "/objects/Objective__c/"
 Lead["Lead"]:::object
+click Lead "/objects/Lead/"
 Key_Result__c["Key Result"]:::customObject
+click Key_Result__c "/objects/Key_Result__c/"
 Headcount_Request__c["Headcount Request"]:::customObject
+click Headcount_Request__c "/objects/Headcount_Request__c/"
 Fund_List__c["Fund List"]:::customObject
+click Fund_List__c "/objects/Fund_List__c/"
 Escalation__c["Escalation"]:::customObject
+click Escalation__c "/objects/Escalation__c/"
 Enrollment_Meeting__c["Enrollment Meeting"]:::customObject
+click Enrollment_Meeting__c "/objects/Enrollment_Meeting__c/"
 Employee_Technology_Access__c["Employee Technology Access"]:::customObject
+click Employee_Technology_Access__c "/objects/Employee_Technology_Access__c/"
 Contact["Contact"]:::mainObject
 click Contact "/objects/Contact/"
 Compliance__c["Compliance"]:::customObject

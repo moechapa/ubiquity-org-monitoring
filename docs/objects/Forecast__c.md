@@ -12,9 +12,11 @@ hide:
 ```mermaid
 graph TD
 Opportunity["Opportunity"]:::object
+click Opportunity "/objects/Opportunity/"
 Forecast__c["Forecast"]:::mainObject
 click Forecast__c "/objects/Forecast__c/"
 Forecast_Plan__c["Forecast Plan"]:::customObject
+click Forecast_Plan__c "/objects/Forecast_Plan__c/"
 
 Opportunity -->|Forecast__c| Forecast__c
 Forecast__c ==>|Forecast_Plan__c| Forecast_Plan__c

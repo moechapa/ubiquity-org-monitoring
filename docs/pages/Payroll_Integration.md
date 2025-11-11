@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Add_On_Products__c|
+|Sobject Type|[Add_On_Products__c](../objects/Add_On_Products__c.md)|
 |Type| Record Page|
 |Master Label|Payroll Integration|
 |Template|flexipage:recordHomeTemplateDesktop|

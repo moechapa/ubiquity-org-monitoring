@@ -2,3 +2,111 @@
 
 <!-- This page has been generated to be viewed with mkdocs-material, you can not view it just as markdown . Activate tab plugin following the doc at https://squidfunk.github.io/mkdocs-material/reference/content-tabs/ -->
 
+=== "Nov 11, 2025 (Initial)"
+
+    _Nov 11, 2025, by moechapa in commit Org state on 2025-11-11 02:14 for monitoring_myubiquity [skip ci]_
+
+    
+    ## Flow Diagram [(_View History_)](Case_Before_Save_Assign_Finch_Payroll_2_Liz-history.md)
+    
+    ```mermaid
+    %% If you read this, your Markdown visualizer does not handle MermaidJS syntax.
+    %% - If you are in VS Code, install extension `Markdown Preview Mermaid Support` at https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
+    %% - If you are using sfdx-hardis, try to define env variable `MERMAID_MODES=cli,docker` ,then run again the command to regenerate markdown with SVG images.
+    %% - If you are within mkdocs-material, define mermaid plugin in `mkdocs.yml` as described in https://squidfunk.github.io/mkdocs-material/extensions/mermaid/
+    %% - As a last resort, you can copy-paste this MermaidJS code into https://mermaid.live/ to see the flow diagram
+    
+    flowchart TB
+    START(["START<br/><b>AutoLaunched Flow</b></br>Type: <b> Record Before Save</b>"]):::startClass
+    click START "#general-information" "1588354942"
+    
+    Set_record_values[("🛠️ <em></em><br/>Set record values")]:::recordUpdates
+    click Set_record_values "#set_record_values" "525265824"
+    
+    Set_record_values --> END_Set_record_values
+    START -->  Set_record_values
+    END_Set_record_values(( END )):::endClass
+    
+    
+    classDef actionCalls fill:#D4E4FC,color:black,text-decoration:none,max-height:100px
+    classDef assignments fill:#FBEED7,color:black,text-decoration:none,max-height:100px
+    classDef collectionProcessors fill:#F0E3FA,color:black,text-decoration:none,max-height:100px
+    classDef customErrors fill:#FFE9E9,color:black,text-decoration:none,max-height:100px
+    classDef decisions fill:#FDEAF6,color:black,text-decoration:none,max-height:100px
+    classDef loops fill:#FDEAF6,color:black,text-decoration:none,max-height:100px
+    classDef recordCreates fill:#FFF8C9,color:black,text-decoration:none,max-height:100px
+    classDef recordDeletes fill:#FFF8C9,color:black,text-decoration:none,max-height:100px
+    classDef recordLookups fill:#EDEAFF,color:black,text-decoration:none,max-height:100px
+    classDef recordUpdates fill:#FFF8C9,color:black,text-decoration:none,max-height:100px
+    classDef screens fill:#DFF6FF,color:black,text-decoration:none,max-height:100px
+    classDef subflows fill:#D4E4FC,color:black,text-decoration:none,max-height:100px
+    classDef startClass fill:#D9F2E6,color:black,text-decoration:none,max-height:100px
+    classDef endClass fill:#F9BABA,color:black,text-decoration:none,max-height:100px
+    classDef transforms fill:#FDEAF6,color:black,text-decoration:none,max-height:100px
+    
+    
+    ```
+    
+    <!-- Flow description -->
+    
+    ## General Information
+    
+    |<!-- -->|<!-- -->|
+    |:---|:---|
+    |Object|Case|
+    |Process Type| Auto Launched Flow|
+    |Trigger Type| Record Before Save|
+    |Record Trigger Type| Create And Update|
+    |Label|Case | Before Save | Assign Finch Payroll 2 Liz|
+    |Status|⚠️ Draft|
+    |Environments|Default|
+    |Interview Label|Case | Before Save | Assign Finch Payroll 2 Liz {!$Flow.CurrentDateTime}|
+    | Builder Type (PM)|LightningFlowBuilder|
+    | Canvas Mode (PM)|AUTO_LAYOUT_CANVAS|
+    | Origin Builder Type (PM)|LightningFlowBuilder|
+    |Connector|[Set_record_values](#set_record_values)|
+    |Next Node|[Set_record_values](#set_record_values)|
+    
+    
+    #### Filters (logic: **and**)
+    
+    |Filter Id|Field|Operator|Value|
+    |:-- |:-- |:--:|:--: |
+    |1|Subject| Contains|RE: Payroll integration issue|
+    |2|OwnerId| Equal To|00GHo000002SIjQ|
+    
+    
+    ## Flow Nodes Details
+    
+    ### Set_record_values
+    
+    |<!-- -->|<!-- -->|
+    |:---|:---|
+    |Type|Record Update|
+    |Label|Set record values|
+    |Input Reference|$Record|
+    
+    
+    #### Input Assignments
+    
+    |Field|Value|
+    |:-- |:--: |
+    |BusinessHoursId|01m37000000L07ZAAS|
+    |Case_Team_New__c|Payroll|
+    |Category__c|Finch|
+    |Department__c|Payroll|
+    |OwnerId|00537000002STLDAA4|
+    |RecordTypeId|01237000000XwGFAA0|
+    |Team_Member__c|Liz Ohlhausen|
+    
+    
+    
+    
+    
+    
+    
+    
+    ___
+    
+    _Documentation generated from branch monitoring_myubiquity by [sfdx-hardis](https://sfdx-hardis.cloudity.com), featuring [salesforce-flow-visualiser](https://github.com/toddhalfpenny/salesforce-flow-visualiser)_
+

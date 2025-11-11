@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Plan_Assets__c|
+|Sobject Type|[Plan_Assets__c](../objects/Plan_Assets__c.md)|
 |Type| Record Page|
 |Master Label|Plan Assets Record Page|
 |Template|flexipage:recordHomeTemplateDesktop|

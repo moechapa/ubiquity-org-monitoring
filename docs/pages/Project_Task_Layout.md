@@ -12,7 +12,7 @@ hide:
 
 |<!-- -->|<!-- -->|
 |:---|:---|
-|Sobject Type|Project_Task__c|
+|Sobject Type|[Project_Task__c](../objects/Project_Task__c.md)|
 |Type| Record Page|
 |Master Label|Project Task Layout|
 |Template|flexipage:recordHomeSimpleViewTemplate|

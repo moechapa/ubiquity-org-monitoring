@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 Product_Subscription__c["Product/Subscription"]:::customObject
+click Product_Subscription__c "/objects/Product_Subscription__c/"
 Pricebook2["Pricebook2"]:::mainObject
 click Pricebook2 "/objects/Pricebook2/"
 Account["Account"]:::object

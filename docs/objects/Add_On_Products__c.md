@@ -10,14 +10,21 @@ hide:
 ## Schema
 
 ```mermaid
-graph TD
+graph LR
 simplesurvey__Survey__c["simplesurvey__Survey__c"]:::customObjectManaged
+click simplesurvey__Survey__c "/objects/simplesurvey__Survey__c/"
 Project_Task__c["Project Task"]:::customObject
+click Project_Task__c "/objects/Project_Task__c/"
 Plan__c["Plan"]:::customObject
+click Plan__c "/objects/Plan__c/"
 Partner_Contact_Add_On_Association__c["Partner Contact Add-On Association"]:::customObject
+click Partner_Contact_Add_On_Association__c "/objects/Partner_Contact_Add_On_Association__c/"
 Partner_Add_On_Association__c["Partner Add-On Association"]:::customObject
+click Partner_Add_On_Association__c "/objects/Partner_Add_On_Association__c/"
 Opportunity["Opportunity"]:::object
+click Opportunity "/objects/Opportunity/"
 Implementation__c["Implementation"]:::customObject
+click Implementation__c "/objects/Implementation__c/"
 Add_On_Products__c["Add-On Product"]:::mainObject
 click Add_On_Products__c "/objects/Add_On_Products__c/"
 Account["Account"]:::object

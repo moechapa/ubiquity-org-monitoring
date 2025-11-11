@@ -12,6 +12,7 @@ hide:
 ```mermaid
 graph TD
 Zoom_Users_Info__c["Zoom Users"]:::customObject
+click Zoom_Users_Info__c "/objects/Zoom_Users_Info__c/"
 Zoom_Phone_Calls_Info__c["Zoom Calls"]:::mainObject
 click Zoom_Phone_Calls_Info__c "/objects/Zoom_Phone_Calls_Info__c/"
 
