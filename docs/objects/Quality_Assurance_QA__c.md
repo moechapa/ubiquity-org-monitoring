@@ -29,7 +29,6 @@ Case["Case"]:::object
 click Case "/objects/Case/"
 OB_Archiver__ArchiveLog__c["OB_Archiver__ArchiveLog__c"]:::customObjectManaged
 
-QA_Question__c ==>|Quality_Assurance_QA__c| Quality_Assurance_QA__c
 Quality_Assurance_QA__c -->|Ubiquity_Employee__c| Contact
 Quality_Assurance_QA__c -->|QA_Design_Version__c| QA_Design_Version__c
 Quality_Assurance_QA__c -->|Project_Task__c| Project_Task__c
@@ -37,6 +36,7 @@ Quality_Assurance_QA__c -->|Messaging_Session__c| MessagingSession
 Quality_Assurance_QA__c -->|Implementation__c| Implementation__c
 Quality_Assurance_QA__c -->|Case__c| Case
 Quality_Assurance_QA__c -->|Activity__c| OB_Archiver__ArchiveLog__c
+QA_Question__c ==>|Quality_Assurance_QA__c| Quality_Assurance_QA__c
 Project_Task__c -->|Implementation__c| Implementation__c
 Project_Task__c -->|Connected_Case__c| Case
 Contact -->|Ubiquity_Manager__c| Contact
@@ -49,8 +49,8 @@ classDef object fill:#D6E9FF,stroke:#0070D2,stroke-width:3px,rx:12px,ry:12px,sha
 classDef customObject fill:#FFF4C2,stroke:#CCAA00,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef customObjectManaged fill:#FFD8B2,stroke:#CC5500,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef mainObject fill:#FFB3B3,stroke:#A94442,stroke-width:4px,rx:14px,ry:14px,shadow:drop,color:#333,font-weight:bold;
-linkStyle 0 stroke:#4C9F70,stroke-width:4px;
-linkStyle 1,2,3,4,5,6,7,8,9,10,11,12,13,14 stroke:#A6A6A6,stroke-width:2px;
+linkStyle 7 stroke:#4C9F70,stroke-width:4px;
+linkStyle 0,1,2,3,4,5,6,8,9,10,11,12,13,14 stroke:#A6A6A6,stroke-width:2px;
 
 ```
 
