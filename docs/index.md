@@ -3,7 +3,7 @@ hide:
   - path
 ---
 
-Welcome to the documentation of your Salesforce project.
+Welcome to the Ubiquity Salesforce project documentation.
 
 - [Objects](objects/index.md)
 - Automations
@@ -27,4 +27,4 @@ Welcome to the documentation of your Salesforce project.
 - [Manifests](manifests.md)
 
 
-_Documentation generated from branch monitoring_myubiquity with [sfdx-hardis](https://sfdx-hardis.cloudity.com) by [Cloudity](https://cloudity.com) command [`sf hardis:doc:project2markdown`](https://sfdx-hardis.cloudity.com/hardis/doc/project2markdown/)_
+
