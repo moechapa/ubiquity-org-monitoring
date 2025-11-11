@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calendly_Event_Slug__c</fullName>
+    <description>Calendly Event Slug / end of unique Calendly URL</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Calendly Event Slug / end of unique Calendly URL</inlineHelpText>
+    <label>Calendly Event Slug</label>
+    <length>150</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

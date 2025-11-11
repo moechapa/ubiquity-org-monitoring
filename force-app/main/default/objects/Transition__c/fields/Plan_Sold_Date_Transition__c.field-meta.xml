@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Sold_Date_Transition__c</fullName>
+    <description>Pulls Plan Sold Date from Plan Object which originated from the Close Date of the Opportunity.  Will be used to help determine time the plan was with Ubiquity.</description>
+    <formula>Plan__r.Plan_Sold_Date__c</formula>
+    <inlineHelpText>Pulls Plan Sold Date from Plan Object which originated from the Close Date of the Opportunity.  Will be used to help determine time the plan was with Ubiquity.</inlineHelpText>
+    <label>Plan Sold Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

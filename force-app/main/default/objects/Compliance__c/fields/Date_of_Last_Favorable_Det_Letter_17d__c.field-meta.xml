@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_of_Last_Favorable_Det_Letter_17d__c</fullName>
+    <description>If the plan is an individually-designed plan and received a favorable determination letter from the IRS, enter the date of the plan’s last favorable determination letter</description>
+    <inlineHelpText>If the plan is an individually-designed plan and received a favorable determination letter from the IRS, enter the date of the plan’s last favorable determination letter</inlineHelpText>
+    <label>Date of Last Favorable Det. Letter (17d)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

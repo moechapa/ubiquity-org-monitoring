@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adjustment_Type__c</fullName>
+    <description>Verify the type of adjustment being requested</description>
+    <inlineHelpText>Verify the type of adjustment being requested</inlineHelpText>
+    <label>Adjustment Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Contribution Adjustment</fullName>
+                <default>false</default>
+                <label>Contribution Adjustment</label>
+            </value>
+            <value>
+                <fullName>Contribution to ineligible employee</fullName>
+                <default>false</default>
+                <label>Contribution to ineligible employee</label>
+            </value>
+            <value>
+                <fullName>Fee Correction</fullName>
+                <default>false</default>
+                <label>Fee Correction</label>
+            </value>
+            <value>
+                <fullName>Fee Reimbursement</fullName>
+                <default>false</default>
+                <label>Fee Reimbursement</label>
+            </value>
+            <value>
+                <fullName>Forfeiture relocation to profit sharing</fullName>
+                <default>false</default>
+                <label>Forfeiture relocation to profit sharing</label>
+            </value>
+            <value>
+                <fullName>Gain/Loss Calc</fullName>
+                <default>false</default>
+                <label>Gain/Loss Calc</label>
+            </value>
+            <value>
+                <fullName>Liquidate forfeitures to off-set invoice</fullName>
+                <default>false</default>
+                <label>Liquidate forfeitures to off-set invoice</label>
+            </value>
+            <value>
+                <fullName>Liquidate plan assets to off-set invoice</fullName>
+                <default>false</default>
+                <label>Liquidate plan assets to off-set invoice</label>
+            </value>
+            <value>
+                <fullName>Lost Interest</fullName>
+                <default>false</default>
+                <label>Lost Interest</label>
+            </value>
+            <value>
+                <fullName>Move Money Between Plan Years</fullName>
+                <default>false</default>
+                <label>Move Money Between Plan Years</label>
+            </value>
+            <value>
+                <fullName>Post Advisor Fees</fullName>
+                <default>false</default>
+                <label>Post Advisor Fees</label>
+            </value>
+            <value>
+                <fullName>Post Conversion Assets</fullName>
+                <default>false</default>
+                <label>Post Conversion Assets</label>
+            </value>
+            <value>
+                <fullName>Post QNEC Contribution</fullName>
+                <default>false</default>
+                <label>Post QNEC Contribution</label>
+            </value>
+            <value>
+                <fullName>Reclassify Source</fullName>
+                <default>false</default>
+                <label>Reclassify Source</label>
+            </value>
+            <value>
+                <fullName>Reinvest Distribution</fullName>
+                <default>false</default>
+                <label>Reinvest Distribution</label>
+            </value>
+            <value>
+                <fullName>Reverse Loan Payment</fullName>
+                <default>false</default>
+                <label>Reverse Loan Payment</label>
+            </value>
+            <value>
+                <fullName>Reverse Payroll</fullName>
+                <default>false</default>
+                <label>Reverse Payroll</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

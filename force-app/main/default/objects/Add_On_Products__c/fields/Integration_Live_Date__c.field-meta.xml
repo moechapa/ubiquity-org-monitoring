@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Integration_Live_Date__c</fullName>
+    <description>When this date is filled out it sets the Add-On Stage to &quot;Completed Setup&quot;</description>
+    <inlineHelpText>When this date is filled out it sets the Add-On Stage to &quot;Completed Setup&quot;</inlineHelpText>
+    <label>Integration Live Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,22 @@
+<template>
+    <template if:true={isDisplayed}>
+        <div class="slds-media slds-media_center slds-m-top_medium" onclick={toggleCollapsed}>
+            <div class="slds-media__figure">
+                <img src={collapsingIcon} alt={collapsingIconAlt}/>
+            </div>
+            <div class="slds-media__body">
+                <div style="font-size: 14px">
+                    How to beat <strong>{mainCompetitor}</strong>
+                </div>
+            </div>
+        </div>
+        <template if:false={isCollapsed}>
+            <c-learning-contents
+                is-loading={isLoading}
+                learning-contents={competitorLearningContents}
+                search-text={mainCompetitor}
+                is-search-complete=true
+            ></c-learning-contents>
+        </template>
+    </template>
+</template>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Most_Recent_NPS_Score_Saver__c</fullName>
+    <description>Most Recent NPS Score from a Saver</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Most Recent NPS Score from a Saver</inlineHelpText>
+    <label>Most Recent NPS Score (Saver)</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

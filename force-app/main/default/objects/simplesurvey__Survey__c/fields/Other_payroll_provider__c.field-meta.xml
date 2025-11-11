@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_payroll_provider__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If your provider/payroll software aren&apos;t listed above, select &quot;Other&quot; from the list and type the name here:</inlineHelpText>
+    <label>&quot;Other&quot; payroll provider</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Greeting__c</fullName>
+    <description>Employee states their name and ask how we can help the caller, lead call.</description>
+    <inlineHelpText>Did the representative use a proper greeting when answering the call?</inlineHelpText>
+    <label>Client Greeting</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>QA</valueSetName>
+    </valueSet>
+</CustomField>

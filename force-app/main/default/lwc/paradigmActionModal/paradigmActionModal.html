@@ -1,0 +1,58 @@
+<!-- YourLwcComponent.html -->
+<template>
+    <lightning-modal-body>
+        <template if:true={isDataLoading}>
+            <lightning-spinner alternative-text="Loading..." size="medium"></lightning-spinner>
+        </template>
+        <template if:false={isDataLoading}>
+            <template for:each={groupedData} for:item="group">
+                <div key={group.name} class="group-container">
+                    <h3 class="group-header">{group.name}</h3>
+                    <div class="grid-container">
+                        <template for:each={group.items} for:item="item">
+                            <div key={item.key} class="json-item">
+                                <span class="key">{item.key}:</span>
+                                <span class="value">{item.value}</span>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </template>
+        </template>
+    </lightning-modal-body>
+    <lightning-modal-footer>
+        <template if:false={allRequiredFieldsExist}>
+            <div class="ready-for-send">
+                <span class="slds-text-align_left">{message}</span>
+                <div class="slds-col slds-text-align_right">
+                    <lightning-button
+                        variant="success"
+                        label="Send Plan to Paradigm"
+                        disabled={isSend}
+                        onclick={handleAuthenticate}
+                    ></lightning-button>
+                </div>
+            </div>
+        </template>
+
+        <template if:true={allRequiredFieldsExist}>
+            <div class="missing-fields">
+                <div class="slds-text-align_left">
+                    <span> Some required fields are missing or have null values: </span>
+                    <ul>
+                        <template for:each={missingRequiredFields} for:item="fieldName">
+                            <li key={fieldName}> - {fieldName}</li>
+                        </template>
+                    </ul>
+                </div>
+                <div class="slds-col slds-text-align_right">
+                    <lightning-button
+                        variant="success"
+                        label="Send Plan to Paradigm"
+                        disabled={allRequiredFieldsExist}
+                    ></lightning-button>
+                </div>
+            </div>
+        </template>
+    </lightning-modal-footer>
+</template>

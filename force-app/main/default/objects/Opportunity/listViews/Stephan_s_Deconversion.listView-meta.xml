@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stephan_s_Deconversion</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>CRG_Owner__c</columns>
+    <columns>Notification_date__c</columns>
+    <columns>PCRA__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Liquidation_date__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>CRG_Owner__c</field>
+        <operation>contains</operation>
+        <value>stephan</value>
+    </filters>
+    <label>Stephan&apos;s Deconversion</label>
+</ListView>

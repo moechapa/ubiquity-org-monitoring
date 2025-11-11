@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Email_Manager</name>
+        <label>Email Manager</label>
+        <locationX>636</locationX>
+        <locationY>1003</locationY>
+        <actionName>Implementation__c.Imps_Owner_Nearing_Max_Capacity</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Implementation__c.Imps_Owner_Nearing_Max_Capacity</nameSegment>
+    </actionCalls>
+    <apiVersion>52.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Add_to_Counter</name>
+        <label>Add to Counter</label>
+        <locationX>175</locationX>
+        <locationY>1198</locationY>
+        <assignmentItems>
+            <assignToReference>ImpCount</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Imp_Counter</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Alert_Required</name>
+        <label>Alert Required</label>
+        <locationX>388</locationX>
+        <locationY>998</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>New_Plan</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Plan_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>New Plan</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>ImpCount</leftValueReference>
+                <operator>GreaterThanOrEqualTo</operator>
+                <rightValue>
+                    <numberValue>50.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Email_Manager</targetReference>
+            </connector>
+            <label>New Plan</label>
+        </rules>
+        <rules>
+            <name>Conversion_Plan</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Plan_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Conversion Plan</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>ImpCount</leftValueReference>
+                <operator>GreaterThanOrEqualTo</operator>
+                <rightValue>
+                    <numberValue>20.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Email_Manager</targetReference>
+            </connector>
+            <label>Conversion Plan</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Null_Check</name>
+        <label>Null Check</label>
+        <locationX>166</locationX>
+        <locationY>788</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Imps_Found</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>impCollection</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Imp_Counter</targetReference>
+            </connector>
+            <label>Imps Found</label>
+        </rules>
+    </decisions>
+    <interviewLabel>Implementation | Trigger | Owner Nearing Max Cap {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Implementation | Trigger | Owner Nearing Max Cap</label>
+    <loops>
+        <name>Imp_Counter</name>
+        <label>Imp Counter</label>
+        <locationX>175</locationX>
+        <locationY>1001</locationY>
+        <collectionReference>impCollection</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Add_to_Counter</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Alert_Required</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Implementations</name>
+        <label>Get Implementations</label>
+        <locationX>175</locationX>
+        <locationY>603</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Null_Check</targetReference>
+        </connector>
+        <filterLogic>1 AND (2 OR 3 OR 4)</filterLogic>
+        <filters>
+            <field>OwnerId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Implementation_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>In Progress - Plan Creation</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Implementation_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>In Progress - Census &amp; Payroll</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Implementation_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>In Progress - Conversion &amp; Payroll</stringValue>
+            </value>
+        </filters>
+        <object>Implementation__c</object>
+        <outputReference>impCollection</outputReference>
+        <queriedFields>Id</queriedFields>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Get_Implementations</targetReference>
+        </connector>
+        <filterLogic>(1 AND 3) OR 2</filterLogic>
+        <filters>
+            <field>Implementation_Status__c</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>OwnerId</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Implementation_Status__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>Implementation__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>impCollection</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Implementation__c</objectType>
+    </variables>
+    <variables>
+        <name>ImpCount</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+</Flow>

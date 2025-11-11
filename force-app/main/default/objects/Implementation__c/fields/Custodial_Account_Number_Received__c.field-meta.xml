@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custodial_Account_Number_Received__c</fullName>
+    <description>Date when Custodial account ID is received back from the Custodian.</description>
+    <inlineHelpText>Date when Custodial account ID is received back from the Custodian.</inlineHelpText>
+    <label>Custodial Account Number Received</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

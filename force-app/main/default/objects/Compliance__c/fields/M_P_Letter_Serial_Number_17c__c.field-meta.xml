@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>M_P_Letter_Serial_Number_17c__c</fullName>
+    <description>If the plan sponsor is an adopter of a pre-approved master and prototype (M&amp;P) or volume submitter plan that is subject to a favorable IRS opinion or advisory letter, enter the letter&apos;s serial number.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If the plan sponsor is an adopter of a pre-approved master and prototype (M&amp;P) or volume submitter plan that is subject to a favorable IRS opinion or advisory letter, enter the letter&apos;s serial number.</inlineHelpText>
+    <label>M&amp;P Letter Serial Number (17c)</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>5</activeVersionNumber>
+    <description>Flow that updates Docs Signed for PRK checkbox on account so PRK knows when to start working on Project Tasks</description>
+    <masterLabel>Implementation | After Trigger | Update Docs Signed for PRK</masterLabel>
+</FlowDefinition>

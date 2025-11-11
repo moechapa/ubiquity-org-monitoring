@@ -1,0 +1,64 @@
+<template>
+    <section class={menuClass}>
+        <template if:true={showMenuButton}>
+            <button 
+                class="headerButton menuButton" 
+                onclick={onMenuButtonClick}>
+                <lightning-icon 
+                    class="my-icon"
+                    icon-name="utility:threedots_vertical"
+                    size="x-small">
+                </lightning-icon>
+            </button>
+        </template>
+        <section class="optionsMenu custom-dropdown slds-dropdown slds-dropdown_left slds-nubbin_top-left">
+            <ul class="slds-dropdown__list">
+                <template
+                    for:each={chatbotOptionsMenu} 
+                    for:item="option">
+                    <li 
+                        class="slds-dropdown__item" 
+                        key={option.optionIdentifier}>
+                        <button class="chatbotMenuOption"
+                                value={option.optionIdentifier}
+                                onclick={onMenuOptionClick}>
+                            <span value={option.optionIdentifier}>
+                                {option.title}
+                            </span>
+                        </button>
+                    </li>
+                </template>
+                <li class="slds-dropdown__item">
+                    <button class="chatbotMenuOption"
+                            onclick={onEndConversationClick}>
+                        <span class="slds-text-color_error">End Conversation</span>
+                    </button>
+                </li>
+            </ul>
+        </section>
+    </section>
+        <template if:true={logo}>
+            <img src={logo}/>
+        </template>
+        <h3>{headerText}</h3>
+    <button
+        class="headerButton minimizeButton" 
+        onclick={onMinimizeButtonClick}>
+        <lightning-icon 
+            class="my-icon"
+            icon-name="utility:chevrondown"
+            size="x-small">
+        </lightning-icon>
+    </button>
+    <template if:true={showCloseButton}>
+        <button 
+            class="headerButton closeButton" 
+            onclick={onCloseButtonClick}>
+            <lightning-icon 
+                class="my-icon"
+                icon-name="utility:close"
+                size="x-small">
+            </lightning-icon>
+        </button>
+    </template>
+</template>

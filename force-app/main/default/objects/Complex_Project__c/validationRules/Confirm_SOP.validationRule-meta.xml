@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Confirm_SOP</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(Phase__c, &quot;Development&quot;)
+&amp;&amp;
+ISPICKVAL(SOP_Required__c, &quot;&quot; )</errorConditionFormula>
+    <errorDisplayField>SOP_Required__c</errorDisplayField>
+    <errorMessage>Please confirm SOP requirement before moving to the Development phase.</errorMessage>
+</ValidationRule>

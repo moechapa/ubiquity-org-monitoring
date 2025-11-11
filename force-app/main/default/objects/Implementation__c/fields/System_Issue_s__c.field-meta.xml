@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>System_Issue_s__c</fullName>
+    <description>Identify Paradigm system issues that slow down the Implementation Process</description>
+    <inlineHelpText>Identify Paradigm system issues that slow down the Implementation Process</inlineHelpText>
+    <label>System Issue(s)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Allow Final eSign button</fullName>
+                <default>false</default>
+                <label>Allow Final eSign button</label>
+            </value>
+            <value>
+                <fullName>Conversion Loan</fullName>
+                <default>false</default>
+                <label>Conversion Loan</label>
+            </value>
+            <value>
+                <fullName>Custodial change</fullName>
+                <default>false</default>
+                <label>Custodial change</label>
+            </value>
+            <value>
+                <fullName>Custom fund list</fullName>
+                <default>false</default>
+                <label>Custom fund list</label>
+            </value>
+            <value>
+                <fullName>Duplicate Participant Email</fullName>
+                <default>false</default>
+                <label>Duplicate Participant Email</label>
+            </value>
+            <value>
+                <fullName>Effective Date Change</fullName>
+                <default>false</default>
+                <label>Effective Date Change</label>
+            </value>
+            <value>
+                <fullName>Eligibility issues</fullName>
+                <default>false</default>
+                <label>Eligibility issues</label>
+            </value>
+            <value>
+                <fullName>Matrix account set up</fullName>
+                <default>false</default>
+                <label>Matrix account set up</label>
+            </value>
+            <value>
+                <fullName>Relius Docs Fetch Link</fullName>
+                <default>false</default>
+                <label>Relius Docs Fetch Link</label>
+            </value>
+            <value>
+                <fullName>RKO A4S</fullName>
+                <default>false</default>
+                <label>RKO A4S</label>
+            </value>
+            <value>
+                <fullName>Signup Complete bubble not filled in</fullName>
+                <default>false</default>
+                <label>Signup Complete bubble not filled in</label>
+            </value>
+            <value>
+                <fullName>Start Your Plan button</fullName>
+                <default>false</default>
+                <label>Start Your Plan button</label>
+            </value>
+            <value>
+                <fullName>Stuck in Awaiting Signatures Status</fullName>
+                <default>false</default>
+                <label>Stuck in Awaiting Signatures Status</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

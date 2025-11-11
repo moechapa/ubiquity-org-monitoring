@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>401(k) Plan Sale</fullName>
+        <default>false</default>
+        <label>401(k) Plan Sale</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Single(k)</fullName>
+        <default>false</default>
+        <label>Single(k)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Upgrade</fullName>
+        <default>false</default>
+        <label>Upgrade</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Plan Amendment</fullName>
+        <default>false</default>
+        <label>Plan Amendment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Business Developement</fullName>
+        <default>false</default>
+        <label>Business Developement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Add-on Product</fullName>
+        <default>false</default>
+        <label>Add-on Product</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ancillary Billing Hourly Rate</fullName>
+        <default>false</default>
+        <label>Ancillary Billing Hourly Rate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ancillary Billing Flat Fee</fullName>
+        <default>false</default>
+        <label>Ancillary Billing Flat Fee</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Force Out Distribution</fullName>
+        <default>false</default>
+        <label>Force Out Distribution</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Express IRA</fullName>
+        <default>false</default>
+        <label>Express IRA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Single IRA</fullName>
+        <default>false</default>
+        <label>Single IRA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SIMPLE IRA</fullName>
+        <default>false</default>
+        <label>SIMPLE IRA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Change</fullName>
+        <default>false</default>
+        <label>Product Change</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Extraordinary Service</fullName>
+        <default>false</default>
+        <label>Extraordinary Service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Downgrade</fullName>
+        <default>false</default>
+        <label>Downgrade</label>
+    </standardValue>
+</StandardValueSet>

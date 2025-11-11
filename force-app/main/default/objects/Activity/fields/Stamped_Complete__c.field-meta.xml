@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stamped_Complete__c</fullName>
+    <description>Field stamped the moment the task is marked as complete by a member of the sales team</description>
+    <label>Stamped Complete</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

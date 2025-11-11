@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Production Auth</label>
+    <protected>false</protected>
+    <values>
+        <field>AUTH_URL_ADDRESS__c</field>
+        <value xsi:type="xsd:string">https://accounts.principal.com/oauth2/aus8xm6hson7W0A385d7/v1/token</value>
+    </values>
+    <values>
+        <field>Token__c</field>
+        <value xsi:type="xsd:string">ajlhZE5YNU9BSWdBOGNGaFpEeFQwMmpnbHkwOUFJSUo6U1pBQTY4V0tLZ2ZLbFBpWg==</value>
+    </values>
+    <values>
+        <field>URL_ADDRESS__c</field>
+        <value xsi:type="xsd:string">https://api.principal.com/retirement/v1/external/sales/opportunities</value>
+    </values>
+</CustomMetadata>

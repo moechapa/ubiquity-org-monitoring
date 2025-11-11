@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>B2BMAnalytics__PardotB2BMATemplateConfig</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>B2BMAnalytics__PardotB2BMATemplateConfigTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>B2BMAnalytics__RequirementsChecker</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>B2BMAnalytics__RequirementsCheckerMock</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <description>Provides the ability to create Analytics apps from B2B Marketing Analytics template</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>B2B Marketing Analytics - Create Apps [Editable]</label>
+    <pageAccesses>
+        <apexPage>B2BMAnalytics__RequirementsCheck</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LightningExperienceUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>PreventClassicExperience</name>
+    </userPermissions>
+</PermissionSet>

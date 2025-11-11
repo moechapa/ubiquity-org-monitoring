@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Advisor (Client)</fullName>
+        <default>false</default>
+        <label>Advisor (Client)</label>
+        <reverseRole>Client</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>Advisor (Prospect)</fullName>
+        <default>false</default>
+        <label>Advisor (Prospect)</label>
+        <reverseRole>Prospect</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>Alliance Partner (Client)</fullName>
+        <default>false</default>
+        <label>Alliance Partner (Client)</label>
+        <reverseRole>Client</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>Alliance Partner (Prospect)</fullName>
+        <default>false</default>
+        <label>Alliance Partner (Prospect)</label>
+        <reverseRole>Prospect</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitor</fullName>
+        <default>false</default>
+        <label>Competitor</label>
+        <reverseRole>TOK Lost</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>CPA (Client)</fullName>
+        <default>false</default>
+        <label>CPA (Client)</label>
+        <reverseRole>Client</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>CPA (Prospect)</fullName>
+        <default>false</default>
+        <label>CPA (Prospect)</label>
+        <reverseRole>Prospect</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>Current Client (Client)</fullName>
+        <default>false</default>
+        <label>Current Client (Client)</label>
+        <reverseRole>Client</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>Current Client (Prospect)</fullName>
+        <default>false</default>
+        <label>Current Client (Prospect)</label>
+        <reverseRole>Prospect</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral Only (Client)</fullName>
+        <default>false</default>
+        <label>Referral Only (Client)</label>
+        <reverseRole>Client</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral Only (Prospect)</fullName>
+        <default>false</default>
+        <label>Referral Only (Prospect)</label>
+        <reverseRole>Prospect</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>Schwab Branch</fullName>
+        <default>false</default>
+        <label>Schwab Branch</label>
+        <reverseRole>Prospect / Client</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>TPA (Client)</fullName>
+        <default>false</default>
+        <label>TPA (Client)</label>
+        <reverseRole>Client</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>TPA (Prospect)</fullName>
+        <default>false</default>
+        <label>TPA (Prospect)</label>
+        <reverseRole>Prospect</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>3(38) (Client)</fullName>
+        <default>false</default>
+        <label>3(38) (Client)</label>
+        <reverseRole>Client</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>3(38) (Prospect)</fullName>
+        <default>false</default>
+        <label>3(38) (Prospect)</label>
+        <reverseRole>Prospect</reverseRole>
+    </standardValue>
+    <standardValue>
+        <fullName>Starter(k) ER</fullName>
+        <default>false</default>
+        <label>Starter(k) ER</label>
+        <reverseRole>Saver(k) EE</reverseRole>
+    </standardValue>
+</StandardValueSet>

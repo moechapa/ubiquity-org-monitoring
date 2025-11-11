@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Origin__c</fullName>
+    <label>Lead Origin</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ubiquity Generated</fullName>
+                <default>false</default>
+                <label>Ubiquity Generated</label>
+            </value>
+            <value>
+                <fullName>Rep Generated</fullName>
+                <default>false</default>
+                <label>Rep Generated</label>
+            </value>
+            <value>
+                <fullName>Simply Generated</fullName>
+                <default>false</default>
+                <label>Simply Generated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

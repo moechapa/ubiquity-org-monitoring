@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X1st_Invoice_Date__c</fullName>
+    <description>Date client is first invoiced in Netsuite</description>
+    <inlineHelpText>Date client is first invoiced in Netsuite</inlineHelpText>
+    <label>1st Invoice Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

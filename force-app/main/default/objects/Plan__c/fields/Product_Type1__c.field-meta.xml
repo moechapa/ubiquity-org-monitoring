@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Type1__c</fullName>
+    <description>Product type</description>
+    <inlineHelpText>Product type</inlineHelpText>
+    <label>Product Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>401(k)</fullName>
+                <default>false</default>
+                <label>401(k)</label>
+            </value>
+            <value>
+                <fullName>Single(k)</fullName>
+                <default>false</default>
+                <label>Single(k)</label>
+            </value>
+            <value>
+                <fullName>Express IRA</fullName>
+                <default>false</default>
+                <label>Express IRA</label>
+            </value>
+            <value>
+                <fullName>Single IRA</fullName>
+                <default>false</default>
+                <label>Single IRA</label>
+            </value>
+            <value>
+                <fullName>SIMPLE IRA</fullName>
+                <default>false</default>
+                <label>SIMPLE IRA</label>
+            </value>
+            <value>
+                <fullName>Partnership</fullName>
+                <default>false</default>
+                <label>Partnership</label>
+            </value>
+            <value>
+                <fullName>Upgrade</fullName>
+                <default>false</default>
+                <label>Upgrade</label>
+            </value>
+            <value>
+                <fullName>PEP</fullName>
+                <default>false</default>
+                <label>PEP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

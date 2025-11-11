@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EIN_Validation</fullName>
+    <active>false</active>
+    <description>EIN must be populated to Close this opportunity.</description>
+    <errorConditionFormula>ISPICKVAL( StageName , &quot;Closed Won&quot;) 
+&amp;&amp; 
+ISBLANK(  Account.Employer_Identification_Number_EIN__c )=TRUE
+&amp;&amp;
+NOT(ISNULL( AccountId ))</errorConditionFormula>
+    <errorMessage>EIN must be populated to close out this Opportunity. Please populate the EIN field on the account page.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Immediate</fullName>
+        <default>false</default>
+        <label>Immediate</label>
+    </customValue>
+    <customValue>
+        <fullName>20% Over 6 Years</fullName>
+        <default>false</default>
+        <label>20% Over 6 Years</label>
+    </customValue>
+    <customValue>
+        <fullName>20% Over 5 Years</fullName>
+        <default>false</default>
+        <label>20% Over 5 Years</label>
+    </customValue>
+    <customValue>
+        <fullName>25% Over 4 Years</fullName>
+        <default>false</default>
+        <label>25% Over 4 Years</label>
+    </customValue>
+    <customValue>
+        <fullName>1 Year Cliff</fullName>
+        <default>false</default>
+        <label>1 Year Cliff</label>
+    </customValue>
+    <customValue>
+        <fullName>2 Year Cliff</fullName>
+        <default>false</default>
+        <label>2 Year Cliff</label>
+    </customValue>
+    <customValue>
+        <fullName>3 Year Cliff</fullName>
+        <default>false</default>
+        <label>3 Year Cliff</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>5-Year Graded</fullName>
+        <default>false</default>
+        <label>5-Year Graded</label>
+    </customValue>
+    <customValue>
+        <fullName>6-Year Graded</fullName>
+        <default>false</default>
+        <label>6-Year Graded</label>
+    </customValue>
+    <description>When are employer contributions vested to participants?</description>
+    <masterLabel>Vesting schedule</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

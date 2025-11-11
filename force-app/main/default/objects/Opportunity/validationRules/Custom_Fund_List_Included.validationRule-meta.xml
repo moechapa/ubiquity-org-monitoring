@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Fund_List_Included</fullName>
+    <active>true</active>
+    <description>Validates that a Custom Fund List has been completed if Fund List = Custom before an Opportunity can be closed.</description>
+    <errorConditionFormula>RecordType.Name = &quot;401(k)&quot;
+&amp;&amp;
+ISPICKVAL(Fund_List__c, &quot;Custom List&quot;)
+&amp;&amp;
+Custom_Fund_List_Included__c = FALSE
+&amp;&amp;
+ISPICKVAL( StageName , &quot;Closed Won&quot;)
+&amp;&amp;
+ $User.UserRoleId &lt;&gt; &quot;00E1G000000p2kN&quot;</errorConditionFormula>
+    <errorMessage>A Custom Fund List record must be created before closing this Opportunity.</errorMessage>
+</ValidationRule>

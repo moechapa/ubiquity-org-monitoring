@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Link_to_Privacy_Policy_and_Other_Docs__c</fullName>
+    <description>Link to website for privacy policy, etc.</description>
+    <inlineHelpText>Link to website for privacy policy, etc.</inlineHelpText>
+    <label>Link to Privacy Policy and Other Docs</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

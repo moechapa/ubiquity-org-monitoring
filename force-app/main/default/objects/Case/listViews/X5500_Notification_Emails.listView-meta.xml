@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X5500_Notification_Emails</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.EMAIL</field>
+        <operation>contains</operation>
+        <value>compliance.myubiquity@pension-plan-emails.com</value>
+    </filters>
+    <filters>
+        <field>CASES.CREATED_DATE_DATE_ONLY</field>
+        <operation>greaterThan</operation>
+        <value>6/15/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CASES.CREATED_DATE_DATE_ONLY</field>
+        <operation>lessThan</operation>
+        <value>10/22/2022 12:00 AM</value>
+    </filters>
+    <label>5500 Notification Emails</label>
+    <sharedTo>
+        <role>Compliance</role>
+        <role>Director_of_Compliance</role>
+        <role>SVP_Strategy</role>
+        <role>Senior_BI_Analyst</role>
+        <roleAndSubordinates>SVP_of_Client_Success</roleAndSubordinates>
+    </sharedTo>
+</ListView>

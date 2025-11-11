@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>3</activeVersionNumber>
+    <description>Generates email alerts when discount is given, if the plan&apos;s closed date is TODAY or overdue by one WEEK, and notify that A&amp;F has been marked as &quot;Closed Won.&quot;</description>
+    <masterLabel>Opportunity | After Trigger| Send Email Alerts for Discounts and Product Change</masterLabel>
+</FlowDefinition>

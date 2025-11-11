@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EIN_XXXXXXXXX</fullName>
+    <active>true</active>
+    <description>EIN is 9 digits without hyphen or space.</description>
+    <errorConditionFormula>CONTAINS(Employer_Identification_Number_EIN__c, &quot;-&quot;)
+||
+CONTAINS(Employer_Identification_Number_EIN__c, &quot; &quot;)</errorConditionFormula>
+    <errorDisplayField>Employer_Identification_Number_EIN__c</errorDisplayField>
+    <errorMessage>Enter EIN as nine digits without hyphen or space</errorMessage>
+</ValidationRule>

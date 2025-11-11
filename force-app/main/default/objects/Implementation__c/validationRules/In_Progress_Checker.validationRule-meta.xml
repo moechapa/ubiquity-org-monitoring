@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>In_Progress_Checker</fullName>
+    <active>false</active>
+    <description>&quot;In Progress&quot; is no longer used for implementations - This throws an error if any automation attempts to do do.</description>
+    <errorConditionFormula>ISPICKVAL( Implementation_Status__c , &quot;In Progress&quot;)</errorConditionFormula>
+    <errorDisplayField>Implementation_Status__c</errorDisplayField>
+    <errorMessage>&quot;In Progress&quot; is no longer a status to use on Implementations.   Contact BI team to confirm how to correct.</errorMessage>
+</ValidationRule>

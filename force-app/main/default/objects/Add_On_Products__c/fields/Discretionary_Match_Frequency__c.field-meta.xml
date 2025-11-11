@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discretionary_Match_Frequency__c</fullName>
+    <description>EPS data from EPS Survey</description>
+    <inlineHelpText>Frequency of discretionary matching contributions</inlineHelpText>
+    <label>Discretionary Match Frequency</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Per Payroll</fullName>
+                <default>false</default>
+                <label>Per Payroll</label>
+            </value>
+            <value>
+                <fullName>Annual</fullName>
+                <default>false</default>
+                <label>Annual</label>
+            </value>
+            <value>
+                <fullName>ER Match Contributions not allowed</fullName>
+                <default>false</default>
+                <label>ER Match Contributions not allowed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

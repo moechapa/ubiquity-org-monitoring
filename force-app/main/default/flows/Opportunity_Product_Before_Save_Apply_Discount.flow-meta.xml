@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>64.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Apply_Base_Value</name>
+        <label>Apply Base Value</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Discount__c</assignToReference>
+            <operator>Assign</operator>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Discount_Percentage__c</assignToReference>
+            <operator>Assign</operator>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.UnitPrice</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>listPrice</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Apply_Discount_to_Price</name>
+        <label>Apply Discount to Price</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.UnitPrice</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>amountWithDiscount</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Set_Discount_Percent</name>
+        <label>Set Discount Percent</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Discount_Percentage__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>percentDiscountCalc</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Check_for_0</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Dollar_Amount_Discount</name>
+        <label>Set Dollar Amount Discount</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Discount__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>dollarDiscountCalc</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Check_for_0</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Check_for_0</name>
+        <label>Check for 0</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Apply_Discount_to_Price</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Needs_Null</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Discount__c</leftValueReference>
+                <operator>LessThanOrEqualTo</operator>
+                <rightValue>
+                    <numberValue>0.0</numberValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Discount_Percentage__c</leftValueReference>
+                <operator>LessThanOrEqualTo</operator>
+                <rightValue>
+                    <numberValue>0.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Apply_Base_Value</targetReference>
+            </connector>
+            <label>Needs Null</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_What_Changed</name>
+        <label>Check What Changed</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Set_Dollar_Amount_Discount</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Amount_Changed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Discount__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Discount_Percent</targetReference>
+            </connector>
+            <label>Amount Changed</label>
+        </rules>
+    </decisions>
+    <description>Syncs discount percentage w/ dollar amount (and the reverse), then updates sale price.  Runs whenever opp prod is created OR discount is changed</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>amountWithDiscount</name>
+        <dataType>Currency</dataType>
+        <expression>{!listPrice} - ({!$Record.Discount__c} / {!$Record.Quantity})</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>dollarDiscountCalc</name>
+        <dataType>Currency</dataType>
+        <expression>({!$Record.Discount_Percentage__c} / 100) * ({!listPrice} * {!$Record.Quantity})</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>percentDiscountCalc</name>
+        <dataType>Number</dataType>
+        <expression>(1 - ((({!listPrice} * {!$Record.Quantity}) - {!$Record.Discount__c}) / ({!listPrice} * {!$Record.Quantity}))) * 100</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>Opportunity Product | Before Save | Discount {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity Product | Before Save | Apply Discount</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_What_Changed</targetReference>
+        </connector>
+        <filterFormula>(ISNEW() &amp;&amp; (NOT(ISBLANK({!$Record.Discount_Percentage__c})) || NOT(ISBLANK({!$Record.Discount__c})))) ||
+ISCHANGED({!$Record.Discount_Percentage__c}) ||
+ISCHANGED({!$Record.Discount__c})</filterFormula>
+        <object>OpportunityLineItem</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>eeeeee</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>listPrice</name>
+        <dataType>Currency</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+        <value>
+            <elementReference>$Record.PricebookEntry.UnitPrice</elementReference>
+        </value>
+    </variables>
+</Flow>

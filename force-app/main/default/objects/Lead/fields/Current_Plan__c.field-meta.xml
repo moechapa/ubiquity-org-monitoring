@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Plan__c</fullName>
+    <description>Does prospect have a current retirement plan in place for the business?</description>
+    <inlineHelpText>Does prospect have a current retirement plan in place for the business?</inlineHelpText>
+    <label>Current Plan</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>401(k)</fullName>
+                <default>false</default>
+                <label>401(k)</label>
+            </value>
+            <value>
+                <fullName>Not sure</fullName>
+                <default>false</default>
+                <label>Not sure</label>
+            </value>
+            <value>
+                <fullName>SIMPLE</fullName>
+                <default>false</default>
+                <label>SIMPLE</label>
+            </value>
+            <value>
+                <fullName>SEP IRA</fullName>
+                <default>false</default>
+                <label>SEP IRA</label>
+            </value>
+            <value>
+                <fullName>Defined Benefit</fullName>
+                <default>false</default>
+                <label>Defined Benefit</label>
+            </value>
+            <value>
+                <fullName>Money Purchase</fullName>
+                <default>false</default>
+                <label>Money Purchase</label>
+            </value>
+            <value>
+                <fullName>KEOGH</fullName>
+                <default>false</default>
+                <label>KEOGH</label>
+            </value>
+            <value>
+                <fullName>Not Comfortable Answering</fullName>
+                <default>false</default>
+                <label>Not Comfortable Answering</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Assign_Notification_Date</name>
+        <label>Assign Notification Date</label>
+        <locationX>578</locationX>
+        <locationY>695</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Notification_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Complete</name>
+        <label>Complete</label>
+        <locationX>1370</locationX>
+        <locationY>695</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Transition Complete</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Completion_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Copy_1_of_Complete</name>
+        <label>Copy 1 of Complete</label>
+        <locationX>1634</locationX>
+        <locationY>695</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Completion_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Copy_1_of_Record_Type_Assignment</name>
+        <label>Copy 1 of Record Type Assignment</label>
+        <locationX>710</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01237000000EyYDAA0</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Status_Update</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Copy_2_of_Record_Type_Assignment</name>
+        <label>Copy 2 of Record Type Assignment</label>
+        <locationX>974</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01237000000EyYIAA0</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Status_Update</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Copy_3_of_Record_Type_Assignment</name>
+        <label>Copy 3 of Record Type Assignment</label>
+        <locationX>1502</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01237000000Eyo1AAC</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Status_Update</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Copy_4_of_Record_Type_Assignment</name>
+        <label>Copy 4 of Record Type Assignment</label>
+        <locationX>446</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01237000000XwaeAAC</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Status_Update</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Copy_5_of_Record_Type_Assignment</name>
+        <label>Copy 5 of Record Type Assignment</label>
+        <locationX>182</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01237000000XwajAAC</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Status_Update</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Record_Type_Assignment</name>
+        <label>Record Type Assignment</label>
+        <locationX>1238</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>0121G000000bquUQAQ</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Status_Update</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Update_to_Final_Questionnaire</name>
+        <label>Update to Final Questionnaire</label>
+        <locationX>314</locationX>
+        <locationY>695</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Final Questionnaire Sent</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Update_to_Final_Val_Complete</name>
+        <label>Update to Final Val Complete</label>
+        <locationX>1106</locationX>
+        <locationY>695</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Final Valuation Complete</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Update_to_Saved</name>
+        <label>Update to Saved</label>
+        <locationX>50</locationX>
+        <locationY>695</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Saved</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <description>These plans don&apos;t get docusign for some reason so move right to in progress.</description>
+        <name>Update_to_Transition_in_Progress</name>
+        <label>Update to Transition in Progress</label>
+        <locationX>842</locationX>
+        <locationY>695</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Transition Processes in Progress</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <description>Not including &quot;Save in Process&quot; or &quot;Docusign in Progress&quot; because those values will be set when the Jotform(s) are filled out. Record will move to &quot;Transition Process in Progress&quot; through separate flow when Docusign is signed. Remaining statuses are controlled in another flow because they require scheduled runs.</description>
+        <name>Status_Update</name>
+        <label>Status Update</label>
+        <locationX>974</locationX>
+        <locationY>587</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Saved</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Saved_Date__c</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_to_Saved</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Saved</label>
+        </rules>
+        <rules>
+            <name>Final_Questionnaire_in_Sent</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Save_Attempts_Exhausted__c</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_to_Final_Questionnaire</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Final Questionnaire in Sent</label>
+        </rules>
+        <rules>
+            <name>Docusign_In_Progress</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>DocuSign in Progress</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Notification_Date</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Docusign In Progress</label>
+        </rules>
+        <rules>
+            <name>Skip_DS_in_Progress</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>DocuSign in Progress</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>dontSendDocusign</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_to_Transition_in_Progress</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Skip DS in Progress</label>
+        </rules>
+        <rules>
+            <name>Final_Valuation_Complete</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Final_Valuation_Completed__c</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_to_Final_Val_Complete</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Final Valuation Complete</label>
+        </rules>
+        <rules>
+            <name>Termination_Transition_Complete</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Transition_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Termination</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Liquidation_Date__c</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Complete</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Termination Transition Complete</label>
+        </rules>
+        <rules>
+            <name>Non_Termination_Transition_Complete</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Transition Complete</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Transition_Type__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Termination</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_1_of_Complete</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Non-Termination Transition Complete</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>If the type changes, the record type needs to change</description>
+        <name>Type_Update</name>
+        <label>Type Update?</label>
+        <locationX>974</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>Status_Update</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Change_to_Termination</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Transition_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Termination</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_5_of_Record_Type_Assignment</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Change to Termination</label>
+        </rules>
+        <rules>
+            <name>Change_to_Decon</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Transition_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Deconversion</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_4_of_Record_Type_Assignment</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Change to Decon</label>
+        </rules>
+        <rules>
+            <name>Change_to_Term_Merger</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Transition_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Termination/Merger</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_1_of_Record_Type_Assignment</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Change to Term Merger</label>
+        </rules>
+        <rules>
+            <name>Change_to_Abandon</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Transition_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Abandonment</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_2_of_Record_Type_Assignment</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Change to Abandon</label>
+        </rules>
+        <rules>
+            <name>Change_to_Contract_Term</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Transition_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Contract Termination</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Record_Type_Assignment</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Change to Contract Term</label>
+        </rules>
+        <rules>
+            <name>Change_to_SK_or_SK</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Transition_Type__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Single(k)</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_3_of_Record_Type_Assignment</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Change to SK or SK+</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <description>Some transitions do not get docusigns, this web lets you know they should not</description>
+        <name>dontSendDocusign</name>
+        <dataType>Boolean</dataType>
+        <expression>((ISPICKVAL({!$Record.Transition_Type__c}, &quot;Deconversion&quot;) || ISPICKVAL({!$Record.Transition_Type__c}, &quot;Termination/Merger&quot;)) &amp;&amp; ISPICKVAL({!$Record.Service_Option__c}, &quot;RK Only&quot;))
+||
+(ISPICKVAL({!$Record.Transition_Type__c}, &quot;Deconversion&quot;) &amp;&amp; ({!fullServiceNonSimplyMatrix} = TRUE || {!fullServiceSchwabBD} = TRUE))</expression>
+    </formulas>
+    <formulas>
+        <description>Full service plans that are not simply where the custodian is matrix</description>
+        <name>fullServiceNonSimplyMatrix</name>
+        <dataType>Boolean</dataType>
+        <expression>ISPICKVAL({!$Record.Custodian__c}, &quot;MG Trust Company, LLC.&quot;) &amp;&amp; NOT(ISPICKVAL({!$Record.Plan__r.Business_Unit__c}, &quot;Simply Retirement&quot;)) &amp;&amp; (ISPICKVAL({!$Record.Plan__r.Product_Type1__c}, &quot;401(k)&quot;) || ISPICKVAL({!$Record.Plan__r.Product_Type1__c}, &quot;PEP&quot;))</expression>
+    </formulas>
+    <formulas>
+        <name>fullServiceSchwabBD</name>
+        <dataType>Boolean</dataType>
+        <expression>ISPICKVAL({!$Record.Custodian__c}, &quot;Schwab &amp; Co., Inc.&quot;) &amp;&amp; (ISPICKVAL({!$Record.Plan__r.Product_Type1__c}, &quot;401(k)&quot;) || ISPICKVAL({!$Record.Plan__r.Product_Type1__c}, &quot;PEP&quot;))</expression>
+    </formulas>
+    <formulas>
+        <name>isLiquidationDateToday</name>
+        <dataType>Boolean</dataType>
+        <expression>TODAY() = {!$Record.Liquidation_Date__c}</expression>
+    </formulas>
+    <interviewLabel>Transition | Before Trigger | Master {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Transition | Before Trigger | Master</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>848</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Type_Update</targetReference>
+        </connector>
+        <object>Transition__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

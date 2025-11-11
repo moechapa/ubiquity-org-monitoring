@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InitialFilingInd__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Initial filing if it&apos;s the first plan year</description>
+    <label>InitialFilingInd</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

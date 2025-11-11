@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Plan_Balance__c</fullName>
+    <description>Total Plan Balance as of July 2019</description>
+    <inlineHelpText>Total Plan Balance as of July 2019</inlineHelpText>
+    <label>Total Plan Balance</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

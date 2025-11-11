@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_contact_experience__c</fullName>
+    <description>Question Created by the Survey Builder</description>
+    <inlineHelpText>How experienced are they at running payroll/processing 401(k) contributions?</inlineHelpText>
+    <label>Payroll contact experience</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Expert</fullName>
+                <default>false</default>
+                <label>Expert</label>
+            </value>
+            <value>
+                <fullName>Some experience</fullName>
+                <default>false</default>
+                <label>Some experience</label>
+            </value>
+            <value>
+                <fullName>Little/no experience</fullName>
+                <default>false</default>
+                <label>Little/no experience</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

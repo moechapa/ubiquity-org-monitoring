@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BiggestChallengeToSave__c</fullName>
+    <inlineHelpText>What are your biggest challenges to saving more in your 401(k) for retirement? Select all that apply.</inlineHelpText>
+    <label>BiggestChallengeToSave</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General life expenses</fullName>
+                <default>false</default>
+                <label>General life expenses</label>
+            </value>
+            <value>
+                <fullName>Income limitations</fullName>
+                <default>false</default>
+                <label>Income limitations</label>
+            </value>
+            <value>
+                <fullName>Paying down debt</fullName>
+                <default>false</default>
+                <label>Paying down debt</label>
+            </value>
+            <value>
+                <fullName>Emergency circumstances</fullName>
+                <default>false</default>
+                <label>Emergency circumstances</label>
+            </value>
+            <value>
+                <fullName>Lack of knowledge</fullName>
+                <default>false</default>
+                <label>Lack of knowledge</label>
+            </value>
+            <value>
+                <fullName>My company does not offer a match</fullName>
+                <default>false</default>
+                <label>My company does not offer a match</label>
+            </value>
+            <value>
+                <fullName>Annual contribution limits</fullName>
+                <default>false</default>
+                <label>Annual contribution limits</label>
+            </value>
+            <value>
+                <fullName>I use a separate IRA instead</fullName>
+                <default>false</default>
+                <label>I use a separate IRA instead</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>9</visibleLines>
+</CustomField>

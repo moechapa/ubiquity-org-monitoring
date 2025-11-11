@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Eligible_w_Requested_Contribution__c</fullName>
+    <description>Eligible employees with non-zero Requested Contribution amount.   Does NOT include savers who told employers/payroll directly to start contributions without enrolling/entering requested amount on Ubiquity site.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Eligible employees with non-zero Requested Contribution amount.   Does NOT include savers who told employers/payroll directly to start contributions without enrolling/entering requested amount on Ubiquity site.</inlineHelpText>
+    <label>Eligible w Requested Contribution</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

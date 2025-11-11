@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reduction_per_Day__c</fullName>
+    <description>Score is reduced by this percentage for every day the age of reduction threshold is exceeded until it reaches 0</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Score is reduced by this percentage for every day the age of reduction threshold is exceeded until it reaches 0</inlineHelpText>
+    <label>Reduction per Day</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Percent</type>
+</CustomField>

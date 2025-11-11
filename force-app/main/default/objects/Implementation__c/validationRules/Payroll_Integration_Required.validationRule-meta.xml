@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payroll_Integration_Required</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT(ISBLANK(Census_and_Eligibility_Uploaded__c)) &amp;&amp;
+ISBLANK(TEXT(Payroll_Integration__c)) &amp;&amp;
+Census_and_Eligibility_Uploaded__c &gt; DATE(2022,03,15)</errorConditionFormula>
+    <errorDisplayField>Payroll_Integration__c</errorDisplayField>
+    <errorMessage>Please Confirm Payroll Integration requirements before moving forward.</errorMessage>
+</ValidationRule>

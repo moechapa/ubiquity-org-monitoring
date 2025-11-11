@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Submit_for_Approval</name>
+        <label>Submit for Approval</label>
+        <locationX>512</locationX>
+        <locationY>316</locationY>
+        <actionName>submit</actionName>
+        <actionType>submit</actionType>
+        <connector>
+            <targetReference>Product_End_Date_Entered_0</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>objectId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>submitterId</name>
+            <value>
+                <elementReference>$User.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>processDefinitionNameOrId</name>
+            <value>
+                <stringValue>Downloadable_SOC_1_Requested</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>submit</nameSegment>
+        <offset>0</offset>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>53.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Downloadable_SOC_1_Requested_0</name>
+        <label>Downloadable SOC-1 Requested</label>
+        <locationX>169</locationX>
+        <locationY>303</locationY>
+        <defaultConnector>
+            <targetReference>Product_End_Date_Entered_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Downloadable_SOC_1_Requested</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Downloadable_SOC_1_Requested__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Downloadable_SOC_1_Approved__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Submit_for_Approval</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Downloadable SOC-1 Requested</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>New_or_Existing</name>
+        <label>New or Existing</label>
+        <locationX>350</locationX>
+        <locationY>1574</locationY>
+        <defaultConnector>
+            <targetReference>Existing_Plan</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Existing</defaultConnectorLabel>
+        <rules>
+            <name>New</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Salesforce_Plan_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Implementation in Progress</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>New_Plan</targetReference>
+            </connector>
+            <label>New</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Plan_Linked</name>
+        <label>Plan Linked</label>
+        <locationX>156</locationX>
+        <locationY>1571</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Plan_Added</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Plan__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>New_or_Existing</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Plan Added</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Product_End_Date_Entered_0</name>
+        <label>Product End Date Entered</label>
+        <locationX>171</locationX>
+        <locationY>496</locationY>
+        <defaultConnector>
+            <targetReference>Vendor_Fees</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Product_End_Date_Entered</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Scheduled_Product_End_Date__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Scheduled_Product_End_Date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Vendor_Fees</targetReference>
+            </connector>
+            <label>Product End Date Entered</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Vendor_Fees</name>
+        <label>Vendor Fees</label>
+        <locationX>167</locationX>
+        <locationY>924</locationY>
+        <defaultConnector>
+            <targetReference>Plan_Linked</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>ADP_Vendor_Fees</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Payroll_Vendor__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>ADP</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Add_On_Product</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>ADP Vendor Fees</label>
+        </rules>
+    </decisions>
+    <description>Included Approval Process Name in Submit for Approval action to prevent flow erroring. JI 10/13/23
+
+Changed Imp Request Cases to go to PK team. 9/14 Changed Login Requested and Received decision elements to send payroll case to payroll instead of PK. 10/27- Removed Implementation Request Date entered decision path to create case for PK, Melissa said no longer necessary. Removed Login Credentials Requested case and Login Credentials received case per Stormy&apos;s request 1/31/23.
+6/29/23- Removed Product End Date case for PK team based on Aaron&apos;s request.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>cstCaseDesc</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Account__r.Name} &amp; &quot; has requested &quot; &amp; TEXT({!$Record.Integration_Type__c}) &amp; &quot; payroll integration via &quot; &amp; TEXT({!$Record.Transmission_Method__c}) &amp; &quot;. The payroll provider is noted as a Partner Association on the Add on Product.  What to do next:  Send the Integration Set Up email  to the sponsor, which includes instruction for them to complete the one-time setup that is their responsibility.    Additional Resources: Details and status of your client’s ongoing integration can be found in the SalesForce on the client account page under the Add-On Product section. You can find additional information and resources regarding payroll integration in Box in the “Payroll Processing Toolbox” folder== https://app.box.com/folder/61427173732&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>cstCaseSubject</name>
+        <dataType>String</dataType>
+        <expression>&quot;Payroll Integration Requested - &quot; &amp; TEXT( {!$Record.Integration_Type__c} ) &amp; &quot; via &quot; &amp; TEXT({!$Record.Transmission_Method__c}) &amp; &quot; - Send instruction to client&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>cstIntDesc</name>
+        <dataType>String</dataType>
+        <expression>&quot;The &quot; &amp; TEXT({!$Record.Integration_Type__c}) &amp; &quot; payroll integration via &quot; &amp; TEXT({!$Record.Transmission_Method__c}) &amp; &quot; for &quot; &amp; {!$Record.Account__r.Name} &amp; &quot; is complete. The sponsor will now be transitioning to their ongoing support responsibilities found in their Roles &amp; Responsibilities Checklist included in the email template.  What to do next - 1. Send “Integration Set-Up Complete 2nd email ” Template from Payroll Integration Templates.  2. Ask client to confirm their next expected payroll date and enter the date in the Payroll Integration Add-On Product object&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>impCaseDesc</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Account__r.Name} &amp; &quot; has requested &quot; &amp; TEXT({!$Record.Integration_Type__c}) &amp; &quot; payroll integration via &quot; &amp; TEXT({!$Record.Transmission_Method__c}) &amp; &quot;. The payroll provider is noted as a Partner Association on the Add on Product.  What to do next:  Send the Integration Set Up email  to the sponsor, which includes instruction for them to complete the one-time setup that is their responsibility.    Additional Resources: Details and status of your client’s ongoing integration can be found in the SalesForce on the client account page under the Add-On Product section. You can find additional information and resources regarding payroll integration in Box in the “Payroll Processing Toolbox” folder== https://app.box.com/folder/61427173732&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>impCaseSubject</name>
+        <dataType>String</dataType>
+        <expression>&quot;Payroll Integration Requested - &quot; &amp; TEXT( {!$Record.Integration_Type__c} ) &amp; &quot; via &quot; &amp; TEXT({!$Record.Transmission_Method__c}) &amp; &quot; - Send instruction to client&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>loginCredReceivedSubject</name>
+        <dataType>String</dataType>
+        <expression>&quot;Login Credentials &amp; Source Mapping Received for &quot; + {!$Record.Account__r.Name}</expression>
+    </formulas>
+    <formulas>
+        <name>loginCredRecievedDesc</name>
+        <dataType>String</dataType>
+        <expression>&quot;Create Sales Force tasks to begin payroll submissions on &quot; + TEXT({!$Record.X1st_Payroll_Expected__c}) + BR() + 
+&quot;Update source mapping object in Sales Force.&quot; + BR() + 
+&quot;Complete onboarding with vendors, if applicable.&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>loginCredReqDesc</name>
+        <dataType>String</dataType>
+        <expression>&quot;We receive login credentials. Please test the login access and complete the following steps based on the results:&quot; + BR()  + BR() +
+
+&quot;If it’s valid, request enter a date in the Login Cred Received field.&quot; + BR() +
+&quot;If it’s not valid, request contact the client for correct access level.&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>loginCredReqSubject</name>
+        <dataType>String</dataType>
+        <expression>&quot;Login Credential Requested for &quot; + {!$Record.Account__r.Name}</expression>
+    </formulas>
+    <formulas>
+        <name>prodEndDateDesc</name>
+        <dataType>String</dataType>
+        <expression>&quot;Please terminate EPS services for this client effective &quot; + TEXT(TODAY()) + &quot; because &quot; + TEXT({!$Record.Product_End_Reason__c}) + &quot;.&quot; + BR() + 
+
+&quot;Delete future Sales Force tasks.&quot; + BR() + 
+
+&quot;Send client term email which includes instructions to report contributions on the webform.&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>prodEndDateSubject</name>
+        <dataType>String</dataType>
+        <expression>&quot;Product End Date Entered for &quot; + {!$Record.Account__r.Name}</expression>
+    </formulas>
+    <interviewLabel>Add-On Product | After Update | Master Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Add-On Product | After Update | Master Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Existing_Plan</name>
+        <label>Existing Plan</label>
+        <locationX>534</locationX>
+        <locationY>1666</locationY>
+        <inputAssignments>
+            <field>Client_Stage__c</field>
+            <value>
+                <stringValue>Existing Client</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>New_Plan</name>
+        <label>New Plan</label>
+        <locationX>537</locationX>
+        <locationY>1519</locationY>
+        <inputAssignments>
+            <field>Client_Stage__c</field>
+            <value>
+                <stringValue>New Client</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Add_On_Product</name>
+        <label>Update Add-On Product</label>
+        <locationX>511</locationX>
+        <locationY>927</locationY>
+        <connector>
+            <targetReference>Plan_Linked</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Payroll_Vendor_Fees__c</field>
+            <value>
+                <elementReference>$Record__Prior.Plan__r.Plan_Billable_Headcount__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Downloadable_SOC_1_Requested_0</targetReference>
+        </connector>
+        <object>Add_On_Products__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kotapay_Updates</fullName>
+    <columns>NAME</columns>
+    <columns>Kotapay_Doc_Created__c</columns>
+    <columns>Kotapay_Client_Signed__c</columns>
+    <columns>Kotapay_UBQT_Signed__c</columns>
+    <columns>Kotapay_Complete__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Kotapay_Complete__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>Custodian__c</field>
+        <operation>equals</operation>
+        <value>&quot;Schwab &amp; Co., Inc.&quot;,Schwab Trust</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Plan__c.X401_k</value>
+    </filters>
+    <label>Kotapay Updates</label>
+</ListView>

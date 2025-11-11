@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financial_Professional_Role__c</fullName>
+    <description>This field has a corresponding field on Proposal. This field is updated via flow to match what is on the proposal. If you add/remove a value here, do the same for the Proposal field.</description>
+    <label>Financial Professional Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RR</fullName>
+                <default>false</default>
+                <label>RR</label>
+            </value>
+            <value>
+                <fullName>IAR</fullName>
+                <default>false</default>
+                <label>IAR</label>
+            </value>
+            <value>
+                <fullName>IA</fullName>
+                <default>false</default>
+                <label>IA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Imp_Creation_on_Upsert</fullName>
+    <active>true</active>
+    <description>Prevents new Imp records from being created during Upsert. Add the alias of every new user trained to do Upserts.</description>
+    <errorConditionFormula>AND(
+ISNEW(),
+$User.Alias = &quot;sbula&quot;
+)</errorConditionFormula>
+    <errorMessage>Prevented creation of new Imp record.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Objective__c</entityName>
+    <fieldName>Stage__c</fieldName>
+    <masterLabel>BI Dev Path</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;Meet with department heads to understand the problem(s) and proposed solutions addressed in Project. &lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;Discuss desired timeline, scope, and prioritization (for requesting team). &lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;Are other systems/teams impacted? &lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;Is this replacing an existing process?&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>1. Discovery</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ol&gt;&lt;li&gt;Outline system and labor requirements&lt;/li&gt;&lt;li&gt;Prioritize project based on other BI projects&lt;/li&gt;&lt;li&gt;Determined if new/updated SOP needs to be created and, if so, create new Key Result and assign to L+D&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>2. Analysis</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ol&gt;&lt;li&gt;Establish project items and initial timeline for development &amp;amp; release&lt;/li&gt;&lt;li&gt;Send proposed development &amp;amp; timeline to stakeholders through Chatter on Project record&lt;/li&gt;&lt;li&gt;Determine UAT requirements to demonstrate successful implementation of project items&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>3. Design</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ol&gt;&lt;li&gt;Team begins active development&lt;/li&gt;&lt;li&gt;Project team and Team Lead meet to discuss status, immediate roadmap, potential blockers during Dev time during weekly project meeting&lt;/li&gt;&lt;li&gt;List items created/changed for project on Project record (flows, fields, templates, etc.)&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>4. Development</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ol&gt;&lt;li&gt;Team members selected for UAT phase. (Person that requests new feature/enhancement and team members if necessary)&lt;/li&gt;&lt;li&gt;Perform UAT in FullCopy sandbox&lt;/li&gt;&lt;li&gt;Determine any changes to be made/bugs to be fixed and, if necessary, move back to stage 4&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>5. UAT</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ol&gt;&lt;li&gt;Deploy features to production&lt;/li&gt;&lt;li&gt;Confirm that everything was pushed through pipeline and permissions were assigned&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>6. Launch</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ol&gt;&lt;li&gt;Final SOPs and Release Notes delivered to users/attached to Project record&lt;/li&gt;&lt;li&gt;Intro features to any relevant teams&lt;/li&gt;&lt;li&gt;Debrief with stakeholders&lt;/li&gt;&lt;li&gt;Add any undelivered or uncommitted project items to next iteration of project in new Project record&lt;/li&gt;&lt;li&gt;If project replaced an existing process, turn off old automations, remove old fields/templates&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>7. Completion</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

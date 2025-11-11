@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Sponsor_or_Employee__c</fullName>
+    <description>Question Created by the Survey Builder</description>
+    <inlineHelpText>Are you a Plan Sponsor or Employee?</inlineHelpText>
+    <label>Plan Sponsor or Employee</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Plan Sponsor</fullName>
+                <default>false</default>
+                <label>Plan Sponsor</label>
+            </value>
+            <value>
+                <fullName>Employee</fullName>
+                <default>false</default>
+                <label>Employee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

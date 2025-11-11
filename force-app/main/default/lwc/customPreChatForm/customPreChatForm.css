@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Neurial Grotesque';
+    src: url("/resource/ChatFont/ChatFont.woff2") format('woff2');
+}
+
+:host {
+    font-family: 'Neurial Grotesque', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    overflow: hidden;
+    background: #FFFFFF;
+    padding: 2em;
+}
+
+.custom-button {
+    font-family: 'Neurial Grotesque', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: white;
+    background: #FF452E;
+    border-radius: 50px;
+    display: block;
+    width: 100%;
+    padding: 3px 0;
+    border: none;
+    cursor: pointer;
+}

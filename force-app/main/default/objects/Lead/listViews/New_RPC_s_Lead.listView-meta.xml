@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_RPC_s_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>New RPC&apos;s</label>
+    <queue>New_RPC_s</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

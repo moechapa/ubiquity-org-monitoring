@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X15b__c</fullName>
+    <description>If “Yes,” how does the 401(k) plan satisfy the nondiscrimination requirements for employee deferrals and employer
+matching contributions (as applicable) under sections 401(k)(3) and 401(m)(2)?.</description>
+    <inlineHelpText>If “Yes,” how does the 401(k) plan satisfy the nondiscrimination requirements for employee deferrals and employer
+matching contributions (as applicable) under sections 401(k)(3) and 401(m)(2)?.</inlineHelpText>
+    <label>Nondescrimination Requirements (15b)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Design-Based SH Method</fullName>
+                <default>false</default>
+                <label>Design-Based SH Method</label>
+            </value>
+            <value>
+                <fullName>ADP/ACP Test</fullName>
+                <default>false</default>
+                <label>ADP/ACP Test</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

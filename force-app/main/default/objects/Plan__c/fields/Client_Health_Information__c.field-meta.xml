@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Health_Information__c</fullName>
+    <description>Automated process indicates positive and negative metrics that are affecting the clients health.</description>
+    <inlineHelpText>Automated process indicates positive and negative metrics that are affecting the clients health.</inlineHelpText>
+    <label>Client Health Information</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

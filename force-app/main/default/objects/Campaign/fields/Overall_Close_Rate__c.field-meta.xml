@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Overall_Close_Rate__c</fullName>
+    <description>Number of Won Opportunities divided by the Number of Leads</description>
+    <formula>NumberOfWonOpportunities /  NumberOfLeads</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Number of Won Opportunities divided by the Number of Leads</inlineHelpText>
+    <label>Overall Close Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Percent</type>
+</CustomField>

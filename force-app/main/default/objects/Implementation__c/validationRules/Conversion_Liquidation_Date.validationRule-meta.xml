@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conversion_Liquidation_Date</fullName>
+    <active>true</active>
+    <description>Requires liquidation date when assets received is entered</description>
+    <errorConditionFormula>NOT(ISBLANK( Assets_Received__c ))
+&amp;&amp;
+ BEGINS(RecordTypeId, &quot;01237000000AYcX&quot;)  
+&amp;&amp;
+ISBLANK( Liquidation_Date__c )
+&amp;&amp;
+ $User.Email != &quot;tmoyer@myubiquity.com&quot;</errorConditionFormula>
+    <errorDisplayField>Liquidation_Date__c</errorDisplayField>
+    <errorMessage>Please populate the Liquidation Date</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Verify_Contacts__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Verify Advisor, TPA, internal contacts + Note</description>
+    <inlineHelpText>Verify Advisor, TPA, internal contacts + Note</inlineHelpText>
+    <label>Verify Contacts</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

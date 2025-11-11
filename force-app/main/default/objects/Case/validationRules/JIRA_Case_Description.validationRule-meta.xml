@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JIRA_Case_Description</fullName>
+    <active>true</active>
+    <description>Forces user to change default help text in Description line to actual data Product Success can use</description>
+    <errorConditionFormula>Description  = &quot;This is the description section. Please describe the issue you are encountering. Is something not functioning as expected, does data need to be corrected, or any other issues. Provide any research done to determine the cause of the issue and any steps take to attempt to resolve it if possible. Any links can be included here as will. Images or files can be added as attachments.&quot;</errorConditionFormula>
+    <errorDisplayField>Description</errorDisplayField>
+    <errorMessage>Please change &quot;Description&quot; the text in the field currently is just help text to guide you/confirm what you need to enter</errorMessage>
+</ValidationRule>

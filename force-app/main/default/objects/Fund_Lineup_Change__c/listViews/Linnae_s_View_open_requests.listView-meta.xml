@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Linnae_s_View_open_requests</fullName>
+    <columns>NAME</columns>
+    <columns>Plan__c</columns>
+    <columns>Date_Requested__c</columns>
+    <columns>Fund_Change_Description__c</columns>
+    <columns>Fund_Lineup_Change_Status__c</columns>
+    <columns>Comments__c</columns>
+    <columns>Fee_Disclosure_Updated__c</columns>
+    <columns>Fund_Lineup_Change_Completion_Date__c</columns>
+    <columns>Fund_Lineup_Change__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Fund_Lineup_Change_Completion_Date__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Linnae&apos;s View - open requests</label>
+</ListView>

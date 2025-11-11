@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Omni Saver</name>
+    <queueMembers>
+        <users>
+            <user>ahale@myubiquity.com</user>
+            <user>acameron@myubiquity.com</user>
+            <user>cholden@myubiquity.com</user>
+            <user>clucero@myubiquity.com</user>
+            <user>dfulmer@myubiquity.com</user>
+            <user>gward@myubiquity.com</user>
+            <user>amarquez@myubiquity.com</user>
+            <user>npilner@myubiquity.com</user>
+            <user>nnewby@myubiquity.com</user>
+            <user>runutoa@myubiquity.com</user>
+            <user>sthathi@myubiquity.com</user>
+            <user>zbasiljantzen@myubiquity.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Omni_Support</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>MessagingSession</sobjectType>
+    </queueSobject>
+</Queue>

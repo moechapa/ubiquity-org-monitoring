@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>For users who need to be available for both cases and messaging session simultaneously.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Omni Channel Messaging and Case Status</label>
+    <servicePresenceStatusAccesses>
+        <enabled>true</enabled>
+        <servicePresenceStatus>Available_Messaging_Case</servicePresenceStatus>
+    </servicePresenceStatusAccesses>
+</PermissionSet>

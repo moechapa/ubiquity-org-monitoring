@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Open_Requests_with_Detail</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Date_Requested__c</columns>
+    <columns>Fund_Change_Description__c</columns>
+    <columns>Fee_Disclosure_Updated__c</columns>
+    <columns>Fund_Lineup_Change_Completion_Date__c</columns>
+    <columns>Fund_Lineup_Change__c</columns>
+    <columns>Fund_Lineup_Change_Status__c</columns>
+    <columns>Fund_Lineup_Change_Type__c</columns>
+    <columns>Plan__c</columns>
+    <columns>Team_Member__c</columns>
+    <columns>LAST_ACTIVITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Fund_Lineup_Change_Completion_Date__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>All Open Requests with Detail</label>
+</ListView>

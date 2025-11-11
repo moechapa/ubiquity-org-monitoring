@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Best_Contact_Time_Message__c</fullName>
+    <description>Best time to contact the lead.</description>
+    <inlineHelpText>The lead has communicated in this area when the best time to contact  them is.</inlineHelpText>
+    <label>Best Contact Time Message</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

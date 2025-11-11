@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Implementation_Tasks</fullName>
+    <columns>Paradigm_Company_URL__c</columns>
+    <columns>Imp_Flag__c</columns>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Actual_Start_Date__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Actual_Completion_Date__c</columns>
+    <columns>KPI_Milestone__c</columns>
+    <columns>Responsible_Party__c</columns>
+    <columns>Order_Number__c</columns>
+    <columns>Implementation__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Assigned_To__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Ready,In Progress</value>
+    </filters>
+    <filters>
+        <field>Implementation_Stage__c</field>
+        <operation>notEqual</operation>
+        <value>Completed,No Start,Plan Stalled,On Hold</value>
+    </filters>
+    <filters>
+        <field>Add_On_Product__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>My Project Tasks</label>
+    <sharedTo>
+        <role>Implementation_Manager</role>
+        <role>Implementations</role>
+    </sharedTo>
+</ListView>

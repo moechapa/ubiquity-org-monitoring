@@ -1,0 +1,40 @@
+{
+  "appPageId" : "7b5dc438-21a8-4ee6-b109-ca1d1cbbc450",
+  "componentName" : "embedded_service_iframe:frameLayout",
+  "dataProviders" : [ ],
+  "id" : "78dbabf0-0bab-4c4a-9b78-d5260ef8cd60",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "embeddedMessaging:container",
+      "id" : "68f8e34f-b638-4f36-a95a-683524542540",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "924b19aa-eb81-4c8c-8cde-6679f2fbc663",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Home",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "50d0686a-1508-4cd5-9bfb-27a2ab5513e3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "af1becd8-5ce3-4d0c-a27b-37290a626525",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

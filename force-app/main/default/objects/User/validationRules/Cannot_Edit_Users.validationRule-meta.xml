@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Edit_Users</fullName>
+    <active>false</active>
+    <errorConditionFormula>$User.UserRoleId &lt;&gt; &quot;00E00000006qGD8&quot; &amp;&amp;
+$User.UserRoleId &lt;&gt; &quot;00E00000006pgxa&quot; &amp;&amp;
+$User.UserRoleId &lt;&gt; &quot;00E1G000000p1yx&quot;</errorConditionFormula>
+    <errorMessage>You do not have permission to edit user profiles.</errorMessage>
+</ValidationRule>

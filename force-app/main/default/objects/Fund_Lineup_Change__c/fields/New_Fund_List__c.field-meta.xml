@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Fund_List__c</fullName>
+    <description>New Fund List being requested.</description>
+    <inlineHelpText>New Fund List being requested.</inlineHelpText>
+    <label>New Fund List</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Custom</fullName>
+                <default>false</default>
+                <label>Custom</label>
+            </value>
+            <value>
+                <fullName>DFA Turnkey list</fullName>
+                <default>false</default>
+                <label>DFA Turnkey list</label>
+            </value>
+            <value>
+                <fullName>Globalt I Shares</fullName>
+                <default>false</default>
+                <label>Globalt I Shares</label>
+            </value>
+            <value>
+                <fullName>Intuit Morningstar</fullName>
+                <default>false</default>
+                <label>Intuit Morningstar</label>
+            </value>
+            <value>
+                <fullName>Loring Ward</fullName>
+                <default>false</default>
+                <label>Loring Ward</label>
+            </value>
+            <value>
+                <fullName>Morningstar 25 bps</fullName>
+                <default>false</default>
+                <label>Morningstar 25 bps</label>
+            </value>
+            <value>
+                <fullName>Morningstar 50 bps</fullName>
+                <default>false</default>
+                <label>Morningstar 50 bps</label>
+            </value>
+            <value>
+                <fullName>Morningstar ETF</fullName>
+                <default>false</default>
+                <label>Morningstar ETF</label>
+            </value>
+            <value>
+                <fullName>Morningstar Managed</fullName>
+                <default>false</default>
+                <label>Morningstar Managed</label>
+            </value>
+            <value>
+                <fullName>Morningstar Schwab</fullName>
+                <default>false</default>
+                <label>Morningstar Schwab</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Principal Investment Portfolio</fullName>
+                <default>false</default>
+                <label>Principal Investment Portfolio</label>
+            </value>
+            <value>
+                <fullName>Prudent DFA</fullName>
+                <default>false</default>
+                <label>Prudent DFA</label>
+            </value>
+            <value>
+                <fullName>Prudent DFA Sustainable</fullName>
+                <default>false</default>
+                <label>Prudent DFA Sustainable</label>
+            </value>
+            <value>
+                <fullName>Schwab RIA Direct</fullName>
+                <default>false</default>
+                <label>Schwab RIA Direct</label>
+            </value>
+            <value>
+                <fullName>T. Rowe Price</fullName>
+                <default>false</default>
+                <label>T. Rowe Price</label>
+            </value>
+            <value>
+                <fullName>Vanguard Admiral</fullName>
+                <default>false</default>
+                <label>Vanguard Admiral</label>
+            </value>
+            <value>
+                <fullName>Vanguard Long List</fullName>
+                <default>false</default>
+                <label>Vanguard Long List</label>
+            </value>
+            <value>
+                <fullName>Zenefits Vanguard List</fullName>
+                <default>false</default>
+                <label>Zenefits Vanguard List</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Year_Amendment__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check this box if the requested amendment won&apos;t go into effect until next year</description>
+    <inlineHelpText>Check this box if the requested amendment won&apos;t go into effect until next year</inlineHelpText>
+    <label>Next Year Amendment</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Profit_Sharing__c</fullName>
+    <label>Profit Sharing</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Service_Option__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Profit_Sharing</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Single IRA</controllingFieldValue>
+            <controllingFieldValue>Express IRA</controllingFieldValue>
+            <valueName>No</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement TPA</controllingFieldValue>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Legacy Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <valueName>Pro Rata</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <valueName>Permitted Disparity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement TPA</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement</controllingFieldValue>
+            <valueName>New Comparability</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

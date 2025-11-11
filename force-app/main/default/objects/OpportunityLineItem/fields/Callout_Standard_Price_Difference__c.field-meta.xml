@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Callout_Standard_Price_Difference__c</fullName>
+    <formula>PricebookEntry.Callout_Standard_Price_Difference__c</formula>
+    <label>Callout Standard Price Difference</label>
+    <type>Checkbox</type>
+</CustomField>

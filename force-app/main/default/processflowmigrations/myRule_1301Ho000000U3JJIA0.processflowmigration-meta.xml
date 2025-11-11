@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProcessFlowMigration xmlns="http://soap.sforce.com/2006/04/metadata">
+    <destinationFlowDefinition>Lead_NPN_Assignment_1</destinationFlowDefinition>
+    <destinationFlowVersion>Lead_NPN_Assignment_1-5</destinationFlowVersion>
+    <developerName>myRule_1301Ho000000U3JJIA0</developerName>
+    <masterLabel>Lead | NPN Assignment_1</masterLabel>
+    <migratedCriteriaLabel>Lead Includes NPN</migratedCriteriaLabel>
+    <migratedCriteriaName>myRule_1</migratedCriteriaName>
+    <processVersion>Lead_NPN_Assignment-18</processVersion>
+</ProcessFlowMigration>

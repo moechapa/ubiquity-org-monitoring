@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Safe_Harbor__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This plan has selected the Safe Harbor feature.</description>
+    <inlineHelpText>This field should be checked if the plan has opted for Safe Harbor.</inlineHelpText>
+    <label>Safe Harbor</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

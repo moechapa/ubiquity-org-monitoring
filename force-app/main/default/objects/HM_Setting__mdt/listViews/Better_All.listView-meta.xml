@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Better_All</fullName>
+    <columns>MasterLabel</columns>
+    <columns>Source_Field__c</columns>
+    <columns>Value__c</columns>
+    <columns>Score__c</columns>
+    <columns>Weight__c</columns>
+    <columns>Round_Up_Weight__c</columns>
+    <columns>Target_Field__c</columns>
+    <columns>Related_Date_Field__c</columns>
+    <columns>Age_of_Reduction__c</columns>
+    <columns>Reduction_per_Day__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Better All</label>
+    <language>en_US</language>
+</ListView>

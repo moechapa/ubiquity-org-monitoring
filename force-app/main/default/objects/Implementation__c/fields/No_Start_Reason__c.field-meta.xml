@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Start_Reason__c</fullName>
+    <description>Reason Plan is marked as a No-Start</description>
+    <inlineHelpText>Reason Plan is marked as a No-Start</inlineHelpText>
+    <label>No-Start Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Advisor Concern</fullName>
+                <default>false</default>
+                <label>Advisor Concern</label>
+            </value>
+            <value>
+                <fullName>Auto-Enroll Requirement</fullName>
+                <default>false</default>
+                <label>Auto-Enroll Requirement</label>
+            </value>
+            <value>
+                <fullName>Changed Mind</fullName>
+                <default>false</default>
+                <label>Changed Mind</label>
+            </value>
+            <value>
+                <fullName>Client Backing Out</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Client Backing Out</label>
+            </value>
+            <value>
+                <fullName>Company Restructure</fullName>
+                <default>false</default>
+                <label>Company Restructure</label>
+            </value>
+            <value>
+                <fullName>Cost</fullName>
+                <default>false</default>
+                <label>Cost</label>
+            </value>
+            <value>
+                <fullName>Employees Not Interested</fullName>
+                <default>false</default>
+                <label>Employees Not Interested</label>
+            </value>
+            <value>
+                <fullName>Extension Too Far Out</fullName>
+                <default>false</default>
+                <label>Extension Too Far Out</label>
+            </value>
+            <value>
+                <fullName>Fraudulent Account</fullName>
+                <default>false</default>
+                <label>Fraudulent Account</label>
+            </value>
+            <value>
+                <fullName>Fund Lineups</fullName>
+                <default>false</default>
+                <label>Fund Lineups</label>
+            </value>
+            <value>
+                <fullName>Implementations Delays</fullName>
+                <default>false</default>
+                <label>Implementations Delays</label>
+            </value>
+            <value>
+                <fullName>Integration Issues</fullName>
+                <default>false</default>
+                <label>Integration Issues</label>
+            </value>
+            <value>
+                <fullName>Integration Issues (instead of only integration as the reason)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Integration Issues (instead of only integration as the reason)</label>
+            </value>
+            <value>
+                <fullName>Integrations</fullName>
+                <default>false</default>
+                <label>Integrations</label>
+            </value>
+            <value>
+                <fullName>Integration Unavailable</fullName>
+                <default>false</default>
+                <label>Integration Unavailable</label>
+            </value>
+            <value>
+                <fullName>No Longer A Priority</fullName>
+                <default>false</default>
+                <label>No Longer A Priority</label>
+            </value>
+            <value>
+                <fullName>No Longer Interested</fullName>
+                <default>false</default>
+                <label>No Longer Interested</label>
+            </value>
+            <value>
+                <fullName>No Reason Given</fullName>
+                <default>false</default>
+                <label>No Reason Given</label>
+            </value>
+            <value>
+                <fullName>No Response</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Response</label>
+            </value>
+            <value>
+                <fullName>No Spanish Materials</fullName>
+                <default>false</default>
+                <label>No Spanish Materials</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Provider</fullName>
+                <default>false</default>
+                <label>Other Provider</label>
+            </value>
+            <value>
+                <fullName>Other Provider (Payroll In House)</fullName>
+                <default>false</default>
+                <label>Other Provider (Payroll In House)</label>
+            </value>
+            <value>
+                <fullName>Platform Bugs</fullName>
+                <default>false</default>
+                <label>Platform Bugs</label>
+            </value>
+            <value>
+                <fullName>Product Fit (Part-Time Employees)</fullName>
+                <default>false</default>
+                <label>Product Fit (Part-Time Employees)</label>
+            </value>
+            <value>
+                <fullName>Product Fit (Union Employees)</fullName>
+                <default>false</default>
+                <label>Product Fit (Union Employees)</label>
+            </value>
+            <value>
+                <fullName>Product Type Not Available</fullName>
+                <default>false</default>
+                <label>Product Type Not Available</label>
+            </value>
+            <value>
+                <fullName>Switch to Principal</fullName>
+                <default>false</default>
+                <label>Switch to Principal</label>
+            </value>
+            <value>
+                <fullName>System Issue</fullName>
+                <default>false</default>
+                <label>System Issue</label>
+            </value>
+            <value>
+                <fullName>Technology averse</fullName>
+                <default>false</default>
+                <label>Technology averse</label>
+            </value>
+            <value>
+                <fullName>Terminating Plan</fullName>
+                <default>false</default>
+                <label>Terminating Plan</label>
+            </value>
+            <value>
+                <fullName>Too Complex</fullName>
+                <default>false</default>
+                <label>Too Complex</label>
+            </value>
+            <value>
+                <fullName>Ubiquity Not a Fit</fullName>
+                <default>false</default>
+                <label>Ubiquity Not a Fit</label>
+            </value>
+            <value>
+                <fullName>Under Informed</fullName>
+                <default>false</default>
+                <label>Under Informed</label>
+            </value>
+            <value>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+                <label>Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Unresponsive (originally “No Response”)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Unresponsive (originally “No Response”)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

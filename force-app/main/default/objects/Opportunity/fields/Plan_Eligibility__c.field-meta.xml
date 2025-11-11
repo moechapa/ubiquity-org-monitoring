@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Eligibility__c</fullName>
+    <description>When is participant eligible to enter the plan</description>
+    <inlineHelpText>When is participant eligible to enter the plan</inlineHelpText>
+    <label>Plan Eligibility</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Service_Option__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Immediate</fullName>
+                <default>false</default>
+                <label>Immediate</label>
+            </value>
+            <value>
+                <fullName>One Month</fullName>
+                <default>false</default>
+                <label>One Month</label>
+            </value>
+            <value>
+                <fullName>Two Months</fullName>
+                <default>false</default>
+                <label>Two Months</label>
+            </value>
+            <value>
+                <fullName>Three Months</fullName>
+                <default>false</default>
+                <label>Three Months</label>
+            </value>
+            <value>
+                <fullName>6 Months</fullName>
+                <default>false</default>
+                <label>6 Months</label>
+            </value>
+            <value>
+                <fullName>1 Year (1000 Hours)</fullName>
+                <default>false</default>
+                <label>1 Year (1000 Hours)</label>
+            </value>
+            <value>
+                <fullName>1 Year</fullName>
+                <default>false</default>
+                <label>1 Year</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>Three Months</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>1 Year</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>Immediate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>One Month</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <valueName>Two Months</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>6 Months</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>1 Year (1000 Hours)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

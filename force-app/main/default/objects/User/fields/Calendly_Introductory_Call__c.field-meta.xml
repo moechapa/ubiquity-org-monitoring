@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calendly_Introductory_Call__c</fullName>
+    <description>Introductory call w the new client to review the plan, tour the site, and review outstanding items.</description>
+    <inlineHelpText>Introductory call w the new client to review the plan, tour the site, and review outstanding items.</inlineHelpText>
+    <label>Calendly Introductory Call</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Url</type>
+</CustomField>

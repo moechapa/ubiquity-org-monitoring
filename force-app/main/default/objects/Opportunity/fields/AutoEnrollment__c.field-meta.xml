@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AutoEnrollment__c</fullName>
+    <description>Will the plan be utilizing Auto-Enrollment, and if so what type?</description>
+    <inlineHelpText>Will the plan be utilizing Auto-Enrollment, and if so what type?</inlineHelpText>
+    <label>Auto-Enrollment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Service_Option__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>EACA</fullName>
+                <default>false</default>
+                <label>EACA</label>
+            </value>
+            <value>
+                <fullName>QACA</fullName>
+                <default>false</default>
+                <label>QACA</label>
+            </value>
+            <value>
+                <fullName>ACA</fullName>
+                <default>false</default>
+                <label>ACA</label>
+            </value>
+            <value>
+                <fullName>Automatic Enrollment with Safe Harbor (QACA)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Automatic Enrollment with Safe Harbor (QACA)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <controllingFieldValue>Direct Integration</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Enhanced Payroll Service</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>New Comp</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <controllingFieldValue>Direct Integration</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Enhanced Payroll Service</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>QACA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Integration</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Enhanced Payroll Service</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>New Comp</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>EACA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <valueName>ACA</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

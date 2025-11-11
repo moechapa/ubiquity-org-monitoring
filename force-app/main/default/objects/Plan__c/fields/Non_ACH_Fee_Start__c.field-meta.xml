@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_ACH_Fee_Start__c</fullName>
+    <description>Date fees started to be charged for not using ACH to fund the plan.   If blank, review waiver fields to verify if/when waiver expires.</description>
+    <inlineHelpText>Date fees started to be charged for not using ACH to fund the plan.   If blank, review waiver fields to verify if/when waiver expires.</inlineHelpText>
+    <label>Non-ACH Fee Start</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

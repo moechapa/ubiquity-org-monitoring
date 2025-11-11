@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>x5500_Final_Reqd_Fields_Creation</fullName>
+    <active>true</active>
+    <description>Required fields when creating Final 5500</description>
+    <errorConditionFormula>RecordTypeId = &apos;01237000000N0lp&apos;
+&amp;&amp;
+ ISPICKVAL(X5500_Situation__c, &apos;Final 5500 Only&apos;)
+&amp;&amp;
+(
+ISBLANK( Plan_Year_End_Final__c )
+||
+ISBLANK( Form_Year_Final__c )
+||
+ISBLANK( Due_Date_Final__c )
+)</errorConditionFormula>
+    <errorMessage>Complete Plan Year End, Form Year, &amp; Due Date in FINAL 5500 section.</errorMessage>
+</ValidationRule>

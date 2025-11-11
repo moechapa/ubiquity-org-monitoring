@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Forecast_Channel__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>What Forecast Channel does this partner fall into?</description>
+    <inlineHelpText>What Forecast Channel does this partner fall into?</inlineHelpText>
+    <label>Forecast Channel</label>
+    <referenceTo>Forecast_Channel__c</referenceTo>
+    <relationshipLabel>Partners</relationshipLabel>
+    <relationshipName>Partners</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

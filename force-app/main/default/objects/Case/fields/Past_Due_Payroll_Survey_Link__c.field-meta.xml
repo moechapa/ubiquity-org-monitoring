@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Past_Due_Payroll_Survey_Link__c</fullName>
+    <description>Hidden field to generate URL for unique Past Due Payroll Survey</description>
+    <externalId>false</externalId>
+    <formula>&quot;http://myubiquity.force.com/survey?ratingType=3&amp;RecordTypeId=0121G000000TjeQQAS&amp;fieldset=Past_Due_Payroll_COVID19&amp;lang=en_US&amp;radioPicklistOptions=false&amp;simplesurvey__Account__c=&quot; +  AccountId  + 
+&quot;&amp;simplesurvey__Contact__c=&quot; +  ContactId +
+&quot;&amp;Plan__c=&quot; +  Plan__c + 
+&quot;&amp;simplesurvey__Case__c=&quot; +  Id</formula>
+    <inlineHelpText>Hidden field to generate URL for unique Past Due Payroll Survey</inlineHelpText>
+    <label>Past Due Payroll Survey Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

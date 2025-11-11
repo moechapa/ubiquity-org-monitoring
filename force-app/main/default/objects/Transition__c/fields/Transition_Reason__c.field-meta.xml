@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transition_Reason__c</fullName>
+    <description>What is the reason for the transition? This is dependent on the transition type. If unable to obtain a reason from client, enter “No reason Given”</description>
+    <inlineHelpText>What is the reason for the transition? This is dependent on the transition type. If unable to obtain a reason from client, enter “No reason Given”</inlineHelpText>
+    <label>Transition Reason</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Admin: Company acquired and merged with another plan</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Admin: Company acquired and merged with another plan</label>
+            </value>
+            <value>
+                <fullName>Admin: Forced – unpaid invoices</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Admin: Forced – unpaid invoices</label>
+            </value>
+            <value>
+                <fullName>Admin: No response / reason not provided</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Admin: No response / reason not provided</label>
+            </value>
+            <value>
+                <fullName>Admin: Other (write details in comments)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Admin: Other (write details in comments)</label>
+            </value>
+            <value>
+                <fullName>Admin: Transition to Single K</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Admin: Transition to Single K</label>
+            </value>
+            <value>
+                <fullName>Advisor Initiated Move</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Advisor Initiated Move</label>
+            </value>
+            <value>
+                <fullName>Budget Constraints</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Budget Constraints</label>
+            </value>
+            <value>
+                <fullName>Company Acquired - Merged with Another Plan</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Company Acquired - Merged with Another Plan</label>
+            </value>
+            <value>
+                <fullName>Company Closing</fullName>
+                <default>false</default>
+                <label>Company Closing</label>
+            </value>
+            <value>
+                <fullName>Costs: Lower fees</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Costs: Lower fees</label>
+            </value>
+            <value>
+                <fullName>Enhanced Offering</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Enhanced Offering</label>
+            </value>
+            <value>
+                <fullName>Features Not Offered</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Features Not Offered</label>
+            </value>
+            <value>
+                <fullName>Forced - Unpaid Invoice</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Forced - Unpaid Invoice</label>
+            </value>
+            <value>
+                <fullName>Integration Issues</fullName>
+                <default>false</default>
+                <label>Integration Issue(s)</label>
+            </value>
+            <value>
+                <fullName>Integration Issues(s)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Integration Issues(s)</label>
+            </value>
+            <value>
+                <fullName>Low Plan Participation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Low Plan Participation</label>
+            </value>
+            <value>
+                <fullName>Moving to PEP/MEP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Moving to PEP/MEP</label>
+            </value>
+            <value>
+                <fullName>Nonpayment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Nonpayment</label>
+            </value>
+            <value>
+                <fullName>No Reason Given</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Reason Given</label>
+            </value>
+            <value>
+                <fullName>No-Start</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No-Start</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Ownership Leadership Change</fullName>
+                <default>false</default>
+                <label>Ownership/Leadership Change</label>
+            </value>
+            <value>
+                <fullName>Ownership/Leadership Change</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ownership/Leadership Change</label>
+            </value>
+            <value>
+                <fullName>PriceCost</fullName>
+                <default>false</default>
+                <label>Price/Cost</label>
+            </value>
+            <value>
+                <fullName>Product: Better product functionality/features</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Product: Better product functionality/features</label>
+            </value>
+            <value>
+                <fullName>Product: Low plan participation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Product: Low plan participation</label>
+            </value>
+            <value>
+                <fullName>Product: More accurate information</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Product: More accurate information</label>
+            </value>
+            <value>
+                <fullName>Restatement Fees</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Restatement Fees</label>
+            </value>
+            <value>
+                <fullName>Service: More professionalism</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Service: More professionalism</label>
+            </value>
+            <value>
+                <fullName>Service: Proactive, regular guidance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Service: Proactive, regular guidance</label>
+            </value>
+            <value>
+                <fullName>Service Issues</fullName>
+                <default>false</default>
+                <label>Service Issues</label>
+            </value>
+            <value>
+                <fullName>Simply to Principal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Simply to Principal</label>
+            </value>
+            <value>
+                <fullName>Support: Faster issue resolution time</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Support: Faster issue resolution time</label>
+            </value>
+            <value>
+                <fullName>Support: Faster response time to initial inquiry</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Support: Faster response time to initial inquiry</label>
+            </value>
+            <value>
+                <fullName>Support: More self-service info</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Support: More self-service info</label>
+            </value>
+            <value>
+                <fullName>Switched to Another Ubiquity Plan</fullName>
+                <default>false</default>
+                <label>Switched to Another Ubiquity Plan</label>
+            </value>
+            <value>
+                <fullName>Switched to Non-401(k) Retirement Plan</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Switched to Non-401(k) Retirement Plan</label>
+            </value>
+            <value>
+                <fullName>Switched to Non-401(k) Ubiquity Plan</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Switched to Non-401(k) Ubiquity Plan</label>
+            </value>
+            <value>
+                <fullName>System Issues</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>System Issues</label>
+            </value>
+            <value>
+                <fullName>Zenefits Contract Expiration</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Zenefits Contract Expiration</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

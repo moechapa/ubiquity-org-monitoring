@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Industry_Validation</fullName>
+    <active>false</active>
+    <description>Insures that Business/ Industry is adequately populated before close</description>
+    <errorConditionFormula>ISPICKVAL( StageName , &quot;Closed Won&quot;) 
+&amp;&amp; 
+ISPICKVAL(Account.Business_Industry__c, &quot;Not Yet Known,&quot;) 
+&amp;&amp; 
+CloseDate &gt; DATE(2017,1,9)
+&amp;&amp;
+Owner.UserRole.Name = &quot;Retirement Plan Consultant&quot;</errorConditionFormula>
+    <errorMessage>Business/Industry Field must be adequately populated to close out this opportunity. &quot;Not Yet Known&quot; is not acceptable at this stage.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <description>Identifies and closes Late Payroll Cases for cases that are no longer behind on payroll</description>
+    <interviewLabel>Late Payroll Cases to Close {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Case | Scheduled | Late Payroll Cases to Close</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>Closes late payroll cases that are linked to plans no longer behind on payroll</description>
+        <name>Close_Late_Payroll_Cases</name>
+        <label>Close Late Payroll Cases</label>
+        <locationX>380</locationX>
+        <locationY>30</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Days_Behind_On_Payroll__c</field>
+            <operator>LessThanOrEqualTo</operator>
+            <value>
+                <numberValue>10.0</numberValue>
+            </value>
+        </filters>
+        <filters>
+            <field>RecordTypeId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>01237000000Aho7AAC</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Resolved</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Subject</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Past Due Payroll</stringValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Request_Reason__c</field>
+            <value>
+                <stringValue>Client Forgot to Submit</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Resolved</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordUpdates>
+    <start>
+        <locationX>40</locationX>
+        <locationY>30</locationY>
+        <connector>
+            <targetReference>Close_Late_Payroll_Cases</targetReference>
+        </connector>
+        <schedule>
+            <frequency>Weekly</frequency>
+            <startDate>2020-06-02</startDate>
+            <startTime>10:30:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>LatePayrollCasestoClose</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

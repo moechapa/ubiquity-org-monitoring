@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conference_name__c</fullName>
+    <label>Conference name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adaptasoft User Conference - 2007</fullName>
+                <default>false</default>
+                <label>Adaptasoft User Conference - 2007</label>
+            </value>
+            <value>
+                <fullName>Adaptasoft Users Conference 2006</fullName>
+                <default>false</default>
+                <label>Adaptasoft Users Conference 2006</label>
+            </value>
+            <value>
+                <fullName>Alleghany Annual Meeting 2006</fullName>
+                <default>false</default>
+                <label>Alleghany Annual Meeting 2006</label>
+            </value>
+            <value>
+                <fullName>APA - 2007</fullName>
+                <default>false</default>
+                <label>APA - 2007</label>
+            </value>
+            <value>
+                <fullName>ASPPA 401(k) Summit - 2005</fullName>
+                <default>false</default>
+                <label>ASPPA 401(k) Summit - 2005</label>
+            </value>
+            <value>
+                <fullName>ASPPA 401(k) Summit - 2006</fullName>
+                <default>false</default>
+                <label>ASPPA 401(k) Summit - 2006</label>
+            </value>
+            <value>
+                <fullName>ASPPA 401(k) Summit - 2007</fullName>
+                <default>false</default>
+                <label>ASPPA 401(k) Summit - 2007</label>
+            </value>
+            <value>
+                <fullName>AZ Summer Business Expo - 2004</fullName>
+                <default>false</default>
+                <label>AZ Summer Business Expo - 2004</label>
+            </value>
+            <value>
+                <fullName>CA CPA Conf (LA) - 2004</fullName>
+                <default>false</default>
+                <label>CA CPA Conf (LA) - 2004</label>
+            </value>
+            <value>
+                <fullName>CA Equity Capital - 2004</fullName>
+                <default>false</default>
+                <label>CA Equity Capital - 2004</label>
+            </value>
+            <value>
+                <fullName>Cambridge Advisors - 2007</fullName>
+                <default>false</default>
+                <label>Cambridge Advisors - 2007</label>
+            </value>
+            <value>
+                <fullName>Cambridge Investment Advisors Conference 2006</fullName>
+                <default>false</default>
+                <label>Cambridge Investment Advisors Conference 2006</label>
+            </value>
+            <value>
+                <fullName>CA Solo &amp; Small Firm - 2004</fullName>
+                <default>false</default>
+                <label>CA Solo &amp; Small Firm - 2004</label>
+            </value>
+            <value>
+                <fullName>Center for Due Diligence - 2007</fullName>
+                <default>false</default>
+                <label>Center for Due Diligence - 2007</label>
+            </value>
+            <value>
+                <fullName>CFDD - 2005</fullName>
+                <default>false</default>
+                <label>CFDD - 2005</label>
+            </value>
+            <value>
+                <fullName>CFDD Conference 2006</fullName>
+                <default>false</default>
+                <label>CFDD Conference 2006</label>
+            </value>
+            <value>
+                <fullName>Evolution User Group - 2007</fullName>
+                <default>false</default>
+                <label>Evolution User Group - 2007</label>
+            </value>
+            <value>
+                <fullName>Execupay User Conference - 2006</fullName>
+                <default>false</default>
+                <label>Execupay User Conference - 2006</label>
+            </value>
+            <value>
+                <fullName>Execupay User Conference - 2007</fullName>
+                <default>false</default>
+                <label>Execupay User Conference - 2007</label>
+            </value>
+            <value>
+                <fullName>FPA Annual Conf - 2004</fullName>
+                <default>false</default>
+                <label>FPA Annual Conf - 2004</label>
+            </value>
+            <value>
+                <fullName>FRA Retirement Summit - 2005</fullName>
+                <default>false</default>
+                <label>FRA Retirement Summit - 2005</label>
+            </value>
+            <value>
+                <fullName>High Tech - 2004</fullName>
+                <default>false</default>
+                <label>High Tech - 2004</label>
+            </value>
+            <value>
+                <fullName>IL CPA Business &amp; Technology  - 2004</fullName>
+                <default>false</default>
+                <label>IL CPA Business &amp; Technology  - 2004</label>
+            </value>
+            <value>
+                <fullName>Investor&apos;s Capital Conference</fullName>
+                <default>false</default>
+                <label>Investor&apos;s Capital Conference</label>
+            </value>
+            <value>
+                <fullName>IPPA Annual Conf - 2004</fullName>
+                <default>false</default>
+                <label>IPPA Annual Conf - 2004</label>
+            </value>
+            <value>
+                <fullName>IPPA Annual Conf - 2005</fullName>
+                <default>false</default>
+                <label>IPPA Annual Conf - 2005</label>
+            </value>
+            <value>
+                <fullName>IPPA Annual Conference 2006</fullName>
+                <default>false</default>
+                <label>IPPA Annual Conference 2006</label>
+            </value>
+            <value>
+                <fullName>IPPA Annual Conference - 2007</fullName>
+                <default>false</default>
+                <label>IPPA Annual Conference - 2007</label>
+            </value>
+            <value>
+                <fullName>IPPA Sales &amp; Marketing - 2005</fullName>
+                <default>false</default>
+                <label>IPPA Sales &amp; Marketing - 2005</label>
+            </value>
+            <value>
+                <fullName>IPPA Sales &amp; Marketing - 2006</fullName>
+                <default>false</default>
+                <label>IPPA Sales &amp; Marketing - 2006</label>
+            </value>
+            <value>
+                <fullName>IPPA Sales &amp; Marketing Workshop - 2007</fullName>
+                <default>false</default>
+                <label>IPPA Sales &amp; Marketing Workshop - 2007</label>
+            </value>
+            <value>
+                <fullName>IPPA Tax and Operations Workshop 2006</fullName>
+                <default>false</default>
+                <label>IPPA Tax and Operations Workshop 2006</label>
+            </value>
+            <value>
+                <fullName>MPAY User Conference - 2007</fullName>
+                <default>false</default>
+                <label>MPAY User Conference - 2007</label>
+            </value>
+            <value>
+                <fullName>MPAY Users Group Conference 2006</fullName>
+                <default>false</default>
+                <label>MPAY Users Group Conference 2006</label>
+            </value>
+            <value>
+                <fullName>MPI Software Users Conference - 2005</fullName>
+                <default>false</default>
+                <label>MPI Software Users Conference - 2005</label>
+            </value>
+            <value>
+                <fullName>NAPFA presentation - 2005</fullName>
+                <default>false</default>
+                <label>NAPFA presentation - 2005</label>
+            </value>
+            <value>
+                <fullName>NASBA Conference</fullName>
+                <default>false</default>
+                <label>NASBA Conference</label>
+            </value>
+            <value>
+                <fullName>NorCal FPA Regional - 2005</fullName>
+                <default>false</default>
+                <label>NorCal FPA Regional - 2005</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>PacWest - 2007</fullName>
+                <default>false</default>
+                <label>PacWest - 2007</label>
+            </value>
+            <value>
+                <fullName>PayChoice - 2007</fullName>
+                <default>false</default>
+                <label>PayChoice - 2007</label>
+            </value>
+            <value>
+                <fullName>Rocky Mountain Dental - 2005</fullName>
+                <default>false</default>
+                <label>Rocky Mountain Dental - 2005</label>
+            </value>
+            <value>
+                <fullName>Schwab IMPACT - 2004</fullName>
+                <default>false</default>
+                <label>Schwab IMPACT - 2004</label>
+            </value>
+            <value>
+                <fullName>Schwab IMPACT - 2005</fullName>
+                <default>false</default>
+                <label>Schwab IMPACT - 2005</label>
+            </value>
+            <value>
+                <fullName>Schwab IMPACT - 2006</fullName>
+                <default>false</default>
+                <label>Schwab IMPACT - 2006</label>
+            </value>
+            <value>
+                <fullName>Schwab IMPACT - 2007</fullName>
+                <default>false</default>
+                <label>Schwab IMPACT - 2007</label>
+            </value>
+            <value>
+                <fullName>Schwab PAS - 2005</fullName>
+                <default>false</default>
+                <label>Schwab PAS - 2005</label>
+            </value>
+            <value>
+                <fullName>Schwab PAS National Conference - 2007</fullName>
+                <default>false</default>
+                <label>Schwab PAS National Conference - 2007</label>
+            </value>
+            <value>
+                <fullName>Solo &amp; Small Firm - 2004</fullName>
+                <default>false</default>
+                <label>Solo &amp; Small Firm - 2004</label>
+            </value>
+            <value>
+                <fullName>Swipeclock Users Conference 2006</fullName>
+                <default>false</default>
+                <label>Swipeclock Users Conference 2006</label>
+            </value>
+            <value>
+                <fullName>TAG 2007</fullName>
+                <default>false</default>
+                <label>TAG 2007</label>
+            </value>
+            <value>
+                <fullName>Tax Update &amp; Planning - 2004</fullName>
+                <default>false</default>
+                <label>Tax Update &amp; Planning - 2004</label>
+            </value>
+            <value>
+                <fullName>The Payroll Group Annual Conf - 2005</fullName>
+                <default>false</default>
+                <label>The Payroll Group Annual Conf - 2005</label>
+            </value>
+            <value>
+                <fullName>The Payroll Group Conference - 2007</fullName>
+                <default>false</default>
+                <label>The Payroll Group Conference - 2007</label>
+            </value>
+            <value>
+                <fullName>TPG Annual Conference 2006</fullName>
+                <default>false</default>
+                <label>TPG Annual Conference 2006</label>
+            </value>
+            <value>
+                <fullName>USA Wealth Management/Chicago - 2005</fullName>
+                <default>false</default>
+                <label>USA Wealth Management/Chicago - 2005</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Status__c</fullName>
+    <description>As of Sep 2020- If any invoices are open 20+ days, Account is &quot;Behind&quot; on billing status.   This will auto update with nightly invoice updates from NetSuite.   This will also push to Plan object and will continue to be a part of the client health score.</description>
+    <inlineHelpText>As of Sep 2020- If any invoices are open 20+ days, Account is &quot;Behind&quot; on billing status.   This will auto update with nightly invoice updates from NetSuite</inlineHelpText>
+    <label>Billing Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Current</fullName>
+                <default>false</default>
+                <label>Current</label>
+            </value>
+            <value>
+                <fullName>Behind</fullName>
+                <default>false</default>
+                <label>Behind</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

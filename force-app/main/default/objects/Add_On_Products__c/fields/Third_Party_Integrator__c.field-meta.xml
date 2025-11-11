@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Third_Party_Integrator__c</fullName>
+    <description>Name of Third Party Integrator (not direct Integration through Payroll Provider)</description>
+    <inlineHelpText>Name of Third Party Integrator (not direct Integration through Payroll Provider)</inlineHelpText>
+    <label>Third Party Integrator</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>File_Submission_Method__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Finch</fullName>
+                <default>false</default>
+                <label>Finch</label>
+            </value>
+            <value>
+                <fullName>PayKonnect</fullName>
+                <default>false</default>
+                <label>PayKonnect</label>
+            </value>
+            <value>
+                <fullName>Payroll Integrations</fullName>
+                <default>false</default>
+                <label>Payroll Integrations</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Third Party Data Entry</controllingFieldValue>
+            <controllingFieldValue>Third Party Integrator</controllingFieldValue>
+            <valueName>Finch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Third Party Integrator</controllingFieldValue>
+            <valueName>Payroll Integrations</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

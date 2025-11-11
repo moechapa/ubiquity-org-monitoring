@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ubiquity_Employee__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Ubiquity Employee that QA is being conducted for.</description>
+    <inlineHelpText>Ubiquity Employee that QA is being conducted for.</inlineHelpText>
+    <label>Ubiquity Employee</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <errorMessage>Please enter the name of a Ubiquity employee associated with the Decimal Inc. (not demo) account</errorMessage>
+        <filterItems>
+            <field>Contact.Account.Name</field>
+            <operation>contains</operation>
+            <value>Decimal Inc. DBA Ubiquity</value>
+        </filterItems>
+        <filterItems>
+            <field>Contact.RecordType.Name</field>
+            <operation>equals</operation>
+            <value>Ubiquity Employee</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Quality Assurances</relationshipLabel>
+    <relationshipName>Quality_Assurances</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

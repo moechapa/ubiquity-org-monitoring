@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Payroll_Provider_Software__c</fullName>
+    <inlineHelpText>Please confirm your current payroll provider or payroll software - Select One</inlineHelpText>
+    <label>Current Payroll Provider _ Software</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1-2-3 Payroll &amp; Hr Services, Inc.</fullName>
+                <default>false</default>
+                <label>1-2-3 Payroll &amp; Hr Services, Inc.</label>
+            </value>
+            <value>
+                <fullName>Aap - American Automated Payroll</fullName>
+                <default>false</default>
+                <label>Aap - American Automated Payroll</label>
+            </value>
+            <value>
+                <fullName>Abacus Advisors</fullName>
+                <default>false</default>
+                <label>Abacus Advisors</label>
+            </value>
+            <value>
+                <fullName>Abco Payroll Services Inc.</fullName>
+                <default>false</default>
+                <label>Abco Payroll Services Inc.</label>
+            </value>
+            <value>
+                <fullName>Accuchex Corporation</fullName>
+                <default>false</default>
+                <label>Accuchex Corporation</label>
+            </value>
+            <value>
+                <fullName>Accupay Payroll</fullName>
+                <default>false</default>
+                <label>Accupay Payroll</label>
+            </value>
+            <value>
+                <fullName>Adp - Complete Payroll + Hr</fullName>
+                <default>false</default>
+                <label>Adp - Complete Payroll + Hr</label>
+            </value>
+            <value>
+                <fullName>Adp - Enhanced Payroll</fullName>
+                <default>false</default>
+                <label>Adp - Enhanced Payroll</label>
+            </value>
+            <value>
+                <fullName>Adp - Essential Payroll</fullName>
+                <default>false</default>
+                <label>Adp - Essential Payroll</label>
+            </value>
+            <value>
+                <fullName>ADP – Run</fullName>
+                <default>false</default>
+                <label>ADP – Run</label>
+            </value>
+            <value>
+                <fullName>Adp - Work Force Now</fullName>
+                <default>false</default>
+                <label>Adp - Work Force Now</label>
+            </value>
+            <value>
+                <fullName>Advanced Payroll Consultants, Inc.</fullName>
+                <default>false</default>
+                <label>Advanced Payroll Consultants, Inc.</label>
+            </value>
+            <value>
+                <fullName>Advantage Payroll Svc</fullName>
+                <default>false</default>
+                <label>Advantage Payroll Svc</label>
+            </value>
+            <value>
+                <fullName>Advantage Payroll Svc (Alabama)</fullName>
+                <default>false</default>
+                <label>Advantage Payroll Svc (Alabama)</label>
+            </value>
+            <value>
+                <fullName>Algentis (Payroll)</fullName>
+                <default>false</default>
+                <label>Algentis (Payroll)</label>
+            </value>
+            <value>
+                <fullName>Amcheck</fullName>
+                <default>false</default>
+                <label>Amcheck</label>
+            </value>
+            <value>
+                <fullName>Ameripay, Inc.</fullName>
+                <default>false</default>
+                <label>Ameripay, Inc.</label>
+            </value>
+            <value>
+                <fullName>Apex Hcm</fullName>
+                <default>false</default>
+                <label>Apex Hcm</label>
+            </value>
+            <value>
+                <fullName>Appleone Payroll Services</fullName>
+                <default>false</default>
+                <label>Appleone Payroll Services</label>
+            </value>
+            <value>
+                <fullName>Aps (Automatic Payroll Systems)</fullName>
+                <default>false</default>
+                <label>Aps (Automatic Payroll Systems)</label>
+            </value>
+            <value>
+                <fullName>Ascentis</fullName>
+                <default>false</default>
+                <label>Ascentis</label>
+            </value>
+            <value>
+                <fullName>Atlantic Counseling Group - Tpa</fullName>
+                <default>false</default>
+                <label>Atlantic Counseling Group - Tpa</label>
+            </value>
+            <value>
+                <fullName>Austin-Gregg Corp</fullName>
+                <default>false</default>
+                <label>Austin-Gregg Corp</label>
+            </value>
+            <value>
+                <fullName>Bamboohr</fullName>
+                <default>false</default>
+                <label>Bamboohr</label>
+            </value>
+            <value>
+                <fullName>Baron Payroll</fullName>
+                <default>false</default>
+                <label>Baron Payroll</label>
+            </value>
+            <value>
+                <fullName>Bbsi (Barrett Business Services, Inc.)</fullName>
+                <default>false</default>
+                <label>Bbsi (Barrett Business Services, Inc.)</label>
+            </value>
+            <value>
+                <fullName>Bcbsil</fullName>
+                <default>false</default>
+                <label>Bcbsil</label>
+            </value>
+            <value>
+                <fullName>Benifit Mall</fullName>
+                <default>false</default>
+                <label>Benifit Mall</label>
+            </value>
+            <value>
+                <fullName>Best Life &amp; Health</fullName>
+                <default>false</default>
+                <label>Best Life &amp; Health</label>
+            </value>
+            <value>
+                <fullName>Big Fish Payroll</fullName>
+                <default>false</default>
+                <label>Big Fish Payroll</label>
+            </value>
+            <value>
+                <fullName>Burke, Wheeler &amp; Associates P.A.</fullName>
+                <default>false</default>
+                <label>Burke, Wheeler &amp; Associates P.A.</label>
+            </value>
+            <value>
+                <fullName>Business By Design For Mg Bond</fullName>
+                <default>false</default>
+                <label>Business By Design For Mg Bond</label>
+            </value>
+            <value>
+                <fullName>California Payroll</fullName>
+                <default>false</default>
+                <label>California Payroll</label>
+            </value>
+            <value>
+                <fullName>Cbiz</fullName>
+                <default>false</default>
+                <label>Cbiz</label>
+            </value>
+            <value>
+                <fullName>Centric Usa</fullName>
+                <default>false</default>
+                <label>Centric Usa</label>
+            </value>
+            <value>
+                <fullName>Ceridian- Netsuite</fullName>
+                <default>false</default>
+                <label>Ceridian- Netsuite</label>
+            </value>
+            <value>
+                <fullName>Certified Payroll &amp; Tax Services</fullName>
+                <default>false</default>
+                <label>Certified Payroll &amp; Tax Services</label>
+            </value>
+            <value>
+                <fullName>Chorus Hr Group</fullName>
+                <default>false</default>
+                <label>Chorus Hr Group</label>
+            </value>
+            <value>
+                <fullName>Ck Accounting Llc</fullName>
+                <default>false</default>
+                <label>Ck Accounting Llc</label>
+            </value>
+            <value>
+                <fullName>Coastal Payroll Services, Inc</fullName>
+                <default>false</default>
+                <label>Coastal Payroll Services, Inc</label>
+            </value>
+            <value>
+                <fullName>Competitive Advantage Systems</fullName>
+                <default>false</default>
+                <label>Competitive Advantage Systems</label>
+            </value>
+            <value>
+                <fullName>Considine &amp; Considine</fullName>
+                <default>false</default>
+                <label>Considine &amp; Considine</label>
+            </value>
+            <value>
+                <fullName>Contacthr</fullName>
+                <default>false</default>
+                <label>Contacthr</label>
+            </value>
+            <value>
+                <fullName>Coreplacement Personnel Services</fullName>
+                <default>false</default>
+                <label>Coreplacement Personnel Services</label>
+            </value>
+            <value>
+                <fullName>Cpa / Accountant / Bookkeeper</fullName>
+                <default>false</default>
+                <label>Cpa / Accountant / Bookkeeper</label>
+            </value>
+            <value>
+                <fullName>Data Management</fullName>
+                <default>false</default>
+                <label>Data Management</label>
+            </value>
+            <value>
+                <fullName>Dollars And Sense By Laurie</fullName>
+                <default>false</default>
+                <label>Dollars And Sense By Laurie</label>
+            </value>
+            <value>
+                <fullName>Donna Partlow</fullName>
+                <default>false</default>
+                <label>Donna Partlow</label>
+            </value>
+            <value>
+                <fullName>E Checks Aka Hartland</fullName>
+                <default>false</default>
+                <label>E Checks Aka Hartland</label>
+            </value>
+            <value>
+                <fullName>Ecca / Readypay</fullName>
+                <default>false</default>
+                <label>Ecca / Readypay</label>
+            </value>
+            <value>
+                <fullName>Emma Lund</fullName>
+                <default>false</default>
+                <label>Emma Lund</label>
+            </value>
+            <value>
+                <fullName>Employshare, Inc.</fullName>
+                <default>false</default>
+                <label>Employshare, Inc.</label>
+            </value>
+            <value>
+                <fullName>Epay Business Solutions</fullName>
+                <default>false</default>
+                <label>Epay Business Solutions</label>
+            </value>
+            <value>
+                <fullName>Estratex</fullName>
+                <default>false</default>
+                <label>Estratex</label>
+            </value>
+            <value>
+                <fullName>Excela Payroll</fullName>
+                <default>false</default>
+                <label>Excela Payroll</label>
+            </value>
+            <value>
+                <fullName>Extensis</fullName>
+                <default>false</default>
+                <label>Extensis</label>
+            </value>
+            <value>
+                <fullName>Farmer &amp; Betts</fullName>
+                <default>false</default>
+                <label>Farmer &amp; Betts</label>
+            </value>
+            <value>
+                <fullName>Fgmk</fullName>
+                <default>false</default>
+                <label>Fgmk</label>
+            </value>
+            <value>
+                <fullName>Focus Hr</fullName>
+                <default>false</default>
+                <label>Focus Hr</label>
+            </value>
+            <value>
+                <fullName>Frankcrum</fullName>
+                <default>false</default>
+                <label>Frankcrum</label>
+            </value>
+            <value>
+                <fullName>Fresh Eye Innovative Solutions</fullName>
+                <default>false</default>
+                <label>Fresh Eye Innovative Solutions</label>
+            </value>
+            <value>
+                <fullName>Fullstack Finance</fullName>
+                <default>false</default>
+                <label>Fullstack Finance</label>
+            </value>
+            <value>
+                <fullName>Gbc Services, Llc</fullName>
+                <default>false</default>
+                <label>Gbc Services, Llc</label>
+            </value>
+            <value>
+                <fullName>George Barahmis &amp; Co Pc</fullName>
+                <default>false</default>
+                <label>George Barahmis &amp; Co Pc</label>
+            </value>
+            <value>
+                <fullName>Goco Hcm</fullName>
+                <default>false</default>
+                <label>Goco Hcm</label>
+            </value>
+            <value>
+                <fullName>Gusto</fullName>
+                <default>false</default>
+                <label>Gusto</label>
+            </value>
+            <value>
+                <fullName>Gusto - Complete</fullName>
+                <default>false</default>
+                <label>Gusto - Complete</label>
+            </value>
+            <value>
+                <fullName>Gusto - Concierge</fullName>
+                <default>false</default>
+                <label>Gusto - Concierge</label>
+            </value>
+            <value>
+                <fullName>Gusto – Core</fullName>
+                <default>false</default>
+                <label>Gusto – Core</label>
+            </value>
+            <value>
+                <fullName>Gusto Seaford</fullName>
+                <default>false</default>
+                <label>Gusto Seaford</label>
+            </value>
+            <value>
+                <fullName>Harpers Payroll Services</fullName>
+                <default>false</default>
+                <label>Harpers Payroll Services</label>
+            </value>
+            <value>
+                <fullName>Heartland Ovation</fullName>
+                <default>false</default>
+                <label>Heartland Ovation</label>
+            </value>
+            <value>
+                <fullName>Hk Payroll Services</fullName>
+                <default>false</default>
+                <label>Hk Payroll Services</label>
+            </value>
+            <value>
+                <fullName>HG Solutions, Inc</fullName>
+                <default>false</default>
+                <label>HG Solutions, Inc</label>
+            </value>
+            <value>
+                <fullName>Hrnovations</fullName>
+                <default>false</default>
+                <label>Hrnovations</label>
+            </value>
+            <value>
+                <fullName>Hroi</fullName>
+                <default>false</default>
+                <label>Hroi</label>
+            </value>
+            <value>
+                <fullName>Idm Solutions, Inc.</fullName>
+                <default>false</default>
+                <label>Idm Solutions, Inc.</label>
+            </value>
+            <value>
+                <fullName>Insperity</fullName>
+                <default>false</default>
+                <label>Insperity</label>
+            </value>
+            <value>
+                <fullName>Intuit Online</fullName>
+                <default>false</default>
+                <label>Intuit Online</label>
+            </value>
+            <value>
+                <fullName>Intuit Quickbooks Online</fullName>
+                <default>false</default>
+                <label>Intuit Quickbooks Online</label>
+            </value>
+            <value>
+                <fullName>Isolve</fullName>
+                <default>false</default>
+                <label>Isolve</label>
+            </value>
+            <value>
+                <fullName>Justworks</fullName>
+                <default>false</default>
+                <label>Justworks</label>
+            </value>
+            <value>
+                <fullName>Manage Payroll</fullName>
+                <default>false</default>
+                <label>Manage Payroll</label>
+            </value>
+            <value>
+                <fullName>Marathon Hr</fullName>
+                <default>false</default>
+                <label>Marathon Hr</label>
+            </value>
+            <value>
+                <fullName>Masspay, Inc</fullName>
+                <default>false</default>
+                <label>Masspay, Inc</label>
+            </value>
+            <value>
+                <fullName>Masspay, Inc / Isolve</fullName>
+                <default>false</default>
+                <label>Masspay, Inc / Isolve</label>
+            </value>
+            <value>
+                <fullName>Media Data Services</fullName>
+                <default>false</default>
+                <label>Media Data Services</label>
+            </value>
+            <value>
+                <fullName>Menden Accounting</fullName>
+                <default>false</default>
+                <label>Menden Accounting</label>
+            </value>
+            <value>
+                <fullName>Mint Payroll, Llc</fullName>
+                <default>false</default>
+                <label>Mint Payroll, Llc</label>
+            </value>
+            <value>
+                <fullName>Minutemen</fullName>
+                <default>false</default>
+                <label>Minutemen</label>
+            </value>
+            <value>
+                <fullName>Moresource Inc.</fullName>
+                <default>false</default>
+                <label>Moresource Inc.</label>
+            </value>
+            <value>
+                <fullName>Mosaic Employer Solutions</fullName>
+                <default>false</default>
+                <label>Mosaic Employer Solutions</label>
+            </value>
+            <value>
+                <fullName>Murphy Financial Services, Inc.</fullName>
+                <default>false</default>
+                <label>Murphy Financial Services, Inc.</label>
+            </value>
+            <value>
+                <fullName>Myob Technology</fullName>
+                <default>false</default>
+                <label>Myob Technology</label>
+            </value>
+            <value>
+                <fullName>Mypay Solutions</fullName>
+                <default>false</default>
+                <label>Mypay Solutions</label>
+            </value>
+            <value>
+                <fullName>Namely</fullName>
+                <default>false</default>
+                <label>Namely</label>
+            </value>
+            <value>
+                <fullName>Netpay Payroll</fullName>
+                <default>false</default>
+                <label>Netpay Payroll</label>
+            </value>
+            <value>
+                <fullName>Nunya, Inc.</fullName>
+                <default>false</default>
+                <label>Nunya, Inc.</label>
+            </value>
+            <value>
+                <fullName>Open Box Llc</fullName>
+                <default>false</default>
+                <label>Open Box Llc</label>
+            </value>
+            <value>
+                <fullName>Parcels Too Inc</fullName>
+                <default>false</default>
+                <label>Parcels Too Inc</label>
+            </value>
+            <value>
+                <fullName>Paycare</fullName>
+                <default>false</default>
+                <label>Paycare</label>
+            </value>
+            <value>
+                <fullName>Paychex - Express Payroll</fullName>
+                <default>false</default>
+                <label>Paychex - Express Payroll</label>
+            </value>
+            <value>
+                <fullName>Paychex - Flex Enterprise</fullName>
+                <default>false</default>
+                <label>Paychex - Flex Enterprise</label>
+            </value>
+            <value>
+                <fullName>Paychex - Flex Pro</fullName>
+                <default>false</default>
+                <label>Paychex - Flex Pro</label>
+            </value>
+            <value>
+                <fullName>Paychex - Flex Select</fullName>
+                <default>false</default>
+                <label>Paychex - Flex Select</label>
+            </value>
+            <value>
+                <fullName>Paychoice</fullName>
+                <default>false</default>
+                <label>Paychoice</label>
+            </value>
+            <value>
+                <fullName>Payco Inc</fullName>
+                <default>false</default>
+                <label>Payco Inc</label>
+            </value>
+            <value>
+                <fullName>Paycom</fullName>
+                <default>false</default>
+                <label>Paycom</label>
+            </value>
+            <value>
+                <fullName>Paycor</fullName>
+                <default>false</default>
+                <label>Paycor</label>
+            </value>
+            <value>
+                <fullName>Payday Payroll, Inc.</fullName>
+                <default>false</default>
+                <label>Payday Payroll, Inc.</label>
+            </value>
+            <value>
+                <fullName>Payday Workforce Solutions</fullName>
+                <default>false</default>
+                <label>Payday Workforce Solutions</label>
+            </value>
+            <value>
+                <fullName>Paylocity Corporation</fullName>
+                <default>false</default>
+                <label>Paylocity Corporation</label>
+            </value>
+            <value>
+                <fullName>Payoptions</fullName>
+                <default>false</default>
+                <label>Payoptions</label>
+            </value>
+            <value>
+                <fullName>Paypro, Inc.</fullName>
+                <default>false</default>
+                <label>Paypro, Inc.</label>
+            </value>
+            <value>
+                <fullName>Payright Payroll Services</fullName>
+                <default>false</default>
+                <label>Payright Payroll Services</label>
+            </value>
+            <value>
+                <fullName>Payroll Company - Missouri</fullName>
+                <default>false</default>
+                <label>Payroll Company - Missouri</label>
+            </value>
+            <value>
+                <fullName>Payroll Company - New Mexico</fullName>
+                <default>false</default>
+                <label>Payroll Company - New Mexico</label>
+            </value>
+            <value>
+                <fullName>Payroll Control Systems</fullName>
+                <default>false</default>
+                <label>Payroll Control Systems</label>
+            </value>
+            <value>
+                <fullName>Payroll Integrations – EPS TP</fullName>
+                <default>false</default>
+                <label>Payroll Integrations – EPS TP</label>
+            </value>
+            <value>
+                <fullName>Payroll Masters</fullName>
+                <default>false</default>
+                <label>Payroll Masters</label>
+            </value>
+            <value>
+                <fullName>Payroll Medics</fullName>
+                <default>false</default>
+                <label>Payroll Medics</label>
+            </value>
+            <value>
+                <fullName>Payroll Network, Inc</fullName>
+                <default>false</default>
+                <label>Payroll Network, Inc</label>
+            </value>
+            <value>
+                <fullName>Payroll Partners D Paylor</fullName>
+                <default>false</default>
+                <label>Payroll Partners D Paylor</label>
+            </value>
+            <value>
+                <fullName>Payroll Partners Ltd</fullName>
+                <default>false</default>
+                <label>Payroll Partners Ltd</label>
+            </value>
+            <value>
+                <fullName>Payroll Resource Group</fullName>
+                <default>false</default>
+                <label>Payroll Resource Group</label>
+            </value>
+            <value>
+                <fullName>Payroll Solutions Wa, Inc.</fullName>
+                <default>false</default>
+                <label>Payroll Solutions Wa, Inc.</label>
+            </value>
+            <value>
+                <fullName>Payroll Systems Llc</fullName>
+                <default>false</default>
+                <label>Payroll Systems Llc</label>
+            </value>
+            <value>
+                <fullName>Payserv Corporation Usa</fullName>
+                <default>false</default>
+                <label>Payserv Corporation Usa</label>
+            </value>
+            <value>
+                <fullName>Paystar</fullName>
+                <default>false</default>
+                <label>Paystar</label>
+            </value>
+            <value>
+                <fullName>Payvision Online, Inc.</fullName>
+                <default>false</default>
+                <label>Payvision Online, Inc.</label>
+            </value>
+            <value>
+                <fullName>Pds</fullName>
+                <default>false</default>
+                <label>Pds</label>
+            </value>
+            <value>
+                <fullName>Perquest</fullName>
+                <default>false</default>
+                <label>Perquest</label>
+            </value>
+            <value>
+                <fullName>Precision Payroll Of America, Llc</fullName>
+                <default>false</default>
+                <label>Precision Payroll Of America, Llc</label>
+            </value>
+            <value>
+                <fullName>Premier Payroll Services, Inc.</fullName>
+                <default>false</default>
+                <label>Premier Payroll Services, Inc.</label>
+            </value>
+            <value>
+                <fullName>Primepay</fullName>
+                <default>false</default>
+                <label>Primepay</label>
+            </value>
+            <value>
+                <fullName>Professional Payroll Corporation</fullName>
+                <default>false</default>
+                <label>Professional Payroll Corporation</label>
+            </value>
+            <value>
+                <fullName>Propayroll</fullName>
+                <default>false</default>
+                <label>Propayroll</label>
+            </value>
+            <value>
+                <fullName>Quickbooks</fullName>
+                <default>false</default>
+                <label>Quickbooks</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Enterprise - Desktop</fullName>
+                <default>false</default>
+                <label>Quickbooks - Enterprise - Desktop</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Enterprise With Add On Plus - Desktop</fullName>
+                <default>false</default>
+                <label>Quickbooks - Enterprise With Add On Plus - Desktop</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Essentials - Online</fullName>
+                <default>false</default>
+                <label>Quickbooks - Essentials - Online</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Essentials With Add On Enhanced Payroll- Online</fullName>
+                <default>false</default>
+                <label>Quickbooks - Essentials With Add On Enhanced Payroll- Online</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Essentials With Add On Full Service Payroll- Online</fullName>
+                <default>false</default>
+                <label>Quickbooks - Essentials With Add On Full Service Payroll- Online</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Plus - Online</fullName>
+                <default>false</default>
+                <label>Quickbooks - Plus - Online</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Plus With Add On Enhanced Payroll- Online</fullName>
+                <default>false</default>
+                <label>Quickbooks - Plus With Add On Enhanced Payroll- Online</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Plus With Add On Full Service Payroll- Online</fullName>
+                <default>false</default>
+                <label>Quickbooks - Plus With Add On Full Service Payroll- Online</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Premier - Desktop</fullName>
+                <default>false</default>
+                <label>Quickbooks - Premier - Desktop</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Premier With Add On Plus - Desktop</fullName>
+                <default>false</default>
+                <label>Quickbooks - Premier With Add On Plus - Desktop</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Pro - Desktop</fullName>
+                <default>false</default>
+                <label>Quickbooks - Pro - Desktop</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Pro With Add On Plus - Desktop</fullName>
+                <default>false</default>
+                <label>Quickbooks - Pro With Add On Plus - Desktop</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Simple Start - Online</fullName>
+                <default>false</default>
+                <label>Quickbooks - Simple Start - Online</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Simple Start With Add On Enhanced Payroll - Online</fullName>
+                <default>false</default>
+                <label>Quickbooks - Simple Start With Add On Enhanced Payroll - Online</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Simple Start With Add On Full Service Payroll - Online</fullName>
+                <default>false</default>
+                <label>Quickbooks - Simple Start With Add On Full Service Payroll - Online</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Assisted Payroll</fullName>
+                <default>false</default>
+                <label>Quickbooks - Assisted Payroll</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Basic Payroll</fullName>
+                <default>false</default>
+                <label>Quickbooks - Basic Payroll</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Enhanced Payroll</fullName>
+                <default>false</default>
+                <label>Quickbooks - Enhanced Payroll</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Full Service Payroll</fullName>
+                <default>false</default>
+                <label>Quickbooks - Full Service Payroll</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Online Payroll</fullName>
+                <default>false</default>
+                <label>Quickbooks - Online Payroll</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Payroll For Accountants</fullName>
+                <default>false</default>
+                <label>Quickbooks - Payroll For Accountants</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Payroll For Qb</fullName>
+                <default>false</default>
+                <label>Quickbooks - Payroll For Qb</label>
+            </value>
+            <value>
+                <fullName>Quickbooks - Quickbooks Payroll For Mac</fullName>
+                <default>false</default>
+                <label>Quickbooks - Quickbooks Payroll For Mac</label>
+            </value>
+            <value>
+                <fullName>Quickbooks Desktop Pro 2018</fullName>
+                <default>false</default>
+                <label>Quickbooks Desktop Pro 2018</label>
+            </value>
+            <value>
+                <fullName>Quickbooks/Intuit Online</fullName>
+                <default>false</default>
+                <label>Quickbooks/Intuit Online</label>
+            </value>
+            <value>
+                <fullName>Regis HR</fullName>
+                <default>false</default>
+                <label>Regis HR</label>
+            </value>
+            <value>
+                <fullName>Roxanne Manners</fullName>
+                <default>false</default>
+                <label>Roxanne Manners</label>
+            </value>
+            <value>
+                <fullName>Run Payroll</fullName>
+                <default>false</default>
+                <label>Run Payroll</label>
+            </value>
+            <value>
+                <fullName>Sage Payroll</fullName>
+                <default>false</default>
+                <label>Sage Payroll</label>
+            </value>
+            <value>
+                <fullName>Sbs Payroll</fullName>
+                <default>false</default>
+                <label>Sbs Payroll</label>
+            </value>
+            <value>
+                <fullName>Sentric</fullName>
+                <default>false</default>
+                <label>Sentric</label>
+            </value>
+            <value>
+                <fullName>Simply Payroll Inc.</fullName>
+                <default>false</default>
+                <label>Simply Payroll Inc.</label>
+            </value>
+            <value>
+                <fullName>Simplyinsured</fullName>
+                <default>false</default>
+                <label>Simplyinsured</label>
+            </value>
+            <value>
+                <fullName>Southland Data Processing</fullName>
+                <default>false</default>
+                <label>Southland Data Processing</label>
+            </value>
+            <value>
+                <fullName>Southwestern Payroll</fullName>
+                <default>false</default>
+                <label>Southwestern Payroll</label>
+            </value>
+            <value>
+                <fullName>Staffone</fullName>
+                <default>false</default>
+                <label>Staffone</label>
+            </value>
+            <value>
+                <fullName>Stratex</fullName>
+                <default>false</default>
+                <label>Stratex</label>
+            </value>
+            <value>
+                <fullName>Streamline Hcm</fullName>
+                <default>false</default>
+                <label>Streamline Hcm</label>
+            </value>
+            <value>
+                <fullName>Sun Trust Bank (Paychex)</fullName>
+                <default>false</default>
+                <label>Sun Trust Bank (Paychex)</label>
+            </value>
+            <value>
+                <fullName>Surepayroll</fullName>
+                <default>false</default>
+                <label>Surepayroll</label>
+            </value>
+            <value>
+                <fullName>Telcom Corporation - Sponsor</fullName>
+                <default>false</default>
+                <label>Telcom Corporation - Sponsor</label>
+            </value>
+            <value>
+                <fullName>The Payroll Department, Inc.</fullName>
+                <default>false</default>
+                <label>The Payroll Department, Inc.</label>
+            </value>
+            <value>
+                <fullName>Tlc Payroll Inc</fullName>
+                <default>false</default>
+                <label>Tlc Payroll Inc</label>
+            </value>
+            <value>
+                <fullName>Tm Payroll</fullName>
+                <default>false</default>
+                <label>Tm Payroll</label>
+            </value>
+            <value>
+                <fullName>Trinet</fullName>
+                <default>false</default>
+                <label>Trinet</label>
+            </value>
+            <value>
+                <fullName>Tsheets</fullName>
+                <default>false</default>
+                <label>Tsheets</label>
+            </value>
+            <value>
+                <fullName>Ultimate Software</fullName>
+                <default>false</default>
+                <label>Ultimate Software</label>
+            </value>
+            <value>
+                <fullName>Universal Payroll</fullName>
+                <default>false</default>
+                <label>Universal Payroll</label>
+            </value>
+            <value>
+                <fullName>Us Bank</fullName>
+                <default>false</default>
+                <label>Us Bank</label>
+            </value>
+            <value>
+                <fullName>Usa Payroll - Nj</fullName>
+                <default>false</default>
+                <label>Usa Payroll - Nj</label>
+            </value>
+            <value>
+                <fullName>Usa Payroll - Ny</fullName>
+                <default>false</default>
+                <label>Usa Payroll - Ny</label>
+            </value>
+            <value>
+                <fullName>Wells Fargo</fullName>
+                <default>false</default>
+                <label>Wells Fargo</label>
+            </value>
+            <value>
+                <fullName>Winteam</fullName>
+                <default>false</default>
+                <label>Winteam</label>
+            </value>
+            <value>
+                <fullName>Worxsite Hr</fullName>
+                <default>false</default>
+                <label>Worxsite Hr</label>
+            </value>
+            <value>
+                <fullName>Wps, Inc.</fullName>
+                <default>false</default>
+                <label>Wps, Inc.</label>
+            </value>
+            <value>
+                <fullName>Zapitelli CPAs, Inc.</fullName>
+                <default>false</default>
+                <label>Zapitelli CPAs, Inc.</label>
+            </value>
+            <value>
+                <fullName>Zuman</fullName>
+                <default>false</default>
+                <label>Zuman</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

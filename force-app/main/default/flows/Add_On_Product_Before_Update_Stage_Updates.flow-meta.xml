@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Added_Payroll_Vendor_to_Paradigm</name>
+        <label>Added Payroll Vendor to Paradigm</label>
+        <locationX>182</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Updated_Add_On_Product</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Added_Payroll_Vendor_to_Paradigm_Date_Added</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Added_Payroll_Vendor_to_Paradigm__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Added_Payroll_Vendor_to_Paradigm__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status</targetReference>
+            </connector>
+            <label>Added Payroll Vendor to Paradigm Date Added</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Added_Payroll_Vendor_to_Paradigm_0</name>
+        <label>Added Payroll Vendor to Paradigm</label>
+        <locationX>710</locationX>
+        <locationY>1775</locationY>
+        <defaultConnector>
+            <targetReference>Updated_Add_On_Product_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Added_Payroll_Vendor_to_Paradigm_Date_Added_0</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Added_Payroll_Vendor_to_Paradigm__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Added_Payroll_Vendor_to_Paradigm__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0_0_0_0_0_0_0_0_0</targetReference>
+            </connector>
+            <label>Added Payroll Vendor to Paradigm Date Added</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Created_Support_Tasks</name>
+        <label>Created Support Tasks</label>
+        <locationX>710</locationX>
+        <locationY>1439</locationY>
+        <defaultConnector>
+            <targetReference>Added_Payroll_Vendor_to_Paradigm_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Created_Support_Tasks_Date_Entered</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Created_Support_Tasks__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Created_Support_Tasks__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0</targetReference>
+            </connector>
+            <label>Created Support Tasks Date Entered</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Date_given_to_third_party_integrator</name>
+        <label>Date given to third party integrator</label>
+        <locationX>710</locationX>
+        <locationY>2783</locationY>
+        <defaultConnector>
+            <targetReference>Reviewed_Test_Files_0_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Date_given_to_third_party_integrator_Date_Entered</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Date_Given_To_Third_Party_Integrator__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Date_Given_To_Third_Party_Integrator__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0_0_0</targetReference>
+            </connector>
+            <label>Date given to third party integrator Date Entered</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Integration_Complete_Date</name>
+        <label>Integration Complete Date</label>
+        <locationX>182</locationX>
+        <locationY>1775</locationY>
+        <defaultConnector>
+            <targetReference>Requested_Revised_Test_Files</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Integration_Complete_Date_Date_Added</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Integration_Completed__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Integration_Completed__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0_0_0_0</targetReference>
+            </connector>
+            <label>Integration Complete Date Date Added</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Requested_Revised_Test_Files</name>
+        <label>Requested Revised Test Files</label>
+        <locationX>182</locationX>
+        <locationY>2111</locationY>
+        <defaultConnector>
+            <targetReference>Uploaded_1st_Payroll</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Requested_Revised_Test_Files_Date_Entered</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Requested_Revised_Test_Files__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Requested_Revised_Test_Files__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0_0_0_0_0</targetReference>
+            </connector>
+            <label>Requested Revised Test Files Date Entered</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Requested_Source_Mapping</name>
+        <label>Requested Source Mapping</label>
+        <locationX>710</locationX>
+        <locationY>1103</locationY>
+        <defaultConnector>
+            <targetReference>Created_Support_Tasks</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Requested_Source_Mapping_Date_Entered</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Requested_Source_Mapping__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Requested_Source_Mapping__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0</targetReference>
+            </connector>
+            <label>Requested Source Mapping Date Entered</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Reviewed_Test_Files</name>
+        <label>Reviewed Test Files</label>
+        <locationX>182</locationX>
+        <locationY>1103</locationY>
+        <defaultConnector>
+            <targetReference>Turned_On_360_Attribute</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Reviewed_Test_Files_Date_Added</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Reviewed_Test_File__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Reviewed_Test_File__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0_0</targetReference>
+            </connector>
+            <label>Reviewed Test Files Date Added</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Reviewed_Test_Files_0_0</name>
+        <label>Reviewed Test Files</label>
+        <locationX>710</locationX>
+        <locationY>3119</locationY>
+        <defaultConnector>
+            <targetReference>Sent_Completion_Email</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Reviewed_Test_Files_Date_Entered_0</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Reviewed_Test_File__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Reviewed_Test_File__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0_0_0_0</targetReference>
+            </connector>
+            <label>Reviewed Test Files Date Entered</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Sent_Completion_Email</name>
+        <label>Sent Completion Email</label>
+        <locationX>710</locationX>
+        <locationY>3455</locationY>
+        <defaultConnector>
+            <targetReference>Uploaded_1st_Payroll_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Sent_Completion_Email_Date_Entered</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Sent_Completion_Email__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Sent_Completion_Email__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0</targetReference>
+            </connector>
+            <label>Sent Completion Email Date Entered</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Sent_Login_Test_Results</name>
+        <label>Sent Login Test Results</label>
+        <locationX>710</locationX>
+        <locationY>767</locationY>
+        <defaultConnector>
+            <targetReference>Requested_Source_Mapping</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Sent_Login_Test_Results_Date_Entered</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Sent_Login_Test_Results__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Sent_Login_Test_Results__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0</targetReference>
+            </connector>
+            <label>Sent Login Test Results Date Entered</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Service_Option</name>
+        <label>Service Option</label>
+        <locationX>644</locationX>
+        <locationY>311</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Direct_Integration</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Service_Option__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Direct Integration</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Added_Payroll_Vendor_to_Paradigm</targetReference>
+            </connector>
+            <label>Direct Integration</label>
+        </rules>
+        <rules>
+            <name>Enhanced_Payroll_Service</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Service_Option__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Enhanced Payroll Service</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Tested_Login_Credentials</targetReference>
+            </connector>
+            <label>Enhanced Payroll Service</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Tested_Login_Credentials</name>
+        <label>Tested Login Credentials</label>
+        <locationX>710</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Sent_Login_Test_Results</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Tested_Login_Credentials_Date_Entered</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Tested_Login_Credentials__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Tested_Login_Credentials__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0</targetReference>
+            </connector>
+            <label>Tested Login Credentials Date Entered</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Turned_On_360_Attribute</name>
+        <label>Turned On 360 Attribute</label>
+        <locationX>182</locationX>
+        <locationY>1439</locationY>
+        <defaultConnector>
+            <targetReference>Integration_Complete_Date</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Turned_On_360_Attribute_Date_Added</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.X360_Attribute_turned_on__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.X360_Attribute_turned_on__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0_0_0</targetReference>
+            </connector>
+            <label>Turned On 360 Attribute Date Added</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Turned_On_360_Attribute_0</name>
+        <label>Turned On 360 Attribute</label>
+        <locationX>710</locationX>
+        <locationY>2447</locationY>
+        <defaultConnector>
+            <targetReference>Date_given_to_third_party_integrator</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Turned_On_360_Attribute_Date_Added_0</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.X360_Attribute_turned_on__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.X360_Attribute_turned_on__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0_0</targetReference>
+            </connector>
+            <label>Turned On 360 Attribute Date Added</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Updated_Add_On_Product</name>
+        <label>Updated Add On Product</label>
+        <locationX>182</locationX>
+        <locationY>767</locationY>
+        <defaultConnector>
+            <targetReference>Reviewed_Test_Files</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Updated_Add_On_Product_Date_Entered</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Update_Add_On_Product__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Update_Add_On_Product__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0</targetReference>
+            </connector>
+            <label>Updated Add On Product Date Entered</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Updated_Add_On_Product_0</name>
+        <label>Updated Add On Product</label>
+        <locationX>710</locationX>
+        <locationY>2111</locationY>
+        <defaultConnector>
+            <targetReference>Turned_On_360_Attribute_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Updated_Add_On_Product_Date_Entered_0</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Update_Add_On_Product__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Update_Add_On_Product__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0</targetReference>
+            </connector>
+            <label>Updated Add On Product Date Entered</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Uploaded_1st_Payroll</name>
+        <label>Uploaded 1st Payroll</label>
+        <locationX>182</locationX>
+        <locationY>2447</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Uploaded_1st_Payroll_Date_Entered</name>
+            <conditionLogic>(1 AND 2) OR (3 AND 4)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.X1st_Payroll_Uploaded__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.X1st_Payroll_Uploaded__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Integration_Live_Date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Integration_Live_Date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0_0_0_0_0_0</targetReference>
+            </connector>
+            <label>Uploaded 1st Payroll Date Entered or Integration Live Date</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Uploaded_1st_Payroll_0</name>
+        <label>Uploaded 1st Payroll</label>
+        <locationX>710</locationX>
+        <locationY>3791</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Uploaded_1st_Payroll_Date_Entered_0</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.X1st_Payroll_Uploaded__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.X1st_Payroll_Uploaded__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0</targetReference>
+            </connector>
+            <label>Uploaded 1st Payroll Date Entered</label>
+        </rules>
+    </decisions>
+    <description>Made updates based on Melissa&apos;s spreadsheet. 9/8- Added new add-on stages and statuses</description>
+    <environments>Default</environments>
+    <interviewLabel>Add-On Product | Before Update | Stage Updates {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Add-On Product | Before Update | Stage Updates</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Stage_Status</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>50</locationX>
+        <locationY>551</locationY>
+        <connector>
+            <targetReference>Updated_Add_On_Product</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>1. Evaluate Fit</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>50</locationX>
+        <locationY>887</locationY>
+        <connector>
+            <targetReference>Reviewed_Test_Files</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>2. Configure &amp; Test</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>50</locationX>
+        <locationY>1223</locationY>
+        <connector>
+            <targetReference>Turned_On_360_Attribute</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>2. Configure &amp; Test</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0_0_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>50</locationX>
+        <locationY>1559</locationY>
+        <connector>
+            <targetReference>Integration_Complete_Date</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>3. Activate Integration</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0_0_0_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>50</locationX>
+        <locationY>1895</locationY>
+        <connector>
+            <targetReference>Requested_Revised_Test_Files</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>3. Activate Integration</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0_0_0_0_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>50</locationX>
+        <locationY>2231</locationY>
+        <connector>
+            <targetReference>Uploaded_1st_Payroll</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>3. Activate Integration</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0_0_0_0_0_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>50</locationX>
+        <locationY>2567</locationY>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>4. Completed Setup</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>Completed Setup</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0_0_0_0_0_0_0_0_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>578</locationX>
+        <locationY>1895</locationY>
+        <connector>
+            <targetReference>Updated_Add_On_Product_0</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>2. Configure &amp; Test</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>578</locationX>
+        <locationY>2231</locationY>
+        <connector>
+            <targetReference>Turned_On_360_Attribute_0</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>2. Configure &amp; Test</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>578</locationX>
+        <locationY>1559</locationY>
+        <connector>
+            <targetReference>Added_Payroll_Vendor_to_Paradigm_0</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>2. Configure &amp; Test</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>578</locationX>
+        <locationY>2567</locationY>
+        <connector>
+            <targetReference>Date_given_to_third_party_integrator</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>2. Configure &amp; Test</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0_0_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>578</locationX>
+        <locationY>2903</locationY>
+        <connector>
+            <targetReference>Reviewed_Test_Files_0_0</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>2. Configure &amp; Test</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0_0_0_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>578</locationX>
+        <locationY>3239</locationY>
+        <connector>
+            <targetReference>Sent_Completion_Email</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>3. Activate Integration</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>578</locationX>
+        <locationY>3911</locationY>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>3. Activate Integration</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>Completed Setup</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>578</locationX>
+        <locationY>3575</locationY>
+        <connector>
+            <targetReference>Uploaded_1st_Payroll_0</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>3. Activate Integration</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>578</locationX>
+        <locationY>1223</locationY>
+        <connector>
+            <targetReference>Created_Support_Tasks</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>2. Configure &amp; Test</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>578</locationX>
+        <locationY>887</locationY>
+        <connector>
+            <targetReference>Requested_Source_Mapping</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>1. Evaluate Fit &amp; Collect Information</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Stage_Status_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0</name>
+        <label>Update Stage &amp; Status</label>
+        <locationX>578</locationX>
+        <locationY>551</locationY>
+        <connector>
+            <targetReference>Sent_Login_Test_Results</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Product_Stage__c</field>
+            <value>
+                <stringValue>1. Evaluate Fit &amp; Collect Information</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Product_Status__c</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>518</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Service_Option</targetReference>
+        </connector>
+        <object>Add_On_Products__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

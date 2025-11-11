@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Intuit_Attempting_Initial_Contact__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>For Intuit or Costco plans, put a check in this pox so that the appropriate Opportunity Stage is defaulted.</description>
+    <inlineHelpText>For Intuit or Costco plans, put a check in this pox so that the appropriate Opportunity Stage is defaulted.</inlineHelpText>
+    <label>Intuit_Attempting_Initial_Contact</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

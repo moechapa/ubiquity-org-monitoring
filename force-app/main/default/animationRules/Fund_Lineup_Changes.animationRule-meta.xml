@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>always</animationFrequency>
+    <developerName>Fund_Lineup_Changes</developerName>
+    <isActive>true</isActive>
+    <masterLabel>Fund Lineup Changes</masterLabel>
+    <recordTypeContext>Master</recordTypeContext>
+    <recordTypeName>__MASTER__</recordTypeName>
+    <sobjectType>Fund_Lineup_Change__c</sobjectType>
+    <targetField>Fund_Lineup_Change_Status__c</targetField>
+    <targetFieldChangeToValues>Completed</targetFieldChangeToValues>
+</AnimationRule>

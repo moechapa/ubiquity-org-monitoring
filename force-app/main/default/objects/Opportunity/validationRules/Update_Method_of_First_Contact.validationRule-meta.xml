@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update_Method_of_First_Contact</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISPICKVAL( StageName ,&quot;Closed Won&quot;)&amp;&amp;
+ISPICKVAL(  Product_Type__c ,&quot;410(k)&quot;)&amp;&amp;
+ISPICKVAL( Method_of_First_Contact__c ,&quot;&quot;)&amp;&amp; 
+CloseDate &gt; DATE(2017,1,9)</errorConditionFormula>
+    <errorMessage>Please Update Method of First Contact</errorMessage>
+</ValidationRule>

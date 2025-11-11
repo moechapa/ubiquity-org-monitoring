@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Post_Costco_Opt_In__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If Costco is lead source and this box is True and after 5/10/2014, then OK to email or call.  If False, then DO NOT CALL OR EMAIL.</description>
+    <label>Post Costco Opt In</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

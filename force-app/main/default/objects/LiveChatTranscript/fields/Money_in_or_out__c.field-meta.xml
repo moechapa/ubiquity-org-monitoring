@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Money_in_or_out__c</fullName>
+    <description>Chat visitor selected main topic of Move money in or out of my account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Chat visitor selected main topic of Move money in or out of my account</inlineHelpText>
+    <label>Money in or out</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

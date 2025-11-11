@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BotVersion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>v1</fullName>
+    <articleAnswersGPTEnabled>false</articleAnswersGPTEnabled>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Hi! I&apos;m UBOT, Greetings from your retirement virtual assistant! How can I help you plan for your golden years today? 🌟</message>
+                <messageIdentifier>f8df2681-14f8-4c2a-90aa-083b959de3a3</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>078011f1-8fd3-4f37-a66c-a99c32b8306a</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botNavigation>
+                <botNavigationLinks>
+                    <targetBotDialog>Loan</targetBotDialog>
+                </botNavigationLinks>
+                <botNavigationLinks>
+                    <targetBotDialog>Glossary</targetBotDialog>
+                </botNavigationLinks>
+                <botNavigationLinks>
+                    <targetBotDialog>Login_Help</targetBotDialog>
+                </botNavigationLinks>
+                <type>Redirect</type>
+            </botNavigation>
+            <stepIdentifier>08acb954-0e79-4922-9838-0d2d99019f83</stepIdentifier>
+            <type>Navigation</type>
+        </botSteps>
+        <developerName>Welcome</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Welcome</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <stepIdentifier>87923204-d7f3-4003-8db5-0b12a5ae74c2</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Main_Menu</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Main Menu</label>
+        <showInFooterMenu>true</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <conversationSystemMessage>
+                <type>Transfer</type>
+            </conversationSystemMessage>
+            <stepIdentifier>16f4d291-b8b4-4459-aca0-1cfb46564979</stepIdentifier>
+            <type>SystemMessage</type>
+        </botSteps>
+        <developerName>Transfer_To_Agent</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Transfer To Agent</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Thanks for taking the time to chat. I’ve ended the conversation. To start a new conversation, enter some text.</message>
+                <messageIdentifier>9116cc55-8aaf-4e92-8e2d-a8b72cc934ca</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>fb2229d8-6949-4716-8c49-9969aa8c2b14</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botSteps>
+                <conversationSystemMessage>
+                    <type>EndChat</type>
+                </conversationSystemMessage>
+                <stepIdentifier>c2766186-4ff9-491e-87ac-891d7b8dcb53</stepIdentifier>
+                <type>SystemMessage</type>
+            </botSteps>
+            <stepIdentifier>3587c10b-9aaf-43ca-a781-9524c2848c6e</stepIdentifier>
+            <type>Group</type>
+        </botSteps>
+        <botSteps>
+            <stepIdentifier>0e234490-bc15-479e-9040-fe7b0769fbdf</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Rich_Content_End_Chat</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>End Chat</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Sorry, I didn&apos;t understand that.</message>
+                <messageIdentifier>1b162183-a083-42d9-9266-5571b1954695</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>d03a8322-d268-4f8a-98b5-d6ef6b00beea</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <stepIdentifier>3fdd5b6b-1c15-448a-be2d-ab4f340c3472</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Confused</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Confused</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Unfortunately, there are no agents available at the moment</message>
+                <messageIdentifier>4209e14a-8888-4f06-bbd8-5994fcde5777</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>954b03c3-6735-4d38-820c-fc49db5fef08</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <stepIdentifier>88e893a2-b52a-43db-a911-e5278e7ab8aa</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>No_Agent_Available</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>No Agent</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Unfortunately, a system error occurred. Let us start again.</message>
+                <messageIdentifier>762eb4f1-dcc2-4904-93f9-b4aa7db2e0b5</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>28555db5-6103-4473-b6b0-4fca5febf260</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botNavigation>
+                <botNavigationLinks>
+                    <targetBotDialog>Main_Menu</targetBotDialog>
+                </botNavigationLinks>
+                <type>Redirect</type>
+            </botNavigation>
+            <stepIdentifier>24fc8ce3-e5dd-488f-8580-26ec88b9dee0</stepIdentifier>
+            <type>Navigation</type>
+        </botSteps>
+        <developerName>Rich_Content_Error_Handling</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Error Handler</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>A retirement loan, commonly known as a 401(k) loan, is when someone borrows money from their own 401(k) retirement account. Loans let people access part of their retirement savings without the fees and penalties of early withdrawals.</message>
+                <messageIdentifier>5b4c9077-68f1-88eb-36fd-6f68e3d9ea31</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>3d00de3b-9d5f-4e29-8f57-9cda2f1a0311</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botNavigation>
+                <botNavigationLinks>
+                    <targetBotDialog>Loan_Basics_and_Policy</targetBotDialog>
+                </botNavigationLinks>
+                <botNavigationLinks>
+                    <targetBotDialog>New_Loan</targetBotDialog>
+                </botNavigationLinks>
+                <botNavigationLinks>
+                    <targetBotDialog>Help_With_My_Existing_Loan</targetBotDialog>
+                </botNavigationLinks>
+                <botNavigationLinks>
+                    <targetBotDialog>Taxes</targetBotDialog>
+                </botNavigationLinks>
+                <botNavigationLinks>
+                    <targetBotDialog>Glossary</targetBotDialog>
+                </botNavigationLinks>
+                <botNavigationLinks>
+                    <targetBotDialog>Main_Menu</targetBotDialog>
+                </botNavigationLinks>
+                <type>Redirect</type>
+            </botNavigation>
+            <stepIdentifier>d20b0ca1-7994-424b-a1fc-0b0484cf72f3</stepIdentifier>
+            <type>Navigation</type>
+        </botSteps>
+        <developerName>Loan</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Loan</label>
+        <showInFooterMenu>true</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>A retirement loan, commonly known as a 401(k) loan, is when someone borrows money from their own 401(k) retirement account. These loans let people access part of their retirement savings without facing those extra costs.</message>
+                <messageIdentifier>64fec9fd-e6d0-6192-4654-a015d2cf6600</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>7b0eb849-6e6b-4ee1-bfde-a098fdcdf269</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>The IRS regulations regarding loans from retirement plans typically limit the amount you can borrow to the lesser of $50,000 or 50% of your vested account balance.</message>
+                <messageIdentifier>16203c0f-474b-b896-9f44-14b225fd9d69</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>832f1447-3aff-4a9d-96f2-0984e4218400</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>Additionally, if you had an outstanding loan balance at any time during the previous 12 months, that amount is deducted from the maximum loan you can take out. This ensures compliance with tax rules governing retirement plan loans.</message>
+                <messageIdentifier>4924d053-4d56-8433-6b94-024220385809</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>2af1a040-2a84-425a-8d88-d89e77d4ee1e</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>•	Maximum repayment period: 5 years for general purpose, 30 years for a residential loan (primary residence ONLY)*
+•	Interest rate: Prime rate + 2%</message>
+                <messageIdentifier>a3bb7a89-43de-1f4e-1413-c917667069d4</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>87e2af22-fe63-4404-92d7-6267c4b4df35</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>•	Maximum number of loans outstanding at one time: One
+•	Minimum loan amount: $1,000
+•	Maximum loan amount: The lesser of $50,000 (less the highest outstanding loan balance in the last 12 months) or 50% of your vested account balance</message>
+                <messageIdentifier>21cdadd0-0b46-e28a-be78-66161065dea3</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>17c3c29e-4db2-46ff-90a3-01d02c0e9c35</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botVariableOperation>
+                <askCollectIfSet>false</askCollectIfSet>
+                <botMessages>
+                    <message>Would you like some examples of the loan amounts that an employee can take from their retirement account?</message>
+                    <messageIdentifier>3eae486e-e025-e121-0a5e-59babfa1c887</messageIdentifier>
+                </botMessages>
+                <botQuickReplyOptions>
+                    <literalValue>Yes!</literalValue>
+                    <quickReplyOptionIdentifier>f788ab49-54c7-334e-b23a-855e47649831</quickReplyOptionIdentifier>
+                </botQuickReplyOptions>
+                <botQuickReplyOptions>
+                    <literalValue>No thanks...</literalValue>
+                    <quickReplyOptionIdentifier>1c0e2f9d-a180-005e-fa71-a3ced39259fe</quickReplyOptionIdentifier>
+                </botQuickReplyOptions>
+                <botVariableOperands>
+                    <disableAutoFill>true</disableAutoFill>
+                    <sourceName>_Text</sourceName>
+                    <sourceType>StandardMlSlotClass</sourceType>
+                    <targetName>Proceed</targetName>
+                    <targetType>ConversationVariable</targetType>
+                </botVariableOperands>
+                <ignoreIntentRecognition>false</ignoreIntentRecognition>
+                <optionalCollect>false</optionalCollect>
+                <quickReplyType>Static</quickReplyType>
+                <quickReplyWidgetType>Buttons</quickReplyWidgetType>
+                <type>Collect</type>
+                <variableOperationIdentifier>74cdc1c7-0e56-4746-69ad-f53f66e26ce2</variableOperationIdentifier>
+            </botVariableOperation>
+            <stepIdentifier>0676d30c-6ce8-4115-b593-183777184aeb</stepIdentifier>
+            <type>VariableOperation</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>Jamie has a vested balance of $80,000. Following the IRS regulation, Jamie is eligible to borrow the lesser of $50,000 or 50% of the vested balance ($80,000) minus $0 (no outstanding loans), Jamie can access $40,000 of their vested balance.</message>
+                <messageIdentifier>662f6faa-5247-f402-c9c1-297158aeb284</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>0084fb15-d591-4adf-ad42-dcce0c4540be</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>Casey has a vested balance of $120,000. According to the formula, eligible to borrow the lesser of $50,000 or 50% of the vested balance ($120,000) minus $0 (no outstanding loans), Casey can borrow the full $50,000 amount.</message>
+                <messageIdentifier>7359708f-ac74-aaeb-4f2c-d5d7a9bec792</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>b0dd493a-70fb-4a30-a46e-aff826c551dd</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>Alex has a vested balance of $120,000, an outstanding loan of $10,000 in the past year. Alex can borrow up to $40,000, which is the lesser of $50,000 or 50% of the vested balance minus the highest outstanding loan in last 12 months.</message>
+                <messageIdentifier>3b65ec17-43be-8771-2d9e-2ea28982870e</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>371dfdf6-bf67-4ddf-8348-0739dbcca72c</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>•	Ongoing annual loan fees are assessed on the annual anniversary month of the loan’s original effective date.</message>
+                <messageIdentifier>9971f9f1-df03-47ba-71bc-a74c74b20749</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>4daf19c7-9251-4bdc-af55-886628d05070</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>*Primary Residence loans: Must supply your employer with proof that the loan is for the purchase of a primary residence prior to the employer acknowledging the loan request. Documentation will be necessary in the case of an audit by the Dept of Labor.</message>
+                <messageIdentifier>28726d93-0b0b-c86f-b9a9-8fce2fd11222</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>20b593c9-75d0-4c3c-86b5-57e862d937ad</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botVariableOperation>
+                <askCollectIfSet>false</askCollectIfSet>
+                <botMessages>
+                    <message>Would you like more information?</message>
+                    <messageIdentifier>c198c81e-54f0-1881-2bcc-e877743ffd88</messageIdentifier>
+                </botMessages>
+                <botQuickReplyOptions>
+                    <literalValue>No Thanks...</literalValue>
+                    <quickReplyOptionIdentifier>02438a37-1a1d-af32-faf2-a564493958ae</quickReplyOptionIdentifier>
+                </botQuickReplyOptions>
+                <botQuickReplyOptions>
+                    <literalValue>Participant Loan Policy</literalValue>
+                    <quickReplyOptionIdentifier>3e181910-a1d5-d99e-7663-9fcc83cbeaff</quickReplyOptionIdentifier>
+                </botQuickReplyOptions>
+                <botQuickReplyOptions>
+                    <literalValue>Loan FAQ&apos;s</literalValue>
+                    <quickReplyOptionIdentifier>b0612e60-9a53-9762-524e-77ed1571f608</quickReplyOptionIdentifier>
+                </botQuickReplyOptions>
+                <botQuickReplyOptions>
+                    <literalValue>IRS Loan Information</literalValue>
+                    <quickReplyOptionIdentifier>db706381-c453-93fe-aaad-b0a17aff488e</quickReplyOptionIdentifier>
+                </botQuickReplyOptions>
+                <botVariableOperands>
+                    <disableAutoFill>true</disableAutoFill>
+                    <sourceName>_Text</sourceName>
+                    <sourceType>StandardMlSlotClass</sourceType>
+                    <targetName>Proceed</targetName>
+                    <targetType>ConversationVariable</targetType>
+                </botVariableOperands>
+                <ignoreIntentRecognition>false</ignoreIntentRecognition>
+                <optionalCollect>false</optionalCollect>
+                <quickReplyType>Static</quickReplyType>
+                <quickReplyWidgetType>Buttons</quickReplyWidgetType>
+                <type>Collect</type>
+                <variableOperationIdentifier>457e449b-46f1-5244-2f71-311365d6d196</variableOperationIdentifier>
+            </botVariableOperation>
+            <stepIdentifier>9f807559-9db4-4cbd-9e08-d50790e8e744</stepIdentifier>
+            <type>VariableOperation</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>Participant Loan Policy: 
+https://app.box.com/v/ParticipantLoanPolicy</message>
+                <messageIdentifier>e7438553-7a0b-b111-7faa-e78d3542ed7a</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>ac32c832-2b62-48b8-bbc9-c8c9c40bc631</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>Loan FAQ&apos;s: https://app.box.com/s/hygzp9h0wtzawj3xbsp8n06cgq6epar0</message>
+                <messageIdentifier>c0e0dc9c-9cde-973e-9609-eb3c26d53b73</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>f239393a-d7b9-4924-bbea-b84b16f74ac9</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>IRS Loan Information: https://www.irs.gov/retirement-plans/retirement-plans-faqs-regarding-loans#1  
+
+https://www.irs.gov/retirement-plans/401k-plan-fix-it-guide-participant-loans-dont-conform-to-the-requirements-of-the-plan-document-and-irc-section-72</message>
+                <messageIdentifier>f52a8b87-b7de-22d6-7946-9597946f7d72</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>9f47c84c-2b2a-4c39-98c6-415ccdb93f24</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botNavigation>
+                <botNavigationLinks>
+                    <targetBotDialog>New_Loan</targetBotDialog>
+                </botNavigationLinks>
+                <botNavigationLinks>
+                    <targetBotDialog>Main_Menu</targetBotDialog>
+                </botNavigationLinks>
+                <botNavigationLinks>
+                    <targetBotDialog>Transfer_To_Agent</targetBotDialog>
+                </botNavigationLinks>
+                <botNavigationLinks>
+                    <targetBotDialog>Glossary</targetBotDialog>
+                </botNavigationLinks>
+                <type>Redirect</type>
+            </botNavigation>
+            <stepIdentifier>c255298c-30bc-4b80-bfc5-5668d844cd74</stepIdentifier>
+            <type>Navigation</type>
+        </botSteps>
+        <developerName>Loan_Basics_and_Policy</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Loan Basics and Policy</label>
+        <mlIntent>Loan_Basics_and_Policy</mlIntent>
+        <mlIntentTrainingEnabled>true</mlIntentTrainingEnabled>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <stepIdentifier>c35c9b03-15d6-4781-bee7-7a8986465f89</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>New_Loan</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>New Loan</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <stepIdentifier>22d1f330-63a2-412b-b733-4a0a8a1a67ee</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Help_With_My_Existing_Loan</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Help With My Existing Loan</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Any current outstanding loans do not need to be reported. 
+Any taxable distribution will be reported to the IRS on a 1099-R.</message>
+                <messageIdentifier>a41dd0ce-5ba5-a073-15d8-e684a1103f34</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>e839783e-d993-4ff3-a363-69ef906c14f5</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>If your loan was offset at the time of your distribution, the loan will need to be reported with your tax filing. 
+Any taxes or distribution penalties will apply to offset loans and cash payouts.</message>
+                <messageIdentifier>e0a9c60a-3d5b-3707-36ed-786982120563</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>8067c05d-8a5c-4cfa-b642-0ea6fc9172ce</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>Did you take a distribution from your 401(k) plan last year? If so, you should have received a 1099-R form in the mail. They are mailed out by your plan&apos;s custodian no later than January 31st of the following year and generally arrive in early to mid-Feb</message>
+                <messageIdentifier>cc950041-02e7-be35-fa33-0661cb76b82f</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>298f665b-c7f5-4f31-be0d-291d992cdfc6</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>If you did not receive your 1099-R or misplaced it, don&apos;t worry!  Please reach out to our saver support team for a copy of your 1099-R after February 15th. 
+
+Email: info@myubiquity.com</message>
+                <messageIdentifier>87145e58-6bf8-02e1-75ca-4318a6e474ef</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>955aec16-54a6-4eb6-9d27-4185a53594cf</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>Please allow 2-3 business days for us to provide your electronic copy of the 1099-R form.
+
+You may also request corrections to your 1099-R. 
+
+*Please note correction requests take longer to process as they must be done by your plan&apos;s custodian.</message>
+                <messageIdentifier>6d9e1044-d955-15c4-d499-f86cae56cdc6</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>db9f75e5-afd4-4146-b067-2ee064ddcdc1</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <stepIdentifier>e6570d34-a306-45e5-84c9-c67bf35c5ba0</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Taxes</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Taxes</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <stepIdentifier>3a9c0b33-97dc-4ec5-b020-f3ce9b8ca610</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Glossary</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Glossary</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <stepIdentifier>f3df1298-97d6-4693-ad8a-174f9d577138</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Login_Help</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Login Help</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <stepIdentifier>e1b0a1e7-fcb2-40a6-9bdb-76cc9a47caa7</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Loan_Fees</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Loan Fees</label>
+        <showInFooterMenu>true</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <stepIdentifier>0cf28a79-863c-4178-99ee-5de287dec561</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Withdrawals_Rollover_Out</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Withdrawals/Rollover Out</label>
+        <showInFooterMenu>true</showInFooterMenu>
+    </botDialogs>
+    <citationsEnabled>false</citationsEnabled>
+    <conversationSystemDialogs>
+        <dialog>No_Agent_Available</dialog>
+        <type>TransferFailed</type>
+    </conversationSystemDialogs>
+    <conversationSystemDialogs>
+        <dialog>Rich_Content_Error_Handling</dialog>
+        <type>ErrorHandling</type>
+    </conversationSystemDialogs>
+    <conversationVariables>
+        <SObjectType>ContentVersion</SObjectType>
+        <dataType>Id</dataType>
+        <developerName>Participant_Loan_Policy</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Participant Loan Policy</label>
+    </conversationVariables>
+    <conversationVariables>
+        <dataType>Text</dataType>
+        <developerName>Proceed</developerName>
+        <includeInPrompt>false</includeInPrompt>
+        <label>Proceed</label>
+    </conversationVariables>
+    <entryDialog>Welcome</entryDialog>
+    <intentDisambiguationEnabled>false</intentDisambiguationEnabled>
+    <intentV3Enabled>true</intentV3Enabled>
+    <knowledgeActionEnabled>false</knowledgeActionEnabled>
+    <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
+    <mainMenuDialog>Main_Menu</mainMenuDialog>
+    <nlpProviders>
+        <language>en_US</language>
+        <nlpProviderType>EinsteinAi</nlpProviderType>
+    </nlpProviders>
+    <smallTalkEnabled>false</smallTalkEnabled>
+    <stopRecPrompts>false</stopRecPrompts>
+    <stopWelcomePrompts>false</stopWelcomePrompts>
+    <surfacesEnabled>false</surfacesEnabled>
+</BotVersion>

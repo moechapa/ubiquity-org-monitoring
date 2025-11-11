@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inquiry_Source__c</fullName>
+    <description>May be replaced by Inquiry Source Team - this was update by process where Inquiry Source Team is a formula field.   This field has data missing for 2+ years.   Process Builder was looking to &quot;Owner ID = Compliance&quot; which never ran.</description>
+    <inlineHelpText>May be replaced by Inquiry Source Team - this was update by process where Inquiry Source Team is a formula field.   This field has data missing for 2+ years.   Process Builder was looking to &quot;Owner ID = Compliance&quot; which never ran.</inlineHelpText>
+    <label>Inquiry Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advisor</fullName>
+                <default>false</default>
+                <label>Advisor</label>
+            </value>
+            <value>
+                <fullName>Billing</fullName>
+                <default>false</default>
+                <label>Billing</label>
+            </value>
+            <value>
+                <fullName>Client</fullName>
+                <default>false</default>
+                <label>Client</label>
+            </value>
+            <value>
+                <fullName>Compliance</fullName>
+                <default>false</default>
+                <label>Compliance</label>
+            </value>
+            <value>
+                <fullName>CST</fullName>
+                <default>false</default>
+                <label>CST</label>
+            </value>
+            <value>
+                <fullName>Distributions</fullName>
+                <default>false</default>
+                <label>Distributions</label>
+            </value>
+            <value>
+                <fullName>New Plan</fullName>
+                <default>false</default>
+                <label>New Plan</label>
+            </value>
+            <value>
+                <fullName>Operations</fullName>
+                <default>false</default>
+                <label>Operations</label>
+            </value>
+            <value>
+                <fullName>Partnerships</fullName>
+                <default>false</default>
+                <label>Partnerships</label>
+            </value>
+            <value>
+                <fullName>Payroll</fullName>
+                <default>false</default>
+                <label>Payroll</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Savers</fullName>
+                <default>false</default>
+                <label>Savers</label>
+            </value>
+            <value>
+                <fullName>Single(k)</fullName>
+                <default>false</default>
+                <label>Single(k)</label>
+            </value>
+            <value>
+                <fullName>Transitions</fullName>
+                <default>false</default>
+                <label>Transitions</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

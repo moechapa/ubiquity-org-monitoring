@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kotapay_Company_name_at_bank__c</fullName>
+    <description>Question Created by the Survey Builder</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Your company name as it appears on your corporate bank account used to fund employee contributions made to your plan</inlineHelpText>
+    <label>Kotapay - Company name at bank</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

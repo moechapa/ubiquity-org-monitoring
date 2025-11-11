@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Safe_Harbor_Service_Option_Auto_Enroll</fullName>
+    <active>true</active>
+    <description>Restricts Safe Harbor option based on Service Option + Auto-Enroll Values.   ExpressK and CustomK with QACA must use Safe Harbor options containing QACA or NEC.</description>
+    <errorConditionFormula>( ISPICKVAL( Service_Option__c , &quot;Express(k)&quot;) 
+||
+ ISPICKVAL( Service_Option__c , &quot;Custom(k)&quot;) 
+)
+&amp;&amp;
+ ISPICKVAL( AutoEnrollment__c , &quot;QACA&quot;) 
+&amp;&amp;
+NOT( CONTAINS (TEXT( Safe_Harbor__c ), &quot;NEC&quot;)) 
+&amp;&amp;
+NOT( CONTAINS (TEXT( Safe_Harbor__c ), &quot;QACA&quot;))</errorConditionFormula>
+    <errorDisplayField>Safe_Harbor__c</errorDisplayField>
+    <errorMessage>If Auto-Enroll = QACA, Safe Harbor value must contain QACA or Non-Elective</errorMessage>
+</ValidationRule>

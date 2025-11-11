@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Confirmed_Review__c</fullName>
+    <description>I affirm I have the reviewed the document(s) referenced herein and have either: (a) noted no exception with Ubiquity’s existing procedures and operations or, (b) have noted one or more exception(s)</description>
+    <inlineHelpText>I affirm I have the reviewed the document(s) referenced herein and have either: (a) noted no exception with Ubiquity’s existing procedures and operations or, (b) have noted one or more exception(s)</inlineHelpText>
+    <label>Confirmed Review</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Confirmed</fullName>
+                <default>false</default>
+                <label>Confirmed</label>
+            </value>
+            <value>
+                <fullName>Confirmed with exceptions</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Confirmed with exceptions</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

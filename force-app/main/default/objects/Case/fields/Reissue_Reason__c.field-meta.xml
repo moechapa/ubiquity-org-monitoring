@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reissue_Reason__c</fullName>
+    <description>Reissue request field</description>
+    <inlineHelpText>Primary reason for the reissue request</inlineHelpText>
+    <label>Reissue Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account # incorrect</fullName>
+                <default>false</default>
+                <label>Account # incorrect</label>
+            </value>
+            <value>
+                <fullName>Address incorrect</fullName>
+                <default>false</default>
+                <label>Address incorrect</label>
+            </value>
+            <value>
+                <fullName>Address update</fullName>
+                <default>false</default>
+                <label>Address update</label>
+            </value>
+            <value>
+                <fullName>Change taxable to $0</fullName>
+                <default>false</default>
+                <label>Change taxable to $0</label>
+            </value>
+            <value>
+                <fullName>Check didn&apos;t arrive</fullName>
+                <default>false</default>
+                <label>Check didn&apos;t arrive</label>
+            </value>
+            <value>
+                <fullName>FBO missing</fullName>
+                <default>false</default>
+                <label>FBO missing</label>
+            </value>
+            <value>
+                <fullName>Memo line incorrect</fullName>
+                <default>false</default>
+                <label>Memo line incorrect</label>
+            </value>
+            <value>
+                <fullName>Payee incorrect</fullName>
+                <default>false</default>
+                <label>Payee incorrect</label>
+            </value>
+            <value>
+                <fullName>Payee update</fullName>
+                <default>false</default>
+                <label>Payee update</label>
+            </value>
+            <value>
+                <fullName>Returned wire</fullName>
+                <default>false</default>
+                <label>Returned wire</label>
+            </value>
+            <value>
+                <fullName>Stale check</fullName>
+                <default>false</default>
+                <label>Stale check</label>
+            </value>
+            <value>
+                <fullName>Wire info incorrect</fullName>
+                <default>false</default>
+                <label>Wire info incorrect</label>
+            </value>
+            <value>
+                <fullName>Wire not accepted</fullName>
+                <default>false</default>
+                <label>Wire not accepted</label>
+            </value>
+            <value>
+                <fullName>Wire info update</fullName>
+                <default>false</default>
+                <label>Wire info update</label>
+            </value>
+            <value>
+                <fullName>Check to/from Wire</fullName>
+                <default>false</default>
+                <label>Check to/from Wire</label>
+            </value>
+            <value>
+                <fullName>Tax code incorrect</fullName>
+                <default>false</default>
+                <label>Tax code incorrect</label>
+            </value>
+            <value>
+                <fullName>Tax w/h incorrect</fullName>
+                <default>false</default>
+                <label>Tax w/h incorrect</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowTest xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowApiName>Lead_Before_Create_or_Update_Assign_Plan_Type</flowApiName>
+    <label>Conversion Plan Positive Test</label>
+    <testPoints>
+        <elementApiName>Start</elementApiName>
+        <parameters>
+            <leftValueReference>$Record</leftValueReference>
+            <type>InputTriggeringRecordInitial</type>
+            <value>
+                <sobjectValue>{&quot;AI_Single_k_Auto_Invest__c&quot;:false,&quot;Auto_Enrollment_Deferral_Escalation_Rate__c&quot;:&quot;&quot;,&quot;Auto_Enrollment__c&quot;:&quot;&quot;,&quot;Business_Unit__c&quot;:&quot;Ubiquity&quot;,&quot;CalendlyCreated__c&quot;:false,&quot;Called_Sales_For_Safe_Harbor__c&quot;:&quot;No&quot;,&quot;Can_accept_HTML__c&quot;:false,&quot;CloudingoAgent__AS__c&quot;:0,&quot;CloudingoAgent__LES__c&quot;:0,&quot;Company&quot;:&quot;Test Company&quot;,&quot;CountryCode&quot;:&quot;US&quot;,&quot;Create_Opp__c&quot;:true,&quot;Credentialed_Advisor__c&quot;:false,&quot;Current_Plan__c&quot;:&quot;401(k)&quot;,&quot;DoNotCall&quot;:false,&quot;DoNotCallCustom_StageDefault__c&quot;:false,&quot;Eligible_for_Contact_Merge__c&quot;:false,&quot;HasOptedOutOfEmail&quot;:false,&quot;Interested_in_CE_credits__c&quot;:false,&quot;Intuit_Attempting_Initial_Contact__c&quot;:false,&quot;IsUnreadByOwner&quot;:true,&quot;Is_As_k_Advocate__c&quot;:false,&quot;LastName&quot;:&quot;Test Lead&quot;,&quot;Lead_Origin__c&quot;:&quot;Ubiquity Generated&quot;,&quot;Lead_Type__c&quot;:&quot;Employer&quot;,&quot;MC_Removal__c&quot;:false,&quot;Morningstar_Enabled__c&quot;:false,&quot;No_Contact__c&quot;:false,&quot;Opt_In__c&quot;:false,&quot;OwnerId&quot;:&quot;0051G000008D1IPQA0&quot;,&quot;Participant_Fee_Payment__c&quot;:&quot;Employee&quot;,&quot;Partner_Type__c&quot;:&quot;NA&quot;,&quot;Plan_Type__c&quot;:&quot;&quot;,&quot;Post_Costco_Opt_In__c&quot;:false,&quot;Product_Type__c&quot;:&quot;401(k)&quot;,&quot;Safe_Harbor_CF__c&quot;:&quot;&quot;,&quot;Safe_Harbor__c&quot;:&quot;&quot;,&quot;Self_Purchase__c&quot;:false,&quot;Service_Option__c&quot;:&quot;&quot;,&quot;Split_Opp__c&quot;:false,&quot;Status&quot;:&quot;Open&quot;,&quot;Subscription_Snooze__c&quot;:false,&quot;Zenefits_Integrated_Payroll_Provider__c&quot;:false,&quot;n2de__Is_archived__c&quot;:false,&quot;n2de__Is_distributed__c&quot;:false,&quot;n2de__Is_reassigned__c&quot;:false,&quot;n2de__Is_rejected__c&quot;:false,&quot;n2de__Is_trigger_enabled__c&quot;:false,&quot;n2de__Is_triggered__c&quot;:false,&quot;pi__Needs_Score_Synced__c&quot;:false,&quot;pi__pardot_hard_bounced__c&quot;:false,&quot;zoom_app__IsCreatedByZoomApp__c&quot;:false}</sobjectValue>
+            </value>
+        </parameters>
+    </testPoints>
+    <testPoints>
+        <assertions>
+            <conditions>
+                <leftValueReference>$Record.Plan_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Conversion Plan</stringValue>
+                </rightValue>
+            </conditions>
+        </assertions>
+        <elementApiName>Finish</elementApiName>
+    </testPoints>
+</FlowTest>

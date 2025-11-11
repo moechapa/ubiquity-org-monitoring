@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Status__c</fullName>
+    <label>Closed Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Resolved – No Response</fullName>
+                <default>false</default>
+                <label>Resolved – No Response</label>
+            </value>
+            <value>
+                <fullName>Resolved – Fee Waiver</fullName>
+                <default>false</default>
+                <label>Resolved – Fee Waiver</label>
+            </value>
+            <value>
+                <fullName>Resolved - Personalized Service</fullName>
+                <default>false</default>
+                <label>Resolved - Personalized Service</label>
+            </value>
+            <value>
+                <fullName>Resolved - Other offer accepted</fullName>
+                <default>false</default>
+                <label>Resolved - Other offer accepted</label>
+            </value>
+            <value>
+                <fullName>Resolved – Offer Made (Declined)</fullName>
+                <default>false</default>
+                <label>Resolved – Offer Made (Declined)</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>Missing Info</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Missing Info</label>
+            </value>
+            <value>
+                <fullName>Resolved</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Resolved</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Group containing all messaging related permissions for end users</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Omni Messaging Group</label>
+    <permissionSets>Omni_Messaging</permissionSets>
+    <permissionSets>Outbound_Messaging</permissionSets>
+    <permissionSets>force__MessagingForInAppAndWebUser</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Desired_Goals__c</fullName>
+    <description>What do you hope to achieve with this objective? Why is it important to the business?</description>
+    <inlineHelpText>What do you hope to achieve with this objective? Why is it important to the business?</inlineHelpText>
+    <label>Desired Goals</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

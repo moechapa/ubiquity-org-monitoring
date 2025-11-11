@@ -1,0 +1,40 @@
+<template>
+    <article class="slds-card slds-m-around_none">
+        <div class="slds-card__body">
+            <div class="slds-m-around_medium">
+                <c-header-with-logo title="360Learning Administration"></c-header-with-logo>
+            </div>
+            <p class="slds-text-body_small slds-m-around_small">
+                Setup the parameters for your 360Learning integration.<br/>
+                Only System Administrators can see this component.<br/>
+            </p>
+            <div class="slds-m-around_small">
+                <lightning-input
+                    label="Tenant url"
+                    value={tenantUrl}
+                    onchange={onTenantUrlChange}
+                    placeholder="ex: team.360learning.com"
+                ></lightning-input>
+            </div>
+            <div class="slds-m-around_small">
+                <lightning-input
+                    label="Competitor field"
+                    value={competitorField}
+                    onchange={onCompetitorFieldChange}
+                    placeholder="ex: MainCompetitors__c"
+                    field-level-help="The field from which the competitor information will be retrieved. Use the API format."
+                ></lightning-input>
+            </div>
+            <div class="slds-m-top_large">
+                <lightning-button
+                    disabled={isSaveDisabled}
+                    variant="brand"
+                    label="Save"
+                    title="Save settings"
+                    onclick={onSave}
+                    class="slds-m-left_medium"
+                ></lightning-button>
+            </div>
+        </div>
+    </article>
+</template>

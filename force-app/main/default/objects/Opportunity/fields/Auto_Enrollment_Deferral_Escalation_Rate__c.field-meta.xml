@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_Enrollment_Deferral_Escalation_Rate__c</fullName>
+    <label>Auto-Enrollment Deferral/Escalation Rate</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Service_Option__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>3% Auto-Escalate</fullName>
+                <default>false</default>
+                <label>3% Auto-Escalate</label>
+            </value>
+            <value>
+                <fullName>4% Auto-Escalate</fullName>
+                <default>false</default>
+                <label>4% Auto-Escalate</label>
+            </value>
+            <value>
+                <fullName>5% Auto-Escalate</fullName>
+                <default>false</default>
+                <label>5% Auto-Escalate</label>
+            </value>
+            <value>
+                <fullName>6% Auto-Escalate</fullName>
+                <default>false</default>
+                <label>6% Auto-Escalate</label>
+            </value>
+            <value>
+                <fullName>7% Auto-Escalate</fullName>
+                <default>false</default>
+                <label>7% Auto-Escalate</label>
+            </value>
+            <value>
+                <fullName>8% Auto-Escalate</fullName>
+                <default>false</default>
+                <label>8% Auto-Escalate</label>
+            </value>
+            <value>
+                <fullName>3% Flat Deferral Rate</fullName>
+                <default>false</default>
+                <label>3% Flat Deferral Rate</label>
+            </value>
+            <value>
+                <fullName>4% Flat Deferral Rate</fullName>
+                <default>false</default>
+                <label>4% Flat Deferral Rate</label>
+            </value>
+            <value>
+                <fullName>5% Flat Deferral Rate</fullName>
+                <default>false</default>
+                <label>5% Flat Deferral Rate</label>
+            </value>
+            <value>
+                <fullName>6% Flat Deferral Rate</fullName>
+                <default>false</default>
+                <label>6% Flat Deferral Rate</label>
+            </value>
+            <value>
+                <fullName>7% Flat Deferral Rate</fullName>
+                <default>false</default>
+                <label>7% Flat Deferral Rate</label>
+            </value>
+            <value>
+                <fullName>8% Flat Deferral Rate</fullName>
+                <default>false</default>
+                <label>8% Flat Deferral Rate</label>
+            </value>
+            <value>
+                <fullName>9% Flat Deferral Rate</fullName>
+                <default>false</default>
+                <label>9% Flat Deferral Rate</label>
+            </value>
+            <value>
+                <fullName>10% Flat Deferral Rate</fullName>
+                <default>false</default>
+                <label>10% Flat Deferral Rate</label>
+            </value>
+            <value>
+                <fullName>9% Auto-Escalate</fullName>
+                <default>false</default>
+                <label>9% Auto-Escalate</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>6% Auto-Escalate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>New Comp</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>New Comp</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>3% Auto-Escalate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>4% Auto-Escalate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>5% Auto-Escalate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>7% Auto-Escalate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>8% Auto-Escalate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>New Comp</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>6% Flat Deferral Rate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>New Comp</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>7% Flat Deferral Rate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>New Comp</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>8% Flat Deferral Rate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>New Comp</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>9% Flat Deferral Rate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>New Comp</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>10% Flat Deferral Rate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>9% Auto-Escalate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>3% Flat Deferral Rate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>4% Flat Deferral Rate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>5% Flat Deferral Rate</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

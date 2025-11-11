@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ubiquity_Revenue_Forecast__c</fullName>
+    <description>Ubiquity Sales Forecast multiplied by the estimated average price of the plans sold.</description>
+    <formula>Ubiquity_Sales_Forecast__c *  Estimated_Average_Price_of_Plans_Sold__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Ubiquity Sales Forecast multiplied by the estimated average price of the plans sold.</inlineHelpText>
+    <label>Ubiquity Revenue Forecast</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

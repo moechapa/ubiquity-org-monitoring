@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Safe_Harbor_Match_Determination_Period__c</fullName>
+    <description>For plans with Safe Harbor Match, confirm how often the matching formula can be determined</description>
+    <inlineHelpText>For plans with Safe Harbor Match, confirm how often the matching formula can be determined</inlineHelpText>
+    <label>Safe Harbor Match Determination Period</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Safe_Harbor__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Annual</fullName>
+                <default>false</default>
+                <label>Annual</label>
+            </value>
+            <value>
+                <fullName>Per Pay Period</fullName>
+                <default>false</default>
+                <label>Per Pay Period</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <controllingFieldValue>4% QACA Match</controllingFieldValue>
+            <controllingFieldValue>5% QACA Match</controllingFieldValue>
+            <controllingFieldValue>6% QACA Match</controllingFieldValue>
+            <controllingFieldValue>3% QACA non-elective</controllingFieldValue>
+            <controllingFieldValue>None</controllingFieldValue>
+            <controllingFieldValue>4% Enhanced Match</controllingFieldValue>
+            <controllingFieldValue>5% Enhanced Match</controllingFieldValue>
+            <controllingFieldValue>6% Enhanced Match</controllingFieldValue>
+            <controllingFieldValue>Basic Match (100% of 1st 3%+50% of next 2%)</controllingFieldValue>
+            <controllingFieldValue>3% Non-Elective Contribution (NEC)</controllingFieldValue>
+            <controllingFieldValue>3.5% QACA Match</controllingFieldValue>
+            <controllingFieldValue>QACA Basic Match (100% up to 1%, 50% up to 6%)</controllingFieldValue>
+            <valueName>Annual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <controllingFieldValue>4% QACA Match</controllingFieldValue>
+            <controllingFieldValue>5% QACA Match</controllingFieldValue>
+            <controllingFieldValue>6% QACA Match</controllingFieldValue>
+            <controllingFieldValue>3% QACA non-elective</controllingFieldValue>
+            <controllingFieldValue>None</controllingFieldValue>
+            <controllingFieldValue>4% Enhanced Match</controllingFieldValue>
+            <controllingFieldValue>5% Enhanced Match</controllingFieldValue>
+            <controllingFieldValue>6% Enhanced Match</controllingFieldValue>
+            <controllingFieldValue>Basic Match (100% of 1st 3%+50% of next 2%)</controllingFieldValue>
+            <controllingFieldValue>3.5% QACA Match</controllingFieldValue>
+            <controllingFieldValue>QACA Basic Match (100% up to 1%, 50% up to 6%)</controllingFieldValue>
+            <valueName>Per Pay Period</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custodial_Account_Number_Received</fullName>
+    <active>false</active>
+    <description>Requires Custodial Account Number Received Date field if Census &amp; Eligibility Date field is complete</description>
+    <errorConditionFormula>((ISBLANK( Matrix_07C_Account__c ) = TRUE)
+&amp;&amp;
+  ISPICKVAL(Custodian__c, &quot;MG Trust Company, LLC.&quot;)
+&amp;&amp; 
+ (ISBLANK( Custodial_Account_Number_Received__c ) = FALSE))
+
+||
+
+ ((ISBLANK( Custodian_Account_ID__c ) = TRUE)
+&amp;&amp; 
+ (ISBLANK( Custodial_Account_Number_Received__c ) = FALSE))</errorConditionFormula>
+    <errorMessage>Please Enter the Matrix 07C Number and/or the Custodian Account ID to move forward.</errorMessage>
+</ValidationRule>

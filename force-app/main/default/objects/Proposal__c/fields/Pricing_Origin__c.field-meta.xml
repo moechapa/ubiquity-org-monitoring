@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pricing_Origin__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>For simply proposals.  If checked, indicates that the proposal originated as a &quot;Pricing&quot; proposal, not full plan proposal.  Should remain checked on pricing proposals that have converted to &quot;Provisions&quot;.</description>
+    <label>Pricing Origin</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

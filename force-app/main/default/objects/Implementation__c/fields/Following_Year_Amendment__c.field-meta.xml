@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Following_Year_Amendment__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates if plan provisions will change as of the following year</description>
+    <inlineHelpText>Indicates if plan provisions will change as of the following year</inlineHelpText>
+    <label>Following Year Amendment</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

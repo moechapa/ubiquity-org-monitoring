@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finish_Before_Completion__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Finish Before Completion</label>
+    <referenceTo>Project_Deliverables__c</referenceTo>
+    <relationshipLabel>Unlock Upon Completion</relationshipLabel>
+    <relationshipName>Unlock_Upon_Completion</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

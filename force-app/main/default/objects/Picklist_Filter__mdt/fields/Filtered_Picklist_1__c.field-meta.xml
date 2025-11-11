@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Filtered_Picklist_1__c</fullName>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Filtered Picklist 1</label>
+    <metadataRelationshipControllingField>Picklist_Filter__mdt.Filtered_Object__c</metadataRelationshipControllingField>
+    <referenceTo>FieldDefinition</referenceTo>
+    <relationshipLabel>Picklist_Filters</relationshipLabel>
+    <relationshipName>Picklist_Filters</relationshipName>
+    <required>true</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

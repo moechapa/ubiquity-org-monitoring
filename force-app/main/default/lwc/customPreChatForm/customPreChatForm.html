@@ -1,0 +1,15 @@
+<template>
+    <template class="slds-m-around_medium" for:each={fields} for:item="field">
+        <c-custom-pre-chat-form-field key={field.name}
+                                    field-info={field}>
+        </c-custom-pre-chat-form-field>
+    </template>
+    <div class="slds-text-align_center slds-m-around_medium">
+        <button class="slds-button slds-button_brand custom-button"
+            title={startConversationLabel}
+            onclick={onStartConversationClick}
+            disabled={isSubmitButtonDisabled}>
+            {startConversationLabel}
+        </button>
+    </div>
+</template>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BBB_Review_Score__c</fullName>
+    <description>BBB Review score as of the 1st of the month</description>
+    <externalId>false</externalId>
+    <inlineHelpText>BBB Review score as of the 1st of the month</inlineHelpText>
+    <label>BBB Review Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

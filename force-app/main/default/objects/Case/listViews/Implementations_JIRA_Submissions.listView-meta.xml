@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Implementations_JIRA_Submissions</fullName>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>PARENT.CASE_NUMBER</columns>
+    <columns>OWNER_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Case_Type__c</field>
+        <operation>equals</operation>
+        <value>Parent Case w/ JIRA Child Case</value>
+    </filters>
+    <filters>
+        <field>Department__c</field>
+        <operation>equals</operation>
+        <value>Implementations</value>
+    </filters>
+    <filters>
+        <field>Case_Owner_Name__c</field>
+        <operation>notEqual</operation>
+        <value>PRKS</value>
+    </filters>
+    <label>Implementations JIRA Submissions</label>
+    <sharedTo>
+        <roleAndSubordinates>Implementation_Manager</roleAndSubordinates>
+        <roleAndSubordinates>SVP_Strategy</roleAndSubordinates>
+    </sharedTo>
+</ListView>

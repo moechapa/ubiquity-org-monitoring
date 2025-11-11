@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QDIA_End_Date__c</fullName>
+    <description>End date for QDIA Notice distribution</description>
+    <inlineHelpText>End date for QDIA Notice distribution</inlineHelpText>
+    <label>QDIA End Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

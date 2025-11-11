@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Past_Due__c</fullName>
+    <description>If actual completion date is blank and the target completion date is in the past, objective is past due.</description>
+    <formula>IF(ISBLANK( Actual_Completion_Date__c ) &amp;&amp; TODAY() - Target_Completion_Date__c &gt; 0, TRUE, FALSE)</formula>
+    <inlineHelpText>If actual completion date is blank and the target completion date is in the past, objective is past due.</inlineHelpText>
+    <label>Past Due</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

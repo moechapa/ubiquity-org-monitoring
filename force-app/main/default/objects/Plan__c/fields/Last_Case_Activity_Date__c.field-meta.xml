@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Case_Activity_Date__c</fullName>
+    <description>Date of last Case Activity from a Sponsor or Trustee</description>
+    <inlineHelpText>Date of last Case Activity from a Sponsor or Trustee</inlineHelpText>
+    <label>Last Case Activity Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

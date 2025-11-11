@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Saved_Date</fullName>
+    <active>true</active>
+    <description>If status = Plan saved, require a Saved Date value</description>
+    <errorConditionFormula>AND(ISPICKVAL( Implementation_Status__c , &quot;Plan Saved&quot;),  ISBLANK( Plan_Saved_Date__c))</errorConditionFormula>
+    <errorMessage>Must enter a Plan Saved Date</errorMessage>
+</ValidationRule>

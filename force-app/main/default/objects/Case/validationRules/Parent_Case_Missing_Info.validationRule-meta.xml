@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Case_Missing_Info</fullName>
+    <active>true</active>
+    <description>Prevents closure of parent case in &quot;Child Case Missing Info&quot; status - even though the Child Case Opened/Closed counters may have equal values.</description>
+    <errorConditionFormula>AND ( ISCHANGED( Status ) ,
+ ISPICKVAL(Status, &quot;Resolved&quot;),
+(ISPICKVAL(PRIORVALUE(Status), &quot;Child Case Missing Info&quot;)))</errorConditionFormula>
+    <errorMessage>One or more child cases is missing info and needs to be fully resolved before this case can be closed</errorMessage>
+</ValidationRule>

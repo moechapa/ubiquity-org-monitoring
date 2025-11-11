@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MessagingChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <embeddedConfig>
+        <allowedFileTypes>xml,xls,xlsx,csv,docx,doc,txt,pdf,png,jpg,bmp,tiff,gif</allowedFileTypes>
+        <anonymousUserJwtExpirationTime>360</anonymousUserJwtExpirationTime>
+        <authMode>UnAuth</authMode>
+        <isAttachmentUploadEnabled>true</isAttachmentUploadEnabled>
+        <isEstimatedWaitTimeEnabled>true</isEstimatedWaitTimeEnabled>
+        <isFallbackMessageEnabled>false</isFallbackMessageEnabled>
+        <isSaveTranscriptEnabled>false</isSaveTranscriptEnabled>
+        <maxFileSize>5</maxFileSize>
+    </embeddedConfig>
+    <masterLabel>CE Skill Based Chat</masterLabel>
+    <messagingChannelType>EmbeddedMessaging</messagingChannelType>
+    <sessionHandlerQueue>UBQT_Sales_Chat</sessionHandlerQueue>
+    <sessionHandlerType>Queue</sessionHandlerType>
+</MessagingChannel>

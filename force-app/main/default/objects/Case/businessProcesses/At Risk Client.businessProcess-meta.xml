@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>At Risk Client</fullName>
+    <description>Support Process for At-Risk Clients</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Awaiting Client Response</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Awaiting Development Team Fix</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Child Case Pending</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Child Case Resolved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Child Case Response Received</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Client Taking Action</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Duplicate</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Follow-Up Today</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Late Payroll Survey Received</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Resolved</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Response Received</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Response to Parent Case</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Scheduled Follow-Up</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Survey Email Sent</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Survey Received - Send DocuSign</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Unable to Reach</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

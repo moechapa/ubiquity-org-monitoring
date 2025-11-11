@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Move_money_to_new_investments__c</fullName>
+    <description>Visitor selected option to move $ to new investments during chatbot session</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Visitor selected option to move $ to new investments during chatbot session</inlineHelpText>
+    <label>$ to New Investments</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

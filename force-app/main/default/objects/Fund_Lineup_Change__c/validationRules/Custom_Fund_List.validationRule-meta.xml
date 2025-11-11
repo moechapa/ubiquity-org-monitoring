@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Fund_List</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(  New_Fund_List__c  , &quot;Custom&quot;)
+&amp;&amp;
+NOT(  Custom_List_Attached__c  )
+&amp;&amp;
+NOT(ISNEW())</errorConditionFormula>
+    <errorDisplayField>Custom_List_Attached__c</errorDisplayField>
+    <errorMessage>For Custom Fund List, ensure custom list is attached in the &quot;Files&quot; section at top of and check the &quot;Fund Mapping Attached&quot; box.</errorMessage>
+</ValidationRule>

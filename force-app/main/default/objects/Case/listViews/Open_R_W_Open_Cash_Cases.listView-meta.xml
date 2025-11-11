@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_R_W_Open_Cash_Cases</fullName>
+    <booleanFilter>2 AND 3 AND (4 OR 1 OR 5 OR 6)</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Category__c</columns>
+    <columns>Team_Member__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Partner__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Case_Flag__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Case_Type__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Follow_Up_Date__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>NAME</columns>
+    <columns>Case_Owner_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Operations</value>
+    </filters>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Open Cash</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>dist</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>r&amp;w</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>RW</value>
+    </filters>
+    <label>Open R&amp;W Open Cash Cases</label>
+    <sharedTo>
+        <roleAndSubordinates>Vice_President_of_Operations</roleAndSubordinates>
+    </sharedTo>
+</ListView>

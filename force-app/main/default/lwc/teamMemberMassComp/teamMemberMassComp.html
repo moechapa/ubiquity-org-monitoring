@@ -1,0 +1,20 @@
+<template>
+    <div lwc:if={isLoading}>
+        <lightning-spinner alternative-text="Loading" size="x-small"></lightning-spinner>
+    </div>
+    <lightning-card lwc:else title="Mass Updates" variant="narrow">
+    <div  class="slds-grid slds-gutters slds-var-m-around_xx-small">
+        <div class="slds-col slds-size_1-of-2">
+            <lightning-combobox label="Team Member" name="Team Member" options={teamMemberValues} value="" disabled={disableComponent} onchange={handleTeamMemberChange}></lightning-combobox>
+        </div>
+        <div class="slds-col slds-size_1-of-2">
+            <lightning-combobox label="Status" name="Status" options={statusValues} value="" disabled={disableComponent} onchange={handleStatusChange}></lightning-combobox>
+        </div>
+    </div>
+    <div lwc:if={disableComponent} class="slds-var-m-around_x-small slds-text-color_weak slds-theme_alert-texture slds-var-p-around_xx-small">
+        <span lwc:if={bothBad}>Disabled: selected cases have both multiple owners and record types.</span>
+        <span lwc:elseif={caseRecordTypeBad}>Disabled: selected cases have multiple record types.</span>
+        <span lwc:elseif={caseOwnerBad}>Disabled: selected cases have multiple owners.</span>
+    </div>
+</lightning-card>
+</template>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>EACA</fullName>
+        <default>false</default>
+        <label>EACA</label>
+    </customValue>
+    <customValue>
+        <fullName>QACA</fullName>
+        <default>false</default>
+        <label>QACA</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <masterLabel>Auto-Enroll</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

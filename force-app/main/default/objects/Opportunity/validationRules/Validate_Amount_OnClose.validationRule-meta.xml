@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Amount_OnClose</fullName>
+    <active>false</active>
+    <errorConditionFormula>IsClosed=True &amp;&amp; ISBLANK(Amount)</errorConditionFormula>
+    <errorDisplayField>Amount</errorDisplayField>
+    <errorMessage>Please update the Opportunity Amount. If the opportunity amount was zero dollars, enter 0.</errorMessage>
+</ValidationRule>

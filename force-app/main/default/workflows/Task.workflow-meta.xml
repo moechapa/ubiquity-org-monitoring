@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Simply_Task_Created</fullName>
+        <description>Simply Task Created</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Simply_Task_Created</template>
+    </alerts>
+    <alerts>
+        <fullName>Upgrade_Created_from_Plan</fullName>
+        <description>Upgrade Created from Plan</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Upgrade_Created</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Comment_Catch_for_Mass_Mail_Type</fullName>
+        <field>Comment_Catch_for_Mass_Mail_Type__c</field>
+        <formula>LEFT(Description,245)</formula>
+        <name>Comment Catch for Mass Mail Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Populate_Activity_Type</fullName>
+        <field>Activity_Type__c</field>
+        <literalValue>Email</literalValue>
+        <name>Populate Activity Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Activity_Type</fullName>
+        <description>Updates activity type to Call</description>
+        <field>Activity_Type__c</field>
+        <literalValue>Call</literalValue>
+        <name>Update Activity Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Task_Subject_w_FastCall_Call_Resu</fullName>
+        <field>Subject</field>
+        <formula>&quot;Call- &quot;&amp;CallDisposition</formula>
+        <name>Update Task Subject w/FastCall Call Resu</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Task - Update - Pull First Email Char</fullName>
+        <actions>
+            <name>Comment_Catch_for_Mass_Mail_Type</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Pushes first 255 characters of Activity.Comments to the hidden custom field &quot;Comment Catch for Mass Mail Type&quot;, in order to pull formula for analysis.</description>
+        <formula>DATEVALUE(CreatedDate) = Today()</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Task - Update - Type %3D Call</fullName>
+        <actions>
+            <name>Update_Activity_Type</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Task.Subject</field>
+            <operation>equals</operation>
+            <value>Call New Lead</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Task.OwnerId</field>
+            <operation>contains</operation>
+            <value>Rachel,Samantha,Jason,Brian,Robby</value>
+        </criteriaItems>
+        <description>Update Appropriate Fields for DE Task creation</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Upgrade Notification</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Task.Subject</field>
+            <operation>contains</operation>
+            <value>ollow Up on Upgrade for</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

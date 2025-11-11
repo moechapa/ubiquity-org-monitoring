@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_Allocation_Funds__c</fullName>
+    <label>Asset Allocation Funds</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Share_Class__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Global Allocation Fund (GAONX)</fullName>
+                <default>false</default>
+                <label>Global Allocation Fund (GAONX)</label>
+            </value>
+            <value>
+                <fullName>Global Allocation Fund (GAOTX)</fullName>
+                <default>false</default>
+                <label>Global Allocation Fund (GAOTX)</label>
+            </value>
+            <value>
+                <fullName>Global Allocation Fund (GAOFX)</fullName>
+                <default>false</default>
+                <label>Global Allocation Fund (GAOFX)</label>
+            </value>
+            <value>
+                <fullName>Global Allocation Fund (GAORX)</fullName>
+                <default>false</default>
+                <label>Global Allocation Fund (GAORX)</label>
+            </value>
+            <value>
+                <fullName>Income Builder Fund (JNBZX)</fullName>
+                <default>false</default>
+                <label>Income Builder Fund (JNBZX)</label>
+            </value>
+            <value>
+                <fullName>Investor Balanced Fund (JFQUX)</fullName>
+                <default>false</default>
+                <label>Investor Balanced Fund (JFQUX)</label>
+            </value>
+            <value>
+                <fullName>Global Allocation Fund (GAOZX)</fullName>
+                <default>false</default>
+                <label>Global Allocation Fund (GAOZX)</label>
+            </value>
+            <value>
+                <fullName>Investor Conservative Growth Fund (JFLJX)</fullName>
+                <default>false</default>
+                <label>Investor Conservative Growth Fund (JFLJX)</label>
+            </value>
+            <value>
+                <fullName>Investor Growth &amp; Income Fund (JFBUX)</fullName>
+                <default>false</default>
+                <label>Investor Growth &amp; Income Fund (JFBUX)</label>
+            </value>
+            <value>
+                <fullName>Investor Growth Fund (JFTUX)</fullName>
+                <default>false</default>
+                <label>Investor Growth Fund (JFTUX)</label>
+            </value>
+            <value>
+                <fullName>Diversified Fund (JDVZX)</fullName>
+                <default>false</default>
+                <label>Diversified Fund (JDVZX)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Global Allocation Fund (GAONX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Global Allocation Fund (GAOTX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Global Allocation Fund (GAOFX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Global Allocation Fund (GAORX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Income Builder Fund (JNBZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Investor Balanced Fund (JFQUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Global Allocation Fund (GAOZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Investor Conservative Growth Fund (JFLJX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Investor Growth &amp; Income Fund (JFBUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Investor Growth Fund (JFTUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Diversified Fund (JDVZX)</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

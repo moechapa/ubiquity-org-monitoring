@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Timely_Payroll_Contributions__c</fullName>
+    <description>Have Payroll Contributions been made in a timely manner?</description>
+    <inlineHelpText>Have Payroll Contributions been made in a timely manner? If Yes, ask if interested in learning about EPS If No - Determine why haven&apos;t contributions been made timely and how to fix? - Remind clients about making contributions within 7 business days.</inlineHelpText>
+    <label>Timely Payroll Contributions</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

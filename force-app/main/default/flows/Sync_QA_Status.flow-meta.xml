@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_Ops_Alert</name>
+        <label>Send Ops Alert</label>
+        <locationX>182</locationX>
+        <locationY>731</locationY>
+        <actionName>Quality_Assurance_QA__c.Ops_QA_Completed</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Quality_Assurance_QA__c.Ops_QA_Completed</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Is_Status_Mirrored</name>
+        <label>Is Status Mirrored</label>
+        <locationX>314</locationX>
+        <locationY>323</locationY>
+        <defaultConnector>
+            <targetReference>QA_completed_this_save</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Already Synced</defaultConnectorLabel>
+        <rules>
+            <name>PT_Update_Needed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>StatusTranslate</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.Project_Task__r.QA_Status__c</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Project_Task__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sync_QA_Status</targetReference>
+            </connector>
+            <label>PT Update Needed</label>
+        </rules>
+        <rules>
+            <name>Case_Update_Needed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>StatusTranslate</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.Case__r.QA_Status__c</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Case__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Sync_Case_QA_Status</targetReference>
+            </connector>
+            <label>Case Update Needed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Will need to edit this for dynamic build once details with related teams are settled</description>
+        <name>QA_completed_this_save</name>
+        <label>QA completed this save</label>
+        <locationX>314</locationX>
+        <locationY>623</locationY>
+        <defaultConnectorLabel>End Flow</defaultConnectorLabel>
+        <rules>
+            <name>Ops_Alert_Needed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.QA_Completion__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Complete</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.QA_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Operations Case</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Ubiquity_Employee__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Ops_Alert</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Ops Alert Needed</label>
+        </rules>
+    </decisions>
+    <description>Removed renaming and migrated it to before save
+
+Syncs a QA&apos;s completion status with record being reviewed</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>qaSubject</name>
+        <dataType>String</dataType>
+        <expression>IF(OR(ISPICKVAL({!$Record.QA_Type__c},&quot;Implementation&quot;),ISPICKVAL({!$Record.QA_Type__c},&quot;Operations Case&quot;),ISPICKVAL({!$Record.QA_Type__c},&quot;BI&quot;),ISPICKVAL({!$Record.QA_Type__c},&quot;Accounting&quot;),ISPICKVAL({!$Record.QA_Type__c},&quot;PRKS&quot;)),
+TEXT({!$Record.QA_Type__c}) + &quot; - &quot; + IF(ISBLANK({!$Record.Ubiquity_Employee__r.Full_Name__c}),&quot;NO EMPLOYEE&quot;,{!$Record.Ubiquity_Employee__r.Full_Name__c})  + &quot; - &quot; + TEXT({!$Record.Date__c}),
+TEXT({!$Record.QA_Type__c}) + &quot; - &quot; + IF(ISBLANK({!$Record.Ubiquity_Employee__r.Full_Name__c}),&quot;NO EMPLOYEE&quot;,{!$Record.Ubiquity_Employee__r.Full_Name__c}) + &quot; - &quot; + {!$Record.Case__r.Plan__r.Name}
+)</expression>
+    </formulas>
+    <formulas>
+        <name>StatusTranslate</name>
+        <dataType>String</dataType>
+        <expression>CASE({!$Record.QA_Completion__c},
+&quot;Incomplete&quot;,&quot;In Progress&quot;,
+&quot;Complete&quot;,&quot;Complete&quot;,&quot;&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <description>cap it to 80</description>
+        <name>trimmedSubject</name>
+        <dataType>String</dataType>
+        <expression>IF(LEN({!qaSubject}) &gt; 80, LEFT({!qaSubject},77) + &quot;...&quot;, {!qaSubject})</expression>
+    </formulas>
+    <interviewLabel>Sync QA Status {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>QA | After Save | Sync QA Status</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Sync_Case_QA_Status</name>
+        <label>Sync Case QA Status</label>
+        <locationX>314</locationX>
+        <locationY>431</locationY>
+        <connector>
+            <targetReference>QA_completed_this_save</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Case__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>QA_Status__c</field>
+            <value>
+                <elementReference>StatusTranslate</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Sync_QA_Status</name>
+        <label>Sync QA Status</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <connector>
+            <targetReference>QA_completed_this_save</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Project_Task__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>QA_Status__c</field>
+            <value>
+                <elementReference>StatusTranslate</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Project_Task__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Is_Status_Mirrored</targetReference>
+        </connector>
+        <object>Quality_Assurance_QA__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

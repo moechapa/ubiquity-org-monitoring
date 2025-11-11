@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conversion_dashboard</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Client_Support_Teams__c</columns>
+    <columns>Service_Option__c</columns>
+    <columns>Custodian__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>TypeofBusiness__c</field>
+        <operation>equals</operation>
+        <value>Conversion Plan</value>
+    </filters>
+    <label>Conversion dashboard</label>
+</ListView>

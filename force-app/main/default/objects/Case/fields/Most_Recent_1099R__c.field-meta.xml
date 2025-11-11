@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Most_Recent_1099R__c</fullName>
+    <description>Date of most recent distribution for abandoned plan risk review.   If blank, the plan has no record of a 1099R in the past 12 months.</description>
+    <inlineHelpText>Date of most recent distribution for abandoned plan risk review.   If blank, the plan has no record of a 1099R in the past 12 months.</inlineHelpText>
+    <label>Most Recent 1099R</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

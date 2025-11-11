@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prompt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Implementation On Hold Update</masterLabel>
+    <promptVersions>
+        <body>&lt;p&gt;&lt;b&gt;A new section on the Implementation Layout is called &quot;Plan Hold Information&quot;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;To place an Implementation &quot;On Hold&quot;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Enter &quot;Plan Hold Date&quot; &lt;/li&gt;&lt;li&gt;Enter &quot;Plan Hold Reason&quot;&lt;/li&gt;&lt;li&gt;Enter &quot;Estimated Plan Release Date&quot;&lt;/li&gt;&lt;li&gt;Enter &quot;Plan Hold Notes&quot;&lt;/li&gt;&lt;li&gt;The Implementation Status will automatically change to &quot;On Hold&quot;&lt;/li&gt;&lt;li&gt;A case will be created for Billing to suspend subscriptions, if needed&lt;/li&gt;&lt;li&gt;A case will be created for Implementations 14 days before the Expected Release Date as a reminder to follow up with the client&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;To move an &quot;On Hold&quot; Implementation back to In Progress&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Enter &quot;Actual Plan Release Date&quot;&lt;/li&gt;&lt;li&gt;The Implementation Status will automatically change to the appropriate &quot;In Progress....&quot; status&lt;/li&gt;&lt;li&gt;A case will be created for Billing to reactivate subscriptions as of the release date&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</body>
+        <customApplication>standard__LightningService</customApplication>
+        <delayDays>1</delayDays>
+        <description>Update Imps team on On Hold section/process</description>
+        <displayType>DockedComposer</displayType>
+        <endDate>2020-04-14</endDate>
+        <header>IMPLEMENTATION RECORD UPDATE</header>
+        <isPublished>false</isPublished>
+        <masterLabel>Implementation On Hold Update</masterLabel>
+        <publishedDate>2020-03-31</publishedDate>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>true</shouldIgnoreGlobalDelay>
+        <startDate>2020-03-31</startDate>
+        <targetPageKey1>Implementation__c</targetPageKey1>
+        <targetPageKey2>view</targetPageKey2>
+        <targetPageType>standard__recordPage</targetPageType>
+        <timesToDisplay>1</timesToDisplay>
+        <title>&quot;Plan Hold Information&quot; section</title>
+        <uiFormulaRule>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteria>
+                <leftValue>{!$User.Profile.Id}</leftValue>
+                <operator>EQUAL</operator>
+                <rightValue>00e37000000MnJUAA0</rightValue>
+            </criteria>
+            <criteria>
+                <leftValue>{!$User.Profile.Key}</leftValue>
+                <operator>EQUAL</operator>
+                <rightValue>custom_lightning implementations</rightValue>
+            </criteria>
+        </uiFormulaRule>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>SpecificProfiles</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+</Prompt>

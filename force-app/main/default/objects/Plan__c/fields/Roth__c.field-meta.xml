@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Roth__c</fullName>
+    <description>Does Plan Have Roth Provision?</description>
+    <inlineHelpText>Does Plan Have Roth Provision?</inlineHelpText>
+    <label>Roth</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Service_Option__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Roth</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement TPA</controllingFieldValue>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Legacy Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <valueName>Yes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Legacy Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <valueName>No</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

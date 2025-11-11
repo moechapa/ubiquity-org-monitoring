@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Multiple_Plans_Unidentified_Plan</fullName>
+    <active>true</active>
+    <description>Turn on/off manually if team needs to link cases to our plan</description>
+    <errorConditionFormula>CONTAINS(  Plan__r.Name  , &quot;Decimal&quot;)
+&amp;&amp;
+NOT(CONTAINS(Account.Name, &quot;Decimal&quot;))
+&amp;&amp;
+ ISCHANGED( Plan__c )</errorConditionFormula>
+    <errorMessage>If case is regarding multiple plans or  is not related to a specific plan, look up &quot;Unidentified Plan/Multiple Plans&quot; as the Plan</errorMessage>
+</ValidationRule>

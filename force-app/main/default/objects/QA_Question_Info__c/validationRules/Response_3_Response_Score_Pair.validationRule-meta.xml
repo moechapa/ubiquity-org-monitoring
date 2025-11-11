@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Response_3_Response_Score_Pair</fullName>
+    <active>true</active>
+    <description>If response 3 exists, it needs a score value</description>
+    <errorConditionFormula>ISPICKVAL(Type__c, &quot;Standard&quot;) &amp;&amp;
+
+((ISBLANK(Response_3__c) &amp;&amp; NOT(ISBLANK(Response_3_Score__c))) ||
+(NOT(ISBLANK(Response_3__c)) &amp;&amp; ISBLANK(Response_3_Score__c)))</errorConditionFormula>
+    <errorDisplayField>Response_3__c</errorDisplayField>
+    <errorMessage>Response 3 is missing a value!  Delete response 3 entirely or complete the response/score pair</errorMessage>
+</ValidationRule>

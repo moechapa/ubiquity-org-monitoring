@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Distributions</fullName>
+    <columns>Week_End__c</columns>
+    <columns>Distros_Completed_Last_Calendar_Week__c</columns>
+    <columns>Loans_Completed_Last_Calendar_Week__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Distributions</value>
+    </filters>
+    <filters>
+        <field>Week_End__c</field>
+        <operation>equals</operation>
+        <value>LAST_N_WEEKS:4</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Operations_Metrics__c.Default</value>
+    </filters>
+    <label>Distributions</label>
+</ListView>

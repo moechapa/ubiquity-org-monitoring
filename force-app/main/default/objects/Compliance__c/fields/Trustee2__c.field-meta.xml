@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trustee2__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Second trustee (if applicable) to send 5500 emails to</inlineHelpText>
+    <label>Trustee2</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

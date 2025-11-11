@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatAgentConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>Lightning Saver User</profile>
+        </profiles>
+        <users>
+            <user>clucero@myubiquity.com</user>
+            <user>edoughty@myubiquity.com</user>
+            <user>ecastillo@myubiquity.com</user>
+            <user>jimholte@myubiquity.com</user>
+            <user>krivers@myubiquity.com</user>
+            <user>mmessina@myubiquity.com</user>
+            <user>smerrell@myubiquity.com</user>
+            <user>sdimalanta@myubiquity.com</user>
+            <user>sfransz@myubiquity.com</user>
+            <user>sbulat@myubiquity.com</user>
+            <user>marketing@theonline401k.com</user>
+        </users>
+    </assignments>
+    <autoGreeting>Hello {!User_FirstName} -  give me a moment to review your request I&apos;ll be happy to help!</autoGreeting>
+    <capacity>1</capacity>
+    <criticalWaitTime>30</criticalWaitTime>
+    <disableTransferConferenceGreeting>false</disableTransferConferenceGreeting>
+    <enableAgentFileTransfer>false</enableAgentFileTransfer>
+    <enableAgentSneakPeek>true</enableAgentSneakPeek>
+    <enableAssistanceFlag>false</enableAssistanceFlag>
+    <enableAutoAwayOnDecline>false</enableAutoAwayOnDecline>
+    <enableAutoAwayOnPushTimeout>false</enableAutoAwayOnPushTimeout>
+    <enableChatConferencing>true</enableChatConferencing>
+    <enableChatMonitoring>true</enableChatMonitoring>
+    <enableChatTransferToAgent>true</enableChatTransferToAgent>
+    <enableChatTransferToButton>true</enableChatTransferToButton>
+    <enableChatTransferToSkill>false</enableChatTransferToSkill>
+    <enableLogoutSound>false</enableLogoutSound>
+    <enableNotifications>true</enableNotifications>
+    <enableRequestSound>true</enableRequestSound>
+    <enableSneakPeek>true</enableSneakPeek>
+    <enableVisitorBlocking>false</enableVisitorBlocking>
+    <enableWhisperMessage>true</enableWhisperMessage>
+    <label>Live Agent</label>
+    <supervisorSkills>
+        <skill>CSTs</skill>
+        <skill>Savers</skill>
+    </supervisorSkills>
+    <transferableButtons>
+        <button>UBQT_CO_Lightning_Chat</button>
+        <button>UBQT_EE_Lightning_Chat</button>
+        <button>UBQT_ER_Lightning_Chat</button>
+        <button>UBQT_Omni_Chat</button>
+    </transferableButtons>
+    <transferableSkills>
+        <skill>CSTs</skill>
+        <skill>Savers</skill>
+    </transferableSkills>
+</LiveChatAgentConfig>

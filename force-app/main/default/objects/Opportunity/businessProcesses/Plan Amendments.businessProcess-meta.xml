@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan Amendments</fullName>
+    <description>Used for Auto-Enroll, Fund Changes, etc</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Adoption Complete</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Bad Info</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Do Not Call</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Docusign Needed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Follow-up Needed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Interested</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Not Contacted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Not Interested</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Pending Signature</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

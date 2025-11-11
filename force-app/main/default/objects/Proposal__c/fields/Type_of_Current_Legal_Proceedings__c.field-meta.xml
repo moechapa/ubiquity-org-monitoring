@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Current_Legal_Proceedings__c</fullName>
+    <description>Indicate which of the following and provide explanation</description>
+    <inlineHelpText>Indicate which of the following and provide explanation</inlineHelpText>
+    <label>Type of Current Legal Proceedings</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IRS/DOL</fullName>
+                <default>false</default>
+                <label>IRS/DOL</label>
+            </value>
+            <value>
+                <fullName>Proceeding</fullName>
+                <default>false</default>
+                <label>Proceeding</label>
+            </value>
+            <value>
+                <fullName>Pending Litigation</fullName>
+                <default>false</default>
+                <label>Pending Litigation</label>
+            </value>
+            <value>
+                <fullName>Bankruptcy Proceeding</fullName>
+                <default>false</default>
+                <label>Bankruptcy Proceeding</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Multiple</fullName>
+                <default>false</default>
+                <label>Multiple</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

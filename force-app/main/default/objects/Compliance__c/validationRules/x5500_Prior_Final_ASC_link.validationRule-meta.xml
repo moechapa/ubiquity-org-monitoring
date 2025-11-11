@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>x5500_Prior_Final_ASC_link</fullName>
+    <active>true</active>
+    <description>Require ASC link when Notification Date is entered</description>
+    <errorConditionFormula>RecordTypeId = &apos;01237000000N0lp&apos;
+&amp;&amp;
+ ISPICKVAL(X5500_Situation__c, &apos;Prior + Final 5500&apos;)
+&amp;&amp;
+NOT(ISBLANK( Invitation_to_File_Sent__c ))
+&amp;&amp;
+(
+ISBLANK( ASC_URL_Link_Final__c )
+||
+ISBLANK( ASC_URL_Link_Final__c )
+)</errorConditionFormula>
+    <errorDisplayField>ASC_URL_Link__c</errorDisplayField>
+    <errorMessage>Enter ASC URL Link in the Prior + Final Year section before entering the Notification Date</errorMessage>
+</ValidationRule>

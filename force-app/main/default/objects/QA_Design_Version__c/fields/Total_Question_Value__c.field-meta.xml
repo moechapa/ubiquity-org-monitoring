@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Question_Value__c</fullName>
+    <inlineHelpText>Must = 100 for activation</inlineHelpText>
+    <label>Total Question Value</label>
+    <summarizedField>QA_Question_Info__c.Score_Value__c</summarizedField>
+    <summaryForeignKey>QA_Question_Info__c.QA_Design__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

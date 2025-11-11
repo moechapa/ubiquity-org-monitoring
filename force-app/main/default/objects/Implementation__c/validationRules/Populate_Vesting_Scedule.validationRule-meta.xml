@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Populate_Vesting_Scedule</fullName>
+    <active>true</active>
+    <description>Insures population of Vesting Schedule</description>
+    <errorConditionFormula>( ISPICKVAL( Implementation_Status__c, &quot;Completed&quot;)) 
+&amp;&amp; 
+( ISPICKVAL( Profit_Sharing_Vesting_Schedule__c , &quot;&quot;))
+&amp;&amp;
+NOT(ISPICKVAL( Profit_Sharing__c , &quot;No&quot;))
+&amp;&amp;
+NOT(ISPICKVAL(Service_Option__c, &quot;Single(k) Plus&quot;))
+&amp;&amp;
+ $User.Email != &quot;tmoyer@myubiquity.com&quot;</errorConditionFormula>
+    <errorDisplayField>Profit_Sharing_Vesting_Schedule__c</errorDisplayField>
+    <errorMessage>Please populate Plan Vesting Schedule</errorMessage>
+</ValidationRule>

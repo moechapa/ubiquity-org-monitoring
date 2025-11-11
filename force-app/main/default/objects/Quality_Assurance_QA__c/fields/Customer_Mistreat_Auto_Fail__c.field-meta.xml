@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Mistreat_Auto_Fail__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>These are examples of behaviors that are not aligned with our values and may harm the business. If a specialist chooses to engage in these types of behaviors, they may forfeit their good standing or potentially cause their own dismissal.</description>
+    <inlineHelpText>These are examples of behaviors that are not aligned with our values and may harm the business. If a specialist chooses to engage in these types of behaviors, they may forfeit their good standing or potentially cause their own dismissal.</inlineHelpText>
+    <label>Customer Mistreat/Auto-Fail</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

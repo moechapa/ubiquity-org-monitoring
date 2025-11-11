@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delinquent_Payer_Termination__c</fullName>
+    <description>This field needs to appear on a report that compliance runs annually.
+ 
+The default answer would be No unless Yes is selected by Accounting folks. If yes, is selected, the client didnt pay their final term/decon fees and no final filings will be prepared.</description>
+    <inlineHelpText>The default answer would be No unless Yes is selected by Accounting folks. If yes, is selected, the client didnt pay their final term/decon fees and no final filings will be prepared</inlineHelpText>
+    <label>Delinquent Payer Termination</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No</fullName>
+                <default>true</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>YES</fullName>
+                <default>false</default>
+                <label>YES</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

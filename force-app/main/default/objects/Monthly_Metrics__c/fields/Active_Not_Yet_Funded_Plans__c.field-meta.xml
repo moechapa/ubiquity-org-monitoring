@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Not_Yet_Funded_Plans__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of current plans that are active but have not yet funded</inlineHelpText>
+    <label>Active Not Yet Funded Plans</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

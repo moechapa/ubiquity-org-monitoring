@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Participants_Currently_Saving__c</fullName>
+    <description>Confirm # of eligible participants who are actively contributing to the plan from payroll</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Confirm # of eligible participants who are actively contributing to the plan from payroll</inlineHelpText>
+    <label>Number of Participants Currently Saving</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

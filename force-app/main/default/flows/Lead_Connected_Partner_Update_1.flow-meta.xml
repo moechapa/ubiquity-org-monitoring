@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Set_null_Partner</name>
+        <label>Set null Partner</label>
+        <locationX>842</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Connected_Partner__c</assignToReference>
+            <operator>Assign</operator>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Set_Sallus_Partner</name>
+        <label>Set Sallus Partner</label>
+        <locationX>578</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Connected_Partner__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Sallus</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Set_Schwab_Partner</name>
+        <label>Set Schwab Partner</label>
+        <locationX>50</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Connected_Partner__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Schwab</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Set_Simply_Partner</name>
+        <label>Set Simply Partner</label>
+        <locationX>314</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Connected_Partner__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Simply Retirement</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Connected_Partner_Split</name>
+        <label>Connected Partner Split</label>
+        <locationX>446</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>Set_null_Partner</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Schwab</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.LeadSource</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Schwab</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Schwab_Partner</targetReference>
+            </connector>
+            <label>Schwab</label>
+        </rules>
+        <rules>
+            <name>Simply_Retirement</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.LeadSource</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Simply Retirement</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Simply_Partner</targetReference>
+            </connector>
+            <label>Simply Retirement</label>
+        </rules>
+        <rules>
+            <name>Sallus</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.LeadSource</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Sallus</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Sallus_Partner</targetReference>
+            </connector>
+            <label>Sallus</label>
+        </rules>
+    </decisions>
+    <description>Migrated from the Lead | Connected Partner Update process using multiple criteria.
+Sets connected partner based on lead source.  Updated to simplify and fix Sallus issue (now looks at lead source, not LSD)</description>
+    <environments>Default</environments>
+    <interviewLabel>Lead | Connected Partner Update_1 {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Lead | Before Trigger | Connected Partner Update</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>320</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Connected_Partner_Split</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>LeadSource</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Simply Retirement</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>LeadSource</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Sallus</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>LeadSource</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Schwab</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Connected_Partner__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Lead</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

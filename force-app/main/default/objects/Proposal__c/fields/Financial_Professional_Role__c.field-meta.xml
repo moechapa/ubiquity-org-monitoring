@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financial_Professional_Role__c</fullName>
+    <description>This field has a corresponding field on Contact that is updated via flow. If you add/remove a value here, do the same for the Contact field.</description>
+    <label>Financial Professional Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RR</fullName>
+                <default>false</default>
+                <label>RR</label>
+            </value>
+            <value>
+                <fullName>IAR</fullName>
+                <default>false</default>
+                <label>IAR</label>
+            </value>
+            <value>
+                <fullName>IA</fullName>
+                <default>false</default>
+                <label>IA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

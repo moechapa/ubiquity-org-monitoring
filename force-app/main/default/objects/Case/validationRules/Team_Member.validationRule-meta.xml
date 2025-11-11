@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Member</fullName>
+    <active>false</active>
+    <description>Shared login users must verify Team Member on edit</description>
+    <errorConditionFormula>($Profile.Name = &apos;Transitions Team&apos;
+||
+$Profile.Name = &apos;Compliance&apos;
+||
+$Profile.Name = &apos;Compliance Manager&apos;
+||
+$Profile.Name = &apos;Operations&apos;
+||
+$Profile.Name = &apos;Operations Manager&apos;
+||
+$Profile.Name = &apos;Payroll Team&apos;
+||
+$Profile.Name = &apos;Distributions&apos;
+||
+$Profile.Name = &apos;Billing User&apos;
+)
+&amp;&amp;
+( OwnerId = &apos;00500000006xUkf&apos;
+||
+ OwnerId = &apos;00537000001tb5H&apos;
+||
+ OwnerId = &apos;00537000002SL2S&apos;
+||
+ OwnerId = &apos;00537000002STLD&apos;
+||
+ OwnerId = &apos;005370000039BHY&apos;
+||
+ OwnerId = &apos;00500000006yEak&apos;
+)
+&amp;&amp;
+ISBLANK(TEXT( Team_Member__c ))</errorConditionFormula>
+    <errorDisplayField>of_Activities_Emails__c</errorDisplayField>
+    <errorMessage>Enter the &apos;Team Member&apos; field</errorMessage>
+</ValidationRule>

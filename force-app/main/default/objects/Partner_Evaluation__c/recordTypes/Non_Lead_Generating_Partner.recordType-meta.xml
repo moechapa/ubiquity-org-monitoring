@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Lead_Generating_Partner</fullName>
+    <active>true</active>
+    <description>Use for current or future non lead generating partners.</description>
+    <label>Non Lead Generating Partner</label>
+    <picklistValues>
+        <picklist>Dedicated_Servicing_Team__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Paradigm_RKS__c</picklist>
+        <values>
+            <fullName>Major Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minor Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Working Perfectly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Integration_Type__c</picklist>
+        <values>
+            <fullName>API - Census %26 Payroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provider Submission - Census %26 Payroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SFTP - Census %26 Payroll</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Servicing_Rating__c</picklist>
+        <values>
+            <fullName>Excellent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Satisfactory</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partnership_Health__c</picklist>
+        <values>
+            <fullName>Excellent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mediocore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partnership_Status__c</picklist>
+        <values>
+            <fullName>Active Lead Gen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Active Lead Gen w%2F Mutual Clients</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive Lead Gen w%2F Mutual Clients</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partnership_Type__c</picklist>
+        <values>
+            <fullName>Direct Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Generation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Plans_Being_Sold_by_Partner__c</picklist>
+        <values>
+            <fullName>All 401%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Express%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RKO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reserve%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saver%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single%28k%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

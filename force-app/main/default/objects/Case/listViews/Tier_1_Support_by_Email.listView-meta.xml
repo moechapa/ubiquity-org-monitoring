@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tier_1_Support_by_Email</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.EMAIL</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>CASES.EMAIL</field>
+        <operation>notEqual</operation>
+        <value>no-reply@zoom.us</value>
+    </filters>
+    <label>Tier 1 Support by Email No Contact</label>
+    <queue>Tier_1_Support</queue>
+    <sharedTo>
+        <role>COO</role>
+    </sharedTo>
+</ListView>

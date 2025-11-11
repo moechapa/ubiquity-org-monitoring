@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custodian_Other__c</fullName>
+    <description>Write-in field for other Custodians</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Write-in field for other Custodians</inlineHelpText>
+    <label>Custodian (Other)</label>
+    <length>18</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

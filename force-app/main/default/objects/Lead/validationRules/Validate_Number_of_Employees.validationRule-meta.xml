@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Number_of_Employees</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISPICKVAL(Status,&quot;Qualified&quot;) &amp;&amp; 
+ISBLANK (NumberOfEmployees)  &amp;&amp;
+Owner:User.LastName &lt;&gt; &quot;Garcia&quot;</errorConditionFormula>
+    <errorDisplayField>NumberOfEmployees</errorDisplayField>
+    <errorMessage>Please Validate the correct Number of Employees before converting</errorMessage>
+</ValidationRule>

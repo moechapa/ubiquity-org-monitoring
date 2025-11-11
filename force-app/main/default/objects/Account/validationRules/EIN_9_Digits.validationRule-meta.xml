@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EIN_9_Digits</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF ( 
+	NOT(ISBLANK( Employer_Identification_Number_EIN__c )), OR(LEN( Employer_Identification_Number_EIN__c ) &lt;&gt;9, NOT(
+         ISNUMBER( Employer_Identification_Number_EIN__c ))), false
+)</errorConditionFormula>
+    <errorDisplayField>Employer_Identification_Number_EIN__c</errorDisplayField>
+    <errorMessage>EIN must be nine digits in XXXXXXXXX format without hyphen or space.</errorMessage>
+</ValidationRule>

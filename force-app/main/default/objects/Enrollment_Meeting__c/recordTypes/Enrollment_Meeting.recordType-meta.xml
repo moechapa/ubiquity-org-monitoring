@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enrollment_Meeting</fullName>
+    <active>true</active>
+    <label>Enrollment Meeting</label>
+    <picklistValues>
+        <picklist>Auto_Enroll__c</picklist>
+        <values>
+            <fullName>EACA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QACA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Auto_Enrollment_Deferral_Escalation_Rate__c</picklist>
+        <values>
+            <fullName>10%25 Flat Deferral Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%25 Auto-Escalate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%25 Flat Deferral Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%25 Auto-Escalate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%25 Flat Deferral Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 Auto-Escalate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 Flat Deferral Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%25 Auto-Escalate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%25 Flat Deferral Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%25 Auto-Escalate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%25 Flat Deferral Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%25 Auto-Escalate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%25 Flat Deferral Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%25 Flat Deferral Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Brokerage_Accounts__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_Industry__c</picklist>
+        <values>
+            <fullName>Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Architecture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beauty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dentistry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doctors%2FPhysicians</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health %26 Fitness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laboratory Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Law Firm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Yet Known</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil and Gas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plumbing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rehabilitation Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staffing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venture Capital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Veterinary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Veterinary Services</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deferral_Change_Frequency__c</picklist>
+        <values>
+            <fullName>Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Weekly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Per Pay Period</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Discretionary_Match__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Eligibility_Age__c</picklist>
+        <values>
+            <fullName>15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Eligibility__c</picklist>
+        <values>
+            <fullName>1 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 Year %281000 Hours%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immediate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Three Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Two Months</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loans__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Meeting_Type__c</picklist>
+        <values>
+            <fullName>Complete meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Condensed deck PDF sent to PS%2FAdvisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platform Demo recording sent to employees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platform demo only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recording sent to employees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Train_Sponsor_Recording_to_Employees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training advisor to run meeting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Plan_Entry_Frequency__c</picklist>
+        <values>
+            <fullName>Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immediate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-Annually</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Profit_Sharing__c</picklist>
+        <values>
+            <fullName>New Comparability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permitted Disparity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pro Rata</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QACA_Safe_Harbor_Vesting_Schedule__c</picklist>
+        <values>
+            <fullName>2 Year Cliff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immediate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ROTH__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Safe_Harbor__c</picklist>
+        <values>
+            <fullName>3%25 Non-Elective Contribution %28NEC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%25 QACA non-elective</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E5%25 QACA Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%25 Enhanced Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%25 QACA Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 Enhanced Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 QACA Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%25 Enhanced Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%25 QACA Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basic Match %28100%25 of 1st 3%25%2B50%25 of next 2%25%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QACA Basic Match %28100%25 up to 1%25%2C 50%25 up to 6%25%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Option__c</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Express IRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Express%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legacy Saver%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mega Roth Single%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RK Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RKO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reserve%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saver%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Retirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Retirement Bundled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Retirement Unbundled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single IRA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stage_Reasons__c</picklist>
+        <values>
+            <fullName>Advisor covered content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot get all employees together at same time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company has financial advising experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EEs are already educated about 401k plans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Advisor will conduct meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New hires</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No longer interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not enough eligible employees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not enough employees to join</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not enough total employees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ongoing servicing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Owner anticipates low participation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Owner providing education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Contact Non-Responsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan sponsor is ill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduling conflict</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Updgrade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stage__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Declined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requested</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Rescheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vesting_Schedule__c</picklist>
+        <values>
+            <fullName>2 Year Cliff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20%25 Over 5 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20%25 Over 6 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25%25 Over 4 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 Year Cliff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immediate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

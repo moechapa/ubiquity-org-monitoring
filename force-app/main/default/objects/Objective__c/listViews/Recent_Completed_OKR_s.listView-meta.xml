@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recent_Completed_OKR_s</fullName>
+    <columns>NAME</columns>
+    <columns>Type__c</columns>
+    <columns>Theme__c</columns>
+    <columns>Impact__c</columns>
+    <columns>Priority__c</columns>
+    <columns>Target_Completion_Date__c</columns>
+    <columns>Actual_Completion_Date__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </filters>
+    <filters>
+        <field>Actual_Completion_Date__c</field>
+        <operation>equals</operation>
+        <value>LAST_90_DAYS</value>
+    </filters>
+    <label>Recent Completed OKRs</label>
+</ListView>

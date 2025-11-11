@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Name_Match__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Leads converted with this company/account name will match against this field</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Leads converted with this company/account name will match against this field</inlineHelpText>
+    <label>Account Name Match</label>
+    <length>120</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

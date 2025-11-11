@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Year_Must_Be_4_Digits</fullName>
+    <active>true</active>
+    <description>Please input 4 digit year</description>
+    <errorConditionFormula>LEN( Plan_Year_Request__c )  &lt;&gt; 4</errorConditionFormula>
+    <errorDisplayField>Plan_Year_Request__c</errorDisplayField>
+    <errorMessage>Please input 4 digit year</errorMessage>
+</ValidationRule>

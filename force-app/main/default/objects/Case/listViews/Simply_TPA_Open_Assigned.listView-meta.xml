@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Simply_TPA_Open_Assigned</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Follow_Up_Date__c</columns>
+    <columns>Partner__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Timezone__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Last_Activity_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Case_Team_New__c</field>
+        <operation>contains</operation>
+        <value>client,west,east,central</value>
+    </filters>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>notContain</operation>
+        <value>Client Support</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Case.Abandoned_Plan_Review,Case.At_Risk_Client</value>
+    </filters>
+    <filters>
+        <field>CASES.ORIGIN</field>
+        <operation>equals</operation>
+        <value>Simply TPA</value>
+    </filters>
+    <label>Simply TPA Open Assigned</label>
+    <sharedTo>
+        <group>Simply_TPA</group>
+    </sharedTo>
+</ListView>

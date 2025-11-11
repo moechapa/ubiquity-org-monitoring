@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_MStar_Fees__c</fullName>
+    <description>Current MStar fee estimate as of July 2019</description>
+    <inlineHelpText>Current MStar fee estimate as of July 2019</inlineHelpText>
+    <label>Current MStar Fees</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Child_Case_Response_Received_Parent_Only</fullName>
+    <active>true</active>
+    <description>Child Case Response Received - not allowed on Child Cases</description>
+    <errorConditionFormula>AND ( ISCHANGED( Status ) ,
+ISPICKVAL(Status, &quot;Child Case Response Received&quot;),
+ISPICKVAL(Case_Type__c, &quot;Child Case&quot;))</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>If this is a child case, choose &quot;Response to Parent Case&quot; instead - it will auto update the Parent Case to &quot;Child Case Response Received&quot;</errorMessage>
+</ValidationRule>

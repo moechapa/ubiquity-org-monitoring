@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transitions_Pending_Final_Invoice_Paymen</fullName>
+    <columns>NAME</columns>
+    <columns>Final_Invoice_Sent_Accounting__c</columns>
+    <columns>Final_Fees_Paid_Accounting__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Final_Invoice_Sent_Accounting__c</field>
+        <operation>greaterThan</operation>
+        <value>1/2/1900</value>
+    </filters>
+    <filters>
+        <field>Final_Fees_Paid_Accounting__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Transition__c.X401_k_Termination</value>
+    </filters>
+    <label>Transitions Pending Final Payment</label>
+    <sharedTo>
+        <role>Transitions</role>
+    </sharedTo>
+</ListView>

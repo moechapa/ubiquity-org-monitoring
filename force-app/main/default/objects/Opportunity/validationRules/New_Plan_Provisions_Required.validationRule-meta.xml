@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Plan_Provisions_Required</fullName>
+    <active>true</active>
+    <description>Must enter New Plan Provisions before moving Upgrade Opp to Verbal Commitment</description>
+    <errorConditionFormula>ISBLANK( New_Plan_Provisions__c ) &amp;&amp;
+ISCHANGED( StageName ) &amp;&amp;
+ISPICKVAL(StageName, &quot;Verbal Commitment&quot;) &amp;&amp;
+ISPICKVAL(Type, &quot;Upgrade&quot;)</errorConditionFormula>
+    <errorDisplayField>New_Plan_Provisions__c</errorDisplayField>
+    <errorMessage>Please include New Plan Provisions in order to submit to Compliance</errorMessage>
+</ValidationRule>

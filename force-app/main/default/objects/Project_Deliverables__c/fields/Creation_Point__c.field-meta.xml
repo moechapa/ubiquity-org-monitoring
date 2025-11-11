@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Creation_Point__c</fullName>
+    <label>Creation Point</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Created Date</fullName>
+                <default>false</default>
+                <label>Created Date</label>
+            </value>
+            <value>
+                <fullName>Save Attempts Exhausted</fullName>
+                <default>false</default>
+                <label>Save Attempts Exhausted</label>
+            </value>
+            <value>
+                <fullName>Source Mapping Received</fullName>
+                <default>false</default>
+                <label>Source Mapping Received</label>
+            </value>
+            <value>
+                <fullName>Kotapay Client Signed</fullName>
+                <default>false</default>
+                <label>Kotapay Client Signed</label>
+            </value>
+            <value>
+                <fullName>Assets Received</fullName>
+                <default>false</default>
+                <label>Assets Received</label>
+            </value>
+            <value>
+                <fullName>Conversion Assets Posted</fullName>
+                <default>false</default>
+                <label>Conversion Assets Posted</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

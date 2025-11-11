@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Implementation_Step__c</fullName>
+    <description>Implementation Steps</description>
+    <externalId>false</externalId>
+    <formula>TEXT(Opportunity__r.Implementation__r.Implementation_Steps__c)</formula>
+    <inlineHelpText>Implementation Steps</inlineHelpText>
+    <label>Implementation Step</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

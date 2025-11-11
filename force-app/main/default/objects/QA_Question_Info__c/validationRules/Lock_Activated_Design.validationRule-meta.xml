@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_Activated_Design</fullName>
+    <active>true</active>
+    <description>Prevent any and all edits of question info for designs that have been activated</description>
+    <errorConditionFormula>NOT(ISBLANK(QA_Design__r.Activation_Date__c))</errorConditionFormula>
+    <errorMessage>Design has activation date!  Question info locked for edits</errorMessage>
+</ValidationRule>

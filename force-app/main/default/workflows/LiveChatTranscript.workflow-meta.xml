@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Chat_Transcript</fullName>
+        <description>Chat Transcript</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Client_Support/Chat_Transcript</template>
+    </alerts>
+    <alerts>
+        <fullName>Post_Chat_Survey</fullName>
+        <description>Post Chat Survey</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>simplesurvey__Simple_Survey/Chat_Survey_2023</template>
+    </alerts>
+    <rules>
+        <fullName>Chat %7C Chat Button ID</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>LiveChatTranscript.Pre_Chat_Role__c</field>
+            <operation>contains</operation>
+            <value>Employee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>LiveChatTranscript.LiveChatButtonId</field>
+            <operation>notContain</operation>
+            <value>Employee</value>
+        </criteriaItems>
+        <description>Temporary until Ephibian fixes chat button issues on Paradigm - BUG-2536 - 
+If client identifies as &quot;Employee&quot; on pre-chat form role, change chat button ID to EE</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Chat Survey</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>LiveChatTranscript.Status</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>LiveChatTranscript.ContactId</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>LiveChatTranscript.CaseId</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Post-Chat  Survey</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Post_Chat_Survey</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>LiveChatTranscript.EndTime</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DefaultStagefromLeadDoNotCallCustom__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field mapped to Lead field DoNotCallCustom-StageDefault and used in workflow rules to set Stage</description>
+    <inlineHelpText>This field mapped to Lead field DoNotCallCustom-StageDefault and used in workflow rules to set Stage</inlineHelpText>
+    <label>DefaultStagefromLeadDoNotCallCustom</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

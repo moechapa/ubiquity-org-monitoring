@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>A4S_Received_Activate_Zuora</fullName>
+        <ccEmails>afording@myubiquity.com</ccEmails>
+        <description>A4S Received - Activate Zuora</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>AutomaticEmails/A4S_Received_Activate_Zuora</template>
+    </alerts>
+    <alerts>
+        <fullName>Account</fullName>
+        <ccEmails>support@myubiquity.com</ccEmails>
+        <description>Account Transferred to Client Servicing Team</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>systemsfeedback@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>support@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Imps_New_Plan/Transfer_to_CST</template>
+    </alerts>
+    <alerts>
+        <fullName>Account_transferred_to_CRG_at_close_of_Intutit_sale_plan_details</fullName>
+        <ccEmails>newplan@theonline401k.com</ccEmails>
+        <description>New Intuit/Expressk account transferred to CRG - Compliance and Implementations Notice</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>NewPlanSetUp/ReliusSetupNeeded</template>
+    </alerts>
+    <alerts>
+        <fullName>AccounttransferredtoCRGatcloseofsaleplandetails</fullName>
+        <ccEmails>newplan@theonline401k.com</ccEmails>
+        <ccEmails>support@theonline401k.com</ccEmails>
+        <description>New account transferred to CRG - Customk, Conversions, RKO, Schwab</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>NewPlanSetUp/ClosedsaletransferredtoCRG</template>
+    </alerts>
+    <alerts>
+        <fullName>CAssetsrecd</fullName>
+        <ccEmails>rw@myubiquity.com</ccEmails>
+        <ccEmails>vrose@theonline401k.com</ccEmails>
+        <ccEmails>bcowling@myubiquity.com</ccEmails>
+        <description>(C) Assets recd</description>
+        <protected>false</protected>
+        <senderAddress>support@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>AutomaticEmails/C_Assets_recd</template>
+    </alerts>
+    <alerts>
+        <fullName>CDocsrecd</fullName>
+        <ccEmails>newplan@theonline401k.com</ccEmails>
+        <description>(C) Docs recd</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>AutomaticEmails/C_Docs_recd</template>
+    </alerts>
+    <alerts>
+        <fullName>CRecords1st</fullName>
+        <ccEmails>newplan@theonline401k.com</ccEmails>
+        <description>(C) Records - 1st</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>AutomaticEmails/C_Records_1st</template>
+    </alerts>
+    <alerts>
+        <fullName>Exception_Recurring</fullName>
+        <ccEmails>adminsupport@theonline401k.com</ccEmails>
+        <ccEmails>newplan@theonline401k.com</ccEmails>
+        <description>Exception Recurring</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>AutomaticEmails/Exception_Recurring</template>
+    </alerts>
+    <alerts>
+        <fullName>ExpresskSaleConversion</fullName>
+        <ccEmails>bpeachey@theonline401k.com</ccEmails>
+        <ccEmails>mrentschler@theonline401k.com</ccEmails>
+        <description>Express(k) Sale/Conversion</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>AutomaticEmails/Express_k_Sale_Conversion</template>
+    </alerts>
+    <alerts>
+        <fullName>File_to_CDMG_Express_k_non_Scwahb</fullName>
+        <ccEmails>newplan@theonline401k.com</ccEmails>
+        <ccEmails>mchiang@myubiquity.com</ccEmails>
+        <ccEmails>kcheck@myubiquity.com</ccEmails>
+        <description>File to CDMG - Express(k) non Scwahb</description>
+        <protected>false</protected>
+        <senderAddress>newplan@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>NewPlanSetUp/ReliusSetupNeeded</template>
+    </alerts>
+    <alerts>
+        <fullName>Insperity_WO_plan_set_up_AA</fullName>
+        <ccEmails>newplan@theonline401k.com</ccEmails>
+        <description>Insperity WO plan set up - AA</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>NewPlanSetUp/Insperity_WO_plan_set_up</template>
+    </alerts>
+    <alerts>
+        <fullName>Insperity_integration_ready</fullName>
+        <ccEmails>partnershipsupport@theonline401k.com</ccEmails>
+        <ccEmails>newplan@theonline401k.com</ccEmails>
+        <description>Insperity integration ready</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>NewPlanSetUp/Insperity_Set_Up_Complete</template>
+    </alerts>
+    <alerts>
+        <fullName>Intuit_401_k_Sale_Conversion</fullName>
+        <ccEmails>bpeachey@theonline401k.com</ccEmails>
+        <ccEmails>mrentschler@theonline401k.com</ccEmails>
+        <description>Intuit 401(k) Sale/Conversion</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>AutomaticEmails/Intuit_401_k_Sale_Conversion</template>
+    </alerts>
+    <alerts>
+        <fullName>MasterCard_Referral</fullName>
+        <ccEmails>vrose@theonline401k.com</ccEmails>
+        <description>MasterCard_Referral</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>billing@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>AutomaticEmails/Advisor_Referral_Details_updated_to_MasterCard</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Expressk_account_transferred_to_CRG_CDMG_CCG_Notice</fullName>
+        <ccEmails>newplan@theonline401k.com</ccEmails>
+        <description>New Expressk account transferred to CRG CDMG CCG Notice</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>NewPlanSetUp/ReliusSetupNeeded</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Vendor_Created</fullName>
+        <description>New Vendor Created</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>bgatewood@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>compliancemanager@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>vlee@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance/New_Vendor_Created</template>
+    </alerts>
+    <alerts>
+        <fullName>Plan_Implementation_Stalled</fullName>
+        <ccEmails>newplan@myubiquity.com</ccEmails>
+        <ccEmails>compliance@myubiquity.com</ccEmails>
+        <ccEmails>partnershipsupport@theonline401k.com</ccEmails>
+        <ccEmails>adminsupport@theonline401k.com</ccEmails>
+        <description>Plan Implementation Stalled</description>
+        <protected>false</protected>
+        <senderAddress>newplan@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>AutomaticEmails/Plan_Implementation_Stalled</template>
+    </alerts>
+    <alerts>
+        <fullName>Relius_Set_Up_Complete_for_Zenefits_Plan</fullName>
+        <ccEmails>bgembrin@theonline401k.com</ccEmails>
+        <description>Relius Set Up Complete for Zenefits Plan</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>cjasinski@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tlacher@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Partnerships/ReliusSetupCompldZenefits</template>
+    </alerts>
+    <alerts>
+        <fullName>Relius_Set_Up_Congruent_Load_any_existing_census_files</fullName>
+        <ccEmails>decimalteam@cspl.com</ccEmails>
+        <ccEmails>sdimalanta@myubiquity.com</ccEmails>
+        <description>Relius Set Up - Congruent Load any existing census files</description>
+        <protected>false</protected>
+        <senderAddress>support@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>NewPlanSetUp/Relius_Setup_Complete_Notify_Congruent</template>
+    </alerts>
+    <alerts>
+        <fullName>Relius_Set_up_Email</fullName>
+        <ccEmails>newplan@theonline401k.com</ccEmails>
+        <description>Relius Set up Email</description>
+        <protected>false</protected>
+        <senderAddress>newplan@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>NewPlanSetUp/ReliusSetupNeeded</template>
+    </alerts>
+    <alerts>
+        <fullName>Roth401kApprovedRoth401kDocsneedtobesent</fullName>
+        <description>Roth 401(k) Approved - Roth 401(k) Docs need to be sent</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>awitt@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>pfarmer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Singlek/InternalEmailAlertRoth401kApproved</template>
+    </alerts>
+    <alerts>
+        <fullName>S_Fee_Notes_Updated</fullName>
+        <ccEmails>adminsupport@theonline401k.com</ccEmails>
+        <description>(S) Fee Notes Updated</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>AutomaticEmails/S_Fee_Notes_Updated</template>
+    </alerts>
+    <alerts>
+        <fullName>Schwabapplicationinprogress</fullName>
+        <ccEmails>newplan@theonline401k.com</ccEmails>
+        <description>Schwab application in progress</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>Imps_New_Plan/X2_Schwab_Signed_Docs_Rec_d_Confirmation_Ubiquity</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_File_to_CMDG</fullName>
+        <ccEmails>newplan@theonline401k.com</ccEmails>
+        <description>Send File to CMDG</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>NewPlanSetUp/ReliusSetupNeeded</template>
+    </alerts>
+    <alerts>
+        <fullName>Starter_k_SignUp_Notifiy_Parternships_and_Ronnie</fullName>
+        <ccEmails>partnershipsupport@theonline401k.com</ccEmails>
+        <description>Starter(k) SignUp Notifiy Parternships and Ronnie</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>awitt@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>pfarmer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>AutomaticEmails/Starter_k_Plan_Sold</template>
+    </alerts>
+    <alerts>
+        <fullName>TD_Ameritrade_Plan_Sold</fullName>
+        <ccEmails>Compliance@theonline401k.com</ccEmails>
+        <ccEmails>partnershipsupport@theonline401k.com</ccEmails>
+        <ccEmails>newplan@theonline401k.com</ccEmails>
+        <ccEmails>mchiang@myubiquity.com</ccEmails>
+        <ccEmails>kcheck@myubiquity.com</ccEmails>
+        <description>TD Ameritrade Plan Sold</description>
+        <protected>false</protected>
+        <senderAddress>support@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>NewPlanSetUp/TD_Ameritrade_Plan_Initial_Process</template>
+    </alerts>
+    <alerts>
+        <fullName>YODA_Sale_Team_Alert</fullName>
+        <ccEmails>qualifiers@myubiquity.com</ccEmails>
+        <description>YODA Sale Team Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>afording@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>retirementplans@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/YODA_Sale</template>
+    </alerts>
+    <alerts>
+        <fullName>Zenefits_Docs_Signed</fullName>
+        <ccEmails>ademartini@theonline401k.com</ccEmails>
+        <description>Zenefits Docs Signed</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>NewPlanSetUp/Zenefits_Referral_Signed_Docs</template>
+    </alerts>
+    <alerts>
+        <fullName>customkdocstobeprepared</fullName>
+        <ccEmails>newplan@myubiquity.com</ccEmails>
+        <ccEmails>bcowling@theonline401k.com</ccEmails>
+        <description>Customk docs to be prepared</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>NewPlanSetUp/ReliusSetupNeeded</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Copy_Matrix_to_Industry_field</fullName>
+        <field>Industry</field>
+        <literalValue>MG Trust Company, LLC.</literalValue>
+        <name>Copy MG Trust to Industry field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Copy_National_Financial_Services_to_Indu</fullName>
+        <field>Industry</field>
+        <literalValue>National Financial Services</literalValue>
+        <name>Copy National Financial Services to Indu</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Copy_Other_to_Industry_field</fullName>
+        <field>Industry</field>
+        <literalValue>Other</literalValue>
+        <name>Copy Other to Industry field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Copy_Schwab_to_Industry_field</fullName>
+        <field>Industry</field>
+        <literalValue>Schwab &amp; Co., Inc.</literalValue>
+        <name>Copy Schwab to Industry field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Copy_TD_Ameritrade_to_Industry_field</fullName>
+        <field>Industry</field>
+        <literalValue>TD Ameritrade</literalValue>
+        <name>Copy TD Ameritrade to Industry field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Account_Record_SingleK</fullName>
+        <description>If at time of account creation, Plan Type = Single(k), Account Record Type = Single(k).</description>
+        <field>RecordTypeId</field>
+        <lookupValue>Singlek</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Update Account Record SingleK</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Custodian</fullName>
+        <description>Update custodian to MG Trust</description>
+        <field>Custodian__c</field>
+        <literalValue>MG Trust Company, LLC.</literalValue>
+        <name>Update Custodian</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Customer_Account_to_Customer</fullName>
+        <field>Type</field>
+        <literalValue>Customer</literalValue>
+        <name>Update Customer Account to Customer</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Customer_Lost_Date</fullName>
+        <field>Customer_Lost_Date__c</field>
+        <formula>Today()</formula>
+        <name>Update Customer Lost Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Fund_List</fullName>
+        <description>Update fund list to Zenefits</description>
+        <field>Fund_List__c</field>
+        <literalValue>Zenefits Vanguard Fund List</literalValue>
+        <name>Update Fund List</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>test_update</fullName>
+        <field>Custodian__c</field>
+        <literalValue>Schwab &amp; Co., Inc.</literalValue>
+        <name>test update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Account - Update - If Industry %3D MG Trust</fullName>
+        <actions>
+            <name>Copy_Matrix_to_Industry_field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Custodian__c</field>
+            <operation>equals</operation>
+            <value>&quot;MG Trust Company, LLC.&quot;</value>
+        </criteriaItems>
+        <description>Copies the value &apos;MG Trust Company, LLC&apos; from the custom Custodian field to the standard Industry field.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Account - Update - If Industry %3D Other</fullName>
+        <actions>
+            <name>Copy_Other_to_Industry_field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Custodian__c</field>
+            <operation>equals</operation>
+            <value>Other</value>
+        </criteriaItems>
+        <description>Copies the value &apos;Other&apos; from the custom Custodian field to the standard Industry field.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Account - Update - If Industry %3D Schwab</fullName>
+        <actions>
+            <name>Copy_Schwab_to_Industry_field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Custodian__c</field>
+            <operation>equals</operation>
+            <value>&quot;Schwab &amp; Co., Inc.&quot;</value>
+        </criteriaItems>
+        <description>Copies the value &apos;Schwab&apos; from the custom Custodian field to the standard Industry field.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Account - Update - If Industry %3D TD Ameritrade</fullName>
+        <actions>
+            <name>Copy_TD_Ameritrade_to_Industry_field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Custodian__c</field>
+            <operation>equals</operation>
+            <value>TD Ameritrade</value>
+        </criteriaItems>
+        <description>Copies the value &apos;TD Ameritrade&apos; from the custom Custodian field to the standard Industry field.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Account - Update - Industry</fullName>
+        <actions>
+            <name>Copy_National_Financial_Services_to_Indu</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Custodian__c</field>
+            <operation>equals</operation>
+            <value>National Financial Services</value>
+        </criteriaItems>
+        <description>Copies the value &apos;National Financial Services&apos; from the custom Custodian field to the standard Industry field.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Account - Update - RecordType%3DSingleK</fullName>
+        <actions>
+            <name>Update_Account_Record_SingleK</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.TypeofBusiness__c</field>
+            <operation>equals</operation>
+            <value>Single(k)</value>
+        </criteriaItems>
+        <description>If Plan Type = Single(k) at time of creation, then Account Record Type = Single(k).</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <tasks>
+        <fullName>Roth401kApprovedEmailRothAmendmentpackage</fullName>
+        <assignedTo>jimholte@myubiquity.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <description>Review Roth Single(k) report in Client Relations folder to see who has been approved for Roth but has not yet received documents.Based upon Roth 401(k) Type, send appropriate email to this client.</description>
+        <dueDateOffset>1</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Roth 401(k) Approved - Email Roth Amendment package</subject>
+    </tasks>
+</Workflow>

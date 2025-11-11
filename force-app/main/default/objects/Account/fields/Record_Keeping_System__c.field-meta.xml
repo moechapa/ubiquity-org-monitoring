@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Record_Keeping_System__c</fullName>
+    <description>What type of RK Platform do they currently use</description>
+    <label>Recordkeeping Platform</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Proprietary</fullName>
+                <default>false</default>
+                <label>Proprietary</label>
+            </value>
+            <value>
+                <fullName>SunGard OMNI</fullName>
+                <default>false</default>
+                <label>SunGard OMNI</label>
+            </value>
+            <value>
+                <fullName>SunGard Relius</fullName>
+                <default>false</default>
+                <label>SunGard Relius</label>
+            </value>
+            <value>
+                <fullName>DST TRAC</fullName>
+                <default>false</default>
+                <label>DST TRAC</label>
+            </value>
+            <value>
+                <fullName>Empower</fullName>
+                <default>false</default>
+                <label>Empower</label>
+            </value>
+            <value>
+                <fullName>FASCore</fullName>
+                <default>false</default>
+                <label>FASCore</label>
+            </value>
+            <value>
+                <fullName>Schwab SRT</fullName>
+                <default>false</default>
+                <label>Schwab SRT</label>
+            </value>
+            <value>
+                <fullName>Ascensus</fullName>
+                <default>false</default>
+                <label>Ascensus</label>
+            </value>
+            <value>
+                <fullName>Wystar</fullName>
+                <default>false</default>
+                <label>Wystar</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

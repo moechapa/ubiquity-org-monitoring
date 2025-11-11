@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_to_Close_Time__c</fullName>
+    <description>Difference between close date and lead created date.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISNULL(Lead_Created_Date__c)=True,  (CloseDate-DATEVALUE(CreatedDate)),  (CloseDate - Lead_Created_Date__c))</formula>
+    <inlineHelpText>Difference between close date and lead created date.</inlineHelpText>
+    <label>Lead to Close Time</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

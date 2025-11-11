@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Progress_Tracker_Stages</name>
+        <label>Progress Tracker Stages</label>
+        <locationX>446</locationX>
+        <locationY>252</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>On_Track</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Progress_Tracker_Calc__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>On Track</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Progress_Tracker_Report__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>On Track</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Imp_To_On_Track</targetReference>
+            </connector>
+            <label>On Track</label>
+        </rules>
+        <rules>
+            <name>At_Risk</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Progress_Tracker_Calc__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>At Risk</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Progress_Tracker_Report__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>At Risk</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Imp_to_At_Risk</targetReference>
+            </connector>
+            <label>At Risk</label>
+        </rules>
+        <rules>
+            <name>Behind</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Progress_Tracker_Calc__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Behind</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Progress_Tracker_Report__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Behind</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Imp_To_Behind</targetReference>
+            </connector>
+            <label>Behind</label>
+        </rules>
+    </decisions>
+    <description>Modified to only update the triggering/runtime record
+
+Updates Progress Tracker Report fields when they don&apos;t match the Progress Tracker Calc Field</description>
+    <environments>Default</environments>
+    <interviewLabel>Implementations | Progress Tracker Report {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Implementation | Scheduled | Progress Tracker Report</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>Imp Progress Tracker set to At Risk</description>
+        <name>Imp_to_At_Risk</name>
+        <label>Imp to At Risk</label>
+        <locationX>314</locationX>
+        <locationY>360</locationY>
+        <inputAssignments>
+            <field>Progress_Tracker_Report__c</field>
+            <value>
+                <stringValue>At Risk</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Imp Progress Tracker set to Behind</description>
+        <name>Imp_To_Behind</name>
+        <label>Imp To Behind</label>
+        <locationX>578</locationX>
+        <locationY>360</locationY>
+        <inputAssignments>
+            <field>Progress_Tracker_Report__c</field>
+            <value>
+                <stringValue>Behind</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Imp Progress Tracker set to On Track</description>
+        <name>Imp_To_On_Track</name>
+        <label>Imp To On Track</label>
+        <locationX>50</locationX>
+        <locationY>360</locationY>
+        <inputAssignments>
+            <field>Progress_Tracker_Report__c</field>
+            <value>
+                <stringValue>On Track</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>320</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Progress_Tracker_Stages</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Implementation_Status__c</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Plan_Type__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>New Plan</stringValue>
+            </value>
+        </filters>
+        <object>Implementation__c</object>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2024-09-25</startDate>
+            <startTime>00:30:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

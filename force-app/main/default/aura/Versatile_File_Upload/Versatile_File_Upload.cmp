@@ -1,0 +1,28 @@
+<aura:component implements="lightning:availableForFlowScreens">
+    <aura:attribute name="cdIDs" type="String[]" />
+    <aura:attribute name="cdLabels" type="String[]" />
+    <aura:attribute name="recordId" type="String" description="Record to which the files should be attached"/>
+    <aura:attribute name="fileTypes" type="String" description="The accepted file types. Enter a comma separated list of entries like .pdf or .jpg"/>
+    <aura:attribute name="multiple" type="Boolean" default="true"/>
+    <aura:attribute name="label" type="String"/>
+    <aura:attribute name="enableDelButton" type="Boolean"/>
+    <aura:attribute name="filesQueued" type="Integer" default="0"/>
+        <lightning:fileUpload label="{!v.label}"
+                          name="fileUploader"
+                          recordId="{!v.recordId}"
+                          accept="{!v.fileTypes}"
+                          multiple="{!v.multiple}"
+                          disabled="false"
+                    onuploadfinished="{!c.handleUploadFinished}">
+	</lightning:fileUpload>
+
+    <aura:renderif isTrue="{!v.filesQueued == 0}">
+        <p>No files attached</p>
+        <aura:set attribute="else">
+            <p>Files attached: {!v.filesQueued}</p>
+        </aura:set>
+    </aura:renderif>
+    <aura:renderif isTrue="{!AND(v.enableDelButton,NOT(v.filesQueued == 0))}">
+        <lightning:button variant="brand-outline" label="Remove Files" title="Remove Files" onclick="{!c.handleClick}"/>
+    </aura:renderif>
+</aura:component>

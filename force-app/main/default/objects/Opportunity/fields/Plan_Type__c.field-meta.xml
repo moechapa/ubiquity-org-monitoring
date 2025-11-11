@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Type__c</fullName>
+    <label>Plan Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Plan</fullName>
+                <default>false</default>
+                <label>New Plan</label>
+            </value>
+            <value>
+                <fullName>Conversion Plan</fullName>
+                <default>false</default>
+                <label>Conversion Plan</label>
+            </value>
+            <value>
+                <fullName>Upgrade</fullName>
+                <default>false</default>
+                <label>Upgrade</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>PEP</controllingFieldValue>
+            <controllingFieldValue>401(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k)</controllingFieldValue>
+            <valueName>New Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PEP</controllingFieldValue>
+            <controllingFieldValue>401(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k)</controllingFieldValue>
+            <valueName>Conversion Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <valueName>Upgrade</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

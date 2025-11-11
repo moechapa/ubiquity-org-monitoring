@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <capacityModel>STATUS_BASED</capacityModel>
+    <doesCheckCapOnOwnerChange>false</doesCheckCapOnOwnerChange>
+    <doesCheckCapOnStatusChange>false</doesCheckCapOnStatusChange>
+    <doesMinimizeWidgetOnAccept>false</doesMinimizeWidgetOnAccept>
+    <hasAutoAcceptEnabled>true</hasAutoAcceptEnabled>
+    <isInterruptible>true</isInterruptible>
+    <label>Case</label>
+    <relatedEntityType>Case</relatedEntityType>
+    <serviceChannelStatusFieldMappings>
+        <type>COMPLETED</type>
+        <value>Resolved</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>COMPLETED</type>
+        <value>Missing Info</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>COMPLETED</type>
+        <value>Duplicate</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>COMPLETED</type>
+        <value>Deployed</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>COMPLETED</type>
+        <value>Bug not enhancement - Log in Coherence</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>COMPLETED</type>
+        <value>Merged</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>COMPLETED</type>
+        <value>Deployed to Production</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>New</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Child Case Missing Info</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Response to Parent Case</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Response Received</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>In Progress</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Assigned</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Follow-Up Today</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Called</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Emailed</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Client Taking Action</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Scheduled Follow-Up</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Unable to Reach</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Pending Future Call</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Scheduled</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Internal</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Reviewed</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Confirmed Receipt</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Child Case Resolved</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Child Case Pending</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>QA Testing In Progress</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Ancillary Billing Opportunity Created</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Child Case Response Received</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Survey Email Sent</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Survey Received - Send DocuSign</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Docusign Pending Signature</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Confirm Billing Amount</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Billing Amount Confirmed</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Pending 30 Day Notice Period</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>New JIRA Comment</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>DocuSign Complete</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Fee Waiver Approved</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Fee Waiver Rejected</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Pending Client Address Confirm</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Pending Client Notice Confirmation</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Certified Notices Sent</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Late Payroll Survey Received</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>JIRA Comment Sent</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Pending Blackout</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Pending Priority</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Pending Dev</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>In Dev</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>In UAT</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Done</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Won&apos;t Do</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>IN_PROGRESS</type>
+        <value>Open Cash</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>PAUSED</type>
+        <value>Awaiting Client Response</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>PAUSED</type>
+        <value>Awaiting Vendor Response</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>PAUSED</type>
+        <value>Awaiting Development Team Fix</value>
+    </serviceChannelStatusFieldMappings>
+    <serviceChannelStatusFieldMappings>
+        <type>PAUSED</type>
+        <value>Awaiting RKS Transaction(s)</value>
+    </serviceChannelStatusFieldMappings>
+    <statusField>Status</statusField>
+</ServiceChannel>

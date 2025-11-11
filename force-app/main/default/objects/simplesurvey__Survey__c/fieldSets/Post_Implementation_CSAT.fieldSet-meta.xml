@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Post_Implementation_CSAT</fullName>
+    <description>Fields for Post Implementation CSAT</description>
+    <displayedFields>
+        <field>How_to_improve_experience__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Post Implementation CSAT</label>
+</FieldSet>

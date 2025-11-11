@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Matrix_07C_Account_Number</fullName>
+    <active>false</active>
+    <description>Implementation cannot be completed until Matrix 07C Account number is entered</description>
+    <errorConditionFormula>(NOT(ISBLANK( Custodial_Account_Number_Received__c )))
+&amp;&amp;
+ ISPICKVAL( Custodian__c , &quot;MG Trust Company, LLC.&quot;) 
+&amp;&amp;
+ISBLANK(  Matrix_07C_Account__c  )
+
+||
+
+(ISPICKVAL( Plan_Type__c, &quot;New Plan&quot;)
+&amp;&amp;
+ISBLANK(Intro_to_Koncierge_CST__c ) 
+&amp;&amp;
+ISPICKVAL( Custodian__c , &quot;MG Trust Company, LLC.&quot;) 
+&amp;&amp;
+ISBLANK(  Matrix_07C_Account__c  ))
+
+||
+
+(ISPICKVAL( Plan_Type__c, &quot;Conversion Plan&quot;)
+&amp;&amp;
+ISBLANK(   Intro_to_Koncierge_CST__c ) 
+&amp;&amp;
+ISPICKVAL( Custodian__c , &quot;MG Trust Company, LLC.&quot;) 
+&amp;&amp;
+ISBLANK(  Matrix_07C_Account__c  ))</errorConditionFormula>
+    <errorMessage>Please enter a valid Matrix 07C Account Number before moving forward.</errorMessage>
+</ValidationRule>

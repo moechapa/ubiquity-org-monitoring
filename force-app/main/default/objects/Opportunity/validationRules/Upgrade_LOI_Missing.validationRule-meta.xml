@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Upgrade_LOI_Missing</fullName>
+    <active>false</active>
+    <description>LOI must be signed before closing an upgrade opportunity.</description>
+    <errorConditionFormula>RecordTypeId = &quot;01237000000Xsu6AAC&quot;
+&amp;&amp;
+ LOI_Signed__c = False
+&amp;&amp;
+ISPICKVAL( StageName , &quot;Closed Won&quot;)</errorConditionFormula>
+    <errorMessage>Upgrade Opportunities require a signed LOI before Closing. Please use the &quot;Send with DocuSign&quot; button on the Opportunity before moving forward.</errorMessage>
+</ValidationRule>

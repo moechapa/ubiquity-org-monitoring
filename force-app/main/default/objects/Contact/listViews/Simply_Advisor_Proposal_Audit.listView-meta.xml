@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Simply_Advisor_Proposal_Audit</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Last_Simply_Proposal_Run__c</columns>
+    <columns>Simply_Proposal_Count__c</columns>
+    <columns>Plan_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Business_Unit__c</field>
+        <operation>equals</operation>
+        <value>Simply Retirement</value>
+    </filters>
+    <filters>
+        <field>Plan_ID__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Partner_Contact</value>
+    </filters>
+    <filters>
+        <field>Simply_Proposal_Count__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Simply Advisor Proposal Audit</label>
+    <sharedTo>
+        <roleAndSubordinates>SVP_Strategy</roleAndSubordinates>
+    </sharedTo>
+</ListView>

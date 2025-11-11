@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <description>This flow&apos;s action is typically handled by DE.  DE (for imps at this point in time) follows the pattern of queue -&gt; user.  If a user -&gt; user ownership change occurs on imp, assume this isn&apos;t DE.</description>
+        <name>DE_Assignment_Check</name>
+        <label>DE Assignment Check</label>
+        <locationX>182</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>DE Assignment</defaultConnectorLabel>
+        <rules>
+            <name>Non_DE_change</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.OwnerId</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>005</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Project_Task_Owner</targetReference>
+            </connector>
+            <label>Non DE change</label>
+        </rules>
+    </decisions>
+    <description>If the owner of an implementation is changed, updates incomplete and eligible tasks to new owner.</description>
+    <environments>Default</environments>
+    <interviewLabel>Implementation | After Save | Update Task Ownership {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Implementation | After Save | Update Task Ownership</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>Updates the owner for all project tasks that are eligible.</description>
+        <name>Update_Project_Task_Owner</name>
+        <label>Update Project Task Owner</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <filterLogic>(1 OR 2) AND 3 AND 4 AND 5</filterLogic>
+        <filters>
+            <field>Skill__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>RM</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Eligible_for_Reassignment__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Declined</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Not Needed</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Completed</stringValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Assigned_To__c</field>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Implementation_Tasks__r</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>DE_Assignment_Check</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>OwnerId</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Implementation_Status__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Completed</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>OwnerId</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>005</stringValue>
+            </value>
+        </filters>
+        <object>Implementation__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restatement_Date__c</fullName>
+    <description>Date plan is restated from Ubiquity side.</description>
+    <inlineHelpText>Date plan is restated from Ubiquity side.</inlineHelpText>
+    <label>Restatement Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

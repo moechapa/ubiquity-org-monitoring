@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Verify_Document_Signatures__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Verify signature on adoption agreement, loan policy, trust agreement, custodial app, ACH app are in place</description>
+    <inlineHelpText>Verify signature on adoption agreement, loan policy, trust agreement, custodial app, ACH app are in place</inlineHelpText>
+    <label>Verify Document Signatures</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

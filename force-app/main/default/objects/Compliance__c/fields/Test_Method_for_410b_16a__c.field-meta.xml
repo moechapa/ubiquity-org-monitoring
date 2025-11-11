@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_Method_for_410b_16a__c</fullName>
+    <description>Select choice to indicate the method used by the plan to satisfy the coverage requirements under section 410(b)</description>
+    <inlineHelpText>Select choice to indicate the method used by the plan to satisfy the coverage requirements under section 410(b)</inlineHelpText>
+    <label>Test Method for 410b (16a)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ratio Percentage Test</fullName>
+                <default>false</default>
+                <label>Ratio Percentage Test</label>
+            </value>
+            <value>
+                <fullName>Average Benefit Test</fullName>
+                <default>false</default>
+                <label>Average Benefit Test</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

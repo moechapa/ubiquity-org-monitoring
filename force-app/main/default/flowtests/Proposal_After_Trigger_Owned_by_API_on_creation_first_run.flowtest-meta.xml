@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowTest xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowApiName>Proposal_After_Trigger</flowApiName>
+    <label>Owned by API on creation - first run</label>
+    <testPoints>
+        <elementApiName>Start</elementApiName>
+        <parameters>
+            <leftValueReference>$Record</leftValueReference>
+            <type>InputTriggeringRecordInitial</type>
+            <value>
+                <sobjectValue>{&quot;Advisor_Broker_Dealer__c&quot;:&quot;PRINCIPAL SECURITIES INC&quot;,&quot;Advisor_CRD__c&quot;:&quot;1137&quot;,&quot;Advisor_Compensation_Amount__c&quot;:&quot;100&quot;,&quot;Advisor_Included__c&quot;:&quot;true&quot;,&quot;Advisor_NPN__c&quot;:&quot;456546963&quot;,&quot;Auto_Enrollment__c&quot;:&quot;None&quot;,&quot;Brokerage_Accounts_PCRA__c&quot;:&quot;No&quot;,&quot;Client_Company_Name__c&quot;:&quot;Test Plan Hickory Ficory Dock&quot;,&quot;Company_Contact_First_Name__c&quot;:&quot;Don&quot;,&quot;Company_Contact_Last_Name__c&quot;:&quot;Hickory&quot;,&quot;Company_EIN__c&quot;:&quot;456852456&quot;,&quot;Company_Email__c&quot;:&quot;ad9gha8osdhagdsa@prksqasimply.com&quot;,&quot;Company_State__c&quot;:&quot;IN&quot;,&quot;Company_Zip_Postal_Code__c&quot;:0,&quot;Contact_Job_Title__c&quot;:&quot;ceo&quot;,&quot;Contact_Phone_Number__c&quot;:&quot;4564564564&quot;,&quot;Conversion_Needed__c&quot;:false,&quot;Credentialed_Advisor__c&quot;:false,&quot;Custodian__c&quot;:&quot;MG Trust Company, LLC.&quot;,&quot;Deferral_Change_Frequency__c&quot;:&quot;Per Pay Period&quot;,&quot;Discretionary_Match_Formula_Notes__c&quot;:&quot;8%&quot;,&quot;Eligibility_Age__c&quot;:&quot;21&quot;,&quot;Financial_Professional_Email__c&quot;:&quot;ronaldmcdonaldadvisor@prksqasimply.com&quot;,&quot;Financial_Professional_First_Name__c&quot;:&quot;Ronald&quot;,&quot;Financial_Professional_Last_Name__c&quot;:&quot;McDonald&quot;,&quot;Financial_Professional_Phone__c&quot;:&quot;5555555555&quot;,&quot;Financial_Professional_Role__c&quot;:&quot;RR&quot;,&quot;Financial_Professional_State__c&quot;:&quot;CA&quot;,&quot;Financial_Professional_Zip_Code__c&quot;:12345,&quot;Firm_Name__c&quot;:&quot;Old McDonald Advisors&quot;,&quot;Force_Queue__c&quot;:false,&quot;Fund_List__c&quot;:&quot;Simply Fund Lineup 1&quot;,&quot;Government_Entity__c&quot;:&quot;No&quot;,&quot;Hardships__c&quot;:&quot;No&quot;,&quot;Insurance_Agency_NPN__c&quot;:0,&quot;Loans__c&quot;:&quot;Yes&quot;,&quot;Manual_Callout__c&quot;:false,&quot;Number_of_Employees__c&quot;:5,&quot;OwnerId&quot;:&quot;0051G0000069uOpQAI&quot;,&quot;Ownership_Override__c&quot;:true,&quot;Participant_Fee_Payment__c&quot;:&quot;Employee&quot;,&quot;Pending_Alert__c&quot;:true,&quot;Plan_Effective_Date__c&quot;:&quot;2024-02-17&quot;,&quot;Plan_Eligibility__c&quot;:&quot;Three Months&quot;,&quot;Plan_Entry_Frequency__c&quot;:&quot;Immediate&quot;,&quot;Plan_ID_First_Synced__c&quot;:&quot;2024-01-17&quot;,&quot;Plan_ID__c&quot;:&quot;https://www.simplyretirement.com/plans/koTQQV&quot;,&quot;Plan_Type__c&quot;:&quot;New Plan&quot;,&quot;Principal_Account_Id__c&quot;:&quot;0015a00003RL7g0AAD&quot;,&quot;Principal_Id__c&quot;:&quot;627268778528013798&quot;,&quot;Principal_Opportunity_Id__c&quot;:&quot;0065a00001BZg25AAD&quot;,&quot;Principal_Opportunity_Stage__c&quot;:&quot;Pending&quot;,&quot;Product_Type__c&quot;:&quot;401(k)&quot;,&quot;Profit_Sharing_Match_Vesting_Schedule__c&quot;:&quot;6-Year Graded&quot;,&quot;Profit_Sharing__c&quot;:&quot;Pro Rata&quot;,&quot;Publicly_Traded__c&quot;:&quot;No&quot;,&quot;Queued__c&quot;:true,&quot;RecordTypeId&quot;:&quot;0121G000000RlheQAC&quot;,&quot;Referrer_Email__c&quot;:&quot;ronaldmcdonaldadvisor@prksqasimply.com&quot;,&quot;Referrer_Type__c&quot;:&quot;Advisor&quot;,&quot;Roth_Contributions__c&quot;:&quot;Yes&quot;,&quot;Safe_Harbor_Match_Determination_Period__c&quot;:&quot;Annual&quot;,&quot;Safe_Harbor__c&quot;:&quot;None&quot;,&quot;Service_Option__c&quot;:&quot;Simply Retirement Bundled&quot;,&quot;Split_Opp__c&quot;:false,&quot;Stage_Flag__c&quot;:&quot;Purchase&quot;,&quot;Status__c&quot;:&quot;Submitted for Purchase&quot;,&quot;TPA_Included__c&quot;:&quot;false&quot;,&quot;Tax_Exempt__c&quot;:false,&quot;X3_38__c&quot;:&quot;Wilshire&quot;}</sobjectValue>
+            </value>
+        </parameters>
+    </testPoints>
+    <testPoints>
+        <assertions>
+            <conditions>
+                <leftValueReference>Get_Created_Leads</leftValueReference>
+                <operator>WasVisited</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+        </assertions>
+        <elementApiName>Finish</elementApiName>
+    </testPoints>
+</FlowTest>

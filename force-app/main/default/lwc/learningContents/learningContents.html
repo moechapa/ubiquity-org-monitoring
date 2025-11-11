@@ -1,0 +1,21 @@
+<template>
+    <template if:true={isLoading}>
+        <c-loader></c-loader>
+    </template>
+    <template if:false={isLoading}>
+        <template if:true={isSearchComplete}>
+            <template if:true={hasLearningContents}>
+                <ul>
+                    <template for:each={learningContents} for:item="learningContent">
+                        <li key={learningContent._id}>
+                            <c-learning-content learning-content={learningContent}></c-learning-content>
+                        </li>
+                    </template>
+                </ul>
+            </template>
+            <template if:false={hasLearningContents}>
+                <c-no-learning-contents search-text={searchText}></c-no-learning-contents>
+            </template>
+        </template>
+    </template>
+</template>

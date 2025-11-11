@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EPS_Additional_Headings__c</fullName>
+    <description>Question Created by the Survey Builder</description>
+    <externalId>false</externalId>
+    <inlineHelpText>On your current Payroll Detail File, are there any other additional headers used? i.e. Additional labeling for ‘Catch Up’ contributions, if your % and fixed amounts are separated into two different columns or if you have multiple columns for total hours</inlineHelpText>
+    <label>EPS Additional Headings</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

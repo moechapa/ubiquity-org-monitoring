@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sallus_Proposal</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Partner_Proposal</compactLayoutAssignment>
+    <label>Sallus Proposal</label>
+    <picklistValues>
+        <picklist>Any_Current_Legal_Proceedings__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Auto_Enrollment_Deferral_Escalation_Rate__c</picklist>
+        <values>
+            <fullName>10%25 Flat Deferral Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%25 Auto-Escalate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%25 Flat Deferral Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%25 Auto-Escalate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%25 Flat Deferral Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 Auto-Escalate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 Flat Deferral Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%25 Auto-Escalate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%25 Flat Deferral Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%25 Auto-Escalate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%25 Flat Deferral Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%25 Auto-Escalate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%25 Flat Deferral Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%25 Flat Deferral Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Auto_Enrollment__c</picklist>
+        <values>
+            <fullName>EACA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QACA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Brokerage_Accounts_PCRA__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Compensation_Type__c</picklist>
+        <values>
+            <fullName>AUM Percentage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flat Fee</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Current_Recent_SIMPLE_Plan__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Current_Sponsor_of_Other_Plans__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Custodian__c</picklist>
+        <values>
+            <fullName>MG Trust Company%2C LLC%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schwab %26 Co%2E%2C Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schwab Trust</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scottrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TD Ameritrade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deferral_Change_Frequency__c</picklist>
+        <values>
+            <fullName>Annaully</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Weekly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Per Pay Period</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Discretionary_Match_Formula__c</picklist>
+        <values>
+            <fullName>1%25 Discretionary Employer Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%25 Discretionary Employer Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%25 Discretionary Employer Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%25 Discretionary Employer Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%25 Discretionary Employer Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 Discretionary Employer Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%25 Discretionary Employer Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%25 Discretionary Employer Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%25 Discretionary Employer Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%25 Discretionary Employer Match</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Discretionary_Match__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Eligibility_Age__c</picklist>
+        <values>
+            <fullName>15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Employee_Loan_Availability__c</picklist>
+        <values>
+            <fullName>False</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>True</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Financial_Professional_Role__c</picklist>
+        <values>
+            <fullName>IA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fund_List__c</picklist>
+        <values>
+            <fullName>COTA St</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CensiblyYours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Envestnet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FPR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FPR ETF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fidelity Extended</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fidelity Index</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Globalt I-Shares</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intuit Morningstar List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JPM R2 Smart Retirement Blend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JPM R2 SmartRetirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JPM R3 Smart Retirement Blend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JPM R3 SmartRetirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JPM R4 Smart Retirement Blend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JPM R4 SmartRetirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JPM R5 Smart Retirement Blend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JPM R5 SmartRetirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JPM R6 Smart Retirement Blend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JPM R6 SmartRetirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loring Ward %26%23150%3B Plan B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loring Ward Custom Fund List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matrix DFA Long List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matrix RIA%2FDirect Fund List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matrix Reg Rep List Choice 50bps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matrix Reg Rep List Plus 75bps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matrix Reg Rep List Select 100bps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morningstar 25 bps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morningstar 50 bps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morningstar ETF List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morningstar I-Class RIA List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morningstar New York Life Fund List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morningstar Schwab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NFP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuveen Target Date %26 Vanguard Index</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Principal Investment Portfolio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prudent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prudent Sustainable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schwab Index Advantage list</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schwab RIA%2FDirect List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Fund Lineup 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Fund Lineup 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Fund Lineup 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T%2E Rowe Price Sample list</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TDA RIA List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valmark RIA List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vanguard Admiral Shares Fund List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vanguard Long List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vanguard RIA List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zenefits Vanguard Fund List</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Government_Entity__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hardships__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Include_Company_in_UBQT_Plan__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lead_Source_Detail__c</picklist>
+        <values>
+            <fullName>MML</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lead_Source__c</picklist>
+        <values>
+            <fullName>MML</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loans__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Longer_than_12_Months_with_Zero_Assets__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OPD_Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Created</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Part_of_Controlled_or_Affiliated_Group__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Participant_Fee_Payment__c</picklist>
+        <values>
+            <fullName>Employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Plan_Eligibility__c</picklist>
+        <values>
+            <fullName>1 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 Year %281000 Hours%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immediate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Three Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Two Months</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Plan_Entry_Frequency__c</picklist>
+        <values>
+            <fullName>Immediate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-Annually</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Plan_Type__c</picklist>
+        <values>
+            <fullName>Conversion Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upgrade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Previously_Sponsored_401_k_Plan__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Principal_Opportunity_Closed_Lost_Reason__c</picklist>
+        <values>
+            <fullName>Case Not Taken</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Principal_Opportunity_Stage__c</picklist>
+        <values>
+            <fullName>Closed Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Committed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposal %2F Price Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualification</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prior_Year_Profit_Sharing_Contribution__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Type__c</picklist>
+        <values>
+            <fullName>401%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add-On Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Express IRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PEP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Amendment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Downgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simple IRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single IRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upgrade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Profit_Sharing_Match_Vesting_Schedule__c</picklist>
+        <values>
+            <fullName>2 Year Cliff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20%25 Over 5 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20%25 Over 6 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25%25 Over 4 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 Year Cliff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immediate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Profit_Sharing__c</picklist>
+        <values>
+            <fullName>New Comparability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permitted Disparity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pro Rata</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Publicly_Traded__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QACA_Safe_Harbor_Vesting_Schedule__c</picklist>
+        <values>
+            <fullName>2 Year Cliff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immediate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Referrer_Type__c</picklist>
+        <values>
+            <fullName>Advisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TPA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Roth_Contributions__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Safe_Harbor_Match_Determination_Period__c</picklist>
+        <values>
+            <fullName>Annual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Per Pay Period</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Safe_Harbor__c</picklist>
+        <values>
+            <fullName>3%25 Non-Elective Contribution %28NEC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%25 QACA non-elective</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E5%25 QACA Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%25 Enhanced Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%25 QACA Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 Enhanced Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 QACA Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%25 Enhanced Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%25 QACA Match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basic Match %28100%25 of 1st 3%25%2B50%25 of next 2%25%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QACA Basic Match %28100%25 up to 1%25%2C 50%25 up to 6%25%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Option__c</picklist>
+        <values>
+            <fullName>Adopting Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Builder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CensiblyYours - No Prior 3%2838%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CensiblyYours - Prior 3%2838%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edukate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enhanced Payroll Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Express IRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fund Lineup Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mega Roth Single%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Comp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Provision Changes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RK Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reserve%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saver%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Retirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Retirement Bundled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Retirement TPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Retirement Unbundled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single IRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single%28k%29 Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starter</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stage_Flag__c</picklist>
+        <values>
+            <fullName>Expired Save%2FShare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Save</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Share</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Updates</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Changes In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expired Save%2FShare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incomplete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saved%2FShared</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted for Purchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Updated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Current_Legal_Proceedings__c</picklist>
+        <values>
+            <fullName>Bankruptcy Proceeding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IRS%2FDOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multiple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Litigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proceeding</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X3_38__c</picklist>
+        <values>
+            <fullName>COTA Street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Envestnet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GRP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kaye Capital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morningstar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NFP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wilshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>flexPATH</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

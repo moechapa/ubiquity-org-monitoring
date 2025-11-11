@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Date_must_be_Today_Upon_Closure</fullName>
+    <active>true</active>
+    <errorConditionFormula>CloseDate != TODAY() &amp;&amp;
+ISCHANGED(StageName) &amp;&amp;
+ISPICKVAL(StageName,&quot;Closed Won&quot;) &amp;&amp;
+RecordType.Name != &quot;Ancillary Billing Flat Fee&quot; &amp;&amp;
+RecordType.Name != &quot;Ancillary Billing Hourly Estimate&quot; &amp;&amp;
+ $User.Username != &quot;billing@myubiquity.com&quot; &amp;&amp;
+ $User.Username != &quot;tmoyer@myubiquity.com&quot;</errorConditionFormula>
+    <errorDisplayField>CloseDate</errorDisplayField>
+    <errorMessage>Close Date must be Today&apos;s Date</errorMessage>
+</ValidationRule>

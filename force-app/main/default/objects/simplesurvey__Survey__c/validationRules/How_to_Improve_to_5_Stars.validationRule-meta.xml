@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_to_Improve_to_5_Stars</fullName>
+    <active>true</active>
+    <description>Requires &quot;How to Improve&quot; value if VerbalCSAT is 1, 2, 3 or 4</description>
+    <errorConditionFormula>ISBLANK(How_to_Improve_to_5_Stars__c)
+&amp;&amp;
+( ISPICKVAL( Verbal_CSAT__c , &quot;1&quot;) 
+ || 
+ ISPICKVAL( Verbal_CSAT__c , &quot;2&quot;)
+ || 
+ ISPICKVAL( Verbal_CSAT__c , &quot;3&quot;)
+ || 
+ ISPICKVAL( Verbal_CSAT__c , &quot;4&quot;))</errorConditionFormula>
+    <errorMessage>If Verbal CSAT is 4 or less, &quot;How to Improve to 5 Stars&quot; is required</errorMessage>
+</ValidationRule>

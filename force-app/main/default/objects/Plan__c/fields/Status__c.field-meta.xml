@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <description>Is the plan active or inactive (Deconverted or Terminated)</description>
+    <inlineHelpText>Is the plan active or inactive (Deconverted or Terminated)</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Transition Pending</fullName>
+                <default>false</default>
+                <label>Transition Pending</label>
+            </value>
+            <value>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+                <label>Inactive</label>
+            </value>
+            <value>
+                <fullName>Pending Abandonment</fullName>
+                <default>false</default>
+                <label>Pending Abandonment</label>
+            </value>
+            <value>
+                <fullName>Status Under Investigation</fullName>
+                <default>false</default>
+                <label>Status Under Investigation</label>
+            </value>
+            <value>
+                <fullName>Frozen Plan</fullName>
+                <default>false</default>
+                <label>Frozen Plan</label>
+            </value>
+            <value>
+                <fullName>Implementation in Progress</fullName>
+                <default>false</default>
+                <label>Implementation in Progress</label>
+            </value>
+            <value>
+                <fullName>Passive</fullName>
+                <default>false</default>
+                <label>Passive</label>
+            </value>
+            <value>
+                <fullName>Implementation Stalled</fullName>
+                <default>false</default>
+                <label>Implementation Stalled</label>
+            </value>
+            <value>
+                <fullName>Active Not Funded</fullName>
+                <default>false</default>
+                <label>Active Not Funded</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

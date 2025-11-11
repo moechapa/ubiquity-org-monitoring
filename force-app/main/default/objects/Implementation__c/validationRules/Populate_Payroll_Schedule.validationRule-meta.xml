@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Populate_Payroll_Schedule</fullName>
+    <active>false</active>
+    <description>Insures population of plan payroll schedule.</description>
+    <errorConditionFormula>(ISPICKVAL( Implementation_Status__c, &quot;Completed&quot;)) 
+&amp;&amp; 
+ISPICKVAL ( Payroll_Schedule__c , &quot; &quot;)</errorConditionFormula>
+    <errorDisplayField>Payroll_Schedule__c</errorDisplayField>
+    <errorMessage>Please populate payroll schedule</errorMessage>
+</ValidationRule>

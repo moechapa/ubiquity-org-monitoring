@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Child_Case_Missing_Info_Parent_Only</fullName>
+    <active>true</active>
+    <description>Child Case Missing Info - not allowed on Child Cases</description>
+    <errorConditionFormula>AND ( ISCHANGED( Status ) ,
+ISPICKVAL(Status, &quot;Child Case Missing Info&quot;),
+ISPICKVAL(Case_Type__c, &quot;Child Case&quot;))</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>If this is a child case, choose &quot;Missing Info&quot; instead - it will auto update the Parent Case to &quot;Child Case Missing Info&quot;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Why_5_Stars__c</fullName>
+    <description>Select the reason(s) why the client gave us a 5 star CSAT</description>
+    <inlineHelpText>Select the reason(s) why the client gave us a 5 star CSAT</inlineHelpText>
+    <label>Why 5 Stars?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Access: Availability</fullName>
+                <default>false</default>
+                <label>Access: Availability</label>
+            </value>
+            <value>
+                <fullName>Access: Easy-to-use platform</fullName>
+                <default>false</default>
+                <label>Access: Easy-to-use platform</label>
+            </value>
+            <value>
+                <fullName>Speed: Quick response</fullName>
+                <default>false</default>
+                <label>Speed: Quick response</label>
+            </value>
+            <value>
+                <fullName>Speed: Fast issue resolution</fullName>
+                <default>false</default>
+                <label>Speed: Fast issue resolution</label>
+            </value>
+            <value>
+                <fullName>Effectiveness: Knowledgeable service</fullName>
+                <default>false</default>
+                <label>Effectiveness: Knowledgeable service</label>
+            </value>
+            <value>
+                <fullName>Effectiveness: Proactive guidance</fullName>
+                <default>false</default>
+                <label>Effectiveness: Proactive guidance</label>
+            </value>
+            <value>
+                <fullName>Experience: Friendly, personal service</fullName>
+                <default>false</default>
+                <label>Experience: Friendly, personal service</label>
+            </value>
+            <value>
+                <fullName>Cost: Low fees</fullName>
+                <default>false</default>
+                <label>Cost: Low fees</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>9</visibleLines>
+</CustomField>

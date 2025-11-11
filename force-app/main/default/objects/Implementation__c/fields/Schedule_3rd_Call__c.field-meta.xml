@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Schedule_3rd_Call__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Ask when the intended payroll funding date is, and schedule call within 3 days of that</description>
+    <inlineHelpText>Ask when the intended payroll funding date is, and schedule call within 3 days of that</inlineHelpText>
+    <label>Schedule 3rd Call To Submit Payroll</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

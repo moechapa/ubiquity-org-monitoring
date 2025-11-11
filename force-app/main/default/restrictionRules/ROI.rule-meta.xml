@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RestrictionRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <description>ROI can only see QAs where the UBQT Employee account id = ROI</description>
+    <enforcementType>Restrict</enforcementType>
+    <masterLabel>ROI</masterLabel>
+    <recordFilter>Ubiquity_Employee__r.AccountId=&apos;001Ho00001IaNy1IAF&apos;</recordFilter>
+    <targetEntity>Quality_Assurance_QA__c</targetEntity>
+    <userCriteria>$User.UserRoleId=&apos;00EUo000001TSuo&apos;</userCriteria>
+    <version>1</version>
+</RestrictionRule>

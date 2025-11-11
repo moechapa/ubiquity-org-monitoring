@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Amendment_Date__c</fullName>
+    <description>Date the Plan is Amended. If Plan has had multiple Amendments use most recent date.</description>
+    <inlineHelpText>Date the Plan is Amended. If Plan has had multiple Amendments use most recent date.</inlineHelpText>
+    <label>Plan Amendment Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

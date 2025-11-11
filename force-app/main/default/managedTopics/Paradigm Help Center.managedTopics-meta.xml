@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Paradigm Help Center.Featured:Annual Plan Reporting (Form 5500)</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Annual Plan Reporting (Form 5500)</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Featured:Day-to-Day Plan Management</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Day-to-Day Plan Management</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Featured:Incoming Rollovers</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Incoming Rollovers</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Featured:Managing Your Account</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Managing Your Account</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Featured:Payroll &amp; Annual Contributions</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Payroll &amp; Annual Contributions</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Featured:Taking Money Out Of The Plan</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Taking Money Out Of The Plan</name>
+        <parentName></parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:402(g) Refunds</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>402(g) Refunds</name>
+        <parentName>Taking Money Out Of The Plan</parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:ADP/ACP Testing</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>ADP/ACP Testing</name>
+        <parentName>Annual Plan Testing</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Advisor Account Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Advisor Account Management</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Advisor Plan Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Advisor Plan Management</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Advisor Reports</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Advisor Reports</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Annual Plan Reporting (Form 5500)</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Annual Plan Reporting (Form 5500)</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Annual Plan Testing</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Annual Plan Testing</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Billing</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Billing</name>
+        <parentName>Plan Administration</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Day-to-Day Plan Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Day-to-Day Plan Management</name>
+        <parentName>Plan Administration</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Distributions</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Distributions</name>
+        <parentName>Taking Money Out Of The Plan</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Eligibility For Participation</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Eligibility For Participation</name>
+        <parentName>Plan Administration</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Employee Contributions</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Employee Contributions</name>
+        <parentName>Putting Money Into The Plan</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Enrollment</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Enrollment</name>
+        <parentName>Managing Your Account</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:General Information</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>General Information</name>
+        <parentName>Managing Your Account</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Hardship Withdrawals</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Hardship Withdrawals</name>
+        <parentName>Taking Money Out Of The Plan</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:How-Tos For Advisors</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>How-Tos For Advisors</name>
+        <parentName></parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:How-Tos For Plan Administrators</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>How-Tos For Plan Administrators</name>
+        <parentName></parentName>
+        <position>7</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:How-Tos For Savers</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>How-Tos For Savers</name>
+        <parentName></parentName>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:How-Tos For Single(k) Sponsors</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>How-Tos For Single(k) Sponsors</name>
+        <parentName></parentName>
+        <position>8</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:In-Service Distributions</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>In-Service Distributions</name>
+        <parentName>Taking Money Out Of The Plan</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Incoming Rollovers</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Incoming Rollovers</name>
+        <parentName>Putting Money Into The Plan</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Loan Payments</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Loan Payments</name>
+        <parentName>Putting Money Into The Plan</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Loans</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Loans</name>
+        <parentName>Taking Money Out Of The Plan</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Managing Employee Records</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Managing Employee Records</name>
+        <parentName></parentName>
+        <position>9</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Managing Investments</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Managing Investments</name>
+        <parentName>Managing Your Account</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Managing Your Account</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Managing Your Account</name>
+        <parentName></parentName>
+        <position>10</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Mega Backdoor Roth</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Mega Backdoor Roth</name>
+        <parentName></parentName>
+        <position>11</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Navigating Our Website</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Navigating Our Website</name>
+        <parentName></parentName>
+        <position>12</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Payroll &amp; Annual Contributions</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Payroll &amp; Annual Contributions</name>
+        <parentName>Plan Administration</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Plan Administration</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Plan Administration</name>
+        <parentName></parentName>
+        <position>13</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Plan Reporting</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Plan Reporting</name>
+        <parentName>Plan Administration</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Putting Money Into The Plan</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Putting Money Into The Plan</name>
+        <parentName></parentName>
+        <position>14</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Required Minimum Distributions</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Required Minimum Distributions</name>
+        <parentName>Taking Money Out Of The Plan</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Single(k) Administration</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Single(k) Administration</name>
+        <parentName></parentName>
+        <position>16</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Single(k) General Questions</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Single(k) General Questions</name>
+        <parentName></parentName>
+        <position>15</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Taking Money Out Of The Plan</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Taking Money Out Of The Plan</name>
+        <parentName></parentName>
+        <position>17</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Paradigm Help Center.Navigational:Top-Heavy Testing</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Top-Heavy Testing</name>
+        <parentName>Annual Plan Testing</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

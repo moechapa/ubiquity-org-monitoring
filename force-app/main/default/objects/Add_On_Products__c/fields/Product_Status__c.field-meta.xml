@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Status__c</fullName>
+    <description>Various stages of Add-On Product</description>
+    <inlineHelpText>Various stages of Add-On Product</inlineHelpText>
+    <label>Product Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Awaiting Client Response</fullName>
+                <default>false</default>
+                <label>Awaiting Client Response</label>
+            </value>
+            <value>
+                <fullName>Awaiting Vendor Response</fullName>
+                <default>false</default>
+                <label>Awaiting Vendor Response</label>
+            </value>
+            <value>
+                <fullName>New Integration Request</fullName>
+                <default>false</default>
+                <label>New Integration Request</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Stalled Setup</fullName>
+                <default>false</default>
+                <label>Stalled Setup</label>
+            </value>
+            <value>
+                <fullName>Cancelled Setup</fullName>
+                <default>false</default>
+                <label>Cancelled Setup</label>
+            </value>
+            <value>
+                <fullName>Terminated Integration</fullName>
+                <default>false</default>
+                <label>Terminated Integration</label>
+            </value>
+            <value>
+                <fullName>Completed Setup</fullName>
+                <default>false</default>
+                <label>Completed Setup</label>
+            </value>
+            <value>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+                <label>On Hold</label>
+            </value>
+            <value>
+                <fullName>Login Credentials Requested</fullName>
+                <default>false</default>
+                <label>Login Credentials Requested</label>
+            </value>
+            <value>
+                <fullName>Source Mapping Received</fullName>
+                <default>false</default>
+                <label>Source Mapping Received</label>
+            </value>
+            <value>
+                <fullName>5500 Extension Requested</fullName>
+                <default>false</default>
+                <label>5500 Extension Requested</label>
+            </value>
+            <value>
+                <fullName>Complete &amp; Transitioning to TPI</fullName>
+                <default>false</default>
+                <label>Complete &amp; Transitioning to TPI</label>
+            </value>
+            <value>
+                <fullName>Product Stalled</fullName>
+                <default>false</default>
+                <label>Product Stalled</label>
+            </value>
+            <value>
+                <fullName>Product Saved</fullName>
+                <default>false</default>
+                <label>Product Saved</label>
+            </value>
+            <value>
+                <fullName>No Start</fullName>
+                <default>false</default>
+                <label>No Start</label>
+            </value>
+            <value>
+                <fullName>Product_Terminated</fullName>
+                <default>false</default>
+                <label>Product Terminated</label>
+            </value>
+            <value>
+                <fullName>Login Credentials Received</fullName>
+                <default>false</default>
+                <label>Login Credentials Received</label>
+            </value>
+            <value>
+                <fullName>Testing login access</fullName>
+                <default>false</default>
+                <label>Testing login access</label>
+            </value>
+            <value>
+                <fullName>Login Access completed</fullName>
+                <default>false</default>
+                <label>Login Access completed</label>
+            </value>
+            <value>
+                <fullName>Source mapping requested</fullName>
+                <default>false</default>
+                <label>Source mapping requested</label>
+            </value>
+            <value>
+                <fullName>Ready for test file review</fullName>
+                <default>false</default>
+                <label>Ready for test file review</label>
+            </value>
+            <value>
+                <fullName>Test File Complete</fullName>
+                <default>false</default>
+                <label>Test File Complete</label>
+            </value>
+            <value>
+                <fullName>Trust Report Requested</fullName>
+                <default>false</default>
+                <label>Trust Report Requested</label>
+            </value>
+            <value>
+                <fullName>Trust Report Received</fullName>
+                <default>false</default>
+                <label>Trust Report Received</label>
+            </value>
+            <value>
+                <fullName>1st Payroll Funded</fullName>
+                <default>false</default>
+                <label>1st Payroll Funded</label>
+            </value>
+            <value>
+                <fullName>2nd Payroll Submitted</fullName>
+                <default>false</default>
+                <label>2nd Payroll Submitted</label>
+            </value>
+            <value>
+                <fullName>Pending Sponsor Action</fullName>
+                <default>false</default>
+                <label>Pending Sponsor Action</label>
+            </value>
+            <value>
+                <fullName>Test File Sent</fullName>
+                <default>false</default>
+                <label>Test File Sent</label>
+            </value>
+            <value>
+                <fullName>Test File Reviewed - Pending Correction</fullName>
+                <default>false</default>
+                <label>Test File Reviewed - Pending Correction</label>
+            </value>
+            <value>
+                <fullName>SFTP File Submitted</fullName>
+                <default>false</default>
+                <label>SFTP File Submitted</label>
+            </value>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Integration Requested</fullName>
+                <default>false</default>
+                <label>Integration Requested</label>
+            </value>
+            <value>
+                <fullName>Test File Received, Pending Review</fullName>
+                <default>false</default>
+                <label>Test File Received, Pending Review</label>
+            </value>
+            <value>
+                <fullName>Integration turned on – Pending 1st payroll</fullName>
+                <default>false</default>
+                <label>Integration turned on – Pending 1st payroll</label>
+            </value>
+            <value>
+                <fullName>UBQT sent 360 Test file to provider</fullName>
+                <default>false</default>
+                <label>UBQT sent 360 Test file to provider</label>
+            </value>
+            <value>
+                <fullName>Started</fullName>
+                <default>false</default>
+                <label>Started</label>
+            </value>
+            <value>
+                <fullName>Welcome Email Sent</fullName>
+                <default>false</default>
+                <label>Welcome Email Sent</label>
+            </value>
+            <value>
+                <fullName>Files Received</fullName>
+                <default>false</default>
+                <label>Files Received</label>
+            </value>
+            <value>
+                <fullName>1st Payroll Submitted</fullName>
+                <default>false</default>
+                <label>1st Payroll Submitted</label>
+            </value>
+            <value>
+                <fullName>Complete</fullName>
+                <default>false</default>
+                <label>Complete</label>
+            </value>
+            <value>
+                <fullName>Audit Package Sent</fullName>
+                <default>false</default>
+                <label>Audit Package Sent</label>
+            </value>
+            <value>
+                <fullName>Sampling Requested</fullName>
+                <default>false</default>
+                <label>Sampling Requested</label>
+            </value>
+            <value>
+                <fullName>Sampling Sent</fullName>
+                <default>false</default>
+                <label>Sampling Sent</label>
+            </value>
+            <value>
+                <fullName>Opinion Letter Received</fullName>
+                <default>false</default>
+                <label>Opinion Letter Received</label>
+            </value>
+            <value>
+                <fullName>5500 Signed</fullName>
+                <default>false</default>
+                <label>5500 Signed</label>
+            </value>
+            <value>
+                <fullName>Draft 5500 Complete</fullName>
+                <default>false</default>
+                <label>Draft 5500 Complete</label>
+            </value>
+            <value>
+                <fullName>5500 Sent</fullName>
+                <default>false</default>
+                <label>5500 Sent</label>
+            </value>
+            <value>
+                <fullName>Amendment Needed</fullName>
+                <default>false</default>
+                <label>Amendment Needed</label>
+            </value>
+            <value>
+                <fullName>Transferred to Finch</fullName>
+                <default>false</default>
+                <label>Transferred to Finch</label>
+            </value>
+            <value>
+                <fullName>Reviewing Test Files</fullName>
+                <default>false</default>
+                <label>Reviewing Test Files</label>
+            </value>
+            <value>
+                <fullName>Test Files Reviewed - Corrections Required</fullName>
+                <default>false</default>
+                <label>Test Files Reviewed - Corrections Required</label>
+            </value>
+            <value>
+                <fullName>1: Evaluate Fit &amp; Collect Information</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1: Evaluate Fit &amp; Collect Information</label>
+            </value>
+            <value>
+                <fullName>2: Configure &amp; Test</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2: Configure &amp; Test</label>
+            </value>
+            <value>
+                <fullName>3: Activate Integration</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>3: Activate Integration</label>
+            </value>
+            <value>
+                <fullName>Test File Reviewed &amp; Returned</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Test File Reviewed &amp; Returned</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

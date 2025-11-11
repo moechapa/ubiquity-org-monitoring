@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Copy_1_of_Assign_Closed_Lost_Stage</name>
+        <label>Copy 1 of Assign Closed Lost Stage</label>
+        <locationX>490</locationX>
+        <locationY>539</locationY>
+        <assignmentItems>
+            <assignToReference>proposal.Principal_Opportunity_Stage__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Closed Lost</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>proposal.Principal_Opportunity_Closed_Lost_Reason__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Case Not Taken</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Copy_1_of_Update_Proposal</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Copy_1_of_Assign_Closed_Won_Stage</name>
+        <label>Copy 1 of Assign Closed Won Stage</label>
+        <locationX>182</locationX>
+        <locationY>539</locationY>
+        <assignmentItems>
+            <assignToReference>proposal.Principal_Opportunity_Stage__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Closed Won</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Copy_1_of_Effective_Date_Check</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Copy_1_of_Assign_Effective_Date</name>
+        <label>Copy 1 of Assign Effective Date</label>
+        <locationX>50</locationX>
+        <locationY>755</locationY>
+        <assignmentItems>
+            <assignToReference>proposal.Plan_Effective_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Ubiquity_Plan_Effective_Date__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Copy_1_of_Update_Proposal</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Copy_1_of_Effective_Date_Check</name>
+        <label>Copy 1 of Effective Date Check</label>
+        <locationX>182</locationX>
+        <locationY>647</locationY>
+        <defaultConnector>
+            <targetReference>Copy_1_of_Update_Proposal</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Copy_1_of_Effective_Date_Needs_Updating</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Ubiquity_Plan_Effective_Date__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>proposal.Plan_Effective_Date__c</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Ubiquity_Plan_Effective_Date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_1_of_Assign_Effective_Date</targetReference>
+            </connector>
+            <label>Copy 1 of Effective Date Needs Updating</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Copy_1_of_Query_Validation</name>
+        <label>Copy 1 of Query Validation</label>
+        <locationX>468</locationX>
+        <locationY>431</locationY>
+        <defaultConnectorLabel>Proposal Not Found</defaultConnectorLabel>
+        <rules>
+            <name>Copy_1_of_Proposal_Found_Closed_Won</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>proposal.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Implementation_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Completed</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_1_of_Assign_Closed_Won_Stage</targetReference>
+            </connector>
+            <label>Copy 1 of Proposal Found, Closed Won</label>
+        </rules>
+        <rules>
+            <name>Copy_1_of_Proposal_Found_No_Start</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>proposal.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Implementation_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No Start</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_1_of_Assign_Closed_Lost_Stage</targetReference>
+            </connector>
+            <label>Copy 1 of Proposal Found, No Start</label>
+        </rules>
+    </decisions>
+    <description>Changed effective date update to only fire after imp is completed</description>
+    <environments>Default</environments>
+    <interviewLabel>Implementation | After Trigger | Update Proposal Upon Completion {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Implementation | After Trigger | Update Proposal Upon Completion</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Copy_1_of_Get_Proposal</name>
+        <label>Copy 1 of Get Proposal</label>
+        <locationX>468</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Copy_1_of_Query_Validation</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Opportunity__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Opportunity_Name__c</elementReference>
+            </value>
+        </filters>
+        <object>Proposal__c</object>
+        <outputReference>proposal</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Plan_Effective_Date__c</queriedFields>
+    </recordLookups>
+    <recordUpdates>
+        <name>Copy_1_of_Update_Proposal</name>
+        <label>Copy 1 of Update Proposal</label>
+        <locationX>468</locationX>
+        <locationY>1031</locationY>
+        <inputReference>proposal</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>342</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Copy_1_of_Get_Proposal</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>(1 OR 2) AND 3</filterLogic>
+        <filters>
+            <field>Implementation_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Completed</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Implementation_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>No Start</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Business_Unit__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Simply Retirement</stringValue>
+            </value>
+        </filters>
+        <object>Implementation__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <variables>
+        <name>proposal</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Proposal__c</objectType>
+    </variables>
+</Flow>

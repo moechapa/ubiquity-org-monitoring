@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>MG Trust Company, LLC.</fullName>
+        <default>false</default>
+        <label>MG Trust Company, LLC.</label>
+    </customValue>
+    <customValue>
+        <fullName>Schwab &amp; Co., Inc.</fullName>
+        <default>false</default>
+        <label>Schwab &amp; Co., Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Schwab Trust</fullName>
+        <default>false</default>
+        <label>Schwab Trust</label>
+    </customValue>
+    <customValue>
+        <fullName>National Financial Services</fullName>
+        <default>false</default>
+        <label>National Financial Services</label>
+    </customValue>
+    <customValue>
+        <fullName>TD Ameritrade</fullName>
+        <default>false</default>
+        <label>TD Ameritrade</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <description>Where are plan assets be custodied?</description>
+    <masterLabel>Custodian</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

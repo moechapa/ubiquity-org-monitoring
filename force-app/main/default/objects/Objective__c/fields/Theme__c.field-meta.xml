@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Theme__c</fullName>
+    <description>What theme does this Objective fall into?</description>
+    <inlineHelpText>What theme does this Objective fall into?</inlineHelpText>
+    <label>Theme</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Workforce Enhancement</fullName>
+                <default>false</default>
+                <label>Workforce Enhancement</label>
+            </value>
+            <value>
+                <fullName>Efficiency and Scalability</fullName>
+                <default>false</default>
+                <label>Efficiency and Scalability</label>
+            </value>
+            <value>
+                <fullName>Self-Service + Usability</fullName>
+                <default>false</default>
+                <label>Self-Service + Usability</label>
+            </value>
+            <value>
+                <fullName>Corporate Governance</fullName>
+                <default>false</default>
+                <label>Corporate Governance</label>
+            </value>
+            <value>
+                <fullName>Growth</fullName>
+                <default>false</default>
+                <label>Growth</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

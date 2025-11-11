@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QDIA_Participant_Notice_Needed__c</fullName>
+    <description>Does a QDIA notice need to be distributed to Plan Participants by the Plan Sponsor?</description>
+    <inlineHelpText>Does a QDIA notice need to be distributed to Plan Participants by the Plan Sponsor?</inlineHelpText>
+    <label>QDIA Participant Notice Needed</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Fund_Lineup_Change__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Money Market Reform</controllingFieldValue>
+            <controllingFieldValue>Promotional Campaign</controllingFieldValue>
+            <controllingFieldValue>Sponsor/Trustee Request</controllingFieldValue>
+            <controllingFieldValue>Asset Manager Removal</controllingFieldValue>
+            <controllingFieldValue>Custodian Change</controllingFieldValue>
+            <controllingFieldValue>Asset Manager Change</controllingFieldValue>
+            <controllingFieldValue>Add Asset Manager</controllingFieldValue>
+            <controllingFieldValue>Advisor/Partner Request</controllingFieldValue>
+            <valueName>Yes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Money Market Reform</controllingFieldValue>
+            <controllingFieldValue>Promotional Campaign</controllingFieldValue>
+            <controllingFieldValue>Sponsor/Trustee Request</controllingFieldValue>
+            <controllingFieldValue>Asset Manager Removal</controllingFieldValue>
+            <controllingFieldValue>Custodian Change</controllingFieldValue>
+            <controllingFieldValue>Asset Manager Change</controllingFieldValue>
+            <controllingFieldValue>Add Asset Manager</controllingFieldValue>
+            <controllingFieldValue>Advisor/Partner Request</controllingFieldValue>
+            <valueName>No</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

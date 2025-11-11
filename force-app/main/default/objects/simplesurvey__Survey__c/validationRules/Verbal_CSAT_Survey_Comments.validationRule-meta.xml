@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Verbal_CSAT_Survey_Comments</fullName>
+    <active>true</active>
+    <description>Required Survey Comments unless the Survey is &quot;Declined&quot;</description>
+    <errorConditionFormula>ISBLANK( simplesurvey__Survey_Comments__c )
+&amp;&amp;
+( ISPICKVAL( Verbal_CSAT__c , &quot;1&quot;) 
+ || 
+ ISPICKVAL( Verbal_CSAT__c , &quot;2&quot;)
+ || 
+ ISPICKVAL( Verbal_CSAT__c , &quot;3&quot;)
+ || 
+ ISPICKVAL( Verbal_CSAT__c , &quot;4&quot;)
+ || 
+ ISPICKVAL( Verbal_CSAT__c , &quot;5&quot;))</errorConditionFormula>
+    <errorMessage>Survey Comments are required unless client Declined Verbal CSAT</errorMessage>
+</ValidationRule>

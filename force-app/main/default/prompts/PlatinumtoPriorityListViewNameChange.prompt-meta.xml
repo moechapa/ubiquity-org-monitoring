@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prompt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Platinum to Priority List View Name Change</masterLabel>
+    <promptVersions>
+        <body>&lt;p&gt;&quot;Platinum Reactive&quot; is now &quot;Priority Queue&quot; &quot;Platinum Proactive&quot; is now &quot;Priority Queue - At Risk&quot;&lt;/p&gt;</body>
+        <delayDays>1</delayDays>
+        <dismissButtonLabel>Dismiss</dismissButtonLabel>
+        <displayType>Targeted</displayType>
+        <endDate>2025-09-26</endDate>
+        <experience>Lightning</experience>
+        <isPublished>true</isPublished>
+        <masterLabel>Platinum to Priority List View Name Change</masterLabel>
+        <publishedDate>2025-09-19</publishedDate>
+        <referenceElementContext>{&quot;scope&quot;:{&quot;attributes&quot;:{&quot;id&quot;:&quot;50e27b43761f49d99bf31a503ed4e21a&quot;}},&quot;version&quot;:2}</referenceElementContext>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>false</shouldIgnoreGlobalDelay>
+        <startDate>2025-09-19</startDate>
+        <targetPageKey1>Case</targetPageKey1>
+        <targetPageKey2>list</targetPageKey2>
+        <targetPageType>standard__objectPage</targetPageType>
+        <timesToDisplay>1</timesToDisplay>
+        <title>Updated List Views</title>
+        <uiFormulaRule>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteria>
+                <leftValue>{!$User.Profile.Key}</leftValue>
+                <operator>EQUAL</operator>
+                <rightValue>custom_lightning service manager</rightValue>
+            </criteria>
+            <criteria>
+                <leftValue>{!$User.Profile.Key}</leftValue>
+                <operator>EQUAL</operator>
+                <rightValue>custom_lightning service user</rightValue>
+            </criteria>
+        </uiFormulaRule>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>SpecificProfiles</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+</Prompt>

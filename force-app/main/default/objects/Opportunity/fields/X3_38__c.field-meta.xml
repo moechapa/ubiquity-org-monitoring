@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X3_38__c</fullName>
+    <description>3(38) Fiduciary used on plan</description>
+    <inlineHelpText>3(38) Fiduciary used on plan</inlineHelpText>
+    <label>3(38)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Service_Option__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>COTA Street</fullName>
+                <default>false</default>
+                <label>COTA Street</label>
+            </value>
+            <value>
+                <fullName>Wilshire</fullName>
+                <default>false</default>
+                <label>Wilshire</label>
+            </value>
+            <value>
+                <fullName>Kaye Capital</fullName>
+                <default>false</default>
+                <label>Kaye Capital</label>
+            </value>
+            <value>
+                <fullName>Morningstar</fullName>
+                <default>false</default>
+                <label>Morningstar</label>
+            </value>
+            <value>
+                <fullName>Lockton</fullName>
+                <default>false</default>
+                <label>Lockton</label>
+            </value>
+            <value>
+                <fullName>Envestnet</fullName>
+                <default>false</default>
+                <label>Envestnet</label>
+            </value>
+            <value>
+                <fullName>flexPATH</fullName>
+                <default>false</default>
+                <label>flexPATH</label>
+            </value>
+            <value>
+                <fullName>NFP</fullName>
+                <default>false</default>
+                <label>NFP</label>
+            </value>
+            <value>
+                <fullName>GRP</fullName>
+                <default>false</default>
+                <label>GRP</label>
+            </value>
+            <value>
+                <fullName>OneDigital</fullName>
+                <default>false</default>
+                <label>OneDigital</label>
+            </value>
+            <value>
+                <fullName>MML</fullName>
+                <default>false</default>
+                <label>MML</label>
+            </value>
+            <value>
+                <fullName>SRP</fullName>
+                <default>false</default>
+                <label>SRP</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <valueName>Envestnet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <valueName>flexPATH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <valueName>GRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Fund Lineup Change</controllingFieldValue>
+            <controllingFieldValue>Enhanced Payroll Service</controllingFieldValue>
+            <controllingFieldValue>Partner Referral</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>New Comp</controllingFieldValue>
+            <controllingFieldValue>Plan Provision Changes</controllingFieldValue>
+            <controllingFieldValue>CensiblyYours_Prior338</controllingFieldValue>
+            <controllingFieldValue>CensiblyYours - No Prior 3(38)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k) Plus</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Fund Lineup Change</controllingFieldValue>
+            <controllingFieldValue>Enhanced Payroll Service</controllingFieldValue>
+            <controllingFieldValue>Partner Referral</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>New Comp</controllingFieldValue>
+            <controllingFieldValue>Plan Provision Changes</controllingFieldValue>
+            <controllingFieldValue>CensiblyYours_Prior338</controllingFieldValue>
+            <controllingFieldValue>CensiblyYours - No Prior 3(38)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k) Plus</controllingFieldValue>
+            <valueName>COTA Street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>Wilshire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Fund Lineup Change</controllingFieldValue>
+            <controllingFieldValue>Enhanced Payroll Service</controllingFieldValue>
+            <controllingFieldValue>Partner Referral</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>New Comp</controllingFieldValue>
+            <controllingFieldValue>Plan Provision Changes</controllingFieldValue>
+            <controllingFieldValue>CensiblyYours_Prior338</controllingFieldValue>
+            <controllingFieldValue>CensiblyYours - No Prior 3(38)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k) Plus</controllingFieldValue>
+            <valueName>Kaye Capital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Fund Lineup Change</controllingFieldValue>
+            <controllingFieldValue>Enhanced Payroll Service</controllingFieldValue>
+            <controllingFieldValue>Partner Referral</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>New Comp</controllingFieldValue>
+            <controllingFieldValue>Plan Provision Changes</controllingFieldValue>
+            <controllingFieldValue>CensiblyYours_Prior338</controllingFieldValue>
+            <controllingFieldValue>CensiblyYours - No Prior 3(38)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k) Plus</controllingFieldValue>
+            <valueName>Morningstar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <valueName>MML</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Single(k) Plus</controllingFieldValue>
+            <valueName>Lockton</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <valueName>OneDigital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <valueName>SRP</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

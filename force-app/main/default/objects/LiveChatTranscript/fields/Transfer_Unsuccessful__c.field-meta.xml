@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transfer_Unsuccessful__c</fullName>
+    <description>1 = Client requested transfer from the ChatBot to Live Agent but no agents were available</description>
+    <externalId>false</externalId>
+    <inlineHelpText>1 = Client requested transfer from the ChatBot to Live Agent but no agents were available</inlineHelpText>
+    <label>Transfer Unsuccessful</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

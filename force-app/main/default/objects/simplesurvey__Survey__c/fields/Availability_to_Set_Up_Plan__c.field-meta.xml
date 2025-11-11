@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Availability_to_Set_Up_Plan__c</fullName>
+    <description>Question Created by the Survey Builder</description>
+    <inlineHelpText>If needed, how available will you be over the next several weeks to help set up your plan?</inlineHelpText>
+    <label>Availability to Set Up Plan</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>High availability (can quickly provide any needed information and join in calls easily)</fullName>
+                <default>false</default>
+                <label>High availability (can quickly provide any needed information and join in calls easily)</label>
+            </value>
+            <value>
+                <fullName>Moderate availability (can participate but expect several days turnaround time)</fullName>
+                <default>false</default>
+                <label>Moderate availability (can participate but expect several days turnaround time)</label>
+            </value>
+            <value>
+                <fullName>Low availability (have limited to no time)</fullName>
+                <default>false</default>
+                <label>Low availability (have limited to no time)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

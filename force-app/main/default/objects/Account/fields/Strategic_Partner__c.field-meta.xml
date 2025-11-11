@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strategic_Partner__c</fullName>
+    <inlineHelpText>We want to identify if a client signed up via an external partner and who that partner is.</inlineHelpText>
+    <label>Strategic Partner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advisors</fullName>
+                <default>false</default>
+                <label>Advisors</label>
+            </value>
+            <value>
+                <fullName>Payroll</fullName>
+                <default>false</default>
+                <label>Payroll</label>
+            </value>
+            <value>
+                <fullName>Schwab</fullName>
+                <default>false</default>
+                <label>Schwab</label>
+            </value>
+            <value>
+                <fullName>Zenefits</fullName>
+                <default>false</default>
+                <label>Zenefits</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

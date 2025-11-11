@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ancill_Bill_Missing_Actual_Hours</fullName>
+    <active>true</active>
+    <description>If an hourly Ancillary Billing case is Resolved without Actual Hours being entered in Opportunity</description>
+    <errorConditionFormula>CONTAINS(TEXT(Case__r.Case_Type__c ), &quot;Ancillary Billing&quot;)
+&amp;&amp;
+ ISNULL( Actual_Hours_Worked__c )
+&amp;&amp;
+ CONTAINS(RecordTypeId, &quot;01237000000RiRo&quot;)  
+&amp;&amp;
+ ISPICKVAL( Case__r.Status , &quot;Resolved&quot;)</errorConditionFormula>
+    <errorMessage>Actual Hours must be entered to start billing case before Ancillary Billing parent case can be resolved</errorMessage>
+</ValidationRule>

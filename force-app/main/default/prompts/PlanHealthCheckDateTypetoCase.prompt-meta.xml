@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prompt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Plan Health Check DateType to Case</masterLabel>
+    <promptVersions>
+        <body>Once you link a Plan to a case, you&apos;ll automatically see the latest health check date &amp; type (if one exists) in the Highlights bar on the case.  Just look below the action buttons for the fields!!</body>
+        <customApplication>standard__LightningService</customApplication>
+        <delayDays>1</delayDays>
+        <description>Describing ability to see most recent client health date &amp; type on Case once Plan is linked</description>
+        <dismissButtonLabel>Got it!!</dismissButtonLabel>
+        <displayPosition>TopCenter</displayPosition>
+        <displayType>FloatingPanel</displayType>
+        <endDate>2020-03-31</endDate>
+        <isPublished>false</isPublished>
+        <masterLabel>Plan Health Check DateType to Case</masterLabel>
+        <publishedDate>2020-03-10</publishedDate>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>true</shouldIgnoreGlobalDelay>
+        <startDate>2020-03-10</startDate>
+        <targetPageKey1>Case</targetPageKey1>
+        <targetPageKey2>view</targetPageKey2>
+        <targetPageType>standard__recordPage</targetPageType>
+        <timesToDisplay>1</timesToDisplay>
+        <title>Plan Health Checks!</title>
+        <uiFormulaRule>
+            <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+            <criteria>
+                <leftValue>{!$User.Profile.Key}</leftValue>
+                <operator>EQUAL</operator>
+                <rightValue>custom_lightning service manager</rightValue>
+            </criteria>
+            <criteria>
+                <leftValue>{!$User.Profile.Key}</leftValue>
+                <operator>EQUAL</operator>
+                <rightValue>custom_lightning service user</rightValue>
+            </criteria>
+            <criteria>
+                <leftValue>{!$User.Profile.Id}</leftValue>
+                <operator>EQUAL</operator>
+                <rightValue>00e37000000hZb5AAE</rightValue>
+            </criteria>
+            <criteria>
+                <leftValue>{!$User.Profile.Id}</leftValue>
+                <operator>EQUAL</operator>
+                <rightValue>00e37000000hZb0AAE</rightValue>
+            </criteria>
+        </uiFormulaRule>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>SpecificProfiles</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+</Prompt>

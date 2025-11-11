@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Block_Score_From_PassFail</fullName>
+    <active>true</active>
+    <description>Pass/Fail checkbox questions should have a score of 0</description>
+    <errorConditionFormula>Score_Value__c != 0 &amp;&amp;
+ ISPICKVAL(Type__c , &quot;Checkbox&quot;) &amp;&amp;
+ Pass_Fail__c</errorConditionFormula>
+    <errorDisplayField>Score_Value__c</errorDisplayField>
+    <errorMessage>Score should be set to 0 for Pass/Fail checkbox questions</errorMessage>
+</ValidationRule>

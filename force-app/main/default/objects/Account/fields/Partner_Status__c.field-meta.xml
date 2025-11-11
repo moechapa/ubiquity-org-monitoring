@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Status__c</fullName>
+    <description>Prospect = Evaluating partnership with Ubiquity. Active Referrer = Leads referred in the last 12 months. Past Referrer = Has referred leads 12 months ago or more.</description>
+    <inlineHelpText>Prospect = Evaluating partnership with Ubiquity. Active Referrer = Leads referred in the last 12 months. Past Referrer = Has referred leads 12 months ago or more.</inlineHelpText>
+    <label>Partner Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Partner_Status</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Roth_Basis_Loan_Verified_Before_Posting</fullName>
+    <active>true</active>
+    <description>Roth Basis and Loan Amortization must be verified Yes or N/A before conversion assets posted date can be completed</description>
+    <errorConditionFormula>ISPICKVAL( Plan_Type__c, &quot;Conversion Plan&quot;) 
+&amp;&amp;
+ ISCHANGED( Conversion_Assets_Posted__c ) 
+&amp;&amp;
+(
+ ISBLANK(Text( Basis_Roth_Start_Date_Info__c ))
+||
+ ISBLANK(Text( Loan_Amortization_Schedules__c ))
+)</errorConditionFormula>
+    <errorMessage>Roth Basis and Loan Amortization must be verified Yes or N/A before conversion assets posted date can be completed</errorMessage>
+</ValidationRule>

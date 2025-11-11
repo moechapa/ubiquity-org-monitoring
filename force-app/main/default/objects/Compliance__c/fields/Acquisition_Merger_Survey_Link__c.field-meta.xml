@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acquisition_Merger_Survey_Link__c</fullName>
+    <description>Link for mail merge to create unique Acquisition/Merger survey to go out with Census Verification emails</description>
+    <inlineHelpText>Link for mail merge to create unique Acquisition/Merger survey to go out with Census Verification emails</inlineHelpText>
+    <label>Acquisition Merger Survey Link</label>
+    <length>400</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

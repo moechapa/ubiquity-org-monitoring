@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>CSAT</label>
+    <protected>false</protected>
+    <values>
+        <field>Negative_Message__c</field>
+        <value xsi:type="xsd:string">Recent negative CSAT</value>
+    </values>
+    <values>
+        <field>Object__c</field>
+        <value xsi:type="xsd:string">Plan__c</value>
+    </values>
+    <values>
+        <field>Positive_Message__c</field>
+        <value xsi:type="xsd:string">Recent positive CSAT</value>
+    </values>
+    <values>
+        <field>Source_Field__c</field>
+        <value xsi:type="xsd:string">HM_CSAT_Score__c</value>
+    </values>
+    <values>
+        <field>Weight__c</field>
+        <value xsi:type="xsd:double">10.0</value>
+    </values>
+</CustomMetadata>

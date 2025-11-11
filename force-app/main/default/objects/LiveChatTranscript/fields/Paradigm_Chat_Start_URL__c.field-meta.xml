@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Paradigm_Chat_Start_URL__c</fullName>
+    <description>URL Client started the chat from in Paradigm</description>
+    <inlineHelpText>URL Client started the chat from in Paradigm</inlineHelpText>
+    <label>Paradigm Chat Start URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Url</type>
+</CustomField>

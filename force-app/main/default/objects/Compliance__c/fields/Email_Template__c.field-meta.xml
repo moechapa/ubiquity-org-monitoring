@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Template__c</fullName>
+    <label>Email Template</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Plan is Top Heavy – with forfeitures</fullName>
+                <default>false</default>
+                <label>Plan is Top Heavy – with forfeitures</label>
+            </value>
+            <value>
+                <fullName>Plan is Top Heavy – with/out forfeitures</fullName>
+                <default>false</default>
+                <label>Plan is Top Heavy – with/out forfeitures</label>
+            </value>
+            <value>
+                <fullName>Plan is not Top Heavy – with forfeitures</fullName>
+                <default>false</default>
+                <label>Plan is not Top Heavy – with forfeitures</label>
+            </value>
+            <value>
+                <fullName>Plan is not Top Heavy – with/out forfeitures</fullName>
+                <default>false</default>
+                <label>Plan is not Top Heavy – with/out forfeitures</label>
+            </value>
+            <value>
+                <fullName>Plan is Top Heavy – Initial PY and Next PY with forfeitures</fullName>
+                <default>false</default>
+                <label>Plan is Top Heavy – Initial PY and Next PY with forfeitures</label>
+            </value>
+            <value>
+                <fullName>Plan is Top Heavy – Initial PY and Next PY with/out forfeitures</fullName>
+                <default>false</default>
+                <label>Plan is Top Heavy – Initial PY and Next PY with/out forfeitures</label>
+            </value>
+            <value>
+                <fullName>Plan is Top Heavy Initial PY and not Next PY with forfeitures</fullName>
+                <default>false</default>
+                <label>Plan is Top Heavy Initial PY and not Next PY with forfeitures</label>
+            </value>
+            <value>
+                <fullName>Plan is Top Heavy Initial PY and not Next PY with/out forfeitures</fullName>
+                <default>false</default>
+                <label>Plan is Top Heavy Initial PY and not Next PY with/out forfeitures</label>
+            </value>
+            <value>
+                <fullName>Fee Increase Single K</fullName>
+                <default>false</default>
+                <label>Fee Increase Single K</label>
+            </value>
+            <value>
+                <fullName>Fee Increase Simply</fullName>
+                <default>false</default>
+                <label>Fee Increase Simply</label>
+            </value>
+            <value>
+                <fullName>Fee Increase Other</fullName>
+                <default>false</default>
+                <label>Fee Increase Other</label>
+            </value>
+            <value>
+                <fullName>Fee Increase RK Single K</fullName>
+                <default>false</default>
+                <label>Fee Increase RK Single K</label>
+            </value>
+            <value>
+                <fullName>Fee Increase Single K Correction</fullName>
+                <default>false</default>
+                <label>Fee Increase Single K Correction</label>
+            </value>
+            <value>
+                <fullName>Fee Increase Other Correction</fullName>
+                <default>false</default>
+                <label>Fee Increase Other Correction</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

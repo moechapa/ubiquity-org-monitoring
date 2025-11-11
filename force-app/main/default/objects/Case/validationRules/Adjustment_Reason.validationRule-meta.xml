@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adjustment_Reason</fullName>
+    <active>true</active>
+    <description>Adjust Reason reqd if Type = Gain/Loss Calc or Fee Reimbursement</description>
+    <errorConditionFormula>(ISPICKVAL( Adjustment_Type__c , &quot;Gain/Loss Calc&quot;)
+||
+ISPICKVAL( Adjustment_Type__c , &quot;Fee Reimbursement&quot;))
+&amp;&amp;
+ISNULL (Adjustment_Reason__c)</errorConditionFormula>
+    <errorDisplayField>Adjustment_Reason__c</errorDisplayField>
+    <errorMessage>Please confirm reason for the adjustment for Compliance to review.</errorMessage>
+</ValidationRule>

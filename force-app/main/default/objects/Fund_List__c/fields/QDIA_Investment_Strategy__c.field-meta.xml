@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QDIA_Investment_Strategy__c</fullName>
+    <description>Used for JPM Target Date Investments</description>
+    <label>QDIA Investment Strategy</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>J.P. Morgan SmartRetirement Blend</fullName>
+                <default>false</default>
+                <label>J.P. Morgan SmartRetirement Blend</label>
+            </value>
+            <value>
+                <fullName>J.P. Morgan SmartRetirement</fullName>
+                <default>false</default>
+                <label>J.P. Morgan SmartRetirement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

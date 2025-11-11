@@ -1,0 +1,4 @@
+<aura:component implements="flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes" access="global" >
+<iframe style="border: 1px solid;width: 100%;height: 100%" src="https://agentassist.five9.net/index.html?embeddedtab=true" />
+<lightning:utilityBarAPI aura:id="utilitybarAI" />
+</aura:component>

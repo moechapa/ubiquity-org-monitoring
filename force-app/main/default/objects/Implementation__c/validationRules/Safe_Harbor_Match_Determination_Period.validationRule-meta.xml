@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Safe_Harbor_Match_Determination_Period</fullName>
+    <active>false</active>
+    <description>Requires Safe Harbor Match Determination Period value when Safe Harbor Match is selected and Imp is marked &quot;Complete&quot;</description>
+    <errorConditionFormula>(ISPICKVAL(  Implementation_Status__c , &quot;Completed&quot;)) 
+&amp;&amp;
+(
+(ISPICKVAL (
+( Safe_Harbor__c ), &quot;Basic Match (100% of 1st 3%+50% of next 2%)&quot;))
+||
+(ISPICKVAL (
+( Safe_Harbor__c ), &quot;4%&quot;))
+||
+(ISPICKVAL (
+( Safe_Harbor__c ), &quot;5%&quot;))
+||
+(ISPICKVAL (
+( Safe_Harbor__c ), &quot;6%&quot;))
+||
+(ISPICKVAL (
+( Safe_Harbor__c ), &quot;Auto-Enroll Basic Match (100% up to 1%, 50% up to 6%)&quot;)))
+&amp;&amp;
+(ISPICKVAL ( Safe_Harbor_Match_Determination_Period__c , &quot;&quot;))</errorConditionFormula>
+    <errorDisplayField>Safe_Harbor_Match_Determination_Period__c</errorDisplayField>
+    <errorMessage>Please verify the Safe Harbor Match Determination Period before completing the Implementation</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Conversion_Documentation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Recite conversion documents outstanding for this client and inquire whether we can communicate with the provider directly</description>
+    <inlineHelpText>Recite conversion documents outstanding for this client and inquire whether we can communicate with the provider directly</inlineHelpText>
+    <label>Request Conversion Documentation</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

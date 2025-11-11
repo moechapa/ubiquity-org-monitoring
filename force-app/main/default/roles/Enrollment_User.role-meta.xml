@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Enrollment User</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Enrollment User</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Senior_Manager_Implementation_Saver_Success</parentRole>
+</Role>

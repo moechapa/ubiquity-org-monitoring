@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commissionable_Amount__c</fullName>
+    <formula>IF(AND(ISPICKVAL(LeadSourceDetail__c,&quot;Schwab-CC&quot;), ISPICKVAL(Product_Type__c, &quot;401(k)&quot;)), Amount-400,
+
+(IF(AND(ISPICKVAL(LeadSourceDetail__c,&quot;ODs on Finance&quot;),  ISPICKVAL(Product_Type__c, &quot;401(k)&quot;)), Amount-250, 
+
+IF(AND(ISPICKVAL(LeadSourceDetail__c,&quot;Paycor&quot;), ISPICKVAL(Product_Type__c, &quot;401(k)&quot;)), Amount-600,
+
+(IF(AND(ISPICKVAL(LeadSourceDetail__c,&quot;JPM&quot;), ISPICKVAL(X3_38__c,&quot;COTA Street&quot;)), Amount-50,
+
+(IF(CONTAINS(TEXT(LeadSourceDetail__c),&quot;Mylo&quot;)&amp;&amp; CONTAINS(TEXT(Service_Option__c),&quot;Single(k)&quot;), Amount*0.9,
+
+(IF(CONTAINS(TEXT(LeadSourceDetail__c),&quot;PSI&quot;), Amount-410,
+
+(IF(AND(CONTAINS(TEXT(LeadSourceDetail__c),&quot;Simply&quot;), Advisor_Linked__c = true, CloseDate&lt;DATE(2023,4,1)), Amount-410,
+
+(IF(AND(CONTAINS(TEXT(LeadSourceDetail__c),&quot;Simply&quot;), Advisor_Linked__c = false, CloseDate&lt;DATE(2023,4,1)), Amount-360,
+
+IF(AND(ISPICKVAL(LeadSource,&quot;Simply Retirement&quot;), CloseDate&gt;DATE(2023,3,31)), Amount-600,
+
+(IF(ISPICKVAL(LeadSourceDetail__c,&quot;ProBeauty&quot;), Amount+495,
+
+(IF(NOT(ISBLANK(Promotion_Code__c)), Amount+495,
+
+Amount )))))))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Commissionable Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

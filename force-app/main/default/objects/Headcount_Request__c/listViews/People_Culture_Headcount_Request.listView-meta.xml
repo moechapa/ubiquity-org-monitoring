@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>People_Culture_Headcount_Request</fullName>
+    <filterScope>Queue</filterScope>
+    <label>People &amp; Culture</label>
+    <queue>People_Culture</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

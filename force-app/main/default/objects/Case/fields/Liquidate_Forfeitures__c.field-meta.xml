@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Liquidate_Forfeitures__c</fullName>
+    <description>Verify if forfeitures should be liquidated and if so, should they move to cash or be used to pay invoices.</description>
+    <inlineHelpText>Verify if forfeitures should be liquidated and if so, should they move to cash or be used to pay invoices.</inlineHelpText>
+    <label>Liquidate Forfeitures?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Move to Cash</fullName>
+                <default>false</default>
+                <label>Move to Cash</label>
+            </value>
+            <value>
+                <fullName>Pay Invoices</fullName>
+                <default>false</default>
+                <label>Pay Invoices</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

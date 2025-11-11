@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suggested_Liquidation_Date_Required</fullName>
+    <active>true</active>
+    <description>Suggested Liquidation Date is required before Transfer Letter is sent to the client</description>
+    <errorConditionFormula>((ISNULL(Suggested_Liquidation_Date__c)
+&amp;&amp;
+NOT(ISNULL(Transfer_Letter_sent_to_client__c))
+&amp;&amp;
+Transfer_Letter_sent_to_client__c &gt; DATE(2021,06,27)) 
+||
+(ISNULL(Suggested_Blackout_Date__c)
+&amp;&amp;
+NOT(ISNULL(Transfer_Letter_sent_to_client__c))
+&amp;&amp;
+Transfer_Letter_sent_to_client__c &gt; DATE(2021,06,27)))
+&amp;&amp;
+ NOT(ISPICKVAL(Conversion_Type__c, &quot;Solo 401(k) Plan&quot;))</errorConditionFormula>
+    <errorMessage>Please enter both a Suggested Liquidation Date and Suggested Blackout Date to continue.</errorMessage>
+</ValidationRule>

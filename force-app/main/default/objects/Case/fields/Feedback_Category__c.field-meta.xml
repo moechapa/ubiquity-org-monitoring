@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Feedback_Category__c</fullName>
+    <description>Used to categorize client feedback cases</description>
+    <inlineHelpText>Used to categorize client feedback cases</inlineHelpText>
+    <label>Feedback Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Compliment</fullName>
+                <default>false</default>
+                <label>Compliment</label>
+            </value>
+            <value>
+                <fullName>Feature Enhancement</fullName>
+                <default>false</default>
+                <label>Feature Enhancement</label>
+            </value>
+            <value>
+                <fullName>Fee Feedback</fullName>
+                <default>false</default>
+                <label>Fee Feedback</label>
+            </value>
+            <value>
+                <fullName>Process Improvements</fullName>
+                <default>false</default>
+                <label>Process Improvements</label>
+            </value>
+            <value>
+                <fullName>Reporting Needs</fullName>
+                <default>false</default>
+                <label>Reporting Needs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

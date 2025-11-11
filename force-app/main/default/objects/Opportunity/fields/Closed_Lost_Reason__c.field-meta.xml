@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Lost_Reason__c</fullName>
+    <label>Closed Lost Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Advisor Did Not Win Plan</fullName>
+                <default>false</default>
+                <label>Advisor Did Not Win Plan</label>
+            </value>
+            <value>
+                <fullName>Chose Alternative Plan Type</fullName>
+                <default>false</default>
+                <label>Chose Alternative Plan Type</label>
+            </value>
+            <value>
+                <fullName>Cost</fullName>
+                <default>false</default>
+                <label>Cost</label>
+            </value>
+            <value>
+                <fullName>Covid-19 Delay</fullName>
+                <default>false</default>
+                <label>Covid-19 Delay</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>Error</fullName>
+                <default>false</default>
+                <label>Error</label>
+            </value>
+            <value>
+                <fullName>Lost Due to Plan Provisions (write in)</fullName>
+                <default>false</default>
+                <label>Lost Due to Plan Provisions (write in)</label>
+            </value>
+            <value>
+                <fullName>Lost to 401(k) Competitor (write in)</fullName>
+                <default>false</default>
+                <label>Lost to 401(k) Competitor (write in)</label>
+            </value>
+            <value>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+                <label>Lost to Competitor</label>
+            </value>
+            <value>
+                <fullName>Not Establishing Retirement Benefit</fullName>
+                <default>false</default>
+                <label>Not Establishing Retirement Benefit</label>
+            </value>
+            <value>
+                <fullName>Plan No Start</fullName>
+                <default>false</default>
+                <label>Plan No Start</label>
+            </value>
+            <value>
+                <fullName>Priority Change with Partner</fullName>
+                <default>false</default>
+                <label>Priority Change with Partner</label>
+            </value>
+            <value>
+                <fullName>Product Integration</fullName>
+                <default>false</default>
+                <label>Product Integration</label>
+            </value>
+            <value>
+                <fullName>Proposal sent then dropped off</fullName>
+                <default>false</default>
+                <label>Proposal sent then dropped off</label>
+            </value>
+            <value>
+                <fullName>Prospect Unresponsive</fullName>
+                <default>false</default>
+                <label>Prospect Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Sold Company</fullName>
+                <default>false</default>
+                <label>Sold Company</label>
+            </value>
+            <value>
+                <fullName>Stayed with Current 401(k) Provider (write in)</fullName>
+                <default>false</default>
+                <label>Stayed with Current 401(k) Provider (write in)</label>
+            </value>
+            <value>
+                <fullName>Technology Issue</fullName>
+                <default>false</default>
+                <label>Technology Issue</label>
+            </value>
+            <value>
+                <fullName>Timing Issue</fullName>
+                <default>false</default>
+                <label>Timing Issue</label>
+            </value>
+            <value>
+                <fullName>Transitioning from Ubiquity</fullName>
+                <default>false</default>
+                <label>Transitioning from Ubiquity</label>
+            </value>
+            <value>
+                <fullName>Ubiquity Withdrew Interest</fullName>
+                <default>false</default>
+                <label>Ubiquity Withdrew Interest</label>
+            </value>
+            <value>
+                <fullName>Unqualified Opportunity</fullName>
+                <default>false</default>
+                <label>Unqualified Opportunity</label>
+            </value>
+            <value>
+                <fullName>Webform Preferred</fullName>
+                <default>false</default>
+                <label>Webform Preferred</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

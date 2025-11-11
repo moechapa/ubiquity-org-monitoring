@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_Reasons__c</fullName>
+    <label>Stage Reasons</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Stage__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Financial Advisor will conduct meeting</fullName>
+                <default>false</default>
+                <label>Financial Advisor will conduct meeting</label>
+            </value>
+            <value>
+                <fullName>Not enough total employees</fullName>
+                <default>false</default>
+                <label>Not enough total employees</label>
+            </value>
+            <value>
+                <fullName>Not enough eligible employees</fullName>
+                <default>false</default>
+                <label>Not enough eligible employees</label>
+            </value>
+            <value>
+                <fullName>Company has financial advising experience</fullName>
+                <default>false</default>
+                <label>Company has financial advising experience</label>
+            </value>
+            <value>
+                <fullName>Owner anticipates low participation</fullName>
+                <default>false</default>
+                <label>Owner anticipates low participation</label>
+            </value>
+            <value>
+                <fullName>Owner providing education</fullName>
+                <default>false</default>
+                <label>Owner providing education</label>
+            </value>
+            <value>
+                <fullName>Onboarding plan</fullName>
+                <default>false</default>
+                <label>Onboarding plan</label>
+            </value>
+            <value>
+                <fullName>Updgrade</fullName>
+                <default>false</default>
+                <label>Updgrade</label>
+            </value>
+            <value>
+                <fullName>Health check</fullName>
+                <default>false</default>
+                <label>Health check</label>
+            </value>
+            <value>
+                <fullName>Ongoing servicing</fullName>
+                <default>false</default>
+                <label>Ongoing servicing</label>
+            </value>
+            <value>
+                <fullName>New hires</fullName>
+                <default>false</default>
+                <label>New hires</label>
+            </value>
+            <value>
+                <fullName>EEs are already educated about 401k plans</fullName>
+                <default>false</default>
+                <label>EEs are already educated about 401k plans</label>
+            </value>
+            <value>
+                <fullName>Cannot get all employees together at same time</fullName>
+                <default>false</default>
+                <label>Cannot get all employees together at same time</label>
+            </value>
+            <value>
+                <fullName>No show</fullName>
+                <default>false</default>
+                <label>No show</label>
+            </value>
+            <value>
+                <fullName>Scheduling conflict</fullName>
+                <default>false</default>
+                <label>Scheduling conflict</label>
+            </value>
+            <value>
+                <fullName>Plan sponsor is ill</fullName>
+                <default>false</default>
+                <label>Plan sponsor is ill</label>
+            </value>
+            <value>
+                <fullName>Advisor covered content</fullName>
+                <default>false</default>
+                <label>Advisor covered content</label>
+            </value>
+            <value>
+                <fullName>Not enough employees to join</fullName>
+                <default>false</default>
+                <label>Not enough employees to join</label>
+            </value>
+            <value>
+                <fullName>No longer interested</fullName>
+                <default>false</default>
+                <label>No longer interested</label>
+            </value>
+            <value>
+                <fullName>Plan Contact Non-Responsive</fullName>
+                <default>false</default>
+                <label>Plan Contact Non-Responsive</label>
+            </value>
+            <value>
+                <fullName>Vitamin(k)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vitamin(k)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Financial Advisor will conduct meeting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Not enough total employees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Not enough eligible employees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Company has financial advising experience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Owner anticipates low participation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Owner providing education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>EEs are already educated about 401k plans</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <valueName>Cannot get all employees together at same time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Declined</controllingFieldValue>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <valueName>Plan Contact Non-Responsive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Requested</controllingFieldValue>
+            <controllingFieldValue>Scheduled</controllingFieldValue>
+            <controllingFieldValue>Completed</controllingFieldValue>
+            <valueName>Onboarding plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Requested</controllingFieldValue>
+            <controllingFieldValue>Scheduled</controllingFieldValue>
+            <controllingFieldValue>Completed</controllingFieldValue>
+            <valueName>Updgrade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Requested</controllingFieldValue>
+            <controllingFieldValue>Scheduled</controllingFieldValue>
+            <controllingFieldValue>Completed</controllingFieldValue>
+            <valueName>Health check</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Requested</controllingFieldValue>
+            <controllingFieldValue>Scheduled</controllingFieldValue>
+            <controllingFieldValue>Completed</controllingFieldValue>
+            <valueName>Ongoing servicing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Requested</controllingFieldValue>
+            <controllingFieldValue>Scheduled</controllingFieldValue>
+            <controllingFieldValue>Completed</controllingFieldValue>
+            <valueName>New hires</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rescheduled</controllingFieldValue>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <valueName>No show</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rescheduled</controllingFieldValue>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <valueName>Scheduling conflict</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rescheduled</controllingFieldValue>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <valueName>Plan sponsor is ill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rescheduled</controllingFieldValue>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <valueName>Advisor covered content</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rescheduled</controllingFieldValue>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <valueName>Not enough employees to join</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rescheduled</controllingFieldValue>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <valueName>No longer interested</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

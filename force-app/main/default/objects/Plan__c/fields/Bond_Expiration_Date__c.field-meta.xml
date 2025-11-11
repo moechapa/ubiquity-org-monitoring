@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bond_Expiration_Date__c</fullName>
+    <description>Date fidelity bond expires.   Leave blank and check &quot;Bond Auto Renew&quot; if there is no expiration and the bond auto renews</description>
+    <inlineHelpText>Date fidelity bond expires.   Leave blank and check &quot;Bond Auto Renew&quot; if there is no expiration and the bond auto renews</inlineHelpText>
+    <label>Bond Expiration Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

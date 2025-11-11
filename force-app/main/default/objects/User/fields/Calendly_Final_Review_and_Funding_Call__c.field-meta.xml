@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calendly_Final_Review_and_Funding_Call__c</fullName>
+    <description>First payroll, and handoff to CST (verbally)</description>
+    <inlineHelpText>First payroll, and handoff to CST (verbally)</inlineHelpText>
+    <label>Calendly Final Review and Funding Call</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Url</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_LeadSourceDetail__c</fullName>
+    <description>This is where you write in the Lead Source Detail if it is not provided inn the Pick List</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is where you write in the Lead Source Detail if it is not provided inn the Pick List</inlineHelpText>
+    <label>Other Lead Source Detail</label>
+    <length>200</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

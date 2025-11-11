@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requiring_Comment_Needs_Response</fullName>
+    <active>true</active>
+    <description>If requiring notes for a response, that response cannot be null</description>
+    <errorConditionFormula>(ISPICKVAL( Require_Comment__c , &quot;Response 1&quot; ) &amp;&amp; ISBLANK(Response_1__c)) ||
+(ISPICKVAL( Require_Comment__c , &quot;Response 2&quot; ) &amp;&amp; ISBLANK(Response_2__c)) ||
+(ISPICKVAL( Require_Comment__c , &quot;Response 3&quot; ) &amp;&amp; ISBLANK(Response_3__c)) ||
+(ISPICKVAL( Require_Comment__c , &quot;Response 4&quot; ) &amp;&amp; ISBLANK(Response_4__c))</errorConditionFormula>
+    <errorDisplayField>Require_Comment__c</errorDisplayField>
+    <errorMessage>Cannot require comment for an empty response</errorMessage>
+</ValidationRule>

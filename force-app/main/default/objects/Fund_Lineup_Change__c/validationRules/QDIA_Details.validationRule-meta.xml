@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QDIA_Details</fullName>
+    <active>true</active>
+    <description>Requires QDIA Related field if QDIA Notice is needed</description>
+    <errorConditionFormula>( ISPICKVAL( Notices_Required__c , &quot;QDIA&quot;)
+|| 
+ ISPICKVAL( Notices_Required__c , &quot;QDIA and Blackout&quot;)
+)
+&amp;&amp;
+(
+ ISBLANK(TEXT( QDIA_Participant_Notice_Needed__c )) 
+||
+ ISBLANK(TEXT( Sponsor_Instructions_Sent__c )) 
+||
+ ISBLANK(TEXT( QDIA_Start_Date__c )) 
+||
+ ISBLANK(TEXT( QDIA_End_Date__c )) 
+)
+&amp;&amp;
+(ISNEW())</errorConditionFormula>
+    <errorMessage>All fields in QDIA Notice Information section are required.</errorMessage>
+</ValidationRule>

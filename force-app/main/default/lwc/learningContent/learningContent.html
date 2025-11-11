@@ -1,0 +1,17 @@
+<template>
+    <div class="slds-box slds-box_x-small slds-m-top_small">
+        <a href={learningContent.url} target="_blank" rel="noopener">
+            <div class="slds-grid slds-grid_vertical-align-center" style="width:100%">
+                <div>
+                    <img class="courseImg" src={learningContent.imageUrl} alt={learningContent.name} />
+                </div>
+                <div class="slds-grid slds-has-flexi-truncate">
+                    <p class="slds-m-left_x-small slds-m-right_x-small slds-truncate">{learningContent.name}</p>
+                </div>
+                <div class="slds-col_bump-left">
+                    <img src={learningContentIcon} alt={learningContentIconAlt/>
+                </div>
+            </div>
+        </a>
+    </div>
+</template>

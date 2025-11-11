@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>J_P_Morgan_SmartRetirement_Blend</fullName>
+    <active>true</active>
+    <description>Used for JPM Fund Selection</description>
+    <label>J.P. Morgan SmartRetirement Blend</label>
+    <picklistValues>
+        <picklist>Asset_Allocation_Funds__c</picklist>
+        <values>
+            <fullName>Diversified Fund %28JDVZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Allocation Fund %28GAOFX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Allocation Fund %28GAONX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Allocation Fund %28GAORX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Allocation Fund %28GAOTX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Allocation Fund %28GAOZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Income Builder Fund %28JNBZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investor Balanced Fund %28JFQUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investor Conservative Growth Fund %28JFLJX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investor Growth %26 Income Fund %28JFBUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investor Growth Fund %28JFTUX%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Custodian__c</picklist>
+        <values>
+            <fullName>MG Trust Company%2C LLC%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schwab %26 Co%2E%2C Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schwab Trust</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fixed_Income_Taxable_Funds__c</picklist>
+        <values>
+            <fullName>Core Bond Fund %28JCBPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Bond Fund %28JCBQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Bond Fund %28JCBRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Bond Fund %28JCBUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Bond Fund %28JCBZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Plus Bond Fund %28JCPPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Plus Bond Fund %28JCPQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Plus Bond Fund %28JCPUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Plus Bond Fund %28JCPYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Plus Bond Fund %28JCPZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Bond Fund %28CBFVX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emerging Markets Debt Fund %28JEMRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emerging Markets Debt Fund %28JEMVX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emerging Markets Strategic Debt Fund %28JECRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emerging Markets Strategic Debt Fund %28JECUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emerging Markets Strategic Debt Fund %28JECZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Floating Rate Income Fund %28JPHRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Bond Opportunities Fund %28GBONX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government Bond Fund %28JGBZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government Bond Fund %28OGGPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government Bond Fund %28OGGQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government Bond Fund %28OGGYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Yield Fund %28JHYUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Yield Fund %28JHYZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Yield Fund %28JRJKX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Yield Fund %28JRJYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Yield Fund %28JYHRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Income Fund %28JMSFX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inflation Managed Bond Fund %28JIMMX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inflation Managed Bond Fund %28JIMRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limited Duration Bond Fund %28JUSUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mortgage-Backed Securities Fund %28JMBUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short Duration Bond Fund %28JSDUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short Duration Core Plus Fund %28JSDRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strategic Income Opportunities Fund %28JSORX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strategic Income Opportunities Fund %28JSOZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Total Return Fund %28JMTIX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Total Return Fund %28JMTRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Total Return Fund %28JMTTX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unconstrained Debt Fund %28JISZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unconstrained Debt Fund %28JSIMX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unconstrained Debt Fund %28JSIRX%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fund_List_Status__c</picklist>
+        <values>
+            <fullName>Build Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>International_Equity_Funds__c</picklist>
+        <values>
+            <fullName>Emerging Economies Fund %28JEEEX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emerging Economies Fund %28JEERX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emerging Markets Equity Fund %28JEMOX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emerging Markets Equity Fund %28JEMWX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emerging Markets Equity Fund %28JHUJX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emerging Markets Equity Fund %28JHUKX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emerging Markets Equity Fund %28JHURX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emerging Markets Research Enhanced Equity Fund %28EMRSX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Europe Dynamic Fund %28VEUVX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Research Enhanced Index Fund %28JEIYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Advantage Fund %28JIFFX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Advantage Fund %28JIIZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Equity Fund %28JIERX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Equity Fund %28JIEZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Equity Fund %28JNEMX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Research Enhanced Equity Fund %28JEIQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Unconstrained Equity Fund %28IUEFX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Unconstrained Equity Fund %28IUENX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Unconstrained Equity Fund %28IUERX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Value Fund %28JNVMX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Value Fund %28JPVRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Value Fund %28JPVZX%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Money_Market_Funds__c</picklist>
+        <values>
+            <fullName>Federated Trust for U%2ES%2E Treasury Obligations %28TTIXX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PIMCO Government Money Market %28PGPXX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Government Money Market Fund Capital %28OGVXX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Government Money Market Fund Premier %28OGSXX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Government Money Market Fund Reserve %28RJGXX%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QDIA_Investment_Strategy__c</picklist>
+        <values>
+            <fullName>J%2EP%2E Morgan SmartRetirement Blend</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Share_Class__c</picklist>
+        <values>
+            <fullName>R2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SmartRetirement_Blend_Funds__c</picklist>
+        <values>
+            <fullName>SmartRetirement Blend 2020 Fund %28JBSRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2020 Fund %28JIORX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2020 Fund %28JSTKX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2020 Fund %28JSTLX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2020 Fund %28JSYRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2025 Fund %28JBBSX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2025 Fund %28JBRSX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2025 Fund %28JBTBX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2025 Fund %28JBTUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2025 Fund %28JBYSX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2030 Fund %28JRBBX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2030 Fund %28JRBRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2030 Fund %28JRBYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2030 Fund %28JUTPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2030 Fund %28JUTUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2035 Fund %28JPBRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2035 Fund %28JPRRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2035 Fund %28JPTKX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2035 Fund %28JPTLX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2035 Fund %28JPYRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2040 Fund %28JNTEX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2040 Fund %28JNTNX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2040 Fund %28JOBBX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2040 Fund %28JOBRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2040 Fund %28JOBYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2045 Fund %28JMBRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2045 Fund %28JMYAX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2045 Fund %28JNARX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2045 Fund %28JNTLX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2045 Fund %28JNTOX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2050 Fund %28JNABX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2050 Fund %28JNNRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2050 Fund %28JNTKX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2050 Fund %28JNTPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2050 Fund %28JNYAX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2055 Fund %28JTBBX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2055 Fund %28JTRBX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2055 Fund %28JTTLX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2055 Fund %28JTTUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2055 Fund %28JTYBX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2060 Fund %28JAABX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2060 Fund %28JAAYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2060 Fund %28JATPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2060 Fund %28JATQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend 2060 Fund %28JATUX%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SmartRetirement_Funds__c</picklist>
+        <values>
+            <fullName>SmartRetirement 2020 Fund %28JTTIX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2020 Fund %28JTTPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2020 Fund %28JTTQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2020 Fund %28JTTYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2020 Fund %28JTTZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2025 Fund %28JNSIX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2025 Fund %28JNSPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2025 Fund %28JNSQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2025 Fund %28JNSYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2025 Fund %28JNSZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2030 Fund %28JSMIX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2030 Fund %28JSMNX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2030 Fund %28JSMQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2030 Fund %28JSMYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2030 Fund %28JSMZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2035 Fund %28SRJIX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2035 Fund %28SRJPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2035 Fund %28SRJQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2035 Fund %28SRJYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2035 Fund %28SRJZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2040 Fund %28SMTIX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2040 Fund %28SMTPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2040 Fund %28SMTQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2040 Fund %28SMTYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2040 Fund %28SMTZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2045 Fund %28JSAIX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2045 Fund %28JSAPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2045 Fund %28JSAQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2045 Fund %28JSAYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2045 Fund %28JSAZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2050 Fund %28JTSIX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2050 Fund %28JTSPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2050 Fund %28JTSQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2050 Fund %28JTSYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2050 Fund %28JTSZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2055 Fund %28JFFIX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2055 Fund %28JFFPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2055 Fund %28JFFQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2055 Fund %28JFFRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2055 Fund %28JFFYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2060 Fund %28JAKIX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2060 Fund %28JAKPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2060 Fund %28JAKQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2060 Fund %28JAKYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement 2060 Fund %28JAKZX%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SmartRetirement_Income_Funds__c</picklist>
+        <values>
+            <fullName>SmartRetirement Blend Income Fund %28JIBBX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend Income Fund %28JIRBX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend Income Fund %28JITKX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend Income Fund %28JITLX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Blend Income Fund %28JIYBX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Income Fund %28JSIIX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Income Fund %28JSIPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Income Fund %28JSIQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Income Fund %28JSIYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartRetirement Income Fund %28JSIZX%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Team_Member__c</picklist>
+        <values>
+            <fullName>Amanda Cameron</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vicky Gutierrez</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>US_Equity_Funds__c</picklist>
+        <values>
+            <fullName>Equity Focus Fund %28JPFRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equity Income Fund %28OIEFX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equity Income Fund %28OIEJX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equity Income Fund %28OIEPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equity Income Fund %28OIEQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equity Income Fund %28OIERX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equity Index Fund %28OGFAX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth Advantage Fund %28JGRJX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth Advantage Fund %28JGTTX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth Advantage Fund %28JGTUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth Advantage Fund %28JGVRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth Advantage Fund %28JGVVX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth and Income Fund %28JGAVX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth and Income Fund %28JGRUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth and Income Fund %28VGIFX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth and Income Fund %28VGINX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth and Income Fund %28VGRTX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intrepid America Fund %28JIAPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intrepid America Fund %28JIARX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intrepid America Fund %28JIAZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intrepid Growth Fund %28JGIRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intrepid Growth Fund %28JGISX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intrepid Growth Fund %28JIGZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intrepid Mid Cap Fund %28WOOOX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intrepid Mid Cap Fund %28WOOQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intrepid Mid Cap Fund %28WOOSX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intrepid Value Fund %28JIVMX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intrepid Value Fund %28JIVRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intrepid Value Fund %28JIVZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Cap Growth Fund %28JLGMX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Cap Growth Fund %28JLGPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Cap Growth Fund %28JLGQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Cap Growth Fund %28JLGRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Cap Growth Fund %28JLGZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Cap Value Fund %28JLVMX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Cap Value Fund %28JLVRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Cap Value Fund %28JLVZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Cap Value Fund %28OLVRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Cap Value Fund %28OLVTX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Market Expansion Enhanced Index Fund %28JMEZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Market Expansion Enhanced Index Fund %28OMYGX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Cap Equity Fund %28JMCEX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Cap Equity Fund %28JMEEX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Cap Equity Fund %28JPPEX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Cap Growth Fund %28JMGFX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Cap Growth Fund %28JMGMX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Cap Growth Fund %28JMGPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Cap Growth Fund %28JMGQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Cap Growth Fund %28JMGZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Cap Value Fund %28JMVPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Cap Value Fund %28JMVQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Cap Value Fund %28JMVRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Cap Value Fund %28JMVYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Cap Value Fund %28JMVZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Cap Blend Fund %28JSCHX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Cap Core Fund %28JGAUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Cap Core Fund %28JGREX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Cap Core Fund %28JRJUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Cap Core Fund %28VSSCX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Cap Core Fund %28VSSLX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Cap Growth Fund %28JGLYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Cap Growth Fund %28JGRQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Cap Growth Fund %28JGSMX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Cap Growth Fund %28JGSVX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Cap Growth Fund %28JSGZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Cap Value Fund %28JSVPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Cap Value Fund %28JSVQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Cap Value Fund %28JSVRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Cap Value Fund %28JSVUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Cap Value Fund %28JSVZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2ES%2E Equity Fund %28JUEMX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2ES%2E Equity Fund %28JUEPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2ES%2E Equity Fund %28JUEQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2ES%2E Equity Fund %28JUEZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2ES%2E Equity Fund %28JUSRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2ES%2E Large Cap Core Plus Fund %28JCPRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2ES%2E Large Cap Core Plus Fund %28JLPYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2ES%2E Large Cap Core Plus Fund %28JLPZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2ES%2E Research Enhanced Equity Fund %28JDEUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2ES%2E Small Company Fund %28JSCZX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2ES%2E Small Company Fund %28JUSMX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2ES%2E Small Company Fund %28JUSPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2ES%2E Small Company Fund %28JUSQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U%2ES%2E Small Company Fund %28JUSYX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undiscovered Managers Behavioral Value Fund %28UBVRX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undiscovered Managers Behavioral Value Fund %28UBVTX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undiscovered Managers Behavioral Value Fund %28UBVUX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undiscovered Managers Behavioral Value Fund %28UBVVX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value Advantage Fund %28JGAQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value Advantage Fund %28JVAPX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value Advantage Fund %28JVAQX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value Advantage Fund %28JVARX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value Advantage Fund %28JVAYX%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

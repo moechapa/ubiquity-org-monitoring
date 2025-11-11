@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Reactivate</fullName>
+    <active>true</active>
+    <description>Block design versions from being reactivated</description>
+    <errorConditionFormula>isActive__c 
+&amp;&amp;
+ NOT(ISNULL(Deactivation_Date__c))</errorConditionFormula>
+    <errorMessage>Cannot reactivate this version!  Please create a new version instead</errorMessage>
+</ValidationRule>

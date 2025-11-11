@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unqualified_Reason__c</fullName>
+    <description>The reason why the Lead is Unqualified.</description>
+    <inlineHelpText>The reason why the Lead is Unqualified.</inlineHelpText>
+    <label>Unqualified Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Advisor Lead Not Produced</fullName>
+                <default>false</default>
+                <label>Advisor Lead Not Produced</label>
+            </value>
+            <value>
+                <fullName>Advisor Testing</fullName>
+                <default>false</default>
+                <label>Advisor Testing</label>
+            </value>
+            <value>
+                <fullName>Bad Data</fullName>
+                <default>false</default>
+                <label>Bad Data</label>
+            </value>
+            <value>
+                <fullName>Company No Longer In Business</fullName>
+                <default>false</default>
+                <label>Company No Longer In Business</label>
+            </value>
+            <value>
+                <fullName>Company Too Large for Current Offering</fullName>
+                <default>false</default>
+                <label>Company Too Large for Current Offering</label>
+            </value>
+            <value>
+                <fullName>Cost Issue</fullName>
+                <default>false</default>
+                <label>Cost Issue</label>
+            </value>
+            <value>
+                <fullName>Covid-19 Delay</fullName>
+                <default>false</default>
+                <label>Covid-19 Delay</label>
+            </value>
+            <value>
+                <fullName>Existing Retirement Benefit in Place</fullName>
+                <default>false</default>
+                <label>Existing Retirement Benefit in Place</label>
+            </value>
+            <value>
+                <fullName>Junk</fullName>
+                <default>false</default>
+                <label>Junk</label>
+            </value>
+            <value>
+                <fullName>Left Company</fullName>
+                <default>false</default>
+                <label>Left Company</label>
+            </value>
+            <value>
+                <fullName>Looking to Product Outside of Current Offering</fullName>
+                <default>false</default>
+                <label>Looking to Product Outside of Current Offering</label>
+            </value>
+            <value>
+                <fullName>Needs More Education</fullName>
+                <default>false</default>
+                <label>Needs More Education</label>
+            </value>
+            <value>
+                <fullName>No Authority to Buy</fullName>
+                <default>false</default>
+                <label>No Authority to Buy</label>
+            </value>
+            <value>
+                <fullName>No Budget</fullName>
+                <default>false</default>
+                <label>No Budget</label>
+            </value>
+            <value>
+                <fullName>No Opportunity for Partnership</fullName>
+                <default>false</default>
+                <label>No Opportunity for Partnership</label>
+            </value>
+            <value>
+                <fullName>Not a True Lead</fullName>
+                <default>false</default>
+                <label>Not a True Lead</label>
+            </value>
+            <value>
+                <fullName>Not Interested</fullName>
+                <default>false</default>
+                <label>Not Interested</label>
+            </value>
+            <value>
+                <fullName>Not Serious Buyer</fullName>
+                <default>false</default>
+                <label>Not Serious Buyer</label>
+            </value>
+            <value>
+                <fullName>Outside of ICP</fullName>
+                <default>false</default>
+                <label>Outside of ICP</label>
+            </value>
+            <value>
+                <fullName>Prospect Unresponsive</fullName>
+                <default>false</default>
+                <label>Prospect Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Prospect Unresponsive &amp; Bad Email</fullName>
+                <default>false</default>
+                <label>Prospect Unresponsive &amp; Bad Email</label>
+            </value>
+            <value>
+                <fullName>Prospect Unresponsive &amp; Bad Phone Number</fullName>
+                <default>false</default>
+                <label>Prospect Unresponsive &amp; Bad Phone Number</label>
+            </value>
+            <value>
+                <fullName>Support Request</fullName>
+                <default>false</default>
+                <label>Support Request</label>
+            </value>
+            <value>
+                <fullName>Timing Issue</fullName>
+                <default>false</default>
+                <label>Timing Issue</label>
+            </value>
+            <value>
+                <fullName>Unfit for Simply</fullName>
+                <default>false</default>
+                <label>Unfit for Simply</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <controllingFieldValue>Unable to Qualify</controllingFieldValue>
+            <valueName>Advisor Lead Not Produced</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <controllingFieldValue>Unable to Qualify</controllingFieldValue>
+            <valueName>Advisor Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <controllingFieldValue>Unable to Qualify</controllingFieldValue>
+            <valueName>Bad Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <controllingFieldValue>Unable to Qualify</controllingFieldValue>
+            <valueName>Company No Longer In Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Company Too Large for Current Offering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Cost Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Existing Retirement Benefit in Place</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <controllingFieldValue>Unable to Qualify</controllingFieldValue>
+            <valueName>Junk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Left Company</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Looking to Product Outside of Current Offering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Needs More Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>No Authority to Buy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>No Budget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>No Opportunity for Partnership</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Not a True Lead</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Not Interested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Not Serious Buyer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Outside of ICP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <controllingFieldValue>Unable to Qualify</controllingFieldValue>
+            <valueName>Prospect Unresponsive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <controllingFieldValue>Unable to Qualify</controllingFieldValue>
+            <valueName>Prospect Unresponsive &amp; Bad Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <controllingFieldValue>Unable to Qualify</controllingFieldValue>
+            <valueName>Prospect Unresponsive &amp; Bad Phone Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Support Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Timing Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <controllingFieldValue>Unable to Qualify</controllingFieldValue>
+            <valueName>Unfit for Simply</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unable to Qualify</controllingFieldValue>
+            <valueName>Covid-19 Delay</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

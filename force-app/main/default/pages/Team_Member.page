@@ -1,0 +1,93 @@
+<apex:page standardController="Case" recordSetVar="allCases" sidebar="true" lightningstylesheets="true" extensions="Team_Member_Ext"
+   applyBodyTag="false">
+   <apex:includeLightning />
+   <apex:slds />
+   <apex:form >
+
+      <script>
+         $Lightning.use(
+            "c:TeamMemberMassApp", // app name
+            function () { // callback after the framework and app load
+               $Lightning.createComponent(
+                  "c:TeamMemberMassComp", // name of component to create
+                  { caseRecords: "{!selected}" }, // component attribute, case list
+                  "MassApplyComponent", // ID of div where this will load
+                  function (cmp) { // callback after the component loads
+                     document.querySelector("c-team-member-mass-comp").addEventListener("updateSelections", function (event) { //page will listen to component for updates
+                        console.log("new event!!");
+                        console.log(event);
+                        console.log(event.detail.field);
+                        console.log(event.detail.value);
+                        updateSelections(event.detail.field, event.detail.value);
+                     });
+                     console.log("The component was created.");
+                  }
+               );
+            },
+         );
+         window.onload = checkSelection();
+         function checkSelection() {
+            if ("{!selected}".length < 1) {
+               sforce.one.back();
+               sforce.one.showToast({
+                  "message": "Select at least one record and try again.",
+                  "type": "error"
+               });
+            }
+         }
+      </script>
+
+      <apex:actionFunction name="updateSelections" action="{!updateSelections}" immediate="true" reRender="table">
+         <apex:param name="firstParam" assignTo="{!field}" value="" />
+         <apex:param name="secondParam" assignTo="{!fieldValue}" value="" />
+      </apex:actionFunction>
+
+      <apex:pageBlock title="Note: All modifications made on the page will be lost if Return button is clicked without clicking the Save button first.">
+         <apex:pageMessages />
+         <apex:pageBlockButtons >
+            <apex:commandButton value="Save" action="{!save}" reRender="conrollerButtonStatus" status="controllerButtonStatus"/>
+            <apex:commandButton value="Return" action="{!cancel}"/>
+         </apex:pageBlockButtons>
+
+         <div class="slds-scope">
+            <apex:actionStatus id="controllerButtonStatus" onstart="savedMessage();">
+               <apex:facet name="start">
+                  <div class="slds-spinner_container">
+                     <div id="mySpinner" role="status" class="slds-spinner slds-spinner_medium">
+                        <div class="slds-spinner__dot-a"></div>
+                        <div class="slds-spinner__dot-b"></div>
+                        <span class="slds-assistive-text">Saving...</span>
+                     </div>
+                  </div>
+               </apex:facet>
+            </apex:actionStatus>
+         </div>
+
+         <apex:pageBlockSection columns="2">
+            <apex:pageBlockSectionItem >
+               <div id="MassApplyComponent" />
+            </apex:pageBlockSectionItem>
+         </apex:pageBlockSection>
+
+         <apex:pageBlockTable value="{!selected}" var="case" id="table">
+
+            <apex:column value="{!Case.CaseNumber}"></apex:column>
+            <apex:column headerValue="Team Member">
+               <apex:inputField value="{!Case.Team_Member__c}" id="teamMemberInput" />
+            </apex:column>
+            <apex:column headerValue="Status">
+               <apex:inputField value="{!Case.Status}" id="statusInput" />
+            </apex:column>
+            <apex:column headerValue="Department">
+               <apex:inputField value="{!Case.Department__c}" />
+            </apex:column>
+            <apex:column headerValue="Description">
+               <apex:inputField value="{!Case.Description}" />
+            </apex:column>
+            <apex:column value="{!Case.CreatedDate}"></apex:column>
+            <apex:column value="{!Case.Subject}"></apex:column>
+
+         </apex:pageBlockTable>
+      </apex:pageBlock>
+   </apex:form>
+</apex:page>

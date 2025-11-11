@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_did_you_hear_about_us__c</fullName>
+    <label>How did you hear about us?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CNN Money</fullName>
+                <default>false</default>
+                <label>CNN Money</label>
+            </value>
+            <value>
+                <fullName>Conference</fullName>
+                <default>false</default>
+                <label>Conference</label>
+            </value>
+            <value>
+                <fullName>Financial Advisor</fullName>
+                <default>false</default>
+                <label>Financial Advisor</label>
+            </value>
+            <value>
+                <fullName>Friend</fullName>
+                <default>false</default>
+                <label>Friend</label>
+            </value>
+            <value>
+                <fullName>Google</fullName>
+                <default>false</default>
+                <label>Google</label>
+            </value>
+            <value>
+                <fullName>Google_Test1</fullName>
+                <default>false</default>
+                <label>Google_Test1</label>
+            </value>
+            <value>
+                <fullName>News/Media</fullName>
+                <default>false</default>
+                <label>News/Media</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Payroll Company</fullName>
+                <default>false</default>
+                <label>Payroll Company</label>
+            </value>
+            <value>
+                <fullName>USA Today</fullName>
+                <default>false</default>
+                <label>USA Today</label>
+            </value>
+            <value>
+                <fullName>Yahoo!</fullName>
+                <default>false</default>
+                <label>Yahoo!</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

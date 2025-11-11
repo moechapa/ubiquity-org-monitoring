@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Escalations</label>
+    <protected>false</protected>
+    <values>
+        <field>Filter_Field2__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Filter_Field3__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Filter_Field_Value2__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Filter_Field_Value3__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Filter_Field_Value__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Filter_Field__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Max_Age__c</field>
+        <value xsi:type="xsd:double">365.0</value>
+    </values>
+    <values>
+        <field>Message__c</field>
+        <value xsi:type="xsd:string">Multiple escalations within a year</value>
+    </values>
+    <values>
+        <field>Object__c</field>
+        <value xsi:type="xsd:string">Escalation__c</value>
+    </values>
+    <values>
+        <field>Score_Threshold__c</field>
+        <value xsi:type="xsd:double">2.0</value>
+    </values>
+    <values>
+        <field>Score__c</field>
+        <value xsi:type="xsd:double">-15.0</value>
+    </values>
+</CustomMetadata>

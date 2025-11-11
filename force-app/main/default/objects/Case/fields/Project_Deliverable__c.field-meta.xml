@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Deliverable__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Project Deliverable</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Please select a case project deliverable</errorMessage>
+        <filterItems>
+            <field>Project_Deliverables__c.Work_Breakdown_Structure__r.Object_Managed__c</field>
+            <operation>equals</operation>
+            <value>Case</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Project_Deliverables__c</referenceTo>
+    <relationshipLabel>Cases</relationshipLabel>
+    <relationshipName>Cases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

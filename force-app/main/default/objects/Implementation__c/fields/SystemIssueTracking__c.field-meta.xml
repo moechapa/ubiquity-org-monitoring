@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SystemIssueTracking__c</fullName>
+    <description>Tracks values entered in System Issue(s) field for History/Tracking</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Tracks values entered in System Issue(s) field for History/Tracking</inlineHelpText>
+    <label>SystemIssueTracking</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

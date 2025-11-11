@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Testing_Method__c</fullName>
+    <description>Defaults to &quot;Current Year&quot; - change to &quot;Prior Year&quot; manually if needed</description>
+    <inlineHelpText>Defaults to &quot;Current Year&quot; - change to &quot;Prior Year&quot; manually if needed</inlineHelpText>
+    <label>Testing Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Current Year</fullName>
+                <default>true</default>
+                <label>Current Year</label>
+            </value>
+            <value>
+                <fullName>Prior Year</fullName>
+                <default>false</default>
+                <label>Prior Year</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

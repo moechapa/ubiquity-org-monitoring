@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Audit_Copies__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If Audit Copies are needed, check the box.</description>
+    <inlineHelpText>If Audit Copies are needed, check the box.</inlineHelpText>
+    <label>Audit Copies Needed?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

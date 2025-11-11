@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fund_Update_VBALX_Oct_2020</fullName>
+    <description>Fields for Fund Update - VBALX - Oct 2020</description>
+    <displayedFields>
+        <field>Replacement_Option__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>VBALX_Replacement_Name__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>VBALX_Replacement_Ticker__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Fund Update - VBALX - Oct 2020</label>
+</FieldSet>

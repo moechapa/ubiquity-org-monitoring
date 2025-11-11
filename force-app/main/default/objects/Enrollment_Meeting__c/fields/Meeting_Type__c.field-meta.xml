@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meeting_Type__c</fullName>
+    <label>Meeting Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Complete meeting</fullName>
+                <default>false</default>
+                <label>Complete meeting</label>
+            </value>
+            <value>
+                <fullName>Condensed deck PDF sent to PS/Advisor</fullName>
+                <default>false</default>
+                <label>Condensed deck PDF sent to PS/Advisor</label>
+            </value>
+            <value>
+                <fullName>Enrollment Kit only</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Enrollment Kit only</label>
+            </value>
+            <value>
+                <fullName>Platform demo only</fullName>
+                <default>false</default>
+                <label>Platform demo only</label>
+            </value>
+            <value>
+                <fullName>Platform Demo recording sent to employees</fullName>
+                <default>false</default>
+                <label>Platform Demo recording sent to employees</label>
+            </value>
+            <value>
+                <fullName>Recording sent to employees</fullName>
+                <default>false</default>
+                <label>Recording sent to employees</label>
+            </value>
+            <value>
+                <fullName>Tailored deck</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tailored deck</label>
+            </value>
+            <value>
+                <fullName>Training advisor to run meeting</fullName>
+                <default>false</default>
+                <label>Training advisor to run meeting</label>
+            </value>
+            <value>
+                <fullName>Train_Sponsor_Recording_to_Employees</fullName>
+                <default>false</default>
+                <label>Train sponsor w recording to employees</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

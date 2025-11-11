@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custodian__c</fullName>
+    <description>Custodian used by Client</description>
+    <inlineHelpText>Custodian used by Client</inlineHelpText>
+    <label>Custodian</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Schwab &amp; Co., Inc.</fullName>
+                <default>false</default>
+                <label>Schwab &amp; Co., Inc.</label>
+            </value>
+            <value>
+                <fullName>MG Trust Company, LLC.</fullName>
+                <default>false</default>
+                <label>MG Trust Company, LLC.</label>
+            </value>
+            <value>
+                <fullName>TD Ameritrade</fullName>
+                <default>false</default>
+                <label>TD Ameritrade</label>
+            </value>
+            <value>
+                <fullName>Scottrade</fullName>
+                <default>false</default>
+                <label>Scottrade</label>
+            </value>
+            <value>
+                <fullName>Schwab Trust</fullName>
+                <default>false</default>
+                <label>Schwab Trust</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

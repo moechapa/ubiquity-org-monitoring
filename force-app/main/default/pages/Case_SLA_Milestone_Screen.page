@@ -1,0 +1,20 @@
+<!-- Page: -->
+<apex:page name="Case SLA Screen" readOnly="true" standardController="Case" lightningStylesheets="true" extensions="Case_SLA_Milestone_Screen_Ext" tabStyle="Case">
+    <apex:pageBlock >
+        <apex:form title="Milestones" style="font-size:20;">
+            <apex:pageBlockSection rendered="{!IF(Case.Goal_Close_DT_Stamp__c!=NULL,true,false)}">
+                <apex:outputText value="Closure Goal: {!Case.Goal_Close_DT_Stamp__c} " rendered="{!If(NOW()<Case.Goal_Close_DT_Stamp__c&&Case.Case_Close_SLA_Met__c=false,true,false)}" style="font-weight:bold;"/>
+                <apex:outputText value="Time to Close: {!formattedCloseDiff}" id="closeTimer" rendered="{!If(NOW()<Case.Goal_Close_DT_Stamp__c&&Case.Case_Close_SLA_Met__c=false,true,false)}" style="font-weight:bold;"/>
+                <apex:outputText value="Closure SLA Achieved" rendered="{!Case.Case_Close_SLA_Met__c}" style="font-weight:bold;font-size:16px"/>
+                <apex:outputText value="Closure SLA Violation" rendered="{!IF(NOW()>Case.Goal_Close_DT_Stamp__c&&Case.Case_Close_SLA_Met__c=false,true,false)}" style="font-weight:bold;color:#c80000;font-size:16px"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection rendered="{!IF(Case.Goal_FR_DT_Stamp__c!=NULL,true,false)}">
+                <apex:outputText value="First Response Goal: {!Case.Goal_FR_DT_Stamp__c} " rendered="{!If(NOW()<Case.Goal_FR_DT_Stamp__c&&Case.First_Response_SLA_Met__c=false,true,false)}" style="font-weight:bold;"/>
+                <apex:outputText value="Time to Respond: {!formattedFrDiff}" id="frTimer" rendered="{!If(NOW()<Case.Goal_FR_DT_Stamp__c&&Case.First_Response_SLA_Met__c=false,true,false)}" style="font-weight:bold;"/>
+                <apex:outputText value="First Response SLA Achieved" rendered="{!Case.First_Response_SLA_Met__c}" style="font-weight:bold;font-size:16px"/>
+                <apex:outputText value="First Response SLA Violation" rendered="{!IF(NOW()>Case.Goal_FR_DT_Stamp__c&&Case.First_Response_SLA_Met__c=false,true,false)}" style="font-weight:bold;color:#c80000;font-size:16px"/>
+            </apex:pageBlockSection>
+            <apex:actionPoller action="{!subtractTime}" reRender="closeTimer,frTimer" interval="5"/>
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

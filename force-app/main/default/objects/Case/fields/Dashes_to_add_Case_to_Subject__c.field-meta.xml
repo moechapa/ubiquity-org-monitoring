@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dashes_to_add_Case_to_Subject__c</fullName>
+    <defaultValue>&quot;___&quot;</defaultValue>
+    <description>Hidden field used to include dashes between Subject and Case Number in Cases</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Hidden field used to include dashes between Subject and Case Number in Cases</inlineHelpText>
+    <label>Dashes to add Case # to Subject</label>
+    <length>10</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

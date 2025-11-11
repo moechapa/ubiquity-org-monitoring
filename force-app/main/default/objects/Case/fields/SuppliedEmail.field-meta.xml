@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SuppliedEmail</fullName>
+    <inlineHelpText>The email the contact used to initiate the case...any replies on the case will go to this email address.</inlineHelpText>
+    <trackTrending>false</trackTrending>
+</CustomField>

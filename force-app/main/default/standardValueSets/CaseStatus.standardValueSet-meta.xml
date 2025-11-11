@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Child Case Missing Info</fullName>
+        <default>false</default>
+        <label>Child Case Missing Info</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Response to Parent Case</fullName>
+        <default>false</default>
+        <label>Response to Parent Case</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Response Received</fullName>
+        <default>false</default>
+        <label>Response Received</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Assigned</fullName>
+        <default>false</default>
+        <label>Assigned</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow-Up Today</fullName>
+        <default>false</default>
+        <label>Follow-Up Today</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Client Response</fullName>
+        <default>false</default>
+        <label>Awaiting Client Response</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Vendor Response</fullName>
+        <default>false</default>
+        <label>Awaiting Vendor Response</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Development Team Fix</fullName>
+        <default>false</default>
+        <label>Awaiting Development Team Fix</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting RKS Transaction(s)</fullName>
+        <default>false</default>
+        <label>Awaiting RKS Transaction(s)</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Resolved</fullName>
+        <default>false</default>
+        <label>Resolved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Missing Info</fullName>
+        <default>false</default>
+        <label>Missing Info</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Called</fullName>
+        <default>false</default>
+        <label>Called</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Emailed</fullName>
+        <default>false</default>
+        <label>Emailed</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Taking Action</fullName>
+        <default>false</default>
+        <label>Client Taking Action</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Scheduled Follow-Up</fullName>
+        <default>false</default>
+        <label>Scheduled Follow-Up</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Unable to Reach</fullName>
+        <default>false</default>
+        <label>Unable to Reach</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Future Call</fullName>
+        <default>false</default>
+        <label>Pending Future Call</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Duplicate</fullName>
+        <default>false</default>
+        <label>Duplicate</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Scheduled</fullName>
+        <default>false</default>
+        <label>Scheduled</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal</fullName>
+        <default>false</default>
+        <label>Internal</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Deployed</fullName>
+        <default>false</default>
+        <label>Deployed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Bug not enhancement - Log in Coherence</fullName>
+        <default>false</default>
+        <label>Bug not enhancement - Log in Coherence</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Reviewed</fullName>
+        <default>false</default>
+        <label>Reviewed</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Confirmed Receipt</fullName>
+        <default>false</default>
+        <label>Confirmed Receipt</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Child Case Resolved</fullName>
+        <default>false</default>
+        <label>Child Case Resolved</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Child Case Pending</fullName>
+        <default>false</default>
+        <label>Child Case Pending</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed as Duplicate</fullName>
+        <default>false</default>
+        <label>Merged</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>QA Testing In Progress</fullName>
+        <default>false</default>
+        <label>QA Testing In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Deployed to Production</fullName>
+        <default>false</default>
+        <label>Deployed to Production</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Ancillary Billing Opportunity Created</fullName>
+        <default>false</default>
+        <label>Ancillary Billing Opportunity Created</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Child Case Response Received</fullName>
+        <default>false</default>
+        <label>Child Case Response Received</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Survey Email Sent</fullName>
+        <default>false</default>
+        <label>Survey Email Sent</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Survey Received</fullName>
+        <default>false</default>
+        <label>Survey Received - Send DocuSign</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Docusign Pending Signature</fullName>
+        <default>false</default>
+        <label>Docusign Pending Signature</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Confirm Billing Amount</fullName>
+        <default>false</default>
+        <label>Confirm Billing Amount</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Billing Amount Confirmed</fullName>
+        <default>false</default>
+        <label>Billing Amount Confirmed</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending 30 Day Notice Period</fullName>
+        <default>false</default>
+        <label>Pending 30 Day Notice Period</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>New JIRA Comment</fullName>
+        <default>false</default>
+        <label>New JIRA Comment</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>DocuSign Complete</fullName>
+        <default>false</default>
+        <label>DocuSign Complete</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Fee Waiver Approved</fullName>
+        <default>false</default>
+        <label>Fee Waiver Approved</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Fee Waiver Rejected</fullName>
+        <default>false</default>
+        <label>Fee Waiver Rejected</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Client Address Confirm</fullName>
+        <default>false</default>
+        <label>Pending Client Address Confirm</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Client Notice Confirmation</fullName>
+        <default>false</default>
+        <label>Pending Client Notice Confirmation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Certified Notices Sent</fullName>
+        <default>false</default>
+        <label>Certified Notices Sent</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Late Payroll Survey Received</fullName>
+        <default>false</default>
+        <label>Late Payroll Survey Received</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>JIRA Comment Sent</fullName>
+        <default>false</default>
+        <label>JIRA Comment Sent</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Blackout</fullName>
+        <default>false</default>
+        <label>Pending Blackout</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Priority</fullName>
+        <default>false</default>
+        <label>Pending Priority</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Dev</fullName>
+        <default>false</default>
+        <label>Pending Dev</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Dev</fullName>
+        <default>false</default>
+        <label>In Dev</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In UAT</fullName>
+        <default>false</default>
+        <label>In UAT</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Done</fullName>
+        <default>false</default>
+        <label>Done</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Won&apos;t Do</fullName>
+        <default>false</default>
+        <label>Won&apos;t Do</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open Cash</fullName>
+        <default>false</default>
+        <label>Open Cash</label>
+        <closed>false</closed>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Saver(k)</fullName>
+        <default>false</default>
+        <label>Saver(k)</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom(k)</fullName>
+        <default>false</default>
+        <label>Custom(k)</label>
+    </customValue>
+    <customValue>
+        <fullName>Reserve(k)</fullName>
+        <default>false</default>
+        <label>Reserve(k)</label>
+    </customValue>
+    <customValue>
+        <fullName>RK Only</fullName>
+        <default>false</default>
+        <label>RK Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Simply Retirement</fullName>
+        <default>false</default>
+        <label>Simply Retirement</label>
+    </customValue>
+    <customValue>
+        <fullName>Simply Retirement TPA</fullName>
+        <default>false</default>
+        <label>Simply Retirement TPA</label>
+    </customValue>
+    <customValue>
+        <fullName>Single(k)</fullName>
+        <default>false</default>
+        <label>Single(k)</label>
+    </customValue>
+    <customValue>
+        <fullName>Single(k) Plus</fullName>
+        <default>false</default>
+        <label>Single(k) Plus</label>
+    </customValue>
+    <customValue>
+        <fullName>Single IRA</fullName>
+        <default>false</default>
+        <label>Single IRA</label>
+    </customValue>
+    <customValue>
+        <fullName>Express IRA</fullName>
+        <default>false</default>
+        <label>Express IRA</label>
+    </customValue>
+    <customValue>
+        <fullName>Mega Roth Single(k)</fullName>
+        <default>false</default>
+        <label>Mega Roth Single(k)</label>
+    </customValue>
+    <customValue>
+        <fullName>Single(k) to Custom(k)</fullName>
+        <default>false</default>
+        <label>Single(k) to Custom(k)</label>
+    </customValue>
+    <customValue>
+        <fullName>Legacy Saver(k)</fullName>
+        <default>false</default>
+        <label>Legacy Saver(k)</label>
+    </customValue>
+    <customValue>
+        <fullName>Express(k)</fullName>
+        <default>false</default>
+        <label>Express(k)</label>
+    </customValue>
+    <customValue>
+        <fullName>Simply Retirement Bundled</fullName>
+        <default>false</default>
+        <label>Simply Retirement Bundled</label>
+    </customValue>
+    <customValue>
+        <fullName>Simply Retirement Unbundled</fullName>
+        <default>false</default>
+        <label>Simply Retirement Unbundled</label>
+    </customValue>
+    <customValue>
+        <fullName>Simply Retirement Single(k) Plus</fullName>
+        <default>false</default>
+        <label>Simply Retirement Single(k) Plus</label>
+    </customValue>
+    <customValue>
+        <fullName>Starter</fullName>
+        <default>false</default>
+        <label>Starter</label>
+    </customValue>
+    <customValue>
+        <fullName>Partner</fullName>
+        <default>false</default>
+        <label>Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>Builder</fullName>
+        <default>false</default>
+        <label>Builder</label>
+    </customValue>
+    <customValue>
+        <fullName>Franchise</fullName>
+        <default>false</default>
+        <label>Franchise</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom(k) MML</fullName>
+        <default>false</default>
+        <label>Custom(k) MML</label>
+    </customValue>
+    <customValue>
+        <fullName>Single(k) Lite</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Single(k) Lite</label>
+    </customValue>
+    <masterLabel>Service Option</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

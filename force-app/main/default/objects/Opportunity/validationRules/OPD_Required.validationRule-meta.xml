@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPD_Required</fullName>
+    <active>true</active>
+    <description>Requires OPD Completion for Ubiquity Plans</description>
+    <errorConditionFormula>(
+ISPICKVAL(Service_Option__c, &quot;Saver(k)&quot;)  ||
+ISPICKVAL(Service_Option__c, &quot;Custom(k)&quot;) ||
+ISPICKVAL(Service_Option__c, &quot;Reserve(k)&quot;)
+) &amp;&amp;
+OPD_Complete__c = false
+&amp;&amp;
+ISPICKVAL(StageName, &quot;Closed Won&quot;)
+&amp;&amp;
+NOT(ISPICKVAL(Product_Type__c, &quot;Upgrade&quot;))
+&amp;&amp;
+NOT(ISPICKVAL(Type, &quot;Ancillary Billing Flat Fee&quot;))
+&amp;&amp;
+NOT(ISPICKVAL(Type, &quot;Ancillary Billing Hourly Rate&quot;))
+&amp;&amp;
+NOT(ISPICKVAL( Plan_Type__c, &quot;Conversion Plan&quot;))
+&amp;&amp;
+NOT( CONTAINS(OwnerId, &quot;00537000001tb5H&quot;))
+&amp;&amp;
+NOT($User.Id = &quot;0051G0000084JEc&quot;)</errorConditionFormula>
+    <errorMessage>OPD must be completed in order to close this opportunity.</errorMessage>
+</ValidationRule>

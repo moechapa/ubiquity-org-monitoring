@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Effective_Date__c</fullName>
+    <description>Date the client would like the Add-On Product to start</description>
+    <inlineHelpText>Date the client would like the Add-On Product to start</inlineHelpText>
+    <label>Product Effective Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

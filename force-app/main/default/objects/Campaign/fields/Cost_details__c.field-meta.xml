@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cost_details__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This is where you should itemize any miscellaneous costs that area associated with the conference that are monetarily represented in the Miscellaneous Costs fields.</inlineHelpText>
+    <label>Cost details</label>
+    <length>250</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

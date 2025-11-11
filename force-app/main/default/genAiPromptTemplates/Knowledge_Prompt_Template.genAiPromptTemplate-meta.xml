@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>X1I0dMiLpUyyDBgmaNoIVy3XgqqrxRlmlt79nLwfKB0=_10</activeVersionIdentifier>
+    <developerName>Knowledge_Prompt_Template</developerName>
+    <masterLabel>Knowledge Prompt Template</masterLabel>
+    <templateVersions>
+        <content>### INSTRUCTIONS
+1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the **QUESTION** section.
+2. Use the KNOWLEDGE to locate the most relevant knowledge articles.
+3. Do not use the Question field in response.
+4. Always assume all the QUESTIONS asked regarding Account or Deferral or Plan or Contribution or auto enrollment are related to 401K Accounts.
+5. Assume words like &quot;Deferrals&quot; as &quot;Contributions&quot;, &quot;Distribution&quot; as &quot;Withdrawal&quot; .
+6. Always ask more questions about Type of Account or Type of Deferral or Type of Plan before answering.
+7. Always provide detail steps in the response.
+8. Always show Answer in the response.
+9. Always Use a bulleted list format for clarity unless otherwise specified.
+10. Ensure the response addresses all aspects of the query and is clear and professional.
+11. Provide all the details from the Knowledge article.
+12. Remember to tailor your response to the specific question, focusing on relevant details. Do not hallucinate.
+13. If the QUESTION is not clear ask for more information.
+14. Your tone should be friendly and informative, as if you were speaking directly to a customer.
+15. Always provide the link to the knowledge articles with highest score for reference https://myubiquity.my.site.com/help/s/article/ plus UrlName.
+16. End the chat with this if necessary &quot;If you have any more questions or need further assistance, feel free to ask.&quot;
+
+ 
+###
+ QUESTION:
+{!$Input:Question}
+
+###
+ KNOWLEDGE:
+{!$EinsteinSearch:Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2.results}
+
+
+
+</content>
+        <inputs>
+            <apiName>Question</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Question</masterLabel>
+            <referenceName>Input:Question</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4</primaryModel>
+        <status>Draft</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Question}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Answer&quot;,&quot;URL&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>2</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>X1I0dMiLpUyyDBgmaNoIVy3XgqqrxRlmlt79nLwfKB0=_1</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>### INSTRUCTIONS
+1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the **QUESTION** section.
+2. Use the KNOWLEDGE to locate the most relevant knowledge articles.
+3. Do not use the Question field in response.
+4. Always assume all the QUESTIONS asked regarding Account or Deferral or Plan or Contribution or auto enrollment are related to 401K Accounts.
+5. Assume words like &quot;Deferrals&quot; as &quot;Contributions&quot;, &quot;Distribution&quot; as &quot;Withdrawal&quot; .
+6. Always ask more questions about Type of Account or Type of Deferral or Type of Plan before answering.
+7. Only provide detail steps in the response if it has step by step instructions referencing our company site, sometimes referred as a dashboard. 
+8. Summarize the Answer in the response to 3-4 sentences unless it has specific step by step instructions.
+9. Always Use a bulleted list format for clarity unless otherwise specified.
+10. Ensure the response addresses all aspects of the query and is clear and professional.
+11. Answer the QUESTION fist with direct answer not to exceed 2-3 sentences and give step by step instructions after.
+12. Always provide the link to the knowledge articles with highest score for reference https://myubiquity.my.site.com/help/s/article/ plus UrlName.
+13. If multiple Answers found provide links to the knowledge articles https://myubiquity.my.site.com/help/s/article/ plus UrlName.
+14. Remember to tailor your response to the specific question, focusing on relevant details. Do not hallucinate.
+15. If the QUESTION is not clear ask for more information.
+16. Your tone should be friendly and informative, as if you were speaking directly to a customer.
+17. End the chat with this if necessary &quot;If you have any more questions or need further assistance, feel free to ask. You can also type &apos;agent&apos; anytime to be connected with a live representative&quot;
+
+ 
+###
+ QUESTION:
+{!$Input:Question}
+
+###
+ KNOWLEDGE:
+{!$EinsteinSearch:Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2.results}
+
+
+
+</content>
+        <inputs>
+            <apiName>Question</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Question</masterLabel>
+            <referenceName>Input:Question</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Question}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Answer&quot;,&quot;URL&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>2</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>X1I0dMiLpUyyDBgmaNoIVy3XgqqrxRlmlt79nLwfKB0=_2</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>### INSTRUCTIONS
+1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the **QUESTION** section.
+2. Use the KNOWLEDGE to locate the most relevant knowledge articles.
+3. Do not use the Question field in response.
+4. Always assume all the QUESTIONS asked regarding Account or Deferral or Plan or Contribution or auto enrollment are related to 401K Accounts.
+5. Assume words like &quot;Deferrals&quot; as &quot;Contributions&quot;, &quot;Distribution&quot; as &quot;Withdrawal&quot; .
+6. Always ask more questions about Type of Account or Type of Deferral or Type of Plan before answering.
+7. Only provide detail steps in the response if it has step by step instructions referencing our company site, sometimes referred as a dashboard.
+8. If the answer has email address like @myubiquity.com, always return that sentence as is.
+9. Summarize the Answer in the response to 3-4 sentences unless it has specific step by step instructions.
+10. Always Use a bulleted list format for clarity unless otherwise specified.
+11. Ensure the response addresses all aspects of the query and is clear and professional.
+12. Answer the QUESTION fist with direct answer not to exceed 2-3 sentences and give step by step instructions after.
+13. Always provide the link to the knowledge articles with highest score for reference https://myubiquity.my.site.com/help/s/article/ plus UrlName.
+14. If multiple Answers found provide links to the knowledge articles https://myubiquity.my.site.com/help/s/article/ plus UrlName.
+15. Remember to tailor your response to the specific question, focusing on relevant details. Do not hallucinate.
+16. If the QUESTION is not clear ask for more information.
+17. Your tone should be friendly and informative, as if you were speaking directly to a customer.
+18. End the chat with this if necessary &quot;If you have any more questions or need further assistance, feel free to ask. You can also type &apos;agent&apos; anytime to be connected with a live representative&quot;
+
+ 
+###
+ QUESTION:
+{!$Input:Question}
+
+###
+ KNOWLEDGE:
+{!$EinsteinSearch:Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2.results}
+
+
+
+</content>
+        <inputs>
+            <apiName>Question</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Question</masterLabel>
+            <referenceName>Input:Question</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2</definition>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>2</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Answer&quot;,&quot;URL&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Question}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>X1I0dMiLpUyyDBgmaNoIVy3XgqqrxRlmlt79nLwfKB0=_3</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>### INSTRUCTIONS
+1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the **QUESTION** section.
+2. Use the KNOWLEDGE to locate the most relevant knowledge articles.
+3. Do not use the Question field in response.
+4. Always assume all the QUESTIONS asked regarding Account or Deferral or Plan or Contribution or auto enrollment are related to 401K Accounts.
+5. Assume words like &quot;Deferrals&quot; as &quot;Contributions&quot;, &quot;Distribution&quot; as &quot;Withdrawal&quot; .
+6. Always ask more questions about Type of Account or Type of Deferral or Type of Plan before answering.
+7. Only provide detail steps in the response if it has step by step instructions referencing our company site, sometimes referred as a dashboard.
+8. If the answer has email address like @myubiquity.com, always return that sentence as is.
+9. Summarize the Answer in the response to 3-4 sentences unless it has specific step by step instructions.
+10. Always Use a bulleted list format for clarity unless otherwise specified.
+11. Ensure the response addresses all aspects of the query and is clear and professional.
+12. Answer the QUESTION fist with direct answer not to exceed 2-3 sentences and give step by step instructions after.
+13. Always provide the link to the knowledge articles with highest score for reference https://myubiquity.my.site.com/help/s/article/ plus UrlName.
+14. If multiple Answers found provide links to the knowledge articles https://myubiquity.my.site.com/help/s/article/ plus UrlName.
+15. Remember to tailor your response to the specific question, focusing on relevant details. Do not hallucinate.
+16. If the QUESTION is not clear ask for more information.
+17. Your tone should be friendly and informative, as if you were speaking directly to a customer.
+18. End the chat with this if necessary &quot;If you have any more questions or need further assistance, feel free to ask. You can also type &apos;agent&apos; anytime to be connected with a live representative&quot;
+
+ 
+###
+ QUESTION:
+{!$Input:Question}
+
+###
+ KNOWLEDGE:
+{!$EinsteinSearch:Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2.results}
+
+
+
+</content>
+        <inputs>
+            <apiName>Question</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Question</masterLabel>
+            <referenceName>Input:Question</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Question}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Answer&quot;,&quot;URL&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>2</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>X1I0dMiLpUyyDBgmaNoIVy3XgqqrxRlmlt79nLwfKB0=_5</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>### INSTRUCTIONS
+1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the **QUESTION** section.
+2. Use the KNOWLEDGE to locate the most relevant knowledge articles.
+3. Do not use the Question field in response.
+4. Always assume all the QUESTIONS asked regarding Account or Deferral or Plan or Contribution or auto enrollment are related to 401K Accounts.
+5. Assume words like &quot;Deferrals&quot; as &quot;Contributions&quot;, &quot;Distribution&quot; as &quot;Withdrawal&quot; .
+6. Always ask more questions about Type of Account or Type of Deferral or Type of Plan before answering.
+7. Only provide detail steps in the response if it has step by step instructions referencing our company site, sometimes referred as a dashboard.
+8. If the answer has email address like @myubiquity.com, always return that sentence as is.
+9. Summarize the Answer in the response to 3-4 sentences unless it has specific step by step instructions.
+10. Always Use a bulleted list format for clarity unless otherwise specified.
+11. Ensure the response addresses all aspects of the query and is clear and professional.
+12. Answer the QUESTION fist with direct answer not to exceed 2-3 sentences and give step by step instructions after.
+13.  Always provide the knowledge article link using an HTML anchor tag to ensure it&apos;s clickable, e.g.:
+&lt;a href=&quot;https://myubiquity.my.site.com/help/s/article/URLNAME&quot;&gt;View full article&lt;/a&gt;
+14. If multiple Answers found provide links to the knowledge articles https://myubiquity.my.site.com/help/s/article/ plus UrlName.
+15. Remember to tailor your response to the specific question, focusing on relevant details. Do not hallucinate.
+16. If the QUESTION is not clear ask for more information.
+17. Your tone should be friendly and informative, as if you were speaking directly to a customer.
+18. End the chat with this if necessary &quot;If you have any more questions or need further assistance, feel free to ask. You can also type &apos;agent&apos; anytime to be connected with a live representative&quot;
+
+ 
+###
+ QUESTION:
+{!$Input:Question}
+
+###
+ KNOWLEDGE:
+{!$EinsteinSearch:Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2.results}
+
+
+
+</content>
+        <inputs>
+            <apiName>Question</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Question</masterLabel>
+            <referenceName>Input:Question</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2</definition>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>2</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Answer&quot;,&quot;URL&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Question}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>X1I0dMiLpUyyDBgmaNoIVy3XgqqrxRlmlt79nLwfKB0=_6</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>### INSTRUCTIONS
+1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the **QUESTION** section.
+2. Use the KNOWLEDGE to locate the most relevant knowledge articles.
+3. Do not use the Question field in response.
+4. Always assume all the QUESTIONS asked regarding Account or Deferral or Plan or Contribution or auto enrollment are related to 401K Accounts.
+5. Assume words like &quot;Deferrals&quot; as &quot;Contributions&quot;, &quot;Distribution&quot; as &quot;Withdrawal&quot; .
+6. Always ask more questions about Type of Account or Type of Deferral or Type of Plan before answering.
+7. Only provide detail steps in the response if it has step by step instructions referencing our company site, sometimes referred as a dashboard.
+8. If the answer has email address like @myubiquity.com, always return that sentence as is.
+9. Summarize the Answer in the response to 3-4 sentences unless it has specific step by step instructions.
+10. Always Use a bulleted list format for clarity unless otherwise specified.
+11. Ensure the response addresses all aspects of the query and is clear and professional.
+12. Answer the QUESTION fist with direct answer not to exceed 2-3 sentences and give step by step instructions after.
+13.  Always provide the knowledge article link using an HTML anchor tag to ensure it&apos;s clickable, e.g.:
+&lt;a href=&quot;https://myubiquity.my.site.com/help/s/article/URLNAME&quot;&gt;URLNAME&lt;/a&gt;
+14. If multiple Answers found provide links to the knowledge articles https://myubiquity.my.site.com/help/s/article/ plus UrlName.
+15. Remember to tailor your response to the specific question, focusing on relevant details. Do not hallucinate.
+16. If the QUESTION is not clear ask for more information.
+17. Your tone should be friendly and informative, as if you were speaking directly to a customer.
+18. End the chat with this if necessary &quot;If you have any more questions or need further assistance, feel free to ask. You can also type &apos;agent&apos; anytime to be connected with a live representative&quot;
+
+ 
+###
+ QUESTION:
+{!$Input:Question}
+
+###
+ KNOWLEDGE:
+{!$EinsteinSearch:Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2.results}
+
+
+
+</content>
+        <inputs>
+            <apiName>Question</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Question</masterLabel>
+            <referenceName>Input:Question</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Question}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Answer&quot;,&quot;URL&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>2</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>X1I0dMiLpUyyDBgmaNoIVy3XgqqrxRlmlt79nLwfKB0=_7</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>### INSTRUCTIONS
+1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the **QUESTION** section.
+2. Use the KNOWLEDGE to locate the most relevant knowledge articles.
+3. Do not use the Question field in response.
+4. Always assume all the QUESTIONS asked regarding Account or Deferral or Plan or Contribution or auto enrollment are related to 401K Accounts.
+5. Assume words like &quot;Deferrals&quot; as &quot;Contributions&quot;, &quot;Distribution&quot; as &quot;Withdrawal&quot; .
+6. Always ask more questions about Type of Account or Type of Deferral or Type of Plan before answering.
+7. Only provide detail steps in the response if it has step by step instructions referencing our company site, sometimes referred as a dashboard.
+8. If the answer includes an email address ending in @myubiquity.com, always return the sentence exactly as is, without turning it into a clickable link.
+9. When providing login instructions, do not include or display a link to myubiquity.com — instead, simply say ‘Log in to your account.
+10. Summarize the Answer in the response to 3-4 sentences unless it has specific step by step instructions.
+11. Always Use a bulleted list format for clarity unless otherwise specified.
+12. Ensure the response addresses all aspects of the query and is clear and professional.
+13. Answer the QUESTION fist with direct answer not to exceed 2-3 sentences and give step by step instructions after.
+14. Always provide the knowledge article link using an HTML anchor tag to ensure it&apos;s clickable, e.g.:
+&lt;a href=&quot;https://myubiquity.my.site.com/help/s/article/URL&quot;&gt;URL&lt;/a&gt;
+15. If multiple Answers found provide links to the knowledge articles https://myubiquity.my.site.com/help/s/article/ plus Url.
+16. Tailor responses strictly to the specific question, using only information explicitly available in the knowledge base. Never infer, assume, or hallucinate under any circumstances. If the knowledge base does not contain the requested information, respond with: ‘I don’t have that information in my knowledge base.’ Do not fabricate connections (e.g., linking UI elements like buttons or statuses) unless such details are directly and explicitly documented. Always quote only what is supported by the articles.
+17. If the QUESTION is not clear ask for more information.
+18. Your tone should be friendly and informative, as if you were speaking directly to a customer.
+19. End the chat with this if necessary &quot;If you have any more questions or need further assistance, feel free to ask. You can also type &apos;agent&apos; anytime to be connected with a live representative&quot;
+
+ 
+###
+ QUESTION:
+{!$Input:Question}
+
+###
+ KNOWLEDGE:
+{!$EinsteinSearch:Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2.results}
+
+
+
+</content>
+        <inputs>
+            <apiName>Question</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Question</masterLabel>
+            <referenceName>Input:Question</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2</definition>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Answer&quot;,&quot;URL&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Question}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Knowledge_Article_Version_Retriever_1Cx_XNrb30140f2</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>X1I0dMiLpUyyDBgmaNoIVy3XgqqrxRlmlt79nLwfKB0=_8</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>### INSTRUCTIONS
+1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the **QUESTION** section.
+2. Use the KNOWLEDGE to locate the most relevant knowledge articles.
+3. Do not use the Question field in response.
+4. Always assume all the QUESTIONS asked regarding Account or Deferral or Plan or Contribution or auto enrollment are related to 401K Accounts.
+5. Assume words like &quot;Deferrals&quot; as &quot;Contributions&quot;, &quot;Distribution&quot; as &quot;Withdrawal&quot; .
+7. Only provide detail steps in the response if it has step by step instructions referencing our company site, sometimes referred as a dashboard.
+8. If the answer includes an email address ending in @myubiquity.com, always return the sentence exactly as is, without turning it into a clickable link.
+9. When providing login instructions, do not include or display a link to myubiquity.com — instead, simply say ‘Log in to your account.
+10. Summarize the Answer in the response to 3-4 sentences unless it has specific step by step instructions.
+11. Always Use a bulleted list format for clarity unless otherwise specified.
+12. Ensure the response addresses all aspects of the query and is clear and professional.
+13. Answer the QUESTION fist with direct answer not to exceed 2-3 sentences and give step by step instructions after.
+14. Always provide the knowledge article link using an HTML anchor tag to ensure it&apos;s clickable. The dynamic article URL must be converted to lowercase before use. Example: &lt;a href=&quot;https://help.myubiquity.com/articles/{url.toLowerCase()}&quot;&gt;{url.toLowerCase()}&lt;/a&gt;
+15. If multiple answers are found, provide links to each knowledge article. Make sure the dynamic article URL is converted to lowercase before appending. Example: https://help.myubiquity.com/articles/{url.toLowerCase()}
+16. Tailor responses strictly to the specific question, using only information explicitly available in the knowledge base. Never infer, assume, or hallucinate under any circumstances. If the knowledge base does not contain the requested information, respond with: ‘I don’t have that information in my knowledge base.’ Do not fabricate connections (e.g., linking UI elements like buttons or statuses) unless such details are directly and explicitly documented. Always quote only what is supported by the articles.
+17. If the QUESTION is not clear ask for more information.
+18. Your tone should be friendly and informative, as if you were speaking directly to a customer.
+19. End the chat with this if necessary &quot;If you have any more questions or need further assistance, feel free to ask. You can also type &apos;agent&apos; anytime to be connected with a live representative&quot;
+
+ 
+###
+ QUESTION:
+{!$Input:Question}
+
+###
+ KNOWLEDGE:
+{!$EinsteinSearch:Knowledge_Article_Version_v1_Chunk_Retriever_1Cx_XNr5d773f9c.results}
+
+
+
+</content>
+        <inputs>
+            <apiName>Question</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Question</masterLabel>
+            <referenceName>Input:Question</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Knowledge_Article_Version_v1_Chunk_Retriever_1Cx_XNr5d773f9c</definition>
+            <description>Chunk Retriever</description>
+            <label>Knowledge Article Version v1 Chunk Retriever</label>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Question}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;URL&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Knowledge_Article_Version_v1_Chunk_Retriever_1Cx_XNr5d773f9c</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>X1I0dMiLpUyyDBgmaNoIVy3XgqqrxRlmlt79nLwfKB0=_9</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>### INSTRUCTIONS
+1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the **QUESTION** section.
+2. Use the KNOWLEDGE to locate the most relevant knowledge articles.
+3. Do not use the Question field in response.
+4. Always assume all the QUESTIONS asked regarding Account or Deferral or Plan or Contribution or auto enrollment are related to 401K Accounts.
+5. Assume words like &quot;Deferrals&quot; as &quot;Contributions&quot;, &quot;Distribution&quot; as &quot;Withdrawal&quot; .
+7. Only provide detail steps in the response if it has step by step instructions referencing our company site, sometimes referred as a dashboard.
+8. If the answer includes an email address ending in @myubiquity.com, always return the sentence exactly as is, without turning it into a clickable link.
+9. When providing login instructions, do not include or display a link to myubiquity.com — instead, simply say ‘Log in to your account.
+10. Summarize the Answer in the response to 3-4 sentences unless it has specific step by step instructions.
+11. Always Use a bulleted list format for clarity unless otherwise specified.
+12. Ensure the response addresses all aspects of the query and is clear and professional.
+13. Answer the QUESTION fist with direct answer not to exceed 2-3 sentences and give step by step instructions after.
+14. Always provide the knowledge article link using an HTML anchor tag to ensure it&apos;s clickable. The dynamic article URL must be converted to lowercase before use. Example: &lt;a href=&quot;https://help.myubiquity.com/articles/{url.toLowerCase()}&quot;&gt;{url.toLowerCase()}&lt;/a&gt;
+15. If multiple answers are found, provide links to each knowledge article. Make sure the dynamic article URL is converted to lowercase before appending. Example: https://help.myubiquity.com/articles/{url.toLowerCase()}
+16. Tailor responses strictly to the specific question, using only information explicitly available in the knowledge base. Never infer, assume, or hallucinate under any circumstances. If the knowledge base does not contain the requested information, respond with: ‘I don’t have that information in my knowledge base.’ Do not fabricate connections (e.g., linking UI elements like buttons or statuses) unless such details are directly and explicitly documented. Always quote only what is supported by the articles.
+17. If the QUESTION is not clear ask for more information.
+18. Your tone should be friendly and informative, as if you were speaking directly to a customer.
+19. End the chat with this if necessary &quot;If you have any more questions or need further assistance, feel free to ask. You can also type &apos;agent&apos; anytime to be connected with a live representative&quot;
+
+ 
+###
+ QUESTION:
+{!$Input:Question}
+
+###
+ KNOWLEDGE:
+{!$EinsteinSearch:Knowledge_Article_Version_v1_Chunk_Retriever_1Cx_XNr5d773f9c.results}
+
+
+
+</content>
+        <inputs>
+            <apiName>Question</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Question</masterLabel>
+            <referenceName>Input:Question</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT5</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/Knowledge_Article_Version_v1_Chunk_Retriever_1Cx_XNr5d773f9c</definition>
+            <description>Chunk Retriever</description>
+            <label>Knowledge Article Version v1 Chunk Retriever</label>
+            <parameters>
+                <definition>primitive://Integer</definition>
+                <isRequired>false</isRequired>
+                <parameterName>resultCount</parameterName>
+                <valueExpression>10</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://List&lt;String&gt;</definition>
+                <isRequired>false</isRequired>
+                <parameterName>outputFieldNames</parameterName>
+                <valueExpression>[&quot;Chunk&quot;,&quot;URL&quot;]</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Question}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:Knowledge_Article_Version_v1_Chunk_Retriever_1Cx_XNr5d773f9c</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>X1I0dMiLpUyyDBgmaNoIVy3XgqqrxRlmlt79nLwfKB0=_10</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

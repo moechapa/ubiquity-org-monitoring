@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stormy_s_Open_Payroll_Koncierge_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Follow_Up_Date__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Team_Member__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Partner__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Case_Flag__c</columns>
+    <columns>Case_Type__c</columns>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>contains</operation>
+        <value>Payroll</value>
+    </filters>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Team_Member__c</field>
+        <operation>equals</operation>
+        <value>Stormy Bearry</value>
+    </filters>
+    <label>Stormy&apos;s Open Payroll Cases</label>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vote_for_Idea</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Vote for Idea</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/flow/Objective_Button_Vote_for_Idea?recordId={!Objective__c.Id}&amp;retURL=/{!Objective__c.Id}</url>
+</WebLink>

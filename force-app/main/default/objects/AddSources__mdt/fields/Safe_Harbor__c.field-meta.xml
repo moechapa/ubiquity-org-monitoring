@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Safe_Harbor__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Safe Harbor</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Basic Match (100% of 1st 3%+50% of next 2%)</fullName>
+                <default>false</default>
+                <label>Basic Match (100% of 1st 3%+50% of next 2%)</label>
+            </value>
+            <value>
+                <fullName>4% Enhanced Match</fullName>
+                <default>false</default>
+                <label>4% Enhanced Match</label>
+            </value>
+            <value>
+                <fullName>5% Enhanced Match</fullName>
+                <default>false</default>
+                <label>5% Enhanced Match</label>
+            </value>
+            <value>
+                <fullName>6% Enhanced Match</fullName>
+                <default>false</default>
+                <label>6% Enhanced Match</label>
+            </value>
+            <value>
+                <fullName>3% Non-Elective Contribution (NEC)</fullName>
+                <default>false</default>
+                <label>3% Non-Elective Contribution (NEC)</label>
+            </value>
+            <value>
+                <fullName>3.5% QACA Match</fullName>
+                <default>false</default>
+                <label>3.5% QACA Match</label>
+            </value>
+            <value>
+                <fullName>QACA Basic Match (100% up to 1%, 50% up to 6%)</fullName>
+                <default>false</default>
+                <label>QACA Basic Match (100% up to 1%, 50% up to 6%)</label>
+            </value>
+            <value>
+                <fullName>4% QACA Match</fullName>
+                <default>false</default>
+                <label>4% QACA Match</label>
+            </value>
+            <value>
+                <fullName>5% QACA Match</fullName>
+                <default>false</default>
+                <label>5% QACA Match</label>
+            </value>
+            <value>
+                <fullName>6% QACA Match</fullName>
+                <default>false</default>
+                <label>6% QACA Match</label>
+            </value>
+            <value>
+                <fullName>3% QACA non-elective</fullName>
+                <default>false</default>
+                <label>3% QACA non-elective</label>
+            </value>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Plan on which Fund Lineup is being changed</description>
+    <inlineHelpText>Plan on which Fund Lineup is being changed</inlineHelpText>
+    <label>Plan</label>
+    <referenceTo>Plan__c</referenceTo>
+    <relationshipLabel>Fund Lineup Changes</relationshipLabel>
+    <relationshipName>Fund_Lineup_Changes</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

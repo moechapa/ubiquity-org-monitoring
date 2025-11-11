@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kotapay_Fields</fullName>
+    <active>false</active>
+    <description>Requires all Kotapay fields before an Imp is Completed by any team.</description>
+    <errorConditionFormula>(
+NOT( Id = &apos;a2R1G000001IbWbUAK&apos;)
+&amp;&amp;
+NOT( Id = &apos;a2R1G000001RYqXUAW&apos;)
+&amp;&amp;
+NOT( Id = &apos;a2R1G000001RYh1UAG&apos;)
+&amp;&amp;
+NOT( Id = &apos;a2R37000000TgFpEAK&apos;)
+&amp;&amp;
+NOT( Id = &apos;a2R37000000uRKbEAM&apos;)
+&amp;&amp;
+NOT( Id = &apos;a2R1G000001M2NTUA0&apos;)
+&amp;&amp;
+NOT( Id = &apos;a2R1G000001RZ90UAG&apos;)
+&amp;&amp;
+NOT( Id = &apos;a2R37000001E3VbEAK&apos;)
+&amp;&amp;
+NOT( Id = &apos;a2R1G000001M2OHUA0&apos;)
+)
+
+
+&amp;&amp;
+
+(
+ISCHANGED( X1st_Payroll_Processed__c ) 
+&amp;&amp;
+( 
+ISNULL( Kotapay_Client_Signed__c ) 
+||
+ISNULL( Kotapay_Complete__c ) 
+||
+ISNULL( Kotapay_Doc_Created__c ) 
+||
+ISNULL( Kotapay_UBQT_Signed__c )
+)
+)</errorConditionFormula>
+    <errorMessage>Please ensure all 4 Kotapay date fields are complete before continuing.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KPI_Milestone__c</fullName>
+    <label>KPI Milestone</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sign Plan Documents</fullName>
+                <default>false</default>
+                <label>Sign Plan Documents</label>
+            </value>
+            <value>
+                <fullName>Set Up Account Number</fullName>
+                <default>false</default>
+                <label>Set Up Account Number</label>
+            </value>
+            <value>
+                <fullName>Upload Census</fullName>
+                <default>false</default>
+                <label>Upload Census</label>
+            </value>
+            <value>
+                <fullName>Upload Payroll</fullName>
+                <default>false</default>
+                <label>Upload Payroll</label>
+            </value>
+            <value>
+                <fullName>Time to Plan Review</fullName>
+                <default>false</default>
+                <label>Time to Plan Review</label>
+            </value>
+            <value>
+                <fullName>Time to Account #</fullName>
+                <default>false</default>
+                <label>Time to Account #</label>
+            </value>
+            <value>
+                <fullName>Time to Assets &amp; Reporting</fullName>
+                <default>false</default>
+                <label>Time to Assets &amp; Reporting</label>
+            </value>
+            <value>
+                <fullName>Time to Census</fullName>
+                <default>false</default>
+                <label>Time to Census</label>
+            </value>
+            <value>
+                <fullName>Time to Payroll</fullName>
+                <default>false</default>
+                <label>Time to Payroll</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

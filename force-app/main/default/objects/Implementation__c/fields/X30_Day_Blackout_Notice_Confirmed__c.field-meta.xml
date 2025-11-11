@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X30_Day_Blackout_Notice_Confirmed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Filled in when client checks box on Plan Overview Page</inlineHelpText>
+    <label>30 Day Blackout Notice Confirmed</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

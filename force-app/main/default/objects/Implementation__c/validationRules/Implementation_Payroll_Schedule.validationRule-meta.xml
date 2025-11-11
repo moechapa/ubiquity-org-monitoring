@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Implementation_Payroll_Schedule</fullName>
+    <active>true</active>
+    <description>Payroll Schedule required to prevent premature Past Due payroll cases due to missing buffer days automated by the payroll schedule option</description>
+    <errorConditionFormula>NOT(ISBLANK( Payroll_Schedule_Confirmed__c ))
+&amp;&amp;
+(ISBLANK( TEXT( Payroll_Schedule__c   )) = TRUE )</errorConditionFormula>
+    <errorMessage>Please enter the Payroll Schedule</errorMessage>
+</ValidationRule>

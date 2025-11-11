@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blank_Ubiquity_Effective_Date</fullName>
+    <active>false</active>
+    <description>Ubiquity Effective Date is left blank but Ubiquity Plan documents have been signed</description>
+    <errorConditionFormula>NOT(ISBLANK( Ubiquity_Plan_Documents_Signed__c))
+&amp;&amp;
+ISBLANK(Ubiquity_Plan_Effective_Date__c)</errorConditionFormula>
+    <errorDisplayField>Ubiquity_Plan_Effective_Date__c</errorDisplayField>
+    <errorMessage>Please populate the Ubiquity Plan Effective Date.</errorMessage>
+</ValidationRule>

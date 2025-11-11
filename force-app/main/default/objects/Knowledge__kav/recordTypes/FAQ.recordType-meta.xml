@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FAQ</fullName>
+    <active>true</active>
+    <description>This can be used for simple question and answer articles</description>
+    <label>FAQ</label>
+    <picklistValues>
+        <picklist>Audience__c</picklist>
+        <values>
+            <fullName>Advisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ubiquity Basics %26 FAQs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Video Library</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>401%28k%29 Compliance Essentials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advisor Plan Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annual Plan Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annual Plan Testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance for Advisors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance for Employers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance for Participants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance for Single%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance for TPAs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contacting Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contacting Ubiquity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eligibility for Participation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAQs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Funding Your 401%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Funding Your Retirement Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Funding Your Single%28k%29 Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Funding a Retirement Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Questions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Getting Started</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>How-Tos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investments %26 Growth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managing Money Out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managing Withdrawals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managing Your Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managing the Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mega Backdoor Roth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll %2B Annual Contributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Putting Money Into the Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single%28k%29 Plan Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single%28k%29 Plan Withdrawals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TPA Plan Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taking Money Out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taking Money Out of the Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Video Library</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Channel__c</picklist>
+        <values>
+            <fullName>Post-Login Simply</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post-Login Ubiquity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Login Ubiquity</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Category__c</picklist>
+        <values>
+            <fullName>402%28g%29 Refunds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADP%2FACP Testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advisor Portal Guidance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advisor Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annual Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annual Testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annual Testing Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approving Withdrawals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approving Withdrawals for TPAs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Billing %26 Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Choosing Funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance Explainers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contribution Limits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deadlines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distribution Requests</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documentation Requirements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eligibility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Contributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Payroll Contributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee and Employer Contributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employer Contributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employer Plan Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enrollment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filing Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Forfeitures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form 5500-EZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General 401%28k%29 Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Legislative Information%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Getting Started</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardship Withdrawals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>How-to videos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Service Distributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incoming Rollovers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment Options</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment Strategy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment Updates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Requests</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Making Plan Changes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managed Investments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managing Employee Records</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managing Investments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paying Back a Loan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll Contributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Contributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Notices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Notices and Limits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Record Management%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting Best Practices%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required Minimum Distributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supporting Your Employees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TPA Portal Guidance%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TPA Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taking a Loan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terminology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top-Heavy Testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Updating Your Personal Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Withdrawal%2FLoan Rules</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Team_Category__c</picklist>
+        <values>
+            <fullName>Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BizIntel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Learning %2B Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnerships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Success</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SingleK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transitions</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

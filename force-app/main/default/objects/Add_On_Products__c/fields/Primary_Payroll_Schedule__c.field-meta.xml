@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Payroll_Schedule__c</fullName>
+    <description>This is the Payroll Schedule in Paradigm</description>
+    <externalId>false</externalId>
+    <formula>TEXT(Plan__r.Payroll_Schedule__c)</formula>
+    <inlineHelpText>This is the Payroll Schedule in Paradigm. This field is pulled through the Plan Object. If it needs to be updated, please update it in the Plan and ensure they are linked.</inlineHelpText>
+    <label>Primary Payroll Schedule</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

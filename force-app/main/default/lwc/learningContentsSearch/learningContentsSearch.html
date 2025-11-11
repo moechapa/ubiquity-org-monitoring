@@ -1,0 +1,23 @@
+<template>
+    <div class="slds-m-top_large">
+        <div class="slds-m-bottom_small" style="font-size: 14px">
+            Search
+        </div>
+        <span onkeypress={submitWithKeyboard}>
+            <lightning-input
+                label=""
+                variant="label-hidden"
+                type="search"
+                value={searchText}
+                onchange={searchTextChange}
+                placeholder="Search for Learning"
+            ></lightning-input>
+        </span>
+    </div>
+    <c-learning-contents
+        is-loading={isLoading}
+        learning-contents={learningContents}
+        search-text={frozenSearchText}
+        is-search-complete={isSearchComplete}
+    ></c-learning-contents>
+</template>

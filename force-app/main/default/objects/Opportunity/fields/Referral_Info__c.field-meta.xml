@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_Info__c</fullName>
+    <description>Populate name of person/rep providing referral. If automatically sent from Partner put &quot;Auto&quot;. If they come to us directly and found is through Partner&apos;s marketing put &quot;Direct&quot;.</description>
+    <inlineHelpText>Populate name of person/rep providing referral. If automatically sent from Partner put &quot;Auto&quot;. If they come to us directly and found is through Partner&apos;s marketing put &quot;Direct&quot;.</inlineHelpText>
+    <label>Referral Info</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

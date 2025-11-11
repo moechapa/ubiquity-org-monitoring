@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ancillary_Discount_Reason__c</fullName>
+    <description>Reason for Ancillary Billing Discount</description>
+    <inlineHelpText>Reason for Ancillary Billing Discount</inlineHelpText>
+    <label>Ancillary Discount Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ubiquity Error</fullName>
+                <default>false</default>
+                <label>Ubiquity Error</label>
+            </value>
+            <value>
+                <fullName>One-Time Courtesy Waiver</fullName>
+                <default>false</default>
+                <label>One-Time Courtesy Waiver</label>
+            </value>
+            <value>
+                <fullName>Client already billed by another team</fullName>
+                <default>false</default>
+                <label>Client already billed by another team</label>
+            </value>
+            <value>
+                <fullName>At-Risk Clients/Saving Client</fullName>
+                <default>false</default>
+                <label>At-Risk Clients/Saving Client</label>
+            </value>
+            <value>
+                <fullName>System Bug</fullName>
+                <default>false</default>
+                <label>System Bug</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

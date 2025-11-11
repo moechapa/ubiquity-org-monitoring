@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Member__c</fullName>
+    <description>What team member is logging this activity?</description>
+    <inlineHelpText>What team member is logging this activity?</inlineHelpText>
+    <label>Team Member</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Aaron Fekete</fullName>
+                <default>false</default>
+                <label>Aaron Fekete</label>
+            </value>
+            <value>
+                <fullName>Barak Cowling</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Barak Cowling</label>
+            </value>
+            <value>
+                <fullName>Bernard</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bernard</label>
+            </value>
+            <value>
+                <fullName>Bhavesh Patel</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bhavesh Patel</label>
+            </value>
+            <value>
+                <fullName>Brandon</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Brandon</label>
+            </value>
+            <value>
+                <fullName>Brian Britt</fullName>
+                <default>false</default>
+                <label>Brian Britt</label>
+            </value>
+            <value>
+                <fullName>Chester R.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Chester R.</label>
+            </value>
+            <value>
+                <fullName>Darren Sample</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Darren Sample</label>
+            </value>
+            <value>
+                <fullName>Davy</fullName>
+                <default>false</default>
+                <label>Davy</label>
+            </value>
+            <value>
+                <fullName>Estee Hayes</fullName>
+                <default>false</default>
+                <label>Estee Hayes</label>
+            </value>
+            <value>
+                <fullName>Gavin</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Gavin</label>
+            </value>
+            <value>
+                <fullName>Georgia Panosellis</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Georgia Panosellis</label>
+            </value>
+            <value>
+                <fullName>Janine L.</fullName>
+                <default>false</default>
+                <label>Janine L.</label>
+            </value>
+            <value>
+                <fullName>Joel E.</fullName>
+                <default>false</default>
+                <label>Joel E.</label>
+            </value>
+            <value>
+                <fullName>John C.</fullName>
+                <default>false</default>
+                <label>John C.</label>
+            </value>
+            <value>
+                <fullName>Katie Check</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Katie Check</label>
+            </value>
+            <value>
+                <fullName>Kristen Cornell</fullName>
+                <default>false</default>
+                <label>Kristen Cornell</label>
+            </value>
+            <value>
+                <fullName>Liz Ohlhausen</fullName>
+                <default>false</default>
+                <label>Liz Ohlhausen</label>
+            </value>
+            <value>
+                <fullName>Mandy Lantz</fullName>
+                <default>false</default>
+                <label>Mandy Lantz</label>
+            </value>
+            <value>
+                <fullName>Meli</fullName>
+                <default>false</default>
+                <label>Meli</label>
+            </value>
+            <value>
+                <fullName>Melissa Srica</fullName>
+                <default>false</default>
+                <label>Melissa Srica</label>
+            </value>
+            <value>
+                <fullName>Mich</fullName>
+                <default>false</default>
+                <label>Mich</label>
+            </value>
+            <value>
+                <fullName>Pattie Parisi</fullName>
+                <default>false</default>
+                <label>Pattie Parisi</label>
+            </value>
+            <value>
+                <fullName>Rosie Teves</fullName>
+                <default>false</default>
+                <label>Rosie Teves</label>
+            </value>
+            <value>
+                <fullName>Shanna Wu</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Shanna Wu</label>
+            </value>
+            <value>
+                <fullName>Shawn</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Shawn</label>
+            </value>
+            <value>
+                <fullName>Shelley Burguieres</fullName>
+                <default>false</default>
+                <label>Shelley Burguieres</label>
+            </value>
+            <value>
+                <fullName>Sonia Boily</fullName>
+                <default>false</default>
+                <label>Sonia Boily</label>
+            </value>
+            <value>
+                <fullName>Stormy Bearry</fullName>
+                <default>false</default>
+                <label>Stormy Bearry</label>
+            </value>
+            <value>
+                <fullName>Sue Cascio</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sue Cascio</label>
+            </value>
+            <value>
+                <fullName>Temp</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Temp</label>
+            </value>
+            <value>
+                <fullName>Tyree Foster</fullName>
+                <default>false</default>
+                <label>Tyree Foster</label>
+            </value>
+            <value>
+                <fullName>VJ Chanco</fullName>
+                <default>false</default>
+                <label>VJ Chanco</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

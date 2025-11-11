@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UBQTFindSendNotices__c</fullName>
+    <inlineHelpText>Do you want Ubiquity to locate addresses for and/or send certified notices to your ex-employee(s)?</inlineHelpText>
+    <label>UBQTFindSendNotices</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A) I want Ubiquity to locate my ex-employee(s) for me ($25 look up fee per employee) AND send my ex-employee(s) a notice ($10 fee per notice).</fullName>
+                <default>false</default>
+                <label>A) I want Ubiquity to locate my ex-employee(s) for me ($25 look up fee per employee) AND send my ex-employee(s) a notice ($10 fee per notice).</label>
+            </value>
+            <value>
+                <fullName>B) I want Ubiquity to send my ex-employee(s) a notice ($10 fee per notice) to the existing address already on Ubiquity&apos;s system.</fullName>
+                <default>false</default>
+                <label>B) I want Ubiquity to send my ex-employee(s) a notice ($10 fee per notice) to the existing address already on Ubiquity&apos;s system.</label>
+            </value>
+            <value>
+                <fullName>C) I (sponsor/trustee) will locate their last known address, update the information on Ubiquity&apos;s site if applicable and send the certified notice to my ex-employee(s) myself.</fullName>
+                <default>false</default>
+                <label>C) I (sponsor/trustee) will locate their last known address, update the information on Ubiquity&apos;s site if applicable and send the certified notice to my ex-employee(s) myself.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

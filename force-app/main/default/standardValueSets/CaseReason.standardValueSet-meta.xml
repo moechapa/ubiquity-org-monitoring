@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Add/Remove User Permissions</fullName>
+        <default>false</default>
+        <label>Add/Remove User Permissions</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Advertisement</fullName>
+        <default>false</default>
+        <label>Advertisement</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Advisor Assistance Request</fullName>
+        <default>false</default>
+        <label>Advisor Assistance Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Analytics</fullName>
+        <default>false</default>
+        <label>Analytics</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Automation</fullName>
+        <default>false</default>
+        <label>Automation</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Banner</fullName>
+        <default>false</default>
+        <label>Banner</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Assistance Request</fullName>
+        <default>false</default>
+        <label>Client Assistance Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Only Contributing Annually</fullName>
+        <default>false</default>
+        <label>Client Only Contributing Annually</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Unaware of Late Payroll</fullName>
+        <default>false</default>
+        <label>Client Unaware of Late Payroll</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Working to Resolve</fullName>
+        <default>false</default>
+        <label>Client Working to Resolve</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Collateral</fullName>
+        <default>false</default>
+        <label>Collateral</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Complex Project Request</fullName>
+        <default>false</default>
+        <label>Complex Project Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Dashboard Request</fullName>
+        <default>false</default>
+        <label>Dashboard Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Cleanup</fullName>
+        <default>false</default>
+        <label>Data Cleanup</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Load</fullName>
+        <default>false</default>
+        <label>Data Load</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo Request</fullName>
+        <default>false</default>
+        <label>Demo Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Education/Training Need</fullName>
+        <default>false</default>
+        <label>Education/Training Need</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Email List</fullName>
+        <default>false</default>
+        <label>Email List</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Employee Tech Access</fullName>
+        <default>false</default>
+        <label>Employee Tech Access</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalation / Complaint</fullName>
+        <default>false</default>
+        <label>Escalation / Complaint</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>FYI / Announcement</fullName>
+        <default>false</default>
+        <label>FYI / Announcement</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>FYI No Response Needed</fullName>
+        <default>false</default>
+        <label>FYI No Response Needed</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>General Question</fullName>
+        <default>false</default>
+        <label>General Question</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Help Center</fullName>
+        <default>false</default>
+        <label>Help Center</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Issue with 3rd Party Payroll Provider</fullName>
+        <default>false</default>
+        <label>Issue with 3rd Party Payroll Provider</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Knowledge Base</fullName>
+        <default>false</default>
+        <label>Knowledge Base</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>L + D Systems Access</fullName>
+        <default>false</default>
+        <label>L + D Systems Access</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Lead Assignment</fullName>
+        <default>false</default>
+        <label>Lead Assignment</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Market Research</fullName>
+        <default>false</default>
+        <label>Market Research</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Metric Tracking</fullName>
+        <default>false</default>
+        <label>Metric Tracking</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>New Product Assessment</fullName>
+        <default>false</default>
+        <label>New Product Assessment</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>New Product Integration</fullName>
+        <default>false</default>
+        <label>New Product Integration</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Newsletter</fullName>
+        <default>false</default>
+        <label>Newsletter</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>New User</fullName>
+        <default>false</default>
+        <label>New User</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>No Contributions</fullName>
+        <default>false</default>
+        <label>No Contributions</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>No Set Payroll Schedule</fullName>
+        <default>false</default>
+        <label>No Set Payroll Schedule</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Object Build</fullName>
+        <default>false</default>
+        <label>Object Build</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Object Modification</fullName>
+        <default>false</default>
+        <label>Object Modification</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Paradigm Bug</fullName>
+        <default>false</default>
+        <label>Paradigm Bug</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Paradigm Enhancement</fullName>
+        <default>false</default>
+        <label>Paradigm Enhancement</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Payroll is now current</fullName>
+        <default>false</default>
+        <label>Payroll is now current</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Plan Sponsor Left</fullName>
+        <default>false</default>
+        <label>Plan Sponsor Left</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Plan Transition</fullName>
+        <default>false</default>
+        <label>Plan Transition</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Presentation</fullName>
+        <default>false</default>
+        <label>Presentation</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Process Enhancement Request</fullName>
+        <default>false</default>
+        <label>Process Enhancement Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Process Optimization</fullName>
+        <default>false</default>
+        <label>Process Optimization</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Product inquiry</fullName>
+        <default>false</default>
+        <label>Product inquiry</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Project Request</fullName>
+        <default>false</default>
+        <label>Project Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Quality Assurance</fullName>
+        <default>false</default>
+        <label>Quality Assurance</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Report Build</fullName>
+        <default>false</default>
+        <label>Report Build</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Research</fullName>
+        <default>false</default>
+        <label>Research</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Review/update of collateral</fullName>
+        <default>false</default>
+        <label>Review/update of collateral</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Salesforce Enhancement</fullName>
+        <default>false</default>
+        <label>Salesforce Enhancement</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Salesforce Template</fullName>
+        <default>false</default>
+        <label>Salesforce Template</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Simple Survey</fullName>
+        <default>false</default>
+        <label>Simple Survey</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Social</fullName>
+        <default>false</default>
+        <label>Social</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>System Enhancement Request</fullName>
+        <default>false</default>
+        <label>System Enhancement Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>System Errors</fullName>
+        <default>false</default>
+        <label>System Errors</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Tech Access Removal</fullName>
+        <default>false</default>
+        <label>Tech Access Removal</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Tech Access Request</fullName>
+        <default>false</default>
+        <label>Tech Access Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Template/Macro</fullName>
+        <default>false</default>
+        <label>Template/Macro</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>TPA Assistance Request</fullName>
+        <default>false</default>
+        <label>TPA Assistance Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Training Request</fullName>
+        <default>false</default>
+        <label>Training Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Trend/Data Analysis</fullName>
+        <default>false</default>
+        <label>Trend/Data Analysis</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Troubleshooting</fullName>
+        <default>false</default>
+        <label>Troubleshooting</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Tutorial Request</fullName>
+        <default>false</default>
+        <label>Tutorial Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>UI/UX</fullName>
+        <default>false</default>
+        <label>UI/UX</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Vendor analysis</fullName>
+        <default>false</default>
+        <label>Vendor analysis</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Video</fullName>
+        <default>false</default>
+        <label>Video</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Website</fullName>
+        <default>false</default>
+        <label>Website</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

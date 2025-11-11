@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Post_CSAT_Review_Referral_Request</fullName>
+        <description>Post CSAT Review Referral Request</description>
+        <protected>false</protected>
+        <recipients>
+            <field>simplesurvey__Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>support@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Client_Support/Post_CSAT_RefRev_Request</template>
+    </alerts>
+</Workflow>

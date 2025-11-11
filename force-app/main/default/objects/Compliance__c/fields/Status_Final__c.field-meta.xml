@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Final__c</fullName>
+    <description>Final Year 5500 Status</description>
+    <inlineHelpText>Final Year 5500 Status</inlineHelpText>
+    <label>Status_Final</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Invitation to File Sent</fullName>
+                <default>false</default>
+                <label>Invitation to File Sent</label>
+            </value>
+            <value>
+                <fullName>Reminder Sent</fullName>
+                <default>false</default>
+                <label>Reminder Sent</label>
+            </value>
+            <value>
+                <fullName>Filed</fullName>
+                <default>false</default>
+                <label>Filed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

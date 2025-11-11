@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Retirement Plan Consultant</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Retirement Plan Consultant</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>Director_of_Sales</parentRole>
+</Role>

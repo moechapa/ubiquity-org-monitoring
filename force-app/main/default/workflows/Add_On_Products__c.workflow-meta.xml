@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Downloadable_SOC_1_Approved</fullName>
+        <description>Downloadable SOC-1 Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>cfarnsworth@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>compliancemanager@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Compliance/Downloadable_SOC_1_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Downloadable_SOC_1_Rejected</fullName>
+        <description>Downloadable SOC-1 Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>cfarnsworth@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>compliancemanager@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Compliance/Downloadable_SOC_1_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Downloadable_SOC_1_Requested</fullName>
+        <ccEmails>nmazooji@myubiquity.com</ccEmails>
+        <description>Downloadable SOC-1 Requested</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>nmazooji@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Compliance/Downloadable_SOC_1_Requested</template>
+    </alerts>
+    <alerts>
+        <fullName>New_EPS_Sale</fullName>
+        <description>New EPS Sale</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>billing@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>ubiquitypayroll@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Workflow_Templates/Alert_Payroll_Billing_Team_On_EPS_Sale</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Confirm_Approval</fullName>
+        <field>Downloadable_SOC_1_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Confirm Approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Revoke_Approval</fullName>
+        <field>Approval_Requested__c</field>
+        <literalValue>0</literalValue>
+        <name>Revoke Approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Surface_Approval_Component</fullName>
+        <field>Approval_Requested__c</field>
+        <literalValue>1</literalValue>
+        <name>Surface Approval Component</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Add-On Product - Email - New EPS Sale</fullName>
+        <actions>
+            <name>New_EPS_Sale</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Add_On_Products__c.Product_Type__c</field>
+            <operation>equals</operation>
+            <value>Enhanced Payroll Services</value>
+        </criteriaItems>
+        <description>Alerts Payroll &amp; Billing Team to new EPS Sale and Object creation</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Members of Compliance team working cases</description>
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Compliance</name>
+    <queueMembers>
+        <roles>
+            <role>Compliance</role>
+            <role>Director_of_Compliance</role>
+        </roles>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

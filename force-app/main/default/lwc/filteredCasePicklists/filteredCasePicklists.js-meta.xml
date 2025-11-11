@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Filtered Case Picklists</masterLabel>
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <objects>
+                <object>Case</object>
+            </objects>
+        </targetConfig>
+        <targetConfig  targets="lightning__FlowScreen">
+            <property name="flowRecordId" type = "String" label="Case ID" default="" role="inputOnly" description="The record ID of the case being displayed.  Selectable field values are filtered and validated for this case."/>
+            <property name="selectedDepValue" type = "String" label="Selected Department" role="outputOnly"/>
+            <property name="selectedRoleValue" type = "String" label="Selected Sender Role" role="outputOnly"/>
+            <property name="selectedCatValue" type = "String" label="Selected Category" role="outputOnly"/>
+            <property name="selectedSubCatValue" type = "String" label="Selected Sub-Category" role="outputOnly"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

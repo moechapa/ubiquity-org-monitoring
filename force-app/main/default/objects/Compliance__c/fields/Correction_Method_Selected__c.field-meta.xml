@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Correction_Method_Selected__c</fullName>
+    <description>Method Client has selected to to fix testing results.</description>
+    <inlineHelpText>Method Client has selected to to fix testing results.</inlineHelpText>
+    <label>Correction Method Selected</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Refund</fullName>
+                <default>false</default>
+                <label>Refund</label>
+            </value>
+            <value>
+                <fullName>Deemed</fullName>
+                <default>false</default>
+                <label>Deemed</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>4%SHNE</fullName>
+                <default>false</default>
+                <label>4%SHNE</label>
+            </value>
+            <value>
+                <fullName>QNEC</fullName>
+                <default>false</default>
+                <label>QNEC</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>QNEC Funded</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>QNEC Funded</label>
+            </value>
+            <value>
+                <fullName>QNEC Requested</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>QNEC Requested</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

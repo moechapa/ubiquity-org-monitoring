@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Single(k)</name>
+    <queueMembers>
+        <users>
+            <user>areyman@myubiquity.com</user>
+            <user>ccline-parker@myubiquity.com</user>
+            <user>ezuniga@myubiquity.com</user>
+            <user>ebrock@myubiquity.com</user>
+            <user>edoughty@myubiquity.com</user>
+            <user>eballesteros@myubiquity.com</user>
+            <user>ecastillo@myubiquity.com</user>
+            <user>gstanton@myubiquity.com</user>
+            <user>khundley@myubiquity.com</user>
+            <user>rabbott@myubiquity.com</user>
+            <user>sdimalanta@myubiquity.com</user>
+            <user>sfransz@myubiquity.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>General_Case</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Plan__c</sobjectType>
+    </queueSobject>
+</Queue>

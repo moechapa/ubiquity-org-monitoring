@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Health_Check_Type__c</fullName>
+    <description>What type of Client Health Check was conducted?</description>
+    <inlineHelpText>What type of Client Health Check was conducted?</inlineHelpText>
+    <label>Client Health Check Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Simple Health Check</fullName>
+                <default>false</default>
+                <label>Simple Health Check</label>
+            </value>
+            <value>
+                <fullName>Detailed Health Check</fullName>
+                <default>false</default>
+                <label>Detailed Health Check</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

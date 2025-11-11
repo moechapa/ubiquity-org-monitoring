@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Five9_Handle_Time_Sec__c</fullName>
+    <externalId>false</externalId>
+    <formula>VALUE(LEFT( Five9HandleTime__c , 2))*3600 + VALUE(MID(Five9HandleTime__c , 4, 2))*60 + VALUE(RIGHT(Five9HandleTime__c , 2))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Five9 Handle Time (Sec)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SOC__c</fullName>
+    <description>What type(s) of SOC are required?</description>
+    <inlineHelpText>What type(s) of SOC are required?</inlineHelpText>
+    <label>SOC</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SOC 1</fullName>
+                <default>false</default>
+                <label>SOC 1</label>
+            </value>
+            <value>
+                <fullName>SOC 2</fullName>
+                <default>false</default>
+                <label>SOC 2</label>
+            </value>
+            <value>
+                <fullName>SOC 3</fullName>
+                <default>false</default>
+                <label>SOC 3</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

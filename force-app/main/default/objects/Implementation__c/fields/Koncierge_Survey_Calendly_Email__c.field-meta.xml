@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Koncierge_Survey_Calendly_Email__c</fullName>
+    <description>Date Payroll (K)oncierge sent welcome email with survey &amp; calendly links</description>
+    <inlineHelpText>Date Payroll (K)oncierge sent welcome email with survey &amp; calendly links</inlineHelpText>
+    <label>(K)oncierge Survey Calendly Email</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Single_k_Plus_Project_Tasks</fullName>
+    <columns>NAME</columns>
+    <columns>Implementation__c</columns>
+    <columns>Actual_Start_Date__c</columns>
+    <columns>Actual_Completion_Date__c</columns>
+    <columns>Order_Number__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Work_Breakdown_Structure__c</field>
+        <operation>contains</operation>
+        <value>Single(k) Plus</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Pending,Completed,Not Needed,Declined</value>
+    </filters>
+    <label>Single(k) Plus Project Tasks</label>
+</ListView>

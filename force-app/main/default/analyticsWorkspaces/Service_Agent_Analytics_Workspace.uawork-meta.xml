@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticsWorkspace xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Service Agent Analytics Workspace</masterLabel>
+    <workspaceAssetRelationships>
+        <asset>Service_Agent_Analytics_SDM</asset>
+        <assetType>SemanticModel</assetType>
+        <assetUsageType>Referenced</assetUsageType>
+        <workspace>Service_Agent_Analytics_Workspace</workspace>
+    </workspaceAssetRelationships>
+</AnalyticsWorkspace>

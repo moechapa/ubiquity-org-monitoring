@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_to_Census_KPI_Missed__c</fullName>
+    <description>Calc field for data studio to mark the date the KPI was missed</description>
+    <formula>IF( Time_To_Census_KPI_SLA_Met__c = 0, 
+
+(IF( Ubiquity_Plan_Effective_Date__c &lt; Census_and_Payroll_Instructions_Sent__c ,
+
+
+ Census_and_Payroll_Instructions_Sent__c +10,  Ubiquity_Plan_Effective_Date__c + 10)), null)</formula>
+    <inlineHelpText>Calc field for data studio to mark the date the KPI was missed</inlineHelpText>
+    <label>Time to Census KPI Missed</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

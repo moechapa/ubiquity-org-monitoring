@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChatBot_Sessions</fullName>
+    <columns>Name</columns>
+    <columns>Contact</columns>
+    <columns>Account</columns>
+    <columns>Status</columns>
+    <columns>StartTime</columns>
+    <columns>Owner</columns>
+    <columns>OperatorMessageCount</columns>
+    <columns>VisitorMessageCount</columns>
+    <columns>LiveChatButton</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2020 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Owner</field>
+        <operation>contains</operation>
+        <value>autopr</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>notEqual</operation>
+        <value>0</value>
+    </filters>
+    <label>ChatBot Sessions</label>
+</ListView>

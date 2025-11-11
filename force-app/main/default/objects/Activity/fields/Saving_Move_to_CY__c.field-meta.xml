@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Saving_Move_to_CY__c</fullName>
+    <description>MStar Fees - Estimated CY Fees</description>
+    <formula>Current_MStar_Fees__c -  Estimated_CY_Fees__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>MStar Fees - Estimated CY Fees</inlineHelpText>
+    <label>Savings from Moving to CY</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

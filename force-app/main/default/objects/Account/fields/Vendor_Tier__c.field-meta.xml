@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_Tier__c</fullName>
+    <description>What tier is this vendor? Vendor tier correlates to level of scrutiny/oversight required</description>
+    <inlineHelpText>Low Risk, No Security Impact = Tier 4/
+Low Risk, Security Impact = Tier 3/
+Medium Risk, Departmental Minimal Impact = Tier 3/
+Medium Risk, Enterprise-Wide Minimal Impact = Tier 2/
+High Risk, Departmental Impact Only = Tier 2/
+High Risk, Enterprise-Wide Impact = Tier 1/
+Very High Risk, Enterprise-Wide Severe Impact = Tier 1</inlineHelpText>
+    <label>Vendor Tier</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Tier 1</fullName>
+                <default>false</default>
+                <label>Tier 1</label>
+            </value>
+            <value>
+                <fullName>Tier 2</fullName>
+                <default>false</default>
+                <label>Tier 2</label>
+            </value>
+            <value>
+                <fullName>Tier 3</fullName>
+                <default>false</default>
+                <label>Tier 3</label>
+            </value>
+            <value>
+                <fullName>Tier 4</fullName>
+                <default>false</default>
+                <label>Tier 4</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>At_Risk__c</fullName>
+    <description>If it has been 14 days since the census call and the client hasn&apos;t completed census or if it has been 14 days since the funding call was completed but the Imp isn&apos;t completed, the Imp is &quot;At Risk&quot;</description>
+    <formula>IF((Census_Call_Complete__c = TRUE &amp;&amp; TODAY() - DATEVALUE(Census_Call_Date_Time__c) &gt;= 14 &amp;&amp; ISNULL( Census_and_Eligibility_Uploaded__c )) || (Funding_Call_Complete__c = TRUE &amp;&amp; (TODAY() - DATEVALUE(Funding_Call_Date_Time__c) &gt;= 14 &amp;&amp; NOT(ISPICKVAL( Implementation_Status__c, &quot;Completed&quot; )))), TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If it has been 14 days since the census call and the client hasn&apos;t completed census or if it has been 14 days since the funding call was completed but the Imp isn&apos;t completed, the Imp is &quot;At Risk&quot;</inlineHelpText>
+    <label>At Risk</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

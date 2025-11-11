@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Account_De_Escalated</fullName>
+        <description>Account De-Escalated</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <field>Escalator__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <recipients>
+            <field>Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Account_De_Escalated</template>
+    </alerts>
+    <alerts>
+        <fullName>Account_Escalated</fullName>
+        <description>Account Escalated</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>potter@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Account_Escalated</template>
+    </alerts>
+    <alerts>
+        <fullName>Escalation_Assigned</fullName>
+        <description>Escalation Assigned</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Escalation_Asssigned</template>
+    </alerts>
+    <alerts>
+        <fullName>Suspected_Fraud_Alert</fullName>
+        <description>Suspected Fraud Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>bgatewood@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>nmazooji@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/Fraud_Escalation</template>
+    </alerts>
+</Workflow>

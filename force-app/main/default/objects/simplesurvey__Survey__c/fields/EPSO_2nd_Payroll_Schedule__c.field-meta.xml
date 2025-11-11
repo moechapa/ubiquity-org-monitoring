@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EPSO_2nd_Payroll_Schedule__c</fullName>
+    <inlineHelpText>Do you have a second payroll schedule/frequency? Example: owners paid monthly and employees paid weekly.</inlineHelpText>
+    <label>2nd Payroll Schedule</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Weekly</fullName>
+                <default>false</default>
+                <label>Weekly</label>
+            </value>
+            <value>
+                <fullName>Bi-weekly</fullName>
+                <default>false</default>
+                <label>Bi-weekly</label>
+            </value>
+            <value>
+                <fullName>Semi-monthly</fullName>
+                <default>false</default>
+                <label>Semi-monthly</label>
+            </value>
+            <value>
+                <fullName>Semi-monthly (off cycle)</fullName>
+                <default>false</default>
+                <label>Semi-monthly (off cycle)</label>
+            </value>
+            <value>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+                <label>Monthly</label>
+            </value>
+            <value>
+                <fullName>Quarterly</fullName>
+                <default>false</default>
+                <label>Quarterly</label>
+            </value>
+            <value>
+                <fullName>Annual</fullName>
+                <default>false</default>
+                <label>Annual</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

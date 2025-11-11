@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContactEmail</fullName>
+    <inlineHelpText>This is the main email in the contact record.  The contact may have a secondary email as well.   The &quot;Web Email&quot; field confirms which email the client used when initiating the case.</inlineHelpText>
+    <trackTrending>false</trackTrending>
+</CustomField>

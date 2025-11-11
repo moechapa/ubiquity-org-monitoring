@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Meeting_Type_URL_Complete</fullName>
+    <active>true</active>
+    <description>Require Meeting Type and URL when Meeting = Completed</description>
+    <errorConditionFormula>AND
+
+(NOT(ISPICKVAL( Stage__c , &quot;Declined&quot;)),
+ NOT(INCLUDES( Meeting_Type__c , &quot;Enrollment Kit only&quot;)),
+(ISPICKVAL( Status__c , &quot;Completed&quot;)),
+
+(OR(
+ISBLANK(  What_Was_Unclear_Missing__c  ),
+ISBLANK(  What_Went_Well__c  ),
+ISBLANK(  Meeting_Recording_URL__c ),
+ISBLANK(  Meeting_Type__c  ))))</errorConditionFormula>
+    <errorMessage>&quot;Meeting Type&quot; | &quot;Meeting Recording URL&quot; | &quot;What Went Well&quot; | &quot;What Was Unclear/Missing&quot; are all required to mark as Completed.</errorMessage>
+</ValidationRule>

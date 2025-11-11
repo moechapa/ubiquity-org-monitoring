@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PostCostcoOptIN__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Contact Record PostCostcoOpt</description>
+    <label>PostCostcoOptIN</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

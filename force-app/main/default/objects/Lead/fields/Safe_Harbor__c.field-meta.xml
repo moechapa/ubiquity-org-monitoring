@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Safe_Harbor__c</fullName>
+    <description>Indicate prospects Safe Harbor Preference</description>
+    <inlineHelpText>Indicate prospects Safe Harbor Preference</inlineHelpText>
+    <label>Safe Harbor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Service_Option__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>4% Enhanced Match</fullName>
+                <default>false</default>
+                <label>4% Enhanced Match</label>
+            </value>
+            <value>
+                <fullName>5% Enhanced Match</fullName>
+                <default>false</default>
+                <label>5% Enhanced Match</label>
+            </value>
+            <value>
+                <fullName>6% Enhanced Match</fullName>
+                <default>false</default>
+                <label>6% Enhanced Match</label>
+            </value>
+            <value>
+                <fullName>Basic Match (100% of 1st 3%+50% of next 2%)</fullName>
+                <default>false</default>
+                <label>Basic Match (100% of 1st 3%+50% of next 2%)</label>
+            </value>
+            <value>
+                <fullName>3% Non-Elective Contribution (NEC)</fullName>
+                <default>false</default>
+                <label>3% Non-Elective Contribution (NEC)</label>
+            </value>
+            <value>
+                <fullName>QACA Basic Match (100% up to 1%, 50% up to 6%)</fullName>
+                <default>false</default>
+                <label>QACA Basic Match (100% up to 1%, 50% up to 6%)</label>
+            </value>
+            <value>
+                <fullName>3.5% QACA Match</fullName>
+                <default>false</default>
+                <label>3.5% QACA Match</label>
+            </value>
+            <value>
+                <fullName>4% QACA Match</fullName>
+                <default>false</default>
+                <label>4% QACA Match</label>
+            </value>
+            <value>
+                <fullName>5% QACA Match</fullName>
+                <default>false</default>
+                <label>5% QACA Match</label>
+            </value>
+            <value>
+                <fullName>6% QACA Match</fullName>
+                <default>false</default>
+                <label>6% QACA Match</label>
+            </value>
+            <value>
+                <fullName>3% QACA non-elective</fullName>
+                <default>false</default>
+                <label>3% QACA non-elective</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <valueName>QACA Basic Match (100% up to 1%, 50% up to 6%)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <valueName>3% QACA non-elective</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <valueName>4% Enhanced Match</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <valueName>Basic Match (100% of 1st 3%+50% of next 2%)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <valueName>5% Enhanced Match</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <valueName>6% Enhanced Match</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <valueName>3% Non-Elective Contribution (NEC)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Legacy Saver(k)</controllingFieldValue>
+            <valueName>3.5% QACA Match</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <valueName>4% QACA Match</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <valueName>5% QACA Match</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <valueName>6% QACA Match</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

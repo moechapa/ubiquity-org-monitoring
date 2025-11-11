@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employee_Compensation__c</fullName>
+    <inlineHelpText>What type of compensation do your employees received (Select all that apply)</inlineHelpText>
+    <label>Employee Compensation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>W-2 Compensation</fullName>
+                <default>false</default>
+                <label>W-2 Compensation</label>
+            </value>
+            <value>
+                <fullName>1099 Independent Contractors</fullName>
+                <default>false</default>
+                <label>1099 Independent Contractors</label>
+            </value>
+            <value>
+                <fullName>Commission</fullName>
+                <default>false</default>
+                <label>Commission</label>
+            </value>
+            <value>
+                <fullName>Variable Pay</fullName>
+                <default>false</default>
+                <label>Variable Pay</label>
+            </value>
+            <value>
+                <fullName>Bonus</fullName>
+                <default>false</default>
+                <label>Bonus</label>
+            </value>
+            <value>
+                <fullName>Severance Pay</fullName>
+                <default>false</default>
+                <label>Severance Pay</label>
+            </value>
+            <value>
+                <fullName>K-1 Compensation</fullName>
+                <default>false</default>
+                <label>K-1 Compensation</label>
+            </value>
+            <value>
+                <fullName>Schedule C</fullName>
+                <default>false</default>
+                <label>Schedule C</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

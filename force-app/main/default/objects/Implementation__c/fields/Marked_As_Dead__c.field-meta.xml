@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marked_As_Dead__c</fullName>
+    <description>Date Plan is Marked as Dead in Paradigm</description>
+    <inlineHelpText>Date Plan is Marked as Dead in Paradigm</inlineHelpText>
+    <label>Marked As Dead</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

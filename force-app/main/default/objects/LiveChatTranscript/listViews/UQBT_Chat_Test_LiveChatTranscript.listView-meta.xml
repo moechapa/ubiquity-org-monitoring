@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UQBT_Chat_Test_LiveChatTranscript</fullName>
+    <columns>Owner</columns>
+    <columns>Name</columns>
+    <columns>Case</columns>
+    <columns>Contact</columns>
+    <columns>Account</columns>
+    <columns>Status</columns>
+    <columns>StartTime</columns>
+    <columns>EndTime</columns>
+    <columns>CreatedDate</columns>
+    <columns>Pre_Chat_Question__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LiveChatButton</field>
+        <operation>startsWith</operation>
+        <value>UBQT EE</value>
+    </filters>
+    <label>UBQT EE Lightning Chat</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

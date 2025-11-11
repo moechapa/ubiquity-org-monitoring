@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Account__c</fullName>
+    <description>Partner Account associated with the Add-On Product</description>
+    <inlineHelpText>Partner Account associated with the Add-On Product</inlineHelpText>
+    <label>Partner Account</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Partner Add-On Associations</relationshipLabel>
+    <relationshipName>Partner_Add_On_Associations</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

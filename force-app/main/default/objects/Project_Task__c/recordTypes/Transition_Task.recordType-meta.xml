@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transition_Task</fullName>
+    <active>true</active>
+    <label>Transition Task</label>
+    <picklistValues>
+        <picklist>Declined_Reason__c</picklist>
+        <values>
+            <fullName>Self Start</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>KPI_Milestone__c</picklist>
+        <values>
+            <fullName>Set Up Account Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sign Plan Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time to Account %23</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time to Assets %26 Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time to Census</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time to Payroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time to Plan Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upload Census</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upload Payroll</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QA_Status__c</picklist>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Responsible_Party__c</picklist>
+        <values>
+            <fullName>Accounting %26 Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custodian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementations Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multiple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll %28K%29oncierge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transitions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UBQT Team</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Declined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Team_Member__c</picklist>
+        <values>
+            <fullName>Aaron Fekete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brian Britt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estee Hayes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patricia Parisi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stormy Bearry</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

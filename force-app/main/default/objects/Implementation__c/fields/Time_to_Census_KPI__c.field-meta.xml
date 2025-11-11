@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_to_Census_KPI__c</fullName>
+    <description>Running total of days from Census and Payroll Instructions Sent to Census &amp; Eligibility Uploaded.   Stops counting once Census and Eligibility Uploaded date is entered.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+ ISNULL(Census_and_Payroll_Instructions_Sent__c), 0-0,
+
+(IF( Ubiquity_Plan_Effective_Date__c &lt;  Census_and_Payroll_Instructions_Sent__c ,
+
+
+(IF(ISNULL(Census_and_Eligibility_Uploaded__c), 
+TODAY()- Census_and_Payroll_Instructions_Sent__c, 
+Census_and_Eligibility_Uploaded__c - Census_and_Payroll_Instructions_Sent__c)),
+
+(IF(ISNULL(Census_and_Eligibility_Uploaded__c), 
+MAX((TODAY()-  Ubiquity_Plan_Effective_Date__c) ,0), 
+Census_and_Eligibility_Uploaded__c -    Ubiquity_Plan_Effective_Date__c  ))
+)))</formula>
+    <inlineHelpText>Running total of days from Census and Payroll Instructions Sent to Census &amp; Eligibility Uploaded.   Stops counting once Census and Eligibility Uploaded date is entered.</inlineHelpText>
+    <label>Time to Census KPI</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

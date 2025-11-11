@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CARES_Act_Declined__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Client does not want to adopt CARES Act</description>
+    <inlineHelpText>Client does not want to adopt CARES Act</inlineHelpText>
+    <label>CARES Act Declined</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

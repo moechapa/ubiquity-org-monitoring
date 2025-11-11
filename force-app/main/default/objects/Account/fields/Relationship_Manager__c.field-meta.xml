@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relationship_Manager__c</fullName>
+    <label>Relationship Manager</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alyssa Witt</fullName>
+                <default>false</default>
+                <label>Alyssa Witt</label>
+            </value>
+            <value>
+                <fullName>Mike Bisset</fullName>
+                <default>false</default>
+                <label>Mike Bisset</label>
+            </value>
+            <value>
+                <fullName>Linnae LaCore</fullName>
+                <default>false</default>
+                <label>Linnae LaCore</label>
+            </value>
+            <value>
+                <fullName>Estee Hayes</fullName>
+                <default>false</default>
+                <label>Estee Hayes</label>
+            </value>
+            <value>
+                <fullName>Jason Gross</fullName>
+                <default>false</default>
+                <label>Jason Gross</label>
+            </value>
+            <value>
+                <fullName>Robby Forsythe</fullName>
+                <default>false</default>
+                <label>Robby Forsythe</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

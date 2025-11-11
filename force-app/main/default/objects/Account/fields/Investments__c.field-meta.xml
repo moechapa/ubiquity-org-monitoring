@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investments__c</fullName>
+    <inlineHelpText>This information will come in from the Find the Right Plan Tool.  Can be manually overwritten.</inlineHelpText>
+    <label>Investments</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advisor</fullName>
+                <default>false</default>
+                <label>Advisor</label>
+            </value>
+            <value>
+                <fullName>Brokerage</fullName>
+                <default>false</default>
+                <label>Brokerage</label>
+            </value>
+            <value>
+                <fullName>Custom</fullName>
+                <default>false</default>
+                <label>Custom</label>
+            </value>
+            <value>
+                <fullName>Included</fullName>
+                <default>false</default>
+                <label>Included</label>
+            </value>
+            <value>
+                <fullName>Not Sure</fullName>
+                <default>false</default>
+                <label>Not Sure</label>
+            </value>
+            <value>
+                <fullName>Didn&apos;t answer</fullName>
+                <default>false</default>
+                <label>Didn&apos;t answer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

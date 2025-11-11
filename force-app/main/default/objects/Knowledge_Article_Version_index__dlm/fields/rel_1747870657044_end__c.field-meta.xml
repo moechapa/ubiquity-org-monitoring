@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rel_1747870657044_end__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Knowledge_Article_Version_index_Sour_rel</label>
+    <referenceTo>Knowledge_Article_Version_chunk__dlm</referenceTo>
+    <relationshipLabel>Knowledge_Article_Version_index_Sour_rel</relationshipLabel>
+    <relationshipName>rel_1747870657044_end</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

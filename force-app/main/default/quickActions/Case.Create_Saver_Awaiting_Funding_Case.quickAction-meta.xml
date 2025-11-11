@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Creates Savers Case for Awaiting Rollovers</description>
+    <fieldOverrides>
+        <field>AccountId</field>
+        <formula>Case.AccountId</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>ContactId</field>
+        <formula>Case.ContactId</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Department__c</field>
+        <literalValue>Saver Success</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Description</field>
+        <formula>Case.Description</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Origin</field>
+        <literalValue>Internal</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Status</field>
+        <literalValue>New</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Subject</field>
+        <formula>Case.Subject</formula>
+    </fieldOverrides>
+    <label>Create Saver Awaiting Funding Case</label>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>OwnerId</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns/>
+    </quickActionLayout>
+    <successMessage>Savers Case created</successMessage>
+    <targetObject>Case</targetObject>
+    <targetParentField>Parent</targetParentField>
+    <targetRecordType>Case.Servicing</targetRecordType>
+    <type>Create</type>
+</QuickAction>

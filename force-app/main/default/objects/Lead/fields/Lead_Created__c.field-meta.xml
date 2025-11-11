@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Created__c</fullName>
+    <description>Date Lead was Created to be passed to Opportunity</description>
+    <formula>DATEVALUE(CreatedDate)</formula>
+    <inlineHelpText>Date Lead was Created to be passed to Opportunity</inlineHelpText>
+    <label>Lead Created</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fund_Lineup_Change__c</fullName>
+    <description>What is the reason for the Fund Lineup Change?</description>
+    <inlineHelpText>What is the reason for the Fund Lineup Change?</inlineHelpText>
+    <label>Fund Lineup Change Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Add Asset Manager</fullName>
+                <default>false</default>
+                <label>Add Asset Manager</label>
+            </value>
+            <value>
+                <fullName>Advisor/Partner Request</fullName>
+                <default>false</default>
+                <label>Advisor/Partner Request</label>
+            </value>
+            <value>
+                <fullName>Asset Manager Change</fullName>
+                <default>false</default>
+                <label>Asset Manager Change</label>
+            </value>
+            <value>
+                <fullName>Asset Manager Removal</fullName>
+                <default>false</default>
+                <label>Asset Manager Removal</label>
+            </value>
+            <value>
+                <fullName>Custodian Change</fullName>
+                <default>false</default>
+                <label>Custodian Change</label>
+            </value>
+            <value>
+                <fullName>Money Market Reform</fullName>
+                <default>false</default>
+                <label>Money Market Reform</label>
+            </value>
+            <value>
+                <fullName>Promotional Campaign</fullName>
+                <default>false</default>
+                <label>Promotional Campaign</label>
+            </value>
+            <value>
+                <fullName>Sponsor/Trustee Request</fullName>
+                <default>false</default>
+                <label>Sponsor/Trustee Request</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

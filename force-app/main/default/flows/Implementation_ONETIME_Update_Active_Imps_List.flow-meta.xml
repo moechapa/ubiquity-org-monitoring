@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Add_to_Collection_0</name>
+        <label>Add to Collection</label>
+        <locationX>398</locationX>
+        <locationY>546</locationY>
+        <assignmentItems>
+            <assignToReference>advisorContactCollection</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>advisorContact</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_Through_Advisors_Related_to_Imp</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Imps_List</name>
+        <label>Assign Imps List</label>
+        <locationX>551</locationX>
+        <locationY>598</locationY>
+        <assignmentItems>
+            <assignToReference>advisorContact.Current_Active_Clients__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>allActiveImps</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorContact.Id</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Loop_Through_Advisors_Related_to_Imp.Contact__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_to_Collection_0</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Collect_Active_Implementations</name>
+        <label>Collect Active Implementations</label>
+        <locationX>504</locationX>
+        <locationY>1023</locationY>
+        <assignmentItems>
+            <assignToReference>allActiveImps</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>implementationStatus</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Grab_Imp_Info</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Direct_or_Advisor_Sourced</name>
+        <label>Direct or Advisor-Sourced?</label>
+        <locationX>158</locationX>
+        <locationY>473</locationY>
+        <defaultConnectorLabel>Direct</defaultConnectorLabel>
+        <rules>
+            <name>Advisor_Sourced</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>associatedAdvisors</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Loop_Through_Advisors_Related_to_Imp</targetReference>
+            </connector>
+            <label>Advisor-Sourced</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Imp_Completed</name>
+        <label>Imp Completed?</label>
+        <locationX>723</locationX>
+        <locationY>949</locationY>
+        <defaultConnector>
+            <targetReference>Collect_Active_Implementations</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Grab_Imp_Info.Implementation_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Completed</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Grab_Imp_Info</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <name>implementationStatus</name>
+        <dataType>String</dataType>
+        <expression>IF({!Grab_Imp_Info.Implementation_Stage__c} = &quot;Pending Document Signature&quot;,
+{!Grab_Imp_Info.Implementation__r.Name} + &quot; is on Step 1 of 7. Their next step is to sign the remaining plan documents.&quot; + BR() + BR(),
+
+IF({!Grab_Imp_Info.Implementation_Stage__c} = &quot;Pending Funding Account Setup&quot;,
+{!Grab_Imp_Info.Implementation__r.Name} + &quot; is on Step 2 of 7. Their next step is to enter the payroll schedule, funding account and company information on the Ubiquity site to facilitate the plan’s ACH setup.&quot; + BR() + BR(),
+
+IF({!Grab_Imp_Info.Implementation_Stage__c} = &quot;Pending Client ACH Signature&quot;,
+{!Grab_Imp_Info.Implementation__r.Name} + &quot; is on Step 3 of 7. Their next step is to sign the ACH application. This was emailed to the trustee from dse@docusign.net.&quot; + BR() + BR(),
+
+IF({!Grab_Imp_Info.Implementation_Stage__c} = &quot;Census and Payroll Instructions Sent&quot;,
+{!Grab_Imp_Info.Implementation__r.Name} + &quot; is on Step 4 of 7. Their next step is to watch the census video and upload the required employee census data to the Ubiquity site.&quot;+ BR() + BR(),
+
+IF(AND({!Grab_Imp_Info.Implementation_Stage__c} = &quot;Census/Eligibility Uploaded&quot;, ISNULL({!Grab_Imp_Info.Intro_to_K_oncierge_Complete__c}),
+ISNULL({!Grab_Imp_Info.K_oncierge_Initial_Call__c}),
+ISNULL({!Grab_Imp_Info.X1st_Payroll_Date__c})),
+{!Grab_Imp_Info.Implementation__r.Name} + &quot; is on Step 5 of 7. Their next step is to ensure the Enrollment Kit is sent to employees.&quot; + BR() + BR(),
+
+IF(AND({!Grab_Imp_Info.Implementation_Stage__c} = &quot;Census/Eligibility Uploaded&quot;, NOT(ISNULL({!Grab_Imp_Info.Intro_to_K_oncierge_Complete__c})),
+ISNULL({!Grab_Imp_Info.K_oncierge_Initial_Call__c}),
+ISNULL({!Grab_Imp_Info.X1st_Payroll_Date__c})),
+{!Grab_Imp_Info.Implementation__r.Name} + &quot; is on Step 6 of 7. Their next step is the complete the questionnaire and schedule a call with our Payroll (K)oncierge to complete initial payroll setup.&quot; + BR() + BR(),
+
+IF(AND({!Grab_Imp_Info.Implementation_Stage__c} = &quot;Census/Eligibility Uploaded&quot;, NOT(ISNULL({!Grab_Imp_Info.Intro_to_K_oncierge_Complete__c})),
+NOT(ISNULL({!Grab_Imp_Info.K_oncierge_Initial_Call__c})),
+ISNULL({!Grab_Imp_Info.X1st_Payroll_Date__c})),
+{!Grab_Imp_Info.Implementation__r.Name} + &quot; is on Step 7 of 7. Their next step is to schedule and attend a training call to report the plan’s first 401(k) contributions. If your client is enrolling in payroll integration services, they will be responsible for reporting 401(k) contributions until the one-time payroll integration setup has been completed.&quot; + BR() + BR(),
+
+IF({!Grab_Imp_Info.Implementation_Stage__c} = &quot;1st Payroll Submitted&quot;,
+{!Grab_Imp_Info.Implementation__r.Name} + &quot; has reported the plan’s first 401(k) contributions. . Their next step is to wait for contributions to process and wrap up any outstanding payroll setup items with our Payroll (K)oncierge.&quot; + BR() + BR(),
+
+{!Grab_Imp_Info.Implementation__r.Name} + &quot; is currently working with their Implementation Specialist on the plan setup.&quot;+ BR() + BR()))))))))</expression>
+    </formulas>
+    <interviewLabel>Implementation | ONETIME | Update Active Imps List {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Implementation | ONETIME | Update Active Imps List</label>
+    <loops>
+        <name>Grab_Imp_Info</name>
+        <label>Grab Imp Info</label>
+        <locationX>549</locationX>
+        <locationY>778</locationY>
+        <collectionReference>Get_Associations_to_other_Plans</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Imp_Completed</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Assign_Imps_List</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <loops>
+        <name>Loop_Through_Advisors_Related_to_Imp</name>
+        <label>Loop Through Advisors Related to Imp</label>
+        <locationX>164</locationX>
+        <locationY>713</locationY>
+        <collectionReference>associatedAdvisors</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Get_Associations_to_other_Plans</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Update_Contacts</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Associated_Advisors</name>
+        <label>Get Associated Advisors</label>
+        <locationX>165</locationX>
+        <locationY>283</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Direct_or_Advisor_Sourced</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Implementation__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Contact_Role__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Financial Advisor</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Implementation_Status__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Completed</stringValue>
+            </value>
+        </filters>
+        <object>Associated_Contact__c</object>
+        <outputReference>associatedAdvisors</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Contact__c</queriedFields>
+        <queriedFields>Implementation_Stage__c</queriedFields>
+        <queriedFields>Implementation_Status__c</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Associations_to_other_Plans</name>
+        <label>Get Associations to other Plans</label>
+        <locationX>384</locationX>
+        <locationY>771</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Grab_Imp_Info</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Contact__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Loop_Through_Advisors_Related_to_Imp.Contact__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Implementation__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Associated_Contact__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Contacts</name>
+        <label>Update Contacts</label>
+        <locationX>163</locationX>
+        <locationY>966</locationY>
+        <inputReference>advisorContactCollection</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>39</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Get_Associated_Advisors</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+    <variables>
+        <name>advisorContact</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Contact</objectType>
+    </variables>
+    <variables>
+        <name>advisorContactCollection</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Contact</objectType>
+    </variables>
+    <variables>
+        <name>allActiveImps</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>associatedAdvisors</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Associated_Contact__c</objectType>
+    </variables>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

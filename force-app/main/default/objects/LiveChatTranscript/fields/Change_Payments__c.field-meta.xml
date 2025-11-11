@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Payments__c</fullName>
+    <description>Visitor asked for info on changing loan payment schedule during chatbot session</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Visitor asked for info on changing loan payment schedule during chatbot session</inlineHelpText>
+    <label>Change Payments</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

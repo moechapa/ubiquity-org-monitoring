@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority_Service__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Does the plan require priority service? This is updated on the plan record then a flow checks/unchecks this box.</description>
+    <label>Priority Service</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

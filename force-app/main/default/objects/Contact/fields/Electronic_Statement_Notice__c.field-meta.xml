@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Electronic_Statement_Notice__c</fullName>
+    <description>Date the required electronic statement delivery notification was sent</description>
+    <inlineHelpText>Date the required electronic statement delivery notification was sent</inlineHelpText>
+    <label>Electronic Statement Notice</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

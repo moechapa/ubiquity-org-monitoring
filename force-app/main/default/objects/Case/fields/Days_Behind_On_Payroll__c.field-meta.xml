@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_Behind_On_Payroll__c</fullName>
+    <description>Copied from Plan Record - Used on Late Payroll Cases to ID those that can be closed</description>
+    <externalId>false</externalId>
+    <formula>Plan__r.Days_Behind_on_Payroll__c</formula>
+    <inlineHelpText>Copied from Plan Record - Used on Late Payroll Cases to ID those that can be closed</inlineHelpText>
+    <label>Days Behind On Payroll</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

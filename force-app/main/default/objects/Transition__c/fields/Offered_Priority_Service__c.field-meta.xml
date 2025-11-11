@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Offered_Priority_Service__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>These checkboxes are reasons for saving the Transition, please check this box if it applies.</inlineHelpText>
+    <label>Offered Priority Service</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

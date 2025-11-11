@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Implementation_Completion_Date_missing</fullName>
+    <active>true</active>
+    <description>Implementation Completion Date required before Implementation can be marked Completed</description>
+    <errorConditionFormula>(ISPICKVAL(  Implementation_Status__c , &quot;Completed&quot;)) 
+&amp;&amp;
+(ISBLANK(   Implementation_Completion_Date__c  ) = TRUE )
+&amp;&amp;
+ $User.Email != &quot;jimholte@myubiquity.com&quot;</errorConditionFormula>
+    <errorMessage>Please enter Implementation Completion Date first</errorMessage>
+</ValidationRule>

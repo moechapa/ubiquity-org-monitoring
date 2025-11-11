@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_To_Account_Conv_KPI_Met__c</fullName>
+    <description>Flag field hidden from layout to determine if Account Conv KPI is met/missed. 0=Missed 1=Met</description>
+    <externalId>false</externalId>
+    <formula>IF
+(ISNULL( Custodial_Account_Number_Received__c ),
+
+(IF
+(CONTAINS( TEXT(Custodian__c) , &quot;Schwab&quot;), IF(  Time_To_Account_Conv_KPI__c  &gt; 35, 0, null), IF(  Time_To_Account_Conv_KPI__c  &gt; 20, 0,null))),
+
+(IF
+(CONTAINS( TEXT(Custodian__c) , &quot;Schwab&quot;), IF(  Time_To_Account_Conv_KPI__c  &lt; 36, 1, 0), IF(  Time_To_Account_Conv_KPI__c  &lt; 21, 1, 0))))</formula>
+    <inlineHelpText>Flag field hidden from layout to determine if Account Conv KPI is met/missed. 0=Missed 1=Met</inlineHelpText>
+    <label>Time To Account Conv KPI Met</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

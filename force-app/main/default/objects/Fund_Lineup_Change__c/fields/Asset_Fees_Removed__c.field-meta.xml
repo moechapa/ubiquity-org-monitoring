@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_Fees_Removed__c</fullName>
+    <description>Date Asset Manager Fees are removed in Paradigm Plan Fees area (if applicable)</description>
+    <inlineHelpText>Date Asset Manager Fees are removed in Paradigm Plan Fees area (if applicable)</inlineHelpText>
+    <label>Asset Fees Removed</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

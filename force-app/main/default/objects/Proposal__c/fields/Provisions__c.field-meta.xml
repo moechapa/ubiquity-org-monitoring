@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Provisions__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>For simply proposals.  Received through API, this indicates if a proposal is in the pricing/quote stage(false) or the provisions stage(true).</description>
+    <label>Provisions</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

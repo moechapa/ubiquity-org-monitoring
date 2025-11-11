@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QA_Score__c</fullName>
+    <description>% Score for QA</description>
+    <formula>IF( CONTAINS(RecordType.Name, &quot;Dynamic&quot;),  IF ( Calculated_Score__c &lt; 0, 0, Calculated_Score__c/100) ,
+
+IF(ISPICKVAL( QA_Type__c, &quot;Case&quot;),
+( SOP_Score__c + 
+Correct_Answer_Score__c + 
+Request_Completed_Score__c + 
+Email_Template_Score__c + 
+Language_Score__c + 
+Grammar_Score__c + 
+Questioning_Skills_Score__c + 
+Jargon_Score__c + 
+Value_Added_Score__c + 
+Additional_Assistance_Score__c )
+/100,
+IF(ISPICKVAL( QA_Type__c, &quot;Phone Call&quot;),
+ Call_QA_Score__c ,
+IF(ISPICKVAL( QA_Type__c,&quot;Implementation&quot;),
+ Imp_QA_Score__c ,
+IF(ISPICKVAL( QA_Type__c,&quot;CE Case&quot;),
+ CE_Case_QA_Score__c  ,
+IF(ISPICKVAL( QA_Type__c,&quot;Operations Case&quot;),
+ Operations_QA_Score__c ,
+0))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>% Score for QA</inlineHelpText>
+    <label>QA Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

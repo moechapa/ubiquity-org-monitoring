@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Option__c</fullName>
+    <label>Service Option</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Saver(k)</fullName>
+                <default>false</default>
+                <label>Saver(k)</label>
+            </value>
+            <value>
+                <fullName>Express(k)</fullName>
+                <default>false</default>
+                <label>Express(k)</label>
+            </value>
+            <value>
+                <fullName>Custom(k)</fullName>
+                <default>false</default>
+                <label>Custom(k)</label>
+            </value>
+            <value>
+                <fullName>Reserve(k)</fullName>
+                <default>false</default>
+                <label>Reserve(k)</label>
+            </value>
+            <value>
+                <fullName>Single(k)</fullName>
+                <default>false</default>
+                <label>Single(k)</label>
+            </value>
+            <value>
+                <fullName>Single(k) Plus</fullName>
+                <default>false</default>
+                <label>Single(k) Plus</label>
+            </value>
+            <value>
+                <fullName>RK Only</fullName>
+                <default>false</default>
+                <label>RK Only</label>
+            </value>
+            <value>
+                <fullName>Single IRA</fullName>
+                <default>false</default>
+                <label>Single IRA</label>
+            </value>
+            <value>
+                <fullName>Express IRA</fullName>
+                <default>false</default>
+                <label>Express IRA</label>
+            </value>
+            <value>
+                <fullName>SIMPLE IRA</fullName>
+                <default>false</default>
+                <label>SIMPLE IRA</label>
+            </value>
+            <value>
+                <fullName>Custom(k) MML</fullName>
+                <default>false</default>
+                <label>Custom(k) MML</label>
+            </value>
+            <value>
+                <fullName>Simply Retirement Single(k) Plus</fullName>
+                <default>false</default>
+                <label>Simply Retirement Single(k) Plus</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

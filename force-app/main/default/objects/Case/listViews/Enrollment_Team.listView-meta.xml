@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enrollment_Team</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Partner__c</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CASES.ORIGIN</field>
+        <operation>equals</operation>
+        <value>Enrollment</value>
+    </filters>
+    <filters>
+        <field>Case_Closed__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Enrollment Team</label>
+    <sharedTo>
+        <role>Implementations</role>
+        <role>Service_Team_3_Manager</role>
+    </sharedTo>
+</ListView>

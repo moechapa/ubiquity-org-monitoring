@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimated_CY_Fees__c</fullName>
+    <description>Estimated fees if move to Censibly Yours (as of July 2019)</description>
+    <inlineHelpText>Estimated fees if move to Censibly Yours (as of July 2019)</inlineHelpText>
+    <label>Estimated CY Fees</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Currency</type>
+</CustomField>

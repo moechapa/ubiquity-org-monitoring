@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Chat_Transcripts</fullName>
+    <columns>Name</columns>
+    <columns>Case</columns>
+    <columns>Contact</columns>
+    <columns>Account</columns>
+    <columns>Status</columns>
+    <columns>StartTime</columns>
+    <columns>LiveChatButton</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2020 12:00 AM</value>
+    </filters>
+    <label>My Chat Transcripts</label>
+</ListView>

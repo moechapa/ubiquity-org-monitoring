@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Implementation_with_CST_for_30_Days</fullName>
+    <active>true</active>
+    <description>Requires case with CST to stay open at least 30 days to finish Phase 2 of Implementation</description>
+    <errorConditionFormula>AND
+ (CONTAINS(Subject, &quot;Phase 2 Implementation&quot;),
+ Case_Age__c &lt; 30, ISBLANK( ParentId ),
+
+OR(
+ ISPICKVAL(Implementation__r.Implementation_Status__c, &quot;In Progress&quot;),
+ ISPICKVAL(Implementation__r.Implementation_Status__c, &quot;In Progress - Census &amp; Payroll&quot;), 
+ ISPICKVAL(Implementation__r.Implementation_Status__c, &quot;In Progress - Plan Creation&quot;)))</errorConditionFormula>
+    <errorMessage>Case must stay open at least 30 days to attempt to get client to complete Census &amp; Payroll.   If Census &amp; Payroll are complete, update the Implementation before closing this case.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Declined_Reason__c</fullName>
+    <label>Declined Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Phase II Implementations</fullName>
+                <default>false</default>
+                <label>Phase II Implementations</label>
+            </value>
+            <value>
+                <fullName>Self Start</fullName>
+                <default>false</default>
+                <label>Self Start</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JMP_Assoc_Contact_and_Assoc_Partner</fullName>
+    <active>false</active>
+    <description>Assoc Contact &amp; Assoc Partner required for JPM leads to be converted</description>
+    <errorConditionFormula>AND(
+ ISPICKVAL( Status , &quot;Qualified&quot;),
+ ISPICKVAL( LeadSourceDetail__c , &quot;JPM&quot;),
+(OR(
+ ISBLANK( Associated_Contact__c ), 
+ ISBLANK( Associated_Partner__c ))))&amp;&amp;
+Eligible_for_Contact_Merge__c = FALSE</errorConditionFormula>
+    <errorMessage>Both the Associated Contact and Associated Partner are required to convert this lead</errorMessage>
+</ValidationRule>

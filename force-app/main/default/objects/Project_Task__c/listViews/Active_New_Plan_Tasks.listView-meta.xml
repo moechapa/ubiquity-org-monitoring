@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_New_Plan_Tasks</fullName>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Actual_Start_Date__c</columns>
+    <columns>Actual_Completion_Date__c</columns>
+    <columns>KPI_Milestone__c</columns>
+    <columns>Responsible_Party__c</columns>
+    <columns>Order_Number__c</columns>
+    <columns>Implementation__c</columns>
+    <columns>Add_On_Product__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Transition__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>4/4/2022 12:00 AM</value>
+    </filters>
+    <label>Active New Plan Tasks</label>
+    <sharedTo>
+        <role>Implementation_Manager</role>
+        <role>Implementations</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Paradigm_Confirmation_Sent__c</fullName>
+    <description>Date confirmation of successful payroll submission email sent</description>
+    <inlineHelpText>Date confirmation of successful payroll submission email sent</inlineHelpText>
+    <label>Paradigm Confirmation Sent</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fields_Stamped_Upon_Completion__c</fullName>
+    <label>Fields Stamped Upon Completion</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Koncierge_Initial_Call__c</fullName>
+                <default>false</default>
+                <label>(K)oncierge Initial Call</label>
+            </value>
+            <value>
+                <fullName>Koncierge_QA_Check__c</fullName>
+                <default>false</default>
+                <label>(K)oncierge QA Check</label>
+            </value>
+            <value>
+                <fullName>Koncierge_Survey_Calendly_Email__c</fullName>
+                <default>false</default>
+                <label>(K)oncierge Survey Calendly Email</label>
+            </value>
+            <value>
+                <fullName>Koncierge_Training_Call__c</fullName>
+                <default>false</default>
+                <label>(K)oncierge Training Call</label>
+            </value>
+            <value>
+                <fullName>X1st_Payroll_Date__c</fullName>
+                <default>false</default>
+                <label>1st Payroll Date</label>
+            </value>
+            <value>
+                <fullName>X1st_Payroll_Funded__c</fullName>
+                <default>false</default>
+                <label>1st Payroll Funded</label>
+            </value>
+            <value>
+                <fullName>X1st_Payroll_Funded_Date__c</fullName>
+                <default>false</default>
+                <label>1st Payroll Funded Date</label>
+            </value>
+            <value>
+                <fullName>X1st_Payroll_Processed__c</fullName>
+                <default>false</default>
+                <label>1st Payroll Processed</label>
+            </value>
+            <value>
+                <fullName>X1st_Payroll_Uploaded__c</fullName>
+                <default>false</default>
+                <label>1st Payroll Uploaded</label>
+            </value>
+            <value>
+                <fullName>X360_Attribute_turned_on__c</fullName>
+                <default>false</default>
+                <label>360 Attribute turned on</label>
+            </value>
+            <value>
+                <fullName>Account_Application_Sent_to_Custodian__c</fullName>
+                <default>false</default>
+                <label>Account Application Sent to Custodian</label>
+            </value>
+            <value>
+                <fullName>Activated_in_PRKS__c</fullName>
+                <default>false</default>
+                <label>Activated in PRKS</label>
+            </value>
+            <value>
+                <fullName>Added_Payroll_Vendor_to_Paradigm__c</fullName>
+                <default>false</default>
+                <label>Added Payroll Vendor to Paradigm</label>
+            </value>
+            <value>
+                <fullName>Add_Payroll__c</fullName>
+                <default>false</default>
+                <label>Add Payroll</label>
+            </value>
+            <value>
+                <fullName>Assets_Received__c</fullName>
+                <default>false</default>
+                <label>Assets Received</label>
+            </value>
+            <value>
+                <fullName>Authorization_Form_Received__c</fullName>
+                <default>false</default>
+                <label>Authorization Form Received</label>
+            </value>
+            <value>
+                <fullName>Blackout_Notice_to_Client__c</fullName>
+                <default>false</default>
+                <label>Blackout Notice to Client</label>
+            </value>
+            <value>
+                <fullName>Census_and_Eligibility_Uploaded__c</fullName>
+                <default>false</default>
+                <label>Census and Eligibility Uploaded</label>
+            </value>
+            <value>
+                <fullName>Census_and_Payroll_Instructions_Sent__c</fullName>
+                <default>false</default>
+                <label>Census and Payroll Instructions Sent</label>
+            </value>
+            <value>
+                <fullName>Census_Instructions_Sent__c</fullName>
+                <default>false</default>
+                <label>Census Instructions Sent</label>
+            </value>
+            <value>
+                <fullName>Conversion_Assets_Posted__c</fullName>
+                <default>false</default>
+                <label>Conversion Assets Posted</label>
+            </value>
+            <value>
+                <fullName>Conversion_Assets_Settled__c</fullName>
+                <default>false</default>
+                <label>Conversion Assets Settled</label>
+            </value>
+            <value>
+                <fullName>Conversion_Records_Received__c</fullName>
+                <default>false</default>
+                <label>Conversion Records Received</label>
+            </value>
+            <value>
+                <fullName>Created_Support_Tasks__c</fullName>
+                <default>false</default>
+                <label>Created Support Tasks</label>
+            </value>
+            <value>
+                <fullName>Custodial_Account_Number_Received__c</fullName>
+                <default>false</default>
+                <label>Custodial Account Number Received</label>
+            </value>
+            <value>
+                <fullName>Date_Given_To_Third_Party_Integrator__c</fullName>
+                <default>false</default>
+                <label>Date Given To Third Party Integrator</label>
+            </value>
+            <value>
+                <fullName>Fidelity_Bond_Discussed__c</fullName>
+                <default>false</default>
+                <label>Fidelity Bond Discussed</label>
+            </value>
+            <value>
+                <fullName>Final_Fees_Paid_Accounting__c</fullName>
+                <default>false</default>
+                <label>Final Fees Paid (Accounting)</label>
+            </value>
+            <value>
+                <fullName>Final_Handoff_to_CST__c</fullName>
+                <default>false</default>
+                <label>Final Handoff to CST</label>
+            </value>
+            <value>
+                <fullName>Final_Reporting_Date__c</fullName>
+                <default>false</default>
+                <label>Final Reporting Date</label>
+            </value>
+            <value>
+                <fullName>Final_Reporting_Received__c</fullName>
+                <default>false</default>
+                <label>Final Reporting Received</label>
+            </value>
+            <value>
+                <fullName>Funding_Account_Confirmed__c</fullName>
+                <default>false</default>
+                <label>Funding Account Confirmed</label>
+            </value>
+            <value>
+                <fullName>GIACT_results__c</fullName>
+                <default>false</default>
+                <label>GIACT results</label>
+            </value>
+            <value>
+                <fullName>Implementation_Completion_Date__c</fullName>
+                <default>false</default>
+                <label>Implementation Completion Date</label>
+            </value>
+            <value>
+                <fullName>Implementation_QA_Check__c</fullName>
+                <default>false</default>
+                <label>Implementation QA Check</label>
+            </value>
+            <value>
+                <fullName>Instructions_Sent__c</fullName>
+                <default>false</default>
+                <label>Instructions Sent</label>
+            </value>
+            <value>
+                <fullName>Integration_Completed__c</fullName>
+                <default>false</default>
+                <label>Integration Completed</label>
+            </value>
+            <value>
+                <fullName>Introduction_Email_Sent__c</fullName>
+                <default>false</default>
+                <label>Introduction Email Sent</label>
+            </value>
+            <value>
+                <fullName>Intro_to_K_oncierge__c</fullName>
+                <default>false</default>
+                <label>Intro to (K)oncierge</label>
+            </value>
+            <value>
+                <fullName>Intro_to_Koncierge_CST__c</fullName>
+                <default>false</default>
+                <label>Intro to (K)oncierge &amp; CST</label>
+            </value>
+            <value>
+                <fullName>Kotapay_Client_Signed__c</fullName>
+                <default>false</default>
+                <label>Kotapay Client Signed</label>
+            </value>
+            <value>
+                <fullName>Kotapay_Complete__c</fullName>
+                <default>false</default>
+                <label>Kotapay Complete</label>
+            </value>
+            <value>
+                <fullName>Kotapay_Doc_Created__c</fullName>
+                <default>false</default>
+                <label>Kotapay Doc Created</label>
+            </value>
+            <value>
+                <fullName>Kotapay_UBQT_Signed__c</fullName>
+                <default>false</default>
+                <label>Kotapay UBQT Signed</label>
+            </value>
+            <value>
+                <fullName>Liquidation_Date_Confirmed__c</fullName>
+                <default>false</default>
+                <label>Liquidation Date Confirmed</label>
+            </value>
+            <value>
+                <fullName>Login_Credentials_Received__c</fullName>
+                <default>false</default>
+                <label>Login Credentials Received</label>
+            </value>
+            <value>
+                <fullName>Login_Credentials_Requested__c</fullName>
+                <default>false</default>
+                <label>Login Credentials Requested</label>
+            </value>
+            <value>
+                <fullName>Matrix_Countersign_Date__c</fullName>
+                <default>false</default>
+                <label>Matrix Countersign Date</label>
+            </value>
+            <value>
+                <fullName>Notification_Date__c</fullName>
+                <default>false</default>
+                <label>Notification Date</label>
+            </value>
+            <value>
+                <fullName>OPD_PRR_Completed__c</fullName>
+                <default>false</default>
+                <label>OPD/PRR Completed</label>
+            </value>
+            <value>
+                <fullName>OPD_PRR_Requested__c</fullName>
+                <default>false</default>
+                <label>OPD/PRR Requested</label>
+            </value>
+            <value>
+                <fullName>OPD_PRR_Scheduled__c</fullName>
+                <default>false</default>
+                <label>OPD/PRR Scheduled</label>
+            </value>
+            <value>
+                <fullName>Payroll_Schedule_Confirmed__c</fullName>
+                <default>false</default>
+                <label>Payroll Schedule Confirmed</label>
+            </value>
+            <value>
+                <fullName>Plan_Number_Verified__c</fullName>
+                <default>false</default>
+                <label>Plan Number Verified</label>
+            </value>
+            <value>
+                <fullName>Post_OPD_PRR_Docs_Sent__c</fullName>
+                <default>false</default>
+                <label>Post OPD/PRR Docs Sent</label>
+            </value>
+            <value>
+                <fullName>Prior_Plan_Documents_Received__c</fullName>
+                <default>false</default>
+                <label>Prior Plan Documents Received</label>
+            </value>
+            <value>
+                <fullName>Prior_Year_5500_Received__c</fullName>
+                <default>false</default>
+                <label>Prior Year 5500 Received</label>
+            </value>
+            <value>
+                <fullName>Prior_Year_5500_Reconciliation_Completed__c</fullName>
+                <default>false</default>
+                <label>Prior Year 5500 Reconciliation Completed</label>
+            </value>
+            <value>
+                <fullName>QA_Check_Completed__c</fullName>
+                <default>false</default>
+                <label>QA Check Completed</label>
+            </value>
+            <value>
+                <fullName>Qualifying_Call_Completed__c</fullName>
+                <default>false</default>
+                <label>Qualifying Call Completed</label>
+            </value>
+            <value>
+                <fullName>Requested_Source_Mapping__c</fullName>
+                <default>false</default>
+                <label>Requested Source Mapping</label>
+            </value>
+            <value>
+                <fullName>Reviewed_Test_File__c</fullName>
+                <default>false</default>
+                <label>Reviewed Test File</label>
+            </value>
+            <value>
+                <fullName>Schwab_App_Client_Signed__c</fullName>
+                <default>false</default>
+                <label>Schwab App Client Signed</label>
+            </value>
+            <value>
+                <fullName>Schwab_App_to_Client__c</fullName>
+                <default>false</default>
+                <label>Schwab App to Client</label>
+            </value>
+            <value>
+                <fullName>Sent_Completion_Email__c</fullName>
+                <default>false</default>
+                <label>Sent Completion Email</label>
+            </value>
+            <value>
+                <fullName>Sent_Login_Test_Results__c</fullName>
+                <default>false</default>
+                <label>Sent Login Test Results</label>
+            </value>
+            <value>
+                <fullName>Term_letter_to_prior_provider__c</fullName>
+                <default>false</default>
+                <label>Term Letter to Prior Provider</label>
+            </value>
+            <value>
+                <fullName>Tested_Login_Credentials__c</fullName>
+                <default>false</default>
+                <label>Tested Login Credentials</label>
+            </value>
+            <value>
+                <fullName>TPA_Documents_Uploaded__c</fullName>
+                <default>false</default>
+                <label>TPA Documents Uploaded</label>
+            </value>
+            <value>
+                <fullName>Transfer_Letter_Sent_to_Client__c</fullName>
+                <default>false</default>
+                <label>Transfer Letter sent to client</label>
+            </value>
+            <value>
+                <fullName>Ubiquity_Plan_Documents_Signed__c</fullName>
+                <default>false</default>
+                <label>Ubiquity Plan Documents Signed</label>
+            </value>
+            <value>
+                <fullName>Update_Add_On_Product__c</fullName>
+                <default>false</default>
+                <label>Update Add On Product</label>
+            </value>
+            <value>
+                <fullName>Verified_1st_Payroll_Processed__c</fullName>
+                <default>false</default>
+                <label>Verified 1st Payroll Processed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

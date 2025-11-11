@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Case_Outbound_Activity__c</fullName>
+    <description>Date of last outbound activity on a case related to this Plan</description>
+    <inlineHelpText>Date of last outbound activity on a case related to this Plan</inlineHelpText>
+    <label>Last Case Outbound Activity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

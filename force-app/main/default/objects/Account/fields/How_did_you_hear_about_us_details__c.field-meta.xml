@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_did_you_hear_about_us_details__c</fullName>
+    <inlineHelpText>If prospect selected &apos;Other&apos; under &apos; How did you hear about us?&apos; and they entered in additional information, that information will appear here.</inlineHelpText>
+    <label>&apos;Other&apos; detail</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

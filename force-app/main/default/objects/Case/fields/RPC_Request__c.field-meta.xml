@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RPC_Request__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used by CO team when they need to ask RPCs questions or need them to clarify something.</description>
+    <inlineHelpText>Used by CO team when they need to ask RPCs questions or need them to clarify something.</inlineHelpText>
+    <label>RPC Request</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

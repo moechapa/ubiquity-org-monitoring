@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Survey_Fatigue_Warning__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If checked, have a look at recent surveys to determine if additional surveys are appropriate.</description>
+    <inlineHelpText>If checked, have a look at recent surveys to determine if additional surveys are appropriate.</inlineHelpText>
+    <label>Survey Fatigue Warning</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

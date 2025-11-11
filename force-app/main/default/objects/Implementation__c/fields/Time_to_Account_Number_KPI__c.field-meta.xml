@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_to_Account_Number_KPI__c</fullName>
+    <description>Running total of days from Agreement Received to Custodial Account Number Received.   Stops counting once Custodial Account Number Received Date is entered.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISNULL(Custodial_Account_Number_Received__c), TODAY()- Agreement_Received__c, Custodial_Account_Number_Received__c -  Agreement_Received__c)</formula>
+    <inlineHelpText>Running total of days from Agreement Received to Custodial Account Number Received.   Stops counting once Custodial Account Number Received Date is entered.</inlineHelpText>
+    <label>Time to Account Number KPI</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

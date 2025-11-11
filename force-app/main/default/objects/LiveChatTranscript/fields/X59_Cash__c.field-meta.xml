@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X59_Cash__c</fullName>
+    <description>Employed under 59 1/2 requested cash withdrawal info during chatbot session</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Employed under 59 1/2 requested cash withdrawal info during chatbot session</inlineHelpText>
+    <label>&lt; 59 1/2 Cash</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

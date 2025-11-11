@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Stalled_Reason__c</fullName>
+    <description>Reason for Product stall</description>
+    <inlineHelpText>Reason for Product stall</inlineHelpText>
+    <label>Product Stalled Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Response</fullName>
+                <default>false</default>
+                <label>No Response</label>
+            </value>
+            <value>
+                <fullName>Client Backing Out</fullName>
+                <default>false</default>
+                <label>Client Backing Out</label>
+            </value>
+            <value>
+                <fullName>Cost</fullName>
+                <default>false</default>
+                <label>Cost</label>
+            </value>
+            <value>
+                <fullName>System Issue</fullName>
+                <default>false</default>
+                <label>System Issue</label>
+            </value>
+            <value>
+                <fullName>Non-Payment</fullName>
+                <default>false</default>
+                <label>Non-Payment</label>
+            </value>
+            <value>
+                <fullName>Client - incomplete set up with Partner</fullName>
+                <default>false</default>
+                <label>Client - incomplete set up with Partner</label>
+            </value>
+            <value>
+                <fullName>Missing employee data (client)</fullName>
+                <default>false</default>
+                <label>Missing employee data (client)</label>
+            </value>
+            <value>
+                <fullName>Client – Pending NP Implementation</fullName>
+                <default>false</default>
+                <label>Client – Pending NP Implementation</label>
+            </value>
+            <value>
+                <fullName>Partner needs a system fix/build</fullName>
+                <default>false</default>
+                <label>Partner needs a system fix/build</label>
+            </value>
+            <value>
+                <fullName>UBQT needs a System fix</fullName>
+                <default>false</default>
+                <label>UBQT needs a System fix</label>
+            </value>
+            <value>
+                <fullName>COVID-19</fullName>
+                <default>false</default>
+                <label>COVID-19</label>
+            </value>
+            <value>
+                <fullName>Implementation in Progress</fullName>
+                <default>false</default>
+                <label>Implementation in Progress</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

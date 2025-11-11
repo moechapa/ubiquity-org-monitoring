@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CaseSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAssignNotificationTemplate>unfiled$public/Case_Assigned</caseAssignNotificationTemplate>
+    <caseAutoProcUser>false</caseAutoProcUser>
+    <caseFeedItemSettings>
+        <characterLimit>400</characterLimit>
+        <displayFormat>HideBlankLines</displayFormat>
+        <feedItemType>EmailMessageEvent</feedItemType>
+    </caseFeedItemSettings>
+    <caseFeedReadUnreadLtng>true</caseFeedReadUnreadLtng>
+    <caseMergeInLightning>true</caseMergeInLightning>
+    <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
+    <defaultCaseFeedLayoutOn>false</defaultCaseFeedLayoutOn>
+    <defaultCaseOwner>Tier_1_Support</defaultCaseOwner>
+    <defaultCaseOwnerType>Queue</defaultCaseOwnerType>
+    <defaultCaseUser>hclaxton@theonline401k.com</defaultCaseUser>
+    <emailToCase>
+        <enableE2CAttachmentAsFile>true</enableE2CAttachmentAsFile>
+        <enableE2CDeduplicateAttachments>true</enableE2CDeduplicateAttachments>
+        <enableE2CExternalServer>false</enableE2CExternalServer>
+        <enableE2CSourceTracking>true</enableE2CSourceTracking>
+        <enableEmailToCase>true</enableEmailToCase>
+        <enableHtmlEmail>true</enableHtmlEmail>
+        <enableNewToReadTriggers>false</enableNewToReadTriggers>
+        <enableOnDemandEmailToCase>true</enableOnDemandEmailToCase>
+        <enableThreadTokenInBody>true</enableThreadTokenInBody>
+        <enableThreadTokenInSubject>true</enableThreadTokenInSubject>
+        <movingEmailEnabled>false</movingEmailEnabled>
+        <notifyOwnerOnNewCaseEmail>false</notifyOwnerOnNewCaseEmail>
+        <notifySenderE2CError>false</notifySenderE2CError>
+        <overEmailLimitAction>Bounce</overEmailLimitAction>
+        <preQuoteSignature>true</preQuoteSignature>
+        <replyWithNewContentOnly>false</replyWithNewContentOnly>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Implementations Inbox</caseOrigin>
+            <caseOwner>Imp_Escalations</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>newplanstatus@myubiquity.com</emailAddress>
+            <emailServicesAddress>newplanstatus@w-28tcnq6vmwvrw6dbbyx7wldp6q046xk4pqz41u2s4rq2y3qjp6.0-hxnream.na71.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Implementations_Cases</newEntityRecordType>
+            <routingName>401(k) Imp Escalations</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Implementations Inbox</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>newplan@myubiquity.com</emailAddress>
+            <emailServicesAddress>newplan@1sf9bhvih0g36vv4cp6duwu4zi3hu70rl4v8ozjsxav9bcyyep.0-hxnream.na71.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Implementations_Cases</newEntityRecordType>
+            <routingName>401(k) Implementations</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>BI Inbox</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>bi@myubiquity.com</emailAddress>
+            <emailServicesAddress>bi@2y8cp02eyqc0tgdnj71z8o7jc9khd3s2fpen7r6mpar63za5sx.0-hxnream.na71.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Business_Intelligence_Cases</newEntityRecordType>
+            <routingName>Business Intelligence Team</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>KYC Review</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>reviewkyc@myubiquity.com</emailAddress>
+            <emailServicesAddress>reviewkyc@tckledar2smqwyouj2b2gozsz16sggv1x00v9tllnxp7fy8q4.0-hxnream.na71.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Compliance</newEntityRecordType>
+            <routingName>KYC Review</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>L&amp;D Inbox</caseOrigin>
+            <caseOwner>ubteachin@myubiquity.com</caseOwner>
+            <caseOwnerType>User</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>ubteachin@myubiquity.com</emailAddress>
+            <emailServicesAddress>ubteachin@36knz1z8vg5bwltvn9no8s0p94nmajdziklmrbs6p7i37gsh74.0-hxnream.na232.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Shared_Team_Case</newEntityRecordType>
+            <routingName>L&amp;D Inbox</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Marketing Inbox</caseOrigin>
+            <caseOwner>marketing@theonline401k.com</caseOwner>
+            <caseOwnerType>User</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>marketingrequests@myubiquity.com</emailAddress>
+            <emailServicesAddress>marketing@cdz1gba2el7mhi4gzhxmpaztqfgcbpsa6oemcomudpk6esis0.0-hxnream.na71.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Marketing_Cases</newEntityRecordType>
+            <routingName>Marketing Team</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Payroll Koncierge</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>payrollkoncierge@myubiquity.com</emailAddress>
+            <emailServicesAddress>payrollkoncierge@7-1ijdbdom846gef9n7u3h9g9prnrz6jits1nqo3wem6bn63784b.0-hxnream.na71.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Payroll_Inbox</newEntityRecordType>
+            <routingName>Payroll (K)oncierge</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Payroll Inbox</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>ubiquitypayroll@myubiquity.com</emailAddress>
+            <emailServicesAddress>ubiquitypayroll@31d6x1dobb7l6jzxpbf5l83qv21egtbm58j2ks6kd13f9kxngm.0-hxnream.na31.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Payroll_Inbox</newEntityRecordType>
+            <routingName>Payroll Inbox</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Platinum Inbox</caseOrigin>
+            <casePriority>High</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>stephan@myubiquity.com</emailAddress>
+            <emailServicesAddress>stephan@3-1iha1v0fjko94gvi7e0kx8x0d25q67o3fzb8gbnu7qkfvc9tv3.0-hxnream.na31.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Servicing</newEntityRecordType>
+            <routingName>Platinum Support Team</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Product Innovation</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>pi@myubiquity.com</emailAddress>
+            <emailServicesAddress>pi@o-1hj5ek5k6p2t1qihxq9j1j8k3pyn8cs6ditfwgllg69q8yr1vu.0-hxnream.na71.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Product_Innovation_Cases</newEntityRecordType>
+            <routingName>Product Innovation</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>RW Inbox</caseOrigin>
+            <caseOwner>rw@myubiquity.com</caseOwner>
+            <caseOwnerType>User</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>rw@myubiquity.com</emailAddress>
+            <emailServicesAddress>rw@f-2iik8miykf6mb22he4bciju6ml5inx8pf1u3jyfgkzsa6rei57.0-hxnream.na232.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Reconciliations_Withdrawals</newEntityRecordType>
+            <routingName>Reconciliation and Withdrawals</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Sales Inbox</caseOrigin>
+            <caseOwner>Sales</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>sales@myubiquity.com</emailAddress>
+            <emailServicesAddress>sales@s-1isyi4inqeg2komrzza1iwuz5hlrs0gmplousg2tpoqe1bey9h.0-hxnream.usa628.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Sales</newEntityRecordType>
+            <routingName>Sales Inbox</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Simply RM Inbox</caseOrigin>
+            <caseOwner>Simply_Retirement_Cases</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>simplyretirement@myubiquity.com</emailAddress>
+            <emailServicesAddress>simplyretirement@59uh4dkip28igax1v8yt3xtqbk0zpb3uewi02u5frhbl47hq6.0-hxnream.na232.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Partner_Servicing</newEntityRecordType>
+            <routingName>Simply Retirement</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Simply Support Inbox</caseOrigin>
+            <caseOwner>Simply_Support_Cases</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>simplysupport@myubiquity.com</emailAddress>
+            <emailServicesAddress>simplysupport@u-rdy39goku8th0zxm1ov31swpy9aqrjpqmhbgx1hp6dgge6ztn.0-hxnream.na232.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Servicing</newEntityRecordType>
+            <routingName>Simply Support Inbox</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Single(k) Inbox</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>singlek@myubiquity.com</emailAddress>
+            <emailServicesAddress>singlek@q-12hcj554ofva587yny8cun2jszc55b42qysejgj42hvskfbr3y.0-hxnream.na31.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Servicing</newEntityRecordType>
+            <routingName>Single(k)</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Transitions Inbox</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>transitions@myubiquity.com</emailAddress>
+            <emailServicesAddress>transitions@v-348jyml3yz4r342qihnt9lg4or6d3bjxnsw3cj32keuoz92i48.0-hxnream.na31.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Transitions_Cases</newEntityRecordType>
+            <routingName>Transitions Team</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Billing Inbox</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>billing@myubiquity.com</emailAddress>
+            <emailServicesAddress>billing@1uvuh9r7cix88c6x6rac0vivao25pkrxb8j3vso1geztgzzlkh.0-hxnream.na31.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Billing_Cases1</newEntityRecordType>
+            <routingName>Ubiquity Accounting &amp; Finance</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Support Inbox</caseOrigin>
+            <caseOwner>Platinum_Queue</caseOwner>
+            <caseOwnerType>Queue</caseOwnerType>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>audits@myubiquity.com</emailAddress>
+            <emailServicesAddress>audits@331b8ru93hn1mh35xbfsqgabwknl8z9tu6xdd4p231opoilh9w.0-hxnream.na71.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Servicing</newEntityRecordType>
+            <routingName>Ubiquity Retirement + Savings</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Compliance Inbox</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>compliance@myubiquity.com</emailAddress>
+            <emailServicesAddress>compliance@b-4l13qpl84381c8weaa8zgbqoy0krdlfuzbrzh2fmegqezsz9w.0-hxnream.na31.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Compliance</newEntityRecordType>
+            <routingName>Ubiquity Retirement + Savings Compliance Team</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Partnership Support Inbox</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>partnershipsupport@myubiquity.com</emailAddress>
+            <emailServicesAddress>partnershipsupport@w-pe250caendo9btxuq5c3uuikseai7803qitjezjf9olynetct.0-hxnream.na31.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Servicing</newEntityRecordType>
+            <routingName>Ubiquity Retirement + Savings Partnership Support Team</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Support Inbox</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>support@myubiquity.com</emailAddress>
+            <emailServicesAddress>support@e-mzz011olfpwsitzndx6n9fr918lgu9jqbxhoc9mj4j9o0rnac.0-hxnream.na31.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Servicing</newEntityRecordType>
+            <routingName>Ubiquity Retirement + Savings Support Team</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Saver Inbox</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>info@myubiquity.com</emailAddress>
+            <emailServicesAddress>info@c0t0s8jtcqutcv7h4zrv9yq1nautrxfkvyg3c5v21ftayrukn.0-hxnream.na31.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Servicing</newEntityRecordType>
+            <routingName>Ubiquity Retirement + Savings Support Team</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Simply TPA</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>tpasupport@myubiquity.com</emailAddress>
+            <emailServicesAddress>tpasupport@j-1yavoi7hbyc1h0s6jfwjkx6rx1o7u65iwd7263bdeeq6c1hft5.0-hxnream.na71.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.Servicing</newEntityRecordType>
+            <routingName>Ubiquity Retirement + Savings TPA Support</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Ops Inbox</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>zenefitsops@myubiquity.com</emailAddress>
+            <emailServicesAddress>zenefitsops@1q8ga4z97wv0i0wc3ak9wd0nz1pymlff2zzljt7y9hzgcx0aas.0-hxnream.na31.case.salesforce.com</emailServicesAddress>
+            <isPermsetControlled>false</isPermsetControlled>
+            <isVerified>true</isVerified>
+            <newEntityRecordType>Case.ZenOps_Cases</newEntityRecordType>
+            <routingName>Zenefits Ops Cases</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <unauthorizedSenderAction>Discard</unauthorizedSenderAction>
+        <useEmailHeadersForThreading>true</useEmailHeadersForThreading>
+    </emailToCase>
+    <enableCaseFeed>true</enableCaseFeed>
+    <enableCaseSwarming>false</enableCaseSwarming>
+    <enableCollapseEmailThread>true</enableCollapseEmailThread>
+    <enableDraftEmails>true</enableDraftEmails>
+    <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
+    <enableEmailActionDefaultsHandler>false</enableEmailActionDefaultsHandler>
+    <enableEscalateQfiToCaseInternal>false</enableEscalateQfiToCaseInternal>
+    <enableEscalateQfiToCaseNetworks>false</enableEscalateQfiToCaseNetworks>
+    <enableExtNetworksCaseFeedEnabled>false</enableExtNetworksCaseFeedEnabled>
+    <enableMultiLangSolnSrchCSS>false</enableMultiLangSolnSrchCSS>
+    <enableMultiLangSolnSrchPKB>false</enableMultiLangSolnSrchPKB>
+    <enableMultiLangSolution>false</enableMultiLangSolution>
+    <enableSolutionCategory>true</enableSolutionCategory>
+    <enableSolutionInlineCategory>true</enableSolutionInlineCategory>
+    <enableSolutionShortSummary>true</enableSolutionShortSummary>
+    <enableSuggestedArticlesApplication>false</enableSuggestedArticlesApplication>
+    <enableSuggestedArticlesCustomerPortal>false</enableSuggestedArticlesCustomerPortal>
+    <enableSuggestedArticlesPartnerPortal>false</enableSuggestedArticlesPartnerPortal>
+    <enableSuggestedSolutions>true</enableSuggestedSolutions>
+    <escalateCaseBefore>false</escalateCaseBefore>
+    <hidePublicInCaseComment>false</hidePublicInCaseComment>
+    <keepCaseMergeRecords>false</keepCaseMergeRecords>
+    <keepRecordTypeOnAssignmentRule>true</keepRecordTypeOnAssignmentRule>
+    <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
+    <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
+    <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>
+    <notifyOwnerOnCaseOwnerChange>false</notifyOwnerOnCaseOwnerChange>
+    <rtaCaseComment>false</rtaCaseComment>
+    <rtaCaseDescription>false</rtaCaseDescription>
+    <showEmailAttachmentsInCaseAttachmentsRL>true</showEmailAttachmentsInCaseAttachmentsRL>
+    <systemUserEmail>jherold@myubiquity.com</systemUserEmail>
+    <useSystemEmailAddress>false</useSystemEmailAddress>
+    <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>
+    <visibleInCssCheckbox>false</visibleInCssCheckbox>
+    <webToCase>
+        <caseOrigin>Web</caseOrigin>
+        <enableWebToCase>true</enableWebToCase>
+    </webToCase>
+</CaseSettings>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contribution_Budget__c</fullName>
+    <description>If applicable please provide client&apos;s contribution budget. Example: Maximize owners or contribute $25,000 total</description>
+    <inlineHelpText>If applicable please provide client&apos;s contribution budget. Example: Maximize owners or contribute $25,000 total</inlineHelpText>
+    <label>Contribution Budget</label>
+    <length>4000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

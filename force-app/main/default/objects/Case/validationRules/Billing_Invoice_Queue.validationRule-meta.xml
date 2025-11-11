@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Invoice_Queue</fullName>
+    <active>true</active>
+    <description>Only Billing Team User can assign cases to Billing Invoices Queue</description>
+    <errorConditionFormula>AND(
+    
+    Owner:Queue.Id = &quot;00G370000014vWS&quot;,
+    (PRIORVALUE(  OwnerId  ) &lt;&gt; &quot;00500000006yEak&quot; &amp;&amp;
+    $User.Alias != &quot;adepa&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>To assign cases to Billing, use &quot;User = Accounting &amp; Finance&quot;.   Billing will move items to the Invoices Queue as needed.</errorMessage>
+</ValidationRule>

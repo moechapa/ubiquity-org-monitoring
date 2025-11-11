@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Abandoned_Review_Type__c</fullName>
+    <description>At Risk = Payroll and/or 1099 timing are at least 9-12 months behind.
+Potential Abandon = Payroll and 1099 timing are 12+ months behind.</description>
+    <inlineHelpText>At Risk = Payroll and/or 1099 timing are at least 9-12 months behind.
+Potential Abandon = Payroll and 1099 timing are 12+ months behind.</inlineHelpText>
+    <label>Abandoned Review Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>At Risk</fullName>
+                <default>false</default>
+                <label>At Risk</label>
+            </value>
+            <value>
+                <fullName>Potential Abandon</fullName>
+                <default>false</default>
+                <label>Potential Abandon</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

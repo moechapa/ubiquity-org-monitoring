@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Plan_NPS6</label>
+    <protected>false</protected>
+    <values>
+        <field>Age_of_Reduction__c</field>
+        <value xsi:type="xsd:double">60.0</value>
+    </values>
+    <values>
+        <field>Object__c</field>
+        <value xsi:type="xsd:string">Plan__c</value>
+    </values>
+    <values>
+        <field>Reduction_per_Day__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>Related_Date_Field__c</field>
+        <value xsi:type="xsd:string">Date_Most_Recent_Sponsor_Trustee_NPS__c</value>
+    </values>
+    <values>
+        <field>Round_Up_Weight__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Score__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>Source_Field__c</field>
+        <value xsi:type="xsd:string">Most_Recent_NPS_Score_Sponsor_Trustee__c</value>
+    </values>
+    <values>
+        <field>Target_Field__c</field>
+        <value xsi:type="xsd:string">HM_NPS_Score__c</value>
+    </values>
+    <values>
+        <field>Value__c</field>
+        <value xsi:type="xsd:string">9,10</value>
+    </values>
+    <values>
+        <field>Weight__c</field>
+        <value xsi:type="xsd:double">80.0</value>
+    </values>
+</CustomMetadata>

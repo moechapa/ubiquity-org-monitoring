@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commissionable_Amount__c</fullName>
+    <formula>IF(AND(ISPICKVAL(Opportunity.LeadSourceDetail__c,&quot;Schwab-CC&quot;), Product_Name__c=&quot;401(k) Setup Fee&quot;), 95,
+
+(IF(AND(ISPICKVAL(Opportunity.LeadSourceDetail__c,&quot;HUB&quot;), Product_Name__c=&quot;401(k) Setup Fee&quot;), 245, 
+
+(IF(AND(ISPICKVAL(Opportunity.LeadSource,&quot;Referral&quot;), Product_Name__c=&quot;401(k) Setup Fee&quot;), 250,
+
+(IF(AND(ISPICKVAL(Opportunity.LeadSource,&quot;Simply Retirement&quot;), Product_Name__c=&quot;Simply | Setup Fee&quot;), 500,
+
+(IF(AND(ISPICKVAL(Opportunity.LeadSourceDetail__c,&quot;JPM&quot;), ISPICKVAL(Opportunity.X3_38__c,&quot;COTA Street&quot;), Product_Name__c=&quot;COTA Street 3(38)&quot;), 0, 
+
+TotalPrice )))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Commissionable Amount (Deprecated)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

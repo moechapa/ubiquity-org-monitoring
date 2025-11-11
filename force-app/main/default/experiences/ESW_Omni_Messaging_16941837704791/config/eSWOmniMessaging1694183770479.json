@@ -1,0 +1,17 @@
+{
+  "authenticationType" : "AUTHENTICATED_WITH_PUBLIC_ACCESS_ENABLED",
+  "forgotPasswordRouteId" : null,
+  "isFilteredComponentsView" : false,
+  "isProgressiveRenderingEnabled" : false,
+  "mainAppPageId" : "686dd8aa-3aef-41b0-976e-28637c0adee2",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : null,
+  "trustedSitesForScript" : [ {
+    "id" : "9393a286-89b9-4d3f-b4e0-aaf4beb9557a",
+    "isActive" : true,
+    "trustedSiteName" : "Messaging for Web host",
+    "trustedSiteUrl" : "https://myubiquity.my.salesforce-scrt.com",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}

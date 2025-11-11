@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Decon_Date_Needed</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Deconversion_Date__c</columns>
+    <columns>Transition_Type__c</columns>
+    <columns>Transition_Reason__c</columns>
+    <columns>Saved_Notes__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>DocuSign in Progress,Transition Processes in Progress</value>
+    </filters>
+    <filters>
+        <field>Deconversion_Date__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Transition_Type__c</field>
+        <operation>equals</operation>
+        <value>Deconversion,Termination/Merger</value>
+    </filters>
+    <label>Decon Date Needed</label>
+</ListView>

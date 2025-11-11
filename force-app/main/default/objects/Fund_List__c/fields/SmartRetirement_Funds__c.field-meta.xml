@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SmartRetirement_Funds__c</fullName>
+    <label>SmartRetirement Funds</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SmartRetirement 2020 Fund (JTTZX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2020 Fund (JTTZX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2025 Fund (JNSZX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2025 Fund (JNSZX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2030 Fund (JSMZX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2030 Fund (JSMZX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2035 Fund (SRJZX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2035 Fund (SRJZX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2040 Fund (SMTZX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2040 Fund (SMTZX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2045 Fund (JSAZX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2045 Fund (JSAZX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2050 Fund (JTSZX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2050 Fund (JTSZX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2055 Fund (JFFRX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2055 Fund (JFFRX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2060 Fund (JAKZX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2060 Fund (JAKZX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2020 Fund (JTTPX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2020 Fund (JTTPX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2025 Fund (JNSPX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2025 Fund (JNSPX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2030 Fund (JSMNX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2030 Fund (JSMNX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2035 Fund (SRJPX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2035 Fund (SRJPX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2040 Fund (SMTPX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2040 Fund (SMTPX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2045 Fund (JSAPX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2045 Fund (JSAPX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2050 Fund (JTSPX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2050 Fund (JTSPX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2055 Fund (JFFPX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2055 Fund (JFFPX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2060 Fund (JAKPX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2060 Fund (JAKPX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2020 Fund (JTTQX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2020 Fund (JTTQX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2025 Fund (JNSQX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2025 Fund (JNSQX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2030 Fund (JSMQX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2030 Fund (JSMQX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2035 Fund (SRJQX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2035 Fund (SRJQX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2040 Fund (SMTQX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2040 Fund (SMTQX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2045 Fund (JSAQX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2045 Fund (JSAQX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2050 Fund (JTSQX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2050 Fund (JTSQX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2055 Fund (JFFQX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2055 Fund (JFFQX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2060 Fund (JAKQX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2060 Fund (JAKQX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2020 Fund (JTTIX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2020 Fund (JTTIX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2025 Fund (JNSIX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2025 Fund (JNSIX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2030 Fund (JSMIX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2030 Fund (JSMIX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2035 Fund (SRJIX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2035 Fund (SRJIX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2040 Fund (SMTIX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2040 Fund (SMTIX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2045 Fund (JSAIX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2045 Fund (JSAIX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2050 Fund (JTSIX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2050 Fund (JTSIX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2055 Fund (JFFIX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2055 Fund (JFFIX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2060 Fund (JAKIX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2060 Fund (JAKIX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2020 Fund (JTTYX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2020 Fund (JTTYX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2025 Fund (JNSYX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2025 Fund (JNSYX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2030 Fund (JSMYX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2030 Fund (JSMYX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2035 Fund (SRJYX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2035 Fund (SRJYX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2040 Fund (SMTYX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2040 Fund (SMTYX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2045 Fund (JSAYX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2045 Fund (JSAYX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2050 Fund (JTSYX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2050 Fund (JTSYX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2055 Fund (JFFYX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2055 Fund (JFFYX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement 2060 Fund (JAKYX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement 2060 Fund (JAKYX)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Hold_Notes__c</fullName>
+    <description>&quot;Other&quot; hold reasons or details related to the Plan Hold</description>
+    <inlineHelpText>&quot;Other&quot; hold reasons or details related to the Plan Hold</inlineHelpText>
+    <label>Plan Hold Notes</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

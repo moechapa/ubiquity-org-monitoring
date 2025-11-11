@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Paradigm Prod Auth</label>
+    <protected>false</protected>
+    <values>
+        <field>Auth_Endpoint__c</field>
+        <value xsi:type="xsd:string">https://secure.myubiquity.com/api/authenticate</value>
+    </values>
+    <values>
+        <field>Environment__c</field>
+        <value xsi:type="xsd:string">Production</value>
+    </values>
+    <values>
+        <field>Partner__c</field>
+        <value xsi:type="xsd:string">Internal - Ubiquity</value>
+    </values>
+    <values>
+        <field>Password__c</field>
+        <value xsi:type="xsd:string">E4R5+;IA?!4hCi</value>
+    </values>
+    <values>
+        <field>Purchase_URL__c</field>
+        <value xsi:type="xsd:string">https://secure.myubiquity.com/api/v2.5/purchase</value>
+    </values>
+    <values>
+        <field>Username__c</field>
+        <value xsi:type="xsd:string">bi@myubiquity.com</value>
+    </values>
+    <values>
+        <field>isActive__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+</CustomMetadata>

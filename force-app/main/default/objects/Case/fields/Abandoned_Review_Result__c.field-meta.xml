@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Abandoned_Review_Result__c</fullName>
+    <description>Abandoned Plan Review - verify final result of review.   Selecting Potentially Abandoned will trigger cases for Billing and Transitions.</description>
+    <inlineHelpText>Abandoned Plan Review - verify final result of review.   Selecting Potentially Abandoned will trigger cases for Billing and Transitions.</inlineHelpText>
+    <label>Abandoned Review Result</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Abandoned</fullName>
+                <default>false</default>
+                <label>Not Abandoned</label>
+            </value>
+            <value>
+                <fullName>Potentially Abandoned</fullName>
+                <default>false</default>
+                <label>Potentially Abandoned</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

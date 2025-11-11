@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>6</activeVersionNumber>
+    <description>Creates Junction Objects from Conversion, Updates Partner Status on Associated Contact, Updates Discretionary Match on Opportunity and Creates Opp Promotion.</description>
+    <masterLabel>Lead | After Trigger | Create Junctions from Conversion, Update Partner Status on AC, Update Disc. Match on Opp, Create Opp Promotion</masterLabel>
+</FlowDefinition>

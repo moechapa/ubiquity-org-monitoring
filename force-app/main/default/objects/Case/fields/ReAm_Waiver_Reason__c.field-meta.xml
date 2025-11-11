@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReAm_Waiver_Reason__c</fullName>
+    <description>Used for Reamortization case requests to Distributions.   Required if ReAm Fee = Waived.</description>
+    <inlineHelpText>Used for Reamortization case requests to Distributions.  Required if ReAm fee = Waived.</inlineHelpText>
+    <label>ReAm waiver reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ubiquity Error</fullName>
+                <default>false</default>
+                <label>Ubiquity Error</label>
+            </value>
+            <value>
+                <fullName>One-Time Courtesy Waiver</fullName>
+                <default>false</default>
+                <label>One-Time Courtesy Waiver</label>
+            </value>
+            <value>
+                <fullName>Plan Already Paid Fee</fullName>
+                <default>false</default>
+                <label>Plan Already Paid Fee</label>
+            </value>
+            <value>
+                <fullName>At-Risk Client/Saving Client</fullName>
+                <default>false</default>
+                <label>At-Risk Client/Saving Client</label>
+            </value>
+            <value>
+                <fullName>System Bug</fullName>
+                <default>false</default>
+                <label>System Bug</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_New_Plan_Price__c</fullName>
+    <description>Total price that company will have paid for the plan at the end of the given pricing year.</description>
+    <formula>Setup_Fee__c + ((Admin_Fee__c + (Participant_Fee__c* Number_of_Participants__c )+((Basis_Points__c/10000)*(6000* Number_of_Participants__c )))* Pricing_Year__c)</formula>
+    <inlineHelpText>Total price that company will have paid for the plan at the end of the given pricing year.</inlineHelpText>
+    <label>Total New Plan Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

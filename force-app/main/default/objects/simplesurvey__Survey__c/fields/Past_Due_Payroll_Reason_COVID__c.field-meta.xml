@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Past_Due_Payroll_Reason_COVID__c</fullName>
+    <inlineHelpText>Select a reason 401k contributions were not sent to Ubiquity for processing:</inlineHelpText>
+    <label>Past Due Payroll Reason COVID</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>I will report these contributions to Ubiquity this week</fullName>
+                <default>false</default>
+                <label>I will report these contributions to Ubiquity this week</label>
+            </value>
+            <value>
+                <fullName>We report all employee contributions annually</fullName>
+                <default>false</default>
+                <label>We report all employee contributions annually</label>
+            </value>
+            <value>
+                <fullName>We have no employee contributions for this period. - I will login to report the W2 compensation and hours this week</fullName>
+                <default>false</default>
+                <label>We have no employee contributions for this period. - I will login to report the W2 compensation and hours this week</label>
+            </value>
+            <value>
+                <fullName>Our company is temporaily closed due to COVID-19</fullName>
+                <default>false</default>
+                <label>Our company is temporaily closed due to COVID-19</label>
+            </value>
+            <value>
+                <fullName>We are currently awaiting funds from the Paycheck Protection Program</fullName>
+                <default>false</default>
+                <label>We are currently awaiting funds from the Paycheck Protection Program</label>
+            </value>
+            <value>
+                <fullName>Our plan sponsor has changed. - We will report 401k contributions this week</fullName>
+                <default>false</default>
+                <label>Our plan sponsor has changed. - We will report 401k contributions this week</label>
+            </value>
+            <value>
+                <fullName>Our company is closed and terminated all employees</fullName>
+                <default>false</default>
+                <label>Our company is closed and terminated all employees</label>
+            </value>
+            <value>
+                <fullName>Other Reason:</fullName>
+                <default>false</default>
+                <label>Other Reason:</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

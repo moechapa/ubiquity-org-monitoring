@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Payroll_Date_Not_Completed</fullName>
+    <active>true</active>
+    <description>Implementation Completion date cannot be entered unless 1st Payroll date has been entered OR it has been approved by a manager</description>
+    <errorConditionFormula>ISBLANK(  Implementation_Completion_Date__c )=FALSE 
+&amp;&amp;
+ISBLANK( X1st_Payroll_Date__c )
+&amp;&amp;
+ Complete_without_funding__c  = FALSE</errorConditionFormula>
+    <errorDisplayField>Implementation_Completion_Date__c</errorDisplayField>
+    <errorMessage>Implementation Completion date cannot be entered unless 1st Payroll date has been entered</errorMessage>
+</ValidationRule>

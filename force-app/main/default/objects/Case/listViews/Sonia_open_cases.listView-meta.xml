@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sonia_open_cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Follow_Up_Date__c</columns>
+    <columns>Case_Flag__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Team_Member__c</field>
+        <operation>equals</operation>
+        <value>Sonia Boily</value>
+    </filters>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Open Cash</value>
+    </filters>
+    <label>Sonia-open cases</label>
+    <sharedTo>
+        <role>Reconciliations_Withdrawals</role>
+    </sharedTo>
+</ListView>

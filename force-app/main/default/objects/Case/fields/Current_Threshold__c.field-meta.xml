@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Threshold__c</fullName>
+    <description>Current force out threshold ($1k or $5k) before Force Out Survey is sent</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Current force out threshold ($1k or $5k) before Force Out Survey is sent</inlineHelpText>
+    <label>Current Threshold</label>
+    <length>25</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

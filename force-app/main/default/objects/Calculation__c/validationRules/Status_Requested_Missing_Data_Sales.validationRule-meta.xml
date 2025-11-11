@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Requested_Missing_Data_Sales</fullName>
+    <active>true</active>
+    <description>Prevents Compliance Child Case from being created if data is missing for Sales</description>
+    <errorConditionFormula>ISPICKVAL( Status__c , &quot;Requested&quot;)
+&amp;&amp;
+ RecordTypeId = &quot;0121G000000RlLnQAK&quot;
+&amp;&amp;
+ ( Calculation_Formula__c = &quot;&quot;
+||
+ ISPICKVAL( Are_there_5_Owners__c , &quot;&quot;)
+||
+ ISPICKVAL( X5_Owners_On_Census__c , &quot;&quot;)
+||
+ ISPICKVAL( Owners_through_Attribution__c , &quot;&quot;)
+||
+ ISPICKVAL( Owners_through_Attribution_on_Census__c , &quot;&quot;)
+||
+ ISBLANK( Calculation_Type__c ) = TRUE
+|| 
+ Census__c = False
+|| 
+ Plan_Year_Request__c = &quot;&quot;
+|| 
+ ISPICKVAL(Verified_Census__c, &quot;&quot;))</errorConditionFormula>
+    <errorMessage>Please ensure there are no blank entries on the Calculation Object. Compliance is unable to process calculations unless all fields are completed.</errorMessage>
+</ValidationRule>

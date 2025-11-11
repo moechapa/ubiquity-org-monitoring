@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transfer_Letter_sent_to_client__c</fullName>
+    <description>Transfer letter to start the transfer process was sent to client</description>
+    <inlineHelpText>Transfer letter to start the transfer process was sent to client</inlineHelpText>
+    <label>Transfer Letter sent to client</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

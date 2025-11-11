@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan__c</fullName>
+    <description>Plan the Case is Linked To if the DocuSign was sent from a Case</description>
+    <externalId>false</externalId>
+    <formula>dsfs__Case__r.Plan__r.Name</formula>
+    <inlineHelpText>Plan the Case is Linked To if the DocuSign was sent from a Case</inlineHelpText>
+    <label>Plan</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

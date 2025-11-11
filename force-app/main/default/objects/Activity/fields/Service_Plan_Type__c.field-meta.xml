@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Plan_Type__c</fullName>
+    <description>Service Option &amp; Plan Type from Implementation</description>
+    <externalId>false</externalId>
+    <formula>TEXT(Implementation__r.Service_Option__c) &amp; &quot; &quot; &amp; TEXT(Implementation__r.Plan_Type__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Service Option &amp; Plan Type from Implementation</inlineHelpText>
+    <label>Service/Plan Type</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

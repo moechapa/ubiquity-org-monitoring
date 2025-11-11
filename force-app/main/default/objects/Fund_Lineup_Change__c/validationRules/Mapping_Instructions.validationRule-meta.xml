@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mapping_Instructions</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL( Are_Funds_Being_Deleted__c , &quot;Yes&quot;)
+&amp;&amp;
+NOT( Fund_Mapping_Attached__c )
+&amp;&amp;
+NOT(ISNEW())</errorConditionFormula>
+    <errorDisplayField>Fund_Mapping_Attached__c</errorDisplayField>
+    <errorMessage>If funds are being deleted, ensure mapping instruction file is attached and check the &quot;Fund Mapping Attached&quot; box.</errorMessage>
+</ValidationRule>

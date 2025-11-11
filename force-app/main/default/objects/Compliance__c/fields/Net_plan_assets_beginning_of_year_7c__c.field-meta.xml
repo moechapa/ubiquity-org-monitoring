@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Net_plan_assets_beginning_of_year_7c__c</fullName>
+    <description>Net plan assets (7a - 7b)</description>
+    <externalId>false</externalId>
+    <formula>Total_Plan_Assets_Beginning_of_Year_7a__c - Total_Plan_Liabilities_Beg_of_Year_7b__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Net plan assets (7a - 7b)</inlineHelpText>
+    <label>Net Plan Assets Beginning of Year(7c)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_Behind_on_Payroll__c</fullName>
+    <description>Looks at the most recent payroll date and payroll frequency and compares to today. Slight buffer built into each frequency.</description>
+    <externalId>false</externalId>
+    <formula>TODAY()- ( End_of_Submitted_Pay_Period__c + Payroll_Frequency_Days__c )</formula>
+    <inlineHelpText>Looks at the most recent payroll date and payroll frequency and compares to today. Slight buffer built into each frequency.</inlineHelpText>
+    <label>Days Behind on Payroll</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

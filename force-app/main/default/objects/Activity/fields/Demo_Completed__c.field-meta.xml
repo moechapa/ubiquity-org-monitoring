@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demo_Completed__c</fullName>
+    <formula>IF(
+OR( 
+CONTAINS(Subject,&quot;Call- Demo&quot;), 
+CONTAINS(Subject,&quot;Call- Disco+Demo&quot;), 
+CONTAINS(Subject,&quot;Call- Qual+Disco+Demo&quot;) 
+),true,
+false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Demo Completed</label>
+    <type>Checkbox</type>
+</CustomField>

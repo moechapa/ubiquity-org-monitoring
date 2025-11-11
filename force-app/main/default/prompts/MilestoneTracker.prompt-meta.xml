@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prompt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Milestone Tracker</masterLabel>
+    <promptVersions>
+        <body>If this case has First Response or Closure Milestones, you&apos;ll see them above the &quot;Email&quot; section.   You can select &quot;Show More&quot; to see additional detail.</body>
+        <customApplication>standard__LightningService</customApplication>
+        <delayDays>1</delayDays>
+        <dismissButtonLabel>Got It!!</dismissButtonLabel>
+        <displayPosition>TopCenter</displayPosition>
+        <displayType>FloatingPanel</displayType>
+        <endDate>2020-03-28</endDate>
+        <isPublished>false</isPublished>
+        <masterLabel>Milestone Tracker</masterLabel>
+        <publishedDate>2020-03-18</publishedDate>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>true</shouldIgnoreGlobalDelay>
+        <startDate>2020-03-19</startDate>
+        <targetPageKey1>Case</targetPageKey1>
+        <targetPageKey2>view</targetPageKey2>
+        <targetPageType>standard__recordPage</targetPageType>
+        <timesToDisplay>1</timesToDisplay>
+        <title>Milestone Tracker</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+</Prompt>

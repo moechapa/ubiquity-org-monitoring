@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Safe_Harbor_Final_Testing</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL ( Safe_Harbor_Plan__c , &quot;Yes&quot;)
+&amp;&amp;
+(
+ISBLANK(TEXT( Safe_Harbor_Funded_In_Term_Year__c ))
+||
+ISBLANK(TEXT( Safe_Harbor_Allocation_Frequency__c ))
+)</errorConditionFormula>
+    <errorMessage>Verify if Safe Harbor Funded in Term Year &amp; Safe Harbor Allocation Frequency</errorMessage>
+</ValidationRule>

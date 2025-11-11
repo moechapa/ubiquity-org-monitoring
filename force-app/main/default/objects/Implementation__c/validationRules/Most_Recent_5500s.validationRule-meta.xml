@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Most_Recent_5500s</fullName>
+    <active>true</active>
+    <description>2 Most Recent 5500s must be verified before Conversion Implementation = Completed</description>
+    <errorConditionFormula>(ISPICKVAL(  Implementation_Status__c , &quot;Completed&quot;)) 
+&amp;&amp;
+ ISPICKVAL( Plan_Type__c , &quot;Conversion Plan&quot; )
+&amp;&amp;
+ ISCHANGED( Implementation_Status__c )
+&amp;&amp;
+ ISBLANK(Text( X2_Most_Recent_5500s__c ))</errorConditionFormula>
+    <errorDisplayField>X2_Most_Recent_5500s__c</errorDisplayField>
+    <errorMessage>Please verify 2 most recent 5500s as &quot;Yes&quot; or &quot;N/A&quot;</errorMessage>
+</ValidationRule>

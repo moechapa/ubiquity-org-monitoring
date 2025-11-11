@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prompt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Resolve Case and Missing Info</masterLabel>
+    <promptVersions>
+        <body>&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&quot;Close Case&quot; is now called &lt;b&gt;&quot;Resolve Case&quot; &lt;/b&gt;and will continue to set the Status = Resolve and close out your case&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;For &lt;b&gt;Child Cases &lt;/b&gt;you are working on, a new button called &lt;b&gt;&quot;Missing Info&quot;&lt;/b&gt; has been added next to Resolve Case. Use this if you have a child case assigned to you but you need more info. This will trigger an update to the parent case so the owner of the parent knows to provide more detail.&lt;/li&gt;&lt;/ul&gt;</body>
+        <customApplication>standard__LightningService</customApplication>
+        <delayDays>1</delayDays>
+        <displayType>DockedComposer</displayType>
+        <endDate>2020-02-28</endDate>
+        <header>New One Click Updates!</header>
+        <isPublished>false</isPublished>
+        <masterLabel>Resolve Case and Missing Info</masterLabel>
+        <publishedDate>2020-02-21</publishedDate>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>false</shouldIgnoreGlobalDelay>
+        <startDate>2020-02-21</startDate>
+        <targetPageKey1>Case</targetPageKey1>
+        <targetPageKey2>view</targetPageKey2>
+        <targetPageType>standard__recordPage</targetPageType>
+        <timesToDisplay>1</timesToDisplay>
+        <title>Resolve Case &amp; Missing Info buttons</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+</Prompt>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calculation</fullName>
+    <active>true</active>
+    <description>Used for Client Support on Existing Plans</description>
+    <label>Calculation</label>
+    <picklistValues>
+        <picklist>Are_there_5_Owners__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Calculation_Type__c</picklist>
+        <values>
+            <fullName>Employer Match %28Non Safe Harbor%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Profit Sharing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safe Harbor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Company_Entity_Type__c</picklist>
+        <values>
+            <fullName>C-Corp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LLC taxed as Corp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LLC taxed as Partnership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S-Corp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sole Proprietor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Eligibility__c</picklist>
+        <values>
+            <fullName>Immediate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Month</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Year %281000 hours%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Six Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Three Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Two Months</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Has_the_client_requested_a_special__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Owners__c</picklist>
+        <values>
+            <fullName>K-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>W-2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Owners_through_Attribution__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Owners_through_Attribution_on_Census__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Plan_Type__c</picklist>
+        <values>
+            <fullName>Conversion Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Option__c</picklist>
+        <values>
+            <fullName>Custom%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Express IRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Express%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legacy Saver%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mega Roth Single%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RK Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reserve%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saver%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Retirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Retirement Bundled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Retirement Single%28k%29 Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Retirement TPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Retirement Unbundled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single IRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single%28k%29 Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single%28k%29 to Custom%28k%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opened</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Requested</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Top_Heavy__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Verified_Census__c</picklist>
+        <values>
+            <fullName>Client Confirmed Employee Demographic Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client census has been attached in UBQT format</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X5_Owners_On_Census__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

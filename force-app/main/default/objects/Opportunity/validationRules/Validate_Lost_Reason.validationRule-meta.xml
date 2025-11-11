@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Lost_Reason</fullName>
+    <active>true</active>
+    <description>Please populate a reason the Opportunity was Closed Lost.</description>
+    <errorConditionFormula>(ISPICKVAL(StageName,&quot;Closed Lost&quot;) || ISPICKVAL(StageName,&quot;Lost&quot;))
+&amp;&amp; 
+ISPICKVAL(Closed_Lost_Reason__c,&quot;&quot;)
+&amp;&amp; 
+CloseDate &gt; DATE(2017,1,9)</errorConditionFormula>
+    <errorDisplayField>Closed_Lost_Reason__c</errorDisplayField>
+    <errorMessage>Please add a reason the Opportunity was lost.</errorMessage>
+</ValidationRule>

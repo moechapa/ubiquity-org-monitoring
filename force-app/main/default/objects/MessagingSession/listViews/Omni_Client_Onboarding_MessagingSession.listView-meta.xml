@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Omni_Client_Onboarding_MessagingSession</fullName>
+    <columns>Name</columns>
+    <columns>MessagingChannel</columns>
+    <columns>MessagingEndUser</columns>
+    <columns>Owner</columns>
+    <columns>PlatformType</columns>
+    <columns>Status</columns>
+    <columns>StartTime</columns>
+    <columns>EndTime</columns>
+    <columns>Omni_Role__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ChannelName</field>
+        <operation>equals</operation>
+        <value>Omni Messaging,Login Help</value>
+    </filters>
+    <label>CE Messaging Sessions</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

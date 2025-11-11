@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Physical_City__c</fullName>
+    <description>Enter only if Billing Address is a PO Box</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter only if Billing Address is a PO Box</inlineHelpText>
+    <label>Physical City</label>
+    <length>40</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

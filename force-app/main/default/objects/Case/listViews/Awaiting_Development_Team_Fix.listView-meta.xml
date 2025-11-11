@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Awaiting_Development_Team_Fix</fullName>
+    <booleanFilter>1 AND (2 OR 4) AND 3</booleanFilter>
+    <columns>Team_Member__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Plan__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Last_Activity_Date__c</columns>
+    <columns>Case_notes_new__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>dist,r&amp;w</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Awaiting Development Team Fix</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>jorcu</value>
+    </filters>
+    <label>Open Distro Cases Awaiting Dev Team Fix</label>
+    <sharedTo>
+        <roleAndSubordinates>FinOps_Distributions_Manager</roleAndSubordinates>
+    </sharedTo>
+</ListView>

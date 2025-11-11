@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Advisor_Communication__c</fullName>
+    <inlineHelpText>What kind of correspondence will this contact receive regarding this client&apos;s lifecycle?</inlineHelpText>
+    <label>Advisor Communication</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All_Communication</fullName>
+                <default>true</default>
+                <label>All Communication</label>
+            </value>
+            <value>
+                <fullName>No_Communication</fullName>
+                <default>false</default>
+                <label>No Communication</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

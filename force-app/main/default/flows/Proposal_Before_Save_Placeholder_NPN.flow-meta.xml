@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>64.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <description>These values are required by Principal for sync, as they&apos;re used to identify if a proposal is SRP/Leafhouse</description>
+        <name>Set_Default_NPN_and_CRD</name>
+        <label>Set Default NPN and CRD</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Advisor_NPN__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>7823642</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Advisor_CRD__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>330537</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <description>Created for leafhouse.  Hard locks NPN and CRD to values requested by Principal for sync.</description>
+    <environments>Default</environments>
+    <interviewLabel>Proposal | Before Save | Placeholder NPN {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Proposal | Before Save | Default NPN and CRD</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Set_Default_NPN_and_CRD</targetReference>
+        </connector>
+        <filterLogic>1 AND 2 AND (3 OR 4)</filterLogic>
+        <filters>
+            <field>Advisor_Included__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>true</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Lead_Source_Detail__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Leafhouse</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Advisor_NPN__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>7823642</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Advisor_CRD__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>330537</stringValue>
+            </value>
+        </filters>
+        <object>Proposal__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

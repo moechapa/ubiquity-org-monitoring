@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_Was_Unclear_Missing__c</fullName>
+    <description>What was unclear to client during meeting - what was missing that would have been good to have?</description>
+    <inlineHelpText>What was unclear to client during meeting - what was missing that would have been good to have?</inlineHelpText>
+    <label>What Was Unclear/Missing?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

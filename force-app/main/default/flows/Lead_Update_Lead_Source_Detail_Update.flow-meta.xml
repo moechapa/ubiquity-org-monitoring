@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Lead_Source_Evaluation</name>
+        <label>Lead Source Evaluation</label>
+        <locationX>430</locationX>
+        <locationY>599</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Simply_Advisor_Sourced_Bundled</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>proposal.Referrer_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Advisor</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>proposal.TPA_EIN__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Lead_Source_Detail</targetReference>
+            </connector>
+            <label>Simply Advisor Sourced (Bundled)</label>
+        </rules>
+        <rules>
+            <name>Simply_Advisor_Sourced_Unbundled</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>proposal.Referrer_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Advisor</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>proposal.TPA_EIN__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Lead_Source_Detail_0</targetReference>
+            </connector>
+            <label>Simply Advisor Sourced (Unbundled)</label>
+        </rules>
+        <rules>
+            <name>Simply_TPA_Sourced_Unbundled</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>proposal.Referrer_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>TPA</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Lead_Source_Detail_0_0</targetReference>
+            </connector>
+            <label>Simply TPA Sourced (Unbundled)</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>LSD_Assignment</name>
+        <label>LSD Assignment</label>
+        <locationX>236</locationX>
+        <locationY>214</locationY>
+        <defaultConnector>
+            <targetReference>TPA_Check</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Simply_Advisor_LSD</name>
+            <conditionLogic>(1 AND 2) OR (2 AND 3)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Referrer_s_Email__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.LeadSourceDetail__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Simply Direct</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Advisory_Firm__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Lead_Source_Detail_00</targetReference>
+            </connector>
+            <label>Simply Advisor LSD</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Proposal_Query_Successful</name>
+        <label>Proposal Query Successful</label>
+        <locationX>709</locationX>
+        <locationY>595</locationY>
+        <defaultConnectorLabel>Proposal Not Found</defaultConnectorLabel>
+        <rules>
+            <name>Proposal_Found</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>proposal.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Lead_Source_Evaluation</targetReference>
+            </connector>
+            <label>Proposal Found</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>TPA_Check</name>
+        <label>TPA Check</label>
+        <locationX>435</locationX>
+        <locationY>320</locationY>
+        <defaultConnector>
+            <targetReference>Get_Proposal</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>TPA_Involved</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Plan_ID__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>third-party-administrator</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Service_Option__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Simply Retirement Unbundled</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Service_Option</targetReference>
+            </connector>
+            <label>TPA Involved</label>
+        </rules>
+    </decisions>
+    <interviewLabel>Lead | Update | Lead Source Detail Update {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Lead | Update | Lead Source Detail Update</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Proposal</name>
+        <label>Get Proposal</label>
+        <locationX>716</locationX>
+        <locationY>359</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Proposal_Query_Successful</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Company_Email__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </filters>
+        <object>Proposal__c</object>
+        <outputAssignments>
+            <assignToReference>proposal.Id</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>proposal.Referrer_Type__c</assignToReference>
+            <field>Referrer_Type__c</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>proposal.TPA_EIN__c</assignToReference>
+            <field>TPA_EIN__c</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Lead_Source_Detail</name>
+        <label>Update Lead Source Detail</label>
+        <locationX>58</locationX>
+        <locationY>924</locationY>
+        <inputAssignments>
+            <field>LeadSourceDetail__c</field>
+            <value>
+                <stringValue>Simply Advisor</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Service_Option__c</field>
+            <value>
+                <stringValue>Simply Retirement Bundled</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Lead_Source_Detail_0</name>
+        <label>Update Lead Source Detail</label>
+        <locationX>423</locationX>
+        <locationY>1053</locationY>
+        <inputAssignments>
+            <field>LeadSourceDetail__c</field>
+            <value>
+                <stringValue>Simply Advisor</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Service_Option__c</field>
+            <value>
+                <stringValue>Simply Retirement Unbundled</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Lead_Source_Detail_00</name>
+        <label>Update Lead Source Detail</label>
+        <locationX>219</locationX>
+        <locationY>387</locationY>
+        <connector>
+            <targetReference>TPA_Check</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>LeadSourceDetail__c</field>
+            <value>
+                <stringValue>Simply Advisor</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Lead_Source_Detail_0_0</name>
+        <label>Update Lead Source Detail</label>
+        <locationX>694</locationX>
+        <locationY>995</locationY>
+        <inputAssignments>
+            <field>LeadSourceDetail__c</field>
+            <value>
+                <stringValue>Simply TPA</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Service_Option__c</field>
+            <value>
+                <stringValue>Simply Retirement Unbundled</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Service_Option</name>
+        <label>Update Service Option</label>
+        <locationX>520</locationX>
+        <locationY>454</locationY>
+        <connector>
+            <targetReference>Get_Proposal</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Service_Option__c</field>
+            <value>
+                <stringValue>Simply Retirement Unbundled</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>590</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>LSD_Assignment</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>LeadSource</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Simply Retirement</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Lead_Type__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Employer</stringValue>
+            </value>
+        </filters>
+        <object>Lead</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <variables>
+        <name>proposal</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Proposal__c</objectType>
+    </variables>
+</Flow>

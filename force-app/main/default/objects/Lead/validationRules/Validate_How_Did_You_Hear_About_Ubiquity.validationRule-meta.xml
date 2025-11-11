@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_How_Did_You_Hear_About_Ubiquity</fullName>
+    <active>false</active>
+    <description>Makes sure 401(k) leads are not converted before &quot;How Did You Hear About Ubiquity&quot; is known</description>
+    <errorConditionFormula>IsConverted=True
+&amp;&amp;
+ ISPICKVAL( Product_Type__c , &quot;401(k)&quot; ) 
+&amp;&amp;
+ ISPICKVAL(  How_did_you_hear_about_Ubiquity__c  , &quot;&quot; )
+&amp;&amp;
+ Owner:User.LastName &lt;&gt; &quot;Claxton,Parks&quot;
+&amp;&amp;
+ RecordType.Name &lt;&gt; &quot;Business Development&quot;
+&amp;&amp;
+Eligible_for_Contact_Merge__c = FALSE
+&amp;&amp;
+NOT(ISPICKVAL( LeadSourceDetail__c, &quot;Sallus&quot;))</errorConditionFormula>
+    <errorDisplayField>How_did_you_hear_about_Ubiquity__c</errorDisplayField>
+    <errorMessage>401(k) leads cannot be converted without confirming how the lead heard about Ubiquity</errorMessage>
+</ValidationRule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_contact_name__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Confirm name of person responsible for processing payroll at your company so we can contact them for training.  If this person is not the same as the primary plan sponsor, provide this person’s contact information and authorize this person with this form [link to https://app.box.com/shared/static/ysxrn4gipck13j65qwlrexhalv8w1lo1.pdf]. Once your plan has been activated, we will reach out to him/her to ensure your payroll system and Ubiquity’s platform are synchronized to be able to process contributions.</inlineHelpText>
+    <label>Payroll contact name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

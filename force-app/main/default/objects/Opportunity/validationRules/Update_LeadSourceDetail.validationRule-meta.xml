@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update_LeadSourceDetail</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISPICKVAL( StageName , &quot;Closed Won&quot;)&amp;&amp; 
+ISPICKVAL( LeadSourceDetail__c , &quot;&quot;)&amp;&amp;
+$User.Id &lt;&gt; &quot;00500000006yBQC&quot;</errorConditionFormula>
+    <errorMessage>Please Update LeadSourceDetail to appropriate partner/channel</errorMessage>
+</ValidationRule>

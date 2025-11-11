@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(simplesurvey__Case__r.Client_Support_Team_CST__c = &quot;Single(k)&quot;,  TEXT(simplesurvey__Case__r.Department__c) = &quot;Single(k)&quot;), &quot;SingleK&quot;,
+IF(simplesurvey__Case__r.Case_Team__c = &quot;Saver Success&quot;, &quot;Saver&quot;,
+IF(simplesurvey__Case__r.Case_Team__c = &quot;Payroll&quot;, &quot;Payroll&quot;,
+IF(OR(simplesurvey__Case__r.Case_Team__c = &quot;Client Support&quot;, simplesurvey__Case__r.Case_Team__c = &quot;Platinum Servicing&quot;), &quot;CST&quot;, 
+IF( simplesurvey__Case__r.RecordType.Name = &quot;Implementations Cases&quot;, &quot;Implementations&quot;, 
+IF( ISBLANK(Implementation__c) = False, &quot;Implementations&quot;, 
+&quot;Other&quot;))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Team</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

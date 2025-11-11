@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner__c</fullName>
+    <description>Partner with Shared SLA Logo</description>
+    <externalId>false</externalId>
+    <formula>Account.Partner_Logo__c</formula>
+    <inlineHelpText>Partner with Shared SLA Logo</inlineHelpText>
+    <label>Partner</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

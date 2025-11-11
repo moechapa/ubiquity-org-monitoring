@@ -1,0 +1,81 @@
+.json-card {
+    margin-top: 15px;
+}
+
+.json-item {
+    padding: 10px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.key {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.value {
+    color: #0070d2;
+}
+
+.group-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.group-header {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #193146;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+}
+
+.ready-for-send {
+    background-color: #d9f2d9;
+}
+
+.missing-fields {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #fc0000;
+    border-radius: 10px;
+    background-color: #f7bcc1;
+}
+
+.slds-col {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ready-for-send {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #15ff00;
+    border-radius: 10px;
+    background-color: #d9f2d9;
+}
+
+.slds-text-align_left {
+    text-align: left;
+}
+
+.slds-col.slds-text-align_right {
+    text-align: right;
+}

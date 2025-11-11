@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount_of_Loans_at_Year_End_10g_part_2__c</fullName>
+    <description>If the answer to 10g was &apos;Yes&apos;, please enter the loan amount as of year end.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If the answer to 10g was &apos;Yes&apos;, please enter the loan amount as of year end.</inlineHelpText>
+    <label>Amount of Loans at Year End (10g part 2)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

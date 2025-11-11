@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>BI Inbox</fullName>
+        <default>false</default>
+        <label>BI Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Billing</fullName>
+        <default>false</default>
+        <label>Billing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Billing Inbox</fullName>
+        <default>false</default>
+        <label>Billing Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Biz Dev</fullName>
+        <default>false</default>
+        <label>Biz Dev</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Central Inbox</fullName>
+        <default>false</default>
+        <label>Central Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chat</fullName>
+        <default>false</default>
+        <label>Chat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Compliance</fullName>
+        <default>false</default>
+        <label>Compliance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Compliance Inbox</fullName>
+        <default>false</default>
+        <label>Compliance Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Distributions</fullName>
+        <default>false</default>
+        <label>Distributions</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Distributions Inbox</fullName>
+        <default>false</default>
+        <label>Distributions Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>East Coast Inbox</fullName>
+        <default>false</default>
+        <label>East Coast Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enrollment</fullName>
+        <default>false</default>
+        <label>Enrollment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fin Ops</fullName>
+        <default>false</default>
+        <label>Fin Ops</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Flow-Based Submission</fullName>
+        <default>false</default>
+        <label>Flow-Based Submission</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Help Center</fullName>
+        <default>false</default>
+        <label>Help Center Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>HR</fullName>
+        <default>false</default>
+        <label>HR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implementations</fullName>
+        <default>false</default>
+        <label>Implementations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implementations Inbox</fullName>
+        <default>false</default>
+        <label>Implementations Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inbound Phone Call</fullName>
+        <default>false</default>
+        <label>Inbound Phone Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal</fullName>
+        <default>false</default>
+        <label>Internal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IT</fullName>
+        <default>false</default>
+        <label>IT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IT Inbox</fullName>
+        <default>false</default>
+        <label>IT Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>KYC Review</fullName>
+        <default>false</default>
+        <label>KYC Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>L&amp;D Inbox</fullName>
+        <default>false</default>
+        <label>L&amp;D Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Leadership</fullName>
+        <default>false</default>
+        <label>Leadership</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketing</fullName>
+        <default>false</default>
+        <label>Marketing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketing Inbox</fullName>
+        <default>false</default>
+        <label>Marketing Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Operations Inbox</fullName>
+        <default>false</default>
+        <label>Operations Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ops Inbox</fullName>
+        <default>false</default>
+        <label>Ops Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Outbound Phone Call</fullName>
+        <default>false</default>
+        <label>Outbound Phone Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>P + C</fullName>
+        <default>false</default>
+        <label>P + C</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partnership Support Inbox</fullName>
+        <default>false</default>
+        <label>Partnership Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partnerships</fullName>
+        <default>false</default>
+        <label>Partnerships</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Payroll</fullName>
+        <default>false</default>
+        <label>Payroll</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Payroll Inbox</fullName>
+        <default>false</default>
+        <label>Payroll Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Payroll Koncierge</fullName>
+        <default>false</default>
+        <label>Payroll Koncierge</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Platinum Inbox</fullName>
+        <default>false</default>
+        <label>Platinum Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Innovation</fullName>
+        <default>false</default>
+        <label>Product Innovation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ReviewKYC</fullName>
+        <default>false</default>
+        <label>ReviewKYC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RW Inbox</fullName>
+        <default>false</default>
+        <label>RW Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales</fullName>
+        <default>false</default>
+        <label>Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Inbox</fullName>
+        <default>false</default>
+        <label>Sales Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Saver Inbox</fullName>
+        <default>false</default>
+        <label>Saver Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Savers</fullName>
+        <default>false</default>
+        <label>Savers</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Servicing</fullName>
+        <default>false</default>
+        <label>Servicing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Simply RM Inbox</fullName>
+        <default>false</default>
+        <label>Simply RM Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Simply Support Inbox</fullName>
+        <default>false</default>
+        <label>Simply Support Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Simply TPA</fullName>
+        <default>false</default>
+        <label>Simply TPA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Single(k) Inbox</fullName>
+        <default>false</default>
+        <label>Single(k) Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SMS</fullName>
+        <default>false</default>
+        <label>SMS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Support Inbox</fullName>
+        <default>false</default>
+        <label>Support Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Transitions</fullName>
+        <default>false</default>
+        <label>Transitions</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Transitions Inbox</fullName>
+        <default>false</default>
+        <label>Transitions Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web</fullName>
+        <default>false</default>
+        <label>Web</label>
+    </standardValue>
+    <standardValue>
+        <fullName>West Coast Inbox</fullName>
+        <default>false</default>
+        <label>West Coast Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zenefits Inbox</fullName>
+        <default>false</default>
+        <label>Zenefits Inbox</label>
+    </standardValue>
+</StandardValueSet>

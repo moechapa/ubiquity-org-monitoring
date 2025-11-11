@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Immediate</fullName>
+        <default>false</default>
+        <label>Immediate</label>
+    </customValue>
+    <customValue>
+        <fullName>One Month</fullName>
+        <default>false</default>
+        <label>One Month</label>
+    </customValue>
+    <customValue>
+        <fullName>Two Months</fullName>
+        <default>false</default>
+        <label>Two Months</label>
+    </customValue>
+    <customValue>
+        <fullName>Three Months</fullName>
+        <default>false</default>
+        <label>Three Months</label>
+    </customValue>
+    <customValue>
+        <fullName>6 Months</fullName>
+        <default>false</default>
+        <label>6 Months</label>
+    </customValue>
+    <customValue>
+        <fullName>1 Year (1000 Hours)</fullName>
+        <default>false</default>
+        <label>1 Year (1000 Hours)</label>
+    </customValue>
+    <customValue>
+        <fullName>1 Year</fullName>
+        <default>false</default>
+        <label>1 Year</label>
+    </customValue>
+    <customValue>
+        <fullName>12 Months Elapsed Time</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>12 Months Elapsed Time</label>
+    </customValue>
+    <customValue>
+        <fullName>90 Day</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>90 Day</label>
+    </customValue>
+    <description>When is participant eligible to enter the plan.</description>
+    <masterLabel>Plan Eligibility</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

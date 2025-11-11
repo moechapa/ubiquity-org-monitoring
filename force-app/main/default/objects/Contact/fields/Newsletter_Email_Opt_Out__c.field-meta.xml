@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Newsletter_Email_Opt_Out__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Client has opted out of quarterly client newsletter emails from Ubiquity.</description>
+    <inlineHelpText>Client has opted out of quarterly client newsletter emails from Ubiquity.</inlineHelpText>
+    <label>Newsletter Email Opt Out</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

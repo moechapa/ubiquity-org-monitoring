@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Round_Up_Weight__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When calculating a subtotal, if one score input has this checked, the total weight will be bumped to 100%.
+
+For example, if a CSAT subtotal field has only the input of Sponsor CSAT weighted at 80%, the score will be calculated as if the weight is 100%</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>When calculating a subtotal, if one score input has this checked, the total weight will be bumped to 100%.</inlineHelpText>
+    <label>Round Up Weight</label>
+    <type>Checkbox</type>
+</CustomField>

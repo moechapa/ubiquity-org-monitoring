@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Source__c</fullName>
+    <description>Lead source from Opportunity</description>
+    <inlineHelpText>Lead source from Opportunity</inlineHelpText>
+    <label>Lead Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Organic Search</fullName>
+                <default>false</default>
+                <label>Organic Search</label>
+            </value>
+            <value>
+                <fullName>Organic Social</fullName>
+                <default>false</default>
+                <label>Organic Social</label>
+            </value>
+            <value>
+                <fullName>Paid Ads</fullName>
+                <default>false</default>
+                <label>Paid Ads</label>
+            </value>
+            <value>
+                <fullName>Content Syndication</fullName>
+                <default>false</default>
+                <label>Content Syndication</label>
+            </value>
+            <value>
+                <fullName>Events</fullName>
+                <default>false</default>
+                <label>Events</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Simply Retirement</fullName>
+                <default>false</default>
+                <label>Simply Retirement</label>
+            </value>
+            <value>
+                <fullName>Sallus</fullName>
+                <default>false</default>
+                <label>Sallus</label>
+            </value>
+            <value>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+                <label>Purchased List</label>
+            </value>
+            <value>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+                <label>Partner Referral</label>
+            </value>
+            <value>
+                <fullName>Direct Referral</fullName>
+                <default>false</default>
+                <label>Direct Referral</label>
+            </value>
+            <value>
+                <fullName>MML</fullName>
+                <default>false</default>
+                <label>MML</label>
+            </value>
+            <value>
+                <fullName>Schwab</fullName>
+                <default>false</default>
+                <label>Schwab</label>
+            </value>
+            <value>
+                <fullName>#N/A</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>#N/A</label>
+            </value>
+            <value>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Accounting</label>
+            </value>
+            <value>
+                <fullName>Advisor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Advisor</label>
+            </value>
+            <value>
+                <fullName>As(k)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>As(k)</label>
+            </value>
+            <value>
+                <fullName>Direct</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Direct</label>
+            </value>
+            <value>
+                <fullName>Financial Institution</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Financial Institution</label>
+            </value>
+            <value>
+                <fullName>HCM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>HCM</label>
+            </value>
+            <value>
+                <fullName>Member Organization</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Member Organization</label>
+            </value>
+            <value>
+                <fullName>Referral</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Referral</label>
+            </value>
+            <value>
+                <fullName>Traditional Payroll</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Traditional Payroll</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>5500 Audit</label>
+                <name>X5500_Audit</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Audit Package Request</label>
+                <name>Audit_Package_Request</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Correction</label>
+                <name>Correction</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Do I need this</label>
+                <name>Do_I_need_this</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Existing 5500</label>
+                <name>Existing_5500</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Extension</label>
+                <name>Extension</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Filing Assistance</label>
+                <name>Filing_Assistance</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Late Filer</label>
+                <name>Late_Filer</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Reconciliation</label>
+                <name>Reconciliation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>SOC1 Request</label>
+                <name>SOC1_Request</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Status</label>
+                <name>Status</name>
+            </dataCategory>
+            <label>5500</label>
+            <name>X5500</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Ancillary Services</label>
+                <name>Ancillary_Services</name>
+            </dataCategory>
+            <dataCategory>
+                <label>AP Invoices &amp; Inquiries</label>
+                <name>AP_Invoices_Inquiries</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Billing Suspension</label>
+                <name>Billing_Suspension</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Bond Purchase Request</label>
+                <name>Bond_Purchase_Request</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Commission Compensation Change</label>
+                <name>Commission_Compensation_Change</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Commission Status</label>
+                <name>Commission_Status</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Custodial Fees</label>
+                <name>Custodial_Fees</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Fee Information</label>
+                <name>Fee_Information</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Invoice Copy</label>
+                <name>Invoice_Copy</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Refund or Waive Request</label>
+                <name>Refund_or_Waive_Request</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sales Discount Request</label>
+                <name>Sales_Discount_Request</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Ubiquity Billing Schedule</label>
+                <name>Ubiquity_Billing_Schedule</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Ubiquity Generated Emails</label>
+                <name>Ubiquity_Generated_Emails</name>
+            </dataCategory>
+            <label>Billing, Commissions, and Fees</label>
+            <name>Billing_Commissions_and_Fees</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>ACH Reject</label>
+                <name>ACH_Reject</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Adjustment</label>
+                <name>Adjustment</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Annual Contribution Submission</label>
+                <name>Annual_Contribution_Submission</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Census Upload Request</label>
+                <name>Census_Upload_Request</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Enhanced Payroll Services Setup</label>
+                <name>Enhanced_Payroll_Services_Setup</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Enhanced Payroll Services Troubleshoot</label>
+                <name>Enhanced_Payroll_Services_Troubleshoot</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Excess Cash</label>
+                <name>Excess_Cash</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Finch Connectivity</label>
+                <name>Finch_Connectivity</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Forfeiture</label>
+                <name>Forfeiture</name>
+            </dataCategory>
+            <dataCategory>
+                <label>How to Update Funding Account</label>
+                <name>How_to_Update_Funding_Account</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Kotapay Contract</label>
+                <name>Kotapay_Contract</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Late Interest Calculation</label>
+                <name>Late_Interest_Calculation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Late Payroll</label>
+                <name>Late_Payroll</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Missing</label>
+                <name>Missing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Payroll Error</label>
+                <name>Payroll_Error1</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Payroll Schedule</label>
+                <name>Payroll_Schedule</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Payroll Training</label>
+                <name>Payroll_Training</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Research</label>
+                <name>Research</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Source Reclassification</label>
+                <name>Source_Reclassification</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Troubleshoot Annual Contribution</label>
+                <name>Troubleshoot_Annual_Contribution</name>
+            </dataCategory>
+            <label>Contribution and Payroll</label>
+            <name>Contribution_and_Payroll</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Deposits</label>
+            <name>Deposits</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Direct Integration (SFTP)</label>
+            <name>Direct_Integration_SFTP</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Distribution</label>
+            <name>Distribution</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Document Request</label>
+            <name>Document_Request</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Enhanced Payroll Services (EPS)</label>
+            <name>Enhanced_Payroll_Services_EPS</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Finch</label>
+            <name>Finch</name>
+        </dataCategory>
+        <dataCategory>
+            <label>General Question</label>
+            <name>General_Question</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Investments</label>
+            <name>Investments</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Loan</label>
+            <name>Loan</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Login Issues</label>
+            <name>Login_Issues</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Onboarding</label>
+            <name>Onboarding</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Payroll Error</label>
+            <name>Payroll_Error</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Plan Compliance</label>
+            <name>Plan_Compliance</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Plan Correction</label>
+            <name>Plan_Correction</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Plan Update</label>
+            <name>Plan_Update</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Reconciliations</label>
+            <name>Reconciliations</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Report Request</label>
+            <name>Report_Request</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Rollover In</label>
+            <name>Rollover_In</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Sales Inquiry</label>
+            <name>Sales_Inquiry</name>
+        </dataCategory>
+        <dataCategory>
+            <label>SingleK</label>
+            <name>SingleK</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Transition</label>
+            <name>Transition</name>
+        </dataCategory>
+        <dataCategory>
+            <label>User Update</label>
+            <name>User_Update</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <description>New categories after restructure in 2024</description>
+    <label>Global Categories</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+        <object>SvcCatalogItemDef</object>
+    </objectUsage>
+</DataCategoryGroup>

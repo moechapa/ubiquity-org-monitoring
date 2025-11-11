@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Most_Recent_Sponsor_Trustee_NPS__c</fullName>
+    <description>Date of the Most Recent Sponsor/Trustee NPS</description>
+    <inlineHelpText>Date of the Most Recent Sponsor/Trustee NPS</inlineHelpText>
+    <label>Date Most Recent Sponsor/Trustee NPS</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>De_Escalation_Status_Not_Changed</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ISBLANK(De_Escalation_Notes__c ))
+&amp;&amp;
+ ISPICKVAL(Status__c, &quot;Escalated&quot;)</errorConditionFormula>
+    <errorMessage>Please use the &quot;De-Escalate&quot; button on this record to add De-Escalation Notes. If you are not ready to De-Escalate this plan, enter additional notes into the &quot;Next Steps&quot; field.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fixed_Income_Taxable_Funds__c</fullName>
+    <label>Fixed Income Taxable Funds</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Share_Class__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Core Bond Fund (JCBZX)</fullName>
+                <default>false</default>
+                <label>Core Bond Fund (JCBZX)</label>
+            </value>
+            <value>
+                <fullName>Core Plus Bond Fund (JCPZX)</fullName>
+                <default>false</default>
+                <label>Core Plus Bond Fund (JCPZX)</label>
+            </value>
+            <value>
+                <fullName>High Yield Fund (JHYZX)</fullName>
+                <default>false</default>
+                <label>High Yield Fund (JHYZX)</label>
+            </value>
+            <value>
+                <fullName>Government Bond Fund (JGBZX)</fullName>
+                <default>false</default>
+                <label>Government Bond Fund (JGBZX)</label>
+            </value>
+            <value>
+                <fullName>Unconstrained Debt Fund (JISZX)</fullName>
+                <default>false</default>
+                <label>Unconstrained Debt Fund (JISZX)</label>
+            </value>
+            <value>
+                <fullName>Emerging Markets Strategic Debt Fund (JECZX)</fullName>
+                <default>false</default>
+                <label>Emerging Markets Strategic Debt Fund (JECZX)</label>
+            </value>
+            <value>
+                <fullName>Total Return Fund (JMTTX)</fullName>
+                <default>false</default>
+                <label>Total Return Fund (JMTTX)</label>
+            </value>
+            <value>
+                <fullName>Core Bond Fund (JCBPX)</fullName>
+                <default>false</default>
+                <label>Core Bond Fund (JCBPX)</label>
+            </value>
+            <value>
+                <fullName>Core Plus Bond Fund (JCPPX)</fullName>
+                <default>false</default>
+                <label>Core Plus Bond Fund (JCPPX)</label>
+            </value>
+            <value>
+                <fullName>High Yield Fund (JRJYX)</fullName>
+                <default>false</default>
+                <label>High Yield Fund (JRJYX)</label>
+            </value>
+            <value>
+                <fullName>Government Bond Fund (OGGPX)</fullName>
+                <default>false</default>
+                <label>Government Bond Fund (OGGPX)</label>
+            </value>
+            <value>
+                <fullName>Core Bond Fund (JCBQX)</fullName>
+                <default>false</default>
+                <label>Core Bond Fund (JCBQX)</label>
+            </value>
+            <value>
+                <fullName>Core Plus Bond Fund (JCPQX)</fullName>
+                <default>false</default>
+                <label>Core Plus Bond Fund (JCPQX)</label>
+            </value>
+            <value>
+                <fullName>High Yield Fund (JRJKX)</fullName>
+                <default>false</default>
+                <label>High Yield Fund (JRJKX)</label>
+            </value>
+            <value>
+                <fullName>Government Bond Fund (OGGQX)</fullName>
+                <default>false</default>
+                <label>Government Bond Fund (OGGQX)</label>
+            </value>
+            <value>
+                <fullName>Core Bond Fund (JCBRX)</fullName>
+                <default>false</default>
+                <label>Core Bond Fund (JCBRX)</label>
+            </value>
+            <value>
+                <fullName>Core Plus Bond Fund (JCPYX)</fullName>
+                <default>false</default>
+                <label>Core Plus Bond Fund (JCPYX)</label>
+            </value>
+            <value>
+                <fullName>Strategic Income Opportunities Fund (JSORX)</fullName>
+                <default>false</default>
+                <label>Strategic Income Opportunities Fund (JSORX)</label>
+            </value>
+            <value>
+                <fullName>High Yield Fund (JYHRX)</fullName>
+                <default>false</default>
+                <label>High Yield Fund (JYHRX)</label>
+            </value>
+            <value>
+                <fullName>Inflation Managed Bond Fund (JIMRX)</fullName>
+                <default>false</default>
+                <label>Inflation Managed Bond Fund (JIMRX)</label>
+            </value>
+            <value>
+                <fullName>Unconstrained Debt Fund (JSIRX)</fullName>
+                <default>false</default>
+                <label>Unconstrained Debt Fund (JSIRX)</label>
+            </value>
+            <value>
+                <fullName>Emerging Markets Debt Fund (JEMRX)</fullName>
+                <default>false</default>
+                <label>Emerging Markets Debt Fund (JEMRX)</label>
+            </value>
+            <value>
+                <fullName>Emerging Markets Strategic Debt Fund (JECRX)</fullName>
+                <default>false</default>
+                <label>Emerging Markets Strategic Debt Fund (JECRX)</label>
+            </value>
+            <value>
+                <fullName>Total Return Fund (JMTRX)</fullName>
+                <default>false</default>
+                <label>Total Return Fund (JMTRX)</label>
+            </value>
+            <value>
+                <fullName>Core Bond Fund (JCBUX)</fullName>
+                <default>false</default>
+                <label>Core Bond Fund (JCBUX)</label>
+            </value>
+            <value>
+                <fullName>Core Plus Bond Fund (JCPUX)</fullName>
+                <default>false</default>
+                <label>Core Plus Bond Fund (JCPUX)</label>
+            </value>
+            <value>
+                <fullName>Strategic Income Opportunities Fund (JSOZX)</fullName>
+                <default>false</default>
+                <label>Strategic Income Opportunities Fund (JSOZX)</label>
+            </value>
+            <value>
+                <fullName>High Yield Fund (JHYUX)</fullName>
+                <default>false</default>
+                <label>High Yield Fund (JHYUX)</label>
+            </value>
+            <value>
+                <fullName>Short Duration Bond Fund (JSDUX)</fullName>
+                <default>false</default>
+                <label>Short Duration Bond Fund (JSDUX)</label>
+            </value>
+            <value>
+                <fullName>Global Bond Opportunities Fund (GBONX)</fullName>
+                <default>false</default>
+                <label>Global Bond Opportunities Fund (GBONX)</label>
+            </value>
+            <value>
+                <fullName>Mortgage-Backed Securities Fund (JMBUX)</fullName>
+                <default>false</default>
+                <label>Mortgage-Backed Securities Fund (JMBUX)</label>
+            </value>
+            <value>
+                <fullName>Floating Rate Income Fund (JPHRX)</fullName>
+                <default>false</default>
+                <label>Floating Rate Income Fund (JPHRX)</label>
+            </value>
+            <value>
+                <fullName>Government Bond Fund (OGGYX)</fullName>
+                <default>false</default>
+                <label>Government Bond Fund (OGGYX)</label>
+            </value>
+            <value>
+                <fullName>Limited Duration Bond Fund (JUSUX)</fullName>
+                <default>false</default>
+                <label>Limited Duration Bond Fund (JUSUX)</label>
+            </value>
+            <value>
+                <fullName>Inflation Managed Bond Fund (JIMMX)</fullName>
+                <default>false</default>
+                <label>Inflation Managed Bond Fund (JIMMX)</label>
+            </value>
+            <value>
+                <fullName>Unconstrained Debt Fund (JSIMX)</fullName>
+                <default>false</default>
+                <label>Unconstrained Debt Fund (JSIMX)</label>
+            </value>
+            <value>
+                <fullName>Emerging Markets Debt Fund (JEMVX)</fullName>
+                <default>false</default>
+                <label>Emerging Markets Debt Fund (JEMVX)</label>
+            </value>
+            <value>
+                <fullName>Emerging Markets Strategic Debt Fund (JECUX)</fullName>
+                <default>false</default>
+                <label>Emerging Markets Strategic Debt Fund (JECUX)</label>
+            </value>
+            <value>
+                <fullName>Income Fund (JMSFX)</fullName>
+                <default>false</default>
+                <label>Income Fund (JMSFX)</label>
+            </value>
+            <value>
+                <fullName>Total Return Fund (JMTIX)</fullName>
+                <default>false</default>
+                <label>Total Return Fund (JMTIX)</label>
+            </value>
+            <value>
+                <fullName>Short Duration Core Plus Fund (JSDRX)</fullName>
+                <default>false</default>
+                <label>Short Duration Core Plus Fund (JSDRX)</label>
+            </value>
+            <value>
+                <fullName>Corporate Bond Fund (CBFVX)</fullName>
+                <default>false</default>
+                <label>Corporate Bond Fund (CBFVX)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Core Bond Fund (JCBZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Core Plus Bond Fund (JCPZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>High Yield Fund (JHYZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Government Bond Fund (JGBZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Unconstrained Debt Fund (JISZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Emerging Markets Strategic Debt Fund (JECZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Total Return Fund (JMTTX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Core Bond Fund (JCBPX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Core Plus Bond Fund (JCPPX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>High Yield Fund (JRJYX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Government Bond Fund (OGGPX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Core Bond Fund (JCBQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Core Plus Bond Fund (JCPQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>High Yield Fund (JRJKX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Government Bond Fund (OGGQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Core Bond Fund (JCBRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Core Plus Bond Fund (JCPYX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Strategic Income Opportunities Fund (JSORX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>High Yield Fund (JYHRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Inflation Managed Bond Fund (JIMRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Unconstrained Debt Fund (JSIRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Emerging Markets Debt Fund (JEMRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Emerging Markets Strategic Debt Fund (JECRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Total Return Fund (JMTRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Core Bond Fund (JCBUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Core Plus Bond Fund (JCPUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Strategic Income Opportunities Fund (JSOZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>High Yield Fund (JHYUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Short Duration Bond Fund (JSDUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Global Bond Opportunities Fund (GBONX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Mortgage-Backed Securities Fund (JMBUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Floating Rate Income Fund (JPHRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Government Bond Fund (OGGYX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Limited Duration Bond Fund (JUSUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Inflation Managed Bond Fund (JIMMX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Unconstrained Debt Fund (JSIMX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Emerging Markets Debt Fund (JEMVX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Emerging Markets Strategic Debt Fund (JECUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Income Fund (JMSFX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Total Return Fund (JMTIX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Short Duration Core Plus Fund (JSDRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Corporate Bond Fund (CBFVX)</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

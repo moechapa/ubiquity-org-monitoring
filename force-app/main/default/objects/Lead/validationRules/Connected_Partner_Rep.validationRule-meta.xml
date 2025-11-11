@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Connected_Partner_Rep</fullName>
+    <active>false</active>
+    <description>Connected Partner Rep is required for Schwab Leads</description>
+    <errorConditionFormula>ISPICKVAL(Connected_Partner__c, &quot;Schwab&quot;) &amp;&amp;
+ISBLANK(Connected_Partner_Rep__c)</errorConditionFormula>
+    <errorDisplayField>Connected_Partner_Rep__c</errorDisplayField>
+    <errorMessage>Connected Partner Rep is required for Schwab Leads</errorMessage>
+</ValidationRule>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Custom_Fund_List_Missing_Info</fullName>
+        <description>Custom Fund List Missing Info</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ubiquity_Sales/Custom_Fund_List_Missing_Info</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Custom_Fund_List_Created</fullName>
+        <description>New Custom Fund List Created</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>rw@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Imps_Simply_Bundled/Alert_for_New_Custom_Fund_List</template>
+    </alerts>
+</Workflow>

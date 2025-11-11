@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RestrictionRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>for non managers in CE</description>
+    <enforcementType>Restrict</enforcementType>
+    <masterLabel>Only show where I&apos;m being QA&apos;d</masterLabel>
+    <recordFilter>Ubiquity_Employee__r.Email=$User.Email</recordFilter>
+    <targetEntity>Quality_Assurance_QA__c</targetEntity>
+    <userCriteria>$Permission.Self_QA_Viewer=true</userCriteria>
+    <version>1</version>
+</RestrictionRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimated_Average_Price_of_Plans_Sold__c</fullName>
+    <description>Rough estimate of the average price of the plans to be sold by this partner.</description>
+    <inlineHelpText>Rough estimate of the average price of the plans to be sold by this partner.</inlineHelpText>
+    <label>Estimated Average Price of Plans Sold</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

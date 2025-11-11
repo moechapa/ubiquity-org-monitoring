@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Paradigm_Plan_Link__c</fullName>
+    <description>Complete Paradigm Plan ID field and this will auto update</description>
+    <externalId>false</externalId>
+    <formula>&quot;https://secure.myubiquity.com/admin/company/&quot;+ Paradigm_Company_ID__c +&quot;/plan/&quot;+ Paradigm_Plan_ID__c</formula>
+    <inlineHelpText>Complete Paradigm Plan ID field and this will auto update</inlineHelpText>
+    <label>Paradigm Plan Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

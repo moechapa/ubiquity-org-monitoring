@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Account_Creation_on_Upsert</fullName>
+    <active>true</active>
+    <description>Prevents creating new accounts from new Upsert action on EIN. Add alias for every new user that will be performing Upserts.</description>
+    <errorConditionFormula>AND(
+  ISNEW(),
+  $User.Alias = &quot;sbula&quot;
+)</errorConditionFormula>
+    <errorMessage>Prevented new Account from being created.</errorMessage>
+</ValidationRule>

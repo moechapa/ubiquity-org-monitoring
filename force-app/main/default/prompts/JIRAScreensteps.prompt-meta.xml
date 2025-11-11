@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prompt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>JIRA Screensteps</masterLabel>
+    <promptVersions>
+        <body>&lt;p&gt;&lt;b&gt;&lt;i&gt;Need a refresher on JIRA Child Case / Ticket Creation and Communication? Screensteps in Salesforce has it covered!&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Search for &quot;JIRA Child Case&quot; in Screensteps if you need a guide for getting started&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;When you select &quot;JIRA Child Case&quot; in a parent case, you&apos;ll see the Screensteps bell icon on the right of the screen. Click it for a live guide on creating the JIRA Child Case and ticket.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;When you&apos;re viewing a JIRA Child Case after creation, you&apos;ll see the Screensteps bell icon on the right of the screen. Click it for a live guide on creating JIRA Tickets and communicating to PRKS through Case Comments.&lt;/li&gt;&lt;/ul&gt;</body>
+        <customApplication>standard__LightningService</customApplication>
+        <delayDays>1</delayDays>
+        <description>Updating team on JIRA/Screensteps updates</description>
+        <displayType>DockedComposer</displayType>
+        <endDate>2020-04-10</endDate>
+        <header>JIRA Case &amp; Ticket Overviews</header>
+        <isPublished>false</isPublished>
+        <masterLabel>JIRA Screensteps</masterLabel>
+        <publishedDate>2020-03-30</publishedDate>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>true</shouldIgnoreGlobalDelay>
+        <startDate>2020-03-29</startDate>
+        <targetPageKey1>Case</targetPageKey1>
+        <targetPageKey2>view</targetPageKey2>
+        <targetPageType>standard__recordPage</targetPageType>
+        <timesToDisplay>1</timesToDisplay>
+        <title>Screensteps JIRA Child Case Guides</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+        <videoLink>https://app.box.com/embed/s/dr02fkihzhhnvcws3ee7oh9cjhi6kw21?sortColumn=date&amp;view=list&quot; width=&quot;800&quot; height=&quot;550&quot; frameborder=&quot;0&quot; allowfullscreen webkitallowfullscreen msallowfullscreen&gt;&lt;/iframe&gt;</videoLink>
+    </promptVersions>
+</Prompt>

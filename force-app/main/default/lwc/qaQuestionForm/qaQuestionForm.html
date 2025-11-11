@@ -1,0 +1,68 @@
+<template>
+	<lightning-card>
+		<div class="slds-section slds-is-open">
+			<h3 class="slds-section__title slds-theme_shade">
+				<span class="slds-truncate slds-var-p-horizontal_small" title="QA Questions">QA Questions</span>
+			</h3>
+			<div class="slds-section__content">
+				<div lwc:if={isLoading}>
+					<lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+				</div>
+				<lightning-layout class="slds-grid slds-wrap" lwc:if={hasQuestions}>
+					<template for:each={questionsExt} for:item="Question" for:index="index">
+						<lightning-layout-item key={Question.Id} class="slds-col slds-size_1-of-2" padding="horizontal-small">
+							<div class="slds-form-element slds-form-element_readonly slds-hint-parent slds-form-element_edit">
+								<label class="slds-form-element__label" for="form-element-01">{Question.Name}</label>
+								<lightning-helptext content={Question.Help_Text} for="form-element-01" lwc:if={Question.Help_Text}></lightning-helptext>
+								<div class="slds-form-element__control">
+									<div lwc:if={Question.isCheckbox} class="slds-form-element__static">
+										<lightning-input
+											type="checkbox"
+											data-name="input"
+											data-type="checkbox"
+											checked={Question.Value}
+											disabled={inverseEditMode}
+											label={Question.Id}
+											variant="label-hidden"
+										></lightning-input>
+									</div>
+									<div lwc:elseif={Question.isPicklist} class="slds-form-element__static">
+										<span if:false={editMode}>{Question.Value}</span>
+										<lightning-combobox
+											data-type="picklist"
+											data-name="input"
+											value={Question.Value}
+											options={Question.picklistOptions}
+											variant="label-hidden"
+											label={Question.Id}
+											lwc:if={editMode}
+										></lightning-combobox>
+									</div>
+									<lightning-button-icon
+										icon-name="utility:edit"
+										alternative-text={Question.Edit_Text}
+										title={Question.Edit_Text}
+										variant="container"
+										size="x-small"
+										onclick={edit}
+										lwc:if={isEditable}
+									></lightning-button-icon>
+								</div>
+							</div>
+						</lightning-layout-item>
+					</template>
+				</lightning-layout>
+				<div lwc:else class="slds-theme_alert-texture">
+					<h1 class="slds-text-heading_small slds-var-p-around_medium slds-text-align_center">No questions attached to form</h1>
+					<span class="slds-text-body_regular slds-var-p-around_small">If this is a new QA form, ensure there's an active QA Design</span>
+				</div>
+				<div slot="footer" class="slds-clearfix slds-card__footer">
+					<lightning-button-group class="slds-float_right" lwc:if={editMode}>
+						<lightning-button variant="Neutral" label="Cancel" title="Cancel" onclick={cancel}></lightning-button>
+						<lightning-button variant="Brand" label="Save" title="Update" onclick={save}></lightning-button>
+					</lightning-button-group>
+				</div>
+			</div>
+		</div>
+	</lightning-card>
+</template>

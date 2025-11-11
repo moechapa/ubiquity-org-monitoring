@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldOverrides>
+        <field>Category__c</field>
+        <literalValue>Deposits</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Department__c</field>
+        <literalValue>Payroll</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Origin</field>
+        <literalValue>Internal</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Status</field>
+        <literalValue>Assigned</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Sub_Category__c</field>
+        <literalValue>Excess Cash</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Subject</field>
+        <formula>&quot;Usable Cash &quot; &amp; TEXT(TODAY())</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Team_Member__c</field>
+        <literalValue>Sonia Boily</literalValue>
+    </fieldOverrides>
+    <label>Update Usable Cash Case</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns/>
+        <quickActionLayoutColumns/>
+    </quickActionLayout>
+    <type>Update</type>
+</QuickAction>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Created_Survey_Date__c</fullName>
+    <description>Last Date a Survey object was attached to the contact</description>
+    <inlineHelpText>Last Date a Survey object was attached to the contact</inlineHelpText>
+    <label>Last Created Survey Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

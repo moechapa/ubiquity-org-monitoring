@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>US_Equity_Funds__c</fullName>
+    <label>US Equity Funds</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Share_Class__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Equity Income Fund (OIEFX)</fullName>
+                <default>false</default>
+                <label>Equity Income Fund (OIEFX)</label>
+            </value>
+            <value>
+                <fullName>Mid Cap Value Fund (JMVZX)</fullName>
+                <default>false</default>
+                <label>Mid Cap Value Fund (JMVZX)</label>
+            </value>
+            <value>
+                <fullName>Large Cap Growth Fund (JLGZX)</fullName>
+                <default>false</default>
+                <label>Large Cap Growth Fund (JLGZX)</label>
+            </value>
+            <value>
+                <fullName>U.S. Equity Fund (JUEZX)</fullName>
+                <default>false</default>
+                <label>U.S. Equity Fund (JUEZX)</label>
+            </value>
+            <value>
+                <fullName>Value Advantage Fund (JGAQX)</fullName>
+                <default>false</default>
+                <label>Value Advantage Fund (JGAQX)</label>
+            </value>
+            <value>
+                <fullName>Growth Advantage Fund (JGRJX)</fullName>
+                <default>false</default>
+                <label>Growth Advantage Fund (JGRJX)</label>
+            </value>
+            <value>
+                <fullName>U.S. Large Cap Core Plus Fund (JLPZX)</fullName>
+                <default>false</default>
+                <label>U.S. Large Cap Core Plus Fund (JLPZX)</label>
+            </value>
+            <value>
+                <fullName>Undiscovered Managers Behavioral Value Fund (UBVRX)</fullName>
+                <default>false</default>
+                <label>Undiscovered Managers Behavioral Value Fund (UBVRX)</label>
+            </value>
+            <value>
+                <fullName>Mid Cap Growth Fund (JMGZX)</fullName>
+                <default>false</default>
+                <label>Mid Cap Growth Fund (JMGZX)</label>
+            </value>
+            <value>
+                <fullName>Intrepid America Fund (JIAZX)</fullName>
+                <default>false</default>
+                <label>Intrepid America Fund (JIAZX)</label>
+            </value>
+            <value>
+                <fullName>Mid Cap Equity Fund (JMCEX)</fullName>
+                <default>false</default>
+                <label>Mid Cap Equity Fund (JMCEX)</label>
+            </value>
+            <value>
+                <fullName>Small Cap Growth Fund (JSGZX)</fullName>
+                <default>false</default>
+                <label>Small Cap Growth Fund (JSGZX)</label>
+            </value>
+            <value>
+                <fullName>Small Cap Value Fund (JSVZX)</fullName>
+                <default>false</default>
+                <label>Small Cap Value Fund (JSVZX)</label>
+            </value>
+            <value>
+                <fullName>Large Cap Value Fund (JLVZX)</fullName>
+                <default>false</default>
+                <label>Large Cap Value Fund (JLVZX)</label>
+            </value>
+            <value>
+                <fullName>U.S. Small Company Fund (JSCZX)</fullName>
+                <default>false</default>
+                <label>U.S. Small Company Fund (JSCZX)</label>
+            </value>
+            <value>
+                <fullName>Intrepid Growth Fund (JIGZX)</fullName>
+                <default>false</default>
+                <label>Intrepid Growth Fund (JIGZX)</label>
+            </value>
+            <value>
+                <fullName>Intrepid Value Fund (JIVZX)</fullName>
+                <default>false</default>
+                <label>Intrepid Value Fund (JIVZX)</label>
+            </value>
+            <value>
+                <fullName>Market Expansion Enhanced Index Fund (JMEZX)</fullName>
+                <default>false</default>
+                <label>Market Expansion Enhanced Index Fund (JMEZX)</label>
+            </value>
+            <value>
+                <fullName>Growth and Income Fund (VGRTX)</fullName>
+                <default>false</default>
+                <label>Growth and Income Fund (VGRTX)</label>
+            </value>
+            <value>
+                <fullName>Small Cap Core Fund (JRJUX)</fullName>
+                <default>false</default>
+                <label>Small Cap Core Fund (JRJUX)</label>
+            </value>
+            <value>
+                <fullName>Equity Income Fund (OIEPX)</fullName>
+                <default>false</default>
+                <label>Equity Income Fund (OIEPX)</label>
+            </value>
+            <value>
+                <fullName>Mid Cap Value Fund (JMVPX)</fullName>
+                <default>false</default>
+                <label>Mid Cap Value Fund (JMVPX)</label>
+            </value>
+            <value>
+                <fullName>Large Cap Growth Fund (JLGPX)</fullName>
+                <default>false</default>
+                <label>Large Cap Growth Fund (JLGPX)</label>
+            </value>
+            <value>
+                <fullName>U.S. Equity Fund (JUEPX)</fullName>
+                <default>false</default>
+                <label>U.S. Equity Fund (JUEPX)</label>
+            </value>
+            <value>
+                <fullName>Value Advantage Fund (JVAPX)</fullName>
+                <default>false</default>
+                <label>Value Advantage Fund (JVAPX)</label>
+            </value>
+            <value>
+                <fullName>Growth Advantage Fund (JGTTX)</fullName>
+                <default>false</default>
+                <label>Growth Advantage Fund (JGTTX)</label>
+            </value>
+            <value>
+                <fullName>Undiscovered Managers Behavioral Value Fund (UBVTX)</fullName>
+                <default>false</default>
+                <label>Undiscovered Managers Behavioral Value Fund (UBVTX)</label>
+            </value>
+            <value>
+                <fullName>Mid Cap Growth Fund (JMGPX)</fullName>
+                <default>false</default>
+                <label>Mid Cap Growth Fund (JMGPX)</label>
+            </value>
+            <value>
+                <fullName>Small Cap Growth Fund (JGRQX)</fullName>
+                <default>false</default>
+                <label>Small Cap Growth Fund (JGRQX)</label>
+            </value>
+            <value>
+                <fullName>Small Cap Value Fund (JSVPX)</fullName>
+                <default>false</default>
+                <label>Small Cap Value Fund (JSVPX)</label>
+            </value>
+            <value>
+                <fullName>Large Cap Value Fund (OLVTX)</fullName>
+                <default>false</default>
+                <label>Large Cap Value Fund (OLVTX)</label>
+            </value>
+            <value>
+                <fullName>U.S. Small Company Fund (JUSPX)</fullName>
+                <default>false</default>
+                <label>U.S. Small Company Fund (JUSPX)</label>
+            </value>
+            <value>
+                <fullName>Growth and Income Fund (JGAVX)</fullName>
+                <default>false</default>
+                <label>Growth and Income Fund (JGAVX)</label>
+            </value>
+            <value>
+                <fullName>Intrepid Mid Cap Fund (WOOOX)</fullName>
+                <default>false</default>
+                <label>Intrepid Mid Cap Fund (WOOOX)</label>
+            </value>
+            <value>
+                <fullName>Small Cap Core Fund (JGAUX)</fullName>
+                <default>false</default>
+                <label>Small Cap Core Fund (JGAUX)</label>
+            </value>
+            <value>
+                <fullName>Equity Income Fund (OIEQX)</fullName>
+                <default>false</default>
+                <label>Equity Income Fund (OIEQX)</label>
+            </value>
+            <value>
+                <fullName>Mid Cap Value Fund (JMVQX)</fullName>
+                <default>false</default>
+                <label>Mid Cap Value Fund (JMVQX)</label>
+            </value>
+            <value>
+                <fullName>Large Cap Growth Fund (JLGQX)</fullName>
+                <default>false</default>
+                <label>Large Cap Growth Fund (JLGQX)</label>
+            </value>
+            <value>
+                <fullName>U.S. Equity Fund (JUEQX)</fullName>
+                <default>false</default>
+                <label>U.S. Equity Fund (JUEQX)</label>
+            </value>
+            <value>
+                <fullName>Value Advantage Fund (JVAQX)</fullName>
+                <default>false</default>
+                <label>Value Advantage Fund (JVAQX)</label>
+            </value>
+            <value>
+                <fullName>Growth Advantage Fund (JGTUX)</fullName>
+                <default>false</default>
+                <label>Growth Advantage Fund (JGTUX)</label>
+            </value>
+            <value>
+                <fullName>Undiscovered Managers Behavioral Value Fund (UBVUX)</fullName>
+                <default>false</default>
+                <label>Undiscovered Managers Behavioral Value Fund (UBVUX)</label>
+            </value>
+            <value>
+                <fullName>Mid Cap Growth Fund (JMGQX)</fullName>
+                <default>false</default>
+                <label>Mid Cap Growth Fund (JMGQX)</label>
+            </value>
+            <value>
+                <fullName>Small Cap Growth Fund (JGLYX)</fullName>
+                <default>false</default>
+                <label>Small Cap Growth Fund (JGLYX)</label>
+            </value>
+            <value>
+                <fullName>Small Cap Value Fund (JSVQX)</fullName>
+                <default>false</default>
+                <label>Small Cap Value Fund (JSVQX)</label>
+            </value>
+            <value>
+                <fullName>Large Cap Value Fund (OLVRX)</fullName>
+                <default>false</default>
+                <label>Large Cap Value Fund (OLVRX)</label>
+            </value>
+            <value>
+                <fullName>U.S. Small Company Fund (JUSQX)</fullName>
+                <default>false</default>
+                <label>U.S. Small Company Fund (JUSQX)</label>
+            </value>
+            <value>
+                <fullName>Growth and Income Fund (JGRUX)</fullName>
+                <default>false</default>
+                <label>Growth and Income Fund (JGRUX)</label>
+            </value>
+            <value>
+                <fullName>Intrepid Mid Cap Fund (WOOQX)</fullName>
+                <default>false</default>
+                <label>Intrepid Mid Cap Fund (WOOQX)</label>
+            </value>
+            <value>
+                <fullName>Small Cap Core Fund (JGREX)</fullName>
+                <default>false</default>
+                <label>Small Cap Core Fund (JGREX)</label>
+            </value>
+            <value>
+                <fullName>Equity Income Fund (OIERX)</fullName>
+                <default>false</default>
+                <label>Equity Income Fund (OIERX)</label>
+            </value>
+            <value>
+                <fullName>Mid Cap Value Fund (JMVRX)</fullName>
+                <default>false</default>
+                <label>Mid Cap Value Fund (JMVRX)</label>
+            </value>
+            <value>
+                <fullName>Large Cap Growth Fund (JLGRX)</fullName>
+                <default>false</default>
+                <label>Large Cap Growth Fund (JLGRX)</label>
+            </value>
+            <value>
+                <fullName>U.S. Equity Fund (JUSRX)</fullName>
+                <default>false</default>
+                <label>U.S. Equity Fund (JUSRX)</label>
+            </value>
+            <value>
+                <fullName>Value Advantage Fund (JVARX)</fullName>
+                <default>false</default>
+                <label>Value Advantage Fund (JVARX)</label>
+            </value>
+            <value>
+                <fullName>Growth Advantage Fund (JGVRX)</fullName>
+                <default>false</default>
+                <label>Growth Advantage Fund (JGVRX)</label>
+            </value>
+            <value>
+                <fullName>U.S. Large Cap Core Plus Fund (JCPRX)</fullName>
+                <default>false</default>
+                <label>U.S. Large Cap Core Plus Fund (JCPRX)</label>
+            </value>
+            <value>
+                <fullName>Undiscovered Managers Behavioral Value Fund (UBVVX)</fullName>
+                <default>false</default>
+                <label>Undiscovered Managers Behavioral Value Fund (UBVVX)</label>
+            </value>
+            <value>
+                <fullName>Mid Cap Growth Fund (JMGFX)</fullName>
+                <default>false</default>
+                <label>Mid Cap Growth Fund (JMGFX)</label>
+            </value>
+            <value>
+                <fullName>Intrepid America Fund (JIARX)</fullName>
+                <default>false</default>
+                <label>Intrepid America Fund (JIARX)</label>
+            </value>
+            <value>
+                <fullName>Mid Cap Equity Fund (JMEEX)</fullName>
+                <default>false</default>
+                <label>Mid Cap Equity Fund (JMEEX)</label>
+            </value>
+            <value>
+                <fullName>Small Cap Growth Fund (JGSVX)</fullName>
+                <default>false</default>
+                <label>Small Cap Growth Fund (JGSVX)</label>
+            </value>
+            <value>
+                <fullName>Small Cap Value Fund (JSVRX)</fullName>
+                <default>false</default>
+                <label>Small Cap Value Fund (JSVRX)</label>
+            </value>
+            <value>
+                <fullName>Large Cap Value Fund (JLVRX)</fullName>
+                <default>false</default>
+                <label>Large Cap Value Fund (JLVRX)</label>
+            </value>
+            <value>
+                <fullName>U.S. Small Company Fund (JUSYX)</fullName>
+                <default>false</default>
+                <label>U.S. Small Company Fund (JUSYX)</label>
+            </value>
+            <value>
+                <fullName>Intrepid Growth Fund (JGIRX)</fullName>
+                <default>false</default>
+                <label>Intrepid Growth Fund (JGIRX)</label>
+            </value>
+            <value>
+                <fullName>Intrepid Value Fund (JIVRX)</fullName>
+                <default>false</default>
+                <label>Intrepid Value Fund (JIVRX)</label>
+            </value>
+            <value>
+                <fullName>Growth and Income Fund (VGIFX)</fullName>
+                <default>false</default>
+                <label>Growth and Income Fund (VGIFX)</label>
+            </value>
+            <value>
+                <fullName>Small Cap Core Fund (VSSCX)</fullName>
+                <default>false</default>
+                <label>Small Cap Core Fund (VSSCX)</label>
+            </value>
+            <value>
+                <fullName>Equity Income Fund (OIEJX)</fullName>
+                <default>false</default>
+                <label>Equity Income Fund (OIEJX)</label>
+            </value>
+            <value>
+                <fullName>Mid Cap Value Fund (JMVYX)</fullName>
+                <default>false</default>
+                <label>Mid Cap Value Fund (JMVYX)</label>
+            </value>
+            <value>
+                <fullName>Large Cap Growth Fund (JLGMX)</fullName>
+                <default>false</default>
+                <label>Large Cap Growth Fund (JLGMX)</label>
+            </value>
+            <value>
+                <fullName>U.S. Equity Fund (JUEMX)</fullName>
+                <default>false</default>
+                <label>U.S. Equity Fund (JUEMX)</label>
+            </value>
+            <value>
+                <fullName>Value Advantage Fund (JVAYX)</fullName>
+                <default>false</default>
+                <label>Value Advantage Fund (JVAYX)</label>
+            </value>
+            <value>
+                <fullName>Growth Advantage Fund (JGVVX)</fullName>
+                <default>false</default>
+                <label>Growth Advantage Fund (JGVVX)</label>
+            </value>
+            <value>
+                <fullName>U.S. Large Cap Core Plus Fund (JLPYX)</fullName>
+                <default>false</default>
+                <label>U.S. Large Cap Core Plus Fund (JLPYX)</label>
+            </value>
+            <value>
+                <fullName>U.S. Research Enhanced Equity Fund (JDEUX)</fullName>
+                <default>false</default>
+                <label>U.S. Research Enhanced Equity Fund (JDEUX)</label>
+            </value>
+            <value>
+                <fullName>Equity Index Fund (OGFAX)</fullName>
+                <default>false</default>
+                <label>Equity Index Fund (OGFAX)</label>
+            </value>
+            <value>
+                <fullName>Mid Cap Growth Fund (JMGMX)</fullName>
+                <default>false</default>
+                <label>Mid Cap Growth Fund (JMGMX)</label>
+            </value>
+            <value>
+                <fullName>Intrepid America Fund (JIAPX)</fullName>
+                <default>false</default>
+                <label>Intrepid America Fund (JIAPX)</label>
+            </value>
+            <value>
+                <fullName>Mid Cap Equity Fund (JPPEX)</fullName>
+                <default>false</default>
+                <label>Mid Cap Equity Fund (JPPEX)</label>
+            </value>
+            <value>
+                <fullName>Small Cap Growth Fund (JGSMX)</fullName>
+                <default>false</default>
+                <label>Small Cap Growth Fund (JGSMX)</label>
+            </value>
+            <value>
+                <fullName>Small Cap Value Fund (JSVUX)</fullName>
+                <default>false</default>
+                <label>Small Cap Value Fund (JSVUX)</label>
+            </value>
+            <value>
+                <fullName>Large Cap Value Fund (JLVMX)</fullName>
+                <default>false</default>
+                <label>Large Cap Value Fund (JLVMX)</label>
+            </value>
+            <value>
+                <fullName>U.S. Small Company Fund (JUSMX)</fullName>
+                <default>false</default>
+                <label>U.S. Small Company Fund (JUSMX)</label>
+            </value>
+            <value>
+                <fullName>Intrepid Growth Fund (JGISX)</fullName>
+                <default>false</default>
+                <label>Intrepid Growth Fund (JGISX)</label>
+            </value>
+            <value>
+                <fullName>Intrepid Value Fund (JIVMX)</fullName>
+                <default>false</default>
+                <label>Intrepid Value Fund (JIVMX)</label>
+            </value>
+            <value>
+                <fullName>Market Expansion Enhanced Index Fund (OMYGX)</fullName>
+                <default>false</default>
+                <label>Market Expansion Enhanced Index Fund (OMYGX)</label>
+            </value>
+            <value>
+                <fullName>Growth and Income Fund (VGINX)</fullName>
+                <default>false</default>
+                <label>Growth and Income Fund (VGINX)</label>
+            </value>
+            <value>
+                <fullName>Intrepid Mid Cap Fund (WOOSX)</fullName>
+                <default>false</default>
+                <label>Intrepid Mid Cap Fund (WOOSX)</label>
+            </value>
+            <value>
+                <fullName>Small Cap Core Fund (VSSLX)</fullName>
+                <default>false</default>
+                <label>Small Cap Core Fund (VSSLX)</label>
+            </value>
+            <value>
+                <fullName>Small Cap Blend Fund (JSCHX)</fullName>
+                <default>false</default>
+                <label>Small Cap Blend Fund (JSCHX)</label>
+            </value>
+            <value>
+                <fullName>Equity Focus Fund (JPFRX)</fullName>
+                <default>false</default>
+                <label>Equity Focus Fund (JPFRX)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Equity Income Fund (OIEFX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Mid Cap Value Fund (JMVZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Large Cap Growth Fund (JLGZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>U.S. Equity Fund (JUEZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Value Advantage Fund (JGAQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Growth Advantage Fund (JGRJX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>U.S. Large Cap Core Plus Fund (JLPZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Undiscovered Managers Behavioral Value Fund (UBVRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Mid Cap Growth Fund (JMGZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Intrepid America Fund (JIAZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Mid Cap Equity Fund (JMCEX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Small Cap Growth Fund (JSGZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Small Cap Value Fund (JSVZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Large Cap Value Fund (JLVZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>U.S. Small Company Fund (JSCZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Intrepid Growth Fund (JIGZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Intrepid Value Fund (JIVZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Market Expansion Enhanced Index Fund (JMEZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Growth and Income Fund (VGRTX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Small Cap Core Fund (JRJUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Equity Income Fund (OIEPX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Mid Cap Value Fund (JMVPX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Large Cap Growth Fund (JLGPX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>U.S. Equity Fund (JUEPX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Value Advantage Fund (JVAPX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Growth Advantage Fund (JGTTX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Undiscovered Managers Behavioral Value Fund (UBVTX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Mid Cap Growth Fund (JMGPX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Small Cap Growth Fund (JGRQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Small Cap Value Fund (JSVPX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Large Cap Value Fund (OLVTX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>U.S. Small Company Fund (JUSPX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Growth and Income Fund (JGAVX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Intrepid Mid Cap Fund (WOOOX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Small Cap Core Fund (JGAUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Equity Income Fund (OIEQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Mid Cap Value Fund (JMVQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Large Cap Growth Fund (JLGQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>U.S. Equity Fund (JUEQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Value Advantage Fund (JVAQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Growth Advantage Fund (JGTUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Undiscovered Managers Behavioral Value Fund (UBVUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Mid Cap Growth Fund (JMGQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Small Cap Growth Fund (JGLYX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Small Cap Value Fund (JSVQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Large Cap Value Fund (OLVRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>U.S. Small Company Fund (JUSQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Growth and Income Fund (JGRUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Intrepid Mid Cap Fund (WOOQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Small Cap Core Fund (JGREX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Equity Income Fund (OIERX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Mid Cap Value Fund (JMVRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Large Cap Growth Fund (JLGRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>U.S. Equity Fund (JUSRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Value Advantage Fund (JVARX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Growth Advantage Fund (JGVRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>U.S. Large Cap Core Plus Fund (JCPRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Undiscovered Managers Behavioral Value Fund (UBVVX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Mid Cap Growth Fund (JMGFX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Intrepid America Fund (JIARX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Mid Cap Equity Fund (JMEEX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Small Cap Growth Fund (JGSVX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Small Cap Value Fund (JSVRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Large Cap Value Fund (JLVRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>U.S. Small Company Fund (JUSYX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Intrepid Growth Fund (JGIRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Intrepid Value Fund (JIVRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Growth and Income Fund (VGIFX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Small Cap Core Fund (VSSCX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Equity Income Fund (OIEJX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Mid Cap Value Fund (JMVYX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Large Cap Growth Fund (JLGMX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>U.S. Equity Fund (JUEMX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Value Advantage Fund (JVAYX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Growth Advantage Fund (JGVVX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>U.S. Large Cap Core Plus Fund (JLPYX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>U.S. Research Enhanced Equity Fund (JDEUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Equity Index Fund (OGFAX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Mid Cap Growth Fund (JMGMX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Intrepid America Fund (JIAPX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Mid Cap Equity Fund (JPPEX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Small Cap Growth Fund (JGSMX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Small Cap Value Fund (JSVUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Large Cap Value Fund (JLVMX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>U.S. Small Company Fund (JUSMX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Intrepid Growth Fund (JGISX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Intrepid Value Fund (JIVMX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Market Expansion Enhanced Index Fund (OMYGX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Growth and Income Fund (VGINX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Intrepid Mid Cap Fund (WOOSX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Small Cap Core Fund (VSSLX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Small Cap Blend Fund (JSCHX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Equity Focus Fund (JPFRX)</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

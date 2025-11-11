@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CST_Client_Support_Team__c</fullName>
+    <description>CST associated with this Plan</description>
+    <inlineHelpText>CST associated with this Plan</inlineHelpText>
+    <label>CST (Client Support Team)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Client Support</fullName>
+                <default>false</default>
+                <label>Client Support</label>
+            </value>
+            <value>
+                <fullName>Platinum</fullName>
+                <default>false</default>
+                <label>Platinum</label>
+            </value>
+            <value>
+                <fullName>Single(k)</fullName>
+                <default>false</default>
+                <label>Single(k)</label>
+            </value>
+            <value>
+                <fullName>Green Street Elite</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Green Street Elite</label>
+            </value>
+            <value>
+                <fullName>Life Savers</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Life Savers</label>
+            </value>
+            <value>
+                <fullName>The Orange Bombers</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>The Orange Bombers</label>
+            </value>
+            <value>
+                <fullName>Zenefits</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Zenefits</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_Flag__c</fullName>
+    <label>Stage Flag</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Save</fullName>
+                <default>false</default>
+                <label>Save</label>
+            </value>
+            <value>
+                <fullName>Share</fullName>
+                <default>false</default>
+                <label>Share</label>
+            </value>
+            <value>
+                <fullName>Purchase</fullName>
+                <default>false</default>
+                <label>Purchase</label>
+            </value>
+            <value>
+                <fullName>Expired Save/Share</fullName>
+                <default>false</default>
+                <label>Expired Save/Share</label>
+            </value>
+            <value>
+                <fullName>Updates</fullName>
+                <default>false</default>
+                <label>Updates</label>
+            </value>
+            <value>
+                <fullName>Review</fullName>
+                <default>false</default>
+                <label>Review</label>
+            </value>
+            <value>
+                <fullName>Quick Quote</fullName>
+                <default>false</default>
+                <label>Quick Quote</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Advisor Info</fullName>
+                <default>false</default>
+                <label>Advisor Info</label>
+            </value>
+            <value>
+                <fullName>Advisor Review</fullName>
+                <default>false</default>
+                <label>Advisor Review</label>
+            </value>
+            <value>
+                <fullName>Advisor Save</fullName>
+                <default>false</default>
+                <label>Advisor Save</label>
+            </value>
+            <value>
+                <fullName>Advisor Share With SMB</fullName>
+                <default>false</default>
+                <label>Advisor Share With SMB</label>
+            </value>
+            <value>
+                <fullName>Advisor Share With TPA</fullName>
+                <default>false</default>
+                <label>Advisor Share With TPA</label>
+            </value>
+            <value>
+                <fullName>TPA Info</fullName>
+                <default>false</default>
+                <label>TPA Info</label>
+            </value>
+            <value>
+                <fullName>TPA Review</fullName>
+                <default>false</default>
+                <label>TPA Review</label>
+            </value>
+            <value>
+                <fullName>TPA Save</fullName>
+                <default>false</default>
+                <label>TPA Save</label>
+            </value>
+            <value>
+                <fullName>TPA Share With SMB</fullName>
+                <default>false</default>
+                <label>TPA Share With SMB</label>
+            </value>
+            <value>
+                <fullName>TPA Share With Advisor</fullName>
+                <default>false</default>
+                <label>TPA Share With Advisor</label>
+            </value>
+            <value>
+                <fullName>SMB Review</fullName>
+                <default>false</default>
+                <label>SMB Review</label>
+            </value>
+            <value>
+                <fullName>SMB Save</fullName>
+                <default>false</default>
+                <label>SMB Save</label>
+            </value>
+            <value>
+                <fullName>SMB Plan Purchase</fullName>
+                <default>false</default>
+                <label>SMB Plan Purchase</label>
+            </value>
+            <value>
+                <fullName>SMB Share With TPA</fullName>
+                <default>false</default>
+                <label>SMB Share With TPA</label>
+            </value>
+            <value>
+                <fullName>SMB Share With Advisor</fullName>
+                <default>false</default>
+                <label>SMB Share With Advisor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

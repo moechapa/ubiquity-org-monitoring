@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transitions_WBS</fullName>
+    <active>true</active>
+    <label>Transitions WBS</label>
+    <picklistValues>
+        <picklist>Case_Record_Type__c</picklist>
+        <values>
+            <fullName>Abandoned Plan Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>At Risk Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Billing Cases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Intelligence Cases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance Cases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributions Cases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Force Out Distribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementations Cases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JIRA Submission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Cases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations Cases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRKS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnership Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll Inbox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll Koncierge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Innovation Cases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SaverSuccess</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply TPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single%28k%29 Cases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transitions Cases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form Servicing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZenOps Cases</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Client_Stage__c</picklist>
+        <values>
+            <fullName>Existing Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Client</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Custodian__c</picklist>
+        <values>
+            <fullName>MG Trust Company%2C LLC%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schwab %26 Co%2E%2C Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schwab Trust</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schwab Trust%2C Schwab %26 Co%2E%2C Inc%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Object_Managed__c</picklist>
+        <values>
+            <fullName>Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transition</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Plan_Type__c</picklist>
+        <values>
+            <fullName>Conversion Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Option__c</picklist>
+        <values>
+            <fullName>Direct Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enhanced Payroll Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legacy Saver%28k%29%2C Saver%28k%29%2C Express%28k%29%2C Custom%28k%29%2C Reserve%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legacy Saver%28k%29%2C Saver%28k%29%2C Express%28k%29%2C Custom%28k%29%2C Reserve%28k%29%2C Single%28k%29%2C Single%28k%29 Lite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RK Only%2C Legacy Saver%28k%29%2C Saver%28k%29%2C Express%28k%29%2C Custom%28k%29%2C Reserve%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RK Only%2C Legacy Saver%28k%29%2C Saver%28k%29%2C Express%28k%29%2C Custom%28k%29%2C Reserve%28k%29%2C Simply Retirement Bundled%2C Simply Retirement Unbundled%2C Simply Retirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RK Only%2C Legacy Saver%28k%29%2C Saver%28k%29%2C Express%28k%29%2C Custom%28k%29%2C Reserve%28k%29%2C Simply Retirement Bundled%2C Simply Retirement Unbundled%2C Simply Retirement%2C Starter%2C Partner%2C Builder%2C Franchise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RK Only%2C Legacy Saver%28k%29%2C Saver%28k%29%2C Express%28k%29%2C Custom%28k%29%2C Reserve%28k%29%2C Single%28k%29 Plus%2C Custom%28k%29 MML%2C Partner%2C Starter%2C Franchise%2C Builder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Retirement Bundled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Retirement Unbundled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single%28k%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single%28k%29 Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starter%2C Partner%2C Builder%2C Franchise</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Transition_Type__c</picklist>
+        <values>
+            <fullName>401%28k%29 Deconversion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>401%28k%29 Plan Abandonment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>401%28k%29 Term%2FMerger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>401%28k%29 Termination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>401%28k%29 to Single%28k%29 Downgrade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

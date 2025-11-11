@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>62.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Add_Partner_Text</name>
+        <label>Add Partner Text</label>
+        <locationX>264</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>partnerTextRaw</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Partner_Loop.Account__r.Master_Account_Name__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>partnerTextRaw</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>;</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Partner_Loop</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Partner_Field_Value</name>
+        <label>Assign Partner Field Value</label>
+        <locationX>176</locationX>
+        <locationY>695</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Associated_Partners__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>partnerTextFormatted</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <description>For calculating field values on every save
+
+Created for &quot;Associated Partners&quot; field</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>partnerTextFormatted</name>
+        <dataType>String</dataType>
+        <expression>LEFT(LEFT({!partnerTextRaw},LEN({!partnerTextRaw})-1),255)</expression>
+    </formulas>
+    <interviewLabel>Plan | Before Save | Master Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Plan | Before Save | Master Flow</label>
+    <loops>
+        <name>Partner_Loop</name>
+        <label>Partner Loop</label>
+        <locationX>176</locationX>
+        <locationY>395</locationY>
+        <collectionReference>Get_Partners</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Add_Partner_Text</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Assign_Partner_Field_Value</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Partners</name>
+        <label>Get Partners</label>
+        <locationX>176</locationX>
+        <locationY>287</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Partner_Loop</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Plan__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Associated_Partner__c</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Account__c</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Partners</targetReference>
+        </connector>
+        <object>Plan__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>partnerTextRaw</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

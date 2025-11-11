@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_Owner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Who owns this vendor review</description>
+    <inlineHelpText>Who owns this vendor review?</inlineHelpText>
+    <label>Vendor Owner</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Must choose a contact from Decimal account</errorMessage>
+        <filterItems>
+            <field>Contact.Account.Id</field>
+            <operation>equals</operation>
+            <value>0013700000JH68lAAD</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Vendor Reviews (Vendor Owner)</relationshipLabel>
+    <relationshipName>Owned_Vendor_Reviews</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

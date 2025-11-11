@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Confirm_Project_Items</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(Phase__c, &quot;Development&quot;)
+&amp;&amp;
+ Project_Items_Confirmed__c = false</errorConditionFormula>
+    <errorMessage>All Project Items must be Committed, On-Hold, or Rejected before moving to the Development phase.</errorMessage>
+</ValidationRule>

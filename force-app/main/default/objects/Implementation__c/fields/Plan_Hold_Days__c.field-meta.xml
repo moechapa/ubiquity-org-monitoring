@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Hold_Days__c</fullName>
+    <description>Number of Days a plan is on hold</description>
+    <externalId>false</externalId>
+    <formula>IF( Plan_Hold_Date__c &gt; DATE(1900,01,01), IF( Actual_Plan_Release_Date__c &gt; DATE(1900,01,01), ( Actual_Plan_Release_Date__c - Plan_Hold_Date__c), (TODAY()-Plan_Hold_Date__c)), 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Number of Days a plan is on hold</inlineHelpText>
+    <label>Plan Hold Days</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ubiquity_Experience__c</fullName>
+    <inlineHelpText>What have you valued most about your Ubiquity experience? (select all that apply):</inlineHelpText>
+    <label>Ubiquity Experience</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A plan option that fits my company’s / employees’ savings needs</fullName>
+                <default>false</default>
+                <label>A plan option that fits my company’s / employees’ savings needs</label>
+            </value>
+            <value>
+                <fullName>Platform is easy to use</fullName>
+                <default>false</default>
+                <label>Platform is easy to use</label>
+            </value>
+            <value>
+                <fullName>Low fees</fullName>
+                <default>false</default>
+                <label>Low fees</label>
+            </value>
+            <value>
+                <fullName>Fast response back from someone to my inquiries</fullName>
+                <default>false</default>
+                <label>Fast response back from someone to my inquiries</label>
+            </value>
+            <value>
+                <fullName>Effectiveness of issue resolution</fullName>
+                <default>false</default>
+                <label>Effectiveness of issue resolution</label>
+            </value>
+            <value>
+                <fullName>Helpful content so I can self-service</fullName>
+                <default>false</default>
+                <label>Helpful content so I can self-service</label>
+            </value>
+            <value>
+                <fullName>Other (text entry)</fullName>
+                <default>false</default>
+                <label>Other (text entry)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

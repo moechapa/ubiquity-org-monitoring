@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ADP_ACP_Tests_2022</fullName>
+    <columns>NAME</columns>
+    <columns>Employer_Identification_Number_EIN__c</columns>
+    <columns>Plan__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>ADP/ACP Test</value>
+    </filters>
+    <filters>
+        <field>Testing_Year__c</field>
+        <operation>equals</operation>
+        <value>2022</value>
+    </filters>
+    <label>ADP/ACP Tests - 2022</label>
+</ListView>

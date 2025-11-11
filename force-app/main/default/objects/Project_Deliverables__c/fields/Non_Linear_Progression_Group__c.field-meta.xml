@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Linear_Progression_Group__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Non-Linear Progression Group</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Required_Action__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>0121G000000RlRbQAK</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Required_Action__c</referenceTo>
+    <relationshipLabel>Project Deliverables</relationshipLabel>
+    <relationshipName>Project_Deliverables</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

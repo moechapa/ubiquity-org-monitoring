@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product__c</fullName>
+    <description>What products will be sold as part of this forecast?</description>
+    <inlineHelpText>What products will be sold as part of this forecast?</inlineHelpText>
+    <label>Product</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>401(k)</fullName>
+                <default>false</default>
+                <label>401(k)</label>
+            </value>
+            <value>
+                <fullName>PEP</fullName>
+                <default>false</default>
+                <label>PEP</label>
+            </value>
+            <value>
+                <fullName>Single(k)</fullName>
+                <default>false</default>
+                <label>Single(k)</label>
+            </value>
+            <value>
+                <fullName>Expansion</fullName>
+                <default>false</default>
+                <label>Expansion</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

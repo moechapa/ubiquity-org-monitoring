@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>401(k)</fullName>
+        <default>false</default>
+        <label>401(k)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Single(k)</fullName>
+        <default>false</default>
+        <label>Single(k)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IRA</fullName>
+        <default>false</default>
+        <label>IRA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>HSA</fullName>
+        <default>false</default>
+        <label>HSA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RKS</fullName>
+        <default>false</default>
+        <label>RKS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Comp</fullName>
+        <default>false</default>
+        <label>New Comp</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Upgrade</fullName>
+        <default>false</default>
+        <label>Upgrade</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ancillary Billing</fullName>
+        <default>false</default>
+        <label>Ancillary Billing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Conversion</fullName>
+        <default>false</default>
+        <label>Conversion</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Setup</fullName>
+        <default>false</default>
+        <label>Setup</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Add-On</fullName>
+        <default>false</default>
+        <label>Add-On</label>
+    </standardValue>
+</StandardValueSet>

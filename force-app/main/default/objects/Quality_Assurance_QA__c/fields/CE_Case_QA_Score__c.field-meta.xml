@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CE_Case_QA_Score__c</fullName>
+    <formula>IF(OR(ISPICKVAL( SOPs__c , &quot;N/A&quot;),ISPICKVAL( SOPs__c , &quot;YES&quot;)),0.15,0)+
+IF(OR(ISPICKVAL(  Correct_Answer__c  , &quot;N/A&quot;),ISPICKVAL( Correct_Answer__c , &quot;YES&quot;)),0.10,0)+
+IF(OR(ISPICKVAL(  Request_Completed__c  , &quot;N/A&quot;),ISPICKVAL( Request_Completed__c , &quot;YES&quot;)),0.05,0)+
+IF(OR(ISPICKVAL( Email_Templates__c  , &quot;N/A&quot;),ISPICKVAL( Email_Templates__c , &quot;YES&quot;)),0.05,0)+
+IF(OR(ISPICKVAL( Successful_Send_Off__c  , &quot;N/A&quot;),ISPICKVAL( Successful_Send_Off__c , &quot;YES&quot;)),0.05,0)+
+IF(OR(ISPICKVAL( Comprehensive_Notes_Included__c   , &quot;N/A&quot;),ISPICKVAL( Comprehensive_Notes_Included__c , &quot;YES&quot;)),0.05,0)+
+IF(OR(ISPICKVAL( Asked_for_Review__c   , &quot;N/A&quot;),ISPICKVAL( Asked_for_Review__c , &quot;YES&quot;)),0.05,0)+
+IF(OR(ISPICKVAL( Questioning_Skills__c   , &quot;N/A&quot;),ISPICKVAL( Questioning_Skills__c , &quot;YES&quot;)),0.05,0)+
+IF(OR(ISPICKVAL( Jargon__c   , &quot;N/A&quot;),ISPICKVAL( Jargon__c , &quot;YES&quot;)),0.05,0)+
+IF(OR(ISPICKVAL( Language__c   , &quot;N/A&quot;),ISPICKVAL( Language__c , &quot;YES&quot;)),0.05,0)+
+IF(OR(ISPICKVAL( Related_Records_Linked__c    , &quot;N/A&quot;),ISPICKVAL( Related_Records_Linked__c , &quot;YES&quot;)),0.05,0)+
+IF(OR(ISPICKVAL( Customer_Authentication__c    , &quot;N/A&quot;),ISPICKVAL( Customer_Authentication__c , &quot;YES&quot;)),0.10,0)+
+IF(OR(ISPICKVAL( Value_Added__c    , &quot;N/A&quot;),ISPICKVAL( Value_Added__c , &quot;YES&quot;)),0.05,0)+
+IF(OR(ISPICKVAL( Grammar__c   , &quot;N/A&quot;),ISPICKVAL( Grammar__c , &quot;YES&quot;)),0.05,0)+
+IF(OR(ISPICKVAL(  Closure_SLA__c    , &quot;N/A&quot;),ISPICKVAL( Closure_SLA__c , &quot;YES&quot;)),0.10,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CE Case QA Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

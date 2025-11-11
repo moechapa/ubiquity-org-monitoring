@@ -1,0 +1,56 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="public">
+	<lightning:card title="Client Health Key">
+		<div class="slds-grid slds-wrap slds-gutters_x-small slds-var-m-around_small">
+			<div class="slds-media slds-col slds-size_1-of-1 slds-border_bottom">
+				<div class="slds-media__figure">
+					<span class="slds-avatar slds-avatar_small slds-border_right">
+						<img src="/resource/CH_Happiest" alt="Happiest HM" />
+					</span>
+				</div>
+				<div class="slds-media__body">
+					<span>{!$Label.c.CH_HappiestMsg}</span>
+				</div>
+			</div>
+			<div class="slds-media slds-col slds-size_1-of-1 slds-border_bottom">
+				<div class="slds-media__figure">
+					<span class="slds-avatar slds-avatar_small slds-border_right">
+						<img src="/resource/CH_Happy" alt="Happy HM" />
+					</span>
+				</div>
+				<div class="slds-media__body">
+					<span>{!$Label.c.CH_HappyMsg}</span>
+				</div>
+			</div>
+			<div class="slds-media slds-col slds-size_1-of-1 slds-border_bottom">
+				<div class="slds-media__figure">
+					<span class="slds-avatar slds-avatar_small slds-border_right">
+						<img src="/resource/CH_Neutral" alt="Neutral HM" />
+					</span>
+				</div>
+				<div class="slds-media__body">
+					<span>{!$Label.c.CH_NeutralMsg}</span>
+				</div>
+			</div>
+			<div class="slds-media slds-col slds-size_1-of-1 slds-border_bottom">
+				<div class="slds-media__figure">
+					<span class="slds-avatar slds-avatar_small slds-border_right">
+						<img src="/resource/CH_Unhappy" alt="Unhappy HM" />
+					</span>
+				</div>
+				<div class="slds-media__body">
+					<span>{!$Label.c.CH_UnhappyMsg}</span>
+				</div>
+			</div>
+			<div class="slds-media slds-col slds-size_1-of-1">
+				<div class="slds-media__figure">
+					<span class="slds-avatar slds-avatar_small slds-border_right">
+						<img src="/resource/CH_Mad" alt="Mad HM" />
+					</span>
+				</div>
+				<div class="slds-media__body">
+					<span>{!$Label.c.CH_MadMsg}</span>
+				</div>
+			</div>
+		</div>
+	</lightning:card>
+</aura:component>

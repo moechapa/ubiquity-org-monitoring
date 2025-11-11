@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_and_Plan_on_Resolve_Lightning</fullName>
+    <active>false</active>
+    <description>Account and Plan are required on Resolved Cases EXCEPT for Implementations and Product Success JIRA Cases.</description>
+    <errorConditionFormula>((ISNEW() = TRUE)
+||
+ISCHANGED(Status)
+)
+&amp;&amp;
+ ISPICKVAL( Status , &quot;Resolved&quot;) 
+&amp;&amp;
+ NOT($Profile.Id = &apos;00e1G0000011hjw&apos;) 
+&amp;&amp;
+ NOT( OwnerId = &apos;00500000006wpUQ&apos;)
+&amp;&amp;
+(
+ ISBLANK( AccountId ) 
+||
+ ISBLANK(  Plan__c  )
+)</errorConditionFormula>
+    <errorMessage>Enter the &quot;Account&quot; and &quot;Plan&quot; before Resolving Case</errorMessage>
+</ValidationRule>

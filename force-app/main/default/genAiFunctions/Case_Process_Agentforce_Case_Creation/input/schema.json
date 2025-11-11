@@ -1,0 +1,35 @@
+{
+  "required" : [ "caseDescription", "caseSubject", "contactEmail" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "caseDescription" : {
+      "title" : "caseDescription",
+      "description" : "Case Description",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "caseSubject" : {
+      "title" : "caseSubject",
+      "description" : "Case Subject",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "contactEmail" : {
+      "title" : "contactEmail",
+      "description" : "Case Email",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "contactRole" : {
+      "title" : "contactRole",
+      "description" : "Contact Role",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

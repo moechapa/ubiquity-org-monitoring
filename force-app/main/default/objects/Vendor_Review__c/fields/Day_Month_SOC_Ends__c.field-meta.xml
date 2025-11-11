@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Day_Month_SOC_Ends__c</fullName>
+    <description>End Date of SOC formatted to show DD - MM</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISNULL(End_Date_of_SOC__c)), 
+CASE(
+  MONTH( End_Date_of_SOC__c ),
+  1, &quot;31-Jan&quot;,
+  2, &quot;28-Feb&quot;,
+  3, &quot;31-Mar&quot;,
+  4, &quot;30-Apr&quot;,
+  5, &quot;31-May&quot;,
+  6, &quot;30-Jun&quot;,
+  7, &quot;31-Jul&quot;,
+  8, &quot;31-Aug&quot;,
+  9, &quot;30-Sep&quot;,
+  10, &quot;31-Oct&quot;,
+  11, &quot;30-Nov&quot;,
+  &quot;31-Dec&quot;
+),
+NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>End Date of SOC formatted to show DD - MM</inlineHelpText>
+    <label>Day - Month SOC Ends</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

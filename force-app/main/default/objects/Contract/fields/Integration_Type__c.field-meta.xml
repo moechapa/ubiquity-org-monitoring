@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Integration_Type__c</fullName>
+    <description>How partner integrates with Ubiquity</description>
+    <inlineHelpText>How partner integrates with Ubiquity</inlineHelpText>
+    <label>Integration Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Buy Process</fullName>
+                <default>false</default>
+                <label>Buy Process</label>
+            </value>
+            <value>
+                <fullName>Lead Process</fullName>
+                <default>false</default>
+                <label>Lead Process</label>
+            </value>
+            <value>
+                <fullName>Payroll census</fullName>
+                <default>false</default>
+                <label>Payroll census</label>
+            </value>
+            <value>
+                <fullName>Manual payroll</fullName>
+                <default>false</default>
+                <label>Manual payroll</label>
+            </value>
+            <value>
+                <fullName>Full Integration (Buy, Lead and Payroll)</fullName>
+                <default>false</default>
+                <label>Full Integration (Buy, Lead and Payroll)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

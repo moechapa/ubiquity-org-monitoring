@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Task_Layout_on_Imp</fullName>
+    <fields>Name</fields>
+    <fields>Assigned_To__c</fields>
+    <fields>Status__c</fields>
+    <fields>Actual_Start_Date__c</fields>
+    <fields>Actual_Completion_Date__c</fields>
+    <label>Task Layout on Imp</label>
+</CompactLayout>

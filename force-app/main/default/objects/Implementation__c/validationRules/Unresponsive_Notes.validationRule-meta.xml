@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unresponsive_Notes</fullName>
+    <active>true</active>
+    <description>Requires &quot;Unresponsive Notes&quot; field be completed if &quot;Unresponsive&quot; box is checked</description>
+    <errorConditionFormula>AND(ISCHANGED(Unresponsive__c ) ,
+Unresponsive__c = TRUE,
+ISBLANK( Why_Unresponsive_Client_Action_Needed__c ))</errorConditionFormula>
+    <errorDisplayField>Why_Unresponsive_Client_Action_Needed__c</errorDisplayField>
+    <errorMessage>Add &quot;Unresponsive Notes&quot; to verify what is needed to make client responsive/active again.</errorMessage>
+</ValidationRule>

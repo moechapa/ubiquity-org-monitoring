@@ -1,0 +1,100 @@
+# Proposal | Before Save | Pricing Status for Simply
+
+## Flow Diagram [(_View History_)](Proposal_Before_Save_Pricing_Status_for_Simply-history.md)
+
+```mermaid
+%% If you read this, your Markdown visualizer does not handle MermaidJS syntax.
+%% - If you are in VS Code, install extension `Markdown Preview Mermaid Support` at https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
+%% - If you are using sfdx-hardis, try to define env variable `MERMAID_MODES=cli,docker` ,then run again the command to regenerate markdown with SVG images.
+%% - If you are within mkdocs-material, define mermaid plugin in `mkdocs.yml` as described in https://squidfunk.github.io/mkdocs-material/extensions/mermaid/
+%% - As a last resort, you can copy-paste this MermaidJS code into https://mermaid.live/ to see the flow diagram
+
+flowchart TB
+START(["START<br/><b>AutoLaunched Flow</b></br>Type: <b> Record Before Save</b>"]):::startClass
+click START "#general-information" "536061763"
+
+Set_Pricing_Status[\"🟰 <em></em><br/>Set Pricing Status"/]:::assignments
+click Set_Pricing_Status "#set_pricing_status" "2350178299"
+
+Set_Pricing_Status --> END_Set_Pricing_Status
+START -->  Set_Pricing_Status
+END_Set_Pricing_Status(( END )):::endClass
+
+
+classDef actionCalls fill:#D4E4FC,color:black,text-decoration:none,max-height:100px
+classDef assignments fill:#FBEED7,color:black,text-decoration:none,max-height:100px
+classDef collectionProcessors fill:#F0E3FA,color:black,text-decoration:none,max-height:100px
+classDef customErrors fill:#FFE9E9,color:black,text-decoration:none,max-height:100px
+classDef decisions fill:#FDEAF6,color:black,text-decoration:none,max-height:100px
+classDef loops fill:#FDEAF6,color:black,text-decoration:none,max-height:100px
+classDef recordCreates fill:#FFF8C9,color:black,text-decoration:none,max-height:100px
+classDef recordDeletes fill:#FFF8C9,color:black,text-decoration:none,max-height:100px
+classDef recordLookups fill:#EDEAFF,color:black,text-decoration:none,max-height:100px
+classDef recordUpdates fill:#FFF8C9,color:black,text-decoration:none,max-height:100px
+classDef screens fill:#DFF6FF,color:black,text-decoration:none,max-height:100px
+classDef subflows fill:#D4E4FC,color:black,text-decoration:none,max-height:100px
+classDef startClass fill:#D9F2E6,color:black,text-decoration:none,max-height:100px
+classDef endClass fill:#F9BABA,color:black,text-decoration:none,max-height:100px
+classDef transforms fill:#FDEAF6,color:black,text-decoration:none,max-height:100px
+
+
+```
+
+<!-- Flow description -->
+
+## General Information
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Object|Proposal__c|
+|Process Type| Auto Launched Flow|
+|Trigger Type| Record Before Save|
+|Record Trigger Type| Create|
+|Label|Proposal | Before Save | Pricing Status for Simply|
+|Status|Active|
+|Description|Added "Pricing Origin" field to values set<br/><br/>Gives new simply proposals w/o "provisions" flag the status "pricing"|
+|Environments|Default|
+|Interview Label|Proposal | Before Save | Pricing Status for Simply {!$Flow.CurrentDateTime}|
+| Builder Type (PM)|LightningFlowBuilder|
+| Canvas Mode (PM)|AUTO_LAYOUT_CANVAS|
+| Origin Builder Type (PM)|LightningFlowBuilder|
+|Connector|[Set_Pricing_Status](#set_pricing_status)|
+|Next Node|[Set_Pricing_Status](#set_pricing_status)|
+
+
+#### Filters (logic: **and**)
+
+|Filter Id|Field|Operator|Value|
+|:-- |:-- |:--:|:--: |
+|1|Principal_Id__c| Is Null|<!-- -->|
+|2|Provisions__c| Equal To|⬜|
+
+
+## Flow Nodes Details
+
+### Set_Pricing_Status
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Assignment|
+|Label|Set Pricing Status|
+
+
+#### Assignments
+
+|Assign To Reference|Operator|Value|
+|:-- |:--:|:--: |
+|$Record.Status__c| Assign|Pricing|
+|$Record.Principal_Opportunity_Stage__c| Assign|Qualification|
+|$Record.Pricing_Origin__c| Assign|✅|
+
+
+
+
+
+
+
+
+___
+
+_Documentation generated from branch monitoring_myubiquity by [sfdx-hardis](https://sfdx-hardis.cloudity.com), featuring [salesforce-flow-visualiser](https://github.com/toddhalfpenny/salesforce-flow-visualiser)_

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Sentiment_On_Resolve</fullName>
+    <active>false</active>
+    <description>Case Sentiment are required on Resolved Cases for Service and Saver teams</description>
+    <errorConditionFormula>((ISNEW() = TRUE)
+||
+ISCHANGED(Status) 
+)
+&amp;&amp;
+ ISPICKVAL( Status , &quot;Resolved&quot;) 
+&amp;&amp;
+(
+ $Profile.Name = &apos;Saver Manager&apos;
+||
+ $Profile.Name = &apos;Saver User&apos;
+||
+ $Profile.Name = &apos;Service Manager&apos;
+||
+ $Profile.Name = &apos;Service User&apos;
+||
+ $Profile.Name = &apos;Lightning Service User&apos;
+||
+ $Profile.Name = &apos;Lightning Saver User&apos;
+||
+ $Profile.Name = &apos;Lightning Service Manager&apos;
+)
+&amp;&amp;
+ ISBLANK(TEXT(  Case_Sentiment__c  ))</errorConditionFormula>
+    <errorMessage>Enter Case Sentiment before Resolving the Case</errorMessage>
+</ValidationRule>

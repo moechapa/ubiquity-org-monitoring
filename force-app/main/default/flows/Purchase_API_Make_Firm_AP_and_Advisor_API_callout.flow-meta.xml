@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Create_Advisor</name>
+        <label>Create Advisor</label>
+        <locationX>182</locationX>
+        <locationY>1406</locationY>
+        <actionName>PostParadigmAdvisorAPInew.Create Advisors</actionName>
+        <actionType>externalService</actionType>
+        <connector>
+            <targetReference>Response_200Y</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>api_key</name>
+            <value>
+                <elementReference>accessToken</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>advisorPayload</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>PostParadigmAdvisorAPInew.Create Advisors</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
+        <name>Create_Firm</name>
+        <label>Create Firm</label>
+        <locationX>380</locationX>
+        <locationY>458</locationY>
+        <actionName>PostParadigmFirmAPI.Create Firm</actionName>
+        <actionType>externalService</actionType>
+        <connector>
+            <targetReference>Response_200</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>api_key</name>
+            <value>
+                <elementReference>accessToken</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>firmPayload</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>PostParadigmFirmAPI.Create Firm</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>60.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Add_to_Collectioction</name>
+        <label>Add to Collection</label>
+        <locationX>270</locationX>
+        <locationY>1106</locationY>
+        <assignmentItems>
+            <assignToReference>advisorUsersCollection</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>advisorUserSingle</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_thru</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign</name>
+        <label>Assign</label>
+        <locationX>578</locationX>
+        <locationY>674</locationY>
+        <assignmentItems>
+            <assignToReference>firmCalloutResponseCode</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Create_Firm.responseCode</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>firmCalloutResponseException</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Create_Firm.defaultExc</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Advisor_Firm_Payload</name>
+        <label>Assign Advisor Firm Payload</label>
+        <locationX>380</locationX>
+        <locationY>350</locationY>
+        <assignmentItems>
+            <assignToReference>firmPayload.name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Advisor_Firm_Settings.Firm_Name__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>firmPayload.crd</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Advisor_Firm_Settings.CRD__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>firmPayload.z0type</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Advisor_Firm_Settings.Firm_Type__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>firmPayload.npn</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Advisor_Firm_Settings.NPN__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Create_Firm</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Advisor_Request_Payload</name>
+        <label>Assign Advisor Request Payload</label>
+        <locationX>182</locationX>
+        <locationY>1298</locationY>
+        <assignmentItems>
+            <assignToReference>advisorPayload.paymentMethod.deliveryMethod</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Advisor_Firm_Settings.Delivery_Method__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorPayload.address1</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Advisor_Firm_Settings.Address__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorPayload.city</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Advisor_Firm_Settings.City__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorPayload.state</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Advisor_Firm_Settings.State__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorPayload.zip</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Advisor_Firm_Settings.Zip__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorPayload.firmName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Advisor_Firm_Settings.Firm_Name__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorPayload.phone</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>advisoryFirmPhone</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorPayload.advisorUsers</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>advisorUsersCollection</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorPayload.paymentMethod.crd</assignToReference>
+            <operator>Assign</operator>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorPayload.paymentMethod.npn</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>123456</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Create_Advisor</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Advisor_Roles</name>
+        <label>Assign Advisor Roles</label>
+        <locationX>182</locationX>
+        <locationY>782</locationY>
+        <assignmentItems>
+            <assignToReference>advisorsRolesCollection</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>COMMISSIONABLE</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_thru</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>assign_Advisor_User_Payload</name>
+        <label>Assign Advisor User Payload</label>
+        <locationX>270</locationX>
+        <locationY>998</locationY>
+        <assignmentItems>
+            <assignToReference>advisorUserSingle.id</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorUserSingle.firstName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Loop_thru.First_Name__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorUserSingle.lastName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Loop_thru.Last_Name__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorUserSingle.email</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Loop_thru.Email__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorUserSingle.roles</assignToReference>
+            <operator>Assign</operator>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorUserSingle.npn</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Loop_thru.NPN__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorUserSingle.crd</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Loop_thru.CRD__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_to_Collectioction</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Exceptions</name>
+        <label>Assign Exceptions</label>
+        <locationX>314</locationX>
+        <locationY>1622</locationY>
+        <assignmentItems>
+            <assignToReference>advisorCalloutResponseCode</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Create_Advisor.responseCode</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>advisorCalloutResponseException</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Create_Advisor.defaultExc</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Success_Code</name>
+        <label>Assign Success Code</label>
+        <locationX>50</locationX>
+        <locationY>1622</locationY>
+        <assignmentItems>
+            <assignToReference>advisorCalloutResponseCode</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Create_Advisor.responseCode</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Response_200</name>
+        <label>Response 200?</label>
+        <locationX>380</locationX>
+        <locationY>566</locationY>
+        <defaultConnector>
+            <targetReference>Assign</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>X200Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Create_Firm.responseCode</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>200.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Partner_Advisor_Settings</targetReference>
+            </connector>
+            <label>200</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Response_200Y</name>
+        <label>Response 200?</label>
+        <locationX>182</locationX>
+        <locationY>1514</locationY>
+        <defaultConnector>
+            <targetReference>Assign_Exceptions</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Create_Advisor.responseCode</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>200.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Success_Code</targetReference>
+            </connector>
+            <label>200</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <description>Transforms from XXXXXXXXXX to XXX-XXX-XXXX</description>
+        <name>advisoryFirmPhone</name>
+        <dataType>String</dataType>
+        <expression>IF(LEN({!formattedPhone}) = 10 &amp;&amp; ISNUMBER({!formattedPhone}),
+LEFT({!formattedPhone}, 3) &amp; &quot;-&quot; &amp; MID({!formattedPhone}, 4, 3) &amp; &quot;-&quot; &amp; RIGHT({!formattedPhone}, 4),
+&quot;&quot;)</expression>
+    </formulas>
+    <formulas>
+        <name>allowsHardshipWithdrawals</name>
+        <dataType>Boolean</dataType>
+        <expression>IF(TEXT({!get_Proposal.Hardships__c}) = &quot;Yes&quot;, TRUE, FALSE)</expression>
+    </formulas>
+    <formulas>
+        <name>allowsLoans</name>
+        <dataType>Boolean</dataType>
+        <expression>IF(TEXT({!get_Proposal.Loans__c}) = &quot;Yes&quot;, TRUE, FALSE)</expression>
+    </formulas>
+    <formulas>
+        <name>bpsAmount</name>
+        <dataType>Number</dataType>
+        <expression>VALUE({!get_Proposal.Advisor_Compensation_Amount__c})</expression>
+        <scale>0</scale>
+    </formulas>
+    <formulas>
+        <name>eligibilityAgeInteger</name>
+        <dataType>Number</dataType>
+        <expression>
+IF( ISPICKVAL({!get_Proposal.Eligibility_Age__c}, &quot;None&quot;), 
+18, 
+VALUE(TEXT({!get_Proposal.Eligibility_Age__c})))</expression>
+        <scale>0</scale>
+    </formulas>
+    <formulas>
+        <description>Value will be determined based on a Plan_Entry_Frequency__c</description>
+        <name>entry</name>
+        <dataType>String</dataType>
+        <expression>CASE(TEXT({!get_Proposal.Plan_Entry_Frequency__c}),
+  &quot;Immediate&quot;, &quot;DAILY&quot;,
+  &quot;Monthly&quot;, &quot;MONTHLY&quot;,
+  &quot;Quarterly&quot;, &quot;QUARTERLY&quot;,
+  &quot;Semi-Annually&quot;, &quot;SEMI_ANNUALLY&quot;,
+&quot;OTHER&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <description>Transforms the phone number to sting of XXXXXXXXXX</description>
+        <name>formattedPhone</name>
+        <dataType>String</dataType>
+        <expression>RIGHT(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE({!Get_Advisor_Firm_Settings.Phone__c}, &quot; &quot;, &quot;&quot;), &quot;+&quot;, &quot;&quot;), &quot;-&quot;, &quot;&quot;), &quot;)&quot;, &quot;&quot;), &quot;(&quot;, &quot;&quot;),10)</expression>
+    </formulas>
+    <formulas>
+        <description>Adds 21 business days to today if Plan Effective Date is not specified</description>
+        <name>planEffectiveDate</name>
+        <dataType>Date</dataType>
+        <expression>IF(
+ISBLANK({!get_Proposal.Plan_Effective_Date__c}),
+CASE(
+MOD(TODAY() - DATE(1900, 1, 7), 7),
+0, TODAY() + 29,
+1, TODAY() + 31,
+2, TODAY() + 31,
+3, TODAY() + 31,
+4, TODAY() + 31,
+5, TODAY() + 33,
+6, TODAY() + 32,
+TODAY()
+),
+{!get_Proposal.Plan_Effective_Date__c}
+)</expression>
+    </formulas>
+    <formulas>
+        <description>This will be calculated based of Plan_Eligibilty__c value</description>
+        <name>serviceEligibility</name>
+        <dataType>String</dataType>
+        <expression>CASE(TEXT({!get_Proposal.Plan_Eligibility__c}),
+  &quot;Immediate&quot;, &quot;IMMEDIATE&quot;,
+  &quot;One Month&quot;, &quot;ONE_MONTH&quot;,
+  &quot;Two Months&quot;, &quot;TWO_MONTHS&quot;,
+  &quot;Three Months&quot;, &quot;THREE_MONTHS&quot;,
+ &quot;6 Months&quot;, &quot;SIX_MONTHS&quot;,
+ &quot;1 Year (1000 Hours)&quot;, &quot;ONE_YEAR_HOURS&quot;,
+ &quot;1 Year&quot;, &quot;TWELVE_MONTHS&quot;,
+&quot;&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <description>2 Letter Code for Company_State__c</description>
+        <name>stateCode</name>
+        <dataType>String</dataType>
+        <expression>IF(
+LEN({!get_Proposal.Company_State__c}) = 2,
+{!get_Proposal.Company_State__c},
+CASE({!get_Proposal.Company_State__c},
+&quot;Alabama&quot;, &quot;AL&quot;,
+&quot;Alaska&quot;, &quot;AK&quot;,
+&quot;Arizona&quot;, &quot;AZ&quot;,
+&quot;Arkansas&quot;, &quot;AR&quot;,
+&quot;California&quot;, &quot;CA&quot;,
+&quot;Colorado&quot;, &quot;CO&quot;,
+&quot;Connecticut&quot;, &quot;CT&quot;,
+&quot;Delaware&quot;, &quot;DE&quot;,
+&quot;Florida&quot;, &quot;FL&quot;,
+&quot;Georgia&quot;, &quot;GA&quot;,
+&quot;Hawaii&quot;, &quot;HI&quot;,
+&quot;Idaho&quot;, &quot;ID&quot;,
+&quot;Illinois&quot;, &quot;IL&quot;,
+&quot;Indiana&quot;, &quot;IN&quot;,
+&quot;Iowa&quot;, &quot;IA&quot;,
+&quot;Kansas&quot;, &quot;KS&quot;,
+&quot;Kentucky&quot;, &quot;KY&quot;,
+&quot;Louisiana&quot;, &quot;LA&quot;,
+&quot;Maine&quot;, &quot;ME&quot;,
+&quot;Maryland&quot;, &quot;MD&quot;,
+&quot;Massachusetts&quot;, &quot;MA&quot;,
+&quot;Michigan&quot;, &quot;MI&quot;,
+&quot;Minnesota&quot;, &quot;MN&quot;,
+&quot;Mississippi&quot;, &quot;MS&quot;,
+&quot;Missouri&quot;, &quot;MO&quot;,
+&quot;Montana&quot;, &quot;MT&quot;,
+&quot;Nebraska&quot;, &quot;NE&quot;,
+&quot;Nevada&quot;, &quot;NV&quot;,
+&quot;New Hampshire&quot;, &quot;NH&quot;,
+&quot;New Jersey&quot;, &quot;NJ&quot;,
+&quot;New Mexico&quot;, &quot;NM&quot;,
+&quot;New York&quot;, &quot;NY&quot;,
+&quot;North Carolina&quot;, &quot;NC&quot;,
+&quot;North Dakota&quot;, &quot;ND&quot;,
+&quot;Ohio&quot;, &quot;OH&quot;,
+&quot;Oklahoma&quot;, &quot;OK&quot;,
+&quot;Oregon&quot;, &quot;OR&quot;,
+&quot;Pennsylvania&quot;, &quot;PA&quot;,
+&quot;Rhode Island&quot;, &quot;RI&quot;,
+&quot;South Carolina&quot;, &quot;SC&quot;,
+&quot;South Dakota&quot;, &quot;SD&quot;,
+&quot;Tennessee&quot;, &quot;TN&quot;,
+&quot;Texas&quot;, &quot;TX&quot;,
+&quot;Utah&quot;, &quot;UT&quot;,
+&quot;Vermont&quot;, &quot;VT&quot;,
+&quot;Virginia&quot;, &quot;VA&quot;,
+&quot;Washington&quot;, &quot;WA&quot;,
+&quot;West Virginia&quot;, &quot;WV&quot;,
+&quot;Wisconsin&quot;, &quot;WI&quot;,
+&quot;Wyoming&quot;, &quot;WY&quot;,
+&quot;&quot;
+)
+)</expression>
+    </formulas>
+    <interviewLabel>Purchase API | Make Firm AP and Advisor API callout {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Purchase API | Make Firm AP and Advisor API callout</label>
+    <loops>
+        <name>Loop_thru</name>
+        <label>Loop thru</label>
+        <locationX>182</locationX>
+        <locationY>890</locationY>
+        <collectionReference>Get_Partner_Advisor_Settings</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>assign_Advisor_User_Payload</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Assign_Advisor_Request_Payload</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Advisor_Firm_Settings</name>
+        <label>Get Advisor Firm Settings</label>
+        <locationX>380</locationX>
+        <locationY>242</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Advisor_Firm_Payload</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Firm_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>get_Proposal.Firm_Name__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Advisor_Firm__mdt</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Partner_Advisor_Settings</name>
+        <label>Get Partner Advisor Settings</label>
+        <locationX>182</locationX>
+        <locationY>674</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Advisor_Roles</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Firm_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>get_Proposal.Firm_Name__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Partner_Advisors__mdt</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>get_Proposal</name>
+        <label>get Proposal</label>
+        <locationX>380</locationX>
+        <locationY>134</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Advisor_Firm_Settings</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Proposal__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>254</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>get_Proposal</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+    <variables>
+        <name>accessToken</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>A list of Sources to be added to the purchase Payload. Passed though a subflow</description>
+        <name>addSources</name>
+        <apexClass>ExternalService__PostParadigmPurchaseLink_Getx20Paradigmx20Purchasex20Link_IN_body_addSources</apexClass>
+        <dataType>Apex</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>A list of Advisors (actors) for purchase Payload</description>
+        <name>advisorActorsCollection</name>
+        <apexClass>ExternalService__PostParadigmPurchaseLink_Getx20Paradigmx20Purchasex20Link_IN_body_advisors_actors</apexClass>
+        <dataType>Apex</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>advisorCalloutResponseCode</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <scale>0</scale>
+    </variables>
+    <variables>
+        <name>advisorCalloutResponseException</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>advisorPayload</name>
+        <apexClass>ExternalService__PostParadigmAdvisorAPInew_Createx20Advisors_IN_body</apexClass>
+        <dataType>Apex</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Will be used to populate advisorsActorsCollection</description>
+        <name>advisorsActorSingle</name>
+        <apexClass>ExternalService__PostParadigmPurchaseLink_Getx20Paradigmx20Purchasex20Link_IN_body_advisors_actors</apexClass>
+        <dataType>Apex</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Roles for PurchasePayload on Advisors section</description>
+        <name>advisorsRolesCollection</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>advisorsRoleSingle</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>COMMISSIONABLE</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <description>Advisors Collection to be sent via Advisor API</description>
+        <name>advisorUsersCollection</name>
+        <apexClass>ExternalService__PostParadigmAdvisorAPInew_Createx20Advisors_IN_body_advisorUsers</apexClass>
+        <dataType>Apex</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>advisorUserSingle</name>
+        <apexClass>ExternalService__PostParadigmAdvisorAPInew_Createx20Advisors_IN_body_advisorUsers</apexClass>
+        <dataType>Apex</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>firmCalloutResponseCode</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <scale>0</scale>
+    </variables>
+    <variables>
+        <name>firmCalloutResponseException</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>firmPayload</name>
+        <apexClass>ExternalService__PostParadigmFirmAPI_Createx20Firm_IN_body</apexClass>
+        <dataType>Apex</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>planId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>purchaseLink</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>purchasePayload</name>
+        <apexClass>ExternalService__PostParadigmPurchaseLink_Getx20Paradigmx20Purchasex20Link_IN_body</apexClass>
+        <dataType>Apex</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>responseCode</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>tokenCredentials</name>
+        <apexClass>ExternalService__PostParadigmAccessToken_Getx20Accessx20Token_IN_body</apexClass>
+        <dataType>Apex</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

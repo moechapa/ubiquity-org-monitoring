@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adjustment_Case</fullName>
+    <active>true</active>
+    <description>Update number of participants and $ amount before closing adjustment case</description>
+    <errorConditionFormula>ISCHANGED(Status)
+&amp;&amp;
+ISPICKVAL( Status , &quot;Resolved&quot;)
+&amp;&amp;
+NOT(ISBLANK(TEXT( Adjustment_Type__c )))
+&amp;&amp;
+(
+ISBLANK(  Dollar_Amount_of_Adjustment__c )
+||
+ISBLANK(  Number_of_Participants_to_Adjust__c  )
+)</errorConditionFormula>
+    <errorMessage>&quot;Dollar Amount of Adjustment&quot; and &quot;Number of Participants to Adjust&quot; must be entered before closing adjustment cases.</errorMessage>
+</ValidationRule>

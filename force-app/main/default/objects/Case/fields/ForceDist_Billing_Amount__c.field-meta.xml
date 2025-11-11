@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ForceDist_Billing_Amount__c</fullName>
+    <description>(Cert Notice Count * $10) + (Look Up Names Count * $25)</description>
+    <formula>( Certified_Notice_Count__c * 10) + ( Look_Up_Name_Count__c * 25)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>(Cert Notice Count * $10) + (Look Up Names Count * $25)</inlineHelpText>
+    <label>ForceDist Billing Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

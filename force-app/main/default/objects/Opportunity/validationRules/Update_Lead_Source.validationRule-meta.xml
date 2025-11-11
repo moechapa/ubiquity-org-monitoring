@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update_Lead_Source</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISPICKVAL( StageName ,&quot;Closed Won&quot;)&amp;&amp;
+ISPICKVAL( LeadSource , &quot; &lt;&gt; Direct, Accounting, Benefit Broker, Financial Institution, PEO, TPA, As(k), Retail, Advisor, Payroll&quot;)&amp;&amp;
+$User.Id &lt;&gt; &quot;00500000006yBQC&quot;</errorConditionFormula>
+    <errorMessage>Please Update Lead Source to Current Methodologies</errorMessage>
+</ValidationRule>

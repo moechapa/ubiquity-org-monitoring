@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transition_Type__c</fullName>
+    <description>Deconversion: we were under the impression that the plan will be kept intact and continued administration will be assumed by the new TPA. If that’s the case and this is a continuing plan, we would only prepare the 5500 if we had transaction and balance information through 12/31/2016. Since the plan is taken over mid-year, we don’t have this information and cannot prepare a 5500 or Summary Annual Report for the entire 2016 plan year as it stands.
+Term/Merger: If the plan Ubiquity administered is actually merged with another plan, then we would file a final 5500 for this plan with a $0 ending balance. We need the existing plan’s Name, EIN and Plan Number that the plan is merging to.
+Term: Plan is fully terminating. All participants are receiving distributions. We will file the Form 5500 as a Final Form 5500 when the balance reaches zero.</description>
+    <label>Transition Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Termination</fullName>
+                <default>false</default>
+                <label>Termination</label>
+            </value>
+            <value>
+                <fullName>Deconversion</fullName>
+                <default>false</default>
+                <label>Deconversion</label>
+            </value>
+            <value>
+                <fullName>Termination/Merger</fullName>
+                <default>false</default>
+                <label>Termination/Merger</label>
+            </value>
+            <value>
+                <fullName>Abandonment</fullName>
+                <default>false</default>
+                <label>Abandonment</label>
+            </value>
+            <value>
+                <fullName>Contract Termination</fullName>
+                <default>false</default>
+                <label>Contract Termination</label>
+            </value>
+            <value>
+                <fullName>Full Service to Ubiquity Single(k)</fullName>
+                <default>false</default>
+                <label>Full Service to Ubiquity Single(k)</label>
+            </value>
+            <value>
+                <fullName>Full Service to Ubiquity Single(k) Plus</fullName>
+                <default>false</default>
+                <label>Full Service to Ubiquity Single(k) Plus</label>
+            </value>
+            <value>
+                <fullName>Internal Termination/Merger</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Internal Termination/Merger</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Case_Deliverables__c</fullName>
+    <label>Active Case Deliverables</label>
+    <summaryFilterItems>
+        <field>Project_Deliverables__c.Active__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Project_Deliverables__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Case Deliverable</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Project_Deliverables__c.Work_Breakdown_Structure__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

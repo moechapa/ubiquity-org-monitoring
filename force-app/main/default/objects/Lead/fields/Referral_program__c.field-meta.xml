@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_program__c</fullName>
+    <description>How did the referrer learn about Ubiquity&apos;s Referral Program?</description>
+    <inlineHelpText>How did the referrer learn about Ubiquity&apos;s Referral Program?</inlineHelpText>
+    <label>How did you hear about referral program?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ubiquity Employee</fullName>
+                <default>false</default>
+                <label>Ubiquity Employee</label>
+            </value>
+            <value>
+                <fullName>Ubiquity Newsletter/Email</fullName>
+                <default>false</default>
+                <label>Ubiquity Newsletter/Email</label>
+            </value>
+            <value>
+                <fullName>Ubiquity Website</fullName>
+                <default>false</default>
+                <label>Ubiquity Website</label>
+            </value>
+            <value>
+                <fullName>News/Media</fullName>
+                <default>false</default>
+                <label>News/Media</label>
+            </value>
+            <value>
+                <fullName>Friend_Family</fullName>
+                <default>false</default>
+                <label>Friend/Family</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

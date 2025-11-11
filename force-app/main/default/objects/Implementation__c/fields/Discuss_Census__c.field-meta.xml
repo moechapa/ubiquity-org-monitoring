@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discuss_Census__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Remind client to add termination dates for departed employees</description>
+    <inlineHelpText>Remind client to add termination dates for departed employees</inlineHelpText>
+    <label>Discuss Ongoing Census Duties</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

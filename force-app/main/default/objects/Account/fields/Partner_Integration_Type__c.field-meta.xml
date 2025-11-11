@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Integration_Type__c</fullName>
+    <description>What type of integration(s) does the partner have with Ubiquity?</description>
+    <inlineHelpText>What type of integration(s) does the partner have with Ubiquity?</inlineHelpText>
+    <label>Partner Integration Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>API - Census &amp; Payroll</fullName>
+                <default>false</default>
+                <label>API - Census &amp; Payroll</label>
+            </value>
+            <value>
+                <fullName>SFTP - Census &amp; Payroll</fullName>
+                <default>false</default>
+                <label>SFTP - Census &amp; Payroll</label>
+            </value>
+            <value>
+                <fullName>Provider Submission - Census &amp; Payroll</fullName>
+                <default>false</default>
+                <label>Provider Submission - Census &amp; Payroll</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

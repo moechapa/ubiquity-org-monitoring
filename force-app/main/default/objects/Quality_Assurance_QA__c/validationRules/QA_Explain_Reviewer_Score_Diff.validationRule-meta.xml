@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QA_Explain_Reviewer_Score_Diff</fullName>
+    <active>true</active>
+    <errorConditionFormula>QA_Score__c &lt;&gt; Reviewer_Score__c 
+&amp;&amp;
+NOT(ISBLANK(Reviewer_Score__c))
+&amp;&amp;
+ISBLANK(Comments__c)
+&amp;&amp;
+QA_Score__c &gt; 0</errorConditionFormula>
+    <errorMessage>Reviewer Score does not match QA Score.  Please leave a comment to explain why</errorMessage>
+</ValidationRule>

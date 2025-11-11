@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Paradigm_Saver__c</fullName>
+    <description>True/False to verify if client is flagged as a Saver in Paradigm</description>
+    <externalId>false</externalId>
+    <inlineHelpText>True/False to verify if client is flagged as a Saver in Paradigm</inlineHelpText>
+    <label>Paradigm Saver</label>
+    <length>10</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

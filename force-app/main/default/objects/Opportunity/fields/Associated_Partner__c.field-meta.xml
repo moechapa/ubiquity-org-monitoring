@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Associated_Partner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Populate the associated partner&apos;s account. Most often used for Advisors or someone else who will be involved in the purchase decision.</description>
+    <inlineHelpText>Populate the associated partner&apos;s account. Most often used for Advisors or someone else who will be involved in the purchase decision.</inlineHelpText>
+    <label>Asssociated Partner</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Referred Opportunities</relationshipLabel>
+    <relationshipName>Opportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

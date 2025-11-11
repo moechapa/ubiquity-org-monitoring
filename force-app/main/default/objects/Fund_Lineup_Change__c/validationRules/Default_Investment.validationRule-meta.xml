@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Investment</fullName>
+    <active>true</active>
+    <description>Default Investment ticker required</description>
+    <errorConditionFormula>ISBLANK(  Default_Investment__c )
+&amp;&amp;
+ (ISNEW())</errorConditionFormula>
+    <errorDisplayField>Default_Investment__c</errorDisplayField>
+    <errorMessage>Enter the default investment for forfeitures to continue</errorMessage>
+</ValidationRule>

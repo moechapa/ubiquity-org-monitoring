@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Aged_Payroll</fullName>
+        <description>Aged Payroll</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>support@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Payroll_Funding/Aged_Payroll</template>
+    </alerts>
+    <alerts>
+        <fullName>CST_Auto_Response</fullName>
+        <description>CST Auto Response</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>support@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CST_Auto_Response_Template</template>
+    </alerts>
+    <alerts>
+        <fullName>CST_Case_Auto_Reply</fullName>
+        <description>CST Case Auto Reply</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Client_Support/Case_Auto_Reply</template>
+    </alerts>
+    <alerts>
+        <fullName>CaseResCsatNPS_15_min_delay</fullName>
+        <description>CaseResCsat + NPS 15 min delay</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>simplesurvey__Simple_Survey/CSAT_NPS_2023</template>
+    </alerts>
+    <alerts>
+        <fullName>CaseResCsat_15_min_delay</fullName>
+        <description>CaseResCsat 15 min delay</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>simplesurvey__Simple_Survey/CSat_2023</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Resolution_CSAT</fullName>
+        <description>Case Resolution CSAT</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>simplesurvey__Simple_Survey/CSat_2023</template>
+    </alerts>
+    <alerts>
+        <fullName>Compliance_Auto_Reply_Child_Case</fullName>
+        <description>Compliance | Auto Reply Child Case</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderAddress>compliance@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance/Compliance_Auto_Reply</template>
+    </alerts>
+    <alerts>
+        <fullName>Compliance_Auto_Reply_External_Case</fullName>
+        <description>Compliance | Auto Reply External Case</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>compliance@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Compliance/Compliance_Auto_Reply</template>
+    </alerts>
+    <alerts>
+        <fullName>Compliance_has_reviewed_your_document</fullName>
+        <description>Compliance has reviewed your document</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>marketing@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Marketing/Compliance_Review_Complete</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_List_Sourcing_Request_Notification</fullName>
+        <description>Email List Sourcing Request Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Workflow_Templates/Email_List_Source_Request_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Child_Case_Creator_Resolved</fullName>
+        <description>Email to Child Case Creator re: Child Case Resolved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Email_Templates/Child_Case_Close_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Enhancement_Request_Approved</fullName>
+        <description>Enhancement Request Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Enhancement_Request_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Enhancement_Request_Rejected</fullName>
+        <description>Enhancement Request Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Enhancement_Request_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Enhancement_Request_Submitted</fullName>
+        <description>Enhancement Request Submitted</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>unfiled$public/Enhancement_Request_Submitted</template>
+    </alerts>
+    <alerts>
+        <fullName>Excess_Cash_Email</fullName>
+        <description>Excess Cash Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>support@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Payroll_Team_Archive/Usable_Cash_Balance_Under_125_EEs</template>
+    </alerts>
+    <alerts>
+        <fullName>Five_Question_CSAT_to_Case_Contact</fullName>
+        <description>Five Question CSAT to Case Contact</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>simplesurvey__Simple_Survey/Five_Question_CE_CSAT</template>
+    </alerts>
+    <alerts>
+        <fullName>Jira_Bug_Approved</fullName>
+        <description>Jira Bug Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Workflow_Templates/Jira_Bug_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Jira_Bug_Rejected</fullName>
+        <description>Jira Bug Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Workflow_Templates/Jira_Bug_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>MarketingRequestLogged</fullName>
+        <ccEmails>chopkin@theonline401k.com</ccEmails>
+        <description>Marketing Request Logged</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>AutomaticEmails/Marketing_Request_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Marketing_Auto_Reply_Case</fullName>
+        <description>Marketing | Auto Reply Case</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Marketing_Auto_Reply</template>
+    </alerts>
+    <alerts>
+        <fullName>New_JIRA_Case_Comment_Alert</fullName>
+        <ccEmails>cdambrosio@myubiquity.com</ccEmails>
+        <description>New JIRA Case Comment Alert</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>Workflow_Templates/Alert_Product_Success_JIRA</template>
+    </alerts>
+    <alerts>
+        <fullName>New_JIRA_Comment</fullName>
+        <description>New JIRA Comment</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/Alert_SF_Admin_of_new_JIRA_Comment</template>
+    </alerts>
+    <alerts>
+        <fullName>New_JIRA_Comment_RPCs</fullName>
+        <description>New JIRA Comment - RPCs</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Ubiquity_Sales/New_JIRA_Comment</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Marketing_Request</fullName>
+        <description>New Marketing Request</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Alert_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Marketing/New_Marketing_Request</template>
+    </alerts>
+    <alerts>
+        <fullName>New_TPA_Case</fullName>
+        <description>New TPA Case</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>bminogue@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>kbenewith@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/New_TPA_Case</template>
+    </alerts>
+    <alerts>
+        <fullName>PayKon_Auto_Reply_Case</fullName>
+        <description>PayKon | Auto Reply Case</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>ubiquitypayroll@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Payroll_Team_Archive/Payroll_Koncierge_Auto_Reply</template>
+    </alerts>
+    <alerts>
+        <fullName>SalesforcePDEnhancementRequestLogged</fullName>
+        <ccEmails>vrose@theonline401k.com</ccEmails>
+        <description>Salesforce/PD Enhancement Request Logged</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>cp@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>AutomaticEmails/SalesforcePDRequestNotification</template>
+    </alerts>
+    <alerts>
+        <fullName>Transition_Team_Auto_Reply_on_Case_Creation</fullName>
+        <description>Transition Team Auto Reply on Case Creation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>transitions@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Ubiquity_Deconversion_and_Terminations/Transition_Auto_Reply</template>
+    </alerts>
+    <alerts>
+        <fullName>Unknown_Deposits</fullName>
+        <description>Unknown Deposits</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>support@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Payroll_Funding/Unknown_Deposit_Received</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Adjust_Entitlement_Process_Start_Time</fullName>
+        <field>SlaStartDate</field>
+        <formula>NOW()</formula>
+        <name>Adjust Entitlement Process Start Time</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approval</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Child_Case_Open_1</fullName>
+        <description>Add +1 to &quot;Child Cases Open&quot; field</description>
+        <field>Number_of_Child_Cases_Open__c</field>
+        <formula>Parent.Number_of_Child_Cases_Open__c + 1</formula>
+        <name>Child Case Open +1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Escalate_Case</fullName>
+        <description>Mark case as escalated.</description>
+        <field>IsEscalated</field>
+        <literalValue>1</literalValue>
+        <name>Escalate Case</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Mark_as_Reviewed</fullName>
+        <field>Compliance_Review__c</field>
+        <literalValue>Reviewed</literalValue>
+        <name>Mark as Reviewed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Mark_as_Submitted</fullName>
+        <field>Compliance_Review__c</field>
+        <literalValue>Submitted</literalValue>
+        <name>Mark as Submitted</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>NewToAssigned</fullName>
+        <description>Change status of Case from &quot;New&quot; to &quot;Assigned&quot; when owner is changed from Queue to User</description>
+        <field>Status</field>
+        <literalValue>Assigned</literalValue>
+        <name>NewToAssigned</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Rejected</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Reopened_Count_1</fullName>
+        <description>Add 1 to the Reopen Count field</description>
+        <field>Reopened_Count__c</field>
+        <formula>Reopened_Count__c + 1</formula>
+        <name>Reopened Count +1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status</fullName>
+        <field>Status</field>
+        <literalValue>Fee Waiver Rejected</literalValue>
+        <name>Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Approved</fullName>
+        <field>Status</field>
+        <literalValue>Fee Waiver Approved</literalValue>
+        <name>Status Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_to_Assigned</fullName>
+        <field>Status</field>
+        <literalValue>Assigned</literalValue>
+        <name>Status to Assigned</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Submitted</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Requested</literalValue>
+        <name>Submitted</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Truncate_Case_Description</fullName>
+        <field>Description</field>
+        <formula>TRIM( LEFT( Description , 300))</formula>
+        <name>Truncate Case Description</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Desc_w_approver</fullName>
+        <field>Description</field>
+        <formula>Description +  BR() +
+
+&quot;Approved by: &quot; + $User.FirstName + &quot; &quot; + $User.LastName</formula>
+        <name>Update Desc w approver</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Payroll_Reject_Case_Team_Member</fullName>
+        <description>Update Payroll Reject Case Team Member to Patricia Parisi</description>
+        <field>Team_Member__c</field>
+        <literalValue>Patricia Parisi</literalValue>
+        <name>Update Payroll Reject Case Team Member</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Time_to_Action</fullName>
+        <field>n2de__Time_to_action_mins__c</field>
+        <formula>Case_Age_In_Business_Hours__c * 60</formula>
+        <name>Update Time to Action</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Account Matches Contact</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Contact.Full_Name__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Aged Payroll</fullName>
+        <actions>
+            <name>Aged_Payroll</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>Payroll</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Aged_Payroll_Amount__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <description>Triggers Aged Payroll email when an unknown deposit case is created.   Deactivated per office hours with Sonia, Patti and Brian 2.25.2021</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case - Email - Child Case Resolved</fullName>
+        <actions>
+            <name>Email_to_Child_Case_Creator_Resolved</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.ParentId</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Resolved,Duplicate</value>
+        </criteriaItems>
+        <description>Email Parent Owner with Case # and Account Name with notice that Child Case is Resolved</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case - Email - List Source Request</fullName>
+        <actions>
+            <name>Email_List_Sourcing_Request_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.ParentId</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>startsWith</operation>
+            <value>List Sourcing Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>notContain</operation>
+            <value>Payroll,Compliance,Distributions,Operations,Finance,Transitions</value>
+        </criteriaItems>
+        <description>Email Child Case Owner to Review List Source Request</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case - Upadate - TTA %3D TTC</fullName>
+        <actions>
+            <name>Update_Time_to_Action</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Resolved</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.n2de__Time_to_action_mins__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>If case is Closed and Time to Action is Blank use time to close as Time to action</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case - Update - Entitlement start %3D Now for Child Case</fullName>
+        <actions>
+            <name>Adjust_Entitlement_Process_Start_Time</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.ParentId</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Resets Milestone / Entitlement start time to Creation date/time of Child Case (otherwise it would copy the earlier start time of the parent)</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case - Update - Reopened Count %2B 1</fullName>
+        <actions>
+            <name>Reopened_Count_1</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Adds +1 to &quot;Reopened Count&quot; in a case when the status changes from any &quot;CLOSED&quot; status to an &quot;OPEN&quot; status.  Counts # of times a case is reopened.</description>
+        <formula>AND(IsClosed = FALSE, PRIORVALUE(IsClosed) = TRUE)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case - Update - Trucate Description</fullName>
+        <actions>
+            <name>Truncate_Case_Description</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>contains</operation>
+            <value>inbox</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.CreatedById</field>
+            <operation>notEqual</operation>
+            <value>Automation Team</value>
+        </criteriaItems>
+        <description>Truncated Description field to first 300 characters</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>CaseResCSAT</fullName>
+        <active>false</active>
+        <description>Send Case Res CSAT email when Case = Resolved and Last Survey Date &gt; 60 Days</description>
+        <formula>NOT(CONTAINS(CreatedBy.Username,&quot;automationteam&quot;))  &amp;&amp;  AND ( ISPICKVAL( Status , &quot;Resolved&quot;),  EvenOdd__c = &quot;Even&quot;,  OR( (Case_Team__c  =&quot;Client Support&quot;) , (Case_Team__c  =&quot;West Coast Servicing&quot;) ,  (Case_Team__c  =&quot;East Coast Servicing&quot; ) , (Case_Team__c  =&quot;Mountain/Central Servicing&quot;) , (Case_Team__c  =&quot;Platinum Servicing&quot;) , (Case_Team__c  =&quot;Payroll&quot; ),(Case_Team__c  =&quot;Billing&quot; ),(Case_Team__c  =&quot;Saver Success&quot; ), (Case_Team__c  =&quot;Single(k)&quot;), (Case_Team__c  =&quot;Compliance&quot; )),  (ISBLANK( ParentId )),   NOT(ISBLANK(  Contact.Id  )),    NOT( CONTAINS( Contact.Email , &quot;myubiquity.com&quot;)),  (NOT( CONTAINS( Contact.Email , &quot;principal.com&quot;) &amp;&amp; NOT( ISPICKVAL(  Contact.Role__c , &quot;Advisor&quot;)))),   (Contact.Survey_Opt_Out__c = false),  OR  ( ISBLANK(Contact.Last_Created_Survey_Date__c),  (TODAY () - (Contact.Last_Created_Survey_Date__c)) &gt; 60), BEGINS (OwnerId, &apos;005&apos;), DATEVALUE(ClosedDate) = TODAY ())</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>CaseResCsat_15_min_delay</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.Closed_Date_Delay__c</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>CaseResCSAT%2BNPS</fullName>
+        <active>false</active>
+        <description>Send Case Res CSAT+NPS  email when Case = Resolved and Last Survey Date &gt; 60 Days</description>
+        <formula>NOT(CONTAINS(CreatedBy.Username,&quot;automationteam&quot;))  &amp;&amp;  AND ( ISPICKVAL( Status , &quot;Resolved&quot;),  EvenOdd__c = &quot;Odd&quot;,  OR( (Case_Team__c  =&quot;Client Support&quot;) , (Case_Team__c  =&quot;West Coast Servicing&quot;) ,  (Case_Team__c  =&quot;East Coast Servicing&quot; ) , (Case_Team__c  =&quot;Mountain/Central Servicing&quot;) , (Case_Team__c  =&quot;Platinum Servicing&quot;) , (Case_Team__c  =&quot;Payroll&quot; ),(Case_Team__c  =&quot;Billing&quot; ),(Case_Team__c  =&quot;Saver Success&quot; ), (Case_Team__c  =&quot;Single(k)&quot;), (Case_Team__c  =&quot;Compliance&quot; )),  (ISBLANK( ParentId )),   NOT(ISBLANK(  Contact.Id  )),   NOT( CONTAINS( Contact.Email , &quot;myubiquity.com&quot;)),   (Contact.Survey_Opt_Out__c = false),  OR  ( ISBLANK(Contact.Last_Created_Survey_Date__c),  (TODAY () - (Contact.Last_Created_Survey_Date__c)) &gt; 60), BEGINS (OwnerId, &apos;005&apos;), DATEVALUE(ClosedDate) = TODAY ())</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>CaseResCsatNPS_15_min_delay</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.ClosedDate</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Excess Cash</fullName>
+        <actions>
+            <name>Excess_Cash_Email</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>Payroll</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Excess_Cash_Amount__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <description>Triggers Excess Cash email when an unknown deposit case is created.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Force Out Distribution</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.ForceDist_Email_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Force Out Distribution</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Implementations New to Assigned</fullName>
+        <actions>
+            <name>Status_to_Assigned</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>Change status from New to Assigned when Implementations team member takes ownership from their Queue</description>
+        <formula>AND( ISCHANGED(OwnerId), PRIORVALUE(OwnerId) = &quot;00G37000000PDff&quot;, NOT(BEGINS(OwnerId, &quot;00G&quot;)) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>JIRA - New Comment</fullName>
+        <actions>
+            <name>New_JIRA_Comment</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New JIRA Comment</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Unknown Deposits</fullName>
+        <actions>
+            <name>Unknown_Deposits</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>Payroll</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Unknown_Deposit_Amount__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <description>Triggers Unknown Deposit email when an unknown deposit case is created.  Turned off per request from Sonia and Patti via office hours 2.25.2021.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <tasks>
+        <fullName>New_Case_Assignment</fullName>
+        <assignedToType>owner</assignedToType>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>New Case Assignment</subject>
+    </tasks>
+</Workflow>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ref_Id__c</fullName>
+    <externalId>false</externalId>
+    <formula>&apos;ref:!&apos; + LEFT($Organization.Id,5)+ RIGHT($Organization.Id, 4) + &apos;.!&apos; + LEFT(Id,5) + RIGHT(Id,6) + &apos;:ref&apos;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ref Id</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

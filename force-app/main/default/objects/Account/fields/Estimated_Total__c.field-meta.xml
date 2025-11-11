@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimated_Total__c</fullName>
+    <description>Estimated cost of 1st year of service by the provider. Assumes 15 participants and startup plan.</description>
+    <inlineHelpText>Estimated cost of 1st year of service by the provider. Assumes 15 participants and startup plan.</inlineHelpText>
+    <label>Estimated 1st Year Total New Plan Cost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

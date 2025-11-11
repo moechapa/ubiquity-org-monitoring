@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_Enrollment_Plan__c</fullName>
+    <formula>NOT(ISPICKVAL(Auto_Enrollment__c, &quot;None&quot;)) &amp;&amp; NOT(ISBLANK(TEXT(Auto_Enrollment__c)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If Auto-Enrollment is &quot;None&quot; or NULL, the box is unchecked. Otherwise, it is checked.</inlineHelpText>
+    <label>Auto-Enrollment Plan</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

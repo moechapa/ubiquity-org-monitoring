@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Distributions_Identillect</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Category__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Distributions_Cases,Case.Reconciliations_Withdrawals</value>
+    </filters>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>contains</operation>
+        <value>has sent you a secure email with Subject</value>
+    </filters>
+    <filters>
+        <field>Category__c</field>
+        <operation>notEqual</operation>
+        <value>CARES Distribution Form</value>
+    </filters>
+    <label>Distributions Identillect</label>
+    <sharedTo>
+        <role>Distributions</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brokerage_Accounts_PCRA__c</fullName>
+    <description>Will plan allow for brokerage accounts?</description>
+    <inlineHelpText>Will plan allow for brokerage accounts?</inlineHelpText>
+    <label>Brokerage Accounts (PCRA)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Brokerage_Accounts_PCRA</valueSetName>
+    </valueSet>
+</CustomField>

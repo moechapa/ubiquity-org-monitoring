@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Offered_Finch__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Is client presented finch as an option in onboarding workflow</inlineHelpText>
+    <label>Offered Finch</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

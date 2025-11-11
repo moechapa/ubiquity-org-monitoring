@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>View_Account</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>View Account</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>https://myubiquity.lightning.force.com/lightning/r/Account/{!Partner_Resource_Request__c.Partner_AccountId__c}/view</url>
+</WebLink>

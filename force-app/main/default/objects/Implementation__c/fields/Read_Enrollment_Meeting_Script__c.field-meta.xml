@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Read_Enrollment_Meeting_Script__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Refer client to enrollment material on the Implementation Overview page. If custom/reserve(k), offer live enrollment meeting and how to schedule instructions</description>
+    <inlineHelpText>Refer client to enrollment material on the Implementation Overview page. If custom/reserve(k), offer live enrollment meeting and how to schedule instructions</inlineHelpText>
+    <label>Read Enrollment Meeting Script</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

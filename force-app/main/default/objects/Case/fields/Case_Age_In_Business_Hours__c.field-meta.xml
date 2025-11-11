@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Age_In_Business_Hours__c</fullName>
+    <description>Total Hours a case was worked by our support teams.   Time spent in &quot;Closed&quot; Statuses is excluded in instances where clients/teams reopen cases at a later date</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total Hours a case was worked by our support teams.   Time spent in &quot;Closed&quot; Statuses is excluded in instances where clients/teams reopen cases at a later date</inlineHelpText>
+    <label>Hours to Resolve Case</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

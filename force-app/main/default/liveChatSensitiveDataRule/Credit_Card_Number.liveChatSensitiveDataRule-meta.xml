@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatSensitiveDataRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionType>Replace</actionType>
+    <description>Blocks Credit Card #</description>
+    <enforceOn>7</enforceOn>
+    <isEnabled>true</isEnabled>
+    <pattern>(l, @&quot;\d{16}|\d{4}[- ]\d{4}[- ]\d{4}[- ]\d{4}&quot;)
+(l, @&quot;\d{16}&quot;)
+\b\d{4}[ -]?\d{4}[ -]?\d{4}[ -]?\d{4}\b
+\b\d{4}(| |-)\d{4}\1\d{4}\1\d{4}\b</pattern>
+    <priority xsi:nil="true"/>
+    <processingType xsi:nil="true"/>
+    <replacement>Credit Card Numbers Cannot Be Communicated</replacement>
+    <version xsi:nil="true"/>
+</LiveChatSensitiveDataRule>

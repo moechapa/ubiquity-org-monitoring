@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X3_38_Asset_Manager__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>(3)38 Asset Manager</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Wilshire</fullName>
+                <default>true</default>
+                <label>Wilshire</label>
+            </value>
+            <value>
+                <fullName>Kaye Capital</fullName>
+                <default>false</default>
+                <label>Kaye Capital</label>
+            </value>
+            <value>
+                <fullName>Morningstar</fullName>
+                <default>false</default>
+                <label>Morningstar</label>
+            </value>
+            <value>
+                <fullName>MML</fullName>
+                <default>false</default>
+                <label>MML</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

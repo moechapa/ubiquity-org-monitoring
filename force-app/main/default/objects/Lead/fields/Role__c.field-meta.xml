@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <label>Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Plan Sponsor</fullName>
+                <default>false</default>
+                <label>Plan Sponsor</label>
+            </value>
+            <value>
+                <fullName>Trustee</fullName>
+                <default>false</default>
+                <label>Trustee</label>
+            </value>
+            <value>
+                <fullName>Plan Sponsor &amp; Trustee</fullName>
+                <default>false</default>
+                <label>Plan Sponsor &amp; Trustee</label>
+            </value>
+            <value>
+                <fullName>Saver</fullName>
+                <default>false</default>
+                <label>Saver</label>
+            </value>
+            <value>
+                <fullName>Saver &amp; Plan Sponsor</fullName>
+                <default>false</default>
+                <label>Saver &amp; Plan Sponsor</label>
+            </value>
+            <value>
+                <fullName>Saver &amp; Trustee</fullName>
+                <default>false</default>
+                <label>Saver &amp; Trustee</label>
+            </value>
+            <value>
+                <fullName>Saver &amp; Plan Sponsor &amp; Trustee</fullName>
+                <default>false</default>
+                <label>Saver &amp; Plan Sponsor &amp; Trustee</label>
+            </value>
+            <value>
+                <fullName>Advisor</fullName>
+                <default>false</default>
+                <label>Advisor</label>
+            </value>
+            <value>
+                <fullName>Plan Sponsor &amp; Advisor</fullName>
+                <default>false</default>
+                <label>Plan Sponsor &amp; Advisor</label>
+            </value>
+            <value>
+                <fullName>Plan Sponsor &amp; Trustee &amp; Advisor</fullName>
+                <default>false</default>
+                <label>Plan Sponsor &amp; Trustee &amp; Advisor</label>
+            </value>
+            <value>
+                <fullName>Trustee &amp; Advisor</fullName>
+                <default>false</default>
+                <label>Trustee &amp; Advisor</label>
+            </value>
+            <value>
+                <fullName>Saver &amp; Advisor</fullName>
+                <default>false</default>
+                <label>Saver &amp; Advisor</label>
+            </value>
+            <value>
+                <fullName>Saver &amp; Plan Sponsor &amp; Advisor</fullName>
+                <default>false</default>
+                <label>Saver &amp; Plan Sponsor &amp; Advisor</label>
+            </value>
+            <value>
+                <fullName>Saver &amp; Plan Sponsor &amp; Trustee &amp; Advisor</fullName>
+                <default>false</default>
+                <label>Saver &amp; Plan Sponsor &amp; Trustee &amp; Advisor</label>
+            </value>
+            <value>
+                <fullName>Saver &amp; Trustee &amp; Advisor</fullName>
+                <default>false</default>
+                <label>Saver &amp; Trustee &amp; Advisor</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Operational</fullName>
+                <default>false</default>
+                <label>Operational</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+                <label>Third Party</label>
+            </value>
+            <value>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+                <label>Inactive</label>
+            </value>
+            <value>
+                <fullName>Wholesaler</fullName>
+                <default>false</default>
+                <label>Wholesaler</label>
+            </value>
+            <value>
+                <fullName>TPA - Operational Support</fullName>
+                <default>false</default>
+                <label>TPA - Operational Support</label>
+            </value>
+            <value>
+                <fullName>TPA - Onboarding</fullName>
+                <default>false</default>
+                <label>TPA - Onboarding</label>
+            </value>
+            <value>
+                <fullName>TPA - Sales</fullName>
+                <default>false</default>
+                <label>TPA - Sales</label>
+            </value>
+            <value>
+                <fullName>Internal Payroll Contact</fullName>
+                <default>false</default>
+                <label>Internal Payroll Contact</label>
+            </value>
+            <value>
+                <fullName>External Payroll Contact</fullName>
+                <default>false</default>
+                <label>External Payroll Contact</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

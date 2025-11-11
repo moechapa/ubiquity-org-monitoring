@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Immediate</fullName>
+        <default>false</default>
+        <label>Immediate</label>
+    </customValue>
+    <customValue>
+        <fullName>Monthly</fullName>
+        <default>false</default>
+        <label>Monthly</label>
+    </customValue>
+    <customValue>
+        <fullName>Quarterly</fullName>
+        <default>false</default>
+        <label>Quarterly</label>
+    </customValue>
+    <customValue>
+        <fullName>Semi-Annually</fullName>
+        <default>false</default>
+        <label>Semi-Annually</label>
+    </customValue>
+    <customValue>
+        <fullName>Annually</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Annually</label>
+    </customValue>
+    <description>Once Participants meet service eligibility, how frequently can they enter the plan.</description>
+    <masterLabel>Plan Entry Frequency</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

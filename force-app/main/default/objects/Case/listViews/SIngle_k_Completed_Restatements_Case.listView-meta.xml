@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SIngle_k_Completed_Restatements_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Single(k) Completed Restatements</label>
+    <queue>SIngle_k_Completed_Restatements</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

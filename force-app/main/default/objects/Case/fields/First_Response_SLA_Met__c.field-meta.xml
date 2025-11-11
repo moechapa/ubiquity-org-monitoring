@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Response_SLA_Met__c</fullName>
+    <formula>((( First_Response__c -  Goal_FR_DT_Stamp__c ) &lt;= 0
+
+&amp;&amp;
+
+NOT(ISNULL(First_Response__c)))
+
+||
+
+ISNULL(Goal_FR_DT_Stamp__c))
+
+&amp;&amp;
+
+ Custom_SLA_Active__c = true</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>First Response SLA Met</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

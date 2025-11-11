@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Plan_Sponsor__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Is the Contact the Primary Plan Sponsor?</description>
+    <inlineHelpText>Is the Contact the Primary Plan Sponsor?</inlineHelpText>
+    <label>Primary Plan Sponsor</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

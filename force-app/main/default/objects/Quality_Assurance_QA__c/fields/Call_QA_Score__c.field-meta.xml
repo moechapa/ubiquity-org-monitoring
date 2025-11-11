@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_QA_Score__c</fullName>
+    <formula>IF( Customer_Mistreat_Auto_Fail__c = TRUE, 0, 
+
+IF(DATEVALUE( CreatedDate) &gt;  DATE(2023,08,25) ,
+
+IF( OR(ISPICKVAL(Client_Greeting__c, &quot;Yes&quot;),ISPICKVAL(Client_Greeting__c, &quot;N/A&quot;)),0.05,0)+
+IF( OR(ISPICKVAL( Customer_Authentication__c , &quot;Yes&quot;),ISPICKVAL(Customer_Authentication__c, &quot;N/A&quot;)),0.1,0)+
+IF( OR(ISPICKVAL( Language__c , &quot;Yes&quot;),ISPICKVAL(Language__c, &quot;N/A&quot;)),0.05,0)+
+IF( OR(ISPICKVAL( Jargon__c , &quot;Yes&quot;),ISPICKVAL(Jargon__c, &quot;N/A&quot;)),0.05,0)+
+IF( OR(ISPICKVAL( Value_Added__c , &quot;Yes&quot;),ISPICKVAL(Value_Added__c, &quot;N/A&quot;)),0.05,0)+
+IF( OR(ISPICKVAL( Correct_Answer__c , &quot;Yes&quot;),ISPICKVAL(Correct_Answer__c, &quot;N/A&quot;)),0.1,0)+
+IF( OR(ISPICKVAL( Questioning_Skills__c , &quot;Yes&quot;),ISPICKVAL(Questioning_Skills__c, &quot;N/A&quot;)),0.1,0)+
+IF( OR(ISPICKVAL( Provided_Accurate_Guidance__c , &quot;Yes&quot;),ISPICKVAL(Provided_Accurate_Guidance__c, &quot;N/A&quot;)),0.1,0)+
+IF( OR(ISPICKVAL( Successful_Send_Off__c , &quot;Yes&quot;),ISPICKVAL(Successful_Send_Off__c, &quot;N/A&quot;)),0.1,0)+
+IF( OR(ISPICKVAL(  Contact_Handling__c  , &quot;Yes&quot;),ISPICKVAL(Contact_Handling__c, &quot;N/A&quot;)),0.1,0)+
+IF( OR(ISPICKVAL(  Asked_for_Review__c  , &quot;Yes&quot;),ISPICKVAL(Asked_for_Review__c, &quot;N/A&quot;)),0.05,0)+
+IF( OR(ISPICKVAL(   Related_Records_Linked__c   , &quot;Yes&quot;),ISPICKVAL(Related_Records_Linked__c, &quot;N/A&quot;)),0.05,0)+
+IF( OR(ISPICKVAL(   Follow_Up_Provided__c   , &quot;Yes&quot;),ISPICKVAL(Follow_Up_Provided__c, &quot;N/A&quot;)),0.05,0)+
+IF( OR(ISPICKVAL(   Comprehensive_Notes_Included__c   , &quot;Yes&quot;),ISPICKVAL(Comprehensive_Notes_Included__c, &quot;N/A&quot;)),0.05,0)
+
+,
+
+
+(Client_Greeting_Score__c  + 
+ Language_Score__c  + 
+ Jargon_Score__c  + 
+ Provided_Accurate_Guidance_Score__c  + 
+ Successful_Send_Off_Score__c  + 
+ Contact_Handling_Score__c  + 
+ Related_Records_Linked_Score__c  + 
+ Comprehensive_Notes_Included_Score__c  + 
+ Follow_Up_Provided_Score__c)/100
+))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Call QA Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

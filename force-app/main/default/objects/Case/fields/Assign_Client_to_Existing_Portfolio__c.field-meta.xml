@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assign_Client_to_Existing_Portfolio__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used by Fin Ops for Fund Change Cases</description>
+    <inlineHelpText>For existing clients, requires a Fund Change Form only to map current funds to new existing portfolio.</inlineHelpText>
+    <label>Assign Client to Existing Portfolio</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

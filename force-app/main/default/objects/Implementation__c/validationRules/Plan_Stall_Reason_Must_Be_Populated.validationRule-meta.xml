@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Stall_Reason_Must_Be_Populated</fullName>
+    <active>true</active>
+    <description>Populate Plan Stall Reason when Plan Stall Date is entered</description>
+    <errorConditionFormula>ISBLANK(Plan_Stall_Date__c) = FALSE
+&amp;&amp;
+ ISPICKVAL(Plan_Stalled_Reason__c, &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Plan_Stalled_Reason__c</errorDisplayField>
+    <errorMessage>Please populate Plan Stalled Reason</errorMessage>
+</ValidationRule>

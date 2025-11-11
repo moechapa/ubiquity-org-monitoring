@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Previous_Service_Option__c</fullName>
+    <label>Previous Service Option</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Saver(k)</fullName>
+                <default>false</default>
+                <label>Saver(k)</label>
+            </value>
+            <value>
+                <fullName>Custom(k)</fullName>
+                <default>false</default>
+                <label>Custom(k)</label>
+            </value>
+            <value>
+                <fullName>Reserve(k)</fullName>
+                <default>false</default>
+                <label>Reserve(k)</label>
+            </value>
+            <value>
+                <fullName>Simply Retirement</fullName>
+                <default>false</default>
+                <label>Simply Retirement</label>
+            </value>
+            <value>
+                <fullName>RK Only</fullName>
+                <default>false</default>
+                <label>RK Only</label>
+            </value>
+            <value>
+                <fullName>Mega Roth Single(k)</fullName>
+                <default>false</default>
+                <label>Mega Roth Single(k)</label>
+            </value>
+            <value>
+                <fullName>Single(k)</fullName>
+                <default>false</default>
+                <label>Single(k)</label>
+            </value>
+            <value>
+                <fullName>Single IRA</fullName>
+                <default>false</default>
+                <label>Single IRA</label>
+            </value>
+            <value>
+                <fullName>Express IRA</fullName>
+                <default>false</default>
+                <label>Express IRA</label>
+            </value>
+            <value>
+                <fullName>New Comp</fullName>
+                <default>false</default>
+                <label>New Comp</label>
+            </value>
+            <value>
+                <fullName>Fund Lineup Change</fullName>
+                <default>false</default>
+                <label>Fund Lineup Change</label>
+            </value>
+            <value>
+                <fullName>Enhanced Payroll Service</fullName>
+                <default>false</default>
+                <label>Enhanced Payroll Service</label>
+            </value>
+            <value>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+                <label>Partner Referral</label>
+            </value>
+            <value>
+                <fullName>Adopting Member</fullName>
+                <default>false</default>
+                <label>Adopting Member</label>
+            </value>
+            <value>
+                <fullName>Plan Provision Changes</fullName>
+                <default>false</default>
+                <label>Plan Provision Changes</label>
+            </value>
+            <value>
+                <fullName>CensiblyYours - Prior 3(38)</fullName>
+                <default>false</default>
+                <label>CensiblyYours - Prior 3(38)</label>
+            </value>
+            <value>
+                <fullName>CensiblyYours - No Prior 3(38)</fullName>
+                <default>false</default>
+                <label>CensiblyYours - No Prior 3(38)</label>
+            </value>
+            <value>
+                <fullName>Edukate</fullName>
+                <default>false</default>
+                <label>Edukate</label>
+            </value>
+            <value>
+                <fullName>Legacy Saver(k)</fullName>
+                <default>false</default>
+                <label>Legacy Saver(k)</label>
+            </value>
+            <value>
+                <fullName>Express(k)</fullName>
+                <default>false</default>
+                <label>Express(k)</label>
+            </value>
+            <value>
+                <fullName>Simply Retirement Bundled</fullName>
+                <default>false</default>
+                <label>Simply Retirement Bundled</label>
+            </value>
+            <value>
+                <fullName>Simply Retirement Unbundled</fullName>
+                <default>false</default>
+                <label>Simply Retirement Unbundled</label>
+            </value>
+            <value>
+                <fullName>Single(k) Plus</fullName>
+                <default>false</default>
+                <label>Single(k) Plus</label>
+            </value>
+            <value>
+                <fullName>Simply Retirement Single(k) Plus</fullName>
+                <default>false</default>
+                <label>Simply Retirement Single(k) Plus</label>
+            </value>
+            <value>
+                <fullName>Single(k) Lite</fullName>
+                <default>false</default>
+                <label>Single(k) Lite</label>
+            </value>
+            <value>
+                <fullName>Simply Retirement (Bundled)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Simply Retirement (Bundled)</label>
+            </value>
+            <value>
+                <fullName>Simply Retirement (Unbundled)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Simply Retirement (Unbundled)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

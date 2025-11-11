@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Simply_TPA_New_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Partner__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Timezone__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Case.Abandoned_Plan_Review,Case.At_Risk_Client</value>
+    </filters>
+    <label>Simply TPA New Cases</label>
+    <queue>Simply_TPA</queue>
+    <sharedTo>
+        <group>Simply_TPA</group>
+    </sharedTo>
+</ListView>

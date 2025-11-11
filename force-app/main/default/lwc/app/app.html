@@ -1,0 +1,39 @@
+<template>
+    <article class="slds-card slds-m-around_none">
+        <div class="slds-card__body">
+            <div class="slds-m-around_medium">
+                <div class="slds-grid slds-grid_vertical-align-center">
+                    <div>
+                        <c-header-with-logo title="360Learning"></c-header-with-logo>
+                    </div>
+                    <div class="slds-col_bump-left">
+                        <template if:true={isLogged}>
+                            <div class="lgc-bg">
+                                <lightning-button-menu
+                                    text="Show menu"
+                                    variant="border-filled"
+                                    menu-alignment="right"
+                                    onselect={onMenuItemClick}
+                                >
+                                    <lightning-menu-item value="goTo360" label="Go to 360Learning"></lightning-menu-item>
+                                    <lightning-menu-item value="logout" label="Log out"></lightning-menu-item>
+                                </lightning-button-menu>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </div>
+            <template if:true={isLogged}>
+                <c-home
+                    opportunity-id={recordId}
+                    token={token}
+                    main-competitors-field={mainCompetitorsField}
+                    tenant-url={tenantUrl}
+                ></c-home>
+            </template>
+            <template if:false={isLogged}>
+                <c-signin tenant-url={tenantUrl}></c-signin>
+            </template>
+        </div>
+    </article>
+</template>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Method_of_First_Contact__c</fullName>
+    <description>Note the method the customer first reached out or was introduced to Ubiquity. This is not Lead Source</description>
+    <inlineHelpText>Note the method the customer first reached out or was introduced to Ubiquity. This is not Lead Source</inlineHelpText>
+    <label>Method of First Contact</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Phone</fullName>
+                <default>false</default>
+                <label>Phone</label>
+            </value>
+            <value>
+                <fullName>Chat</fullName>
+                <default>false</default>
+                <label>Chat</label>
+            </value>
+            <value>
+                <fullName>Form Fill Out</fullName>
+                <default>false</default>
+                <label>Form Fill Out</label>
+            </value>
+            <value>
+                <fullName>Direct Email</fullName>
+                <default>false</default>
+                <label>Direct Email</label>
+            </value>
+            <value>
+                <fullName>Partner Referral</fullName>
+                <default>false</default>
+                <label>Partner Referral</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Referral_Program</fullName>
+                <default>false</default>
+                <label>Referral Program</label>
+            </value>
+            <value>
+                <fullName>Partner Sale</fullName>
+                <default>false</default>
+                <label>Partner Sale</label>
+            </value>
+            <value>
+                <fullName>Calendly</fullName>
+                <default>false</default>
+                <label>Calendly</label>
+            </value>
+            <value>
+                <fullName>Call-Out Campaign</fullName>
+                <default>false</default>
+                <label>Outbound Campaign</label>
+            </value>
+            <value>
+                <fullName>Recommendation Engine</fullName>
+                <default>false</default>
+                <label>Recommendation Engine</label>
+            </value>
+            <value>
+                <fullName>CallRail</fullName>
+                <default>false</default>
+                <label>CallRail</label>
+            </value>
+            <value>
+                <fullName>Sales Efforts</fullName>
+                <default>false</default>
+                <label>Sales Efforts</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

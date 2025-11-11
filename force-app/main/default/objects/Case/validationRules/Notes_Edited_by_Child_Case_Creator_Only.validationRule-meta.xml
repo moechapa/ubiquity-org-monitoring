@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notes_Edited_by_Child_Case_Creator_Only</fullName>
+    <active>true</active>
+    <description>Only Case Creator can Edit the Notes Field on Child Cases</description>
+    <errorConditionFormula>$User.Id &lt;&gt;  CreatedById 
+&amp;&amp;
+NOT(ISBLANK(ParentId))
+&amp;&amp;
+ISCHANGED(Child_Case_Instructions__c)
+&amp;&amp;
+Subject  = &quot;Help Test Case JH&quot;</errorConditionFormula>
+    <errorMessage>&quot;Notes&quot; field on Child Cases are used by team that created the case to confirm what&apos;s needed</errorMessage>
+</ValidationRule>

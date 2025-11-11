@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Late_Deferral_Amount__c</fullName>
+    <description>Total amount of late deferrals for plan year</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total amount of late deferrals for plan year</inlineHelpText>
+    <label>Late Deferral Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

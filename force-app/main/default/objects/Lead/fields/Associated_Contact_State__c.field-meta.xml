@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Associated_Contact_State__c</fullName>
+    <description>Associated Contact State</description>
+    <externalId>false</externalId>
+    <formula>Associated_Contact__r.MailingState</formula>
+    <inlineHelpText>Associated Contact State</inlineHelpText>
+    <label>Associated Contact State</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

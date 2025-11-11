@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_ACH_Fee_Waiver_Expiration__c</fullName>
+    <description>Date the fee waiver for clients not using ACH to fund the plan expires</description>
+    <inlineHelpText>Date the fee waiver for clients not using ACH to fund the plan expires</inlineHelpText>
+    <label>Non-ACH Fee Waiver Expiration</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

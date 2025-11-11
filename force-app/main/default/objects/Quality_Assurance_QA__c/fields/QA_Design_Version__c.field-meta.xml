@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QA_Design_Version__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>QA Design</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>QA_Design_Version__c.isActive__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>QA_Design_Version__c.Department__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Department_Dyn__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>QA_Design_Version__c.QA_Type__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.QA_Type_Dyn__c</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>QA_Design_Version__c</referenceTo>
+    <relationshipLabel>Quality Assurance (QA)</relationshipLabel>
+    <relationshipName>Quality_Assurance_QA</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

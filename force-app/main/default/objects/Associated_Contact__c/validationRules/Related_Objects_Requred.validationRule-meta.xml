@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Objects_Requred</fullName>
+    <active>false</active>
+    <errorConditionFormula>((NOT(ISBLANK( Implementation__c )) &amp;&amp;
+ISBLANK( Opportunity__c )) ||
+(NOT(ISBLANK( Implementation__c )) &amp;&amp;
+ISBLANK( Plan__c ))) &amp;&amp;
+ISNEW()</errorConditionFormula>
+    <errorMessage>Please include all available lifecycle objects (Opportunity, Implementation, Plan) before saving this Associated Contact.</errorMessage>
+</ValidationRule>

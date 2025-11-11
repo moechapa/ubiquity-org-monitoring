@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Is_Plan_Asset_Null</name>
+        <label>Is Plan Asset Null?</label>
+        <locationX>182</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>No</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Plan_Assets__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Plan</targetReference>
+            </connector>
+            <label>No</label>
+        </rules>
+    </decisions>
+    <description>When a Saver Rate record is created, if Plan Assets != NULL, update related Plan&apos;s Plan Asset field.</description>
+    <environments>Default</environments>
+    <interviewLabel>Saver Rate | After Trigger | Update Plan Assets on Plan {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Saver Rate | After Trigger | Update Plan Assets on Plan</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Plan</name>
+        <label>Update Plan</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Plan__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Plan_Assets__c</field>
+            <value>
+                <elementReference>$Record.Plan_Assets__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Plan__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Is_Plan_Asset_Null</targetReference>
+        </connector>
+        <object>Saver_Rate__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

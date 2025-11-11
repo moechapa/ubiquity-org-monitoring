@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Withdrawal_Status__c</fullName>
+    <description>Visitor selected &quot;Check my withdrawal status&quot; during chatbot session</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Visitor selected &quot;Check my withdrawal status&quot; during chatbot session</inlineHelpText>
+    <label>Withdrawal Status</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

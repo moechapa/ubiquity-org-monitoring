@@ -1,0 +1,34 @@
+{
+  "activeBrandingSetId" : "09d29ef5-776b-4480-925b-b5ec1fcdb875",
+  "customCSS" : "",
+  "developerName" : "frame",
+  "id" : "ebd4c6e8-9793-4d7e-8c97-0ee04a28e524",
+  "label" : "Embedded Service for Web (LWR)",
+  "layouts" : {
+    "Inner" : "278785b3-a9df-4974-acdb-f5df118d060b",
+    "ServiceNotAvailable" : "e035aa50-c4bc-4ec4-ba4d-27b5d5580aa7"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "embedded_service_iframe:iframeWrapper",
+    "id" : "278785b3-a9df-4974-acdb-f5df118d060b",
+    "label" : "Frame",
+    "type" : "view"
+  }, {
+    "componentAttributes" : { },
+    "componentName" : "community_layout:simpleThemeLayout",
+    "id" : "e035aa50-c4bc-4ec4-ba4d-27b5d5580aa7",
+    "label" : "Service Not Available Theme Layout",
+    "regions" : [ {
+      "id" : "7c028966-7617-4a61-b66f-16260af73cee",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "d6dcf68f-ab97-4dbe-9e3a-425124a8e86f",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

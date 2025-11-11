@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Overnight_check_detail__c</fullName>
+    <description>Reissue request field</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Verify FedEx, UPS, etc account # details for overnight checks</inlineHelpText>
+    <label>Overnight check detail</label>
+    <length>200</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

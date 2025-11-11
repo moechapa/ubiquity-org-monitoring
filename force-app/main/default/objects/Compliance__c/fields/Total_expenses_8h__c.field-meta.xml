@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_expenses_8h__c</fullName>
+    <description>Total expenses (add 8d, 8e, 8f, 8g)</description>
+    <externalId>false</externalId>
+    <formula>Benefits_paid__c +  Corrective_Distributions_8e__c +  Administrative_service_providers_8f__c +  Other_expenses_8g__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Total expenses (add 8d, 8e, 8f, 8g)</inlineHelpText>
+    <label>Total expenses (8h)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

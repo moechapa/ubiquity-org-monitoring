@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Populate_Roth</fullName>
+    <active>false</active>
+    <description>Insures population of whether plan will include Roth Contributions</description>
+    <errorConditionFormula>(ISPICKVAL( Implementation_Status__c, &quot;Completed&quot;)) 
+&amp;&amp; 
+( ISPICKVAL(   Roth__c  , &quot;&quot;))</errorConditionFormula>
+    <errorDisplayField>Roth__c</errorDisplayField>
+    <errorMessage>Please Populate whether plan will have Roth Contributions</errorMessage>
+</ValidationRule>

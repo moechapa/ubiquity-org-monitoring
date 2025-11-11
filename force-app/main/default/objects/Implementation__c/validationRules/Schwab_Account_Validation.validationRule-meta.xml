@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Schwab_Account_Validation</fullName>
+    <active>true</active>
+    <description>Makes sure appropriate steps are taken to establish Schwab account</description>
+    <errorConditionFormula>(ISPICKVAL( Implementation_Status__c, &quot;Completed&quot;)) 
+&amp;&amp;
+(  ISPICKVAL( Custodian__c , &quot;Schwab &amp; Co., Inc.&quot;))
+&amp;&amp;
+( ISBLANK( Account_Application_Sent_to_Custodian__c ) = TRUE)</errorConditionFormula>
+    <errorDisplayField>Account_Application_Sent_to_Custodian__c</errorDisplayField>
+    <errorMessage>Please Populate Account Application sent to Custodian</errorMessage>
+</ValidationRule>

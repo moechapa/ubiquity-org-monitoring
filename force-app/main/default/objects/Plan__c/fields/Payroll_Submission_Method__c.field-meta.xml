@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payroll_Submission_Method__c</fullName>
+    <description>What method was used to submit the most recent payroll.</description>
+    <inlineHelpText>What method was used to submit the most recent payroll.</inlineHelpText>
+    <label>Payroll Submission Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Admin Upload</fullName>
+                <default>false</default>
+                <label>Admin Upload</label>
+            </value>
+            <value>
+                <fullName>Batch Upload</fullName>
+                <default>false</default>
+                <label>Batch Upload</label>
+            </value>
+            <value>
+                <fullName>Extended</fullName>
+                <default>false</default>
+                <label>Extended</label>
+            </value>
+            <value>
+                <fullName>Finch</fullName>
+                <default>false</default>
+                <label>Finch</label>
+            </value>
+            <value>
+                <fullName>Payroll Integration</fullName>
+                <default>false</default>
+                <label>Payroll Integration</label>
+            </value>
+            <value>
+                <fullName>SFTP</fullName>
+                <default>false</default>
+                <label>SFTP</label>
+            </value>
+            <value>
+                <fullName>Webform</fullName>
+                <default>false</default>
+                <label>Webform</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

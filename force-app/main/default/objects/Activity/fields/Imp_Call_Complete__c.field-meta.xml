@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Imp_Call_Complete__c</fullName>
+    <description>Checks related Implementation to see if the call has been completed.</description>
+    <formula>IF((Implementation__r.Intro_Call_Complete__c = TRUE &amp;&amp;  CONTAINS(Subject, &quot;Introductory&quot;)), TRUE,
+IF((Implementation__r.Census_Call_Complete__c = TRUE &amp;&amp;  CONTAINS(Subject, &quot;Add Your Employees&quot;)), TRUE,
+IF((Implementation__r.Funding_Call_Complete__c = TRUE &amp;&amp;  CONTAINS(Subject, &quot;Final Review and Funding&quot;)), TRUE, FALSE)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checks related Implementation to see if the call has been completed.</inlineHelpText>
+    <label>Imp Call Complete</label>
+    <type>Checkbox</type>
+</CustomField>

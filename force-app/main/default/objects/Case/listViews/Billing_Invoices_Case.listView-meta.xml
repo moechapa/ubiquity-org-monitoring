@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Invoices_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <label>Billing Invoices</label>
+    <language>en_US</language>
+    <queue>Billing_Invoices</queue>
+    <sharedTo>
+        <group>BI_Team</group>
+        <role>Finance</role>
+        <role>Finance_Manager</role>
+    </sharedTo>
+</ListView>

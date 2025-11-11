@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Option__c</fullName>
+    <label>Service Option</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Simply Retirement Bundled</fullName>
+                <default>false</default>
+                <label>Simply Retirement Bundled</label>
+            </value>
+            <value>
+                <fullName>Legacy Saver(k), Saver(k), Express(k), Custom(k), Reserve(k)</fullName>
+                <default>false</default>
+                <label>Legacy Saver(k), Saver(k), Express(k), Custom(k), Reserve(k)</label>
+            </value>
+            <value>
+                <fullName>Single(k)</fullName>
+                <default>false</default>
+                <label>Single(k)</label>
+            </value>
+            <value>
+                <fullName>Legacy Saver(k), Saver(k), Express(k), Custom(k), Reserve(k), Single(k), Single(k) Lite</fullName>
+                <default>false</default>
+                <label>Legacy Saver(k), Saver(k), Express(k), Custom(k), Reserve(k), Single(k), Single(k) Lite</label>
+            </value>
+            <value>
+                <fullName>Single(k) Plus</fullName>
+                <default>false</default>
+                <label>Single(k) Plus</label>
+            </value>
+            <value>
+                <fullName>RK Only, Legacy Saver(k), Saver(k), Express(k), Custom(k), Reserve(k)</fullName>
+                <default>false</default>
+                <label>RK Only, Legacy Saver(k), Saver(k), Express(k), Custom(k), Reserve(k)</label>
+            </value>
+            <value>
+                <fullName>Simply Retirement Unbundled</fullName>
+                <default>false</default>
+                <label>Simply Retirement Unbundled</label>
+            </value>
+            <value>
+                <fullName>RK Only, Legacy Saver(k), Saver(k), Express(k), Custom(k), Reserve(k), Simply Retirement Bundled, Simply Retirement Unbundled, Simply Retirement</fullName>
+                <default>false</default>
+                <label>RK Only, Legacy Saver(k), Saver(k), Express(k), Custom(k), Reserve(k), Simply Retirement Bundled, Simply Retirement Unbundled, Simply Retirement</label>
+            </value>
+            <value>
+                <fullName>Starter, Partner, Builder, Franchise</fullName>
+                <default>false</default>
+                <label>Starter, Partner, Builder, Franchise</label>
+            </value>
+            <value>
+                <fullName>Enhanced Payroll Service</fullName>
+                <default>false</default>
+                <label>Enhanced Payroll Service</label>
+            </value>
+            <value>
+                <fullName>Direct Integration</fullName>
+                <default>false</default>
+                <label>Direct Integration</label>
+            </value>
+            <value>
+                <fullName>RK Only, Legacy Saver(k), Saver(k), Express(k), Custom(k), Reserve(k), Simply Retirement Bundled, Simply Retirement Unbundled, Simply Retirement, Starter, Partner, Builder, Franchise</fullName>
+                <default>false</default>
+                <label>RK Only, Legacy Saver(k), Saver(k), Express(k), Custom(k), Reserve(k), Simply Retirement Bundled, Simply Retirement Unbundled, Simply Retirement, Starter, Partner, Builder, Franchise</label>
+            </value>
+            <value>
+                <fullName>Simply Retirement Bundled, Simply Retirement Unbundled, Simply Retirement, Starter, Partner, Builder, Franchise</fullName>
+                <default>false</default>
+                <label>Simply Retirement Bundled, Simply Retirement Unbundled, Simply Retirement, Starter, Partner, Builder, Franchise</label>
+            </value>
+            <value>
+                <fullName>Simply Retirement Unbundled, Simply Retirement Bundled</fullName>
+                <default>false</default>
+                <label>Simply Retirement Unbundled, Simply Retirement Bundled</label>
+            </value>
+            <value>
+                <fullName>RK Only, Legacy Saver(k), Saver(k), Express(k), Custom(k), Reserve(k), Single(k) Plus</fullName>
+                <default>false</default>
+                <label>RK Only, Legacy Saver(k), Saver(k), Express(k), Custom(k), Reserve(k), Single(k) Plus</label>
+            </value>
+            <value>
+                <fullName>RK Only, Legacy Saver(k), Saver(k), Express(k), Custom(k), Reserve(k), Single(k) Plus, Custom(k) MML</fullName>
+                <default>false</default>
+                <label>RK Only, Legacy Saver(k), Saver(k), Express(k), Custom(k), Reserve(k), Single(k) Plus, Custom(k) MML</label>
+            </value>
+            <value>
+                <fullName>RK Only, Legacy Saver(k), Saver(k), Express(k), Custom(k), Reserve(k), Single(k) Plus, Custom(k) MML, Partner, Starter, Franchise, Builder</fullName>
+                <default>false</default>
+                <label>RK Only, Legacy Saver(k), Saver(k), Express(k), Custom(k), Reserve(k), Single(k) Plus, Custom(k) MML, Partner, Starter, Franchise, Builder</label>
+            </value>
+            <value>
+                <fullName>Custom(k)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Custom(k)</label>
+            </value>
+            <value>
+                <fullName>Saver(k)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Saver(k)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

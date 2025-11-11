@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prompt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Plan Notes</masterLabel>
+    <promptVersions>
+        <body>All Plan pages now have a &quot;Plan Notes&quot; section next to &quot;Details&quot;.   Use this to indicate specific situations/notes that any team should see when working with a plan.</body>
+        <customApplication>standard__LightningService</customApplication>
+        <delayDays>1</delayDays>
+        <description>Updates team on Plan Notes tab on Plan object</description>
+        <dismissButtonLabel>Got it!</dismissButtonLabel>
+        <displayPosition>TopLeft</displayPosition>
+        <displayType>FloatingPanel</displayType>
+        <endDate>2020-04-21</endDate>
+        <isPublished>false</isPublished>
+        <masterLabel>Plan Notes</masterLabel>
+        <publishedDate>2020-03-24</publishedDate>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>true</shouldIgnoreGlobalDelay>
+        <startDate>2020-03-24</startDate>
+        <targetPageKey1>Plan__c</targetPageKey1>
+        <targetPageKey2>view</targetPageKey2>
+        <targetPageType>standard__recordPage</targetPageType>
+        <timesToDisplay>1</timesToDisplay>
+        <title>Plan Notes</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+</Prompt>

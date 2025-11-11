@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partnership_Type__c</fullName>
+    <description>What type of partnership is this relationship?</description>
+    <inlineHelpText>What type of partnership is this relationship?</inlineHelpText>
+    <label>Partnership Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BPO</fullName>
+                <default>false</default>
+                <label>BPO</label>
+            </value>
+            <value>
+                <fullName>BPO + White Label</fullName>
+                <default>false</default>
+                <label>BPO + White Label</label>
+            </value>
+            <value>
+                <fullName>Full White Label</fullName>
+                <default>false</default>
+                <label>Full White Label</label>
+            </value>
+            <value>
+                <fullName>Direct Referral</fullName>
+                <default>false</default>
+                <label>Direct Referral</label>
+            </value>
+            <value>
+                <fullName>Integrated Partnership Referral</fullName>
+                <default>false</default>
+                <label>Integrated Partnership Referral</label>
+            </value>
+            <value>
+                <fullName>Marketplace Referral</fullName>
+                <default>false</default>
+                <label>Marketplace Referral</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

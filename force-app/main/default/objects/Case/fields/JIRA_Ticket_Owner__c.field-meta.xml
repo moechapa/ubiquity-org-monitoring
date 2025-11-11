@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JIRA_Ticket_Owner__c</fullName>
+    <description>Ticket Owner in JIRA</description>
+    <inlineHelpText>Ticket Owner in JIRA</inlineHelpText>
+    <label>JIRA Ticket Owner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Amber Fording</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Amber Fording</label>
+            </value>
+            <value>
+                <fullName>Anne-Marie De Martini</fullName>
+                <default>false</default>
+                <label>Anne-Marie De Martini</label>
+            </value>
+            <value>
+                <fullName>Brandon Check</fullName>
+                <default>false</default>
+                <label>Brandon Check</label>
+            </value>
+            <value>
+                <fullName>Christopher D&apos;Ambrosio</fullName>
+                <default>false</default>
+                <label>Christopher D&apos;Ambrosio</label>
+            </value>
+            <value>
+                <fullName>Darrell Jernigan</fullName>
+                <default>false</default>
+                <label>Darrell Jernigan</label>
+            </value>
+            <value>
+                <fullName>Harrison Vo</fullName>
+                <default>false</default>
+                <label>Harrison Vo</label>
+            </value>
+            <value>
+                <fullName>Katie Reilly</fullName>
+                <default>false</default>
+                <label>Katie Reilly</label>
+            </value>
+            <value>
+                <fullName>Ken Simons</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ken Simons</label>
+            </value>
+            <value>
+                <fullName>Reesha Rajen</fullName>
+                <default>false</default>
+                <label>Reesha Rajen</label>
+            </value>
+            <value>
+                <fullName>Sue Cascio</fullName>
+                <default>false</default>
+                <label>Sue Cascio</label>
+            </value>
+            <value>
+                <fullName>Vicky Gutierrez</fullName>
+                <default>false</default>
+                <label>Vicky Gutierrez</label>
+            </value>
+            <value>
+                <fullName>Victor Rose</fullName>
+                <default>false</default>
+                <label>Victor Rose</label>
+            </value>
+            <value>
+                <fullName>Will Grigoratos</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Will Grigoratos</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Add_to_Collection</name>
+        <label>Add to Collection</label>
+        <locationX>699</locationX>
+        <locationY>896</locationY>
+        <assignmentItems>
+            <assignToReference>oppProductCollection</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>oppProduct</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_401k_Product</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Add_to_Collection_0</name>
+        <label>Add to Collection</label>
+        <locationX>696</locationX>
+        <locationY>1066</locationY>
+        <assignmentItems>
+            <assignToReference>oppProductCollection</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>newOppProduct</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Opp</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>New_Service_Option_Product</name>
+        <label>New Service Option Product</label>
+        <locationX>571</locationX>
+        <locationY>1059</locationY>
+        <assignmentItems>
+            <assignToReference>newOppProduct.OpportunityId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Opp.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>newOppProduct.Product2Id</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_401k_Product.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>newOppProduct.Description</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>New Service Option</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_to_Collection_0</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Previous_Service_Option_Product</name>
+        <label>Previous Service Option Product</label>
+        <locationX>571</locationX>
+        <locationY>889</locationY>
+        <assignmentItems>
+            <assignToReference>oppProduct.Product2Id</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Previous_401k_Product.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>oppProduct.OpportunityId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Opp.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>oppProduct.Discount__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>prevDiscount</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>oppProduct.Description</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Previous Service Option</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_to_Collection</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Do_Existing_Products_Exist</name>
+        <label>Do Existing Products Exist?</label>
+        <locationX>266</locationX>
+        <locationY>351</locationY>
+        <defaultConnector>
+            <targetReference>Get_Opp</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>existingProducts</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Delete_Existing_Products</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <description>Changed &quot;Service Option&quot; in get elements to account for Simply products</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>EmployeesNew</name>
+        <dataType>String</dataType>
+        <expression>IF(ISPICKVAL({!Get_Opp.Service_Option__c},&quot;Simply Retirement Unbundled&quot;), &quot;1+&quot;,
+IF(ISPICKVAL({!Get_Opp.Service_Option__c},&quot;Simply Retirement Bundled&quot;), &quot;1+&quot;,
+IF({!Get_Opp.Number_of_Employees__c} &lt;= 15, &quot;2-15&quot;,
+IF({!Get_Opp.Number_of_Employees__c} &lt;= 30, &quot;16-30&quot;,
+IF({!Get_Opp.Number_of_Employees__c} &lt;= 50, &quot;31-50&quot;,
+IF({!Get_Opp.Number_of_Employees__c} &lt;= 75, &quot;51-75&quot;,
+IF({!Get_Opp.Number_of_Employees__c} &lt;= 100, &quot;76-100&quot;,
+&quot;101+&quot;)))))))</expression>
+    </formulas>
+    <formulas>
+        <name>EmployeesOld</name>
+        <dataType>String</dataType>
+        <expression>IF(ISPICKVAL({!Get_Opp.Previous_Service_Option__c},&quot;Simply Retirement Unbundled&quot;), &quot;1+&quot;,
+IF(ISPICKVAL({!Get_Opp.Previous_Service_Option__c},&quot;Simply Retirement Bundled&quot;), &quot;1+&quot;,
+IF({!Get_Opp.Number_of_Employees__c} &lt;= 15, &quot;2-15&quot;,
+IF({!Get_Opp.Number_of_Employees__c} &lt;= 30, &quot;16-30&quot;,
+IF({!Get_Opp.Number_of_Employees__c} &lt;= 50, &quot;31-50&quot;,
+IF({!Get_Opp.Number_of_Employees__c} &lt;= 75, &quot;51-75&quot;,
+IF({!Get_Opp.Number_of_Employees__c} &lt;= 100, &quot;76-100&quot;,
+&quot;101+&quot;)))))))</expression>
+    </formulas>
+    <formulas>
+        <name>FormattedPreviousServiceOption</name>
+        <dataType>String</dataType>
+        <expression>IF(TEXT({!Get_Opp.Previous_Service_Option__c})=&quot;Simply Retirement Unbundled&quot;, &quot;Simply TPA&quot;,
+IF(TEXT({!Get_Opp.Previous_Service_Option__c})=&quot;Simply Retirement Bundled&quot;, &quot;Simply |&quot;,
+TEXT({!Get_Opp.Previous_Service_Option__c})
+))</expression>
+    </formulas>
+    <formulas>
+        <name>FormattedServiceOption</name>
+        <dataType>String</dataType>
+        <expression>IF(TEXT({!Get_Opp.Service_Option__c})=&quot;Simply Retirement Unbundled&quot;, &quot;Simply TPA&quot;,
+IF(TEXT({!Get_Opp.Service_Option__c})=&quot;Simply Retirement Bundled&quot;, &quot;Simply |&quot;,
+TEXT({!Get_Opp.Service_Option__c})
+))</expression>
+    </formulas>
+    <formulas>
+        <name>NewComp</name>
+        <dataType>String</dataType>
+        <expression>&quot;New Comp&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>prevDiscount</name>
+        <dataType>Number</dataType>
+        <expression>{!Get_Price_Book_Entry.UnitPrice} * 2</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>Opportunity | Process | Create Upgrade Products {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity | Process | Create Upgrade Products</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_Opportunity_Products</name>
+        <label>Create Opportunity Products</label>
+        <locationX>269</locationX>
+        <locationY>1320</locationY>
+        <inputReference>oppProductCollection</inputReference>
+    </recordCreates>
+    <recordDeletes>
+        <name>Delete_Existing_Products</name>
+        <label>Delete Existing Products</label>
+        <locationX>50</locationX>
+        <locationY>506</locationY>
+        <connector>
+            <targetReference>Get_Opp</targetReference>
+        </connector>
+        <inputReference>existingProducts</inputReference>
+    </recordDeletes>
+    <recordLookups>
+        <name>Get_401k_Product</name>
+        <label>Get 401(k) Product</label>
+        <locationX>270</locationX>
+        <locationY>965</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Price_Book_Entry_0</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>Contains</operator>
+            <value>
+                <elementReference>FormattedServiceOption</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Name</field>
+            <operator>Contains</operator>
+            <value>
+                <elementReference>EmployeesNew</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Family</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>401(k)</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Product2</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Existing_Products</name>
+        <label>Get Existing Products</label>
+        <locationX>276</locationX>
+        <locationY>194</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Do_Existing_Products_Exist</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>OpportunityId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Description</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>Service Option</stringValue>
+            </value>
+        </filters>
+        <object>OpportunityLineItem</object>
+        <outputReference>existingProducts</outputReference>
+        <queriedFields>Id</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Opp</name>
+        <label>Get Opp</label>
+        <locationX>270</locationX>
+        <locationY>648</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Previous_401k_Product</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Opportunity</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Previous_401k_Product</name>
+        <label>Get Previous 401(k) Product</label>
+        <locationX>270</locationX>
+        <locationY>823</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Price_Book_Entry</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>Contains</operator>
+            <value>
+                <elementReference>FormattedPreviousServiceOption</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Name</field>
+            <operator>Contains</operator>
+            <value>
+                <elementReference>EmployeesOld</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Family</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>401(k)</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Product2</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Price_Book_Entry</name>
+        <label>Get Price Book Entry</label>
+        <locationX>430</locationX>
+        <locationY>889</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Previous_Service_Option_Product</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Pricebook2Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>01s1G000001tb0hQAA</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Product2Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Previous_401k_Product.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>PricebookEntry</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Price_Book_Entry_0</name>
+        <label>Get Price Book Entry</label>
+        <locationX>429</locationX>
+        <locationY>1059</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>New_Service_Option_Product</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Pricebook2Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>01s1G000001tb0hQAA</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Product2Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_401k_Product.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>PricebookEntry</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Opp</name>
+        <label>Update Opp</label>
+        <locationX>270</locationX>
+        <locationY>1175</locationY>
+        <connector>
+            <targetReference>Create_Opportunity_Products</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Pricebook2Id</field>
+            <value>
+                <stringValue>01s1G000001tb0hQAA</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <start>
+        <locationX>150</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Get_Existing_Products</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>existingProducts</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>OpportunityLineItem</objectType>
+    </variables>
+    <variables>
+        <name>newOppProduct</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>OpportunityLineItem</objectType>
+    </variables>
+    <variables>
+        <name>oppProduct</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>OpportunityLineItem</objectType>
+    </variables>
+    <variables>
+        <name>oppProductCollection</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>OpportunityLineItem</objectType>
+    </variables>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

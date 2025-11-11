@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_Update__c</fullName>
+    <description>This field can be used to track any major changes or updates for a lead that has been referred to us by a partner sales rep.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field can be used to track updates for a referral lead from a partner sales rep. This field will be available in the applicable reports for partner updates. This field must be manually updated in the specific task in order for data to be up-to-date.</inlineHelpText>
+    <label>Referral Update</label>
+    <length>150</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

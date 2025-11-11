@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unsubscribe_mobile_number__c</fullName>
+    <description>Question Created by the Survey Builder</description>
+    <inlineHelpText>Enter the mobile number you would like to unsubscribe from Ubiquity text messages</inlineHelpText>
+    <label>Unsubscribe mobile number</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Phone</type>
+</CustomField>

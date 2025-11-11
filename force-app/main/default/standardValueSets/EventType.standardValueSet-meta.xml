@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Demo</fullName>
+        <default>false</default>
+        <label>Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Appointment</fullName>
+        <default>true</default>
+        <label>Appointment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OPD</fullName>
+        <default>false</default>
+        <label>OPD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Plan Sponsor Tour</fullName>
+        <default>false</default>
+        <label>Plan Sponsor Tour</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webcast</fullName>
+        <default>false</default>
+        <label>Webcast</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Conference/Seminar</fullName>
+        <default>false</default>
+        <label>Conference/Seminar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Networking event</fullName>
+        <default>false</default>
+        <label>Networking event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Enrollment Meeting</fullName>
+        <default>false</default>
+        <label>Enrollment Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PTO</fullName>
+        <default>false</default>
+        <label>PTO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>UDay</fullName>
+        <default>false</default>
+        <label>UDay</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bereavement</fullName>
+        <default>false</default>
+        <label>Bereavement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Volunteer</fullName>
+        <default>false</default>
+        <label>Volunteer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Jury Duty</fullName>
+        <default>false</default>
+        <label>Jury Duty</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sabbatical</fullName>
+        <default>false</default>
+        <label>Sabbatical</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Leave</fullName>
+        <default>false</default>
+        <label>Leave</label>
+    </standardValue>
+</StandardValueSet>

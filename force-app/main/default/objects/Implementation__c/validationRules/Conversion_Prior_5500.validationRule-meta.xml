@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conversion_Prior_5500</fullName>
+    <active>false</active>
+    <description>Prior year 5500 must be received/reconciled/noted as N/A before completing Implementation</description>
+    <errorConditionFormula>(ISPICKVAL(  Implementation_Status__c , &quot;Completed&quot;)) 
+&amp;&amp;
+(Implementation_Completion_Date__c &gt; DATE(2019,9,18))
+&amp;&amp;
+(ISPICKVAL( Plan_Type__c , &quot;Conversion Plan&quot;)) 
+&amp;&amp;
+(ISPICKVAL( Prior_Year_5500_Required__c , &quot;Yes&quot;))
+&amp;&amp;
+((ISBLANK( Prior_Year_5500_Reconciliation_Completed__c ) = TRUE )
+||
+(ISBLANK( Prior_Year_5500_Received__c ) = TRUE ))</errorConditionFormula>
+    <errorMessage>Enter dates for &quot;5500 Reconciliation Completed&quot; and &quot;Prior Year 5500 Received&quot;.   If N/A, enter 01/01/1900.</errorMessage>
+</ValidationRule>

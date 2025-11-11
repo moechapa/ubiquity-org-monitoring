@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>A4S_Approval_Rejected</fullName>
+        <description>A4S Approval Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/A4S_Approval_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>A4S_Approved</fullName>
+        <description>A4S Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ubiquity_Sales/Billing_Approved_A4S</template>
+    </alerts>
+    <alerts>
+        <fullName>Accounting_CensiblyYours_Sale</fullName>
+        <description>Accounting | CensiblyYours Sale</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>afording@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>aprakash@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>billing@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Workflow_Templates/Alert_Billing_Team_on_CensiblyYours</template>
+    </alerts>
+    <alerts>
+        <fullName>Accounting_Fund_List_Sale</fullName>
+        <description>Accounting | Fund List Sale</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>aprakash@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>billing@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Fund_List_Change_Billing_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Accounting_New_Comp_Sale</fullName>
+        <description>Accounting | New Comp Sale</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>aprakash@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>billing@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/New_Comp_Billing_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Additional_Financial_Professionals_Found</fullName>
+        <description>Additional Financial Professionals Found</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Imps_Simply_Bundled/Additional_Financial_Advisors_Present</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_Implementations_When_a_New_Plan_is_Assigned</fullName>
+        <ccEmails>newplan@myubiquity.com</ccEmails>
+        <description>Alert Implementations When a New Plan is Assigned</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>Imps_New_Plan/Account_Transfer_New_Plans</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_Partnerships_to_New_Payroll_Provider_Sale</fullName>
+        <description>Alert Partnerships to New Payroll Provider Sale</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>afording@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>llacore@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>smoody@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Workflow_Templates/New_Opp_with_Payroll_Provider_Closed</template>
+    </alerts>
+    <alerts>
+        <fullName>Amount_Altered_After_Opportunity_is_Closed</fullName>
+        <description>Amount Altered After Opportunity is Closed</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>billing@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ubiquity_Sales/Alert_Billing_Team_when_opp_total_is_altered</template>
+    </alerts>
+    <alerts>
+        <fullName>Ancillary_Billing_Flat_Fee_Docusign_Complete</fullName>
+        <description>Ancillary Billing Flat Fee Docusign Complete</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/AncillBill_FlatFee_Docusign_Complete</template>
+    </alerts>
+    <alerts>
+        <fullName>Ancillary_Billing_Hourly_Fee_Docusign_Complete</fullName>
+        <description>Ancillary Billing Hourly Fee Docusign Complete</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/AncillBill_HourlyFee_Docusign_Complete</template>
+    </alerts>
+    <alerts>
+        <fullName>Approved_A4S</fullName>
+        <description>Approved A4S was received, tell Opp Owner they can close their Opp</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>drekasis@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ubiquity_Sales/Approved_A4S</template>
+    </alerts>
+    <alerts>
+        <fullName>Client_with_partner_inquires_about_leaving</fullName>
+        <ccEmails>partnershipsupport@theonline401k.com</ccEmails>
+        <description>Client with partner inquires about leaving</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>DeconversionandTerminations/Client_with_Partner_Inquiry_Rec_d_internal</template>
+    </alerts>
+    <alerts>
+        <fullName>Close_Date_Notification</fullName>
+        <description>Close Date Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Open</template>
+    </alerts>
+    <alerts>
+        <fullName>Document_Pre_Approval_Completed</fullName>
+        <description>Document Pre-Approval Completed</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Document_Pre_Approval_Completed</template>
+    </alerts>
+    <alerts>
+        <fullName>Document_Pre_Approval_Rejected</fullName>
+        <description>Document Pre-Approval Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Document_Pre_Approval_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Document_Pre_Approval_Requested</fullName>
+        <description>Document Pre-Approval Requested</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Implementations</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Document_Pre_Approval_Requested</template>
+    </alerts>
+    <alerts>
+        <fullName>EIN_Missing_from_Closed_Won_Opportunity</fullName>
+        <description>EIN Missing from Closed Won Opportunity</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>billing@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ubiquity_Accounting/EIN_Missing</template>
+    </alerts>
+    <alerts>
+        <fullName>I_Paid_Not_Closed</fullName>
+        <ccEmails>partnershipsupport@theonline401k.com</ccEmails>
+        <description>(I) Paid, Not Closed</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>AutomaticEmails/I_Paid_Not_Closed</template>
+    </alerts>
+    <alerts>
+        <fullName>Insperity_Set_Up_Complete</fullName>
+        <ccEmails>ademartini@theonline401k.com</ccEmails>
+        <description>Insperity Set Up Complete</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>NewPlanSetUp/Insperity_Set_Up_Complete</template>
+    </alerts>
+    <alerts>
+        <fullName>Liquidation_Date_alert_internal</fullName>
+        <ccEmails>adminsupport@theonline401k.com</ccEmails>
+        <ccEmails>singlek@theonline401k.com</ccEmails>
+        <description>E-mail is sent to Accounting and CRG to confirm that a Single(k) client is terminated</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>Singlek/Liquidation_Date_alert_internal</template>
+    </alerts>
+    <alerts>
+        <fullName>OneDigital_Sale_Internal_Alert</fullName>
+        <ccEmails>ademartini@myubiquity.com</ccEmails>
+        <description>OneDigital Sale Internal Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ccampbell@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>unfiled$public/Simply_OneDigital_Plan_Sold_Internal</template>
+    </alerts>
+    <alerts>
+        <fullName>Opportunity_Close_Date_Notification</fullName>
+        <description>Opportunity Close Date Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>retirementplans@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Open</template>
+    </alerts>
+    <alerts>
+        <fullName>Opportunity_Marked_Closed_Lost</fullName>
+        <description>Opportunity Marked Closed Lost</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>afording@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mvarga@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>retirementplans@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Opportunity_Closed_Out</template>
+    </alerts>
+    <alerts>
+        <fullName>Opportunity_Needs_Split</fullName>
+        <ccEmails>jgross@myubiquity.com</ccEmails>
+        <ccEmails>rforsythe@myubiquity.com</ccEmails>
+        <description>Opportunity Needs Split</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Opportunity_Needs_Split</template>
+    </alerts>
+    <alerts>
+        <fullName>Opportunity_Still_Open</fullName>
+        <description>Opportunity Still Open</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>mbissett@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ubiquity_Sales/Opportunity_Still_Open</template>
+    </alerts>
+    <alerts>
+        <fullName>Paycor_Plan_Purchase_Confirmation</fullName>
+        <ccEmails>alliances@paycor.com</ccEmails>
+        <description>Paycor Plan Purchase Confirmation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Referrer_s_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <recipient>mbissett@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mcohen@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>paycor@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Paycor_Client_Emails/Paycor_Purchase_Confirmation</template>
+    </alerts>
+    <alerts>
+        <fullName>Plan_Stalled_RPC_Notification</fullName>
+        <description>Plan Stalled RPC Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>mvarga@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Imps_New_Plan/Plan_Stalled_Sales_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Please_Send_Upgrade_LOI</fullName>
+        <description>Please Send Upgrade LOI</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mbissett@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ubiquity_Sales/Upgrade_LOI_To_Be_Sent</template>
+    </alerts>
+    <alerts>
+        <fullName>Product_Change_Opp_Closed</fullName>
+        <description>Product Change Opp Closed</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>billing@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ubiquity_Sales/Product_Change_Sale_Closed</template>
+    </alerts>
+    <alerts>
+        <fullName>Promotion_Sale_Notification</fullName>
+        <description>Promotion Sale Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>billing@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Accounting/Promotion_Sale_Notice</template>
+    </alerts>
+    <alerts>
+        <fullName>Sale_Rejected</fullName>
+        <description>Sale Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ubiquity_Sales/Sale_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Sales_CBIZ_Referral_Partner_Sale</fullName>
+        <description>Sales | CBIZ/Referral Partner Sale</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>aprakash@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>billing@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Workflow_Templates/Alert_Billing_Team_on_CBIZ</template>
+    </alerts>
+    <alerts>
+        <fullName>Sallus_Plan_Advisor_Needs_Change</fullName>
+        <ccEmails>partnershipsupport@myubiquity.com</ccEmails>
+        <ccEmails>ademartini@myubiquity.com</ccEmails>
+        <ccEmails>newplan@myubiquity.com</ccEmails>
+        <description>Sallus Plan Advisor Needs Change</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>cerickson@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>unfiled$public/Sallus_Plan_Advisor_Change_Required</template>
+    </alerts>
+    <alerts>
+        <fullName>Sallus_Plan_Sold_Internal</fullName>
+        <description>Sallus Plan Sold - Internal</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>ccampbell@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>cerickson@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sbulat@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>unfiled$public/Sallus_Plan_Sold_Internal</template>
+    </alerts>
+    <alerts>
+        <fullName>Sent_A4S</fullName>
+        <description>Sent A4S Alert Sender</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>drekasis@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ubiquity_Sales/Sent_A4S</template>
+    </alerts>
+    <alerts>
+        <fullName>Simply_Conversion_Plan_Sold_External</fullName>
+        <ccEmails>britt.wells@interactiveshift.com, dlrissrreviewgroup@exchange.principal.com</ccEmails>
+        <description>Simply Conversion Plan Sold - External</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ccampbell@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Imps_Simply_Bundled/Simply_Plan_Sold_External</template>
+    </alerts>
+    <alerts>
+        <fullName>Simply_Conversion_Plan_Sold_Internal</fullName>
+        <description>Simply Conversion Plan Sold - Internal</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>bminogue@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>ccampbell@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>kbenewith@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mbissett@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sbulat@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>unfiled$public/Simply_Conversion_Plan_Sold_Internal</template>
+    </alerts>
+    <alerts>
+        <fullName>Simply_Plan_Sold_External</fullName>
+        <ccEmails>britt.wells@interactiveshift.com, dlrissrreviewgroup@exchange.principal.com, sonner.todd@principal.com, Peters.Meghann@principal.com</ccEmails>
+        <description>Simply Plan Sold - External</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ccampbell@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Imps_Simply_Bundled/Simply_Plan_Sold_External</template>
+    </alerts>
+    <alerts>
+        <fullName>Simply_Plan_Sold_Internal</fullName>
+        <description>Simply Plan Sold - Internal</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>bminogue@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>ccampbell@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>kbenewith@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mbissett@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sbulat@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>Imps_Simply_Bundled/Simply_Plan_Sold_Internal</template>
+    </alerts>
+    <alerts>
+        <fullName>Ubiquity_Advisor_Plan_Sold</fullName>
+        <ccEmails>partnershipsupport@myubiquity.com</ccEmails>
+        <description>Ubiquity Advisor Plan Sold</description>
+        <protected>false</protected>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/An_Advisor_Plan_Has_Been_Sold</template>
+    </alerts>
+    <alerts>
+        <fullName>Upgrade_Approval</fullName>
+        <description>Upgrade Approval</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>compliance@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Upgrade_Approval</template>
+    </alerts>
+    <alerts>
+        <fullName>Upgrade_Downgrade_Approved</fullName>
+        <description>Upgrade/Downgrade Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>compliance@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mbissett@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ubiquity_Sales/Upgrade_Downgrade_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Upgrade_Downgrade_Rejected</fullName>
+        <description>Upgrade/Downgrade Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mbissett@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ubiquity_Sales/Upgrade_Downgrade_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Upgrade_Sold</fullName>
+        <description>Upgrade Sold</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>billing@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ubiquity_Sales/Upgrade_Sold</template>
+    </alerts>
+    <alerts>
+        <fullName>Upgrade_Upgrade_Created</fullName>
+        <description>New Upgrade Created</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Upgrade_Created</template>
+    </alerts>
+    <alerts>
+        <fullName>Upgrade_from_Single_k_Lite_Sold</fullName>
+        <description>Upgrade from Single(k) Lite Sold</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>billing@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Single_k_Lite_to_Single_k_Sold</template>
+    </alerts>
+    <alerts>
+        <fullName>Upgrade_from_Single_k_Lite_Sold_Awaiting_Signed_A4S</fullName>
+        <description>Upgrade from Single(k) Lite Sold_Awaiting Signed A4S</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>pfarmer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Single_k_Lite_to_Single_k_Sold_Awaiting_Signed_A4S</template>
+    </alerts>
+    <alerts>
+        <fullName>Upgrade_from_Single_k_to_Full_Service_Sold</fullName>
+        <description>Upgrade from Single(k) to Full Service Sold</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>pfarmer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Single_k_to_Full_Service_Sold</template>
+    </alerts>
+    <alerts>
+        <fullName>Zenefits_Auto_Purchase</fullName>
+        <ccEmails>zenefits@myubiquity.com</ccEmails>
+        <description>Zenefits Auto Purchase Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>eheisman@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Zenefits_Auto_Purchase_Notification</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>A4S_Approved</fullName>
+        <field>Agreement_for_Services_A4S__c</field>
+        <literalValue>1</literalValue>
+        <name>A4S Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Ancillary_Billing_Name_Update</fullName>
+        <description>Update Ancillary Billing Name field on creation</description>
+        <field>Name</field>
+        <formula>Plan__r.Name + &quot; &quot; + &quot;Ancillary Bill&quot;</formula>
+        <name>Ancillary Billing Name Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_Account_Type_to_Customer</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>x401kPlan</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Change Account Type to Customer</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>AccountId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_to_401_k_Customer</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Default</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Change to 401(k) Customer</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>AccountId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Close_Date_at_Lead_Conversion</fullName>
+        <field>CloseDate</field>
+        <formula>Datevalue(CreatedDate) + 90</formula>
+        <name>Close Date at Lead Conversion</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Close_Opportunity</fullName>
+        <field>StageName</field>
+        <literalValue>Closed Won</literalValue>
+        <name>Close Opportunity</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Close_Out_Plan</fullName>
+        <field>Closed_Lost_Reason__c</field>
+        <literalValue>Proposal sent then dropped off</literalValue>
+        <name>Close Out Plan</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DefaultStagefromLeadDoNotCallCustom</fullName>
+        <description>Updates standard Opportunity field Stage to (I) Proposal w/No Contact Option</description>
+        <field>StageName</field>
+        <literalValue>(I) Proposal w/ No Contact Option</literalValue>
+        <name>DefaultStagefromLeadDoNotCallCustom</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Document_Pre_Approval_Completed</fullName>
+        <field>Document_Pre_Approval_Completed__c</field>
+        <literalValue>1</literalValue>
+        <name>Document Pre-Approval Completed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Intuit_Attempting_Initial_Contact</fullName>
+        <description>This is the default stage for Intuit and Costco Plans</description>
+        <field>StageName</field>
+        <literalValue>(I) Attempting Initial Contact</literalValue>
+        <name>Intuit_Attempting_Initial_Contact</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Rollback_Stage</fullName>
+        <field>StageName</field>
+        <literalValue>Pending Signature</literalValue>
+        <name>Rollback Stage</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_1st_Bill_Date</fullName>
+        <field>x1stbilldate__c</field>
+        <formula>IF(MONTH(CloseDate) &lt; 12, 
+DATE(YEAR(CloseDate),MONTH(CloseDate) + 1,01), 
+DATE(YEAR(CloseDate) + 1,MONTH(CloseDate) - 11,01))</formula>
+        <name>Set 1st Bill Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>AccountId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Approval_Status</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Submitted</literalValue>
+        <name>Update Approval Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Approval_Status_Approved</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Update Approval Status Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Approval_Status_Data_Validated</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Data Validated</literalValue>
+        <name>Update Approval Status Data Validated</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Approval_Status_Recalled</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Recalled</literalValue>
+        <name>Update Approval Status Recalled</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Approval_Status_Rejected</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Update Approval Status Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Close_Date</fullName>
+        <field>CloseDate</field>
+        <formula>Today()</formula>
+        <name>Update Close Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Close_Lost_Date</fullName>
+        <field>CloseDate</field>
+        <formula>TODAY()</formula>
+        <name>Update Close Lost Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Closed_Lost_Reason</fullName>
+        <description>Update Closed Lost Reason to Proposal Sent then Dropped Off</description>
+        <field>Closed_Lost_Reason__c</field>
+        <literalValue>Proposal sent then dropped off</literalValue>
+        <name>Update Closed Lost Reason</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_LS</fullName>
+        <description>Update to Benefit broker</description>
+        <field>LeadSource</field>
+        <literalValue>Benefit Broker</literalValue>
+        <name>Update LS</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_LSD</fullName>
+        <description>Update to Zenefits</description>
+        <field>LeadSourceDetail__c</field>
+        <literalValue>Zenefits</literalValue>
+        <name>Update LSD</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_MOFC</fullName>
+        <description>Update to Partner Sale</description>
+        <field>Method_of_First_Contact__c</field>
+        <literalValue>Partner Sale</literalValue>
+        <name>Update MOFC</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Owner</fullName>
+        <field>OwnerId</field>
+        <lookupValue>hclaxton@theonline401k.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Update Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Payroll_Provider_to_JW</fullName>
+        <field>Payroll_Provider__c</field>
+        <literalValue>Justworks</literalValue>
+        <name>Update Payroll Provider to JW</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>AccountId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Report_Amount</fullName>
+        <description>Update Report Amount to to full plan price</description>
+        <field>Report_Am__c</field>
+        <formula>IF( Account.NumberOfEmployees&lt;= 50, 1755,
+ IF(Account.NumberOfEmployees &lt;=100, 2295,
+ IF(Account.NumberOfEmployees &gt; 100, 3420,null
+)
+)
+)</formula>
+        <name>Update Report Amount</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Service_Option</fullName>
+        <field>Service_Option__c</field>
+        <literalValue>Single(k)</literalValue>
+        <name>Update Service Option</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Stage</fullName>
+        <field>StageName</field>
+        <literalValue>Compliance Approved</literalValue>
+        <name>Update Stage</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Stage_to_Closed_Lost</fullName>
+        <description>Update Stage to Closed Lost</description>
+        <field>StageName</field>
+        <literalValue>Closed Lost</literalValue>
+        <name>Update Stage to Closed Lost</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Type</fullName>
+        <description>Update to New Plan</description>
+        <field>Type</field>
+        <literalValue>New Plan</literalValue>
+        <name>Update Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>AncillBillFlatFee</fullName>
+        <actions>
+            <name>Ancillary_Billing_Flat_Fee_Docusign_Complete</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Ancillary Billing Flat Fee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Docusign Complete</value>
+        </criteriaItems>
+        <description>Email Notification when Flat Fee Ancillary Billing Docusign is complete</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>AncillBillHourlyFee</fullName>
+        <actions>
+            <name>Ancillary_Billing_Hourly_Fee_Docusign_Complete</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Ancillary Billing Hourly Estimate</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Docusign Complete</value>
+        </criteriaItems>
+        <description>Email Notification when Hourly Fee Ancillary Billing Docusign is complete</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Billing Approved A4S</fullName>
+        <actions>
+            <name>A4S_Approved</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.Agreement_for_Services_A4S__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Product_Type__c</field>
+            <operation>equals</operation>
+            <value>401(k),Single(k)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>401(k),Single(k)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.User_ID__c</field>
+            <operation>notEqual</operation>
+            <value>0051G0000069ZB1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Business_Unit__c</field>
+            <operation>notEqual</operation>
+            <value>Simply Retirement</value>
+        </criteriaItems>
+        <description>Billing to approve the new A4S</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity - Email - Close Date within 5 days</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.CloseDate</field>
+            <operation>greaterThan</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.OwnerId</field>
+            <operation>equals</operation>
+            <value>Ronnie Belza,Jason Gross,Robby Forsythe,Brian Albiar</value>
+        </criteriaItems>
+        <description>Notifies Opportunity Owner when Close Date is within 5 days if Opportunity is still open</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Close_Date_Notification</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Opportunity.CloseDate</offsetFromField>
+            <timeLength>-5</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Opportunity - Email - New Plan Sale</fullName>
+        <actions>
+            <name>Alert_Implementations_When_a_New_Plan_is_Assigned</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.OwnerId</field>
+            <operation>contains</operation>
+            <value>new</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Service_Option__c</field>
+            <operation>equals</operation>
+            <value>Express(k),Custom(k),RK Only</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Plan_Type__c</field>
+            <operation>equals</operation>
+            <value>New Plan</value>
+        </criteriaItems>
+        <description>Alert to Implementations when a new plan sale closes and the Opportunity is transferred</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity - Email - Singlek Termination</fullName>
+        <actions>
+            <name>Liquidation_Date_alert_internal</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.Type</field>
+            <operation>equals</operation>
+            <value>Single(k)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Liquidation_date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>When a single(k) client terminate or TOK terminates a client due to unpaid invoices send out the necessary e-mail to account to shut the billing down.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity - Set LS%2C LDS%2C MOFC for Zen Auto Sale</fullName>
+        <actions>
+            <name>Update_LS</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_LSD</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_MOFC</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.Campaign_Code__c</field>
+            <operation>equals</operation>
+            <value>zenefitsautopurchase</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Method_of_First_Contact__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Sets LS (Lead Source), LSD (Lead Source Detail) and MOFC ( Method of First Contact) to Benefit Broker, Zenefits and Partner Sale</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity - Task - Plan Stalled</fullName>
+        <actions>
+            <name>Plan_Stalled_in_Buy_Process_Reach_Out</name>
+            <type>Task</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1</booleanFilter>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Stalled Buy Process</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity - Update - Bill Date %3D 1st or 15th</fullName>
+        <actions>
+            <name>Set_1st_Bill_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Closed Won</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Type</field>
+            <operation>notEqual</operation>
+            <value>Upgrade</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.x1stbilldate__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Will set the First Bill Date to the next 1st or 15th of the Month</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity - Update - Close Date Default</fullName>
+        <actions>
+            <name>Close_Date_at_Lead_Conversion</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Created_from_Lead__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Sets Close Date to &quot;Today + 90&quot; when Lead is converted to Opportunity</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity - Update - Closed Lost Day check</fullName>
+        <actions>
+            <name>Update_Close_Lost_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Closed Lost</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.CloseDate</field>
+            <operation>greaterThan</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <description>Make&apos;s sure Closed Lost Date is not greater than today</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity - Update - Owner %3D SingleK</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Campaign_Code__c</field>
+            <operation>contains</operation>
+            <value>Starter(k),Saver(k),Saver(k) EE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>contains</operation>
+            <value>(I) Closed Won,Closed Won</value>
+        </criteriaItems>
+        <description>Make Singlek the opportunity owner when a Starter(k) or Saver(k) plan is sold.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity - Update - PayProvider %3D Justworks</fullName>
+        <actions>
+            <name>Update_Payroll_Provider_to_JW</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.LeadSourceDetail__c</field>
+            <operation>equals</operation>
+            <value>Justworks</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Payroll_Provider__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Update Payroll Provider to Justworks</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity - Update - Service Option - SingleK</fullName>
+        <actions>
+            <name>Update_Service_Option</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Product_Type__c</field>
+            <operation>equals</operation>
+            <value>Single(k)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Service_Option__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>If Single(k) Service option is left blank populate it</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity - Update - Stage %3D No Contact Option</fullName>
+        <actions>
+            <name>DefaultStagefromLeadDoNotCallCustom</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.DefaultStagefromLeadDoNotCallCustom__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Set Stage to default to (I) Proposal with No Contact Option if DefaultStagefromLeadDoNotCallCustom field is checked on opportunity.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <tasks>
+        <fullName>Follow_Up_w_Lost_Opportunity</fullName>
+        <assignedToType>owner</assignedToType>
+        <dueDateOffset>30</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Follow Up w/ Lost Opportunity</subject>
+    </tasks>
+    <tasks>
+        <fullName>Plan_Stalled_in_Buy_Process_Reach_Out</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>This plan has stalled in the buy process. Please reach out a help them to complete the purchase.</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Plan Stalled in Buy Process - Reach Out</subject>
+    </tasks>
+</Workflow>

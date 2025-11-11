@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Response_Score_Exceeds_Value</fullName>
+    <active>true</active>
+    <description>A response&apos;s score cannot exceed the question&apos;s value</description>
+    <errorConditionFormula>Response_1_Score__c/100 &gt; Score_Value__c ||
+Response_2_Score__c/100 &gt; Score_Value__c ||
+Response_3_Score__c/100 &gt; Score_Value__c ||
+Response_4_Score__c/100 &gt; Score_Value__c</errorConditionFormula>
+    <errorMessage>A response&apos;s score cannot exceed the question&apos;s value</errorMessage>
+</ValidationRule>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Safe_Harbor_Formula__c</fullName>
+    <description>Safe Harbor formula for plan year</description>
+    <inlineHelpText>Safe Harbor formula for plan year</inlineHelpText>
+    <label>Safe Harbor Formula</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SafeHarbor 3.5% Enhanced Match</fullName>
+                <default>false</default>
+                <label>SafeHarbor 3.5% Enhanced Match</label>
+            </value>
+            <value>
+                <fullName>SafeHarbor 4% Enhanced Match</fullName>
+                <default>false</default>
+                <label>SafeHarbor 4% Enhanced Match</label>
+            </value>
+            <value>
+                <fullName>SafeHarbor 3% Non-Elective</fullName>
+                <default>false</default>
+                <label>SafeHarbor 3% Non-Elective</label>
+            </value>
+            <value>
+                <fullName>SafeHarbor 4% Non-Elective</fullName>
+                <default>false</default>
+                <label>SafeHarbor 4% Non-Elective</label>
+            </value>
+            <value>
+                <fullName>SafeHarbor 5% Enhanced Match</fullName>
+                <default>false</default>
+                <label>SafeHarbor 5% Enhanced Match</label>
+            </value>
+            <value>
+                <fullName>SafeHarbor 6% Enhanced Match</fullName>
+                <default>false</default>
+                <label>SafeHarbor 6% Enhanced Match</label>
+            </value>
+            <value>
+                <fullName>SafeHarbor Basic Match</fullName>
+                <default>false</default>
+                <label>SafeHarbor Basic Match</label>
+            </value>
+            <value>
+                <fullName>SafeHarbor QACA Basic Match</fullName>
+                <default>false</default>
+                <label>SafeHarbor QACA Basic Match</label>
+            </value>
+            <value>
+                <fullName>SafeHarbor QACA 100% up to 1% - 50% up to 6%</fullName>
+                <default>false</default>
+                <label>SafeHarbor QACA 100% up to 1% - 50% up to 6%</label>
+            </value>
+            <value>
+                <fullName>SafeHarbor QACA 3% Non-Elective</fullName>
+                <default>false</default>
+                <label>SafeHarbor QACA 3% Non-Elective</label>
+            </value>
+            <value>
+                <fullName>SafeHarbor QACA 3.5% Enhanced Match</fullName>
+                <default>false</default>
+                <label>SafeHarbor QACA 3.5% Enhanced Match</label>
+            </value>
+            <value>
+                <fullName>SafeHarbor QACA 4% Match</fullName>
+                <default>false</default>
+                <label>SafeHarbor QACA 4% Match</label>
+            </value>
+            <value>
+                <fullName>SafeHarbor QACA 5% Match</fullName>
+                <default>false</default>
+                <label>SafeHarbor QACA 5% Match</label>
+            </value>
+            <value>
+                <fullName>SafeHarbor QACA 6% Match</fullName>
+                <default>false</default>
+                <label>SafeHarbor QACA 6% Match</label>
+            </value>
+            <value>
+                <fullName>SafeHarbor 3% - 7% Enhanced</fullName>
+                <default>false</default>
+                <label>SafeHarbor 3% - 7% Enhanced</label>
+            </value>
+            <value>
+                <fullName>SafeHarbor 4% Enhanced</fullName>
+                <default>false</default>
+                <label>SafeHarbor 4% Enhanced</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Paradigm_Plan_ID__c</fullName>
+    <description>Enter Paradigm Plan ID to auto fill Paradigm Plan URL link on both Implementation and Plan</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter Paradigm Plan ID to auto fill Paradigm Plan URL link on both Implementation and Plan</inlineHelpText>
+    <label>Paradigm Plan ID</label>
+    <length>6</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

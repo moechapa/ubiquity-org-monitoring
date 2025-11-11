@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>File_Submission_Method__c</fullName>
+    <description>How will Ubiquity receive files?</description>
+    <inlineHelpText>How will Ubiquity receive files?</inlineHelpText>
+    <label>File Submission Method</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Secure Plan Sponsor Transfer</fullName>
+                <default>false</default>
+                <label>Secure Plan Sponsor Transfer</label>
+            </value>
+            <value>
+                <fullName>Manual Retrieval</fullName>
+                <default>false</default>
+                <label>Manual Retrieval</label>
+            </value>
+            <value>
+                <fullName>Third Party Data Entry</fullName>
+                <default>false</default>
+                <label>Third Party Data Entry</label>
+            </value>
+            <value>
+                <fullName>Screen Scrape</fullName>
+                <default>false</default>
+                <label>Screen Scrape</label>
+            </value>
+            <value>
+                <fullName>Third Party Integrator</fullName>
+                <default>false</default>
+                <label>Third Party Integrator</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

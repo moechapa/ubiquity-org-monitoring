@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BI_PI_Request</fullName>
+    <active>true</active>
+    <description>Requests made for Business Intelligence or Product Innovation</description>
+    <label>BI/PI Request</label>
+    <picklistValues>
+        <picklist>Co_Branding__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Development_Needed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>External_Compliance_Approval_Needed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Internal_Compliance__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Marketing_Channels__c</picklist>
+        <values>
+            <fullName>Desk drops</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Downloadable PDFs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Communication Channels</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landing page %2F microsite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Videos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinars</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Status__c</picklist>
+        <values>
+            <fullName>Active Referrer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Current Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Identified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Passive Referrer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Past Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Contract</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Project_Payment__c</picklist>
+        <values>
+            <fullName>Combined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ubiquity</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Request_Type__c</picklist>
+        <values>
+            <fullName>Custom Prospect Presentation Material</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Product%2FPricing Creation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Report%2FDashboard Creation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Workflow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Customization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training Materials External</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training Materials Internal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>More Detail Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reviewed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Target_Audience__c</picklist>
+        <values>
+            <fullName>Advisors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Agents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Sales Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wholesalers</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

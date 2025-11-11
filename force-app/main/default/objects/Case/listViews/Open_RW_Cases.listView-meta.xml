@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_RW_Cases</fullName>
+    <columns>Case_Owner_Name__c</columns>
+    <columns>Team_Member__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Plan__c</columns>
+    <columns>NAME</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.LAST_UPDATE</columns>
+    <columns>Follow_Up_Date__c</columns>
+    <columns>Case_notes_new__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>dist,oper,RW</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Awaiting Development Team Fix</value>
+    </filters>
+    <label>Open RW Cases</label>
+    <sharedTo>
+        <role>Call_Center</role>
+        <role>Director_of_Compliance</role>
+        <role>Distributions</role>
+        <role>FinOps_Distributions_Manager</role>
+        <role>Operations</role>
+    </sharedTo>
+</ListView>

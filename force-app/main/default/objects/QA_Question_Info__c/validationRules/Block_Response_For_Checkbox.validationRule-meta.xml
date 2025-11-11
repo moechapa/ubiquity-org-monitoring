@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Block_Response_For_Checkbox</fullName>
+    <active>true</active>
+    <description>If the question info&apos;s type is checkbox, it shouldn&apos;t have any responses.  Wouldn&apos;t break anything, this is just to avoid confusion.</description>
+    <errorConditionFormula>ISPICKVAL(Type__c, &quot;Checkbox&quot;) &amp;&amp; NOT(
+ISBLANK(Response_1__c) &amp;&amp;
+ISBLANK(Response_2__c) &amp;&amp;
+ISBLANK(Response_3__c) &amp;&amp;
+ISBLANK(Response_4__c) &amp;&amp;
+ISBLANK(Response_1_Score__c) &amp;&amp;
+ISBLANK(Response_2_Score__c) &amp;&amp;
+ISBLANK(Response_3_Score__c) &amp;&amp;
+ISBLANK(Response_4_Score__c)
+)</errorConditionFormula>
+    <errorDisplayField>Type__c</errorDisplayField>
+    <errorMessage>The type &quot;Checkbox&quot; should not have any responses!  Please change type to &quot;Standard&quot; or remove responses</errorMessage>
+</ValidationRule>

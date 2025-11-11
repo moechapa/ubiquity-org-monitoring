@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROI_Touched_Case__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates that someone in ROI / the call center owned the case at some point.</description>
+    <inlineHelpText>ROI owned the case at some point</inlineHelpText>
+    <label>ROI Touched Case</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Survey_Type__c</fullName>
+    <description>This describes the type of survey completed</description>
+    <inlineHelpText>This describes the type of survey completed</inlineHelpText>
+    <label>Survey Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Address Update</fullName>
+                <default>false</default>
+                <label>Address Update</label>
+            </value>
+            <value>
+                <fullName>Advisor</fullName>
+                <default>false</default>
+                <label>Advisor</label>
+            </value>
+            <value>
+                <fullName>Case Resolution CSAT</fullName>
+                <default>false</default>
+                <label>Case Resolution CSAT</label>
+            </value>
+            <value>
+                <fullName>Chat</fullName>
+                <default>false</default>
+                <label>Chat</label>
+            </value>
+            <value>
+                <fullName>Enrollment</fullName>
+                <default>false</default>
+                <label>Enrollment</label>
+            </value>
+            <value>
+                <fullName>Force Out $1k</fullName>
+                <default>false</default>
+                <label>Force Out $1k</label>
+            </value>
+            <value>
+                <fullName>Force Out $5k</fullName>
+                <default>false</default>
+                <label>Force Out $5k</label>
+            </value>
+            <value>
+                <fullName>Implementation Complete</fullName>
+                <default>false</default>
+                <label>Implementation Complete</label>
+            </value>
+            <value>
+                <fullName>Late Payroll</fullName>
+                <default>false</default>
+                <label>Late Payroll</label>
+            </value>
+            <value>
+                <fullName>Payroll 2018</fullName>
+                <default>false</default>
+                <label>Payroll 2018</label>
+            </value>
+            <value>
+                <fullName>Saver</fullName>
+                <default>false</default>
+                <label>Saver</label>
+            </value>
+            <value>
+                <fullName>SingleK</fullName>
+                <default>false</default>
+                <label>SingleK</label>
+            </value>
+            <value>
+                <fullName>Sponsor</fullName>
+                <default>false</default>
+                <label>Sponsor</label>
+            </value>
+            <value>
+                <fullName>Verbal CSAT</fullName>
+                <default>false</default>
+                <label>Verbal CSAT</label>
+            </value>
+            <value>
+                <fullName>Verbal CSAT w/ Payroll</fullName>
+                <default>false</default>
+                <label>Verbal CSAT w/ Payroll</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

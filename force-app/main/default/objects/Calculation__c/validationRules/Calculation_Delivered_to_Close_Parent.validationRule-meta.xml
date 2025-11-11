@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calculation_Delivered_to_Close_Parent</fullName>
+    <active>true</active>
+    <description>Calculation must be in &apos;Delivered&apos; status in order for the Parent Case it&apos;s tied to to be closed</description>
+    <errorConditionFormula>NOT(ISPICKVAL( Status__c , &quot;Delivered&quot;))
+&amp;&amp;
+NOT(ISPICKVAL(PRIORVALUE( Status__c) , &quot;Delivered&quot;))
+&amp;&amp;
+ISPICKVAL( Case__r.Status , &quot;Resolved&quot;)</errorConditionFormula>
+    <errorMessage>This case cannot be resolved until the Calculation Object is set to &apos;Delivered&apos; by Compliance</errorMessage>
+</ValidationRule>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>62.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Assign_Force_Out_1k_Survey_Type</name>
+        <label>Assign Force Out 1k Survey Type</label>
+        <locationX>314</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Survey_Type__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Force Out $1k</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Does_NPS_need_copy</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Force_Out_5k_Survey_Type</name>
+        <label>Assign Force Out 5k Survey Type</label>
+        <locationX>578</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Survey_Type__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Force Out $5k</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Does_NPS_need_copy</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Case_Resolution_Survey_Type</name>
+        <label>Set Case Resolution Survey Type</label>
+        <locationX>50</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Survey_Type__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Case Resolution CSAT</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Does_NPS_need_copy</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>set_nps_picklist_value</name>
+        <label>set nps picklist value</label>
+        <locationX>314</locationX>
+        <locationY>695</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.NPS__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>npsNumberToText</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <description>Translates record type -&gt; survey type</description>
+        <name>Check_Survey_Type</name>
+        <label>Check Survey Type</label>
+        <locationX>446</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>Does_NPS_need_copy</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Case_Resolution_CSAT</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>CSAT_NPS</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>CSAT</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Five_Question_Case_CSAT</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Case_Resolution_Survey_Type</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Case Resolution CSAT</label>
+        </rules>
+        <rules>
+            <name>Force_Out_1k</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Force_Out_Distribution_1K</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Force_Out_1k_Survey_Type</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Force Out 1k</label>
+        </rules>
+        <rules>
+            <name>Force_Out_5k</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Force_Out_Distribution_5K</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Force_Out_5k_Survey_Type</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Force Out 5k</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>NPS Score copied to NPS field</description>
+        <name>Does_NPS_need_copy</name>
+        <label>Does NPS need copy</label>
+        <locationX>446</locationX>
+        <locationY>587</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Needs_nps_sync</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.NPS__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>npsNumberToText</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>set_nps_picklist_value</targetReference>
+            </connector>
+            <label>Needs nps sync</label>
+        </rules>
+    </decisions>
+    <description>Performs updates / checks that can&apos;t be filtered w/ entry criteria
+
+- Sets survey type
+- Sets nps field</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>npsNumberToText</name>
+        <dataType>String</dataType>
+        <expression>TEXT({!$Record.NPS_Score__c})</expression>
+    </formulas>
+    <interviewLabel>Survey | Before Save | Master {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Survey | Before Save | Master Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>320</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_Survey_Type</targetReference>
+        </connector>
+        <object>simplesurvey__Survey__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

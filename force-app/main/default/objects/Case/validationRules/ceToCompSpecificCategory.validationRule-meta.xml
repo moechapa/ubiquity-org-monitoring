@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ceToCompSpecificCategory</fullName>
+    <active>true</active>
+    <description>Transfers from CE to Compliance are only allowed for specific categories.</description>
+    <errorConditionFormula>ISPICKVAL( $User.Team__c , &apos;Client Support&apos; ) &amp;&amp;
+Owner:Queue.DeveloperName = &apos;Compliance&apos; &amp;&amp;
+ISCHANGED( OwnerId ) &amp;&amp;
+NOT(ISPICKVAL(Category__c, &apos;New Comp&apos;)) &amp;&amp;
+NOT(ISPICKVAL(Category__c, &apos;5500&apos;)) &amp;&amp;
+NOT(ISPICKVAL(Category__c, &apos;Plan Compliance&apos;)) &amp;&amp;
+NOT(ISPICKVAL(Category__c, &apos;Plan Update&apos;)) &amp;&amp;
+NOT(ISPICKVAL(Category__c, &apos;&apos;))</errorConditionFormula>
+    <errorDisplayField>Category__c</errorDisplayField>
+    <errorMessage>Only the following categories can be transferred to Compliance: New Comp, 5500, Plan Compliance, Plan Update</errorMessage>
+</ValidationRule>

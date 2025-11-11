@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>qualifiers@myubiquity.com</email>
+    <name>SDR Team</name>
+    <queueMembers>
+        <users>
+            <user>afording@myubiquity.com</user>
+            <user>dsagini@myubiquity.com</user>
+            <user>rscanzillo@theonline401k.com</user>
+            <user>rdeguzman@myubiquity.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Setup_Tutorial_Complete__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Client has completed the Plan Setup tutorial video.</description>
+    <inlineHelpText>Client has completed the Plan Setup tutorial video.</inlineHelpText>
+    <label>Plan Setup Tutorial Complete</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

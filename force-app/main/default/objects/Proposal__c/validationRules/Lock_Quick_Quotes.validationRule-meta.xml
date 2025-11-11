@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_Quick_Quotes</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(PRIORVALUE( Stage_Flag__c ),&quot;Quick Quote&quot;)
+&amp;&amp;
+ RecordTypeId = &quot;0121G000000RlheQAC&quot;
+&amp;&amp;
+(ISCHANGED(Stage_Flag__c)
+||
+ISCHANGED(Status__c))</errorConditionFormula>
+    <errorMessage>Quick quotes cannot have their stage flag or status changed</errorMessage>
+</ValidationRule>

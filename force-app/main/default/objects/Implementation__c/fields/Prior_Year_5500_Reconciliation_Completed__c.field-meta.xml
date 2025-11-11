@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prior_Year_5500_Reconciliation_Completed__c</fullName>
+    <description>Date 5500 Reconciliation is completed for Conversion Plans.</description>
+    <inlineHelpText>Date 5500 Reconciliation is completed for Conversion Plans.</inlineHelpText>
+    <label>Prior Year 5500 Reconciliation Completed</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ubiquity_Leader__c</fullName>
+    <description>Your Ubiquity leader</description>
+    <inlineHelpText>Your Ubiquity leader</inlineHelpText>
+    <label>Ubiquity Leader</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Andrew MacQueen</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Andrew MacQueen</label>
+            </value>
+            <value>
+                <fullName>Andrew Meadows</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Andrew Meadows</label>
+            </value>
+            <value>
+                <fullName>Anthony Ginn</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Anthony Ginn</label>
+            </value>
+            <value>
+                <fullName>Ashvin Prakash</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ashvin Prakash</label>
+            </value>
+            <value>
+                <fullName>Bill Minogue</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bill Minogue</label>
+            </value>
+            <value>
+                <fullName>Boris Chen</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Boris Chen</label>
+            </value>
+            <value>
+                <fullName>Callie Farnsworth</fullName>
+                <default>false</default>
+                <label>Callie Farnsworth</label>
+            </value>
+            <value>
+                <fullName>Gina Armstrong-Smith</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Gina Armstrong-Smith</label>
+            </value>
+            <value>
+                <fullName>Hunter Claxton</fullName>
+                <default>false</default>
+                <label>Hunter Claxton</label>
+            </value>
+            <value>
+                <fullName>Joe Chan</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Joe Chan</label>
+            </value>
+            <value>
+                <fullName>John Farmakis</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>John Farmakis</label>
+            </value>
+            <value>
+                <fullName>Josh Shioshita</fullName>
+                <default>false</default>
+                <label>Josh Shioshita</label>
+            </value>
+            <value>
+                <fullName>Ken Simons</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ken Simons</label>
+            </value>
+            <value>
+                <fullName>Linnae LaCore</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Linnae LaCore</label>
+            </value>
+            <value>
+                <fullName>Lisa Tennyson</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lisa Tennyson</label>
+            </value>
+            <value>
+                <fullName>Mary Torgerson</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mary Torgerson</label>
+            </value>
+            <value>
+                <fullName>Melissa Chery</fullName>
+                <default>false</default>
+                <label>Melissa Chery</label>
+            </value>
+            <value>
+                <fullName>Michael Bissett</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Michael Bissett</label>
+            </value>
+            <value>
+                <fullName>Mo El-Emari</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mo El-Emari</label>
+            </value>
+            <value>
+                <fullName>Nasrin Mazooji</fullName>
+                <default>false</default>
+                <label>Nasrin Mazooji</label>
+            </value>
+            <value>
+                <fullName>Neil Shifman</fullName>
+                <default>false</default>
+                <label>Neil Shifman</label>
+            </value>
+            <value>
+                <fullName>Peggy Otter</fullName>
+                <default>false</default>
+                <label>Peggy Otter</label>
+            </value>
+            <value>
+                <fullName>Tim Cowart</fullName>
+                <default>false</default>
+                <label>Tim Cowart</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

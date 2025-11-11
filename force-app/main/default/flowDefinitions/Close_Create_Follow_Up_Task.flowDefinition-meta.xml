@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>5</activeVersionNumber>
+    <description>Closes current task, and clones details when creating a follow-up</description>
+    <masterLabel>Task | Button | Close &amp; Create Follow-Up Task</masterLabel>
+</FlowDefinition>

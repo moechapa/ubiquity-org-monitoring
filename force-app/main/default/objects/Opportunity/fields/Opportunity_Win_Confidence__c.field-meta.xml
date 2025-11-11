@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Win_Confidence__c</fullName>
+    <description>How confident are you in winning this partnership? This is a subjective measurement that will be used to gauge the health of the BD pipeline. Please use numbers between 0-100 only.</description>
+    <inlineHelpText>How confident are you in winning this partnership? This is a subjective measurement that will be used to gauge the health of the BD pipeline. Please use numbers between 0-100 only.</inlineHelpText>
+    <label>Opportunity Win Confidence</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

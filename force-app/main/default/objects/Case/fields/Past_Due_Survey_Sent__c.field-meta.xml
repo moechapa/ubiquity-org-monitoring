@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Past_Due_Survey_Sent__c</fullName>
+    <description>Date Past Due survey email was sent</description>
+    <inlineHelpText>Date Past Due survey email was sent</inlineHelpText>
+    <label>Past Due Survey Sent</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

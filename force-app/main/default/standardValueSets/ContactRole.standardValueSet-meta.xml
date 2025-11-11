@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Decision Maker</fullName>
+        <default>false</default>
+        <label>Decision Maker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Information Gatherer</fullName>
+        <default>false</default>
+        <label>Information Gatherer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referring Schwab Rep</fullName>
+        <default>false</default>
+        <label>Referring Schwab Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Financial Advisor</fullName>
+        <default>false</default>
+        <label>Financial Advisor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CPA</fullName>
+        <default>false</default>
+        <label>CPA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attorney</fullName>
+        <default>false</default>
+        <label>Attorney</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Billing</fullName>
+        <default>false</default>
+        <label>Billing</label>
+    </standardValue>
+</StandardValueSet>

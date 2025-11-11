@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Associated_Contact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Associated Contact associated with the Survey</description>
+    <label>Associated Contact</label>
+    <referenceTo>Associated_Contact__c</referenceTo>
+    <relationshipName>Surveys</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ADP_ACP_Testing_for_Non_HCE_15c__c</fullName>
+    <description>If the ADP/ACP test is used, did the 401(k) plan perform ADP/ACP testing for the plan year using the &quot;current year testing method&quot; for nonhighly compensated employees (Treas. Reg sections 1.401(k)-2(a)(2)(ii) and 1.401(m)- 2(a)(2)(ii))?</description>
+    <inlineHelpText>If the ADP/ACP test is used, did the 401(k) plan perform ADP/ACP testing for the plan year using the &quot;current year testing method&quot; for nonhighly compensated employees (Treas. Reg sections 1.401(k)-2(a)(2)(ii) and 1.401(m)- 2(a)(2)(ii))?</inlineHelpText>
+    <label>ADP/ACP Testing for Non HCE (15c)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

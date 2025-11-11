@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activity_Type__c</fullName>
+    <label>Activity Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Appointment</fullName>
+                <default>false</default>
+                <label>Appointment</label>
+            </value>
+            <value>
+                <fullName>Automated Email</fullName>
+                <default>false</default>
+                <label>Automated Email</label>
+            </value>
+            <value>
+                <fullName>Call</fullName>
+                <default>false</default>
+                <label>Call</label>
+            </value>
+            <value>
+                <fullName>Call Engaged</fullName>
+                <default>false</default>
+                <label>Call Engaged</label>
+            </value>
+            <value>
+                <fullName>Call Engaged (Needs More Information from D4K)</fullName>
+                <default>false</default>
+                <label>Call Engaged (Needs More Information from D4K)</label>
+            </value>
+            <value>
+                <fullName>Call No Interest</fullName>
+                <default>false</default>
+                <label>Call No Interest</label>
+            </value>
+            <value>
+                <fullName>Demo</fullName>
+                <default>false</default>
+                <label>Demo</label>
+            </value>
+            <value>
+                <fullName>Document Correction</fullName>
+                <default>false</default>
+                <label>Document Correction</label>
+            </value>
+            <value>
+                <fullName>DocuSign</fullName>
+                <default>false</default>
+                <label>DocuSign</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Census Upload Call</fullName>
+                <default>false</default>
+                <label>Imp Census Upload Call</label>
+            </value>
+            <value>
+                <fullName>Document Review Call</fullName>
+                <default>false</default>
+                <label>Imp Document Review Call</label>
+            </value>
+            <value>
+                <fullName>Payroll Upload Call</fullName>
+                <default>false</default>
+                <label>Imp Payroll Upload Call</label>
+            </value>
+            <value>
+                <fullName>Plan Design Call</fullName>
+                <default>false</default>
+                <label>Imp Plan Design Call</label>
+            </value>
+            <value>
+                <fullName>Inbound Call</fullName>
+                <default>false</default>
+                <label>Inbound Call</label>
+            </value>
+            <value>
+                <fullName>In Person Engaged</fullName>
+                <default>false</default>
+                <label>In Person Engaged</label>
+            </value>
+            <value>
+                <fullName>In Person Not Interested</fullName>
+                <default>false</default>
+                <label>In Person Not Interested</label>
+            </value>
+            <value>
+                <fullName>Left Message</fullName>
+                <default>false</default>
+                <label>Left Message</label>
+            </value>
+            <value>
+                <fullName>Left VM</fullName>
+                <default>false</default>
+                <label>Left VM</label>
+            </value>
+            <value>
+                <fullName>No Start Plan</fullName>
+                <default>false</default>
+                <label>No Start Plan</label>
+            </value>
+            <value>
+                <fullName>OPD</fullName>
+                <default>false</default>
+                <label>OPD</label>
+            </value>
+            <value>
+                <fullName>Outbound Call</fullName>
+                <default>true</default>
+                <label>Outbound Call</label>
+            </value>
+            <value>
+                <fullName>Plan Sponsor Tour</fullName>
+                <default>false</default>
+                <label>Plan Sponsor Tour</label>
+            </value>
+            <value>
+                <fullName>Pre-Stall Plan</fullName>
+                <default>false</default>
+                <label>Pre-Stall Plan</label>
+            </value>
+            <value>
+                <fullName>Prospecting</fullName>
+                <default>false</default>
+                <label>Prospecting</label>
+            </value>
+            <value>
+                <fullName>Stall Plan</fullName>
+                <default>false</default>
+                <label>Stall Plan</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

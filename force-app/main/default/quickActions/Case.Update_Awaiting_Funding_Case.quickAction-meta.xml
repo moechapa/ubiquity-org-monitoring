@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Updates Awaiting Funding Case for Payroll team</description>
+    <fieldOverrides>
+        <field>Category__c</field>
+        <literalValue>Deposits</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Department__c</field>
+        <literalValue>Payroll</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Description</field>
+        <formula>&quot;Hi Teams, can you please reach out about the below rollover awaiting funding? Request received on MM/DD/YYYY for participant PARTICIPANT NAME - expected amount $AMOUNT. Kindly remind them of their responsibility to ensure the funds are received by the custodian within 30 days.  The rollover request will be cancelled 30 days from the date the rollover request was received; if we do not receive the funds. Thank you very much, Sonia&quot;</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Origin</field>
+        <literalValue>Internal</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Status</field>
+        <literalValue>Assigned</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Sub_Category__c</field>
+        <literalValue>Awaiting Funding</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Subject</field>
+        <formula>&quot;Rollover Awaiting Funding - PARTICIPANT&quot;</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Team_Member__c</field>
+        <literalValue>Sonia Boily</literalValue>
+    </fieldOverrides>
+    <label>Update Awaiting Funding Case</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Subject</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Description</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns/>
+    </quickActionLayout>
+    <type>Update</type>
+</QuickAction>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Networking_Events__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please include any networking events and whether TOK is sponsoring or just attending. Cost for event should be included in T&amp;E field but please note specific cost here as well.</inlineHelpText>
+    <label>Networking Events</label>
+    <length>150</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

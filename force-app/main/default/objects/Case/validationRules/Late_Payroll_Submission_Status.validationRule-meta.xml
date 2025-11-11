@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Late_Payroll_Submission_Status</fullName>
+    <active>true</active>
+    <description>Prevents closure of Late Payroll cases if the Payroll Submission status is left at &quot;Behind&quot;</description>
+    <errorConditionFormula>RecordTypeId = &quot;01237000000Aho7&quot;
+&amp;&amp;
+ ISPICKVAL(Sub_Category__c, &quot;Late Payroll&quot;)
+&amp;&amp;
+ ISPICKVAL(  Plan__r.Payroll_Submission_Status__c , &quot;Behind&quot;)
+&amp;&amp;
+ ISPICKVAL( Status , &quot;Resolved&quot;)</errorConditionFormula>
+    <errorMessage>Payroll Submissions Status value on the Plan must be changed from &quot;Behind&quot; to appropriate value before late payroll case can be resolved.</errorMessage>
+</ValidationRule>

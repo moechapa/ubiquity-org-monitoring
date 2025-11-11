@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QueueRoutingConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <capacityType>INHERITED</capacityType>
+    <capacityWeight>1.0</capacityWeight>
+    <isAttributeBased>true</isAttributeBased>
+    <label>CE Chat</label>
+    <queueOverflowAssignee>Client_Support</queueOverflowAssignee>
+    <routingModel>LEAST_ACTIVE</routingModel>
+    <routingPriority>1</routingPriority>
+    <skills>
+        <skill>Advisor</skill>
+    </skills>
+    <skills>
+        <skill>CSTs</skill>
+    </skills>
+    <skills>
+        <skill>Savers</skill>
+    </skills>
+</QueueRoutingConfig>

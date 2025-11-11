@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finch_Implementation__c</fullName>
+    <description>If Finch T&amp;C has a date and the Finch Opt-Out is FALSE, it is a Finch Imp</description>
+    <formula>IF(NOT(ISBLANK(Finch_T_C__c )) &amp;&amp; NOT(ISPICKVAL(Finch_Opt_Out__c, &quot;Yes&quot;)), TRUE, FALSE)</formula>
+    <inlineHelpText>If Finch T&amp;C has a date and the Finch Opt-Out is FALSE, it is a Finch Imp</inlineHelpText>
+    <label>Finch Implementation</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

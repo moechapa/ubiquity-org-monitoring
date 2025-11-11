@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Landing_Page_Code__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Code used to connect this account to new leads created through calendly</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A unique code used by Calendly to connect new leads with this account</inlineHelpText>
+    <label>Partner Landing Page Code</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

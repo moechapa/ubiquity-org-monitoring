@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JIRA_Case_Subject</fullName>
+    <active>true</active>
+    <description>Forces user to change deftault help text in Subject line to actual data Product Success can use</description>
+    <errorConditionFormula>Subject = &quot;1 Line Description - Company Name - Impacted Participant&quot;</errorConditionFormula>
+    <errorDisplayField>Subject</errorDisplayField>
+    <errorMessage>Please enter an actual Description | Company Name | Participant Name in the Subject</errorMessage>
+</ValidationRule>

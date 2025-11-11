@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_did_you_hear_about_Ubiquity__c</fullName>
+    <description>Confirm how prospects heard about Ubiquity</description>
+    <inlineHelpText>Confirm how prospects heard about Ubiquity</inlineHelpText>
+    <label>How did you hear about Ubiquity?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Web/ Search Engine</fullName>
+                <default>false</default>
+                <label>Web/ Search Engine</label>
+            </value>
+            <value>
+                <fullName>Google Ads</fullName>
+                <default>false</default>
+                <label>Google Ads</label>
+            </value>
+            <value>
+                <fullName>Postcard</fullName>
+                <default>false</default>
+                <label>Postcard</label>
+            </value>
+            <value>
+                <fullName>Financial Advisor</fullName>
+                <default>false</default>
+                <label>Financial Advisor</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Simply Retirement</fullName>
+                <default>false</default>
+                <label>Simply Retirement</label>
+            </value>
+            <value>
+                <fullName>Marketing Email Campaign (Vets, SH, Secure Act, etc.)</fullName>
+                <default>false</default>
+                <label>Marketing Email Campaign (Vets, SH, Secure Act, etc.)</label>
+            </value>
+            <value>
+                <fullName>News/PR</fullName>
+                <default>false</default>
+                <label>News/PR</label>
+            </value>
+            <value>
+                <fullName>Facebook/LinkedIn/Social Media</fullName>
+                <default>false</default>
+                <label>Facebook/LinkedIn/Social Media</label>
+            </value>
+            <value>
+                <fullName>Referral from a personal friend/network</fullName>
+                <default>false</default>
+                <label>Referral from a personal friend/network</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

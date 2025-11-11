@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Paradigm_Roles__c</fullName>
+    <description>Roles required for Paradigm</description>
+    <inlineHelpText>Roles required for Paradigm</inlineHelpText>
+    <label>Paradigm Roles</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>3(16) Account Manager</fullName>
+                <default>false</default>
+                <label>3(16) Account Manager</label>
+            </value>
+            <value>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+                <label>Accounting</label>
+            </value>
+            <value>
+                <fullName>Admin</fullName>
+                <default>false</default>
+                <label>Admin</label>
+            </value>
+            <value>
+                <fullName>Admin Jobs Access Role</fullName>
+                <default>false</default>
+                <label>Admin Jobs Access Role</label>
+            </value>
+            <value>
+                <fullName>All_Reports</fullName>
+                <default>false</default>
+                <label>All_Reports</label>
+            </value>
+            <value>
+                <fullName>Business Intelligence</fullName>
+                <default>false</default>
+                <label>Business Intelligence</label>
+            </value>
+            <value>
+                <fullName>Business Intelligence Management</fullName>
+                <default>false</default>
+                <label>Business Intelligence Management</label>
+            </value>
+            <value>
+                <fullName>Client Service Management</fullName>
+                <default>false</default>
+                <label>Client Service Management</label>
+            </value>
+            <value>
+                <fullName>Client Service Platinum</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Client Service Platinum</label>
+            </value>
+            <value>
+                <fullName>Client Service Support</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Client Service Support</label>
+            </value>
+            <value>
+                <fullName>Client Success - Tier 1</fullName>
+                <default>false</default>
+                <label>Client Success - Tier 1</label>
+            </value>
+            <value>
+                <fullName>Compliance</fullName>
+                <default>false</default>
+                <label>Compliance</label>
+            </value>
+            <value>
+                <fullName>Compliance Manager</fullName>
+                <default>false</default>
+                <label>Compliance Manager</label>
+            </value>
+            <value>
+                <fullName>Core</fullName>
+                <default>false</default>
+                <label>Core</label>
+            </value>
+            <value>
+                <fullName>CSR</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CSR</label>
+            </value>
+            <value>
+                <fullName>CSR (CST)</fullName>
+                <default>false</default>
+                <label>CSR (CST)</label>
+            </value>
+            <value>
+                <fullName>Data_Corrections</fullName>
+                <default>false</default>
+                <label>Data_Corrections</label>
+            </value>
+            <value>
+                <fullName>Distribution_Management</fullName>
+                <default>false</default>
+                <label>Distribution_Management</label>
+            </value>
+            <value>
+                <fullName>Distributions</fullName>
+                <default>false</default>
+                <label>Distributions</label>
+            </value>
+            <value>
+                <fullName>EditSubscription</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>EditSubscription</label>
+            </value>
+            <value>
+                <fullName>Financial Operations</fullName>
+                <default>false</default>
+                <label>Financial Operations</label>
+            </value>
+            <value>
+                <fullName>Full System Admin</fullName>
+                <default>false</default>
+                <label>Full System Admin</label>
+            </value>
+            <value>
+                <fullName>Implementations</fullName>
+                <default>false</default>
+                <label>Implementations</label>
+            </value>
+            <value>
+                <fullName>Internal Auditor</fullName>
+                <default>false</default>
+                <label>Internal Auditor</label>
+            </value>
+            <value>
+                <fullName>Investment_Integrity</fullName>
+                <default>false</default>
+                <label>Investment_Integrity</label>
+            </value>
+            <value>
+                <fullName>Investment Integrity</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Investment Integrity</label>
+            </value>
+            <value>
+                <fullName>Job_Management</fullName>
+                <default>false</default>
+                <label>Job_Management</label>
+            </value>
+            <value>
+                <fullName>Learning and Development</fullName>
+                <default>false</default>
+                <label>Learning and Development</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Operations Management</fullName>
+                <default>false</default>
+                <label>Operations Management</label>
+            </value>
+            <value>
+                <fullName>Outsource Admin</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Outsource Admin</label>
+            </value>
+            <value>
+                <fullName>Paradigm Payroll</fullName>
+                <default>false</default>
+                <label>Paradigm Payroll</label>
+            </value>
+            <value>
+                <fullName>Partnerships</fullName>
+                <default>false</default>
+                <label>Partnerships</label>
+            </value>
+            <value>
+                <fullName>Payroll</fullName>
+                <default>false</default>
+                <label>Payroll</label>
+            </value>
+            <value>
+                <fullName>Payroll Koncierge</fullName>
+                <default>false</default>
+                <label>Payroll Koncierge</label>
+            </value>
+            <value>
+                <fullName>PRKS - PII</fullName>
+                <default>false</default>
+                <label>PRKS - PII</label>
+            </value>
+            <value>
+                <fullName>Product Development</fullName>
+                <default>false</default>
+                <label>Product Development</label>
+            </value>
+            <value>
+                <fullName>Relationship Management</fullName>
+                <default>false</default>
+                <label>Relationship Management</label>
+            </value>
+            <value>
+                <fullName>Report_View_ACH_All_Plans</fullName>
+                <default>false</default>
+                <label>Report_View_ACH_All_Plans</label>
+            </value>
+            <value>
+                <fullName>Report_View_ACH_Single_Plan</fullName>
+                <default>false</default>
+                <label>Report_View_ACH_Single_Plan</label>
+            </value>
+            <value>
+                <fullName>Report_View_Balance_All_Plans</fullName>
+                <default>false</default>
+                <label>Report_View_Balance_All_Plans</label>
+            </value>
+            <value>
+                <fullName>Report_View_Balance_Single_Plan</fullName>
+                <default>false</default>
+                <label>Report_View_Balance_Single_Plan</label>
+            </value>
+            <value>
+                <fullName>Report_View_PII_All_Plans</fullName>
+                <default>false</default>
+                <label>Report_View_PII_All_Plans</label>
+            </value>
+            <value>
+                <fullName>Report_View_PII_Single_Plan</fullName>
+                <default>false</default>
+                <label>Report_View_PII_Single_Plan</label>
+            </value>
+            <value>
+                <fullName>ResetPassword</fullName>
+                <default>false</default>
+                <label>ResetPassword</label>
+            </value>
+            <value>
+                <fullName>RKS</fullName>
+                <default>false</default>
+                <label>RKS</label>
+            </value>
+            <value>
+                <fullName>ROI</fullName>
+                <default>false</default>
+                <label>ROI</label>
+            </value>
+            <value>
+                <fullName>ROI Operations</fullName>
+                <default>false</default>
+                <label>ROI Operations</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Saver Success</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Saver Success</label>
+            </value>
+            <value>
+                <fullName>Single(k) – Implementation</fullName>
+                <default>false</default>
+                <label>Single(k) – Implementation</label>
+            </value>
+            <value>
+                <fullName>SSN PII</fullName>
+                <default>false</default>
+                <label>SSN PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role - 1099r PII</fullName>
+                <default>false</default>
+                <label>Sub Role - 1099r PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role - 5500 Reports PII</fullName>
+                <default>false</default>
+                <label>Sub Role - 5500 Reports PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role - ACH Batch PII</fullName>
+                <default>false</default>
+                <label>Sub Role - ACH Batch PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role - ACH Forms PII</fullName>
+                <default>false</default>
+                <label>Sub Role - ACH Forms PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role - ACH PII</fullName>
+                <default>false</default>
+                <label>Sub Role - ACH PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role - ACH Research PII</fullName>
+                <default>false</default>
+                <label>Sub Role - ACH Research PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role – Advisor Document Assistance</fullName>
+                <default>false</default>
+                <label>Sub Role – Advisor Document Assistance</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Advisor Info/Edit/Remove</fullName>
+                <default>false</default>
+                <label>Sub Role - Advisor Info/Edit/Remove</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Advisor Payments PII</fullName>
+                <default>false</default>
+                <label>Sub Role - Advisor Payments PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role – Advisor Reports PII</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sub Role – Advisor Reports PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Brokerage PII</fullName>
+                <default>false</default>
+                <label>Sub Role - Brokerage PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Conversion Reconcilation PII</fullName>
+                <default>false</default>
+                <label>Sub Role - Conversion Reconcilation PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Distributions Managerial Role</fullName>
+                <default>false</default>
+                <label>Sub Role - Distributions Managerial Role</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Distributions PII</fullName>
+                <default>false</default>
+                <label>Sub Role - Distributions PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Distributions Super User PII</fullName>
+                <default>false</default>
+                <label>Sub Role - Distributions Super User PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Document Management</fullName>
+                <default>false</default>
+                <label>Sub Role - Document Management</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Edit Deferrals</fullName>
+                <default>false</default>
+                <label>Sub Role - Edit Deferrals</label>
+            </value>
+            <value>
+                <fullName>Sub Role - EditSubscription</fullName>
+                <default>false</default>
+                <label>Sub Role - EditSubscription</label>
+            </value>
+            <value>
+                <fullName>Sub Role – Eligibility Worksheet</fullName>
+                <default>false</default>
+                <label>Sub Role – Eligibility Worksheet</label>
+            </value>
+            <value>
+                <fullName>Sub Role - EPS PII</fullName>
+                <default>false</default>
+                <label>Sub Role - EPS PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role – Finch Integration</fullName>
+                <default>false</default>
+                <label>Sub Role – Finch Integration</label>
+            </value>
+            <value>
+                <fullName>Sub Role – Implementation Document Backup</fullName>
+                <default>false</default>
+                <label>Sub Role – Implementation Document Backup</label>
+            </value>
+            <value>
+                <fullName>Sub Role - L&amp;D Documentation</fullName>
+                <default>false</default>
+                <label>Sub Role - L&amp;D Documentation</label>
+            </value>
+            <value>
+                <fullName>Sub Role – MessageManagement</fullName>
+                <default>false</default>
+                <label>Sub Role – MessageManagement</label>
+            </value>
+            <value>
+                <fullName>Sub Role – PartnerUserManagement</fullName>
+                <default>false</default>
+                <label>Sub Role – PartnerUserManagement</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Payroll Cash II</fullName>
+                <default>false</default>
+                <label>Sub Role - Payroll Cash II</label>
+            </value>
+            <value>
+                <fullName>Sub Role – Permission Research</fullName>
+                <default>false</default>
+                <label>Sub Role – Permission Research</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Plan Audit PII</fullName>
+                <default>false</default>
+                <label>Sub Role - Plan Audit PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Plan Corrections</fullName>
+                <default>false</default>
+                <label>Sub Role - Plan Corrections</label>
+            </value>
+            <value>
+                <fullName>Sub Role – Plan Fee Upload</fullName>
+                <default>false</default>
+                <label>Sub Role – Plan Fee Upload</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Profile Mergers III</fullName>
+                <default>false</default>
+                <label>Sub Role - Profile Mergers III</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Reconcilation PII</fullName>
+                <default>false</default>
+                <label>Sub Role - Reconcilation PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role – Redact PII</fullName>
+                <default>false</default>
+                <label>Sub Role – Redact PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role – ReportListing</fullName>
+                <default>false</default>
+                <label>Sub Role – ReportListing</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Reset Password</fullName>
+                <default>false</default>
+                <label>Sub Role - Reset Password</label>
+            </value>
+            <value>
+                <fullName>Sub Role  - Rollovers</fullName>
+                <default>false</default>
+                <label>Sub Role  - Rollovers</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Simple Data Corrections PII</fullName>
+                <default>false</default>
+                <label>Sub Role - Simple Data Corrections PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role – Single(k)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sub Role – Single(k)</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Super Data Corrections PII</fullName>
+                <default>false</default>
+                <label>Sub Role - Super Data Corrections PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Super User</fullName>
+                <default>false</default>
+                <label>Sub Role - Super User</label>
+            </value>
+            <value>
+                <fullName>Sub Role – ToggleTwoFactor</fullName>
+                <default>false</default>
+                <label>Sub Role – ToggleTwoFactor</label>
+            </value>
+            <value>
+                <fullName>Sub Role - TPA Access</fullName>
+                <default>false</default>
+                <label>Sub Role - TPA Access</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Trading PII</fullName>
+                <default>false</default>
+                <label>Sub Role - Trading PII</label>
+            </value>
+            <value>
+                <fullName>Sub Role - Transitions Reports PII</fullName>
+                <default>false</default>
+                <label>Sub Role - Transitions Reports PII</label>
+            </value>
+            <value>
+                <fullName>System_Management</fullName>
+                <default>false</default>
+                <label>System_Management</label>
+            </value>
+            <value>
+                <fullName>System Management</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>System Management</label>
+            </value>
+            <value>
+                <fullName>Transitions</fullName>
+                <default>false</default>
+                <label>Transitions</label>
+            </value>
+            <value>
+                <fullName>Ubiquity System Admin</fullName>
+                <default>false</default>
+                <label>Ubiquity System Admin</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

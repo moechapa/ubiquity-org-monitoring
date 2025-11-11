@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pipeline_Amount__c</fullName>
+    <description>Used to estimate potential BD pipeline.</description>
+    <formula>Total_Opportunity_Amount__c * Opportunity_Win_Confidence__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Used to estimate potential BD pipeline.</inlineHelpText>
+    <label>Pipeline Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

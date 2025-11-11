@@ -1,0 +1,785 @@
+{
+  "version" : "64.0",
+  "nodes" : {
+    "LOAD_DATASET0" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Id", "Name", "CreatedDate", "CreatedById", "SystemModstamp", "MessagingEndUserId", "CaseId", "AcceptTime", "StartTime", "EndTime", "AgentType", "ConversationId", "ChannelName", "EndUserMessageCount", "AgentMessageCount", "EndedByType", "Session_Owner__c", "OwnerId" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "MessagingSession",
+          "connectionName" : "SFDC_LOCAL",
+          "sourceObjectName" : "MessagingSession"
+        },
+        "sampleDetails" : {
+          "type" : "Custom",
+          "filters" : {
+            "filterExpressions" : [ {
+              "type" : "DATETIME",
+              "field" : "CreatedDate",
+              "operator" : "GREATER_OR_EQUAL",
+              "operands" : [ "1751328000000" ]
+            } ]
+          },
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "LOAD_DATASET2" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Id", "OwnerId", "IsDeleted", "Name", "CreatedDate", "CreatedById", "LastModifiedDate", "LastModifiedById", "SystemModstamp", "UserId", "WorkItemId", "Status", "ServiceChannelId", "OriginalQueueId", "CapacityWeight", "CapacityPercentage", "RequestDateTime", "AcceptDateTime", "DeclineDateTime", "CloseDateTime", "SpeedToAnswer", "AgentCapacityWhenDeclined", "PendingServiceRoutingId", "PushTimeout", "PushTimeoutDateTime", "HandleTime", "ActiveTime", "DeclineReason", "CancelDateTime", "ShouldSkipCapacityCheck", "RoutingType", "RoutingModel", "RoutingPriority", "AssignedDateTime", "PreferredUserId", "OriginalGroupId", "AfterConversationActualTime" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "AgentWork",
+          "connectionName" : "SFDC_LOCAL",
+          "sourceObjectName" : "AgentWork"
+        },
+        "sampleDetails" : {
+          "type" : "Custom",
+          "filters" : {
+            "filterExpressions" : [ {
+              "type" : "DATETIME",
+              "field" : "CreatedDate",
+              "operator" : "GREATER_OR_EQUAL",
+              "operands" : [ "1751328000000" ]
+            } ]
+          },
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "FORMULA0" : {
+      "action" : "formula",
+      "sources" : [ "JOIN3" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "Time_Waiting_For_Availability",
+          "label" : "Time(s) Waiting For Availability",
+          "formulaExpression" : "to_unix_timestamp(\"AssignedDateTime\") - to_unix_timestamp(\"RequestDateTime\")",
+          "precision" : 10,
+          "scale" : 0,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA1" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA0" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "Time_Waiting_For_Accept",
+          "label" : "Time(s) Waiting For Accept",
+          "formulaExpression" : "to_unix_timestamp(\"AcceptDateTime\") - to_unix_timestamp(\"AssignedDateTime\")",
+          "precision" : 10,
+          "scale" : 0,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA5" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA1" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "UserHandleTime",
+          "label" : "User Handle Time",
+          "formulaExpression" : "case \"User.Name\"\n\twhen 'Automated Process'\n\tthen 0\n\telse\n\t\"HandleTime\"\nend",
+          "precision" : 10,
+          "scale" : 0,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "EXTRACT0" : {
+      "action" : "extractGrains",
+      "sources" : [ "FORMULA5" ],
+      "parameters" : {
+        "grainExtractions" : [ ]
+      }
+    },
+    "AGGREGATE1" : {
+      "action" : "aggregate",
+      "sources" : [ "EXTRACT0" ],
+      "parameters" : {
+        "aggregations" : [ {
+          "action" : "SUM",
+          "source" : "ActiveTime",
+          "name" : "SUM_ActiveTime",
+          "label" : "Sum of Active Time"
+        }, {
+          "action" : "SUM",
+          "source" : "HandleTime",
+          "name" : "SUM_HandleTime",
+          "label" : "Sum of Handle Time"
+        }, {
+          "action" : "SUM",
+          "source" : "Time_Waiting_For_Accept",
+          "name" : "SUM_Time_Waiting_For_Accept",
+          "label" : "Sum of Time(s) Waiting For Accept"
+        }, {
+          "action" : "SUM",
+          "source" : "Time_Waiting_For_Availability",
+          "name" : "SUM_Time_Waiting_For_Availability",
+          "label" : "Sum of Time(s) Waiting For Availability"
+        }, {
+          "action" : "SUM",
+          "source" : "AfterConversationActualTime",
+          "name" : "SUM_AfterConversationActualTime",
+          "label" : "Sum of After Conversation Work Actual Time"
+        }, {
+          "action" : "SUM",
+          "source" : "SpeedToAnswer",
+          "name" : "SUM_SpeedToAnswer",
+          "label" : "Sum of Speed To Answer"
+        }, {
+          "action" : "COUNT",
+          "name" : "COUNT_Rows",
+          "label" : "Rows"
+        }, {
+          "action" : "SUM",
+          "source" : "UserHandleTime",
+          "name" : "SUM_UserHandleTime",
+          "label" : "Sum of User Handle Time"
+        } ],
+        "groupings" : [ "WorkItemId" ],
+        "pivots" : [ ],
+        "nodeType" : "STANDARD"
+      }
+    },
+    "LOAD_DATASET3" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "ConversationId", "Seq", "EntryTime", "ActorType", "ActorId" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "ConversationEntry",
+          "connectionName" : "SFDC_LOCAL",
+          "sourceObjectName" : "ConversationEntry"
+        },
+        "sampleDetails" : {
+          "type" : "Custom",
+          "filters" : {
+            "filterExpressions" : [ {
+              "type" : "DATETIME",
+              "field" : "EntryTime",
+              "operator" : "GREATER_OR_EQUAL",
+              "operands" : [ "1751328000000" ]
+            } ]
+          },
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "JOIN1" : {
+      "action" : "join",
+      "sources" : [ "AGGREGATE1", "FILTER1" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "Transform1.ActorId", "Transform1.ActorType", "Transform1.ConversationId", "Transform1.EntryTime", "Transform1.Id", "Transform1.Seq", "Transform1.checkEngagement", "Transform1.dupeCheck", "WorkItemId" ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "INNER",
+        "leftKeys" : [ "WorkItemId" ],
+        "rightQualifier" : "Transform1",
+        "rightKeys" : [ "Join4.Id" ]
+      }
+    },
+    "OUTPUT0" : {
+      "action" : "save",
+      "sources" : [ "UPDATE0" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "ChatData",
+          "name" : "ChatData",
+          "folderName" : "TestBotDeflection"
+        },
+        "measuresToCurrencies" : [ ]
+      }
+    },
+    "JOIN3" : {
+      "action" : "join",
+      "sources" : [ "LOAD_DATASET2", "LOAD_DATASET5" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "User.Id" ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "UserId" ],
+        "rightQualifier" : "User",
+        "rightKeys" : [ "Id" ]
+      }
+    },
+    "LOAD_DATASET5" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Team__c", "Id", "Name" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "User",
+          "connectionName" : "SFDC_LOCAL",
+          "sourceObjectName" : "User"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "JOIN5" : {
+      "action" : "join",
+      "sources" : [ "LOAD_DATASET3", "LOAD_DATASET0" ],
+      "schema" : {
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "Join4.ConversationId" ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "INNER",
+        "leftKeys" : [ "ConversationId" ],
+        "rightQualifier" : "Join4",
+        "rightKeys" : [ "ConversationId" ]
+      }
+    },
+    "FILTER0" : {
+      "action" : "sqlFilter",
+      "sources" : [ "JOIN5" ],
+      "parameters" : {
+        "sqlFilterExpression" : "\"EntryTime\" >= \"Join4.CreatedDate\" AND \"EntryTime\" <= \"Join4.EndTime\""
+      }
+    },
+    "FILTER1" : {
+      "action" : "filter",
+      "sources" : [ "FORMULA9_copy0" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "NUMBER",
+          "field" : "dupeCheck",
+          "operator" : "EQUAL",
+          "operands" : [ "1" ]
+        } ]
+      }
+    },
+    "FILTER2" : {
+      "action" : "filter",
+      "sources" : [ "JOIN3" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "TEXT",
+          "field" : "User.Name",
+          "operator" : "NOT",
+          "operands" : [ "Automated Process" ]
+        } ]
+      }
+    },
+    "FORMULA7" : {
+      "action" : "computeRelative",
+      "sources" : [ "FILTER2" ],
+      "parameters" : {
+        "partitionBy" : [ "WorkItemId" ],
+        "orderBy" : [ {
+          "fieldName" : "CreatedDate",
+          "direction" : "DESC"
+        } ],
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "mostRecentCheck",
+          "label" : "mostRecentCheck",
+          "formulaExpression" : "row_number()",
+          "precision" : 10,
+          "scale" : 0,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FILTER3" : {
+      "action" : "filter",
+      "sources" : [ "FORMULA7" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "NUMBER",
+          "field" : "mostRecentCheck",
+          "operator" : "EQUAL",
+          "operands" : [ "1" ]
+        } ]
+      }
+    },
+    "UPDATE0" : {
+      "action" : "update",
+      "sources" : [ "JOIN1", "FILTER3" ],
+      "parameters" : {
+        "leftKeys" : [ "Transform1.Join4.Id" ],
+        "rightKeys" : [ "WorkItemId" ],
+        "updateColumns" : {
+          "Transform1.Team" : "User.Team__c",
+          "Transform1.Join4.Session_Owner__c" : "User.Name",
+          "Transform1.Join4.OwnerId" : "UserId"
+        }
+      }
+    },
+    "JOIN6" : {
+      "action" : "join",
+      "sources" : [ "FILTER0", "FORMULA10" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LEFT_OUTER",
+        "leftKeys" : [ "Join4.CaseId" ],
+        "rightQualifier" : "BotCase",
+        "rightKeys" : [ "Id" ]
+      }
+    },
+    "LOAD_DATASET6" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Id", "CaseNumber", "Subject", "CreatedDate", "CreatedById" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "Case",
+          "connectionName" : "SFDC_LOCAL",
+          "sourceObjectName" : "Case"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "FORMULA2_copy0" : {
+      "action" : "computeRelative",
+      "sources" : [ "JOIN6" ],
+      "parameters" : {
+        "partitionBy" : [ "Join4.Id" ],
+        "orderBy" : [ {
+          "fieldName" : "Seq",
+          "direction" : "ASC"
+        } ],
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "checkEngagement",
+          "label" : "checkEngagement",
+          "formulaExpression" : "case concat(\"ActorType\", lag(\"ActorType\"))\n\twhen 'EndUserAgent'\n\tthen 'Engaged'\n\telse\n\t''\nend",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA3_copy0" : {
+      "action" : "computeRelative",
+      "sources" : [ "FORMULA2_copy0" ],
+      "parameters" : {
+        "partitionBy" : [ "Join4.Id" ],
+        "orderBy" : [ {
+          "fieldName" : "checkEngagement",
+          "direction" : "ASC"
+        } ],
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "User_Interaction",
+          "label" : "User Interaction",
+          "formulaExpression" : "case array(array_contains(array(first_value(checkEngagement), last_value(checkEngagement)), 'Engaged'), \"Join4.AgentType\" = 'Bot')\n\twhen array(TRUE,FALSE)\n\tthen 'Engaged'\n\twhen array(TRUE,TRUE)\n\tthen 'Engaged'\n\twhen array(FALSE,TRUE)\n\tthen 'Bot'\n\telse\n\t'Abandoned'\nend",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA6_copy0" : {
+      "action" : "computeRelative",
+      "sources" : [ "FORMULA3_copy0" ],
+      "parameters" : {
+        "partitionBy" : [ "Join4.Id" ],
+        "orderBy" : [ {
+          "fieldName" : "Seq",
+          "direction" : "ASC"
+        } ],
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "dupeCheck",
+          "label" : "dupeCheck",
+          "formulaExpression" : "row_number()",
+          "precision" : 10,
+          "scale" : 0,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA8_copy0" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA6_copy0" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "Team",
+          "label" : "Team",
+          "formulaExpression" : "''",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA9_copy0" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA8_copy0" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "Bot_Result",
+          "label" : "Bot Result",
+          "formulaExpression" : "case array(User_Interaction, substr(\"BotCase.Id\", 0, 3))\n\twhen array('Bot', '500')\n\tthen 'Created Case'\n    when array('Bot', null)\n    then 'Deflected'\n\telse\n\t'Transferred'\nend",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA10" : {
+      "action" : "formula",
+      "sources" : [ "LOAD_DATASET6" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "Business_Hours",
+          "label" : "Business Hours",
+          "formulaExpression" : "case array(array_contains(array(2, 3, 4, 5, 6), dayofweek(\"CreatedDate\")),array_contains(array(14, 15, 16, 17, 18, 19, 20, 21, 22, 23), hour(\"CreatedDate\")))\n\twhen array(TRUE,TRUE)\n\tthen 'Inside'\n\telse\n\t'Outside'\nend",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    }
+  },
+  "ui" : {
+    "nodes" : {
+      "LOAD_DATASET0" : {
+        "label" : "MessagingSession",
+        "type" : "LOAD_DATASET",
+        "top" : 112,
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "LOAD_DATASET2" : {
+        "label" : "AgentWork",
+        "type" : "LOAD_DATASET",
+        "top" : 252,
+        "left" : 392,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "TRANSFORM0" : {
+        "label" : "Human Chat Efficiency Calcs",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 392,
+        "left" : 672,
+        "graph" : {
+          "FORMULA0" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Calc Time in Queue"
+          },
+          "FORMULA1" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Calc Time to Accept"
+          },
+          "FORMULA5" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Filter out bot from handle time"
+          }
+        },
+        "connectors" : [ {
+          "source" : "FORMULA0",
+          "target" : "FORMULA1"
+        }, {
+          "source" : "FORMULA1",
+          "target" : "FORMULA5"
+        } ]
+      },
+      "AGGREGATE0" : {
+        "label" : "Aggregate Totals by Session",
+        "description" : "",
+        "type" : "AGGREGATE",
+        "top" : 392,
+        "left" : 812,
+        "graph" : {
+          "EXTRACT0" : null,
+          "AGGREGATE1" : null
+        },
+        "connectors" : [ {
+          "source" : "EXTRACT0",
+          "target" : "AGGREGATE1"
+        } ]
+      },
+      "LOAD_DATASET3" : {
+        "label" : "ConversationEntry",
+        "type" : "LOAD_DATASET",
+        "top" : 252,
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "JOIN1" : {
+        "label" : "Join 1",
+        "type" : "JOIN",
+        "top" : 112,
+        "left" : 952
+      },
+      "OUTPUT0" : {
+        "label" : "Output 0",
+        "type" : "OUTPUT",
+        "top" : 112,
+        "left" : 1232
+      },
+      "JOIN3" : {
+        "label" : "Add User Name and Team",
+        "type" : "JOIN",
+        "top" : 252,
+        "left" : 532
+      },
+      "LOAD_DATASET5" : {
+        "label" : "User",
+        "type" : "LOAD_DATASET",
+        "top" : 532,
+        "left" : 392,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "JOIN5" : {
+        "label" : "Link Entries to Session",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 112,
+        "left" : 252
+      },
+      "FILTER0" : {
+        "label" : "Remove Duplicate Entries",
+        "description" : "In some cases, a conversation ID is linked to multiple messaging sessions.  This removes entries from \"Session 1\" that were sent during \"Session 2\" and vice versa.",
+        "type" : "FILTER",
+        "top" : 112,
+        "left" : 392
+      },
+      "FILTER1" : {
+        "label" : "1 Row Per Session",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 112,
+        "left" : 812
+      },
+      "FILTER2" : {
+        "label" : "Remove Bot Agentwork",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 252,
+        "left" : 672
+      },
+      "TRANSFORM2" : {
+        "label" : "Prepare to Filter Dupes",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 252,
+        "left" : 812,
+        "graph" : {
+          "FORMULA7" : {
+            "label" : "Formula"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "FILTER3" : {
+        "label" : "Filter Dupes",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 252,
+        "left" : 952
+      },
+      "UPDATE0" : {
+        "label" : "Update 0",
+        "type" : "UPDATE",
+        "top" : 112,
+        "left" : 1092
+      },
+      "JOIN6" : {
+        "label" : "Join With Bot Originated Cases",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 112,
+        "left" : 532
+      },
+      "LOAD_DATASET6" : {
+        "label" : "Case",
+        "type" : "LOAD_DATASET",
+        "top" : 392,
+        "left" : 252,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "TRANSFORM1_copy0" : {
+        "label" : "Derive Session Info",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 112,
+        "left" : 672,
+        "graph" : {
+          "FORMULA2_copy0" : {
+            "label" : "Agent Reply to User = Engaged"
+          },
+          "FORMULA3_copy0" : {
+            "label" : "Set Session User Interaction"
+          },
+          "FORMULA6_copy0" : {
+            "label" : "Set Dupecheck Field"
+          },
+          "FORMULA8_copy0" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Create Blank Column for Update"
+          },
+          "FORMULA9_copy0" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Set Bot Results"
+          }
+        },
+        "connectors" : [ {
+          "source" : "FORMULA2_copy0",
+          "target" : "FORMULA3_copy0"
+        }, {
+          "source" : "FORMULA3_copy0",
+          "target" : "FORMULA6_copy0"
+        }, {
+          "source" : "FORMULA6_copy0",
+          "target" : "FORMULA8_copy0"
+        }, {
+          "source" : "FORMULA8_copy0",
+          "target" : "FORMULA9_copy0"
+        } ]
+      },
+      "TRANSFORM3" : {
+        "label" : "Prepare Cases",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 392,
+        "left" : 392,
+        "graph" : {
+          "FORMULA10" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          }
+        },
+        "connectors" : [ ]
+      }
+    },
+    "connectors" : [ {
+      "source" : "AGGREGATE0",
+      "target" : "JOIN1"
+    }, {
+      "source" : "JOIN3",
+      "target" : "TRANSFORM0"
+    }, {
+      "source" : "TRANSFORM0",
+      "target" : "AGGREGATE0"
+    }, {
+      "source" : "FILTER1",
+      "target" : "JOIN1"
+    }, {
+      "source" : "LOAD_DATASET2",
+      "target" : "JOIN3"
+    }, {
+      "source" : "LOAD_DATASET5",
+      "target" : "JOIN3"
+    }, {
+      "source" : "LOAD_DATASET3",
+      "target" : "JOIN5"
+    }, {
+      "source" : "JOIN5",
+      "target" : "FILTER0"
+    }, {
+      "source" : "UPDATE0",
+      "target" : "OUTPUT0"
+    }, {
+      "source" : "JOIN3",
+      "target" : "FILTER2"
+    }, {
+      "source" : "FILTER2",
+      "target" : "TRANSFORM2"
+    }, {
+      "source" : "TRANSFORM2",
+      "target" : "FILTER3"
+    }, {
+      "source" : "JOIN1",
+      "target" : "UPDATE0"
+    }, {
+      "source" : "FILTER3",
+      "target" : "UPDATE0"
+    }, {
+      "source" : "LOAD_DATASET0",
+      "target" : "JOIN5"
+    }, {
+      "source" : "FILTER0",
+      "target" : "JOIN6"
+    }, {
+      "source" : "TRANSFORM3",
+      "target" : "JOIN6"
+    }, {
+      "source" : "JOIN6",
+      "target" : "TRANSFORM1_copy0"
+    }, {
+      "source" : "TRANSFORM1_copy0",
+      "target" : "FILTER1"
+    }, {
+      "source" : "LOAD_DATASET6",
+      "target" : "TRANSFORM3"
+    } ],
+    "hiddenColumns" : [ ]
+  },
+  "runMode" : "full"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payroll_System_Integration__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Intro Call checklist item for Finch integrations</description>
+    <inlineHelpText>Intro Call checklist item for Finch integrations</inlineHelpText>
+    <label>Payroll System Integration</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

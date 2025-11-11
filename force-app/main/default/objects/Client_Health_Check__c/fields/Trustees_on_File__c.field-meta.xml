@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trustees_on_File__c</fullName>
+    <description>How many Trustees are on file?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>How many Trustees are on file? If only 1, suggest adding another.</inlineHelpText>
+    <label>Trustees on File</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

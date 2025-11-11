@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PBGC__c</fullName>
+    <description>Were all the plan assets distributed to participants or beneficiaries, transferred to another plan, or brought under the control of the PBGC?</description>
+    <inlineHelpText>Were all the plan assets distributed to participants or beneficiaries, transferred to another plan, or brought under the control of the PBGC?</inlineHelpText>
+    <label>Assets Distributed or Transferred (13b)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

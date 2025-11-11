@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Add_Spacer</name>
+        <label>Add Spacer</label>
+        <locationX>446</locationX>
+        <locationY>1019</locationY>
+        <assignmentItems>
+            <assignToReference>qaName</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Spacer</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_Value</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Add_Value</name>
+        <label>Add Value</label>
+        <locationX>358</locationX>
+        <locationY>1211</locationY>
+        <assignmentItems>
+            <assignToReference>qaName</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>NameLoop</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>NameLoop</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_CE_Name_Parts</name>
+        <label>Assign CE Name Parts</label>
+        <locationX>50</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>nameList</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>ceEmployeeName</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>nameList</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>ceType</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>nameList</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>ceDate</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>nameList</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>ceAccountName</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Spacer</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>_</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>NameLoop</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Default_Name_Parts</name>
+        <label>Assign Default Name Parts</label>
+        <locationX>314</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>nameList</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.QA_Type_Dyn__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>nameList</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>employeeName</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>nameList</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>fancyDate</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Spacer</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue> - </stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>NameLoop</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>Migrated from old process</description>
+        <name>Assign_Name_Legacy_Logic</name>
+        <label>Assign Name Legacy Logic</label>
+        <locationX>578</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>qaName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>legacyName</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Set_QA_Name</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_QA_Name</name>
+        <label>Set QA Name</label>
+        <locationX>380</locationX>
+        <locationY>1571</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>qaNameTrimmed</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Check_if_part_blank</name>
+        <label>Check if part blank</label>
+        <locationX>534</locationX>
+        <locationY>803</locationY>
+        <defaultConnector>
+            <targetReference>NameLoop</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Has_Value</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>NameLoop</leftValueReference>
+                <operator>NotEqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>First_Check</targetReference>
+            </connector>
+            <label>Has Value</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Department_Specific_Check</name>
+        <label>Department Specific Check</label>
+        <locationX>182</locationX>
+        <locationY>395</locationY>
+        <defaultConnector>
+            <targetReference>Assign_Default_Name_Parts</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Client_Experience</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Department_Dyn__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Client Experience</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_CE_Name_Parts</targetReference>
+            </connector>
+            <label>Client Experience</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>First_Check</name>
+        <label>First Check</label>
+        <locationX>358</locationX>
+        <locationY>911</locationY>
+        <defaultConnector>
+            <targetReference>Add_Spacer</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>First</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>qaName</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Add_Value</targetReference>
+            </connector>
+            <label>First</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Record_Type_Check</name>
+        <label>Record Type Check</label>
+        <locationX>380</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>Assign_Name_Legacy_Logic</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Old</defaultConnectorLabel>
+        <rules>
+            <name>Dynamic</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Dynamic</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Department_Specific_Check</targetReference>
+            </connector>
+            <label>Dynamic</label>
+        </rules>
+    </decisions>
+    <description>Added CE naming convention.  Put things into a loop to account for different standards and when parts are missing.</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>Account name derived from case if possible, else from implementation, else blank.  Spaces removed</description>
+        <name>ceAccountName</name>
+        <dataType>String</dataType>
+        <expression>SUBSTITUTE(BLANKVALUE({!$Record.Case__r.Account.Name},{!$Record.Implementation__r.Account__r.Name}),&quot; &quot;,&quot;&quot;)</expression>
+    </formulas>
+    <formulas>
+        <description>QA&apos;s date formatted as mmddyy</description>
+        <name>ceDate</name>
+        <dataType>String</dataType>
+        <expression>IF(MONTH({!$Record.Date__c})&lt;10,&quot;0&quot;,&quot;&quot;) + TEXT(MONTH({!$Record.Date__c})) +
+IF(DAY({!$Record.Date__c})&lt;10,&quot;0&quot;,&quot;&quot;) + TEXT(DAY({!$Record.Date__c})) +
+RIGHT(TEXT(YEAR({!$Record.Date__c})),2)</expression>
+    </formulas>
+    <formulas>
+        <description>Capitalized first initial + last name.  &quot;Colin Campbell&quot; becomes &quot;CCampbell&quot;</description>
+        <name>ceEmployeeName</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!$Record.Ubiquity_Employee__r.FirstName},1) +{!$Record.Ubiquity_Employee__r.LastName}</expression>
+    </formulas>
+    <formulas>
+        <description>Keeps final word from type and adds QA.  &quot;Phone Call&quot; becomes &quot;CallQA&quot;</description>
+        <name>ceType</name>
+        <dataType>String</dataType>
+        <expression>IF(CONTAINS(TEXT({!$Record.QA_Type_Dyn__c}),&quot; &quot;),
+RIGHT(TEXT({!$Record.QA_Type_Dyn__c}),FIND(&quot; &quot;, REVERSE(TEXT({!$Record.QA_Type_Dyn__c})))-1),
+TEXT({!$Record.QA_Type_Dyn__c})) + &quot;QA&quot;</expression>
+    </formulas>
+    <formulas>
+        <description>Standard employee name &quot;first last&quot;</description>
+        <name>employeeName</name>
+        <dataType>String</dataType>
+        <expression>IF(ISBLANK({!$Record.Ubiquity_Employee__r.FirstName}),&quot;&quot;,{!$Record.Ubiquity_Employee__r.FirstName} &amp; &quot; &quot;) &amp; {!$Record.Ubiquity_Employee__r.LastName}</expression>
+    </formulas>
+    <formulas>
+        <name>fancyDate</name>
+        <dataType>String</dataType>
+        <expression>IF(ISBLANK({!$Record.Date__c}),&quot;&quot;,TEXT(MONTH({!$Record.Date__c}))&amp;&quot;/&quot;&amp;TEXT(DAY({!$Record.Date__c}))&amp;&quot;/&quot;&amp;TEXT(YEAR({!$Record.Date__c})))</expression>
+    </formulas>
+    <formulas>
+        <name>legacyName</name>
+        <dataType>String</dataType>
+        <expression>IF(OR(ISPICKVAL({!$Record.QA_Type__c},&quot;Implementation&quot;),ISPICKVAL({!$Record.QA_Type__c},&quot;Operations Case&quot;),ISPICKVAL({!$Record.QA_Type__c},&quot;BI&quot;),ISPICKVAL({!$Record.QA_Type__c},&quot;Accounting&quot;),ISPICKVAL({!$Record.QA_Type__c},&quot;PRKS&quot;)),
+TEXT({!$Record.QA_Type__c}) + &quot; - &quot; + IF(ISBLANK({!employeeName}),&quot;NO EMPLOYEE&quot;,{!employeeName})  + &quot; - &quot; + TEXT({!$Record.Date__c}),
+TEXT({!$Record.QA_Type__c}) + &quot; - &quot; + IF(ISBLANK({!employeeName}),&quot;NO EMPLOYEE&quot;,{!employeeName}) + &quot; - &quot; + {!$Record.Case__r.Plan__r.Name}
+)</expression>
+    </formulas>
+    <formulas>
+        <description>Shortens the name to 80 characters if necessary</description>
+        <name>qaNameTrimmed</name>
+        <dataType>String</dataType>
+        <expression>IF(LEN({!qaName}) &gt; 80, LEFT({!qaName},77) + &quot;...&quot;, {!qaName})</expression>
+    </formulas>
+    <interviewLabel>QA | Before Save | Set Name {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>QA | Before Save | Set Name</label>
+    <loops>
+        <name>NameLoop</name>
+        <label>NameLoop</label>
+        <locationX>182</locationX>
+        <locationY>695</locationY>
+        <collectionReference>nameList</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Check_if_part_blank</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Set_QA_Name</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>254</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Record_Type_Check</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Date__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Ubiquity_Employee__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Case__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Implementation__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>QA_Type_Dyn__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Department_Dyn__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>Quality_Assurance_QA__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>nameList</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>qaName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Spacer</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

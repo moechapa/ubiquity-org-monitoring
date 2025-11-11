@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Implementations</fullName>
+    <fields>Name</fields>
+    <fields>OwnerId</fields>
+    <fields>Plan_Type__c</fields>
+    <fields>Service_Option__c</fields>
+    <fields>Partner__c</fields>
+    <fields>View_Plan_in_Paradigm__c</fields>
+    <fields>Implementation_Dashboard__c</fields>
+    <fields>Ubiquity_Plan_Effective_Date__c</fields>
+    <label>Implementations</label>
+</CompactLayout>

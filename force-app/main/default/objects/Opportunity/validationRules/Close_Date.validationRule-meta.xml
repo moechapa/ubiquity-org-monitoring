@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Date</fullName>
+    <active>false</active>
+    <description>Close Date cannot equal less than Create Date</description>
+    <errorConditionFormula>CloseDate  &lt;   DATEVALUE( CreatedDate )</errorConditionFormula>
+    <errorDisplayField>CloseDate</errorDisplayField>
+    <errorMessage>Nice try! The Close Date cannot possibly be before the record was created.</errorMessage>
+</ValidationRule>

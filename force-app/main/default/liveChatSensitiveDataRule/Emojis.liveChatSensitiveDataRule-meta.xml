@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatSensitiveDataRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionType>Remove</actionType>
+    <description>Blocks emoji shortcuts</description>
+    <enforceOn>7</enforceOn>
+    <isEnabled>true</isEnabled>
+    <pattern>(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])</pattern>
+    <priority xsi:nil="true"/>
+    <processingType xsi:nil="true"/>
+    <replacement>Test</replacement>
+    <version xsi:nil="true"/>
+</LiveChatSensitiveDataRule>

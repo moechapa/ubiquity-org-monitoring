@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blank_Custodian_Account_ID</fullName>
+    <active>true</active>
+    <description>Custodian Account ID is left blank</description>
+    <errorConditionFormula>(ISPICKVAL(  Implementation_Stage__c , &quot;Plan Sponsor Tour Completed&quot;))
+&amp;&amp;
+( ISBLANK(Custodian_Account_ID__c ) = TRUE)</errorConditionFormula>
+    <errorDisplayField>Custodian_Account_ID__c</errorDisplayField>
+    <errorMessage>Please populate the Custodian Account ID.</errorMessage>
+</ValidationRule>

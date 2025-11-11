@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Add_to_update_collection</name>
+        <label>Add to update collection</label>
+        <locationX>270</locationX>
+        <locationY>719</locationY>
+        <assignmentItems>
+            <assignToReference>props2Update</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Proposal_Loop</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Proposal_Loop</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Wipe_Proposal_Field</name>
+        <label>Wipe Proposal Field</label>
+        <locationX>270</locationX>
+        <locationY>611</locationY>
+        <assignmentItems>
+            <assignToReference>Proposal_Loop.Promo_Code__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_to_update_collection</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Wipe_This_Code</name>
+        <label>Wipe This Code</label>
+        <locationX>534</locationX>
+        <locationY>611</locationY>
+        <assignmentItems>
+            <assignToReference>Proposal_Loop.Promo_Code__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>removedPromoCode</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <isGoTo>true</isGoTo>
+            <targetReference>Add_to_update_collection</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Are_there_props_needing_update</name>
+        <label>Are there props needing update</label>
+        <locationX>182</locationX>
+        <locationY>995</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Need_prop_update</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>props2Update</leftValueReference>
+                <operator>IsEmpty</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Proposals</targetReference>
+            </connector>
+            <label>Need prop update</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_if_proposal_contains_this_promo_code</name>
+        <label>Check if proposal contains this promo code</label>
+        <locationX>534</locationX>
+        <locationY>503</locationY>
+        <defaultConnector>
+            <targetReference>Proposal_Loop</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Does not contain this code</defaultConnectorLabel>
+        <rules>
+            <name>Contains_only_this_promo_code</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Proposal_Loop.Promo_Code__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.Promo_Code__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Wipe_Proposal_Field</targetReference>
+            </connector>
+            <label>Contains only this promo code</label>
+        </rules>
+        <rules>
+            <name>Contains_Multiple_Codes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Proposal_Loop.Promo_Code__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Proposal_Loop.Promo_Code__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <elementReference>$Record.Promo_Code__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Wipe_This_Code</targetReference>
+            </connector>
+            <label>Contains Multiple Codes</label>
+        </rules>
+    </decisions>
+    <description>Removes this promotion&apos;s promo code (if present) from any proposals related to opportunity</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>Formula that removes promo code of deleted promotion from proposal field</description>
+        <name>removedPromoCode</name>
+        <dataType>String</dataType>
+        <expression>IF(
+FIND(&quot;;&quot;, {!Proposal_Loop.Promo_Code__c}, FIND({!$Record.Promo_Code__c}, {!Proposal_Loop.Promo_Code__c})) &gt; 0,
+SUBSTITUTE({!Proposal_Loop.Promo_Code__c}, {!$Record.Promo_Code__c}&amp;&quot;;&quot;, &quot;&quot;),
+SUBSTITUTE({!Proposal_Loop.Promo_Code__c}, &quot;;&quot;&amp;{!$Record.Promo_Code__c}, &quot;&quot;))</expression>
+    </formulas>
+    <interviewLabel>Opportunity Promotion | After Delete | Remove Code From Proposal {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity Promotion | After Delete | Remove Code From Proposal</label>
+    <loops>
+        <name>Proposal_Loop</name>
+        <label>Proposal Loop</label>
+        <locationX>182</locationX>
+        <locationY>395</locationY>
+        <collectionReference>Get_Related_Proposals</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Check_if_proposal_contains_this_promo_code</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Are_there_props_needing_update</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Related_Proposals</name>
+        <label>Get Related Proposals</label>
+        <locationX>182</locationX>
+        <locationY>287</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Proposal_Loop</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Opportunity__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Opportunity__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Proposal__c</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Promo_Code__c</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Proposals</name>
+        <label>Update Proposals</label>
+        <locationX>50</locationX>
+        <locationY>1103</locationY>
+        <inputReference>props2Update</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Related_Proposals</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Opportunity__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Promo_Code__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Opportunity_Promotion__c</object>
+        <recordTriggerType>Delete</recordTriggerType>
+        <triggerType>RecordBeforeDelete</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>props2Update</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Proposal__c</objectType>
+    </variables>
+</Flow>

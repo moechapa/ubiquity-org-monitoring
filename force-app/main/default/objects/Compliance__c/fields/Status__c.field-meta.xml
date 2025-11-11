@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Started</fullName>
+                <default>false</default>
+                <label>Not Started</label>
+            </value>
+            <value>
+                <fullName>Started</fullName>
+                <default>false</default>
+                <label>Started</label>
+            </value>
+            <value>
+                <fullName>Under Review</fullName>
+                <default>false</default>
+                <label>Under Review</label>
+            </value>
+            <value>
+                <fullName>Testing Complete - Action Required</fullName>
+                <default>false</default>
+                <label>Testing Complete - Action Required</label>
+            </value>
+            <value>
+                <fullName>Testing Complete - No Action Required</fullName>
+                <default>false</default>
+                <label>Testing Complete - No Action Required</label>
+            </value>
+            <value>
+                <fullName>Testing Complete - Corrective Measures Taken</fullName>
+                <default>false</default>
+                <label>Testing Complete - Corrective Measures Taken</label>
+            </value>
+            <value>
+                <fullName>Test Complete and Available</fullName>
+                <default>false</default>
+                <label>Test Complete and Available</label>
+            </value>
+            <value>
+                <fullName>Not Top Heavy</fullName>
+                <default>false</default>
+                <label>Not Top Heavy</label>
+            </value>
+            <value>
+                <fullName>Top Heavy</fullName>
+                <default>false</default>
+                <label>Top Heavy</label>
+            </value>
+            <value>
+                <fullName>Fail</fullName>
+                <default>false</default>
+                <label>Fail</label>
+            </value>
+            <value>
+                <fullName>Deemed</fullName>
+                <default>false</default>
+                <label>Deemed</label>
+            </value>
+            <value>
+                <fullName>Pass</fullName>
+                <default>false</default>
+                <label>Pass</label>
+            </value>
+            <value>
+                <fullName>Invitation to File Sent</fullName>
+                <default>false</default>
+                <label>Invitation to File Sent</label>
+            </value>
+            <value>
+                <fullName>Reminder Sent</fullName>
+                <default>false</default>
+                <label>Reminder Sent</label>
+            </value>
+            <value>
+                <fullName>Filed</fullName>
+                <default>false</default>
+                <label>Filed</label>
+            </value>
+            <value>
+                <fullName>Delivered to Client</fullName>
+                <default>false</default>
+                <label>Delivered to Client</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

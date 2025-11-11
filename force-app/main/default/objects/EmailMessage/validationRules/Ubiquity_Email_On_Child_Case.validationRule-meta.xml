@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ubiquity_Email_On_Child_Case</fullName>
+    <active>false</active>
+    <description>Doesn&apos;t currently work - Salesforce can&apos;t check CreatedBy vs ParentOwner.
+Idea was to allow non UBQT emails on child cases ONLY if creator of email = owner of case</description>
+    <errorConditionFormula>NOT(ISBLANK( Parent.ParentId ))
+&amp;&amp; 
+(  CreatedById  &lt;&gt; Parent.OwnerId  )  
+&amp;&amp;
+(
+(NOT(CONTAINS( ToAddress , &apos;ubiquity.com&apos;)) &amp;&amp; NOT(ISBLANK( ToAddress )))
+||
+(NOT(CONTAINS(  CcAddress , &apos;ubiquity.com&apos;)) &amp;&amp; NOT(ISBLANK( CcAddress)))
+||
+(NOT(CONTAINS( BccAddress , &apos;ubiquity.com&apos;)) &amp;&amp; NOT(ISBLANK( BccAddress)))
+)</errorConditionFormula>
+    <errorMessage>Emails on child cases should only be sent to other Ubiquity email addresses,</errorMessage>
+</ValidationRule>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payroll_Provider__c</fullName>
+    <description>If Payroll Providers are in dropdown they integrate with Ubiquity.</description>
+    <inlineHelpText>If Payroll Providers are in dropdown they integrate with Ubiquity.</inlineHelpText>
+    <label>Payroll Provider</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Insperity</fullName>
+                <default>false</default>
+                <label>Insperity</label>
+            </value>
+            <value>
+                <fullName>Algentis</fullName>
+                <default>false</default>
+                <label>Algentis</label>
+            </value>
+            <value>
+                <fullName>Accuchex</fullName>
+                <default>false</default>
+                <label>Accuchex</label>
+            </value>
+            <value>
+                <fullName>Namely</fullName>
+                <default>false</default>
+                <label>Namely</label>
+            </value>
+            <value>
+                <fullName>Justworks</fullName>
+                <default>false</default>
+                <label>Justworks</label>
+            </value>
+            <value>
+                <fullName>California Payroll</fullName>
+                <default>false</default>
+                <label>California Payroll</label>
+            </value>
+            <value>
+                <fullName>Baron Paryoll</fullName>
+                <default>false</default>
+                <label>Baron Paryoll</label>
+            </value>
+            <value>
+                <fullName>ASAP Accounting and Payroll, Inc.</fullName>
+                <default>false</default>
+                <label>ASAP Accounting and Payroll, Inc.</label>
+            </value>
+            <value>
+                <fullName>ePay Business Solutions</fullName>
+                <default>false</default>
+                <label>ePay Business Solutions</label>
+            </value>
+            <value>
+                <fullName>Press Gold Group</fullName>
+                <default>false</default>
+                <label>Press Gold Group</label>
+            </value>
+            <value>
+                <fullName>Other Payroll Provider (write in)</fullName>
+                <default>false</default>
+                <label>Other Payroll Provider (write in)</label>
+            </value>
+            <value>
+                <fullName>Gusto</fullName>
+                <default>false</default>
+                <label>Gusto</label>
+            </value>
+            <value>
+                <fullName>RunPowered by ADP</fullName>
+                <default>false</default>
+                <label>RunPowered by ADP</label>
+            </value>
+            <value>
+                <fullName>QuickbooksOnline Payroll</fullName>
+                <default>false</default>
+                <label>QuickbooksOnline Payroll</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

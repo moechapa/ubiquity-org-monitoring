@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <description>What is status of this transition request?</description>
+    <inlineHelpText>What is status of this transition request?</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Initial_Questionnaire_Sent</fullName>
+                <default>false</default>
+                <label>Initial Questionnaire Sent</label>
+            </value>
+            <value>
+                <fullName>Save in Process</fullName>
+                <default>false</default>
+                <label>Save in Process</label>
+            </value>
+            <value>
+                <fullName>Saved</fullName>
+                <default>false</default>
+                <label>Saved</label>
+            </value>
+            <value>
+                <fullName>Final Questionnaire Sent</fullName>
+                <default>false</default>
+                <label>Final Questionnaire Sent</label>
+            </value>
+            <value>
+                <fullName>DocuSign in Progress</fullName>
+                <default>false</default>
+                <label>DocuSign in Progress</label>
+            </value>
+            <value>
+                <fullName>Transition Processes in Progress</fullName>
+                <default>false</default>
+                <label>Transition Processes in Progress</label>
+            </value>
+            <value>
+                <fullName>Final Valuation Complete</fullName>
+                <default>false</default>
+                <label>Final Valuation Complete</label>
+            </value>
+            <value>
+                <fullName>Plan in Blackout</fullName>
+                <default>false</default>
+                <label>Plan in Blackout</label>
+            </value>
+            <value>
+                <fullName>Force Outs in Progress</fullName>
+                <default>false</default>
+                <label>Force Outs in Progress</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Transition Complete</fullName>
+                <default>false</default>
+                <label>Transition Complete</label>
+            </value>
+            <value>
+                <fullName>Complete</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Complete</label>
+            </value>
+            <value>
+                <fullName>Final Clear Outs in Progress</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Final Clear Outs in Progress</label>
+            </value>
+            <value>
+                <fullName>Final Form 5500 in Progress</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Final Form 5500 in Progress</label>
+            </value>
+            <value>
+                <fullName>Initial Questionnaire Sent</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Initial Questionnaire Sent</label>
+            </value>
+            <value>
+                <fullName>Inquired</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Inquired</label>
+            </value>
+            <value>
+                <fullName>Notified</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Notified</label>
+            </value>
+            <value>
+                <fullName>Pending</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pending</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

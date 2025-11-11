@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Successful_Send_Off__c</fullName>
+    <description>Did the representative use a proper closing, i.e., offered additional assistance, thanked them for calling (where applicable)?</description>
+    <inlineHelpText>Did the representative use a proper closing, i.e., offered additional assistance, thanked them for calling (where applicable)?</inlineHelpText>
+    <label>Successful Send-Off</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>QA</valueSetName>
+    </valueSet>
+</CustomField>

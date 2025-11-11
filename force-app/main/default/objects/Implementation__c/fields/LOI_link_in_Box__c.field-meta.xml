@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LOI_link_in_Box__c</fullName>
+    <description>Enter box link for LOI</description>
+    <inlineHelpText>Enter box link for LOI</inlineHelpText>
+    <label>LOI link in Box</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

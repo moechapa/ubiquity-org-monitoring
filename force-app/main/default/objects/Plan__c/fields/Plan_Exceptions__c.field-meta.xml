@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Exceptions__c</fullName>
+    <description>Use this field to note any exceptions to the plan/plan provisions</description>
+    <inlineHelpText>Use this field to note any exceptions to the plan/plan provisions</inlineHelpText>
+    <label>Plan Exceptions</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

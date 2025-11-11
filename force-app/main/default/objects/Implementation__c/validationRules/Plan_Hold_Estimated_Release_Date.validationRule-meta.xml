@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Hold_Estimated_Release_Date</fullName>
+    <active>true</active>
+    <description>Requires Estimated Release Date when a plan is put on hold</description>
+    <errorConditionFormula>NOT(ISBLANK(Plan_Hold_Date__c))
+&amp;&amp;
+ISBLANK( Estimated_Plan_Release_Date__c )</errorConditionFormula>
+    <errorDisplayField>Estimated_Plan_Release_Date__c</errorDisplayField>
+    <errorMessage>To place a plan on hold, please confirm &quot;Estimated Plan Release Date&quot;</errorMessage>
+</ValidationRule>

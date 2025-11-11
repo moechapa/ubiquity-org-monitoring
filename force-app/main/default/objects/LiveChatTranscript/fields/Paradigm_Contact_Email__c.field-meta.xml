@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Paradigm_Contact_Email__c</fullName>
+    <description>Contact email passed in from Paradigm when chat starts</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Contact email passed in from Paradigm when chat starts</inlineHelpText>
+    <label>Paradigm Contact Email</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

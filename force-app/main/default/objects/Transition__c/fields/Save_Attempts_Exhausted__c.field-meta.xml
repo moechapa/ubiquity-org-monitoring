@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Save_Attempts_Exhausted__c</fullName>
+    <description>Date at which all save attempts have been exhausted and transition will move forward.</description>
+    <inlineHelpText>Date at which all save attempts have been exhausted and transition will move forward.</inlineHelpText>
+    <label>Save Attempts Exhausted</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

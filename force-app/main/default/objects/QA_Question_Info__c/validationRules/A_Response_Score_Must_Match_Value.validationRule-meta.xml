@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>A_Response_Score_Must_Match_Value</fullName>
+    <active>true</active>
+    <description>At least one of the responses must match the total score value</description>
+    <errorConditionFormula>ISPICKVAL(Type__c, &quot;Standard&quot;) &amp;&amp;
+NOT(Response_1_Score__c/100 =  Score_Value__c ||
+Response_2_Score__c/100 =  Score_Value__c ||
+Response_3_Score__c/100 =  Score_Value__c ||
+Response_4_Score__c/100 =  Score_Value__c)</errorConditionFormula>
+    <errorMessage>At least one of the responses must match the total score value</errorMessage>
+</ValidationRule>

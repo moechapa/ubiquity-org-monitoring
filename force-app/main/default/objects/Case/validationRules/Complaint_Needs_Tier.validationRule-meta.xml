@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Complaint_Needs_Tier</fullName>
+    <active>true</active>
+    <errorConditionFormula>Complaint__c 
+&amp;&amp;
+ ISBLANK(TEXT(Complaint_Tier__c))</errorConditionFormula>
+    <errorDisplayField>Complaint_Tier__c</errorDisplayField>
+    <errorMessage>Please select a complaint tier</errorMessage>
+</ValidationRule>

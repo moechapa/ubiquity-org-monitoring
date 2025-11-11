@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_to_Assets_Reporting_KPI__c</fullName>
+    <description>Days from Blackout Start Date to Final Reporting Received</description>
+    <externalId>false</externalId>
+    <formula>IF(ISNULL(  Final_Reporting_Received__c  ), TODAY()-  Blackout_Start_Date__c  ,  Final_Reporting_Received__c  -  Blackout_Start_Date__c )</formula>
+    <inlineHelpText>Days from Blackout Start Date to Final Reporting Received</inlineHelpText>
+    <label>Time to Assets &amp; Reporting KPI</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

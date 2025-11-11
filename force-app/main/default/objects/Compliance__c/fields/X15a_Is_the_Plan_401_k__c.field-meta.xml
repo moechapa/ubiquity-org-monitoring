@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X15a_Is_the_Plan_401_k__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Is the plan a 401(k) plan?</description>
+    <inlineHelpText>Is the plan a 401(k) plan?</inlineHelpText>
+    <label>Is the Plan 401(k) (15a)</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

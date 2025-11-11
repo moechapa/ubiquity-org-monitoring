@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Created_Week__c</fullName>
+    <externalId>false</externalId>
+    <formula>FLOOR(
+(DATEVALUE(CreatedDate) -
+DATE(YEAR(DATEVALUE(CreatedDate) -
+WEEKDAY(DATEVALUE(CreatedDate)-1)+4),1,3)+
+
+WEEKDAY(DATE(YEAR(DATEVALUE(CreatedDate) -
+WEEKDAY(DATEVALUE(CreatedDate)-1)+4),1,3))+5)/7
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Created Week</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand__c</fullName>
+    <description>Used to drive Branding on client facing status site.</description>
+    <inlineHelpText>Used to drive Branding on client facing status site.</inlineHelpText>
+    <label>Brand</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ubiquity Retirement + Savings</fullName>
+                <default>false</default>
+                <label>Ubiquity Retirement + Savings</label>
+            </value>
+            <value>
+                <fullName>Simply Retirement</fullName>
+                <default>false</default>
+                <label>Simply Retirement</label>
+            </value>
+            <value>
+                <fullName>Sallus Retirement</fullName>
+                <default>false</default>
+                <label>Sallus Retirement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

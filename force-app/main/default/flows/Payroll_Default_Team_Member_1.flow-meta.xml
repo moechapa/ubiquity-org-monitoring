@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>myRule_1</name>
+        <label>Payroll Case Brian</label>
+        <locationX>313</locationX>
+        <locationY>323</locationY>
+        <defaultConnector>
+            <targetReference>myRule_3</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Payroll Case Brian</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_1</name>
+            <conditionLogic>7 AND 9 AND (1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 8)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>Payroll Reject - Errors</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>Payroll Reject - Corrections</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>Payroll Reject - Failures</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>Census Reject - Errors</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>Census Reject - Corrections</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>Census Reject - Failures</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.OwnerId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00537000002STLDAA4</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SuppliedEmail</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>SCASCIO@myubiquity.com</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Team_Member__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Patricia Parisi</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_A1</targetReference>
+            </connector>
+            <label>TRUE_Payroll Case Brian</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_11</name>
+        <label>Reminder Task Stormy</label>
+        <locationX>1633</locationX>
+        <locationY>863</locationY>
+        <defaultConnector>
+            <targetReference>myRule_13</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Reminder Task Stormy</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_11</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.OwnerId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00537000002STLDAA4</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>REMINDER:</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Description</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Stormy</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_11_A1</targetReference>
+            </connector>
+            <label>TRUE_Reminder Task Stormy</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_13</name>
+        <label>Reminder Task Sonia</label>
+        <locationX>1897</locationX>
+        <locationY>971</locationY>
+        <defaultConnector>
+            <targetReference>myRule_15</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Reminder Task Sonia</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_13</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.OwnerId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00537000002STLDAA4</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>REMINDER:</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Description</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Sonia</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_13_A1</targetReference>
+            </connector>
+            <label>TRUE_Reminder Task Sonia</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_15</name>
+        <label>Reminder Task Sue</label>
+        <locationX>2161</locationX>
+        <locationY>1079</locationY>
+        <defaultConnector>
+            <targetReference>myRule_17</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Reminder Task Sue</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_15</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.OwnerId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00537000002STLDAA4</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>REMINDER:</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Description</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Sue</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_15_A1</targetReference>
+            </connector>
+            <label>TRUE_Reminder Task Sue</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_17</name>
+        <label>Funding Account Changed</label>
+        <locationX>2424</locationX>
+        <locationY>1187</locationY>
+        <defaultConnector>
+            <targetReference>myRule_19</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Funding Account Changed</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_17</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>[UBIQUITY]</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EndsWith</operator>
+                <rightValue>
+                    <stringValue>Ticket Opened</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Description</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Funding</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.OwnerId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00537000002STLDAA4</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_17_A1</targetReference>
+            </connector>
+            <label>TRUE_Funding Account Changed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_19</name>
+        <label>Adjustment Case</label>
+        <locationX>2687</locationX>
+        <locationY>1295</locationY>
+        <defaultConnector>
+            <targetReference>myRule_22</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Adjustment Case</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_19</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Original_Plan_Year__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_19_A1</targetReference>
+            </connector>
+            <label>TRUE_Adjustment Case</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_22</name>
+        <label>Fund Family Change</label>
+        <locationX>2949</locationX>
+        <locationY>1403</locationY>
+        <defaultConnector>
+            <targetReference>myRule_24</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Fund Family Change</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_22</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SuppliedEmail</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>mscsfundupdate@broadridge.com</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_22_A1</targetReference>
+            </connector>
+            <label>TRUE_Fund Family Change</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_24</name>
+        <label>Pay Kon Future Call</label>
+        <locationX>3209</locationX>
+        <locationY>1511</locationY>
+        <defaultConnector>
+            <targetReference>myRule_26</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Pay Kon Future Call</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_24</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Payroll Koncierge</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pending Future Call</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_24_A1</targetReference>
+            </connector>
+            <label>TRUE_Pay Kon Future Call</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_26</name>
+        <label>Schedule A Call</label>
+        <locationX>3465</locationX>
+        <locationY>1619</locationY>
+        <defaultConnector>
+            <targetReference>myRule_28</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Schedule A Call</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_26</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Payroll Koncierge</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Welcome to Ubiquity’s Payroll (K)oncierge</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_26_A1</targetReference>
+            </connector>
+            <label>TRUE_Schedule A Call</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_28</name>
+        <label>PayKon Int Inquiry</label>
+        <locationX>3713</locationX>
+        <locationY>1727</locationY>
+        <defaultConnector>
+            <targetReference>myRule_30</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_PayKon Int Inquiry</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_28</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Payroll Integration Inquiry</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Payroll Koncierge</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SuppliedEmail</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>@calendly</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_28_A1</targetReference>
+            </connector>
+            <label>TRUE_PayKon Int Inquiry</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_3</name>
+        <label>Payroll Case Stormy</label>
+        <locationX>577</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>myRule_5</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Payroll Case Stormy</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_3</name>
+            <conditionLogic>(1 OR 17) AND 6 AND (2 OR 3 OR 4 OR 5 OR 7 OR 8 OR 9 OR 10 OR 11 OR 12 OR 13 OR 14 OR 15) AND NOT 16</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.OwnerId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00537000002STLD</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>New Enhanced Payroll Service sold to</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>Run ADP Temp Credentials</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>RUN Powered by ADP</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SuppliedEmail</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>MSRICA@myubiquity.com</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Team_Member__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Stormy Bearry</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Report &apos;EPS tasks - current week&apos;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Report &apos;EPS aged tasks&apos;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Report &apos;Closed Won EPS Opportunities&apos;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Report &apos;Closed won EPS opp&apos;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Report &apos;EPS Aged Tasks&apos;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Report &apos;EPS Current Tasks&apos;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SuppliedEmail</leftValueReference>
+                <operator>EndsWith</operator>
+                <rightValue>
+                    <stringValue>@gusto.com</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SuppliedEmail</leftValueReference>
+                <operator>EndsWith</operator>
+                <rightValue>
+                    <stringValue>@adp.com</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SuppliedEmail</leftValueReference>
+                <operator>EndsWith</operator>
+                <rightValue>
+                    <stringValue>@paychex.com</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Description</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>From: Kotapay</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.OwnerId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00537000002STLD</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_3_A1</targetReference>
+            </connector>
+            <label>TRUE_Payroll Case Stormy</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_30</name>
+        <label>PayKon Calendly</label>
+        <locationX>3944</locationX>
+        <locationY>1835</locationY>
+        <defaultConnector>
+            <targetReference>myRule_32</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_PayKon Calendly</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_30</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Payroll Koncierge</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SuppliedEmail</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>@calendly</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_30_A1</targetReference>
+            </connector>
+            <label>TRUE_PayKon Calendly</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_32</name>
+        <label>Follow Up/1st Payroll Submitted</label>
+        <locationX>4142</locationX>
+        <locationY>1943</locationY>
+        <defaultConnectorLabel>FALSE_Follow Up/1st Payroll Submitted</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_32</name>
+            <conditionLogic>(1 OR 2) AND 3</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>1st Payroll Submitted for Implementation</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue> Case Follow Up with </stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.OwnerId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00537000002STLD</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_32_A1</targetReference>
+            </connector>
+            <label>TRUE_Follow Up/1st Payroll Submitted</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_5</name>
+        <label>Kotapay Case Received</label>
+        <locationX>841</locationX>
+        <locationY>539</locationY>
+        <defaultConnector>
+            <targetReference>myRule_7</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Kotapay Case Received</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_5</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Description</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>From: Kotapay</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.OwnerId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00537000002STLDAA4</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_5_A1</targetReference>
+            </connector>
+            <label>TRUE_Kotapay Case Received</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_7</name>
+        <label>Reminder Task Brian</label>
+        <locationX>1105</locationX>
+        <locationY>647</locationY>
+        <defaultConnector>
+            <targetReference>myRule_9</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Reminder Task Brian</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_7</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.OwnerId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00537000002STLDAA4</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>REMINDER:</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Description</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Brian</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_7_A1</targetReference>
+            </connector>
+            <label>TRUE_Reminder Task Brian</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>myRule_9</name>
+        <label>Reminder Task Pattie</label>
+        <locationX>1369</locationX>
+        <locationY>755</locationY>
+        <defaultConnector>
+            <targetReference>myRule_11</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>FALSE_Reminder Task Pattie</defaultConnectorLabel>
+        <rules>
+            <name>TRUE_myRule_9</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.OwnerId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>00537000002STLDAA4</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>REMINDER:</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Description</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Pattie</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_9_A1</targetReference>
+            </connector>
+            <label>TRUE_Reminder Task Pattie</label>
+        </rules>
+    </decisions>
+    <description>Migrated from the Payroll | Default Team Member process using multiple criteria.
+Default Team Member for Payroll &amp; FinOps value based on certain Subject values</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>formula_1_myRule_19_A1_9233952008</name>
+        <dataType>String</dataType>
+        <expression>&quot;Advisory Fees for &quot; + {!$Record.Account.Name}</expression>
+    </formulas>
+    <label>Payroll | Default Team Member_1</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>myRule_11_A1</name>
+        <label>Team Member Stormy</label>
+        <locationX>1370</locationX>
+        <locationY>971</locationY>
+        <inputAssignments>
+            <field>Team_Member__c</field>
+            <value>
+                <stringValue>Stormy Bearry</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_13_A1</name>
+        <label>Team Member Sonia</label>
+        <locationX>1634</locationX>
+        <locationY>1079</locationY>
+        <inputAssignments>
+            <field>Team_Member__c</field>
+            <value>
+                <stringValue>Sonia Boily</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_15_A1</name>
+        <label>Team Member Sue</label>
+        <locationX>1898</locationX>
+        <locationY>1187</locationY>
+        <inputAssignments>
+            <field>Team_Member__c</field>
+            <value>
+                <stringValue>Sue Cascio</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_17_A1</name>
+        <label>Team Member | Cat | SubCat</label>
+        <locationX>2162</locationX>
+        <locationY>1295</locationY>
+        <inputAssignments>
+            <field>Category__c</field>
+            <value>
+                <stringValue>Deposits</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Sub_Category__c</field>
+            <value>
+                <stringValue>Funding Account Updates</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Team_Member__c</field>
+            <value>
+                <stringValue>Patricia Parisi</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_19_A1</name>
+        <label>Adjustment to Dave Y</label>
+        <locationX>2426</locationX>
+        <locationY>1403</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Adjustment_Type__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Post Advisor Fees</stringValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Category__c</field>
+            <value>
+                <stringValue>Advisor Payments</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <stringValue>005Ho00000AnvFJ</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>formula_1_myRule_19_A1_9233952008</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Team_Member__c</field>
+            <value>
+                <stringValue>David Yanagita</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_1_A1</name>
+        <label>Team Member Brian</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <inputAssignments>
+            <field>Team_Member__c</field>
+            <value>
+                <stringValue>Liz Ohlhausen</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_22_A1</name>
+        <label>Case to Drew</label>
+        <locationX>2690</locationX>
+        <locationY>1511</locationY>
+        <inputAssignments>
+            <field>Team_Member__c</field>
+            <value>
+                <stringValue>Drew Petit</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_24_A1</name>
+        <label>Case to Brian</label>
+        <locationX>2954</locationX>
+        <locationY>1619</locationY>
+        <inputAssignments>
+            <field>Team_Member__c</field>
+            <value>
+                <stringValue>Brian Britt</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_26_A1</name>
+        <label>Case to Melissa</label>
+        <locationX>3218</locationX>
+        <locationY>1727</locationY>
+        <inputAssignments>
+            <field>Category__c</field>
+            <value>
+                <stringValue>Scheduled Calls</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Sub_Category__c</field>
+            <value>
+                <stringValue>Initial Call</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_28_A1</name>
+        <label>Case to Aaron</label>
+        <locationX>3482</locationX>
+        <locationY>1835</locationY>
+        <inputAssignments>
+            <field>Category__c</field>
+            <value>
+                <stringValue>FYI</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Assigned</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Team_Member__c</field>
+            <value>
+                <stringValue>Aaron Fekete</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_30_A1</name>
+        <label>Case Update</label>
+        <locationX>3746</locationX>
+        <locationY>1943</locationY>
+        <inputAssignments>
+            <field>Category__c</field>
+            <value>
+                <stringValue>FYI</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Pending Future Call</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Team_Member__c</field>
+            <value>
+                <stringValue>Aaron Fekete</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_32_A1</name>
+        <label>Case to Aaron</label>
+        <locationX>4010</locationX>
+        <locationY>2051</locationY>
+        <inputAssignments>
+            <field>Team_Member__c</field>
+            <value>
+                <stringValue>Aaron Fekete</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_3_A1</name>
+        <label>Team Member Stormy</label>
+        <locationX>314</locationX>
+        <locationY>539</locationY>
+        <connector>
+            <targetReference>myRule_3_A3</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Assigned</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Team_Member__c</field>
+            <value>
+                <stringValue>Stormy Bearry</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_3_A3</name>
+        <label>EPS Category</label>
+        <locationX>314</locationX>
+        <locationY>647</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Subject</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Report &apos;EPS Current Tasks&apos;</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Subject</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Report &apos;EPS Aged Tasks&apos;</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Subject</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Report &apos;closed won EPS opp&apos;</stringValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Category__c</field>
+            <value>
+                <stringValue>Enhanced Payroll Services</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_5_A1</name>
+        <label>Case to Pattie</label>
+        <locationX>578</locationX>
+        <locationY>647</locationY>
+        <inputAssignments>
+            <field>Team_Member__c</field>
+            <value>
+                <stringValue>Patricia Parisi</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_7_A1</name>
+        <label>Team Member Brian</label>
+        <locationX>842</locationX>
+        <locationY>755</locationY>
+        <inputAssignments>
+            <field>Team_Member__c</field>
+            <value>
+                <stringValue>Brian Britt</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>myRule_9_A1</name>
+        <label>Team Member Pattie</label>
+        <locationX>1106</locationX>
+        <locationY>863</locationY>
+        <inputAssignments>
+            <field>Team_Member__c</field>
+            <value>
+                <stringValue>Patricia Parisi</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>187</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>myRule_1</targetReference>
+        </connector>
+        <object>Case</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

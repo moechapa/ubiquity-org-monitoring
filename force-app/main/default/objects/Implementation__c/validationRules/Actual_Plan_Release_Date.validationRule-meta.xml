@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_Plan_Release_Date</fullName>
+    <active>false</active>
+    <description>Requires Actual Plan Release Date when plan is taken off of hold</description>
+    <errorConditionFormula>AND(NOT( ISPICKVAL( Implementation_Status__c , &quot;On Hold&quot;))
+,Plan_Hold_Date__c &gt; DATE(1900,01,01)
+,ISBLANK(Actual_Plan_Release_Date__c))</errorConditionFormula>
+    <errorDisplayField>Actual_Plan_Release_Date__c</errorDisplayField>
+    <errorMessage>Verify &quot;Actual Plan Release Date&quot; for when plan left Hold status</errorMessage>
+</ValidationRule>

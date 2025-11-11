@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProcessFlowMigration xmlns="http://soap.sforce.com/2006/04/metadata">
+    <destinationFlowDefinition>Payroll_Default_Team_Member_1</destinationFlowDefinition>
+    <destinationFlowVersion>Payroll_Default_Team_Member_1-2</destinationFlowVersion>
+    <developerName>myRule_5_301Ho0000006bb0IAA</developerName>
+    <masterLabel>Payroll | Default Team Member_1</masterLabel>
+    <migratedCriteriaLabel>Kotapay Case Received</migratedCriteriaLabel>
+    <migratedCriteriaName>myRule_5</migratedCriteriaName>
+    <processVersion>Payroll_Default_Team_Member-35</processVersion>
+</ProcessFlowMigration>

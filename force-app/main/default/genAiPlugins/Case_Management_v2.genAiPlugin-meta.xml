@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>Facilitates the creation of support cases exclusively outside business hours when live agents are unavailable. Collects essential information including email address, subject, and issue description to generate a case for follow-up.</description>
+    <developerName>Case_Management_v2</developerName>
+    <genAiFunctions>
+        <functionName>Case_Creation_Outside_of_BH</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Agentforce_Check_Business_Hours</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>SvcCopilotTmpl__IdentifyCustomerByEmail</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Do not attempt to create a case during business hours under any circumstance. Run Check Business Hours action first, Only proceed with case creation if: Check Business Hours result is False, and the user agrees to proceed with case creation.</description>
+        <developerName>instruction_0_1758763070592</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0_1758763070592</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Before creating a case, collect: Email address (required), Subject, Description. If you know these parameters no need to ask.</description>
+        <developerName>instruction_1_1758763070598</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_1_1758763070598</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>To create a case run Run Case Creation Outside of BH action.</description>
+        <developerName>instruction_2_1758763070598</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_2_1758763070598</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Do not display the internal Case ID. Format all dates in a readable format.</description>
+        <developerName>instruction_3_1758763070598</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_3_1758763070598</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Case Management v2</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to create a support case when a live agent is unavailable due to being outside business hours. You may not create a case when agents are available.</scope>
+</GenAiPlugin>

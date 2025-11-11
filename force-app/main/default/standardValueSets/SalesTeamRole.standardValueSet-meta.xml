@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Strategic Alliance Manger</fullName>
+        <default>false</default>
+        <label>Strategic Alliance Manger</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Support Manger</fullName>
+        <default>false</default>
+        <label>Partner Support Manger</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Marketing</fullName>
+        <default>false</default>
+        <label>Partner Marketing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partnership Workflow</fullName>
+        <default>false</default>
+        <label>Partnership Workflow</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Biz Dev Lead</fullName>
+        <default>false</default>
+        <label>Biz Dev Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Account Manager</fullName>
+        <default>false</default>
+        <label>Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Channel Manager</fullName>
+        <default>false</default>
+        <label>Channel Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Executive Sponsor</fullName>
+        <default>false</default>
+        <label>Executive Sponsor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lead Qualifier</fullName>
+        <default>false</default>
+        <label>Lead Qualifier</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pre-Sales Consultant</fullName>
+        <default>false</default>
+        <label>Pre-Sales Consultant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Manager</fullName>
+        <default>false</default>
+        <label>Sales Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Rep</fullName>
+        <default>false</default>
+        <label>Sales Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contract Negotiation/Legal</fullName>
+        <default>false</default>
+        <label>Contract Negotiation/Legal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Development</fullName>
+        <default>false</default>
+        <label>Product Development</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vendor Review Owner</fullName>
+        <default>false</default>
+        <label>Vendor Review Owner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contract Owner</fullName>
+        <default>false</default>
+        <label>Contract Owner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invoice Approver</fullName>
+        <default>false</default>
+        <label>Invoice Approver</label>
+    </standardValue>
+</StandardValueSet>

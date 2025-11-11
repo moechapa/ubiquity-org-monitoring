@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_ACH_Fee_Waivers</fullName>
+    <active>true</active>
+    <description>Non-ACH plans cannot have both the Indefinite Waiver checkbox AND the Wavier Expiration field selected at the same time.   It&apos;s either waived indefinitely OR there&apos;s an expiration date to the fee</description>
+    <errorConditionFormula>Non_ACH_Fee_Waived_Indefinitely__c = TRUE
+&amp;&amp;
+ NOT(ISNULL(Non_ACH_Fee_Waiver_Expiration__c ))</errorConditionFormula>
+    <errorDisplayField>Non_ACH_Fee_Waived_Indefinitely__c</errorDisplayField>
+    <errorMessage>Non-ACH fee indefinite waiver and waiver expiration date cannot both be selected.   Set it for one or the other.</errorMessage>
+</ValidationRule>

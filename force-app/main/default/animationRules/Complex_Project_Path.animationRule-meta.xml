@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>always</animationFrequency>
+    <developerName>Complex_Project_Path</developerName>
+    <isActive>true</isActive>
+    <masterLabel>Complex Project Path</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>Standard_Project</recordTypeName>
+    <sobjectType>Complex_Project__c</sobjectType>
+    <targetField>Phase__c</targetField>
+    <targetFieldChangeToValues>Complete</targetFieldChangeToValues>
+</AnimationRule>

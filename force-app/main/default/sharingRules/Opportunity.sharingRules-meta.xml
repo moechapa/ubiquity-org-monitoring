@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>BusinessDevelopmentA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Business DevelopmentA</label>
+        <sharedTo>
+            <role>BusinessDevelopment</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>SalesTeam</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>PartnershipManagerA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Partnership ManagerA</label>
+        <sharedTo>
+            <role>PartnershipManager</role>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SalesTeam252821</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Sales Team</label>
+        <sharedTo>
+            <group>SalesTeam</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

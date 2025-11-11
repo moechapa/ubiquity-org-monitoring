@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deconversion_Email_Sent__c</fullName>
+    <description>Date Deconversion Email sent to Plan Sponsor</description>
+    <inlineHelpText>Please select the date the Deconversion Email was sent to the Plan Sponsor</inlineHelpText>
+    <label>Deconversion Information Sent</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

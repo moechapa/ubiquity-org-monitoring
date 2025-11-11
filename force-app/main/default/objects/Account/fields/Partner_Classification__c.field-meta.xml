@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Classification__c</fullName>
+    <inlineHelpText>TERRITORY: Small accounts operating only within a defined territory.
+GROWTH: Accounts with national presence and ability to sell nationwide. BD Manages full relationship until account grows into Strategic.
+STRATEGIC: Large national accounts with significant sales potential. Requires BD support at both national and regional levels.</inlineHelpText>
+    <label>Partner Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Territory</fullName>
+                <default>false</default>
+                <label>Territory</label>
+            </value>
+            <value>
+                <fullName>Growth</fullName>
+                <default>false</default>
+                <label>Growth</label>
+            </value>
+            <value>
+                <fullName>Strategic</fullName>
+                <default>false</default>
+                <label>Strategic</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

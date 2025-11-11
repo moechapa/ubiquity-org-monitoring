@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enhanced_Payroll_Services_Type__c</fullName>
+    <description>Level of Enhanced Payroll Services</description>
+    <inlineHelpText>Level of Enhanced Payroll Services</inlineHelpText>
+    <label>Enhanced Payroll Services Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Payroll</fullName>
+                <default>false</default>
+                <label>Payroll</label>
+            </value>
+            <value>
+                <fullName>Payroll + Census</fullName>
+                <default>false</default>
+                <label>Payroll + Census</label>
+            </value>
+            <value>
+                <fullName>Deferral + Loans</fullName>
+                <default>false</default>
+                <label>Deferral + Loans</label>
+            </value>
+            <value>
+                <fullName>Payroll + Census + Deferral + Loans</fullName>
+                <default>false</default>
+                <label>Payroll + Census + Deferral + Loans</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

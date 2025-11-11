@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Initial_Questionnaire_Sent</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Transition_Type__c</columns>
+    <columns>Transition_Reason__c</columns>
+    <columns>Save_Owner__c</columns>
+    <columns>Saved_Notes__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Initial_Questionnaire_Sent,Initial Questionnaire Sent</value>
+    </filters>
+    <label>Initial Questionnaire Sent</label>
+</ListView>

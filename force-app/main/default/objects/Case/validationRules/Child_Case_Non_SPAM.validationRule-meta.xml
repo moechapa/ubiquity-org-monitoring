@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Child_Case_Non_SPAM</fullName>
+    <active>false</active>
+    <description>Don&apos;t allow a Child Case to be moved to SPAM</description>
+    <errorConditionFormula>AND(   NOT(ISBLANK( ParentId )) ,  OwnerId = &quot;00G37000000prxX&quot;)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>Child Cases need to always be closed as &quot;Resolved&quot; once you&apos;ve completed your review...even if they are Duplicate.</errorMessage>
+</ValidationRule>

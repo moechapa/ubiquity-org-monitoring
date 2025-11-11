@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Qualified_Status_IsConverted</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISPICKVAL(Status,&quot;Qualified&quot;) &amp;&amp; IsConverted = FALSE</errorConditionFormula>
+    <errorMessage>Please update the Lead Status. A lead must be converted to have the Qualified status.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>always</animationFrequency>
+    <developerName>Compliance_ADP_ACP_Testing</developerName>
+    <isActive>false</isActive>
+    <masterLabel>Compliance - ADP/ACP Testing</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>ADP_ACP_Testing</recordTypeName>
+    <sobjectType>Compliance__c</sobjectType>
+    <targetField>Status__c</targetField>
+    <targetFieldChangeToValues>Pass</targetFieldChangeToValues>
+</AnimationRule>

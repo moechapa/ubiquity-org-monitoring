@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Case_Comment_Notification</fullName>
+        <description>Case Comment Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>systemsfeedback@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Workflow_Templates/Alert_Product_Success_JIRA</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Comment_Notification_2</fullName>
+        <description>Case Comment Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>systemsfeedback@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Workflow_Templates/Alert_Product_Success_JIRA</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Comment_Notification_3</fullName>
+        <description>Case Comment Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>systemsfeedback@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Workflow_Templates/Alert_Product_Success_JIRA</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Comment_Notification_Timed</fullName>
+        <description>Case Comment Notification Timed</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>systemsfeedback@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Workflow_Templates/Alert_Product_Success_JIRA</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>JIRA_Status_Reopened</fullName>
+        <field>JIRA_Status__c</field>
+        <literalValue>Reopened</literalValue>
+        <name>JIRA Status Reopened</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Public_True</fullName>
+        <field>IsPublished</field>
+        <literalValue>1</literalValue>
+        <name>Public = True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Public_True_2</fullName>
+        <field>IsPublished</field>
+        <literalValue>1</literalValue>
+        <name>Public True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Response_Received</fullName>
+        <field>Status</field>
+        <literalValue>Response_Received</literalValue>
+        <name>Status Response Received</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <rules>
+        <fullName>Case - Email - Case Comment to Product Success</fullName>
+        <actions>
+            <name>Case_Comment_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>contains</operation>
+            <value>PRKS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.JIRA_Ticket_Number__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CaseComment.IsPublished</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Triggered by &quot;Case Comment Public&quot; workflow so that the email includes the public case comment</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case - Update - Case Comment %3D Public</fullName>
+        <actions>
+            <name>Public_True_2</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>PRKS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.JIRA_Ticket_Number__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CaseComment.CreatedDate</field>
+            <operation>lessOrEqual</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <description>Set status = Public so it will be included in mail merge template.   This will trigger &quot;Case Comment Notification&quot; workflow</description>
+        <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <offsetFromField>CaseComment.CreatedDate</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Case Comment on Resolved Case</fullName>
+        <actions>
+            <name>JIRA_Status_Reopened</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Status_Response_Received</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.OwnerId</field>
+            <operation>equals</operation>
+            <value>Product Success</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.JIRA_Ticket_Number__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CaseComment.CreatedDate</field>
+            <operation>lessOrEqual</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Resolved</value>
+        </criteriaItems>
+        <description>Reopens closed JIRA Case if new Case Comment is entered</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

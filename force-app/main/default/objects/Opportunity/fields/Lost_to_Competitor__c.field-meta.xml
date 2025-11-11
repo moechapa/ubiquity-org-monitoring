@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lost_to_Competitor__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Please enter the Competitor who won this opportunity. If you cannot find competitor please reach out to Product.</description>
+    <inlineHelpText>Please enter the Competitor who won this opportunity. If you cannot find competitor please reach out to Product.</inlineHelpText>
+    <label>Lost to Competitor</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Opportunities Won Over Ubiquity</relationshipLabel>
+    <relationshipName>Opportunities_Won_From_Ubiquity</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custodian_Validation</fullName>
+    <active>true</active>
+    <description>Custodian field must be populated to close the opportunity.</description>
+    <errorConditionFormula>NOT(ISPICKVAL ( Type, &quot;Ancillary Billing Hourly Rate&quot;))
+&amp;&amp;
+NOT(ISPICKVAL(  Type , &quot;Ancillary Billing Flat Fee&quot;))
+&amp;&amp;
+ISPICKVAL(StageName, &quot;Closed Won&quot;) 
+&amp;&amp; 
+ISPICKVAL( Product_Type__c , &quot;401(k)&quot; ) 
+&amp;&amp; 
+ISPICKVAL(  Custodian__c  , &quot;&quot;) 
+&amp;&amp; 
+CloseDate &gt; DATE(2017,1,9)</errorConditionFormula>
+    <errorDisplayField>Custodian__c</errorDisplayField>
+    <errorMessage>Custodian field must be populated to close this opportunity.</errorMessage>
+</ValidationRule>

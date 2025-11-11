@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Employees_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISNULL(NumberOfEmployees), 
+ISPICKVAL(Status,&quot;Qualified&quot;),
+NOT(ISPICKVAL( Lead_Type__c, &quot;Advisor&quot;)),
+NOT(ISPICKVAL( Lead_Type__c, &quot;TPA&quot;))) &amp;&amp;
+RecordType.Name != &quot;Business Development&quot; &amp;&amp;
+Eligible_for_Contact_Merge__c = FALSE</errorConditionFormula>
+    <errorDisplayField>NumberOfEmployees</errorDisplayField>
+    <errorMessage>No. of Employees is required</errorMessage>
+</ValidationRule>

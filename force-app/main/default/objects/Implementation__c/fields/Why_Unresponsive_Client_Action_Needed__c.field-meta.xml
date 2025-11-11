@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Why_Unresponsive_Client_Action_Needed__c</fullName>
+    <description>Confirm what caused client to become unresponsive in Implementation and specific steps client needs to take to become active/responsive again.</description>
+    <inlineHelpText>Confirm what caused client to become unresponsive in Implementation and specific steps client needs to take to become active/responsive again.</inlineHelpText>
+    <label>Why Unresponsive + Client Action Needed</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

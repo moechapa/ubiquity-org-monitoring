@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_Open_Cases</fullName>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Case_Age__c</columns>
+    <columns>Team_Member__c</columns>
+    <columns>Marketing_Stage__c</columns>
+    <columns>Preferred_Completion_Date__c</columns>
+    <columns>NAME</columns>
+    <columns>Compliance_Review__c</columns>
+    <columns>Estimated_Due_Date__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Marketing_Cases</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>contains</operation>
+        <value>Marketing</value>
+    </filters>
+    <label>Marketing Open Cases</label>
+</ListView>

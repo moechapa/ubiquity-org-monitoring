@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Most_Recent_CSAT_Score_Sponsor_Trustee__c</fullName>
+    <description>1-5 CSAT score from most recent Resolution CSAT Survey from a Sponsor Trustee or Partner</description>
+    <externalId>false</externalId>
+    <inlineHelpText>1-5 CSAT score from most recent Resolution CSAT Survey from a Sponsor Trustee or Partner</inlineHelpText>
+    <label>Most Recent CSAT Score (Sponsor/Trustee)</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

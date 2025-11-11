@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Need</fullName>
+    <active>false</active>
+    <errorConditionFormula>IsConverted=True 
+&amp;&amp; 
+ISPICKVAL( Product_Type__c , &quot;401(k)&quot; ) 
+&amp;&amp; 
+ ISBLANK(Need__c)=TRUE 
+&amp;&amp; 
+Owner:User.LastName &lt;&gt; &quot;Garcia,Parks&quot;</errorConditionFormula>
+    <errorDisplayField>Need__c</errorDisplayField>
+    <errorMessage>Please populate need before converting</errorMessage>
+</ValidationRule>

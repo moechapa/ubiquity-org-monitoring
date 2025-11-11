@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_A4S_Block</fullName>
+    <active>true</active>
+    <description>Blocks Sales Profile from checking A4S Received Box on &quot;401K&quot; and &quot;SingleK&quot; Opp Record Types</description>
+    <errorConditionFormula>(
+ BEGINS( $Profile.Id , &quot;00e37000000kyMz&quot;) 
+||
+ BEGINS( $Profile.Id , &quot;00e1G0000011hij&quot;)
+)
+&amp;&amp;
+(
+ BEGINS( RecordTypeId , &quot;012000000000myo&quot;) 
+||
+ BEGINS( RecordTypeId , &quot;012000000000mxg&quot;) 
+)
+&amp;&amp;
+ ISCHANGED( Agreement_for_Services_A4S__c )</errorConditionFormula>
+    <errorDisplayField>Agreement_for_Services_A4S__c</errorDisplayField>
+    <errorMessage>Only Billing will complete this for 401(k) or Single(k) Opportunities</errorMessage>
+</ValidationRule>

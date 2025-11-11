@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChatBot_Unanswered__c</fullName>
+    <description>1 = Client reached end of chatbot path and selected &quot;No, I need additional help&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>1 = Client reached end of chatbot path and selected &quot;No, I need additional help&quot;</inlineHelpText>
+    <label>ChatBot Unanswered</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FreeFormFeedback__c</fullName>
+    <description>Question Created by the Survey Builder</description>
+    <inlineHelpText>If there was one thing we could do to improve your overall experience with Ubiquity, what would it be?</inlineHelpText>
+    <label>FreeFormFeedback</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>Handles requests from users who want to transfer or escalate their conversation to a live human agent.</description>
+    <developerName>Escalation</developerName>
+    <genAiFunctions>
+        <functionName>Agentforce_Check_Business_Hours</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If a user explicitly asks to transfer to a live agent, run Check Business Hours Agent action. If it returns True then escalate to Live Agent else display message that &quot;We are outside of business hours and would you like to create a case&quot;. If user answers yes then ask for 1. Subject, 2. Description and 3. Email.</description>
+        <developerName>instruction_ifauserexp0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_ifauserexp0</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Escalation</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is only to transfer the conversation to a live agent if a user explicitly asks for human assistance or has a complex issue that requires human intervention.</scope>
+</GenAiPlugin>

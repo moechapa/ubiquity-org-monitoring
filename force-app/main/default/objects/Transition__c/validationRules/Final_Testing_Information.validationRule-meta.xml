@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_Testing_Information</fullName>
+    <active>true</active>
+    <description>Verifies all final testing information fields are answered before final payroll is input</description>
+    <errorConditionFormula>NOT(ISNULL( Final_Census_Payroll_Submitted__c ))
+
+&amp;&amp;
+
+ISCHANGED ( Final_Census_Payroll_Submitted__c )
+
+&amp;&amp;
+
+(
+
+ISBLANK (TEXT( RKO_Plan__c ))
+||
+ISBLANK (TEXT( Final_Payroll_In_Terminated_Year__c ))
+||
+ISBLANK (TEXT( Safe_Harbor_Plan__c ))
+||
+ISBLANK (TEXT( Does_the_Plan_Have_Forfeitures__c ))
+||
+ISBLANK (TEXT( Is_Plan_Vesting_100__c ))
+
+)</errorConditionFormula>
+    <errorMessage>Answer all questions in the &quot;Final Testing Information&quot; section</errorMessage>
+</ValidationRule>

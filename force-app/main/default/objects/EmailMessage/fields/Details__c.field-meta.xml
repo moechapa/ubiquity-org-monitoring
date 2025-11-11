@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Details__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;Sent on: &quot; + TEXT( MONTH(DATEVALUE( MessageDate ) )) &amp; &quot;/&quot; &amp; TEXT( DAY(DATEVALUE( MessageDate ) )) &amp; &quot;/&quot; &amp; TEXT( YEAR(DATEVALUE( MessageDate ) )) + &quot;, &quot; + IF( OR( VALUE( MID( TEXT( MessageDate  ), 12, 2 ) ) = 0, VALUE( MID( TEXT( MessageDate  ), 12, 2 ) ) = 12 ), &quot;12&quot;, TEXT( VALUE( MID( TEXT( MessageDate  ), 12, 2 ) ) - IF( VALUE( MID( TEXT( MessageDate  ), 12, 2 ) ) &lt; 12, 0, 12 ) ) ) &amp; &quot;:&quot; &amp; MID( TEXT( MessageDate  ), 15, 2 ) &amp; &quot;:&quot; &amp; MID( TEXT( MessageDate  ), 18, 2 ) &amp; &quot; &quot; &amp; IF( VALUE( MID( TEXT( MessageDate  ), 12, 2 ) ) &lt; 12, &quot;AM&quot;, &quot;PM&quot; ) + &quot;, From: &quot; + FromName</formula>
+    <label>Details</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

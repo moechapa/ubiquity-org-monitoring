@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Records_Linked__c</fullName>
+    <description>Did the representative link the relevant category and sub-category, account name, plan name, and contact name in the case?</description>
+    <inlineHelpText>Did the representative link the relevant category and sub-category, account name, plan name, and contact name in the case?</inlineHelpText>
+    <label>Related Records Linked</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>QA</valueSetName>
+    </valueSet>
+</CustomField>

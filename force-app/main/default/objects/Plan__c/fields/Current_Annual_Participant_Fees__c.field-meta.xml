@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Annual_Participant_Fees__c</fullName>
+    <description>How much are Participant Fees Annual? Based on last plan billable headcount.</description>
+    <formula>(Plan_Billable_Headcount__c * Participant_Fee__c)*12</formula>
+    <inlineHelpText>How much are Participant Fees Annual? Based on last plan billable headcount.</inlineHelpText>
+    <label>Current Annual Participant Fees</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>In_Blackout__c</fullName>
+    <description>Verifies if today is between start and end of blackout period for open fund lineup changes.   Related Flow uses this checkbox daily to change fund lineup status to &quot;In Blackout&quot;</description>
+    <formula>Blackout_Start_Date__c &lt;= TODAY()
+&amp;&amp;
+Blackout_End_Date__c &gt; TODAY()
+&amp;&amp;
+NOT( ISPICKVAL( Fund_Lineup_Change_Status__c , &quot;Completed&quot;))</formula>
+    <inlineHelpText>Verifies if today is between start and end of blackout period for open fund lineup changes.   Related Flow uses this checkbox daily to change fund lineup status to &quot;In Blackout&quot;</inlineHelpText>
+    <label>In Blackout</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

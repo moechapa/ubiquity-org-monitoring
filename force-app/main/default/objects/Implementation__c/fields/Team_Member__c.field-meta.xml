@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Member__c</fullName>
+    <description>Implementations team members</description>
+    <inlineHelpText>Implementations team members</inlineHelpText>
+    <label>Team Member</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Kristen Cornell</fullName>
+                <default>false</default>
+                <label>Kristen Cornell</label>
+            </value>
+            <value>
+                <fullName>Georgia Panosellis</fullName>
+                <default>false</default>
+                <label>Georgia Panosellis</label>
+            </value>
+            <value>
+                <fullName>VJ Chanco</fullName>
+                <default>false</default>
+                <label>VJ Chanco</label>
+            </value>
+            <value>
+                <fullName>Mandy Lantz</fullName>
+                <default>false</default>
+                <label>Mandy Lantz</label>
+            </value>
+            <value>
+                <fullName>Davy Knox</fullName>
+                <default>false</default>
+                <label>Davy Knox</label>
+            </value>
+            <value>
+                <fullName>John Herold</fullName>
+                <default>false</default>
+                <label>John Herold</label>
+            </value>
+            <value>
+                <fullName>Katie Check</fullName>
+                <default>false</default>
+                <label>Katie Check</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

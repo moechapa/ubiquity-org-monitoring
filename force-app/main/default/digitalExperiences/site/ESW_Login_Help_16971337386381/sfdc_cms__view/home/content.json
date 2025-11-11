@@ -1,0 +1,48 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "customHeaderComponent" : "c/customChatHeader",
+            "customPrechatComponent" : "c/customPreChatForm",
+            "dxpStyle" : { }
+          },
+          "definition" : "embeddedMessaging:container",
+          "id" : "802f5bb2-ae04-4eb7-ba8b-1488f4af5b43",
+          "type" : "component"
+        } ],
+        "id" : "c3cd8f35-1380-420a-9cc3-fd560df6a136",
+        "name" : "content",
+        "title" : "content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "ed9432b3-adbd-455e-8ec9-55aa1ab625be",
+          "type" : "component"
+        } ],
+        "id" : "4ef796b0-fb93-4e7a-8794-7c9804740088",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "embedded_service_iframe:frameLayout",
+      "id" : "190e9803-80b8-4adf-9ad7-b43a11aeb2cb",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}

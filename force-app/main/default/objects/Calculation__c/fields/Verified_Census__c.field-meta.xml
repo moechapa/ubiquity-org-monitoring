@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Verified_Census__c</fullName>
+    <description>Please make sure that the client has either provided a census in our upload format or has confirmed the information in the Employee Demographic report</description>
+    <inlineHelpText>Please make sure that the client has either provided a census in our upload format or has confirmed the information in the Employee Demographic report</inlineHelpText>
+    <label>Verified Census</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Client census has been attached in UBQT format</fullName>
+                <default>false</default>
+                <label>Client census has been attached in UBQT format</label>
+            </value>
+            <value>
+                <fullName>Client Confirmed Employee Demographic Report</fullName>
+                <default>false</default>
+                <label>Client Confirmed Employee Demographic Report</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

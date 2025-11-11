@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_did_you_hear_about_Ubiquity__c</fullName>
+    <description>Confirm how prospects heard about Ubiquity</description>
+    <inlineHelpText>Confirm how prospects heard about Ubiquity</inlineHelpText>
+    <label>How did you hear about Ubiquity?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Web/ Search Engine</fullName>
+                <default>false</default>
+                <label>Web/ Search Engine</label>
+            </value>
+            <value>
+                <fullName>Google Ads</fullName>
+                <default>false</default>
+                <label>Google Ads</label>
+            </value>
+            <value>
+                <fullName>Postcard</fullName>
+                <default>false</default>
+                <label>Postcard</label>
+            </value>
+            <value>
+                <fullName>Financial Advisor</fullName>
+                <default>false</default>
+                <label>Financial Advisor</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Simply Retirement</fullName>
+                <default>false</default>
+                <label>Simply Retirement</label>
+            </value>
+            <value>
+                <fullName>Marketing Email Campaign (Vets, SH, Secure Act, etc.)</fullName>
+                <default>false</default>
+                <label>Marketing Email Campaign (Vets, SH, Secure Act, etc.)</label>
+            </value>
+            <value>
+                <fullName>News/PR</fullName>
+                <default>false</default>
+                <label>News/PR</label>
+            </value>
+            <value>
+                <fullName>Facebook/LinkedIn/Social Media</fullName>
+                <default>false</default>
+                <label>Facebook/LinkedIn/Social Media</label>
+            </value>
+            <value>
+                <fullName>Referral from a personal friend/network</fullName>
+                <default>false</default>
+                <label>Referral from a personal friend/network</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>A post from a friend on social media</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>A post from a friend on social media</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>End of the Year campaign</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>End of the Year campaign</label>
+            </value>
+            <value>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LinkedIn</label>
+            </value>
+            <value>
+                <fullName>Safe Harbor campaign</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Safe Harbor campaign</label>
+            </value>
+            <value>
+                <fullName>Secure Act campaign</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Secure Act campaign</label>
+            </value>
+            <value>
+                <fullName>Veterans campaign</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Veterans campaign</label>
+            </value>
+            <value>
+                <fullName>Word of mouth</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Word of mouth</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

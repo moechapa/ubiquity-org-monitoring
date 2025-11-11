@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Record_Event__c</fullName>
+    <description>Confirms the reason the Saver Rate was recorded</description>
+    <inlineHelpText>Confirms the reason the Saver Rate was recorded</inlineHelpText>
+    <label>Record Event</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Enrollment Meeting</fullName>
+                <default>false</default>
+                <label>Enrollment Meeting</label>
+            </value>
+            <value>
+                <fullName>Post Enrollment Meeting</fullName>
+                <default>false</default>
+                <label>Post Enrollment Meeting</label>
+            </value>
+            <value>
+                <fullName>Enrollment Kit Only</fullName>
+                <default>false</default>
+                <label>Enrollment Kit Only</label>
+            </value>
+            <value>
+                <fullName>Health Check</fullName>
+                <default>false</default>
+                <label>Health Check</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Paradigm Import</fullName>
+                <default>false</default>
+                <label>Paradigm Import</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

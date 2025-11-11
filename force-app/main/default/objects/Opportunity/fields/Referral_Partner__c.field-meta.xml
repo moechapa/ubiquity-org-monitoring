@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_Partner__c</fullName>
+    <description>Referring Partner for Partner Referral Add-Ons</description>
+    <inlineHelpText>Referring Partner for Partner Referral Add-Ons</inlineHelpText>
+    <label>Referral Partner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>CBIZ</fullName>
+                <default>false</default>
+                <label>CBIZ</label>
+            </value>
+            <value>
+                <fullName>GoCo</fullName>
+                <default>false</default>
+                <label>GoCo</label>
+            </value>
+            <value>
+                <fullName>Nano Banc</fullName>
+                <default>false</default>
+                <label>Nano Banc</label>
+            </value>
+            <value>
+                <fullName>Paycor</fullName>
+                <default>false</default>
+                <label>Paycor</label>
+            </value>
+            <value>
+                <fullName>Vault</fullName>
+                <default>false</default>
+                <label>Vault</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

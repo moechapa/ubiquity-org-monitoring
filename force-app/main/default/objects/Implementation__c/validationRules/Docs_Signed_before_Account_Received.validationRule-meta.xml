@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Docs_Signed_before_Account_Received</fullName>
+    <active>false</active>
+    <description>Requires Ubiquity Plan Documents Signed date before Custodial Account # Received</description>
+    <errorConditionFormula>( ISBLANK(  Custodial_Account_Number_Received__c  ) = FALSE) 
+&amp;&amp; 
+( ISBLANK(  Ubiquity_Plan_Documents_Signed__c  ) = TRUE)</errorConditionFormula>
+    <errorDisplayField>Custodial_Account_Number_Received__c</errorDisplayField>
+    <errorMessage>Ubiquity Plan Documents Signed date must be entered before Custodial Account Number Received Date</errorMessage>
+</ValidationRule>

@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annual_Audit</fullName>
+    <active>true</active>
+    <description>Record type for Annual Audit Add-On Object</description>
+    <label>Annual Audit</label>
+    <picklistValues>
+        <picklist>ACH_Enabled__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Client_Stage__c</picklist>
+        <values>
+            <fullName>Existing Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Client</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Data_Cleaning_Method__c</picklist>
+        <values>
+            <fullName>Macro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual Entry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outsourced</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Discretionary_Match_Frequency__c</picklist>
+        <values>
+            <fullName>Annual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ER Match Contributions not allowed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Per Payroll</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Enhanced_Payroll_Services_Type__c</picklist>
+        <values>
+            <fullName>Payroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll %2B Census</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>File_Submission_Method__c</picklist>
+        <values>
+            <fullName>Manual Retrieval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screen Scrape</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secure Plan Sponsor Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Third Party Data Entry</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>File_Upload_Method__c</picklist>
+        <values>
+            <fullName>Batch Upload</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SFTP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Universal Import Tool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Form</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Integration_Submissions__c</picklist>
+        <values>
+            <fullName>Census</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deferrals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loan Repayments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Integration_Type__c</picklist>
+        <values>
+            <fullName>180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>360</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Multiple_Funding_Accounts__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Multiple_Locations__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Multiple_Payroll_Schedules__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Needs_Form_5500__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Off_Cycle_Contact__c</picklist>
+        <values>
+            <fullName>Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Declined</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Off_Cycle_Payrolls__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Passed_Validation_Check__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payroll_Integration__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payroll_Reconciliation_Frequency__c</picklist>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-Annually</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payroll_Vendor__c</picklist>
+        <values>
+            <fullName>ADP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intuit%2FQuickbooks</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_End_Reason__c</picklist>
+        <values>
+            <fullName>Cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ease of Use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Need</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transitioning from Ubiquity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Using New Integration</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Stage__c</picklist>
+        <values>
+            <fullName>1%2E Evaluate Fit %26 Collect Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E Activate Integration</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Stalled_Reason__c</picklist>
+        <values>
+            <fullName>Client Backing Out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Issue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Status__c</picklist>
+        <values>
+            <fullName>1st Payroll Funded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1st Payroll Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2nd Payroll Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5500 Extension Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5500 Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5500 Signed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amendment Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Audit Package Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled Setup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete %26 Transitioning to TPI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed Setup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft 5500 Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Files Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integration Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integration turned on %E2%80%93 Pending 1st payroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Login Access completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Login Credentials Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Login Credentials Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Integration Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Start</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opinion Letter Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Sponsor Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Saved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Stalled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product_Terminated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready for test file review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SFTP File Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sampling Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sampling Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Source Mapping Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Source mapping requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stalled Setup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Started</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terminated Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test File Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test File Received%2C Pending Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test File Reviewed - Pending Correction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test File Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Testing login access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trust Report Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trust Report Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UBQT sent 360 Test file to provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welcome Email Sent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Type__c</picklist>
+        <values>
+            <fullName>Add-On Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annual Audit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enhanced Payroll Services</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Profit_Sharing_in_Payroll__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Qualified_for_Third_Party_Integration__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Safe_Harbor_Frequency__c</picklist>
+        <values>
+            <fullName>Annual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Per Payroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safe Harbor Contributions not allowed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sampling_Followup_Needed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Payroll_Schedule__c</picklist>
+        <values>
+            <fullName>Annual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Weekly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-Monthly %28Offcycle%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Option__c</picklist>
+        <values>
+            <fullName>Enhanced Payroll Service</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Team_Member__c</picklist>
+        <values>
+            <fullName>Sue Cascio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tertiary_Payroll_Schedule__c</picklist>
+        <values>
+            <fullName>Annual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Weekly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-Monthly %28Offcycle%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Third_Party_Integrator__c</picklist>
+        <values>
+            <fullName>Payroll Integrations</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Transmission_Method__c</picklist>
+        <values>
+            <fullName>API</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automated SFTP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paradigm Dashboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SFTP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Trust_Report_Fee__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Verify_Data_Point_Accuracy__c</picklist>
+        <values>
+            <fullName>Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Declined</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X1st_Payroll_Funded__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X2nd_Payroll_Funded__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

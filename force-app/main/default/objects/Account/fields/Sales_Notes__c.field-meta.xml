@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Notes__c</fullName>
+    <description>Use for competitors to indicate best practices for selling against or preventing transitions to this competitor.</description>
+    <inlineHelpText>Use for competitors to indicate best practices for selling against or preventing transitions to this competitor.</inlineHelpText>
+    <label>Sales Notes</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

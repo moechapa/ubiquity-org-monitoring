@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Plan associated with the Add-On Product</description>
+    <inlineHelpText>Plan associated with the Add-On Product</inlineHelpText>
+    <label>Plan</label>
+    <referenceTo>Plan__c</referenceTo>
+    <relationshipLabel>Add-On Products</relationshipLabel>
+    <relationshipName>Add_On_Products</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>International_Equity_Funds__c</fullName>
+    <label>International Equity Funds</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Share_Class__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Emerging Markets Equity Fund (JHUJX)</fullName>
+                <default>false</default>
+                <label>Emerging Markets Equity Fund (JHUJX)</label>
+            </value>
+            <value>
+                <fullName>International Equity Fund (JIEZX)</fullName>
+                <default>false</default>
+                <label>International Equity Fund (JIEZX)</label>
+            </value>
+            <value>
+                <fullName>International Advantage Fund (JIIZX)</fullName>
+                <default>false</default>
+                <label>International Advantage Fund (JIIZX)</label>
+            </value>
+            <value>
+                <fullName>International Unconstrained Equity Fund (IUERX)</fullName>
+                <default>false</default>
+                <label>International Unconstrained Equity Fund (IUERX)</label>
+            </value>
+            <value>
+                <fullName>International Value Fund (JPVZX)</fullName>
+                <default>false</default>
+                <label>International Value Fund (JPVZX)</label>
+            </value>
+            <value>
+                <fullName>Emerging Markets Equity Fund (JHURX)</fullName>
+                <default>false</default>
+                <label>Emerging Markets Equity Fund (JHURX)</label>
+            </value>
+            <value>
+                <fullName>Emerging Markets Equity Fund (JHUKX)</fullName>
+                <default>false</default>
+                <label>Emerging Markets Equity Fund (JHUKX)</label>
+            </value>
+            <value>
+                <fullName>Emerging Markets Equity Fund (JEMOX)</fullName>
+                <default>false</default>
+                <label>Emerging Markets Equity Fund (JEMOX)</label>
+            </value>
+            <value>
+                <fullName>International Equity Fund (JIERX)</fullName>
+                <default>false</default>
+                <label>International Equity Fund (JIERX)</label>
+            </value>
+            <value>
+                <fullName>Emerging Economies Fund (JEERX)</fullName>
+                <default>false</default>
+                <label>Emerging Economies Fund (JEERX)</label>
+            </value>
+            <value>
+                <fullName>International Unconstrained Equity Fund (IUEFX)</fullName>
+                <default>false</default>
+                <label>International Unconstrained Equity Fund (IUEFX)</label>
+            </value>
+            <value>
+                <fullName>International Value Fund (JPVRX)</fullName>
+                <default>false</default>
+                <label>International Value Fund (JPVRX)</label>
+            </value>
+            <value>
+                <fullName>Emerging Markets Equity Fund (JEMWX)</fullName>
+                <default>false</default>
+                <label>Emerging Markets Equity Fund (JEMWX)</label>
+            </value>
+            <value>
+                <fullName>International Research Enhanced Equity Fund (JEIQX)</fullName>
+                <default>false</default>
+                <label>International Research Enhanced Equity Fund (JEIQX)</label>
+            </value>
+            <value>
+                <fullName>Global Research Enhanced Index Fund (JEIYX)</fullName>
+                <default>false</default>
+                <label>Global Research Enhanced Index Fund (JEIYX)</label>
+            </value>
+            <value>
+                <fullName>International Equity Fund (JNEMX)</fullName>
+                <default>false</default>
+                <label>International Equity Fund (JNEMX)</label>
+            </value>
+            <value>
+                <fullName>International Advantage Fund (JIFFX)</fullName>
+                <default>false</default>
+                <label>International Advantage Fund (JIFFX)</label>
+            </value>
+            <value>
+                <fullName>Emerging Economies Fund (JEEEX)</fullName>
+                <default>false</default>
+                <label>Emerging Economies Fund (JEEEX)</label>
+            </value>
+            <value>
+                <fullName>Europe Dynamic Fund (VEUVX)</fullName>
+                <default>false</default>
+                <label>Europe Dynamic Fund (VEUVX)</label>
+            </value>
+            <value>
+                <fullName>International Unconstrained Equity Fund (IUENX)</fullName>
+                <default>false</default>
+                <label>International Unconstrained Equity Fund (IUENX)</label>
+            </value>
+            <value>
+                <fullName>International Value Fund (JNVMX)</fullName>
+                <default>false</default>
+                <label>International Value Fund (JNVMX)</label>
+            </value>
+            <value>
+                <fullName>Emerging Markets Research Enhanced Equity Fund (EMRSX)</fullName>
+                <default>false</default>
+                <label>Emerging Markets Research Enhanced Equity Fund (EMRSX)</label>
+            </value>
+            <value>
+                <fullName>International Equity Income Fund (JEIRX)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>International Equity Income Fund (JEIRX)</label>
+            </value>
+            <value>
+                <fullName>International Equity Income Fund (JGEZX)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>International Equity Income Fund (JGEZX)</label>
+            </value>
+            <value>
+                <fullName>International Equity Income Fund (JIEFX)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>International Equity Income Fund (JIEFX)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Emerging Markets Equity Fund (JHUJX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>International Equity Fund (JIEZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>International Advantage Fund (JIIZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>International Unconstrained Equity Fund (IUERX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>International Value Fund (JPVZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>Emerging Markets Equity Fund (JHURX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>Emerging Markets Equity Fund (JHUKX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Emerging Markets Equity Fund (JEMOX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>International Equity Fund (JIERX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>Emerging Economies Fund (JEERX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>International Unconstrained Equity Fund (IUEFX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>International Value Fund (JPVRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Emerging Markets Equity Fund (JEMWX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>International Research Enhanced Equity Fund (JEIQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Global Research Enhanced Index Fund (JEIYX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>International Equity Fund (JNEMX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>International Advantage Fund (JIFFX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Emerging Economies Fund (JEEEX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Europe Dynamic Fund (VEUVX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>International Unconstrained Equity Fund (IUENX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>International Value Fund (JNVMX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>Emerging Markets Research Enhanced Equity Fund (EMRSX)</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

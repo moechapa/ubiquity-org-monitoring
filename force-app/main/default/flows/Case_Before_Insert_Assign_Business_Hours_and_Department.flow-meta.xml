@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Assign_Billing_Values</name>
+        <label>Assign Billing Values</label>
+        <locationX>50</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.BusinessHoursId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01m37000000PC36</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Department__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Accounting &amp; Finance</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01237000000Xu63</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_CE_Values</name>
+        <label>Assign CE Values</label>
+        <locationX>710</locationX>
+        <locationY>611</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.BusinessHoursId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01m1G000000XaE6</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Department__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Servicing</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>At_risk_check</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Comp_Values</name>
+        <label>Assign Comp Values</label>
+        <locationX>314</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.BusinessHoursId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01m37000000L06l</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Department__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Compliance</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01237000000Xs6B</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Imps_Values</name>
+        <label>Assign Imps Values</label>
+        <locationX>1370</locationX>
+        <locationY>827</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.BusinessHoursId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01m1G000000XaE1</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Department__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Client Onboarding</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>012370000005thq</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Ops_Values</name>
+        <label>Assign Ops Values</label>
+        <locationX>1898</locationX>
+        <locationY>1043</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.BusinessHoursId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01m37000000L07U</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>012Ho000000NtUe</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Partnership_Values</name>
+        <label>Assign Partnership Values</label>
+        <locationX>1106</locationX>
+        <locationY>719</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.BusinessHoursId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01m1G000000IF26</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Department__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Partnerships</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Payroll_Values</name>
+        <label>Assign Payroll Values</label>
+        <locationX>2162</locationX>
+        <locationY>1151</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.BusinessHoursId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01m37000000L07Z</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01237000000XwGF</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Department__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Payroll</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Servicing_RecordType</name>
+        <label>Assign Servicing RecordType</label>
+        <locationX>578</locationX>
+        <locationY>827</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01237000000AZr4</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Transition_Values</name>
+        <label>Assign Transition Values</label>
+        <locationX>1634</locationX>
+        <locationY>935</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.BusinessHoursId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01m37000000L07P</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Department__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Transitions</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01237000000XwY4</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Set_BI_Values</name>
+        <label>Set BI Values</label>
+        <locationX>2426</locationX>
+        <locationY>1259</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.BusinessHoursId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01m00000000000J</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>01237000000Ez81</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Department__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Business Intelligence</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <description>don&apos;t want to touch the at risk record type!</description>
+        <name>At_risk_check</name>
+        <label>At risk check</label>
+        <locationX>710</locationX>
+        <locationY>719</locationY>
+        <defaultConnectorLabel>Risky Bisnu</defaultConnectorLabel>
+        <rules>
+            <name>Not_at_risk</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>01237000000Aho7AAC</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Servicing_RecordType</targetReference>
+            </connector>
+            <label>Not at risk</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>BI_Origin</name>
+        <label>BI Origin</label>
+        <locationX>2558</locationX>
+        <locationY>1151</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>zzzzeee</name>
+            <conditionLogic>(1 AND 2) OR 3</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>BI Inbox</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>isNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Case_Team_New__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Business Intelligence</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_BI_Values</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>zzzzeee</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Billing_Origin_or_Team</name>
+        <label>Billing Origin or Team</label>
+        <locationX>362</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>Comp_Origin_or_Team</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Needs_Billing_Values</name>
+            <conditionLogic>(1 AND 3) OR 2</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Billing Inbox</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Case_Team_New__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Billing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>isNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Billing_Values</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Needs Billing Values</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>CE_Origin_or_Team</name>
+        <label>CE Origin or Team</label>
+        <locationX>1037</locationX>
+        <locationY>503</locationY>
+        <defaultConnector>
+            <targetReference>Partnership_Origin_or_Team</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Needs_CE_Values</name>
+            <conditionLogic>((1 OR 2 OR 3 OR 4 OR 5 OR 8) AND 7) OR 6</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Web</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Support Inbox</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Saver Inbox</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Servicing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Single(k) Inbox</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Case_Team_New__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Client Support</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>isNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Simply TPA</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_CE_Values</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Needs CE Values</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Comp_Origin_or_Team</name>
+        <label>Comp Origin or Team</label>
+        <locationX>675</locationX>
+        <locationY>395</locationY>
+        <defaultConnector>
+            <targetReference>CE_Origin_or_Team</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Needs_Comp_Values</name>
+            <conditionLogic>(1 AND 3) OR 2</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Compliance Inbox</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Case_Team_New__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Compliance</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>isNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Comp_Values</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Needs Comp Values</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Imps_Origin_or_Team</name>
+        <label>Imps Origin or Team</label>
+        <locationX>1625</locationX>
+        <locationY>719</locationY>
+        <defaultConnector>
+            <targetReference>Transitions_Origin_or_Team</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Needs_Imps_Values</name>
+            <conditionLogic>(1 AND 2) OR 3</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Implementations</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>isNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Case_Team_New__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Client Onboarding</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Imps_Values</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Needs Imps Values</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Ops_Origin_or_Team</name>
+        <label>Ops Origin or Team</label>
+        <locationX>2129</locationX>
+        <locationY>935</locationY>
+        <defaultConnector>
+            <targetReference>Payroll_Origin_or_Team</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Needs_Ops_Values</name>
+            <conditionLogic>((1 OR 2 OR 3 OR 4) AND 5) OR 6</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Operations Inbox</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>RW Inbox</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Ops Inbox</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Distributions</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>isNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Case_Team_New__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Operations</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Ops_Values</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Needs Ops Values</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Partnership_Origin_or_Team</name>
+        <label>Partnership Origin or Team</label>
+        <locationX>1365</locationX>
+        <locationY>611</locationY>
+        <defaultConnector>
+            <targetReference>Imps_Origin_or_Team</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Needs_Partnership_Values</name>
+            <conditionLogic>(1 AND 2) OR 3</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Partnership</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>isNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Case_Team_New__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Partnerships</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Partnership_Values</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Needs Partnership Values</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Payroll_Origin_or_Team</name>
+        <label>Payroll Origin or Team</label>
+        <locationX>2360</locationX>
+        <locationY>1043</locationY>
+        <defaultConnector>
+            <targetReference>BI_Origin</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Needs_Payroll_Values</name>
+            <conditionLogic>(1 AND 2) OR 3</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Payroll</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>isNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Case_Team_New__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Payroll</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Payroll_Values</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Needs Payroll Values</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Transitions_Origin_or_Team</name>
+        <label>Transitions Origin or Team</label>
+        <locationX>1881</locationX>
+        <locationY>827</locationY>
+        <defaultConnector>
+            <targetReference>Ops_Origin_or_Team</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Needs_Transition_Values</name>
+            <conditionLogic>(1 AND 3) OR 2</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Origin</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Transitions Inbox</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Case_Team_New__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Transitions</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>isNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Transition_Values</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Needs Transition Values</label>
+        </rules>
+    </decisions>
+    <description>Remove exception for simply tpa, they get servicing recordtype now.
+
+Migrated from the Support | Assign Business Hours on Case Creation process using multiple criteria.
+Set Business Hours on Case Creation</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>isNew</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <interviewLabel>Case | Before Insert | Assign Business Hours and Department {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Case | Before Insert | Assign Business Hours and Department</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>236</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Billing_Origin_or_Team</targetReference>
+        </connector>
+        <filterFormula>ISCHANGED({!$Record.Case_Team_New__c}) || ISNEW()</filterFormula>
+        <object>Case</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,24 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" controller="SpecialInstructionsController">
+    
+	<aura:attribute name="advRecord" type="Associated_Contact__c[]"/>
+    <aura:attribute name="headerTitle" type="Aura.Component[]">
+        <h2>
+            <b>This client has Special Instructions.</b>
+        </h2>
+    </aura:attribute>
+    
+    <!-- Handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+
+	<aura:iteration items="{!v.advRecord}" var="adv">
+		<aura:if isTrue="{!adv.Special_Instructions__c}">
+        	<lightning:card title="{!v.headerTitle}" iconName="standard:partners" class="slds-card_boundary">
+            	<div class="slds-m-around_small">
+                	<aura:iteration items="{!v.advRecord}" var="adv">
+    					<p>If saver is requesting distribution, remind them to first reach out to their Edward Jones advisor, <a href="{!'/one/one.app?#/sObject/'+ adv.Contact__c + '/view'}" target="_self">{!adv.Full_Name__c}</a>.</p>
+                	</aura:iteration>
+            	</div>
+        	</lightning:card>
+        </aura:if>
+    </aura:iteration>
+</aura:component>

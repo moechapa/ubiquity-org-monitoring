@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Stalled</fullName>
+    <active>true</active>
+    <description>Insures Plan stall date is populated when Implementations Status is marked as Plan Stalled.</description>
+    <errorConditionFormula>ISPICKVAL(Implementation_Status__c , &quot;Plan Stalled&quot;) 
+&amp;&amp;
+(ISBLANK( Plan_Stall_Date__c )=TRUE)</errorConditionFormula>
+    <errorDisplayField>Plan_Stall_Date__c</errorDisplayField>
+    <errorMessage>Please populate Plan Stall Date</errorMessage>
+</ValidationRule>

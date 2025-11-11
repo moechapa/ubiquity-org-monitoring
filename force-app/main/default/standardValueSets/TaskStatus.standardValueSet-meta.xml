@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Not Started</fullName>
+        <default>true</default>
+        <label>Not Started</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Payroll Not Available</fullName>
+        <default>false</default>
+        <label>Payroll Not Available</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Contacted Client - Census</fullName>
+        <default>false</default>
+        <label>Contacted Client - Census</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Contacted Client - PR File</fullName>
+        <default>false</default>
+        <label>Contacted Client - PR File</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Contacted TPI</fullName>
+        <default>false</default>
+        <label>Contacted TPI</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>EPS Product Stalled</fullName>
+        <default>false</default>
+        <label>EPS Product Stalled</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Product</fullName>
+        <default>false</default>
+        <label>Waiting on Product</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+        <closed>true</closed>
+    </standardValue>
+</StandardValueSet>

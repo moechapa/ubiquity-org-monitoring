@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agreement_for_Services_A4S__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Can only be checked by Billing if A4S been approved?</description>
+    <inlineHelpText>Can only be checked by Billing if A4S been approved?</inlineHelpText>
+    <label>Agreement for Services (A4S)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

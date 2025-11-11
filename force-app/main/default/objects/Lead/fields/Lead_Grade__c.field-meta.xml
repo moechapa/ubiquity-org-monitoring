@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Grade__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(leadScoring__Total_Lead_Score__c&lt;35,&quot;C&quot;,if(leadScoring__Total_Lead_Score__c&lt;70,&quot;B&quot;,&quot;A&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Lead Grade is a calculated field that groups your leads based on their score.</inlineHelpText>
+    <label>Lead Grade</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

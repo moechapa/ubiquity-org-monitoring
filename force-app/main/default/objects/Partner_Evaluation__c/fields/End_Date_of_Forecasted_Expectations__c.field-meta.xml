@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_Date_of_Forecasted_Expectations__c</fullName>
+    <description>The end date of the quarter being forecasted by Ubiquity and given partner.</description>
+    <inlineHelpText>The end date of the quarter being forecasted by Ubiquity and given partner.</inlineHelpText>
+    <label>End Date of Forecasted Expectations</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

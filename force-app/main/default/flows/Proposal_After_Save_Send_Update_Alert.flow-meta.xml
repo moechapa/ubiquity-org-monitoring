@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_proposal_converted_alert</name>
+        <label>Send proposal converted alert</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <actionName>Proposal__c.Pricing_Proposal_Converted</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Proposal__c.Pricing_Proposal_Converted</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_proposal_updated_alert</name>
+        <label>Send proposal updated alert</label>
+        <locationX>314</locationX>
+        <locationY>431</locationY>
+        <actionName>Proposal__c.Proposal_Updated</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Proposal__c.Proposal_Updated</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_purchase_alert</name>
+        <label>Send purchase alert</label>
+        <locationX>578</locationX>
+        <locationY>431</locationY>
+        <actionName>Proposal__c.Simply_Purchase_Attempt</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Proposal__c.Simply_Purchase_Attempt</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <apiVersion>61.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <description>Sends alert when a proposal is newly save/shared OR submitted for purchase.</description>
+        <name>Check_if_needs_alert</name>
+        <label>Check if needs alert</label>
+        <locationX>446</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Pricing_Conversion</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pricing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Pricing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Expired Save/Share</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_proposal_converted_alert</targetReference>
+            </connector>
+            <label>Pricing Conversion</label>
+        </rules>
+        <rules>
+            <name>Fresh_saveshare</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Saved/Shared</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_proposal_updated_alert</targetReference>
+            </connector>
+            <label>Fresh saveshare</label>
+        </rules>
+        <rules>
+            <name>Fresh_submitted_for_purchase</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Submitted for Purchase</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_purchase_alert</targetReference>
+            </connector>
+            <label>Fresh submitted for purchase</label>
+        </rules>
+    </decisions>
+    <description>Added specific email alert for when pricing proposals convert to full proposals
+
+Pulled that alert from employer lead creation flow</description>
+    <environments>Default</environments>
+    <interviewLabel>Proposal | After Save | Update Alert {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Proposal | After Save | Send Update Alert</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>320</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_if_needs_alert</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Principal_Id__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>Proposal__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

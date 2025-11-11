@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>CE_Share_w_Subordinates</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>CE Share w Subordinates</label>
+        <sharedTo>
+            <group>CE_QA_Reviewed</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>CE_QA_Reviewers</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Call_Center_Director</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Call Center Director</label>
+        <sharedTo>
+            <role>Call_Center_Director</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>CE_QA_Reviewers</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ROI_Share_to_CE_Reviewers</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>QA records owned by ROI (call center) users are shared with members of CE qa reviewers group</description>
+        <label>ROI Share to CE Reviewers</label>
+        <sharedTo>
+            <group>CE_QA_Reviewers</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Call_Center_Director</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

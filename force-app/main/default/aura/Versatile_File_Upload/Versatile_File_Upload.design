@@ -1,0 +1,9 @@
+<design:component label="Versatile File Upload">
+	<design:attribute name="recordId" label="Related Record ID" />
+    <design:attribute name="fileTypes" label="Accepted Formats" />
+    <design:attribute name="cdIDs" label="Content Document IDs" />
+    <design:attribute name="cdLabels" label="Content Document Labels" />
+    <design:attribute name="multiple" label="Allow Multiple Files" />
+    <design:attribute name="label" label="File Upload Label" />
+    <design:attribute name="enableDelButton" label="Delete Button Enabled" />
+</design:component>

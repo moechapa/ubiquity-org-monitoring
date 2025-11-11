@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Simply Help Center</container>
+    <containerType>Network</containerType>
+    <label>Advisor Navigation Menu - Simply</label>
+    <navigationMenuItem>
+        <label>How-Tos For Advisors</label>
+        <menuItemBranding>
+            <tileImage>defaultnavbghowtosforadvisors</tileImage>
+        </menuItemBranding>
+        <position>1</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/how-tos-for-advisors</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Advisor Account Management</label>
+        <menuItemBranding>
+            <tileImage>defaultnavbgadvisoraccountmanagemen</tileImage>
+        </menuItemBranding>
+        <position>2</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/advisor-account-management</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Advisor Plan Management</label>
+        <menuItemBranding>
+            <tileImage>defaultnavbgadvisorplanmanagement</tileImage>
+        </menuItemBranding>
+        <position>3</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/advisor-plan-management</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Advisor Reports</label>
+        <menuItemBranding>
+            <tileImage>defaultnavbgadvisorreports</tileImage>
+        </menuItemBranding>
+        <position>4</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/advisor-reports</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

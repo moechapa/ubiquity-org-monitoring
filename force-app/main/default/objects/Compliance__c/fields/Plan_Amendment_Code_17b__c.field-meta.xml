@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Amendment_Code_17b__c</fullName>
+    <description>Enter the applicable code for last plan amendment/restatement for the required tax law changes</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the applicable code for last plan amendment/restatement for the required tax law changes</inlineHelpText>
+    <label>Plan Amendment Code (17b)</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

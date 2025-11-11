@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Partnership Support Queue</name>
+    <queueMembers>
+        <users>
+            <user>cerickson@myubiquity.com</user>
+            <user>clucero@myubiquity.com</user>
+            <user>dgriniage@myubiquity.com</user>
+            <user>gbeals@myubiquity.com</user>
+            <user>kbenewith@myubiquity.com</user>
+            <user>mcohen@myubiquity.com</user>
+            <user>pkiefer@myubiquity.com</user>
+            <user>zbasiljantzen@myubiquity.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

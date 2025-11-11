@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Growth_Team</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>User__c</field>
+        <operation>contains</operation>
+        <value>Jay</value>
+    </filters>
+    <label>Business Growth Team</label>
+    <sharedTo>
+        <roleAndSubordinates>SVP_Revenue</roleAndSubordinates>
+    </sharedTo>
+</ListView>

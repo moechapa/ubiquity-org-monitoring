@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SpecialFees__c</fullName>
+    <label>Special Fees</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>$500 Fund Changes</fullName>
+                <default>false</default>
+                <label>$500 Fund Changes</label>
+            </value>
+            <value>
+                <fullName>See Notes</fullName>
+                <default>false</default>
+                <label>See Notes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

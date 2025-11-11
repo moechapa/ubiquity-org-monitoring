@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AUM_Assets_Under_Management_in_millions__c</fullName>
+    <description>Assets under management or recordkeeping. Record in millions.</description>
+    <inlineHelpText>Assets under management or recordkeeping. Record in millions.</inlineHelpText>
+    <label>AUM(Assets Under Management in millions)</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

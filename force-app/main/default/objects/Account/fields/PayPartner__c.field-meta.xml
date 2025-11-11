@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PayPartner__c</fullName>
+    <label>Pay Partner?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No</fullName>
+                <default>true</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Credit the Client</fullName>
+                <default>false</default>
+                <label>Credit the Client</label>
+            </value>
+            <value>
+                <fullName>Pay Advisor</fullName>
+                <default>false</default>
+                <label>Pay Advisor</label>
+            </value>
+            <value>
+                <fullName>Pay Payroll Partner</fullName>
+                <default>false</default>
+                <label>Pay Payroll Partner</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

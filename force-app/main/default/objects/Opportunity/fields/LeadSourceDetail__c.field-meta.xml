@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadSourceDetail__c</fullName>
+    <label>Lead Source Detail</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>LeadSource</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+                <label>Accounting</label>
+            </value>
+            <value>
+                <fullName>Advisor</fullName>
+                <default>false</default>
+                <label>Advisor</label>
+            </value>
+            <value>
+                <fullName>AdvisorPro</fullName>
+                <default>false</default>
+                <label>AdvisorPro</label>
+            </value>
+            <value>
+                <fullName>Affiliate</fullName>
+                <default>false</default>
+                <label>Affiliate</label>
+            </value>
+            <value>
+                <fullName>Bing Ads</fullName>
+                <default>false</default>
+                <label>Bing Ads</label>
+            </value>
+            <value>
+                <fullName>Capterra</fullName>
+                <default>false</default>
+                <label>Capterra</label>
+            </value>
+            <value>
+                <fullName>Conference</fullName>
+                <default>false</default>
+                <label>Conference</label>
+            </value>
+            <value>
+                <fullName>Envestnet</fullName>
+                <default>false</default>
+                <label>Envestnet</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>Financial Institution</fullName>
+                <default>false</default>
+                <label>Financial Institution</label>
+            </value>
+            <value>
+                <fullName>flexPATH</fullName>
+                <default>false</default>
+                <label>flexPATH</label>
+            </value>
+            <value>
+                <fullName>Franchise</fullName>
+                <default>false</default>
+                <label>Franchise</label>
+            </value>
+            <value>
+                <fullName>G2</fullName>
+                <default>false</default>
+                <label>G2</label>
+            </value>
+            <value>
+                <fullName>Google Ads</fullName>
+                <default>false</default>
+                <label>Google Ads</label>
+            </value>
+            <value>
+                <fullName>HCM</fullName>
+                <default>false</default>
+                <label>HCM</label>
+            </value>
+            <value>
+                <fullName>Inbound Call</fullName>
+                <default>false</default>
+                <label>Inbound Call</label>
+            </value>
+            <value>
+                <fullName>Inbound Email</fullName>
+                <default>false</default>
+                <label>Inbound Email</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>IOA</fullName>
+                <default>false</default>
+                <label>IOA</label>
+            </value>
+            <value>
+                <fullName>Leafhouse</fullName>
+                <default>false</default>
+                <label>Leafhouse</label>
+            </value>
+            <value>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+                <label>LinkedIn</label>
+            </value>
+            <value>
+                <fullName>Member Organization</fullName>
+                <default>false</default>
+                <label>Member Organization</label>
+            </value>
+            <value>
+                <fullName>MML</fullName>
+                <default>false</default>
+                <label>MML</label>
+            </value>
+            <value>
+                <fullName>NFP</fullName>
+                <default>false</default>
+                <label>NFP</label>
+            </value>
+            <value>
+                <fullName>OneDigital</fullName>
+                <default>false</default>
+                <label>OneDigital</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Payroll</fullName>
+                <default>false</default>
+                <label>Payroll</label>
+            </value>
+            <value>
+                <fullName>PEO</fullName>
+                <default>false</default>
+                <label>PEO</label>
+            </value>
+            <value>
+                <fullName>PlanPro</fullName>
+                <default>false</default>
+                <label>PlanPro</label>
+            </value>
+            <value>
+                <fullName>PSIvet</fullName>
+                <default>false</default>
+                <label>PSIvet</label>
+            </value>
+            <value>
+                <fullName>ReachMail</fullName>
+                <default>false</default>
+                <label>ReachMail</label>
+            </value>
+            <value>
+                <fullName>Rep Sourced</fullName>
+                <default>false</default>
+                <label>Rep Sourced</label>
+            </value>
+            <value>
+                <fullName>Sallus Team</fullName>
+                <default>false</default>
+                <label>Sallus Team</label>
+            </value>
+            <value>
+                <fullName>Schwab</fullName>
+                <color>#A53711</color>
+                <default>false</default>
+                <label>Schwab</label>
+            </value>
+            <value>
+                <fullName>Schwab-CC</fullName>
+                <color>#66E9BD</color>
+                <default>false</default>
+                <label>Schwab-CC</label>
+            </value>
+            <value>
+                <fullName>Simply Advisor</fullName>
+                <default>false</default>
+                <label>Simply Advisor</label>
+            </value>
+            <value>
+                <fullName>Simply Direct</fullName>
+                <default>false</default>
+                <label>Simply Direct</label>
+            </value>
+            <value>
+                <fullName>Simply TPA</fullName>
+                <default>false</default>
+                <label>Simply TPA</label>
+            </value>
+            <value>
+                <fullName>Trustpilot</fullName>
+                <default>false</default>
+                <label>Trustpilot</label>
+            </value>
+            <value>
+                <fullName>Ubiquity Client</fullName>
+                <default>false</default>
+                <label>Ubiquity Client</label>
+            </value>
+            <value>
+                <fullName>Ubiquity Employee</fullName>
+                <default>false</default>
+                <label>Ubiquity Employee</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>Web_Lead_Form</fullName>
+                <color>#0B6FCE</color>
+                <default>false</default>
+                <label>Web Lead Form</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <label>Website</label>
+            </value>
+            <value>
+                <fullName>X/Twitter</fullName>
+                <default>false</default>
+                <label>X/Twitter</label>
+            </value>
+            <value>
+                <fullName>ZoomInfo</fullName>
+                <default>false</default>
+                <label>ZoomInfo</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Schwab</controllingFieldValue>
+            <valueName>Schwab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schwab</controllingFieldValue>
+            <valueName>Schwab-CC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement</controllingFieldValue>
+            <valueName>IOA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement</controllingFieldValue>
+            <valueName>Leafhouse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement</controllingFieldValue>
+            <valueName>OneDigital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement</controllingFieldValue>
+            <valueName>PSIvet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement</controllingFieldValue>
+            <valueName>Simply Advisor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement</controllingFieldValue>
+            <valueName>Simply Direct</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement</controllingFieldValue>
+            <valueName>Simply TPA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Content Syndication</controllingFieldValue>
+            <valueName>ReachMail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SaaS Review Site</controllingFieldValue>
+            <valueName>Capterra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SaaS Review Site</controllingFieldValue>
+            <controllingFieldValue>Paid Ads</controllingFieldValue>
+            <valueName>G2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SaaS Review Site</controllingFieldValue>
+            <valueName>Trustpilot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Events</controllingFieldValue>
+            <valueName>Conference</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Events</controllingFieldValue>
+            <valueName>Webinar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organic Search</controllingFieldValue>
+            <valueName>Website</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organic Social</controllingFieldValue>
+            <controllingFieldValue>Paid Ads</controllingFieldValue>
+            <valueName>Facebook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organic Social</controllingFieldValue>
+            <controllingFieldValue>Paid Ads</controllingFieldValue>
+            <valueName>LinkedIn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Organic Social</controllingFieldValue>
+            <valueName>X/Twitter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Ads</controllingFieldValue>
+            <valueName>Bing Ads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid Ads</controllingFieldValue>
+            <valueName>Google Ads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sallus</controllingFieldValue>
+            <valueName>Envestnet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sallus</controllingFieldValue>
+            <valueName>flexPATH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sallus</controllingFieldValue>
+            <valueName>NFP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sallus</controllingFieldValue>
+            <valueName>Sallus Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <valueName>Rep Sourced</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Purchased List</controllingFieldValue>
+            <valueName>AdvisorPro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Purchased List</controllingFieldValue>
+            <valueName>PlanPro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Purchased List</controllingFieldValue>
+            <valueName>ZoomInfo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Referral</controllingFieldValue>
+            <valueName>Accounting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Referral</controllingFieldValue>
+            <valueName>Advisor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Referral</controllingFieldValue>
+            <valueName>Affiliate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Referral</controllingFieldValue>
+            <valueName>Financial Institution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Referral</controllingFieldValue>
+            <valueName>Franchise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Referral</controllingFieldValue>
+            <valueName>HCM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Referral</controllingFieldValue>
+            <valueName>Insurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Referral</controllingFieldValue>
+            <valueName>Member Organization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Referral</controllingFieldValue>
+            <valueName>Payroll</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Referral</controllingFieldValue>
+            <valueName>PEO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Referral</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Referral</controllingFieldValue>
+            <valueName>Ubiquity Client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Referral</controllingFieldValue>
+            <valueName>Ubiquity Employee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MML</controllingFieldValue>
+            <valueName>MML</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

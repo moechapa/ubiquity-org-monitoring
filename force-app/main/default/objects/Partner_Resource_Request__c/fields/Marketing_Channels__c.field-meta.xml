@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_Channels__c</fullName>
+    <description>What channels would ideally be utilized for this initiative?</description>
+    <inlineHelpText>What channels would ideally be utilized for this initiative?</inlineHelpText>
+    <label>Marketing Channels</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Existing Communication Channels</fullName>
+                <default>false</default>
+                <label>Existing Communication Channels</label>
+            </value>
+            <value>
+                <fullName>Downloadable PDFs</fullName>
+                <default>false</default>
+                <label>Downloadable PDFs</label>
+            </value>
+            <value>
+                <fullName>Landing page / microsite</fullName>
+                <default>false</default>
+                <label>Landing page / microsite</label>
+            </value>
+            <value>
+                <fullName>Tools</fullName>
+                <default>false</default>
+                <label>Tools</label>
+            </value>
+            <value>
+                <fullName>Videos</fullName>
+                <default>false</default>
+                <label>Videos</label>
+            </value>
+            <value>
+                <fullName>Webinars</fullName>
+                <default>false</default>
+                <label>Webinars</label>
+            </value>
+            <value>
+                <fullName>Direct mail</fullName>
+                <default>false</default>
+                <label>Direct mail</label>
+            </value>
+            <value>
+                <fullName>Desk drops</fullName>
+                <default>false</default>
+                <label>Desk drops</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

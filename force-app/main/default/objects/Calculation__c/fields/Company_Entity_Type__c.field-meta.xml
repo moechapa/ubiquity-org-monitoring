@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_Entity_Type__c</fullName>
+    <description>Please confirm the company entity type with client as this can directly effect the compensation used to calculation the contribution</description>
+    <inlineHelpText>Please confirm the company entity type with client as this can directly effect the compensation used to calculation the contribution</inlineHelpText>
+    <label>Company Entity Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>C-Corp</fullName>
+                <default>false</default>
+                <label>C-Corp</label>
+            </value>
+            <value>
+                <fullName>S-Corp</fullName>
+                <default>false</default>
+                <label>S-Corp</label>
+            </value>
+            <value>
+                <fullName>Partnership</fullName>
+                <default>false</default>
+                <label>Partnership</label>
+            </value>
+            <value>
+                <fullName>LLC taxed as Corp</fullName>
+                <default>false</default>
+                <label>LLC taxed as Corp</label>
+            </value>
+            <value>
+                <fullName>LLC taxed as Partnership</fullName>
+                <default>false</default>
+                <label>LLC taxed as Partnership</label>
+            </value>
+            <value>
+                <fullName>Sole Proprietor</fullName>
+                <default>false</default>
+                <label>Sole Proprietor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

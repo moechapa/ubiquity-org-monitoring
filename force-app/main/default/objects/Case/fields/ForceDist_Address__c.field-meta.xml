@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ForceDist_Address__c</fullName>
+    <description>Used in ForceDist Cases for Docusign Merge</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used in ForceDist Cases for Docusign Merge</inlineHelpText>
+    <label>ForceDist Address</label>
+    <length>250</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

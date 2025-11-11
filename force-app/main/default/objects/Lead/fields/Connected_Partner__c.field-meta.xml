@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Connected_Partner__c</fullName>
+    <description>Partner with shared SLAs</description>
+    <inlineHelpText>Partner with shared SLAs</inlineHelpText>
+    <label>Connected Partner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Chase Bank</fullName>
+                <default>false</default>
+                <label>Chase Bank</label>
+            </value>
+            <value>
+                <fullName>JPM</fullName>
+                <default>false</default>
+                <label>JPM</label>
+            </value>
+            <value>
+                <fullName>Schwab</fullName>
+                <default>false</default>
+                <label>Schwab</label>
+            </value>
+            <value>
+                <fullName>Simply Retirement</fullName>
+                <default>false</default>
+                <label>Simply Retirement</label>
+            </value>
+            <value>
+                <fullName>Pensionmark</fullName>
+                <default>false</default>
+                <label>Pensionmark</label>
+            </value>
+            <value>
+                <fullName>Sallus</fullName>
+                <default>false</default>
+                <label>Sallus</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

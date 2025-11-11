@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>K_oncierge_Conversions</fullName>
+    <columns>NAME</columns>
+    <columns>Intro_to_K_oncierge__c</columns>
+    <columns>Koncierge_Survey_Calendly_Email__c</columns>
+    <columns>Koncierge_Initial_Call_Scheduled__c</columns>
+    <columns>Koncierge_Initial_Call__c</columns>
+    <columns>Koncierge_Training_Call_Scheduled__c</columns>
+    <columns>Koncierge_Training_Call__c</columns>
+    <columns>Koncierge_QA_Check__c</columns>
+    <columns>Expected_1st_Payroll__c</columns>
+    <columns>X1st_Payroll_Date__c</columns>
+    <columns>X1st_Payroll_Processed__c</columns>
+    <columns>Implementation_Completion_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Intro_to_K_oncierge__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Implementation__c.X401_k_Conversion_Plan</value>
+    </filters>
+    <filters>
+        <field>Implementation_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Completed</value>
+    </filters>
+    <label>(K)oncierge Conversions</label>
+    <sharedTo>
+        <roleAndSubordinates>Payroll_Team</roleAndSubordinates>
+    </sharedTo>
+</ListView>

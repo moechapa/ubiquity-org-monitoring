@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_Size__c</fullName>
+    <label>Company Size</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2-10 ees</fullName>
+                <default>false</default>
+                <label>2-10 ees</label>
+            </value>
+            <value>
+                <fullName>2-30 ees (payroll)</fullName>
+                <default>false</default>
+                <label>2-30 ees (payroll)</label>
+            </value>
+            <value>
+                <fullName>11-30 ees</fullName>
+                <default>false</default>
+                <label>11-30 ees</label>
+            </value>
+            <value>
+                <fullName>31-50 ees</fullName>
+                <default>false</default>
+                <label>31-50 ees</label>
+            </value>
+            <value>
+                <fullName>51-100 ees</fullName>
+                <default>false</default>
+                <label>51-100 ees</label>
+            </value>
+            <value>
+                <fullName>101-150 ees</fullName>
+                <default>false</default>
+                <label>101-150 ees</label>
+            </value>
+            <value>
+                <fullName>151-250 ees</fullName>
+                <default>false</default>
+                <label>151-250 ees</label>
+            </value>
+            <value>
+                <fullName>251-350 ees</fullName>
+                <default>false</default>
+                <label>251-350 ees</label>
+            </value>
+            <value>
+                <fullName>351+ ees</fullName>
+                <default>false</default>
+                <label>351+ ees</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

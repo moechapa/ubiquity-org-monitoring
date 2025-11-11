@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Advisor_Prep__c</fullName>
+    <description>Question Created by the Survey Builder</description>
+    <inlineHelpText>How prepared were you by your sales rep or financial advisor for the implementation process?</inlineHelpText>
+    <label>Sales Advisor Prep</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Well prepared - met my expectations</fullName>
+                <default>false</default>
+                <label>Well prepared - met my expectations</label>
+            </value>
+            <value>
+                <fullName>Somewhat prepared</fullName>
+                <default>false</default>
+                <label>Somewhat prepared</label>
+            </value>
+            <value>
+                <fullName>Not prepared / did not meet my expectations</fullName>
+                <default>false</default>
+                <label>Not prepared / did not meet my expectations</label>
+            </value>
+            <value>
+                <fullName>I purchased directly without Sales or Advisor rep</fullName>
+                <default>false</default>
+                <label>I purchased directly without Sales or Advisor rep</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Security_Admin_Access</fullName>
+    <active>true</active>
+    <description>Individual authorized to control security access to various platforms</description>
+    <label>Security Admin Access</label>
+    <picklistValues>
+        <picklist>Access_Level__c</picklist>
+        <values>
+            <fullName>Administrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>View</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>License_Type__c</picklist>
+        <values>
+            <fullName>Individual</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Paradigm_Roles__c</picklist>
+        <values>
+            <fullName>3%2816%29 Account Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admin Jobs Access Role</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Intelligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Intelligence Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Service Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Auditor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRKS - PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnerships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationship Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role %E2%80%93 Implementation Document Backup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role %E2%80%93 MessageManagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - 1099r PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - 5500 Reports PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - ACH Batch PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - ACH Forms PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - ACH PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - ACH Research PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Advisor Payments PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Brokerage PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Conversion Reconcilation PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Distributions PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Distributions Super User PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - EPS PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Payroll Cash II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Plan Audit PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Reconcilation PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Simple Data Corrections PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Super Data Corrections PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Super User</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Trading PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Transitions Reports PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transitions</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Name__c</picklist>
+        <values>
+            <fullName>ASC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATS %28Applicant Tracking System%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atlassian %28Jira%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Background checker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bitly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BroadRidge %28matrix%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CallRail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CrazyEgg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Figma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Five9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IORAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kotapay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matrix Trust %28TOS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monday%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paylocity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SR Fax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schwab Brokerage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schwab Institutional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schwab Trust</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Singlek Efast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Survey Monkey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Track 1099r</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Twilio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VM Access PC%26R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webflow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zapier</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Type__c</picklist>
+        <values>
+            <fullName>Security Admin</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RKS_Roles__c</picklist>
+        <values>
+            <fullName>Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Intelligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Service Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Auditor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRKS - PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnerships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saver Success</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - 5500 Reports PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Account Reconciliation PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Distributions PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Distributions Schwab PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Distributions Super User PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Implementations Reports PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Payroll Cash II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Payroll Reports PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Plan Audit PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Super Trading III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Super User</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Trading Reports PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Transitions Reports PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transitions</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Standard_Products__c</picklist>
+        <values>
+            <fullName>Azure Single Sign On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Box</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LastPass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zoom</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Technology_Access_Owner__c</picklist>
+        <values>
+            <fullName>IT</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

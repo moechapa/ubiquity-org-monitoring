@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Satndard</fullName>
+    <fields>Name</fields>
+    <fields>NumberOfEmployees</fields>
+    <fields>Business_Industry__c</fields>
+    <fields>Employer_Identification_Number_EIN__c</fields>
+    <fields>Timezone__c</fields>
+    <label>Standard</label>
+</CompactLayout>

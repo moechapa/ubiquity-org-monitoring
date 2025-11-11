@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Biz_Dev_Target_Products</fullName>
+    <active>true</active>
+    <description>Require &quot;Target Products&quot; before opportunity enters &quot;closed with contract&quot; stage</description>
+    <errorConditionFormula>ISBLANK(Target_Products__c)
+&amp;&amp;
+ISPICKVAL(StageName, &quot;Closed with Contract&quot;)</errorConditionFormula>
+    <errorDisplayField>Target_Products__c</errorDisplayField>
+    <errorMessage>Target product(s) must be added before closing with contract</errorMessage>
+</ValidationRule>

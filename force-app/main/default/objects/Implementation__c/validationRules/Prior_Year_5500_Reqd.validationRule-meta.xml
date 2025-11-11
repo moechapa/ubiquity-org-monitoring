@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prior_Year_5500_Reqd</fullName>
+    <active>true</active>
+    <description>Ensures the team verifies YES/NO to whether a prior year 5500 form and reconciliation is required</description>
+    <errorConditionFormula>(ISPICKVAL(  Implementation_Status__c , &quot;Completed&quot;)) 
+&amp;&amp;
+(ISPICKVAL(   Plan_Type__c , &quot;Conversion Plan&quot;))
+&amp;&amp;
+(Implementation_Completion_Date__c &gt; DATE(2019,9,18))
+&amp;&amp;
+( ISBLANK(TEXT( Prior_Year_5500_Required__c )))</errorConditionFormula>
+    <errorDisplayField>Prior_Year_5500_Required__c</errorDisplayField>
+    <errorMessage>&quot;Prior Year 5500 Required&quot; field must be answered Yes or No</errorMessage>
+</ValidationRule>

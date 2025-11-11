@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_L_D_Projects_1</fullName>
+    <columns>NAME</columns>
+    <columns>Completion_per__c</columns>
+    <columns>Effort__c</columns>
+    <columns>Impact__c</columns>
+    <columns>Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Objective_Owner__c</columns>
+    <columns>Requestor__c</columns>
+    <columns>Requesting_Department__c</columns>
+    <columns>Target_Completion_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Project</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Completed,Abandoned,Incomplete,Idea</value>
+    </filters>
+    <filters>
+        <field>Objective_Owner_s_Department__c</field>
+        <operation>contains</operation>
+        <value>Learning</value>
+    </filters>
+    <label>Open L+D Projects</label>
+</ListView>

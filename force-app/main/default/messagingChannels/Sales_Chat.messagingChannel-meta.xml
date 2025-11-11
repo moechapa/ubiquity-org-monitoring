@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MessagingChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <automatedResponses>
+        <autoResponseContentType>TextResponse</autoResponseContentType>
+        <language>en_US</language>
+        <response>You&apos;ve opted out of receiving messages from us, so we won&apos;t contact you again.</response>
+        <type>OptOutConfirmation</type>
+    </automatedResponses>
+    <customParameters>
+        <externalParameterName>Email</externalParameterName>
+        <masterLabel>Email</masterLabel>
+        <maxLength>255</maxLength>
+        <name>Email</name>
+        <parameterDataType>String</parameterDataType>
+    </customParameters>
+    <customParameters>
+        <externalParameterName>First_Name</externalParameterName>
+        <masterLabel>First Name</masterLabel>
+        <maxLength>100</maxLength>
+        <name>First_Name</name>
+        <parameterDataType>String</parameterDataType>
+    </customParameters>
+    <customParameters>
+        <externalParameterName>Last_Name</externalParameterName>
+        <masterLabel>Last Name</masterLabel>
+        <maxLength>100</maxLength>
+        <name>Last_Name</name>
+        <parameterDataType>String</parameterDataType>
+    </customParameters>
+    <customParameters>
+        <actionParameterMappings>
+            <actionParameterName>What_can_we_help_you_with</actionParameterName>
+        </actionParameterMappings>
+        <externalParameterName>What_can_we_help_you_with</externalParameterName>
+        <masterLabel>What can we help you with?</masterLabel>
+        <maxLength>255</maxLength>
+        <name>What_can_we_help_you_with</name>
+        <parameterDataType>String</parameterDataType>
+    </customParameters>
+    <embeddedConfig>
+        <allowedFileTypes>xml,xls,xlsx,csv,docx,doc,txt,pdf,png,jpg,bmp,tiff,gif</allowedFileTypes>
+        <anonymousUserJwtExpirationTime>360</anonymousUserJwtExpirationTime>
+        <authMode>UnAuth</authMode>
+        <isAttachmentUploadEnabled>true</isAttachmentUploadEnabled>
+        <isEstimatedWaitTimeEnabled>false</isEstimatedWaitTimeEnabled>
+        <isFallbackMessageEnabled>false</isFallbackMessageEnabled>
+        <isSaveTranscriptEnabled>false</isSaveTranscriptEnabled>
+        <maxFileSize>5</maxFileSize>
+    </embeddedConfig>
+    <masterLabel>Sales Chat</masterLabel>
+    <messagingChannelType>EmbeddedMessaging</messagingChannelType>
+    <messagingKeywords>
+        <keyword>cancel</keyword>
+        <keyword>end</keyword>
+        <keyword>quit</keyword>
+        <keyword>stop</keyword>
+        <keyword>stopall</keyword>
+        <keyword>unsubscribe</keyword>
+        <keywordType>OptOut</keywordType>
+        <language>en_US</language>
+    </messagingKeywords>
+    <sessionHandlerFlow>Messaging_Route_Route_to_Test_Bot</sessionHandlerFlow>
+    <sessionHandlerQueue>Omni_Sales</sessionHandlerQueue>
+    <sessionHandlerType>Flow</sessionHandlerType>
+    <standardParameters>
+        <actionParameterMappings>
+            <actionParameterName>Last_Name</actionParameterName>
+        </actionParameterMappings>
+        <parameterType>LastName</parameterType>
+    </standardParameters>
+    <standardParameters>
+        <actionParameterMappings>
+            <actionParameterName>Email</actionParameterName>
+        </actionParameterMappings>
+        <parameterType>Email</parameterType>
+    </standardParameters>
+    <standardParameters>
+        <actionParameterMappings>
+            <actionParameterName>First_Name</actionParameterName>
+        </actionParameterMappings>
+        <parameterType>FirstName</parameterType>
+    </standardParameters>
+</MessagingChannel>

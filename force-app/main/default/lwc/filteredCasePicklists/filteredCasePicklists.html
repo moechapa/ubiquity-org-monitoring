@@ -1,0 +1,105 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <lightning-card title="Case Details" icon-name="standard:case">
+        <div if:false={editMode}>
+            <lightning-spinner size="small" if:true={loadingView}></lightning-spinner>
+            <lightning-record-view-form object-api-name={contextObjectApiName} record-id={contextRecordId}
+                if:false={flowMode}>
+                <div class="slds-grid slds-gutters slds-m-around_xx-small">
+                    <div class="slds-col slds-size_1-of-2">
+                        <lightning-output-field field-name="Department__c" class="slds-border_bottom">
+                        </lightning-output-field>
+                        <lightning-output-field field-name="Sender_Role__c" class="slds-border_bottom">
+                        </lightning-output-field>
+                    </div>
+                    <div class="slds-col slds-size_1-of-2">
+                        <lightning-output-field field-name="Category__c" class="slds-border_bottom">
+                        </lightning-output-field>
+                        <lightning-output-field field-name="Sub_Category__c" class="slds-border_bottom">
+                        </lightning-output-field>
+                    </div>
+                </div>
+            </lightning-record-view-form>
+        </div>
+        <div>
+            <div class="slds-grid slds-gutters slds-m-around_xx-small" if:true={editMode}>
+                <div if:true={loadingEdit}>
+                    <lightning-spinner size="small"></lightning-spinner>
+                </div>
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning-combobox id="Department" name="Department" label="Department"
+                        placeholder={currentDepValue} options={depValues} onchange={refreshPicklists}
+                        value={selectedDepValue} field-level-help={caseInfo.data.fields.Department__c.inlineHelpText}
+                        required="true">
+                    </lightning-combobox>
+                    <lightning-combobox id="Sender_Role" name="Sender Role" label="Sender Role"
+                        placeholder={currentRoleValue} options={roleValues} onchange={refreshPicklists}
+                        value={selectedRoleValue} field-level-help={caseInfo.data.fields.Sender_Role__c.inlineHelpText}
+                        required="true">
+                    </lightning-combobox>
+                </div>
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning-combobox id="Category" name="Category" label="Category" placeholder={currentCatValue}
+                        options={filteredCatValues} onchange={refreshPicklists} value={selectedCatValue}
+                        disabled={isCatDisabled} field-level-help={caseInfo.data.fields.Category__c.inlineHelpText}
+                        required="true">
+                    </lightning-combobox>
+                    <lightning-combobox id="Sub_Category" name="Sub-Category" label="Sub-Category"
+                        placeholder={currentSubCatValue} options={filteredSubCatValues} onchange={handleSubCatChange}
+                        value={selectedSubCatValue} disabled={isSubCatDisabled}
+                        field-level-help={caseInfo.data.fields.Sub_Category__c.inlineHelpText} required="true">
+                    </lightning-combobox>
+                </div>
+            </div>
+            <div slot="footer" class="slds-clearfix slds-card__footer" if:false={flowMode}>
+                <lightning-button-group class="slds-float_right">
+                    <lightning-button variant="Neutral" label="Edit" title="Edit" onclick={edit} if:false={editMode}
+                        disabled={loadingEdit}></lightning-button>
+                    <lightning-button variant="Neutral" label="Cancel" title="Cancel" onclick={cancel}
+                        if:true={editMode}></lightning-button>
+                    <lightning-button variant="Brand" label="Save" title="Update" onclick={updateCase}
+                        if:true={editMode}></lightning-button>
+                </lightning-button-group>
+            </div>
+        </div>
+        <!-- debug text + datatable >
+            <p>
+                <lightning-formatted-text value="Record Id: "></lightning-formatted-text>
+                <lightning-formatted-text value={contextRecordId}></lightning-formatted-text>
+            </p>
+            <p>
+                <lightning-formatted-text value="Object API Name: "></lightning-formatted-text>
+                <lightning-formatted-text value={contextObjectApiName}></lightning-formatted-text>
+            </p>
+            <p><lightning-formatted-text value="Edited Field: "></lightning-formatted-text>
+                <lightning-formatted-text value={editedField}></lightning-formatted-text>
+            </p>
+            <p><lightning-formatted-text value="Edited Value: "></lightning-formatted-text>
+                <lightning-formatted-text value={editedValue}></lightning-formatted-text>
+            </p>
+            <p><lightning-formatted-text value="Edited Label: "></lightning-formatted-text>
+                <lightning-formatted-text value={editedLabel}></lightning-formatted-text>
+            </p>
+            <p><lightning-formatted-text value="Selected Department: "></lightning-formatted-text>
+                <lightning-formatted-text value={selectedDepValue}></lightning-formatted-text>
+            </p>
+            <p><lightning-formatted-text value="Selected Role: "></lightning-formatted-text>
+                <lightning-formatted-text value={selectedRoleValue}></lightning-formatted-text>
+            </p>
+            <p><lightning-formatted-text value="Selected Category: "></lightning-formatted-text>
+                <lightning-formatted-text value={selectedCatValue}></lightning-formatted-text>
+            </p>
+            <p><lightning-formatted-text value="Selected Sub Category: "></lightning-formatted-text>
+                <lightning-formatted-text value={selectedSubCatValue}></lightning-formatted-text>
+            </p>
+            <p><lightning-formatted-text value="cat Filter Reached:  "></lightning-formatted-text>
+                <lightning-formatted-number value={catFilterReached}></lightning-formatted-number>
+            </p>
+            <p><lightning-formatted-text value="subCat Filter Reached:  "></lightning-formatted-text>
+                <lightning-formatted-number value={subCatFilterReached}></lightning-formatted-number>
+            </p>
+            <lightning-datatable key-field="subCategory" data={picklistFilterRecords} columns={COLUMNS}>
+            </lightning-datatable>
+            < end debug -->
+    </lightning-card>
+</template>

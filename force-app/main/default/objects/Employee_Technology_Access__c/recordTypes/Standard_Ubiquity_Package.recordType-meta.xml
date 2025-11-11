@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard_Ubiquity_Package</fullName>
+    <active>true</active>
+    <description>Standard Ubiquity Package Record Type - used for New Hires</description>
+    <label>Standard Ubiquity Package</label>
+    <picklistValues>
+        <picklist>Access_Level__c</picklist>
+        <values>
+            <fullName>Administrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>License_Type__c</picklist>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Paradigm_Roles__c</picklist>
+        <values>
+            <fullName>3%2816%29 Account Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admin Jobs Access Role</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All_Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSR %28CST%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data_Corrections</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distribution_Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investment_Integrity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Job_Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Learning and Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paradigm Payroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnerships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RKS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationship Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Report_View_ACH_All_Plans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Report_View_ACH_Single_Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Report_View_Balance_All_Plans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Report_View_Balance_Single_Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Report_View_PII_All_Plans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Report_View_PII_Single_Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ResetPassword</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role %E2%80%93 Implementation Document Backup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role %E2%80%93 MessageManagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Plan Corrections</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System_Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ubiquity System Admin</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Name__c</picklist>
+        <values>
+            <fullName>360Learning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calendly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Five9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matrix Innovest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Singlek Efast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Technology Package</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Track 1099r</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Type__c</picklist>
+        <values>
+            <fullName>Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Ubiquity Package</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RKS_Roles__c</picklist>
+        <values>
+            <fullName>Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Intelligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Service Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Auditor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Learning and Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRKS - PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnerships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saver Success</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - 5500 Reports PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Account Reconciliation PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Distributions PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Distributions Schwab PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Distributions Super User PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Implementations Reports PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Payroll Reports PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Plan Audit PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Super Trading III</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Super User</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Trading Reports PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub Role - Transitions Reports PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transitions</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Standard_Products__c</picklist>
+        <values>
+            <fullName>360Learning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Azure Single Sign On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Box</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LastPass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lattice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open Sesame</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paylocity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screensteps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zoom</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Technology_Access_Owner__c</picklist>
+        <values>
+            <fullName>Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Intelligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Success</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>L %2B D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRKS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>People %26 Culture</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employees_Balance_Percent__c</fullName>
+    <description>Number of balances / Number of eligible employees</description>
+    <formula>Number_of_employees_with_a_balance__c /  Number_of_Eligible_Employees__c</formula>
+    <inlineHelpText>Number of balances / Number of eligible employees</inlineHelpText>
+    <label>Employees Balance Percent</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

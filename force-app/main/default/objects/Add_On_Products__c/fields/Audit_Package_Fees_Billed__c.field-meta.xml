@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Audit_Package_Fees_Billed__c</fullName>
+    <description>Date Audit Package Fees were billed</description>
+    <inlineHelpText>Date Audit Package Fees were billed</inlineHelpText>
+    <label>Audit Package Fees Billed</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

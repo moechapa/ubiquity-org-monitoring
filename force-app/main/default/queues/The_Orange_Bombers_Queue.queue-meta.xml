@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>The Orange Bombers Queue</name>
+    <queueMembers>
+        <users>
+            <user>cbeltran@myubiquity.com</user>
+            <user>dguler@myubiquity.com</user>
+            <user>fsalazar@myubiquity.com</user>
+            <user>kting@myubiquity.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Plan__c</sobjectType>
+    </queueSobject>
+</Queue>

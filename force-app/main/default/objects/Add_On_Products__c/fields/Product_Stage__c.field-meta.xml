@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Stage__c</fullName>
+    <label>Product Stage</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1. Evaluate Fit &amp; Collect Information</fullName>
+                <default>false</default>
+                <label>1. Evaluate Fit &amp; Collect Information</label>
+            </value>
+            <value>
+                <fullName>3. Activate Integration</fullName>
+                <default>false</default>
+                <label>3. Activate Integration</label>
+            </value>
+            <value>
+                <fullName>Awaiting Response</fullName>
+                <default>false</default>
+                <label>Awaiting Response</label>
+            </value>
+            <value>
+                <fullName>Pending Provider Access</fullName>
+                <default>false</default>
+                <label>Pending Provider Access</label>
+            </value>
+            <value>
+                <fullName>Login Credentials Received</fullName>
+                <default>false</default>
+                <label>Login Credentials Received</label>
+            </value>
+            <value>
+                <fullName>Incorrect Access Level</fullName>
+                <default>false</default>
+                <label>Incorrect Access Level</label>
+            </value>
+            <value>
+                <fullName>Follow Up Sent</fullName>
+                <default>false</default>
+                <label>Follow Up Sent</label>
+            </value>
+            <value>
+                <fullName>Integration Stalled - No Response</fullName>
+                <default>false</default>
+                <label>Integration Stalled - No Response</label>
+            </value>
+            <value>
+                <fullName>Pending First Payroll Submission</fullName>
+                <default>false</default>
+                <label>Pending First Payroll Submission</label>
+            </value>
+            <value>
+                <fullName>Awaiting Vendor Response</fullName>
+                <default>false</default>
+                <label>Awaiting Vendor Response</label>
+            </value>
+            <value>
+                <fullName>Operation Set Up In Progress</fullName>
+                <default>false</default>
+                <label>Operation Set Up In Progress</label>
+            </value>
+            <value>
+                <fullName>Pending First EPS Upload</fullName>
+                <default>false</default>
+                <label>Pending First EPS Upload</label>
+            </value>
+            <value>
+                <fullName>Reviewing Test Files</fullName>
+                <default>false</default>
+                <label>Reviewing Test Files</label>
+            </value>
+            <value>
+                <fullName>Test Files Reviewed - Corrections Needed</fullName>
+                <default>false</default>
+                <label>Test Files Reviewed - Corrections Needed</label>
+            </value>
+            <value>
+                <fullName>Test Files Passed - Pending First Payroll</fullName>
+                <default>false</default>
+                <label>Test Files Passed - Pending First Payroll</label>
+            </value>
+            <value>
+                <fullName>Integration Complete</fullName>
+                <default>false</default>
+                <label>Integration Complete</label>
+            </value>
+            <value>
+                <fullName>1. Evaluate Fit</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1. Evaluate Fit</label>
+            </value>
+            <value>
+                <fullName>2. Configure &amp; Test</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2. Configure &amp; Test</label>
+            </value>
+            <value>
+                <fullName>4. Completed Integration Setup</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4. Completed Integration Setup</label>
+            </value>
+            <value>
+                <fullName>4. Completed Setup</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4. Completed Setup</label>
+            </value>
+            <value>
+                <fullName>a: New Integration Request</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>a: New Integration Request</label>
+            </value>
+            <value>
+                <fullName>b: Introduction Email Sent</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>b: Introduction Email Sent</label>
+            </value>
+            <value>
+                <fullName>c: Evaulated Fit</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>c: Evaulated Fit</label>
+            </value>
+            <value>
+                <fullName>d: Requested Authorization Form &amp; Login Instructions</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>d: Requested Authorization Form &amp; Login Instructions</label>
+            </value>
+            <value>
+                <fullName>e: Received Authorization Form</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>e: Received Authorization Form</label>
+            </value>
+            <value>
+                <fullName>f: Configured Paradigm</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>f: Configured Paradigm</label>
+            </value>
+            <value>
+                <fullName>f: Received Login Credentials</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>f: Received Login Credentials</label>
+            </value>
+            <value>
+                <fullName>g: Closed EPS Opportunity</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>g: Closed EPS Opportunity</label>
+            </value>
+            <value>
+                <fullName>g: Configured Salesforce; pending test files</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>g: Configured Salesforce; pending test files</label>
+            </value>
+            <value>
+                <fullName>h. Reviewed Test Files- Failed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>h. Reviewed Test Files- Failed</label>
+            </value>
+            <value>
+                <fullName>h: Reviewed Test Files - Failed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>h: Reviewed Test Files - Failed</label>
+            </value>
+            <value>
+                <fullName>h: Reviewed Test Files- Passed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>h: Reviewed Test Files- Passed</label>
+            </value>
+            <value>
+                <fullName>h: Tested Login Access</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>h: Tested Login Access</label>
+            </value>
+            <value>
+                <fullName>i: Configured 360 Integration</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>i: Configured 360 Integration</label>
+            </value>
+            <value>
+                <fullName>i: Sent login results</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>i: Sent login results</label>
+            </value>
+            <value>
+                <fullName>j: Received Sourcemapping</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>j: Received Sourcemapping</label>
+            </value>
+            <value>
+                <fullName>j: Sent Email - Integration is Activated</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>j: Sent Email - Integration is Activated</label>
+            </value>
+            <value>
+                <fullName>k: Configured Salesforce tasks list</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>k: Configured Salesforce tasks list</label>
+            </value>
+            <value>
+                <fullName>k: Sent Email - Requested Test File Updates</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>k: Sent Email - Requested Test File Updates</label>
+            </value>
+            <value>
+                <fullName>l: Configured Paradigm</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>l: Configured Paradigm</label>
+            </value>
+            <value>
+                <fullName>l: Pending 1st Payroll</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>l: Pending 1st Payroll</label>
+            </value>
+            <value>
+                <fullName>m: Submitted 1st Payroll</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>m: Submitted 1st Payroll</label>
+            </value>
+            <value>
+                <fullName>m: Updated Salesforce Add-on Product</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>m: Updated Salesforce Add-on Product</label>
+            </value>
+            <value>
+                <fullName>n: Completed QA Check</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>n: Completed QA Check</label>
+            </value>
+            <value>
+                <fullName>n: Configured 360 Integration</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>n: Configured 360 Integration</label>
+            </value>
+            <value>
+                <fullName>o: Completed Integration Setup</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>o: Completed Integration Setup</label>
+            </value>
+            <value>
+                <fullName>o: Reviewed Test Files</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>o: Reviewed Test Files</label>
+            </value>
+            <value>
+                <fullName>p: Test Files passed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>p: Test Files passed</label>
+            </value>
+            <value>
+                <fullName>q: Sent Email - Integration is Activated</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>q: Sent Email - Integration is Activated</label>
+            </value>
+            <value>
+                <fullName>r: Pending 1st Payroll</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>r: Pending 1st Payroll</label>
+            </value>
+            <value>
+                <fullName>s: Submitted 1st Payroll</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>s: Submitted 1st Payroll</label>
+            </value>
+            <value>
+                <fullName>t: Completed QA Check</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>t: Completed QA Check</label>
+            </value>
+            <value>
+                <fullName>u: Completed Integration Setup</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>u: Completed Integration Setup</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

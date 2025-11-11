@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Standard Permissions for a CE user, does not include Chat permissions.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CE - Standard</label>
+    <permissionSets>Client_Feedback</permissionSets>
+    <permissionSets>Complaint_Form</permissionSets>
+    <permissionSets>Knowledge_User</permissionSets>
+    <permissionSets>MFA_Enabled</permissionSets>
+    <permissionSets>OB_Archiver__Archiver_View_Archived_Records</permissionSets>
+    <permissionSets>OB_Archiver__Unarchive</permissionSets>
+    <permissionSets>OKR</permissionSets>
+    <permissionSets>Standard_User</permissionSets>
+    <permissionSets>ZVC__Zoom_Contact_Center_Agent</permissionSets>
+    <permissionSets>Zoom_Integration_Call_Center_User_Permission_Set</permissionSets>
+    <permissionSets>box__Box_Standard_All_Licenses</permissionSets>
+    <permissionSets>dfsle__DocuSign_User</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

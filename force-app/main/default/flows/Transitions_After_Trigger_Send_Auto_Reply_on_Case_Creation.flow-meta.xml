@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_Auto_Reply_Email</name>
+        <label>Send Auto Reply Email</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <actionName>Case.Transition_Team_Auto_Reply_on_Case_Creation</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Case.Transition_Team_Auto_Reply_on_Case_Creation</nameSegment>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <description>Changed Entry Criteria to not run if Splited_From__c is NULL instead of Intcss_Splited_From__c. -JI 7-2-24
+
+Added entry gate to ensure that when a case is created from the ubiquity domain &quot;@myubiquity.com&quot; it doesn&apos;t reply.  Fixing response loop from 11/10/23
+
+When Transition case is created and Case Origin is &quot;Transition Inbox&quot;, send an auto-reply email.</description>
+    <environments>Default</environments>
+    <interviewLabel>Transitions | After Trigger | Send Auto-Reply on Case Creation {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Case | After Trigger | Send Auto-Reply on Transition Case Creation</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Send_Auto_Reply_Email</targetReference>
+        </connector>
+        <filterLogic>1 AND 2 AND 3 AND 4 AND 5 AND NOT 6</filterLogic>
+        <filters>
+            <field>Origin</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Transitions Inbox</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>ParentId</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Splited_From__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>CreatedById</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>00500000006xUkfAAE</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>CreatedById</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>0051G000008DD4U</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>SuppliedEmail</field>
+            <operator>EndsWith</operator>
+            <value>
+                <stringValue>@myubiquity.com</stringValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

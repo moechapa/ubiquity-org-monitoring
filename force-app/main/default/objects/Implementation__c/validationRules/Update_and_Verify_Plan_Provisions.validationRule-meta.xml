@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update_and_Verify_Plan_Provisions</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ISPICKVAL(Business_Unit__c , &quot;Simply Retirement&quot; ))
+&amp;&amp;
+Connected_Partner__c != &quot;Sallus&quot;
+&amp;&amp;
+ISPICKVAL( Implementation_Stage__c, &quot;Funding&quot;)
+&amp;&amp;
+ISCHANGED(Implementation_Stage__c)
+&amp;&amp;
+NOT(ISPICKVAL( Update_Verify_Plan_Provisions__c , &quot;Yes&quot;))
+&amp;&amp;
+NOT(ISPICKVAL( Service_Option__c, &quot;Single(k) Plus&quot;))</errorConditionFormula>
+    <errorMessage>Please make sure Update &amp; Verify Plan Provisions is set to &quot;Yes&quot;</errorMessage>
+</ValidationRule>

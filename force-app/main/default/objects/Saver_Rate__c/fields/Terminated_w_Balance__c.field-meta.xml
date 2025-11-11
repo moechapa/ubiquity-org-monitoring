@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Terminated_w_Balance__c</fullName>
+    <description>Terminated employees who have a balance in Employee and/or Employer sources</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Terminated employees who have a balance in Employee and/or Employer sources</inlineHelpText>
+    <label>Terminated w Balance</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

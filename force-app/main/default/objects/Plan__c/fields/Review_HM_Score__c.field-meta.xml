@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Review_HM_Score__c</fullName>
+    <businessStatus>DeprecateCandidate</businessStatus>
+    <description>Health metric review score. Saver review 20% weighting, sponsor/trustee review 80% weighting.</description>
+    <externalId>false</externalId>
+    <formula>IF( 
+(ISNULL( Most_Recent_Review_Saver__c )= True &amp;&amp; ISNULL( Most_Recent_Review_Sponsor_Trustee__c )= False), 
+CASE((Most_Recent_Review_Sponsor_Trustee__c),1,-1,2,-1,3,0,4,1,5,1,0), 
+IF( 
+(ISNULL(Most_Recent_Review_Saver__c)= False &amp;&amp; ISNULL(Most_Recent_Review_Sponsor_Trustee__c)=True), 
+CASE(( Most_Recent_Review_Saver__c),1,-1,2,-1,3,0,4,1,5,1,0), 
+IF( 
+(ISNULL(Most_Recent_Review_Saver__c)= False &amp;&amp; ISNULL(Most_Recent_Review_Sponsor_Trustee__c)=False), 
+CASE(ROUND((Most_Recent_Review_Saver__c*0.2)+(Most_Recent_Review_Sponsor_Trustee__c*0.8), 0),1,-1,2,-1,3,0,4,1,5,1,0),0)))</formula>
+    <inlineHelpText>Health metric review score. Saver review 20% weighting, sponsor/trustee review 80% weighting.</inlineHelpText>
+    <label>Review HM Score (Deprecated)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

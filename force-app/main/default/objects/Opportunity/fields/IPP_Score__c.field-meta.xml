@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IPP_Score__c</fullName>
+    <description>Score 0-10 scale. 10 being the best scenario for Ubiquity, and 1 being the worst.</description>
+    <externalId>false</externalId>
+    <formula>(VALUE( TEXT (Revenue_Opportunity__c )) + 
+VALUE( TEXT (Distribution__c )) +
+VALUE( TEXT (Product_Fit__c )) +
+VALUE( TEXT (Funding__c )) +
+VALUE( TEXT (Timing_to_Decision__c )))/5</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Score 0-10 scale. 10 being the best scenario for Ubiquity, and 1 being the worst.</inlineHelpText>
+    <label>IPP Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Activity_Date_Range__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(LastActivityDate &gt;= TODAY() - 180, &quot;Past 6 Months&quot;,
+(IF(LastActivityDate &gt;= TODAY() - 365, &quot;Past 12 Months&quot;,
+(IF(LastActivityDate &lt; TODAY() - 365, &quot;Over 12 Months&quot;, &quot;No Activity&quot;)))))</formula>
+    <label>Last Activity Date Range</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

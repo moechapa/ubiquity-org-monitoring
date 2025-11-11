@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Advisor_UBQT_Experience__c</fullName>
+    <inlineHelpText>What have you liked most about your Ubiquity experience that we should continue?</inlineHelpText>
+    <label>Advisor - UBQT Experience</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Multiple plan types that fit my clients&apos; needs</fullName>
+                <default>false</default>
+                <label>Multiple plan types that fit my clients&apos; needs</label>
+            </value>
+            <value>
+                <fullName>Platform ease of use</fullName>
+                <default>false</default>
+                <label>Platform ease of use</label>
+            </value>
+            <value>
+                <fullName>Low fees</fullName>
+                <default>false</default>
+                <label>Low fees</label>
+            </value>
+            <value>
+                <fullName>Speed of answering my questions</fullName>
+                <default>false</default>
+                <label>Speed of answering my questions</label>
+            </value>
+            <value>
+                <fullName>Effectiveness of answering my questions</fullName>
+                <default>false</default>
+                <label>Effectiveness of answering my questions</label>
+            </value>
+            <value>
+                <fullName>Helpful content so I can self-service</fullName>
+                <default>false</default>
+                <label>Helpful content so I can self-service</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

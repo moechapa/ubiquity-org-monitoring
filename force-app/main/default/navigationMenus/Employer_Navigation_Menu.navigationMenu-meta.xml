@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Paradigm Help Center</container>
+    <containerType>Network</containerType>
+    <label>Employer Navigation Menu</label>
+    <navigationMenuItem>
+        <label>Annual Plan Reporting</label>
+        <menuItemBranding>
+            <tileImage>defaultnavbgannualplanreporting</tileImage>
+        </menuItemBranding>
+        <position>1</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/annual-plan-reporting</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Annual Plan Testing</label>
+        <menuItemBranding>
+            <tileImage>defaultnavbgannualplantesting</tileImage>
+        </menuItemBranding>
+        <position>2</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/annual-plan-testing</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Day-to-Day Plan Management</label>
+        <menuItemBranding>
+            <tileImage>defaultnavbgdaytodayplanmanagement</tileImage>
+        </menuItemBranding>
+        <position>3</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/day-to-day-plan-management</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Eligibility For Participation</label>
+        <menuItemBranding>
+            <tileImage>defaultnavbgeligibilityforparticipa1</tileImage>
+        </menuItemBranding>
+        <position>4</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/eligibility-for-participation</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>How-Tos For Plan Administrators</label>
+        <menuItemBranding>
+            <tileImage>defaultnavbghowtosforplaadministrat</tileImage>
+        </menuItemBranding>
+        <position>5</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/how-tos-for-plan-administrators</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Payroll + Annual Contributions</label>
+        <menuItemBranding>
+            <tileImage>defaultnavbgpayrollannualcontributi</tileImage>
+        </menuItemBranding>
+        <position>6</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/payroll-annual-contributions</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Plan Administration</label>
+        <menuItemBranding>
+            <tileImage>defaultnavbgplanadministration</tileImage>
+        </menuItemBranding>
+        <position>7</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/plan-administration</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

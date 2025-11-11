@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Money_Market_Funds__c</fullName>
+    <label>Money Market Funds</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Share_Class__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>US Government Money Market Fund Reserve (RJGXX)</fullName>
+                <default>false</default>
+                <label>US Government Money Market Fund Reserve (RJGXX)</label>
+            </value>
+            <value>
+                <fullName>US Government Money Market Fund Premier (OGSXX)</fullName>
+                <default>false</default>
+                <label>US Government Money Market Fund Premier (OGSXX)</label>
+            </value>
+            <value>
+                <fullName>US Government Money Market Fund Capital (OGVXX)</fullName>
+                <default>false</default>
+                <label>US Government Money Market Fund Capital (OGVXX)</label>
+            </value>
+            <value>
+                <fullName>Federated Trust for U.S. Treasury Obligations (TTIXX)</fullName>
+                <default>false</default>
+                <label>Federated Trust for U.S. Treasury Obligations (TTIXX)</label>
+            </value>
+            <value>
+                <fullName>PIMCO Government Money Market (PGPXX)</fullName>
+                <default>false</default>
+                <label>PIMCO Government Money Market (PGPXX)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>Federated Trust for U.S. Treasury Obligations (TTIXX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>US Government Money Market Fund Reserve (RJGXX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>US Government Money Market Fund Premier (OGSXX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>PIMCO Government Money Market (PGPXX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>US Government Money Market Fund Capital (OGVXX)</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

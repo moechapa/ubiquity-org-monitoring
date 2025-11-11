@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BD_Opp_Lost_to_Competitor</fullName>
+    <active>true</active>
+    <description>Enforces population of competitor who wins BD opp over Ubiquity</description>
+    <errorConditionFormula>ISPICKVAL( Closed_Lost_Reason__c, &quot;Lost to Competitor&quot;)
+&amp;&amp;
+ISBLANK(Lost_to_Competitor__c)=TRUE</errorConditionFormula>
+    <errorDisplayField>Lost_to_Competitor__c</errorDisplayField>
+    <errorMessage>Please populate the Competitor this Opportunity was Lost to.</errorMessage>
+</ValidationRule>

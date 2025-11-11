@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department_Dyn__c</fullName>
+    <description>New department field for dynamic QA form.  Shares global value set with design and is editable.</description>
+    <inlineHelpText>Required for QA Design</inlineHelpText>
+    <label>Department</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>QA_Departments</valueSetName>
+    </valueSet>
+</CustomField>

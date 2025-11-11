@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Top_Heavy_Yes_or_No</fullName>
+    <active>true</active>
+    <description>Top Heavy field must be Yes or No</description>
+    <errorConditionFormula>ISPICKVAL( Status__c , &quot;Completed&quot;)
+&amp;&amp;
+ISBLANK (TEXT( Top_Heavy__c ))
+&amp;&amp;
+ RecordTypeId = &quot;0121G000000RlLiQAK&quot;</errorConditionFormula>
+    <errorDisplayField>Top_Heavy__c</errorDisplayField>
+    <errorMessage>Top Heavy field must be answered &quot;Yes&quot; or &quot;No&quot;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This started as a queue just for R&amp;W RMDs but they wanted to use it for all completed forms</description>
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>R&amp;W Completed Forms</name>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

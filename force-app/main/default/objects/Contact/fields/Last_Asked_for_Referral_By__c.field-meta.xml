@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Asked_for_Referral_By__c</fullName>
+    <description>Who last asked contact to provide a new plan referral?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Who last asked contact to provide a new plan referral?</inlineHelpText>
+    <label>Last Asked for Referral By</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Message_from_Lead__c</fullName>
+    <description>The notes in this box come directly from the lead when they submit their contact information on the Starter(k) quote page.</description>
+    <inlineHelpText>The notes in this box come directly from the lead when they submit their contact information on the Starter(k) quote page.</inlineHelpText>
+    <label>Message from Lead</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

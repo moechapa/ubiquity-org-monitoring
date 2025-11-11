@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Question_Count__c</fullName>
+    <description>Number of questions this design will generate</description>
+    <inlineHelpText>Count of related question info</inlineHelpText>
+    <label>Question Count</label>
+    <summaryForeignKey>QA_Question_Info__c.QA_Design__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

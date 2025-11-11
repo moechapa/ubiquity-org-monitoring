@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requests_Awaiting_Removal</fullName>
+    <columns>NAME</columns>
+    <columns>Product_Type__c</columns>
+    <columns>Product_Name__c</columns>
+    <columns>Hire_Date__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Access_Removed_Requested__c</columns>
+    <columns>Technology_Access_Owner__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Technology_Access_Owner__c</field>
+        <operation>equals</operation>
+        <value>People &amp; Culture</value>
+    </filters>
+    <filters>
+        <field>Access_Removed_Date__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Access_Removed_Requested__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Requests Awaiting Removal</label>
+</ListView>

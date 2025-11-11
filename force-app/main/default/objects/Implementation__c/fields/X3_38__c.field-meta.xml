@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X3_38__c</fullName>
+    <inlineHelpText>3(38) Advisory firm on the Implementation</inlineHelpText>
+    <label>3(38)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Service_Option__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>COTA Street</fullName>
+                <default>false</default>
+                <label>COTA Street</label>
+            </value>
+            <value>
+                <fullName>Wilshire</fullName>
+                <default>false</default>
+                <label>Wilshire</label>
+            </value>
+            <value>
+                <fullName>Kaye Capital</fullName>
+                <default>false</default>
+                <label>Kaye Capital</label>
+            </value>
+            <value>
+                <fullName>Morningstar</fullName>
+                <default>false</default>
+                <label>Morningstar</label>
+            </value>
+            <value>
+                <fullName>Envestnet</fullName>
+                <default>false</default>
+                <label>Envestnet</label>
+            </value>
+            <value>
+                <fullName>flexPATH</fullName>
+                <default>false</default>
+                <label>flexPATH</label>
+            </value>
+            <value>
+                <fullName>NFP</fullName>
+                <default>false</default>
+                <label>NFP</label>
+            </value>
+            <value>
+                <fullName>GRP</fullName>
+                <default>false</default>
+                <label>GRP</label>
+            </value>
+            <value>
+                <fullName>OneDigital</fullName>
+                <default>false</default>
+                <label>OneDigital</label>
+            </value>
+            <value>
+                <fullName>MML</fullName>
+                <default>false</default>
+                <label>MML</label>
+            </value>
+            <value>
+                <fullName>SRP</fullName>
+                <default>false</default>
+                <label>SRP</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement TPA</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement</controllingFieldValue>
+            <controllingFieldValue>Express(k) to Custom(k) Upgrade</controllingFieldValue>
+            <controllingFieldValue>Express(k) to Custom(k) w/ New Comp Upgrade</controllingFieldValue>
+            <controllingFieldValue>New Comp Upgrade</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>Wilshire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <valueName>Envestnet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <valueName>flexPATH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <valueName>GRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Legacy Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Express(k) to Custom(k) Upgrade</controllingFieldValue>
+            <controllingFieldValue>Express(k) to Custom(k) w/ New Comp Upgrade</controllingFieldValue>
+            <controllingFieldValue>New Comp Upgrade</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Legacy Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Express(k) to Custom(k) Upgrade</controllingFieldValue>
+            <controllingFieldValue>Express(k) to Custom(k) w/ New Comp Upgrade</controllingFieldValue>
+            <controllingFieldValue>New Comp Upgrade</controllingFieldValue>
+            <valueName>COTA Street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Legacy Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Express(k) to Custom(k) Upgrade</controllingFieldValue>
+            <controllingFieldValue>Express(k) to Custom(k) w/ New Comp Upgrade</controllingFieldValue>
+            <controllingFieldValue>New Comp Upgrade</controllingFieldValue>
+            <valueName>Kaye Capital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Legacy Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Express(k) to Custom(k) Upgrade</controllingFieldValue>
+            <controllingFieldValue>Express(k) to Custom(k) w/ New Comp Upgrade</controllingFieldValue>
+            <controllingFieldValue>New Comp Upgrade</controllingFieldValue>
+            <valueName>Morningstar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <valueName>MML</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <valueName>OneDigital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <valueName>SRP</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

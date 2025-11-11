@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChatTimeText__c</fullName>
+    <description>Request Time as Text.   March - November = (RequestTime - 0.29166666)     November to March = (RequestTime - 0.333333)</description>
+    <externalId>false</externalId>
+    <formula>LEFT(RIGHT(text(  RequestTime -0.2916666 ),9),8)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Request Time as Text</inlineHelpText>
+    <label>ChatTimeText</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

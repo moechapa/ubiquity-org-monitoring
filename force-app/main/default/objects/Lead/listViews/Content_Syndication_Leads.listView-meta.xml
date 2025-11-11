@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Content_Syndication_Leads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE_CODE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>LEAD.LEAD_SOURCE</field>
+        <operation>equals</operation>
+        <value>Content Syndication</value>
+    </filters>
+    <filters>
+        <field>LeadSourceDetail__c</field>
+        <operation>contains</operation>
+        <value>ReachMail</value>
+    </filters>
+    <filters>
+        <field>ACTION_CADENCE</field>
+        <operation>notEqual</operation>
+        <value>Content Syndication Follow-up</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Open,Assigned,Working,Progressing</value>
+    </filters>
+    <label>Open Content Syndication Leads</label>
+</ListView>

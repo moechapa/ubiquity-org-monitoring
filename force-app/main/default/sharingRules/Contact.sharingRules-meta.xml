@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>PartnershipManagerA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Partnership ManagerA</label>
+        <sharedTo>
+            <role>PartnershipManager</role>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SalesTeam</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Sales Team</label>
+        <sharedTo>
+            <group>SalesTeam</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>CEO</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SalesTeam253052</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Sales Team</label>
+        <sharedTo>
+            <group>SalesTeam</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>PartnershipManager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SalesTeam253053</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Sales Team</label>
+        <sharedTo>
+            <group>SalesTeam</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>SalesTeam</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SuperUsers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Super Users</label>
+        <sharedTo>
+            <group>SuperUsers</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>SuperUsers</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

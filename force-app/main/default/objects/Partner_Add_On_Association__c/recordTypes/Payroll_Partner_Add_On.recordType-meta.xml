@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payroll_Partner_Add_On</fullName>
+    <active>true</active>
+    <label>Payroll Partner Add-On</label>
+    <picklistValues>
+        <picklist>Partner_Role__c</picklist>
+        <values>
+            <fullName>Integrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll Provider %2B Integrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

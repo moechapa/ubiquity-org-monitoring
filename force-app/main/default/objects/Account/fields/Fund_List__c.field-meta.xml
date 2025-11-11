@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fund_List__c</fullName>
+    <label>Fund List</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>CensiblyYours</fullName>
+                <default>false</default>
+                <label>CensiblyYours</label>
+            </value>
+            <value>
+                <fullName>Custom List</fullName>
+                <default>false</default>
+                <label>Custom List</label>
+            </value>
+            <value>
+                <fullName>ESG</fullName>
+                <default>false</default>
+                <label>ESG</label>
+            </value>
+            <value>
+                <fullName>Fidelity / Vanguard</fullName>
+                <default>false</default>
+                <label>Fidelity / Vanguard</label>
+            </value>
+            <value>
+                <fullName>Fidelity Extended</fullName>
+                <default>false</default>
+                <label>Fidelity Extended</label>
+            </value>
+            <value>
+                <fullName>Fidelity Index</fullName>
+                <default>false</default>
+                <label>Fidelity Index</label>
+            </value>
+            <value>
+                <fullName>FPR</fullName>
+                <default>false</default>
+                <label>FPR</label>
+            </value>
+            <value>
+                <fullName>FPR ETF</fullName>
+                <default>false</default>
+                <label>FPR ETF</label>
+            </value>
+            <value>
+                <fullName>Globalt I-Shares</fullName>
+                <default>false</default>
+                <label>Globalt I-Shares</label>
+            </value>
+            <value>
+                <fullName>Intuit Morningstar List</fullName>
+                <default>false</default>
+                <label>Intuit Morningstar List</label>
+            </value>
+            <value>
+                <fullName>JPM R2 SmartRetirement</fullName>
+                <default>false</default>
+                <label>JPM R2 SmartRetirement</label>
+            </value>
+            <value>
+                <fullName>JPM R2 Smart Retirement Blend</fullName>
+                <default>false</default>
+                <label>JPM R2 Smart Retirement Blend</label>
+            </value>
+            <value>
+                <fullName>JPM R3 SmartRetirement</fullName>
+                <default>false</default>
+                <label>JPM R3 SmartRetirement</label>
+            </value>
+            <value>
+                <fullName>JPM R3 Smart Retirement Blend</fullName>
+                <default>false</default>
+                <label>JPM R3 Smart Retirement Blend</label>
+            </value>
+            <value>
+                <fullName>JPM R4 SmartRetirement</fullName>
+                <default>false</default>
+                <label>JPM R4 SmartRetirement</label>
+            </value>
+            <value>
+                <fullName>JPM R4 Smart Retirement Blend</fullName>
+                <default>false</default>
+                <label>JPM R4 Smart Retirement Blend</label>
+            </value>
+            <value>
+                <fullName>JPM R5 SmartRetirement</fullName>
+                <default>false</default>
+                <label>JPM R5 SmartRetirement</label>
+            </value>
+            <value>
+                <fullName>JPM R5 Smart Retirement Blend</fullName>
+                <default>false</default>
+                <label>JPM R5 Smart Retirement Blend</label>
+            </value>
+            <value>
+                <fullName>JPM R6 SmartRetirement</fullName>
+                <default>false</default>
+                <label>JPM R6 SmartRetirement</label>
+            </value>
+            <value>
+                <fullName>JPM R6 Smart Retirement Blend</fullName>
+                <default>false</default>
+                <label>JPM R6 Smart Retirement Blend</label>
+            </value>
+            <value>
+                <fullName>Loring Ward Custom Fund List</fullName>
+                <default>false</default>
+                <label>Loring Ward Custom Fund List</label>
+            </value>
+            <value>
+                <fullName>Loring Ward  Plan B</fullName>
+                <default>false</default>
+                <label>Loring Ward  Plan B</label>
+            </value>
+            <value>
+                <fullName>Matrix DFA Long List</fullName>
+                <default>false</default>
+                <label>Matrix DFA Long List</label>
+            </value>
+            <value>
+                <fullName>Matrix Reg Rep List Choice 50bps</fullName>
+                <default>false</default>
+                <label>Matrix Reg Rep List Choice 50bps</label>
+            </value>
+            <value>
+                <fullName>Matrix Reg Rep List Plus 75bps</fullName>
+                <default>false</default>
+                <label>Matrix Reg Rep List Plus 75bps</label>
+            </value>
+            <value>
+                <fullName>Matrix Reg Rep List Select 100bps</fullName>
+                <default>false</default>
+                <label>Matrix Reg Rep List Select 100bps</label>
+            </value>
+            <value>
+                <fullName>Matrix RIA/Direct Fund List</fullName>
+                <default>false</default>
+                <label>Matrix RIA/Direct Fund List</label>
+            </value>
+            <value>
+                <fullName>MML</fullName>
+                <default>false</default>
+                <label>MML</label>
+            </value>
+            <value>
+                <fullName>Morningstar 25 bps</fullName>
+                <default>false</default>
+                <label>Morningstar 25 bps</label>
+            </value>
+            <value>
+                <fullName>Morningstar 50 bps</fullName>
+                <default>false</default>
+                <label>Morningstar 50 bps</label>
+            </value>
+            <value>
+                <fullName>Morningstar ETF List</fullName>
+                <default>false</default>
+                <label>Morningstar ETF List</label>
+            </value>
+            <value>
+                <fullName>Morningstar I-Class RIA List</fullName>
+                <default>false</default>
+                <label>Morningstar I-Class RIA List</label>
+            </value>
+            <value>
+                <fullName>Morningstar New York Life Fund List</fullName>
+                <default>false</default>
+                <label>Morningstar New York Life Fund List</label>
+            </value>
+            <value>
+                <fullName>Morningstar Schwab</fullName>
+                <default>false</default>
+                <label>Morningstar Schwab</label>
+            </value>
+            <value>
+                <fullName>Nuveen Target Date &amp; Vanguard Index</fullName>
+                <default>false</default>
+                <label>Nuveen Target Date &amp; Vanguard Index</label>
+            </value>
+            <value>
+                <fullName>Principal Investment Portfolio</fullName>
+                <default>false</default>
+                <label>Principal Investment Portfolio</label>
+            </value>
+            <value>
+                <fullName>Prudent</fullName>
+                <default>false</default>
+                <label>Prudent</label>
+            </value>
+            <value>
+                <fullName>Prudent Sustainable</fullName>
+                <default>false</default>
+                <label>Prudent Sustainable</label>
+            </value>
+            <value>
+                <fullName>Schwab Index Advantage list</fullName>
+                <default>false</default>
+                <label>Schwab Index Advantage list</label>
+            </value>
+            <value>
+                <fullName>Schwab RIA/Direct List</fullName>
+                <default>false</default>
+                <label>Schwab RIA/Direct List</label>
+            </value>
+            <value>
+                <fullName>Simply SRP Fund Lineup 1</fullName>
+                <default>false</default>
+                <label>Simply SRP Fund Lineup 1</label>
+            </value>
+            <value>
+                <fullName>T. Rowe Price Sample list</fullName>
+                <default>false</default>
+                <label>T. Rowe Price Sample list</label>
+            </value>
+            <value>
+                <fullName>TDA RIA List</fullName>
+                <default>false</default>
+                <label>TDA RIA List</label>
+            </value>
+            <value>
+                <fullName>Valmark RIA List</fullName>
+                <default>false</default>
+                <label>Valmark RIA List</label>
+            </value>
+            <value>
+                <fullName>Vanguard Admiral Shares Fund List</fullName>
+                <default>false</default>
+                <label>Vanguard Admiral Shares Fund List</label>
+            </value>
+            <value>
+                <fullName>Vanguard Long List</fullName>
+                <default>false</default>
+                <label>Vanguard Long List</label>
+            </value>
+            <value>
+                <fullName>Vanguard RIA List</fullName>
+                <default>false</default>
+                <label>Vanguard RIA List</label>
+            </value>
+            <value>
+                <fullName>Zenefits Vanguard Fund List</fullName>
+                <default>false</default>
+                <label>Zenefits Vanguard Fund List</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

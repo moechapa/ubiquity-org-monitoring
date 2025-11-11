@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Multiple_Business__c</fullName>
+    <inlineHelpText>This information will come in from the Find the Right Plan Tool.  Can be manually overwritten.</inlineHelpText>
+    <label>Multiple Business</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>Didn&apos;t answer</fullName>
+                <default>false</default>
+                <label>Didn&apos;t answer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

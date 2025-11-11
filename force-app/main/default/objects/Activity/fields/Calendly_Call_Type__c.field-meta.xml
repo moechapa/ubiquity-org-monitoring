@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calendly_Call_Type__c</fullName>
+    <description>Displays the type of Calendly Call for Imps team</description>
+    <externalId>false</externalId>
+    <formula>IF(CONTAINS(Subject, &quot;Introductory Call&quot;), &quot;Intro Call&quot;,
+IF(CONTAINS(Subject, &quot;Add Your Employees&quot;), &quot;Census Call&quot;,
+IF(CONTAINS(Subject, &quot;Final Review and Funding&quot;), &quot;Funding Call&quot;,
+IF(CONTAINS(Subject, &quot;15 Minute&quot;), &quot;15 Min Call&quot;, &quot;Other&quot;))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Displays the type of Calendly Call for Imps team</inlineHelpText>
+    <label>Calendly Call Type</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

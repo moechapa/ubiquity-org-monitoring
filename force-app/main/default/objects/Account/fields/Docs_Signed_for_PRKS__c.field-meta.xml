@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Docs_Signed_for_PRKS__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Box gets checked when Imp Stage hits &quot;Docs Signed&quot; Imp Stage. Field can be deleted after PRKS process is ironed out.</description>
+    <inlineHelpText>Box gets checked when Imp Stage hits &quot;Docs Signed&quot; Imp Stage</inlineHelpText>
+    <label>Docs Signed for PRK</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

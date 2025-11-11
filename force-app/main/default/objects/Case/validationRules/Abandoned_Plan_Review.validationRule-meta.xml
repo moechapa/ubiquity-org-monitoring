@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Abandoned_Plan_Review</fullName>
+    <active>false</active>
+    <description>Required Fields to Close out Abandoned Plan Review Case</description>
+    <errorConditionFormula>RecordTypeId = &quot;0121G000000Rl9rQAC&quot;
+&amp;&amp;
+ ISPICKVAL( Status , &quot;Resolved&quot;)
+&amp;&amp; 
+ 
+( 
+ ISBLANK(TEXT(  Abandoned_Review_Result__c  ))
+||
+ ISBLANK(TEXT(   Bounced_Sponsor_Trustee_Emails__c   ))
+||
+ ISBLANK(TEXT(   Terminated_Sponsor_Trustee__c  ))
+||
+ ISBLANK(TEXT(   Past_Due_5500__c  ))
+)</errorConditionFormula>
+    <errorMessage>Confirm Abandoned Review Result and three yes/no fields (Bounced Sponsor Trustee Emails, Terminated Sponsor Trustee &amp; Past Due 5500).</errorMessage>
+</ValidationRule>

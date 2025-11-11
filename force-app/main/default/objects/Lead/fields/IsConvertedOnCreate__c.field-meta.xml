@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsConvertedOnCreate__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>To signal that this is auto converted, and also to specifically block the NPN nightmare flow.</description>
+    <label>Converted When Created</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

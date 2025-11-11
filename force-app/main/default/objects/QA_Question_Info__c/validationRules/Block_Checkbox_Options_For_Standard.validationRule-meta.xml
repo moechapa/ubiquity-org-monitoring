@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Block_Checkbox_Options_For_Standard</fullName>
+    <active>true</active>
+    <description>Checkbox options / modifiers should only be used for the checkbox question type</description>
+    <errorConditionFormula>Pass_Fail__c &amp;&amp;
+NOT(ISPICKVAL(Type__c,&quot;Checkbox&quot;))</errorConditionFormula>
+    <errorDisplayField>Pass_Fail__c</errorDisplayField>
+    <errorMessage>Pass/Fail is only for &quot;Checkbox&quot; type questions!</errorMessage>
+</ValidationRule>

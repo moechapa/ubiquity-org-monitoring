@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Force Out Distribution</name>
+    <queueMembers>
+        <users>
+            <user>compliance@myubiquity.com</user>
+            <user>distributions@myubiquity.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>CloudingoAgent__AccountContact__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Plan__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>dsfs__DocuSign_Envelope__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>dsfs__DocuSign_Status__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>simplesurvey__Survey__c</sobjectType>
+    </queueSobject>
+</Queue>

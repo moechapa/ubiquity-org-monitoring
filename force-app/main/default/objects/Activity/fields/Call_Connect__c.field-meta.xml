@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Connect__c</fullName>
+    <description>Checks to see if Activity/Subject contains a connected call disposition and returns TRUE if it does.</description>
+    <formula>IF( 
+  Activity_Type_OS__c = &quot;Call Out&quot; &amp;&amp;
+ OR( 
+  CONTAINS(Subject,&quot;Call- Connect&quot;), 
+  CONTAINS(Subject,&quot;Call- Qualification&quot;), 
+  CONTAINS(Subject,&quot;Call- Discovery&quot;), 
+  CONTAINS(Subject,&quot;Call- Demo&quot;),
+  CONTAINS(Subject,&quot;Call- Qual+Disco&quot;), 
+  CONTAINS(Subject,&quot;Call- Disco+Demo&quot;), 
+  CONTAINS(Subject,&quot;Call- Qual+Disco+Demo&quot;) 
+ ),TRUE,FALSE 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checks to see if Activity/Subject contains a connected call disposition and returns TRUE if it does.</inlineHelpText>
+    <label>Call Connect</label>
+    <type>Checkbox</type>
+</CustomField>

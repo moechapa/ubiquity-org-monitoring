@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Date_Pushed_Out</fullName>
+    <active>false</active>
+    <description>Close Date cannot be moved to more than 60 days in the future.</description>
+    <errorConditionFormula>OR( ISPICKVAL (StageName, &quot;Needs Analysis/Value Proposition&quot;), ISPICKVAL (StageName,&quot;Proposal/Price Quote&quot;), ISPICKVAL (StageName,&quot;Negotiation/Review&quot;), ISPICKVAL (StageName,&quot;Pending Decision&quot;))
+&amp;&amp;
+(PRIORVALUE( CloseDate ) &lt;  CloseDate )
+&amp;&amp;
+ ABS (PRIORVALUE( CloseDate )- CloseDate ) &gt; 60</errorConditionFormula>
+    <errorDisplayField>CloseDate</errorDisplayField>
+    <errorMessage>Close Date cannot be moved out more than 60 days from the previous Close Date. If it is going to take you longer than that mark as Closed Lost and set yourself a task to revisit it.</errorMessage>
+</ValidationRule>

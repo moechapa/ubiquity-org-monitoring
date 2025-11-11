@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Progress_Tracker__c</fullName>
+    <description>Green = On Track to next KPI Date
+
+Yellow = At Risk for next KPI Date
+
+Red = Behind next KPI Date
+
+Rainbow = All Critical Dates Done!</description>
+    <externalId>false</externalId>
+    <formula>IF( TEXT(Plan_Type__c )=&quot;Conversion Plan&quot;,
+&quot;&quot;,
+IF( TEXT(Progress_Tracker_Report__c) = &quot;On Track&quot;, 
+ IMAGE(&quot;https://myubiquity.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=0681G000004LO3p&amp;operationContext=CHATTER&amp;contentId=05T1G00000DnSIX&quot;, &quot;&quot;,30,60), 
+ IF( TEXT(Progress_Tracker_Report__c) = &quot;At Risk&quot;, 
+  IMAGE(&quot;https://myubiquity.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=0681G000004LO3u&amp;operationContext=CHATTER&amp;contentId=05T1G00000DnSIc&quot;, &quot;&quot;,30,60),
+  IF( TEXT(Progress_Tracker_Report__c) = &quot;Behind&quot;, 
+   IMAGE(&quot;https://myubiquity.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=0681G000004LO3z&amp;operationContext=CHATTER&amp;contentId=05T1G00000DnSIh&quot;, &quot;&quot;,30,60), 
+   IMAGE(&quot;https://myubiquity.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=0681G000004MPDt&amp;operationContext=CHATTER&amp;contentId=05T1G00000FcXZF&quot;, &quot;&quot;,30,60)))))</formula>
+    <inlineHelpText>Green = On Track to next KPI Date
+
+Yellow = At Risk for next KPI Date
+
+Red = Behind next KPI Date
+
+Rainbow = All Critical Dates Done!</inlineHelpText>
+    <label>Progress Tracker</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

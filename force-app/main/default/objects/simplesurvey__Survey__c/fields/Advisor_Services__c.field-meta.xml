@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Advisor_Services__c</fullName>
+    <inlineHelpText>What services are you interested in for your clients? For example, asset management like Morningstar or CensiblyYours, IRA&apos;s, HSA&apos;s, calculator tools, etc.</inlineHelpText>
+    <label>Advisor Services</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

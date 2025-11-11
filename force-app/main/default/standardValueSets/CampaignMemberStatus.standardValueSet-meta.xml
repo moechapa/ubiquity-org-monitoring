@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Added</fullName>
+        <default>false</default>
+        <label>Added</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Added to List</fullName>
+        <default>false</default>
+        <label>Added to List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Approved</fullName>
+        <default>false</default>
+        <label>Approved</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended</fullName>
+        <default>false</default>
+        <label>Attended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bounced</fullName>
+        <default>false</default>
+        <label>Bounced</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ClickAnyLink</fullName>
+        <default>false</default>
+        <label>ClickAnyLink</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked</fullName>
+        <default>false</default>
+        <label>Clicked</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ClickedAnyLink</fullName>
+        <default>false</default>
+        <label>ClickedAnyLink</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Click Thru</fullName>
+        <default>false</default>
+        <label>Click Thru</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Connected</fullName>
+        <default>false</default>
+        <label>Connected</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Denied</fullName>
+        <default>false</default>
+        <label>Denied</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Form Fill</fullName>
+        <default>false</default>
+        <label>Form Fill</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Forward</fullName>
+        <default>false</default>
+        <label>Forward</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Forward To Friend</fullName>
+        <default>false</default>
+        <label>Forward To Friend</label>
+    </standardValue>
+    <standardValue>
+        <fullName>HardBounce</fullName>
+        <default>false</default>
+        <label>HardBounce</label>
+    </standardValue>
+    <standardValue>
+        <fullName>On Demand</fullName>
+        <default>false</default>
+        <label>On Demand</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <label>Open</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opened</fullName>
+        <default>false</default>
+        <label>Opened</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending for Approval</fullName>
+        <default>false</default>
+        <label>Pending for Approval</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Promo Code Click</fullName>
+        <default>false</default>
+        <label>Promo Code Click</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospect Page Impression</fullName>
+        <default>false</default>
+        <label>Prospect Page Impression</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospect Page Registration</fullName>
+        <default>false</default>
+        <label>Prospect Page Registration</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referred</fullName>
+        <default>false</default>
+        <label>Referred</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered</fullName>
+        <default>false</default>
+        <label>Registered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reply</fullName>
+        <default>false</default>
+        <label>Reply</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded</fullName>
+        <default>false</default>
+        <label>Responded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Returned</fullName>
+        <default>false</default>
+        <label>Returned</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent</fullName>
+        <default>false</default>
+        <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SoftBounce</fullName>
+        <default>false</default>
+        <label>SoftBounce</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Unsubscribed</fullName>
+        <default>false</default>
+        <label>Unsubscribed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visited Booth</fullName>
+        <default>false</default>
+        <label>Visited Booth</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web Visit</fullName>
+        <default>false</default>
+        <label>Web Visit</label>
+    </standardValue>
+</StandardValueSet>

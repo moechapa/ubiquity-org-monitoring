@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_Enrollment__c</fullName>
+    <description>Will the plan be utilizing Auto-Enrollment, and if so what type?</description>
+    <inlineHelpText>Will the plan be utilizing Auto-Enrollment, and if so what type?</inlineHelpText>
+    <label>Auto-Enrollment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Service_Option__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>EACA</fullName>
+                <default>false</default>
+                <label>EACA</label>
+            </value>
+            <value>
+                <fullName>QACA</fullName>
+                <default>false</default>
+                <label>QACA</label>
+            </value>
+            <value>
+                <fullName>ACA</fullName>
+                <default>false</default>
+                <label>ACA</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Simply Retirement TPA</controllingFieldValue>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Single(k) to Express(k) Upgrade</controllingFieldValue>
+            <controllingFieldValue>Single(k) to Custom(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k) to Custom(k) w/ New Comp Upgrade</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement</controllingFieldValue>
+            <controllingFieldValue>Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Express(k) to Custom(k) Upgrade</controllingFieldValue>
+            <controllingFieldValue>Express(k) to Custom(k) w/ New Comp Upgrade</controllingFieldValue>
+            <controllingFieldValue>New Comp Upgrade</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>EACA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Starter</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Single(k) to Express(k) Upgrade</controllingFieldValue>
+            <controllingFieldValue>Single(k) to Custom(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k) to Custom(k) w/ New Comp Upgrade</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k) Plus</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Express(k) to Custom(k) Upgrade</controllingFieldValue>
+            <controllingFieldValue>Express(k) to Custom(k) w/ New Comp Upgrade</controllingFieldValue>
+            <controllingFieldValue>New Comp Upgrade</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <controllingFieldValue>Builder</controllingFieldValue>
+            <controllingFieldValue>Franchise</controllingFieldValue>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Single(k) to Custom(k)</controllingFieldValue>
+            <controllingFieldValue>Single(k) to Custom(k) w/ New Comp Upgrade</controllingFieldValue>
+            <controllingFieldValue>Legacy Saver(k)</controllingFieldValue>
+            <controllingFieldValue>Reserve(k)</controllingFieldValue>
+            <controllingFieldValue>Express(k)</controllingFieldValue>
+            <controllingFieldValue>Custom(k)</controllingFieldValue>
+            <controllingFieldValue>RK Only</controllingFieldValue>
+            <controllingFieldValue>Express(k) to Custom(k) Upgrade</controllingFieldValue>
+            <controllingFieldValue>Express(k) to Custom(k) w/ New Comp Upgrade</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Bundled</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>QACA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Custom(k) MML</controllingFieldValue>
+            <controllingFieldValue>Simply Retirement Unbundled</controllingFieldValue>
+            <valueName>ACA</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stock_or_Asset_Acquisition__c</fullName>
+    <description>Question Created by the Survey Builder</description>
+    <inlineHelpText>Was it a stock or asset acquisition?</inlineHelpText>
+    <label>Stock or Asset Acquisition?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Stock</fullName>
+                <default>false</default>
+                <label>Stock</label>
+            </value>
+            <value>
+                <fullName>Asset</fullName>
+                <default>false</default>
+                <label>Asset</label>
+            </value>
+            <value>
+                <fullName>Both Stock &amp; Asset</fullName>
+                <default>false</default>
+                <label>Both Stock &amp; Asset</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

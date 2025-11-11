@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QBOAD_Resolution__c</fullName>
+    <description>Date QBOAD Resolution was completed</description>
+    <inlineHelpText>Date QBOAD Resolution was completed</inlineHelpText>
+    <label>QBOAD Resolution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Tab for system enhancements</description>
+    <frameHeight>700</frameHeight>
+    <hasSidebar>true</hasSidebar>
+    <label>System Enhancement Request</label>
+    <motif>Custom99: CRT TV</motif>
+    <url>https://myubiquity.lightning.force.com/flow/System_Enhancement_Form?retURL=lightning/page/home</url>
+    <urlEncodingKey>UTF-8</urlEncodingKey>
+</CustomTab>

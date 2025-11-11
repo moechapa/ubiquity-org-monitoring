@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Decon_Prep_Notes__c</fullName>
+    <description>Any notes regarding Deconversion prep</description>
+    <inlineHelpText>Any notes regarding Deconversion prep</inlineHelpText>
+    <label>Decon Prep Notes</label>
+    <length>18500</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Forecast_Type__c</fullName>
+    <description>Budgeted forecasts will be used by Finance to build the corresponding time period&apos;s budget. Pilot forecasts are used for new unproven partners to test capabilities and determine true volumes and capacity.</description>
+    <inlineHelpText>Budgeted forecasts will be used by Finance to build the corresponding time period&apos;s budget. Pilot forecasts are used for new unproven partners to test capabilities and determine true volumes and capacity.</inlineHelpText>
+    <label>Forecast Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Budgeted</fullName>
+                <default>false</default>
+                <label>Budgeted</label>
+            </value>
+            <value>
+                <fullName>Pilot</fullName>
+                <default>false</default>
+                <label>Pilot</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

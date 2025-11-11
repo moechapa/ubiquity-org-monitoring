@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Required_on_Plan_Amendment_Opp</fullName>
+    <active>true</active>
+    <description>Plan record has to be linked in order to Amend</description>
+    <errorConditionFormula>ISBLANK( Plan__c )  &amp;&amp;
+ISCHANGED(StageName) &amp;&amp;
+ISPICKVAL(StageName,&quot;Closed Won&quot;) &amp;&amp;
+ RecordType.Name = &quot;Plan Amendment Opportunity&quot;</errorConditionFormula>
+    <errorDisplayField>Plan__c</errorDisplayField>
+    <errorMessage>Please reference the Plan being amended.</errorMessage>
+</ValidationRule>

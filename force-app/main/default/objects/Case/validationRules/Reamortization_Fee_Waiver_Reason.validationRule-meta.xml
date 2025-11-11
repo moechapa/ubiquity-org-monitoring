@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reamortization_Fee_Waiver_Reason</fullName>
+    <active>true</active>
+    <description>requires fee waiver reason if ream fee = waived</description>
+    <errorConditionFormula>ISPICKVAL(ReAm_Fee__c , &quot;Waived&quot;)
+&amp;&amp;
+ ISBLANK (TEXT( ReAm_Waiver_Reason__c ))</errorConditionFormula>
+    <errorDisplayField>ReAm_Waiver_Reason__c</errorDisplayField>
+    <errorMessage>Confirm reason the ReAm fee is being waived</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Child_Case_Instructions__c</fullName>
+    <description>Used only when creating child cases for other teams - this is where you&apos;ll instruct owner of child case what is needed</description>
+    <inlineHelpText>Used only when creating child cases for other teams - this is where you&apos;ll instruct owner of child case what is needed</inlineHelpText>
+    <label>Child Case Instructions</label>
+    <length>32000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

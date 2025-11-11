@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Document_Correction__c</fullName>
+    <inlineHelpText>Enter the date that a document correction is made in paradigm. If documents have been signed previously, this would be considered a correction.</inlineHelpText>
+    <label>Document Correction</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

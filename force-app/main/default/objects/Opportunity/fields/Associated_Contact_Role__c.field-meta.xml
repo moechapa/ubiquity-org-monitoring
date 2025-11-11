@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Associated_Contact_Role__c</fullName>
+    <description>What role does this Contact play on the Opportunity?</description>
+    <inlineHelpText>What role does this Contact play on the Opportunity?</inlineHelpText>
+    <label>Associated Contact Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Plan Sponsor</fullName>
+                <default>false</default>
+                <label>Plan Sponsor</label>
+            </value>
+            <value>
+                <fullName>Trustee</fullName>
+                <default>false</default>
+                <label>Trustee</label>
+            </value>
+            <value>
+                <fullName>Plan Sponsor &amp; Trustee</fullName>
+                <default>false</default>
+                <label>Plan Sponsor &amp; Trustee</label>
+            </value>
+            <value>
+                <fullName>Financial Advisor</fullName>
+                <default>false</default>
+                <label>Financial Advisor</label>
+            </value>
+            <value>
+                <fullName>CPA</fullName>
+                <default>false</default>
+                <label>CPA</label>
+            </value>
+            <value>
+                <fullName>Payroll Provider</fullName>
+                <default>false</default>
+                <label>Payroll Provider</label>
+            </value>
+            <value>
+                <fullName>Lawyer</fullName>
+                <default>false</default>
+                <label>Lawyer</label>
+            </value>
+            <value>
+                <fullName>Interested Third Party</fullName>
+                <default>false</default>
+                <label>Interested Third Party</label>
+            </value>
+            <value>
+                <fullName>Referrer</fullName>
+                <default>false</default>
+                <label>Referrer</label>
+            </value>
+            <value>
+                <fullName>Wholesaler</fullName>
+                <default>false</default>
+                <label>Wholesaler</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Plan_Liabilities_Beg_of_Year_7b__c</fullName>
+    <description>Total plan liabilities at the Beginning of Year</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total plan liabilities at the Beginning of Year</inlineHelpText>
+    <label>Total Plan Liabilities Beg. of Year (7b)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

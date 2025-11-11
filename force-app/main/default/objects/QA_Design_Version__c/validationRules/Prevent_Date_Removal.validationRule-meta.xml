@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Date_Removal</fullName>
+    <active>true</active>
+    <description>Activation and Deactivation dates cannot be removed once entered</description>
+    <errorConditionFormula>(ISCHANGED(Activation_Date__c)
+&amp;&amp;
+NOT(ISNULL(PRIORVALUE(Activation_Date__c))))
+||
+(ISCHANGED(Deactivation_Date__c)
+&amp;&amp;
+NOT(ISNULL(PRIORVALUE(Deactivation_Date__c))))</errorConditionFormula>
+    <errorMessage>You cannot modify activation or deactivation dates once entered</errorMessage>
+</ValidationRule>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <inlineHelpText>Please select category which best corresponds with this case.</inlineHelpText>
+    <label>Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Department__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>5500</fullName>
+                <default>false</default>
+                <label>5500</label>
+            </value>
+            <value>
+                <fullName>Billing, Commissions, and Fees</fullName>
+                <default>false</default>
+                <label>Billing, Commissions, and Fees</label>
+            </value>
+            <value>
+                <fullName>Contribution and Payroll</fullName>
+                <default>false</default>
+                <label>Contribution and Payroll</label>
+            </value>
+            <value>
+                <fullName>DIrect Integration (SFTP)</fullName>
+                <default>false</default>
+                <label>DIrect Integration (SFTP)</label>
+            </value>
+            <value>
+                <fullName>Distribution</fullName>
+                <default>false</default>
+                <label>Distribution</label>
+            </value>
+            <value>
+                <fullName>Document Request</fullName>
+                <default>false</default>
+                <label>Document Request</label>
+            </value>
+            <value>
+                <fullName>General Question</fullName>
+                <default>false</default>
+                <label>General Question</label>
+            </value>
+            <value>
+                <fullName>Investments</fullName>
+                <default>false</default>
+                <label>Investments</label>
+            </value>
+            <value>
+                <fullName>Loan</fullName>
+                <default>false</default>
+                <label>Loan</label>
+            </value>
+            <value>
+                <fullName>Login Issues</fullName>
+                <default>false</default>
+                <label>Login Issues</label>
+            </value>
+            <value>
+                <fullName>New Comp</fullName>
+                <default>false</default>
+                <label>New Comp</label>
+            </value>
+            <value>
+                <fullName>Onboarding</fullName>
+                <default>false</default>
+                <label>Onboarding</label>
+            </value>
+            <value>
+                <fullName>Plan Compliance</fullName>
+                <default>false</default>
+                <label>Plan Compliance</label>
+            </value>
+            <value>
+                <fullName>Plan Correction</fullName>
+                <default>false</default>
+                <label>Plan Correction</label>
+            </value>
+            <value>
+                <fullName>Plan Update</fullName>
+                <default>false</default>
+                <label>Plan Update</label>
+            </value>
+            <value>
+                <fullName>Report Request</fullName>
+                <default>false</default>
+                <label>Report Request</label>
+            </value>
+            <value>
+                <fullName>Rollover In</fullName>
+                <default>false</default>
+                <label>Rollover In</label>
+            </value>
+            <value>
+                <fullName>Sales Inquiry</fullName>
+                <default>false</default>
+                <label>Sales Inquiry</label>
+            </value>
+            <value>
+                <fullName>SingleK</fullName>
+                <default>false</default>
+                <label>SingleK</label>
+            </value>
+            <value>
+                <fullName>Transition</fullName>
+                <default>false</default>
+                <label>Transition</label>
+            </value>
+            <value>
+                <fullName>User Update</fullName>
+                <default>false</default>
+                <label>User Update</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Reconciliations and Withdrawals</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <controllingFieldValue>Transitions</controllingFieldValue>
+            <valueName>5500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Accounting &amp; Finance</controllingFieldValue>
+            <controllingFieldValue>Reconciliations and Withdrawals</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <valueName>Billing, Commissions, and Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Accounting &amp; Finance</controllingFieldValue>
+            <controllingFieldValue>Reconciliations and Withdrawals</controllingFieldValue>
+            <controllingFieldValue>Payroll</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <valueName>Contribution and Payroll</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Payroll</controllingFieldValue>
+            <valueName>DIrect Integration (SFTP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Reconciliations and Withdrawals</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <controllingFieldValue>Transitions</controllingFieldValue>
+            <valueName>Distribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <valueName>Document Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Accounting &amp; Finance</controllingFieldValue>
+            <controllingFieldValue>Reconciliations and Withdrawals</controllingFieldValue>
+            <controllingFieldValue>Payroll</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <controllingFieldValue>Partnerships</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <controllingFieldValue>Transitions</controllingFieldValue>
+            <controllingFieldValue>Paradigm/RKS</controllingFieldValue>
+            <controllingFieldValue>Learning &amp; Development</controllingFieldValue>
+            <valueName>General Question</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Reconciliations and Withdrawals</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <controllingFieldValue>Transitions</controllingFieldValue>
+            <valueName>Investments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Reconciliations and Withdrawals</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <valueName>Loan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <valueName>Login Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <valueName>New Comp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <valueName>Onboarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Reconciliations and Withdrawals</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <controllingFieldValue>Transitions</controllingFieldValue>
+            <valueName>Plan Compliance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <valueName>Plan Correction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Accounting &amp; Finance</controllingFieldValue>
+            <controllingFieldValue>Reconciliations and Withdrawals</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <valueName>Plan Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Accounting &amp; Finance</controllingFieldValue>
+            <controllingFieldValue>Reconciliations and Withdrawals</controllingFieldValue>
+            <controllingFieldValue>Payroll</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <controllingFieldValue>Transitions</controllingFieldValue>
+            <valueName>Report Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Payroll</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <valueName>Rollover In</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Accounting &amp; Finance</controllingFieldValue>
+            <controllingFieldValue>Reconciliations and Withdrawals</controllingFieldValue>
+            <controllingFieldValue>Payroll</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>Sales</controllingFieldValue>
+            <controllingFieldValue>Partnerships</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <controllingFieldValue>Transitions</controllingFieldValue>
+            <controllingFieldValue>Paradigm/RKS</controllingFieldValue>
+            <controllingFieldValue>Learning &amp; Development</controllingFieldValue>
+            <valueName>Sales Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Accounting &amp; Finance</controllingFieldValue>
+            <controllingFieldValue>Reconciliations and Withdrawals</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <valueName>SingleK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Accounting &amp; Finance</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Transitions</controllingFieldValue>
+            <valueName>Transition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servicing</controllingFieldValue>
+            <controllingFieldValue>Accounting &amp; Finance</controllingFieldValue>
+            <controllingFieldValue>Reconciliations and Withdrawals</controllingFieldValue>
+            <controllingFieldValue>Payroll</controllingFieldValue>
+            <controllingFieldValue>Compliance</controllingFieldValue>
+            <controllingFieldValue>Client Onboarding</controllingFieldValue>
+            <valueName>User Update</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

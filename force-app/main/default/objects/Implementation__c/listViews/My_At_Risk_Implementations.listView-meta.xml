@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_At_Risk_Implementations</fullName>
+    <columns>NAME</columns>
+    <columns>Implementation_Stage__c</columns>
+    <columns>At_Risk__c</columns>
+    <columns>Census_Call_Date_Time__c</columns>
+    <columns>Census_and_Eligibility_Uploaded__c</columns>
+    <columns>Funding_Call_Date_Time__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>At_Risk__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Implementation_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Plan Stalled,On Hold,No Start,Completed</value>
+    </filters>
+    <label>My At Risk Implementations</label>
+    <sharedTo>
+        <roleAndSubordinates>Implementation_Manager</roleAndSubordinates>
+    </sharedTo>
+</ListView>

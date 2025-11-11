@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Previous_Plan_Effective_Date__c</fullName>
+    <description>Date which previous plan was effective from</description>
+    <formula>Implementation__r.Previous_Plan_Effective_Date__c</formula>
+    <inlineHelpText>Date which previous plan was effective from</inlineHelpText>
+    <label>Previous Plan Effective Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

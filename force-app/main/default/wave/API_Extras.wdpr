@@ -1,0 +1,609 @@
+{
+  "version" : "62.0",
+  "nodes" : {
+    "LOAD_DATASET0" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "CLIENT_IP", "User.Country", "CLIENT_NAME", "EVENT_TYPE", "User.City", "EXCEPTION_MESSAGE", "USER_ID", "REQUEST_ID", "URI", "CONNECTED_APP_ID", "ORGANIZATION_ID", "User.Division", "User.IsActive", "User.Department", "User.Profile.Name", "User.Username", "TIMESTAMP", "MEDIA_TYPE", "USER_ID_DERIVED", "ENTITY_NAME", "USER_AGENT", "User.Name", "SESSION_KEY", "STATUS_CODE", "REQUEST_STATUS", "URI_ID_DERIVED", "TIMESTAMP_DERIVED", "User.User.Role.Name", "USER_TYPE", "LOGIN_KEY", "METHOD", "RESPONSE_SIZE", "NUMBER_FIELDS", "REQUEST_SIZE", "ROWS_PROCESSED", "DB_CPU_TIME", "CPU_TIME", "RUN_TIME", "DB_TOTAL_TIME", "DB_BLOCKS" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "RestApiWithUsers",
+          "name" : "RestApiWithUsers"
+        },
+        "sampleDetails" : {
+          "type" : "Custom",
+          "filters" : {
+            "filterExpressions" : [ {
+              "type" : "TEXT",
+              "field" : "CONNECTED_APP_ID",
+              "operator" : "EQUAL",
+              "operands" : [ "0H41G0000005W9q" ]
+            } ]
+          },
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "FILTER0" : {
+      "action" : "filter",
+      "sources" : [ "LOAD_DATASET0" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "TEXT",
+          "field" : "CONNECTED_APP_ID",
+          "operator" : "EQUAL",
+          "operands" : [ "0H41G0000005W9q" ]
+        }, {
+          "type" : "DATETIME",
+          "field" : "TIMESTAMP_DERIVED",
+          "operator" : "IN_RANGE",
+          "operands" : [ {
+            "argument" : -2,
+            "type" : "N_WEEKS"
+          }, {
+            "argument" : -1,
+            "type" : "N_DAYS"
+          } ]
+        } ]
+      }
+    },
+    "FORMULA2" : {
+      "action" : "formula",
+      "sources" : [ "FILTER0" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "WeekdayWeekend",
+          "label" : "Weekday/Weekend",
+          "formulaExpression" : "case dayofweek(\"TIMESTAMP_DERIVED\")\n\twhen 1\n\tthen 'Weekend'\n    when 7\n    then 'Weekend'\n    else 'Weekday'\nend\n",
+          "precision" : 20,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA3" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA2" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "DATETIME",
+          "name" : "Date",
+          "label" : "Date",
+          "formulaExpression" : "date_trunc('DD', \"TIMESTAMP_DERIVED\")",
+          "format" : "MM/dd/yyyy",
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA11" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA3" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "DateString",
+          "label" : "DateString",
+          "formulaExpression" : "string(date_format(\"Date\", 'MM/dd/yyyy'))",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FILTER1" : {
+      "action" : "filter",
+      "sources" : [ "FORMULA11" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "TEXT",
+          "field" : "WeekdayWeekend",
+          "operator" : "EQUAL",
+          "operands" : [ "Weekday" ]
+        } ]
+      }
+    },
+    "EXTRACT1" : {
+      "action" : "extractGrains",
+      "sources" : [ "FILTER1" ],
+      "parameters" : {
+        "grainExtractions" : [ ]
+      }
+    },
+    "AGGREGATE3" : {
+      "action" : "aggregate",
+      "sources" : [ "EXTRACT1" ],
+      "parameters" : {
+        "aggregations" : [ {
+          "action" : "COUNT",
+          "name" : "COUNT_Rows",
+          "label" : "Rows"
+        } ],
+        "groupings" : [ "DateString" ],
+        "pivots" : [ ],
+        "nodeType" : "STANDARD"
+      }
+    },
+    "EXTRACT2" : {
+      "action" : "extractGrains",
+      "sources" : [ "JOIN1" ],
+      "parameters" : {
+        "grainExtractions" : [ ]
+      }
+    },
+    "AGGREGATE5" : {
+      "action" : "aggregate",
+      "sources" : [ "EXTRACT2" ],
+      "parameters" : {
+        "aggregations" : [ {
+          "action" : "AVG",
+          "source" : "COUNT_Rows",
+          "name" : "AVG_COUNT_Rows",
+          "label" : "Average Rows"
+        } ],
+        "groupings" : [ ],
+        "pivots" : [ ],
+        "nodeType" : "STANDARD"
+      }
+    },
+    "JOIN0" : {
+      "action" : "join",
+      "sources" : [ "JOIN1", "AGGREGATE5" ],
+      "schema" : {
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "CROSS",
+        "rightQualifier" : "Aggregate4"
+      }
+    },
+    "FORMULA9" : {
+      "action" : "formula",
+      "sources" : [ "JOIN0" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "Percent_Change",
+          "label" : "Percent Change",
+          "formulaExpression" : "((\"COUNT_Rows\"-\"Aggregate4.AVG_COUNT_Rows\")/\"Aggregate4.AVG_COUNT_Rows\")*100",
+          "precision" : 10,
+          "scale" : 2,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "DROP_FIELDS0" : {
+      "action" : "schema",
+      "sources" : [ "FORMULA9" ],
+      "parameters" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "TIMESTAMP_DERIVED_DAY", "TIMESTAMP_DERIVED_MONTH", "TIMESTAMP_DERIVED_YEAR", "DateString", "Transform6.COUNT_Rows", "Transform6.Date_String", "Transform6.Forecast_Date_formula" ]
+        }
+      }
+    },
+    "EDIT_ATTRIBUTES0" : {
+      "action" : "schema",
+      "sources" : [ "DROP_FIELDS0" ],
+      "parameters" : {
+        "fields" : [ {
+          "name" : "Transform6.Forecast_Date",
+          "newProperties" : {
+            "label" : "Date",
+            "name" : "Date"
+          }
+        } ]
+      }
+    },
+    "OUTPUT0" : {
+      "action" : "save",
+      "sources" : [ "EDIT_ATTRIBUTES0" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Simply API Relative Change",
+          "name" : "Simply_API_Relative_Change"
+        },
+        "measuresToCurrencies" : [ ]
+      }
+    },
+    "TIME_SERIES_V20" : {
+      "action" : "timeSeriesV2",
+      "sources" : [ "FORMULA11" ],
+      "parameters" : {
+        "forecastFields" : [ {
+          "aggregate" : {
+            "action" : "COUNT",
+            "name" : "COUNT_Rows",
+            "label" : "Rows"
+          },
+          "forecastField" : {
+            "name" : "COUNT_Rows_forecast",
+            "label" : "Rows Forecast"
+          }
+        } ],
+        "forecastLength" : 1,
+        "forecastLengthType" : "ROLLING",
+        "groupingFields" : [ ],
+        "forecastDatesBy" : "Y-M-D",
+        "forecastDateField" : "Date",
+        "targetDateField" : {
+          "name" : "Forecast_Date",
+          "label" : "Date"
+        },
+        "algorithm" : "HOLT_WINTERS",
+        "algorithmParameters" : {
+          "seasonality" : 0,
+          "model" : "Auto"
+        },
+        "confidenceInterval" : "None",
+        "partialDataHandling" : "NONE"
+      }
+    },
+    "DROP_FIELDS1" : {
+      "action" : "schema",
+      "sources" : [ "TIME_SERIES_V20" ],
+      "parameters" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "COUNT_Rows_forecast" ]
+        }
+      }
+    },
+    "FILL0" : {
+      "action" : "formula",
+      "sources" : [ "DROP_FIELDS1" ],
+      "schema" : {
+        "fields" : [ {
+          "name" : "COUNT_Rows_fill",
+          "newProperties" : {
+            "name" : "COUNT_Rows"
+          }
+        } ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "COUNT_Rows" ]
+        }
+      },
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "COUNT_Rows_fill",
+          "label" : "Rows",
+          "formulaExpression" : "coalesce(COUNT_Rows, null, 0)",
+          "precision" : 18,
+          "scale" : 0
+        } ]
+      }
+    },
+    "FORMULA12" : {
+      "action" : "formula",
+      "sources" : [ "FILL0" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "Forecast_Date_formula",
+          "label" : "Date Formula",
+          "formulaExpression" : "case dayofweek(\"Forecast_Date\")\n\twhen 1\n\tthen 'Weekend'\n    when 7\n    then 'Weekend'\n    else 'Weekday'\nend",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FILTER2" : {
+      "action" : "filter",
+      "sources" : [ "FORMULA12" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "TEXT",
+          "field" : "Forecast_Date_formula",
+          "operator" : "EQUAL",
+          "operands" : [ "Weekday" ]
+        }, {
+          "type" : "DATETIME",
+          "field" : "Forecast_Date",
+          "operator" : "IN_RANGE",
+          "operands" : [ {
+            "argument" : -1,
+            "type" : "N_YEARS"
+          }, {
+            "argument" : -1,
+            "type" : "N_DAYS"
+          } ]
+        } ]
+      }
+    },
+    "FORMULA13" : {
+      "action" : "formula",
+      "sources" : [ "FILTER2" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "Date_String",
+          "label" : "Date String",
+          "formulaExpression" : "string(date_format(\"Forecast_Date\", 'MM/dd/yyyy'))",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "JOIN1" : {
+      "action" : "join",
+      "sources" : [ "AGGREGATE3", "FORMULA13" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "RIGHT_OUTER",
+        "leftKeys" : [ "DateString" ],
+        "rightQualifier" : "Transform6",
+        "rightKeys" : [ "Date_String" ]
+      }
+    }
+  },
+  "ui" : {
+    "nodes" : {
+      "LOAD_DATASET0" : {
+        "label" : "RestApiWithUsers",
+        "type" : "LOAD_DATASET",
+        "top" : 112,
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "FILTER0" : {
+        "label" : "Filter Simply App",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 112,
+        "left" : 252
+      },
+      "TRANSFORM0_copy0_copy0" : {
+        "label" : "Get Date Info",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 112,
+        "left" : 392,
+        "graph" : {
+          "FORMULA2" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Weekday vs Weekend"
+          },
+          "FORMULA3" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Date"
+          },
+          "FORMULA11" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          }
+        },
+        "connectors" : [ {
+          "source" : "FORMULA2",
+          "target" : "FORMULA3"
+        }, {
+          "source" : "FORMULA3",
+          "target" : "FORMULA11"
+        } ]
+      },
+      "FILTER1" : {
+        "label" : "Filter to Weekdays",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 252,
+        "left" : 532
+      },
+      "AGGREGATE2" : {
+        "label" : "Rows per day",
+        "description" : "",
+        "type" : "AGGREGATE",
+        "top" : 252,
+        "left" : 672,
+        "graph" : {
+          "EXTRACT1" : null,
+          "AGGREGATE3" : null
+        },
+        "connectors" : [ {
+          "source" : "EXTRACT1",
+          "target" : "AGGREGATE3"
+        } ]
+      },
+      "AGGREGATE4" : {
+        "label" : "Avg rows per day",
+        "description" : "",
+        "type" : "AGGREGATE",
+        "top" : 112,
+        "left" : 1092,
+        "graph" : {
+          "EXTRACT2" : null,
+          "AGGREGATE5" : null
+        },
+        "connectors" : [ {
+          "source" : "EXTRACT2",
+          "target" : "AGGREGATE5"
+        } ]
+      },
+      "JOIN0" : {
+        "label" : "Add avg rows column",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 112,
+        "left" : 1232
+      },
+      "TRANSFORM4" : {
+        "label" : "Get percent change",
+        "description" : "The point of this whole exercise.  Compares each day's api hit count w/ what's average for weekdays.",
+        "type" : "TRANSFORM",
+        "top" : 112,
+        "left" : 1372,
+        "graph" : {
+          "FORMULA9" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          },
+          "DROP_FIELDS0" : {
+            "label" : "Drop Columns"
+          },
+          "EDIT_ATTRIBUTES0" : {
+            "label" : "Edit Attributes"
+          }
+        },
+        "connectors" : [ {
+          "source" : "FORMULA9",
+          "target" : "DROP_FIELDS0"
+        }, {
+          "source" : "DROP_FIELDS0",
+          "target" : "EDIT_ATTRIBUTES0"
+        } ]
+      },
+      "OUTPUT0" : {
+        "label" : "Output 0",
+        "type" : "OUTPUT",
+        "top" : 112,
+        "left" : 1512
+      },
+      "TRANSFORM5" : {
+        "label" : "Fill in Empty Days",
+        "description" : "Adds a row with 0 api calls for dates missing api activity",
+        "type" : "TRANSFORM",
+        "top" : 112,
+        "left" : 532,
+        "graph" : {
+          "TIME_SERIES_V20" : {
+            "label" : "Time Series Forecasting"
+          },
+          "DROP_FIELDS1" : {
+            "label" : "Drop Columns"
+          },
+          "FILL0" : {
+            "parameters" : {
+              "type" : "FILL_UI"
+            },
+            "label" : "Fill"
+          },
+          "FORMULA12" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          }
+        },
+        "connectors" : [ {
+          "source" : "TIME_SERIES_V20",
+          "target" : "DROP_FIELDS1"
+        }, {
+          "source" : "DROP_FIELDS1",
+          "target" : "FILL0"
+        }, {
+          "source" : "FILL0",
+          "target" : "FORMULA12"
+        } ]
+      },
+      "FILTER2" : {
+        "label" : "Filter to Weekdays",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 112,
+        "left" : 672
+      },
+      "TRANSFORM6" : {
+        "label" : "Get Date String",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 112,
+        "left" : 812,
+        "graph" : {
+          "FORMULA13" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "JOIN1" : {
+        "label" : "Add 0 Row Dates to Aggregate",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 112,
+        "left" : 952
+      }
+    },
+    "connectors" : [ {
+      "source" : "LOAD_DATASET0",
+      "target" : "FILTER0"
+    }, {
+      "source" : "FILTER0",
+      "target" : "TRANSFORM0_copy0_copy0"
+    }, {
+      "source" : "TRANSFORM0_copy0_copy0",
+      "target" : "FILTER1"
+    }, {
+      "source" : "FILTER1",
+      "target" : "AGGREGATE2"
+    }, {
+      "source" : "JOIN1",
+      "target" : "AGGREGATE4"
+    }, {
+      "source" : "JOIN1",
+      "target" : "JOIN0"
+    }, {
+      "source" : "AGGREGATE4",
+      "target" : "JOIN0"
+    }, {
+      "source" : "JOIN0",
+      "target" : "TRANSFORM4"
+    }, {
+      "source" : "TRANSFORM4",
+      "target" : "OUTPUT0"
+    }, {
+      "source" : "TRANSFORM0_copy0_copy0",
+      "target" : "TRANSFORM5"
+    }, {
+      "source" : "TRANSFORM5",
+      "target" : "FILTER2"
+    }, {
+      "source" : "FILTER2",
+      "target" : "TRANSFORM6"
+    }, {
+      "source" : "AGGREGATE2",
+      "target" : "JOIN1"
+    }, {
+      "source" : "TRANSFORM6",
+      "target" : "JOIN1"
+    } ],
+    "hiddenColumns" : [ ]
+  },
+  "runMode" : "full"
+}

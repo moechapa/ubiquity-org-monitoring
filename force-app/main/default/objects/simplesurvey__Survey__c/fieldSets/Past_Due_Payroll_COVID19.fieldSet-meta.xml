@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Past_Due_Payroll_COVID19</fullName>
+    <description>Fields for Past Due Payroll - COVID19</description>
+    <displayedFields>
+        <field>Past_Due_Payroll_Reason_COVID__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>true</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>Past_Due_Payroll_COVID_Other__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Past Due Payroll - COVID19</label>
+</FieldSet>

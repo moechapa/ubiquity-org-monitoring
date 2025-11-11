@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Fee_Override__c</fullName>
+    <description>Indicates that the pricebook&apos;s partner fee is being overridden</description>
+    <formula>!ISNULL(Partner_Fee__c)</formula>
+    <label>Partner Fee Override</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

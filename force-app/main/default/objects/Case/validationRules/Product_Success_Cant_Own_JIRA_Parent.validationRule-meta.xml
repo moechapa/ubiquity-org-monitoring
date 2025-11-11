@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Success_Cant_Own_JIRA_Parent</fullName>
+    <active>true</active>
+    <description>Prevents users from setting their JIRA Parent case to Product Success</description>
+    <errorConditionFormula>(
+ TEXT(Case_Type__c )= &apos;Parent Case w/ JIRA Child Case&apos;
+||
+ TEXT(Case_Type__c )= &apos;Child Case w/ JIRA Grandchild Case&apos;
+)
+&amp;&amp;
+( OwnerId = &apos;00500000006wpUQ&apos;)</errorConditionFormula>
+    <errorMessage>You will be the owner of this case - Product Success will only own the child/grandchild JIRA case you&apos;ve created.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>16</activeVersionNumber>
+    <description>Adding yearlyAutoDeferralPercentageIncrease logic to equal null when Auto Enrollment = No</description>
+    <masterLabel>Proposal |  BeforeTrigger | Map Default Fields for Purchase Api</masterLabel>
+</FlowDefinition>

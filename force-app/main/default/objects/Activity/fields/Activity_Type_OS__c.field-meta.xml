@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activity_Type_OS__c</fullName>
+    <description>Reads the Activity.Subject line and returns an Activity Type based on standardized text (i.e. Call No Answer, Call Connect, etc.)</description>
+    <externalId>false</externalId>
+    <formula>IF(
+ OR(
+  CONTAINS(Subject,&quot;Call- No Answer&quot;),
+  CONTAINS(Subject,&quot;Call- Left Message&quot;),
+  CONTAINS(Subject,&quot;Call- Connect&quot;),
+  CONTAINS(Subject,&quot;Call- Qualification&quot;),
+  CONTAINS(Subject,&quot;Call- Discovery&quot;),
+  CONTAINS(Subject,&quot;Call- Demo&quot;),
+  CONTAINS(Subject,&quot;Call- Invalid Number&quot;),
+  CONTAINS(Subject,&quot;Call- Qual+Disco&quot;),
+  CONTAINS(Subject,&quot;Call- Disco+Demo&quot;),
+  CONTAINS(Subject,&quot;Call- Qual+Disco+Demo&quot;),
+  BEGINS (Subject,&quot;Outbound Call&quot;),
+  BEGINS (Subject,&quot;FastCall&quot;)
+ ),&quot;Call Out&quot;,
+
+IF (ISPICKVAL(CallType, &quot;Inbound&quot;), &quot;Call In&quot;, 
+
+IF ( BEGINS(Subject, &quot;Task&quot;) , &quot;Task&quot;, 
+
+IF ( BEGINS(Subject, &quot;Meeting&quot;) , &quot;Meeting&quot;, 
+
+IF ( BEGINS(Subject, &quot;Message Sent&quot;) &amp;&amp; CONTAINS( Comment_Catch_for_Mass_Mail_Type__c, &quot;Mail Merge: Yes&quot;) , &quot;Mass Email&quot;, 
+
+IF ( BEGINS(Subject, &quot;Message Sent&quot;) || BEGINS(Subject, &quot;Email:&quot;), &quot;Email Sent&quot;, 
+
+IF ( BEGINS(Subject, &quot;Reply&quot;) || BEGINS (Subject,&quot;Message Sync&quot;) , &quot;Email Reply&quot;, 
+
+IF ( BEGINS(Subject, &quot;Message Opened&quot;) , &quot;Email Open&quot;,
+
+IF ( BEGINS(Subject, &quot;Link Clicked&quot;) , &quot;Email Click&quot;, 
+
+&quot;Other&quot;)))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Reads the Activity.Subject line and returns an Activity Type based on standardized text (i.e. Call No Answer, Call Connect, etc.)</inlineHelpText>
+    <label>Activity Type OS</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

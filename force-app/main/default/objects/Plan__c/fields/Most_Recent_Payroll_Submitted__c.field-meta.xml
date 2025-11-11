@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Most_Recent_Payroll_Submitted__c</fullName>
+    <description>Date of most recent payroll submission by client.</description>
+    <inlineHelpText>Date of most recent payroll submission by client.</inlineHelpText>
+    <label>Most Recent Payroll Submitted</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

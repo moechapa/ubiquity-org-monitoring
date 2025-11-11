@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Option__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Service_Option</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Custom(k)</fullName>
+                <default>true</default>
+                <label>Custom(k)</label>
+            </value>
+            <value>
+                <fullName>Reserve(k)</fullName>
+                <default>false</default>
+                <label>Reserve(k)</label>
+            </value>
+            <value>
+                <fullName>Saver(k)</fullName>
+                <default>false</default>
+                <label>Saver(k)</label>
+            </value>
+            <value>
+                <fullName>RK Only</fullName>
+                <default>false</default>
+                <label>RK Only</label>
+            </value>
+            <value>
+                <fullName>Custom(k) MML</fullName>
+                <default>false</default>
+                <label>Custom(k) MML</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

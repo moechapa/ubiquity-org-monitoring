@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Termination</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Contract Termination</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/flow/Plan_Button_Contract_Termination?recordId={!Plan__c.Plan_ID_18_Char__c}&amp;retURL={!Plan__c.Plan_ID_18_Char__c}</url>
+</WebLink>

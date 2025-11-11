@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Deconversion_Notification_alert_to_Sales</fullName>
+        <description>Deconversion Notification alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Save_Owner__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Ubiquity_Deconversion_and_Terminations/Decon_Sales_Notification_Date_alert_internal_Ubiquity</template>
+    </alerts>
+    <alerts>
+        <fullName>Deconversion_Send_Deconversion_Information</fullName>
+        <description>Deconversion - Send Deconversion Information</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>transitions@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>DeconversionandTerminations/Deconversion_Instruction_Email_Ubiquity</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Termination_Information</fullName>
+        <description>Termination - Send Termination Information</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>transitions@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>DeconversionandTerminations/Termination_Instruction_Email_Ubiquity</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Termination_Official_Notice</fullName>
+        <description>Send Termination Official Notice</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>transitions@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Ubiquity_Deconversion_and_Terminations/Termination_Next_Steps</template>
+    </alerts>
+    <alerts>
+        <fullName>Termination_Final_Valuation_Complete</fullName>
+        <description>Termination - Final Valuation Complete</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>transitions@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Ubiquity_Deconversion_and_Terminations/Valuation_Complete_Form_5500_Obligations_Ubiquity</template>
+    </alerts>
+    <alerts>
+        <fullName>Termination_Termination_Complete_5500_Notification</fullName>
+        <description>Termination - Termination Complete 5500 Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>transitions@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Ubiquity_Deconversion_and_Terminations/Termination_Complete_Form_5500_Obligations_Ubiquity</template>
+    </alerts>
+    <alerts>
+        <fullName>Transition_Notification_Date_Alert</fullName>
+        <description>Transition: Notification Date Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>billing@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Ubiquity_Deconversion_and_Terminations/Transition_Notification_Date_alert_internal_Ubiquity</template>
+    </alerts>
+    <rules>
+        <fullName>5500 PYE Date Equals Today %28Compliance%29</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Transition__c.Final_5500_PYE__c</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Transition - Email - Notification Date Entered</fullName>
+        <actions>
+            <name>Transition_Notification_Date_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Transition__c.Notification_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Transition__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Pending</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Transition__c.Notification_Date__c</field>
+            <operation>greaterThan</operation>
+            <value>10/10/2024</value>
+        </criteriaItems>
+        <description>Alerts CSTs, Operations, Billing when a Notification Date is entered for a Plan Transition</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Transition - Task - Validate Enhanced Offering</fullName>
+        <actions>
+            <name>Validate_Deconversion_Reason</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Transition__c.Transition_Reason__c</field>
+            <operation>equals</operation>
+            <value>Enhanced Offering</value>
+        </criteriaItems>
+        <description>Creates task for 2 days out to verify that the real reason is Enhanced Offering</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <tasks>
+        <fullName>Validate_Deconversion_Reason</fullName>
+        <assignedTo>transitions@myubiquity.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <description>&quot;Enhanced Offering&quot; should only be noted as the Transition Reason when no other reason can be established. If all attempts to establish a reason have failed please leave the field as is, otherwise please update the field appropriately.</description>
+        <dueDateOffset>2</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Validate Deconversion Reason</subject>
+    </tasks>
+</Workflow>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fund_List_Validation</fullName>
+    <active>false</active>
+    <description>Makes sure Fund List is populated by close.</description>
+    <errorConditionFormula>ISPICKVAL(StageName, &quot;Closed Won&quot;)  
+&amp;&amp;  
+ISPICKVAL( Product_Type__c  , &quot;401(k)&quot; ) 
+&amp;&amp;
+ISPICKVAL(  Fund_List__c  , &quot;&quot;)
+&amp;&amp; 
+CloseDate &gt; DATE(2017,1,9)</errorConditionFormula>
+    <errorDisplayField>Fund_List__c</errorDisplayField>
+    <errorMessage>Please populate the Fund List</errorMessage>
+</ValidationRule>

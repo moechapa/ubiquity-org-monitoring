@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sender_Role__c</fullName>
+    <description>Used in case detail LWC and picklist filter metadata to filter which categories and sub-categories are available when categorizing cases.</description>
+    <inlineHelpText>Role of sender based on the type of question they are asking. For example, if a sponsor is asking a &quot;saver&quot; question, choose &quot;Saver&quot;.</inlineHelpText>
+    <label>Sender Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Saver</fullName>
+                <default>false</default>
+                <label>Saver</label>
+            </value>
+            <value>
+                <fullName>Sponsor</fullName>
+                <default>false</default>
+                <label>Sponsor</label>
+            </value>
+            <value>
+                <fullName>Advisor</fullName>
+                <default>false</default>
+                <label>Advisor</label>
+            </value>
+            <value>
+                <fullName>TPA</fullName>
+                <default>false</default>
+                <label>TPA</label>
+            </value>
+            <value>
+                <fullName>Internal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Internal</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Trustee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Trustee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

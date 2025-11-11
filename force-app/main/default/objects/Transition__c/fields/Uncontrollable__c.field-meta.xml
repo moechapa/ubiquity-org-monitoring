@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Uncontrollable__c</fullName>
+    <description>Uncontrollable attrition = Term/mergers, and Transitions for reason of company closing or ownership/leadership change.</description>
+    <formula>IF(ISPICKVAL(Transition_Type__c , &quot;Termination/Merger&quot;),TRUE,
+IF(ISPICKVAL(Transition_Type__c, &quot;Termination&quot;) &amp;&amp;  ISPICKVAL(Transition_Reason__c, &quot;Company Closing&quot;), TRUE,
+IF(ISPICKVAL(Transition_Type__c, &quot;Termination&quot;) &amp;&amp;  ISPICKVAL(Transition_Reason__c, &quot;Ownership/Leadership Change&quot;), TRUE,
+IF(ISPICKVAL(Transition_Reason__c, &quot;Company Acquired - Merged with Another Plan&quot;), TRUE,
+IF(ISPICKVAL(Transition_Reason__c, &quot;Features Not Offered&quot;), TRUE,
+FALSE)))))</formula>
+    <inlineHelpText>Uncontrollable attrition = Term/mergers, and Transitions for reason of company closing or ownership/leadership change.</inlineHelpText>
+    <label>Uncontrollable</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,66 @@
+{
+  "required" : [ "caseDescription", "caseSubject", "contactEmail", "messagingSessionRecordId", "prechatEmail", "prechatFirstName", "prechatLastName" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "caseDescription" : {
+      "title" : "caseDescription",
+      "description" : "Case Description",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "caseSubject" : {
+      "title" : "caseSubject",
+      "description" : "Case Subject",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "contactEmail" : {
+      "title" : "contactEmail",
+      "description" : "Case Email",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "contactRecord" : {
+      "title" : "contactRecord",
+      "description" : "Contact Record",
+      "lightning:type" : "lightning__recordInfoType",
+      "lightning:sObjectInfo" : {
+        "apiName" : "Contact"
+      },
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "messagingSessionRecordId" : {
+      "title" : "messagingSessionRecordId",
+      "description" : "Messaging Session ID",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "prechatEmail" : {
+      "title" : "prechatEmail",
+      "description" : "Email",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "prechatFirstName" : {
+      "title" : "prechatFirstName",
+      "description" : "First Name",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "prechatLastName" : {
+      "title" : "prechatLastName",
+      "description" : "Last Name",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

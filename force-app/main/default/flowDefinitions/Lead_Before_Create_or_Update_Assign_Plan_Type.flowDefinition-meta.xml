@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>1</activeVersionNumber>
+    <description>This Flow was converted from Sales | Lead Plan Type Updates Process Builder. It assigns default number of employees for Single(k) Plans and assigns Conversion vs New Plan Types on Lead Create and Update.</description>
+    <masterLabel>Lead | Before Trigger | Assign Plan Type &amp; # of Employees for Singel(k)</masterLabel>
+</FlowDefinition>

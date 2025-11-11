@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Origin__c</fullName>
+    <description>How was this Opportunity generated? Ubiquity Generated is anything that comes from the website, or partners and goes through the standard distribution. Rep Generated is anything that the RPC Team generates themselves and goes right to that rep.</description>
+    <inlineHelpText>How was this Opportunity generated? Ubiquity Generated is anything that comes from the website, or partners and goes through the standard distribution. Rep Generated is anything that the RPC Team generates themselves and goes right to that rep.</inlineHelpText>
+    <label>Opportunity Origin</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ubiquity Generated</fullName>
+                <default>false</default>
+                <label>Ubiquity Generated</label>
+            </value>
+            <value>
+                <fullName>Rep Generated</fullName>
+                <default>false</default>
+                <label>Rep Generated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

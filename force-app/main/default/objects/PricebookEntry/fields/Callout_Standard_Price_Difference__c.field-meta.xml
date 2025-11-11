@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Callout_Standard_Price_Difference__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Indicates that quotes should include the difference from this product&apos;s standard price</inlineHelpText>
+    <label>Callout Standard Price Difference</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

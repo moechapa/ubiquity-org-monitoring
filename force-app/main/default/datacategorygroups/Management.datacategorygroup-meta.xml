@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>1 -1</label>
+            <name>X1_1</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Employee Tech Access</label>
+            <name>Employee_Tech_Access</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Management</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+        <object>SvcCatalogItemDef</object>
+    </objectUsage>
+</DataCategoryGroup>

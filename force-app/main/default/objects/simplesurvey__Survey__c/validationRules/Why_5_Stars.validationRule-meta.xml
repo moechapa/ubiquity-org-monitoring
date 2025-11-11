@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Why_5_Stars</fullName>
+    <active>true</active>
+    <description>Requires &quot;Why 5 Stars&quot; value if VerbalCSAT is 5</description>
+    <errorConditionFormula>ISBLANK( Why_5_Stars__c )
+&amp;&amp;
+ISPICKVAL( Verbal_CSAT__c , &quot;5&quot;)</errorConditionFormula>
+    <errorMessage>If Verbal CSAT is 5 or less, &quot;Why 5 Stars&quot; is required</errorMessage>
+</ValidationRule>

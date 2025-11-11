@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_Share_Notes__c</fullName>
+    <description>Outline the extent of the revenue share.</description>
+    <inlineHelpText>Outline the extent of the revenue share.</inlineHelpText>
+    <label>Revenue Share Notes</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

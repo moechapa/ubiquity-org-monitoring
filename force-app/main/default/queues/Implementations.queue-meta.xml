@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>newplan@myubiquity.com</email>
+    <name>Implementations Queue</name>
+    <queueMembers>
+        <users>
+            <user>newplan@theonline401k.com</user>
+            <user>smerrell@myubiquity.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Implementation__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Plan__c</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_100_Before_Activation</fullName>
+    <active>true</active>
+    <description>The total value of the QA design must add up to 100 before activation</description>
+    <errorConditionFormula>Total_Question_Value__c != 1
+&amp;&amp;
+isActive__c</errorConditionFormula>
+    <errorMessage>Total value of design must equal 100% to activate</errorMessage>
+</ValidationRule>

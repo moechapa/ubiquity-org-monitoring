@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finish_before_Activation__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Finish before Activation</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Project_Deliverables__c.Work_Breakdown_Structure__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Work_Breakdown_Structure__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Project_Deliverables__c</referenceTo>
+    <relationshipLabel>Activate Upon Completion</relationshipLabel>
+    <relationshipName>Activated_when_Complete</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

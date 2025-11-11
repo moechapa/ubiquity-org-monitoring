@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Role__c</fullName>
+    <label>Contact Role</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Plan Sponsor</fullName>
+                <default>false</default>
+                <label>Plan Sponsor</label>
+            </value>
+            <value>
+                <fullName>Trustee</fullName>
+                <default>false</default>
+                <label>Trustee</label>
+            </value>
+            <value>
+                <fullName>Plan Sponsor &amp; Trustee</fullName>
+                <default>false</default>
+                <label>Plan Sponsor &amp; Trustee</label>
+            </value>
+            <value>
+                <fullName>Financial Advisor</fullName>
+                <default>false</default>
+                <label>Financial Advisor</label>
+            </value>
+            <value>
+                <fullName>Financial Advisor - Operational Support</fullName>
+                <default>false</default>
+                <label>Financial Advisor - Operational Support</label>
+            </value>
+            <value>
+                <fullName>CPA</fullName>
+                <default>false</default>
+                <label>CPA</label>
+            </value>
+            <value>
+                <fullName>Payroll Provider</fullName>
+                <default>false</default>
+                <label>Payroll Provider</label>
+            </value>
+            <value>
+                <fullName>Lawyer</fullName>
+                <default>false</default>
+                <label>Lawyer</label>
+            </value>
+            <value>
+                <fullName>Interested Third Party</fullName>
+                <default>false</default>
+                <label>Interested Third Party</label>
+            </value>
+            <value>
+                <fullName>Referrer</fullName>
+                <default>false</default>
+                <label>Referrer</label>
+            </value>
+            <value>
+                <fullName>Wholesaler</fullName>
+                <default>false</default>
+                <label>Wholesaler</label>
+            </value>
+            <value>
+                <fullName>Authorized Buyer</fullName>
+                <default>false</default>
+                <label>Authorized Buyer</label>
+            </value>
+            <value>
+                <fullName>Decision Maker</fullName>
+                <default>false</default>
+                <label>Decision Maker</label>
+            </value>
+            <value>
+                <fullName>TPA - Operational Support</fullName>
+                <default>false</default>
+                <label>TPA - Operational Support</label>
+            </value>
+            <value>
+                <fullName>TPA - Onboarding</fullName>
+                <default>false</default>
+                <label>TPA - Onboarding</label>
+            </value>
+            <value>
+                <fullName>TPA - Sales</fullName>
+                <default>false</default>
+                <label>TPA - Sales</label>
+            </value>
+            <value>
+                <fullName>Internal Payroll Contact</fullName>
+                <default>false</default>
+                <label>Internal Payroll Contact</label>
+            </value>
+            <value>
+                <fullName>External Payroll Contact</fullName>
+                <default>false</default>
+                <label>External Payroll Contact</label>
+            </value>
+            <value>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+                <label>Inactive</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

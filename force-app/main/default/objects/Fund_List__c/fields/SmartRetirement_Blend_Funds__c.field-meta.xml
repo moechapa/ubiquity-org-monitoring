@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SmartRetirement_Blend_Funds__c</fullName>
+    <label>SmartRetirement Blend Funds</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Share_Class__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SmartRetirement Blend 2020 Fund (JIORX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2020 Fund (JIORX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2025 Fund (JBRSX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2025 Fund (JBRSX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2030 Fund (JRBRX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2030 Fund (JRBRX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2035 Fund (JPRRX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2035 Fund (JPRRX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2040 Fund (JOBRX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2040 Fund (JOBRX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2045 Fund (JNARX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2045 Fund (JNARX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2050 Fund (JNNRX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2050 Fund (JNNRX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2055 Fund (JTRBX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2055 Fund (JTRBX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2060 Fund (JATPX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2060 Fund (JATPX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2020 Fund (JSTKX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2020 Fund (JSTKX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2025 Fund (JBTUX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2025 Fund (JBTUX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2030 Fund (JUTPX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2030 Fund (JUTPX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2035 Fund (JPTLX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2035 Fund (JPTLX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2040 Fund (JNTEX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2040 Fund (JNTEX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2045 Fund (JNTOX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2045 Fund (JNTOX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2050 Fund (JNTKX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2050 Fund (JNTKX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2055 Fund (JTTUX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2055 Fund (JTTUX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2060 Fund (JATQX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2060 Fund (JATQX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2020 Fund (JSTLX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2020 Fund (JSTLX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2025 Fund (JBTBX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2025 Fund (JBTBX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2030 Fund (JUTUX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2030 Fund (JUTUX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2035 Fund (JPTKX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2035 Fund (JPTKX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2040 Fund (JNTNX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2040 Fund (JNTNX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2045 Fund (JNTLX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2045 Fund (JNTLX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2050 Fund (JNTPX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2050 Fund (JNTPX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2055 Fund (JTTLX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2055 Fund (JTTLX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2060 Fund (JATUX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2060 Fund (JATUX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2020 Fund (JBSRX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2020 Fund (JBSRX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2025 Fund (JBBSX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2025 Fund (JBBSX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2030 Fund (JRBBX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2030 Fund (JRBBX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2035 Fund (JPBRX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2035 Fund (JPBRX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2040 Fund (JOBBX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2040 Fund (JOBBX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2045 Fund (JMBRX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2045 Fund (JMBRX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2050 Fund (JNABX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2050 Fund (JNABX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2055 Fund (JTBBX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2055 Fund (JTBBX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2060 Fund (JAABX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2060 Fund (JAABX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2020 Fund (JSYRX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2020 Fund (JSYRX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2025 Fund (JBYSX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2025 Fund (JBYSX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2030 Fund (JRBYX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2030 Fund (JRBYX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2035 Fund (JPYRX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2035 Fund (JPYRX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2040 Fund (JOBYX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2040 Fund (JOBYX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2045 Fund (JMYAX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2045 Fund (JMYAX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2050 Fund (JNYAX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2050 Fund (JNYAX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2055 Fund (JTYBX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2055 Fund (JTYBX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend 2060 Fund (JAAYX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend 2060 Fund (JAAYX)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2020 Fund (JIORX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2025 Fund (JBRSX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2030 Fund (JRBRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2035 Fund (JPRRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2040 Fund (JOBRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2045 Fund (JNARX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2050 Fund (JNNRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2055 Fund (JTRBX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2060 Fund (JATPX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2020 Fund (JSTKX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2025 Fund (JBTUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2030 Fund (JUTPX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2035 Fund (JPTLX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2040 Fund (JNTEX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2045 Fund (JNTOX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2050 Fund (JNTKX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2055 Fund (JTTUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2060 Fund (JATQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2020 Fund (JSTLX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2025 Fund (JBTBX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2030 Fund (JUTUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2035 Fund (JPTKX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2040 Fund (JNTNX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2045 Fund (JNTLX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2050 Fund (JNTPX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2055 Fund (JTTLX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2060 Fund (JATUX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2020 Fund (JBSRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2025 Fund (JBBSX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2030 Fund (JRBBX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2035 Fund (JPBRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2040 Fund (JOBBX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2045 Fund (JMBRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2050 Fund (JNABX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2055 Fund (JTBBX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2060 Fund (JAABX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2020 Fund (JSYRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2025 Fund (JBYSX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2030 Fund (JRBYX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2035 Fund (JPYRX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2040 Fund (JOBYX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2045 Fund (JMYAX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2050 Fund (JNYAX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2055 Fund (JTYBX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>SmartRetirement Blend 2060 Fund (JAAYX)</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SmartRetirement_Income_Funds__c</fullName>
+    <label>SmartRetirement Income Funds</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Share_Class__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SmartRetirement Income Fund (JSIZX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Income Fund (JSIZX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend Income Fund (JIRBX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend Income Fund (JIRBX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Income Fund (JSIPX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Income Fund (JSIPX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend Income Fund (JITLX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend Income Fund (JITLX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Income Fund (JSIQX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Income Fund (JSIQX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend Income Fund (JITKX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend Income Fund (JITKX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Income Fund (JSIIX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Income Fund (JSIIX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend Income Fund (JIBBX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend Income Fund (JIBBX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Income Fund (JSIYX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Income Fund (JSIYX)</label>
+            </value>
+            <value>
+                <fullName>SmartRetirement Blend Income Fund (JIYBX)</fullName>
+                <default>false</default>
+                <label>SmartRetirement Blend Income Fund (JIYBX)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>SmartRetirement Income Fund (JSIZX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R2</controllingFieldValue>
+            <valueName>SmartRetirement Blend Income Fund (JIRBX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>SmartRetirement Income Fund (JSIPX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R3</controllingFieldValue>
+            <valueName>SmartRetirement Blend Income Fund (JITLX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>SmartRetirement Income Fund (JSIQX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R4</controllingFieldValue>
+            <valueName>SmartRetirement Blend Income Fund (JITKX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>SmartRetirement Income Fund (JSIIX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R5</controllingFieldValue>
+            <valueName>SmartRetirement Blend Income Fund (JIBBX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>SmartRetirement Income Fund (JSIYX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>R6</controllingFieldValue>
+            <valueName>SmartRetirement Blend Income Fund (JIYBX)</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mitel_Call_Requires_Related_Case</fullName>
+    <active>false</active>
+    <description>Require Case linking on Mitel Call Related to Field</description>
+    <errorConditionFormula>(
+BEGINS( Subject, &apos;Call Inbound&apos;) 
+||
+BEGINS( Subject, &apos;Call Outbound&apos;)
+)
+&amp;&amp; 
+(  
+CONTAINS(Owner:User.UserRole.Name, &apos;Saver&apos;)  
+||
+CONTAINS(Owner:User.UserRole.Name, &apos;Service&apos;)
+)
+&amp;&amp;
+ NOT(BEGINS( WhatId , &quot;005&quot;))</errorConditionFormula>
+    <errorDisplayField>WhatId</errorDisplayField>
+    <errorMessage>Link this call to a Case in the &quot;Related To&quot; field</errorMessage>
+</ValidationRule>

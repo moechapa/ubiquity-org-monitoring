@@ -1,0 +1,5 @@
+<apex:page standardController="Case">
+    <flow:interview name="Case_Split" finishLocation="/{!Case.Id}">
+        <apex:param name="recordId" value="{!Case.Id}"/>
+    </flow:interview>
+</apex:page>

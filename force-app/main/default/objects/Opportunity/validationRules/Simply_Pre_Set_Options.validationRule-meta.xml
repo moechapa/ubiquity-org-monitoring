@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Simply_Pre_Set_Options</fullName>
+    <active>false</active>
+    <description>Verifies pre-set options remain when closing a Simply Retirement Opp</description>
+    <errorConditionFormula>ISPICKVAL(StageName, &quot;Closed Won&quot;) 
+&amp;&amp; 
+ISPICKVAL(  Service_Option__c  , &quot;Simply Retirement&quot; ) 
+&amp;&amp;
+(
+NOT(ISPICKVAL( AutoEnrollment__c , &quot;EACA&quot;))
+||
+NOT(ISPICKVAL( Roth__c , &quot;Yes&quot;))
+||
+NOT(ISPICKVAL( Profit_Sharing__c  , &quot;Pro Rata&quot;))
+||
+NOT(ISPICKVAL( Profit_Sharing_Match_Vesting_Schedule__c  , &quot;Immediate&quot;))
+||
+NOT(ISPICKVAL(  Brokerage_Accounts_PCRA__c  , &quot;No&quot;))
+||
+NOT(ISPICKVAL( Loans__c  , &quot;Yes&quot;))
+||
+NOT(ISPICKVAL( Hardships__c , &quot;No&quot;))
+||
+NOT(ISPICKVAL( Eligibility_Age__c   , &quot;21&quot;))
+||
+NOT(ISPICKVAL( Plan_Entry_Frequency__c   , &quot;Immediate&quot;))
+||
+NOT(ISPICKVAL( Deferral_Change_Frequency__c , &quot;Per Pay Period&quot;))
+)</errorConditionFormula>
+    <errorMessage>Ensure the following values are set:
+AutoEnroll = EACA | Roth = Yes | Profit Sharing = Pro Rata | Vesting = Immediate | Brokerage = No | Loans = Yes | Hardships = No | Eligibility Age = 21 | Entry Frequency = Immediate | Change Frequency = Per Pay Period</errorMessage>
+</ValidationRule>

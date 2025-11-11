@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_Plan_Provisions_when_Complete</fullName>
+    <active>true</active>
+    <description>Prevents edits to Plan Provisions after meeting is complete - this allows us to lock in the values at the time of the meeting.</description>
+    <errorConditionFormula>AND 
+
+(ISPICKVAL( Status__c , &quot;Completed&quot;) ,
+TEXT(PRIORVALUE(Status__c)) = TEXT(Status__c),
+
+(OR(
+ISCHANGED( Auto_Enroll__c ), 
+ISCHANGED( Brokerage_Accounts__c ), 
+ISCHANGED( Discretionary_Match__c ), 
+ISCHANGED( Discretionary_Match_Notes__c ), 
+ISCHANGED( Eligibility__c ), 
+ISCHANGED( Eligibility_Age__c ), 
+ISCHANGED( Loans__c ),
+ISCHANGED( Plan_Entry_Frequency__c ),
+ISCHANGED( Profit_Sharing__c ),
+ISCHANGED( ROTH__c ),
+ISCHANGED( Safe_Harbor__c ),
+ISCHANGED( Service_Option__c ),
+ISCHANGED( Vesting_Schedule__c ))))</errorConditionFormula>
+    <errorMessage>The Plan Provisions are locked when the Enrollment Meeting is marked &quot;Completed&quot;</errorMessage>
+</ValidationRule>

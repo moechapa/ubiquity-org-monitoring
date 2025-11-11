@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Show the prompt response from the given knowledge article</description>
+    <developerName>Knowledge_Prompt_Template</developerName>
+    <invocationTarget>Knowledge_Prompt_Template</invocationTarget>
+    <invocationTargetType>generatePromptResponse</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <masterLabel>Knowledge Prompt Template</masterLabel>
+    <progressIndicatorMessage>Searching the knowledge base</progressIndicatorMessage>
+</GenAiFunction>

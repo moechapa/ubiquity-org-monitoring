@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FPS_Agreement_Signed__c</fullName>
+    <description>Date FPS Agree is complete - for plans with FPS in the Implementation docs, it&apos;s the Docs Complete date.   For Plans that didn&apos;t have it in the implementation docs, it is the date of the DocuSign sent to get the FPS signed.</description>
+    <inlineHelpText>Date FPS Agree is complete - for plans with FPS in the Implementation docs, it&apos;s the Docs Complete date.   For Plans that didn&apos;t have it in the implementation docs, it is the date of the DocuSign sent to get the FPS signed.</inlineHelpText>
+    <label>FPS Agreement Signed</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

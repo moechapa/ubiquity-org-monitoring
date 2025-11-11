@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_to_Improve_to_5_Stars__c</fullName>
+    <description>For Verbal CSAT scores of 1, 2, or 3, please ask how we can improve and indicate closes/most applicable answer here</description>
+    <inlineHelpText>For Verbal CSAT scores of 1, 2, or 3, please ask how we can improve and indicate closes/most applicable answer here</inlineHelpText>
+    <label>How to Improve to 5 Stars?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>More info on 401k rules, compliance</fullName>
+                <default>false</default>
+                <label>More info on 401k rules, compliance</label>
+            </value>
+            <value>
+                <fullName>More info on how to use the platform</fullName>
+                <default>false</default>
+                <label>More info on how to use the platform</label>
+            </value>
+            <value>
+                <fullName>Faster response time to initial inquiry</fullName>
+                <default>false</default>
+                <label>Faster response time to initial inquiry</label>
+            </value>
+            <value>
+                <fullName>Faster issue resolution time</fullName>
+                <default>false</default>
+                <label>Faster issue resolution time</label>
+            </value>
+            <value>
+                <fullName>Better product functionality/features</fullName>
+                <default>false</default>
+                <label>Better product functionality/features</label>
+            </value>
+            <value>
+                <fullName>Better reporting</fullName>
+                <default>false</default>
+                <label>Better reporting</label>
+            </value>
+            <value>
+                <fullName>More guidance on my plan</fullName>
+                <default>false</default>
+                <label>More guidance on my plan</label>
+            </value>
+            <value>
+                <fullName>Lower fees</fullName>
+                <default>false</default>
+                <label>Lower fees</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>9</visibleLines>
+</CustomField>

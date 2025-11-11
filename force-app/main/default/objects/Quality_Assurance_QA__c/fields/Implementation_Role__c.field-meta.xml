@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Implementation_Role__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( CONTAINS(Project_Task__r.Skill__c ,&quot;RM&quot;),&quot;RM&quot;,
+IF( CONTAINS(Project_Task__r.Skill__c ,&quot;Document&quot;),&quot;Documents&quot;,
+IF( CONTAINS(Project_Task__r.Skill__c ,&quot;Admin&quot;),&quot;Admin&quot;,&quot;&quot;
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Implementation Role</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

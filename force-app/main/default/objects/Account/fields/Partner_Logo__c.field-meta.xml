@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Logo__c</fullName>
+    <description>Clients with shared SLAs will appear here.</description>
+    <externalId>false</externalId>
+    <formula>IF(TEXT( Connected_Partner__c) = &quot;JPM&quot;,
+IMAGE(&quot;https://myubiquity.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=0681G000004KtSV&amp;operationContext=CHATTER&amp;contentId=05T1G00000Dlnxm&quot;, &quot;&quot;,30,60), 
+IF(CONTAINS(TEXT( Connected_Partner__c), &quot;Schwab&quot;),
+IMAGE(&quot;https://myubiquity.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Jpg&amp;versionId=0681G000004KtSa&amp;operationContext=CHATTER&amp;contentId=05T1G00000Dlnxr&quot;, &quot;&quot;,30,30),
+IF(CONTAINS(TEXT( Connected_Partner__c), &quot;Simply&quot;),
+IMAGE(&quot;https://myubiquity.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=0681G000005uqev&amp;operationContext=CHATTER&amp;contentId=05T1G00000M4jK2&quot;, &quot;&quot;,50,150),
+&quot;&quot;)))</formula>
+    <inlineHelpText>Clients with shared SLAs will appear here.</inlineHelpText>
+    <label>Partner Logo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

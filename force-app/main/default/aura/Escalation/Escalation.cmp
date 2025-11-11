@@ -1,0 +1,60 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" controller="EscalationController">
+    
+	<aura:attribute name="isEscalated" type="boolean" default="false"/>
+    <aura:attribute name="escRecord" type="Escalation__c[]"/>
+    <aura:attribute name="headerTitle" type="Aura.Component[]">
+        <h2>
+            <b>This client is in Escalation.</b>
+        </h2>
+    </aura:attribute>
+    
+    <!-- Handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+
+
+    <aura:if isTrue="{!v.isEscalated}">
+    <lightning:card title="{!v.headerTitle}" iconName="standard:incident" class="slds-card_boundary">
+        <div class="slds-m-around_small">
+            <aura:if isTrue="{!not(empty(v.escRecord))}">
+                <aura:iteration  items="{!v.escRecord}" var="esc">
+                    <div class="c-container">
+                        <lightning:layout>
+                            <lightning:layoutItem padding="around-small">
+                                <div class="header-column">
+                                    <p class="field-title" title="Field 1">Escalation Type</p>
+                                    <p>{!esc.Escalation_Type__c}</p>    
+                                </div>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem padding="around-small">
+                                <div class="header-column">
+                                    <p class="field-title" title="Field2 (3)">Escalation Date</p>
+                                    <ui:outputDate value="{!esc.Escalation_Date__c}"/>
+                                </div>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem padding="around-small">
+                                <div class="header-column">
+                                    <p class="field-title" title="Field 3">Escalation Owner</p>
+                                    <a href="{!'/one/one.app?#/sObject/'+ esc.OwnerId + '/view'}" target="_self">{!esc.Owner_Full_Name__c}</a>
+                                </div>
+                            </lightning:layoutItem>
+                            <lightning:layoutItem padding="around-small">
+                                <div class="header-column">
+                                    <p class="field-title" title="Field 4">Escalation Contact</p>
+                                    <p>
+                                        <a href="{!'/one/one.app?#/sObject/'+ esc.Escalation_Contact__c + '/view'}" target="_self">{!esc.Contact_Full_Name__c}</a>
+                                    </p>
+                                </div>
+                            </lightning:layoutItem>
+                        </lightning:layout>
+                        <div class="slds-align_absolute-center">
+                            <img src="{!$Resource.alarmGif}" width="25" height="25"/>
+                            <a href="{!'/one/one.app?#/sObject/'+ esc.Id + '/view'}" target="_self">View the Escalation Record for more information.</a>
+                            <img src="{!$Resource.alarmGif}" width="25" height="25"/>
+                        </div>
+                    </div>
+                </aura:iteration>
+            </aura:if>
+        </div>
+    </lightning:card>
+    </aura:if>
+</aura:component>

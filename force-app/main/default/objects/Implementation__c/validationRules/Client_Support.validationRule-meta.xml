@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Support</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED( OwnerId )
+&amp;&amp;
+ OwnerId = &quot;00G1G000001N3PA&quot;</errorConditionFormula>
+    <errorMessage>Please do no assign new Implementations to Client Support</errorMessage>
+</ValidationRule>

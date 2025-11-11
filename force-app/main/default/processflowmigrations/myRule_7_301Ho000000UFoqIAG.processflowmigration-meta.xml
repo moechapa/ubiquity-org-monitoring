@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProcessFlowMigration xmlns="http://soap.sforce.com/2006/04/metadata">
+    <destinationFlowDefinition>Servicing_Payroll_Submissions</destinationFlowDefinition>
+    <destinationFlowVersion>Servicing_Payroll_Submissions-3</destinationFlowVersion>
+    <developerName>myRule_7_301Ho000000UFoqIAG</developerName>
+    <masterLabel>Servicing | Payroll Submissions</masterLabel>
+    <migratedCriteriaLabel>Imp to Current</migratedCriteriaLabel>
+    <migratedCriteriaName>myRule_7</migratedCriteriaName>
+    <processVersion>Plan_Payroll_Submissions-13</processVersion>
+</ProcessFlowMigration>

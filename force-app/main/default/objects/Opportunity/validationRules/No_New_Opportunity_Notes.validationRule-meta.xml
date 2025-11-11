@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_New_Opportunity_Notes</fullName>
+    <active>true</active>
+    <description>No new Opportunity notes can be added once a Sale has been closed out; the notes must be added in the Implementation.</description>
+    <errorConditionFormula>ISPICKVAL( StageName , &quot;Closed Won&quot;) 
+&amp;&amp; 
+ISPICKVAL( Product_Type__c , &quot;401(k)&quot; )
+&amp;&amp;
+CloseDate  &gt;  DATE(2017,1,9) 
+&amp;&amp; 
+Agreement_for_Services_A4S__c  = True
+&amp;&amp; 
+Payment_Information__c = True
+&amp;&amp;
+ISCHANGED(Opportunity_Notes__c )</errorConditionFormula>
+    <errorMessage>Please add new Notes on the Implementations Object</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Split_Opp__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Indicates that there will be a revenue split on the related Opportunity</inlineHelpText>
+    <label>Split Opp</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

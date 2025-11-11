@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payroll</fullName>
+    <columns>Week_End__c</columns>
+    <columns>ACH_Pulls_Number__c</columns>
+    <columns>ACH_Pulls_Currency__c</columns>
+    <columns>ACH_Rejects_Number__c</columns>
+    <columns>Payroll_Rejects_Over_3_Days__c</columns>
+    <columns>Active_Finch__c</columns>
+    <columns>Outstanding_Deposits_Received__c</columns>
+    <columns>Payrolls_Awaiting_Funding__c</columns>
+    <columns>Rollovers_Awaiting_Funding__c</columns>
+    <columns>of_Clients_Using_Payroll_Integration__c</columns>
+    <columns>EPS_Grand_Total_of_Active_plans__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Payroll</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Operations_Metrics__c.Default</value>
+    </filters>
+    <filters>
+        <field>Week_End__c</field>
+        <operation>equals</operation>
+        <value>LAST_N_WEEKS:4</value>
+    </filters>
+    <label>Payroll</label>
+</ListView>

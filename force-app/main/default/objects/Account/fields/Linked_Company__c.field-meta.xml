@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Linked_Company__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>To be used when companies are linked through ownership like control groups, etc.</description>
+    <inlineHelpText>To be used when companies are linked through ownership like control groups, etc.</inlineHelpText>
+    <label>Linked Company</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Accounts (Linked Company)</relationshipLabel>
+    <relationshipName>Linked_Company</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

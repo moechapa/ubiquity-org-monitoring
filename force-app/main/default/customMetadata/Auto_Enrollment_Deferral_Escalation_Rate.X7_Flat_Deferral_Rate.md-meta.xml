@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>7% Flat Deferral Rate</label>
+    <protected>false</protected>
+    <values>
+        <field>Auto_Deferral_Type__c</field>
+        <value xsi:type="xsd:string">FLAT</value>
+    </values>
+    <values>
+        <field>Max_Auto_Deferral_Percentage__c</field>
+        <value xsi:type="xsd:double">7.0</value>
+    </values>
+    <values>
+        <field>Min_Auto_Deferral_Percentage__c</field>
+        <value xsi:type="xsd:double">7.0</value>
+    </values>
+    <values>
+        <field>Yearly_Auto_Deferral_Percentage_Increase__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

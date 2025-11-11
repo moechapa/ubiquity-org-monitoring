@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Late_Payroll_Request_Reason</fullName>
+    <active>false</active>
+    <description>Request Reason is required on At Risk cases if Late Payroll is the subcategory.
+De-Activated 3.18.20 per Boris - no longer requiring this field.</description>
+    <errorConditionFormula>RecordTypeId = &quot;01237000000Aho7&quot;
+&amp;&amp;
+ ISPICKVAL(Sub_Category__c, &quot;Late Payroll&quot;)
+&amp;&amp; 
+ ISBLANK(TEXT( Request_Reason__c ))
+&amp;&amp;
+ ISPICKVAL( Status , &quot;Resolved&quot;)</errorConditionFormula>
+    <errorDisplayField>Request_Reason__c</errorDisplayField>
+    <errorMessage>Request Reason is Required</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ubiquity_Sales_Forecast__c</fullName>
+    <description>Number of sales Ubiquity forecasted the partner to deliver in the previous quarter of business.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of leads Ubiquity forecasted the partner to deliver in the previous quarter of business.</inlineHelpText>
+    <label>Ubiquity Sales Forecast</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

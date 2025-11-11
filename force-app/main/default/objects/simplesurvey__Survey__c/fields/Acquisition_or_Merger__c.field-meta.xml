@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acquisition_or_Merger__c</fullName>
+    <inlineHelpText>Has your company recently been acquired, acquired another company, or merged with another entity?</inlineHelpText>
+    <label>Acquisition or Merger?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Our company was acquired</fullName>
+                <default>false</default>
+                <label>Our company was acquired</label>
+            </value>
+            <value>
+                <fullName>Our company acquired another company</fullName>
+                <default>false</default>
+                <label>Our company acquired another company</label>
+            </value>
+            <value>
+                <fullName>Our company merged with another company</fullName>
+                <default>false</default>
+                <label>Our company merged with another company</label>
+            </value>
+            <value>
+                <fullName>None of the above</fullName>
+                <default>false</default>
+                <label>None of the above</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

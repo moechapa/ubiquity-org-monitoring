@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CARES_Act_Amendment__c</fullName>
+    <description>Date client signed CARES Act Amendment to add it to their plan</description>
+    <inlineHelpText>Date client signed CARES Act Amendment to add it to their plan</inlineHelpText>
+    <label>CARES Act Amendment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Breakdown_Structure__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Work Breakdown Structure</label>
+    <referenceTo>Work_Breakdown_Structure__c</referenceTo>
+    <relationshipLabel>Completion Actions</relationshipLabel>
+    <relationshipName>Completion_Actions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

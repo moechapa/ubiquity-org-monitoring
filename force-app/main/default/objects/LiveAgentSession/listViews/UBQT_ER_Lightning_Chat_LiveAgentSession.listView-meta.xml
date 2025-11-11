@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UBQT_ER_Lightning_Chat_LiveAgentSession</fullName>
+    <filterScope>Queue</filterScope>
+    <label>UBQT ER Lightning Chat</label>
+    <queue>UBQT_ER_Lightning_Chat</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

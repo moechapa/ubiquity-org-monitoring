@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zzCONVERSIONFEE__c</fullName>
+    <label>zzCONVERSION FEE</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>$750</fullName>
+                <default>false</default>
+                <label>$750</label>
+            </value>
+            <value>
+                <fullName>$1000</fullName>
+                <default>false</default>
+                <label>$1000</label>
+            </value>
+            <value>
+                <fullName>See notes</fullName>
+                <default>false</default>
+                <label>See notes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

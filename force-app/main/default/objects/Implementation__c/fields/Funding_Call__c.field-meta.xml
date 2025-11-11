@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funding_Call__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Has Funding Call been completed</description>
+    <inlineHelpText>Has Funding Call been completed</inlineHelpText>
+    <label>Funding Call</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

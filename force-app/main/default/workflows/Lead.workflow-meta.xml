@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Alert_Chris_When_Advisor_Lead_Not_Answered_3_Hours</fullName>
+        <description>Alert Chris When Advisor Lead Not Answered &gt; 3 Hours</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Workflow_Templates/Alert_Chris_for_3_Hour_PS_Leads</template>
+    </alerts>
+    <alerts>
+        <fullName>Lead_Submission</fullName>
+        <description>Lead Submission</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Referrer_s_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>retirementplans@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Ubiquity_PGST/Partner_Form_Submission</template>
+    </alerts>
+    <alerts>
+        <fullName>Mylo_Lead_Assignment_Confirmation</fullName>
+        <description>Mylo Lead Assignment Confirmation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Referrer_s_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Mylo_Lead_Assignment_Confirmation</template>
+    </alerts>
+    <alerts>
+        <fullName>NPN_without_Advisor</fullName>
+        <description>NPN without Advisor</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/NPN_without_Advisor</template>
+    </alerts>
+    <alerts>
+        <fullName>Paycor_Lead_Assignment_Confirmation</fullName>
+        <ccEmails>alliances@paycor.com</ccEmails>
+        <description>Paycor Lead Assignment Confirmation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Referrer_s_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <recipient>mchapa@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mcohen@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>paycor@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Paycor_Client_Emails/Paycor_Lead_Assignment_Confirmation</template>
+    </alerts>
+    <alerts>
+        <fullName>Sallus_Advisor_Assigned_Lead</fullName>
+        <description>Alert when Sallus advisor lead is assigned</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>ccampbell@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mbissett@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mchapa@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>unfiled$public/New_Sallus_Advisor_Assigned_Lead</template>
+    </alerts>
+    <alerts>
+        <fullName>Simply_Advisor_Lead_Assigned</fullName>
+        <description>Simply Advisor Lead Assigned</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Imps_Simply_Bundled/New_Simply_Advisor_Lead_Assigned</template>
+    </alerts>
+    <alerts>
+        <fullName>Simply_Advisor_Lead_Created</fullName>
+        <description>Simply Lead Created</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mchapa@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/New_Simply_Lead_Created</template>
+    </alerts>
+    <alerts>
+        <fullName>Simply_Employer_Lead_Created</fullName>
+        <description>Simply Employer Lead Created</description>
+        <protected>false</protected>
+        <recipients>
+            <type>campaignMemberDerivedOwner</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/New_Simply_Lead_Created</template>
+    </alerts>
+    <alerts>
+        <fullName>Simply_Retirement_Direct_Lead_Assigned</fullName>
+        <description>Simply Retirement - Direct Lead Assigned</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mchapa@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Imps_Simply_Bundled/New_Simply_Direct_Lead_Assigned</template>
+    </alerts>
+    <alerts>
+        <fullName>Simply_Retirement_Re_Engagement_Lead</fullName>
+        <description>Simply Retirement - Re-Engagement (Lead)</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>hclaxton@theonline401k.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>kbenewith@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tmoyer@myubiquity.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Imps_New_Plan/New_Simply_Lead_Re_Engagement</template>
+    </alerts>
+    <alerts>
+        <fullName>Single_k_Lead_1st_Email</fullName>
+        <description>Single(k) Lead 1st Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>sales@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Ubiquity_Sales/Single_k_First_Lead_Response</template>
+    </alerts>
+    <alerts>
+        <fullName>X401k_Lead_1st_Email</fullName>
+        <description>401k Lead 1st Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>sales@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Ubiquity_Sales/Lead_1st_Response</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>DoNotCallLead_False</fullName>
+        <description>Update DoNotCallCustom-StageDefault to False if standard lead field DoNotCall is not checked</description>
+        <field>DoNotCallCustom_StageDefault__c</field>
+        <literalValue>0</literalValue>
+        <name>DoNotCallLead-False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DoNotCallLead_True</fullName>
+        <description>Update DoNotCallCustom-StageDefault to True if standard lead field DoNotCall is checked</description>
+        <field>DoNotCallCustom_StageDefault__c</field>
+        <literalValue>1</literalValue>
+        <name>DoNotCallLead-True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>MOFC</fullName>
+        <description>Update Method of First Contact</description>
+        <field>Method_of_First_Contact__c</field>
+        <literalValue>Partner Referral</literalValue>
+        <name>MOFC</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>New_Conv</fullName>
+        <field>NewConvorSinglek__c</field>
+        <literalValue>Partner</literalValue>
+        <name>New/Conv</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_LS</fullName>
+        <description>Updates LS to Benefit Broker</description>
+        <field>LeadSource</field>
+        <literalValue>Benefit Broker</literalValue>
+        <name>Update LS</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_LSD</fullName>
+        <description>Update LSD to Zenefits</description>
+        <field>LeadSourceDetail__c</field>
+        <literalValue>Zenefits</literalValue>
+        <name>Update LSD</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_LSD_Website</fullName>
+        <field>LeadSourceDetail__c</field>
+        <literalValue>Website</literalValue>
+        <name>Update LSD Website</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_LSD_to_Website</fullName>
+        <field>LeadSourceDetail__c</field>
+        <literalValue>Website</literalValue>
+        <name>Update LSD to Website</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_LS_Direct</fullName>
+        <description>Update LS to Direct</description>
+        <field>LeadSource</field>
+        <literalValue>Direct</literalValue>
+        <name>Update LS Direct</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_LS_to_Direct</fullName>
+        <field>LeadSource</field>
+        <literalValue>Direct</literalValue>
+        <name>Update LS to Direct</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Lead</fullName>
+        <field>Status</field>
+        <literalValue>Test Lead</literalValue>
+        <name>Update Lead</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Lead_Close_Date</fullName>
+        <description>Formula will populate the date the lead is marked as Qualified, Unqualified or Unable to Qualify and moved out of the open pipeline.</description>
+        <field>Lead_Close_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Lead Close Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_MOFC</fullName>
+        <description>Update MOFC to Partner Sale</description>
+        <field>Method_of_First_Contact__c</field>
+        <literalValue>Partner Sale</literalValue>
+        <name>Update MOFC</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Owner_to_Hunter</fullName>
+        <description>For Manually created preassigned leads</description>
+        <field>OwnerId</field>
+        <lookupValue>hclaxton@theonline401k.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Update Owner to Hunter</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Owner_to_Jason</fullName>
+        <field>OwnerId</field>
+        <lookupValue>jgross@theonline401k.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Update Owner to Jason</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Owner_to_Robby</fullName>
+        <field>OwnerId</field>
+        <lookupValue>rforsythe@theonline401k.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Update Owner to Robby</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Plan_Type</fullName>
+        <field>NewConvorSinglek__c</field>
+        <literalValue>Conversion Plan</literalValue>
+        <name>Update Plan Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_ProductType</fullName>
+        <field>Product_Type__c</field>
+        <literalValue>Partnership</literalValue>
+        <name>Update Product Type Partnerships</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Product_Type</fullName>
+        <description>Update Product Type to Single(k)</description>
+        <field>Product_Type__c</field>
+        <literalValue>Single(k)</literalValue>
+        <name>Update Product Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_to_Working</fullName>
+        <field>Status</field>
+        <literalValue>Working</literalValue>
+        <name>Update Status to Working</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Zenefits_Integrated</fullName>
+        <field>Zenefits_Integrated_Payroll_Provider__c</field>
+        <literalValue>1</literalValue>
+        <name>Zenefits Integrated</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Lead - Email - Advisor Lead 3%2B Hours</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.Status</field>
+            <operation>equals</operation>
+            <value>Assigned</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.n2de__Time_to_action_mins__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.OwnerId</field>
+            <operation>contains</operation>
+            <value>Partnership</value>
+        </criteriaItems>
+        <description>Alerts Chris Jasinski when an Advisor lead has not been responded to in 3 or more hours.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Alert_Chris_When_Advisor_Lead_Not_Answered_3_Hours</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Lead.n2de__Last_distributed__c</offsetFromField>
+            <timeLength>3</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Lead - Task - First Call for Sales</fullName>
+        <actions>
+            <name>Call_New</name>
+            <type>Task</type>
+        </actions>
+        <active>true</active>
+        <description>1st Task for new lead assigned to Sales</description>
+        <formula>ISCHANGED(Status)  &amp;&amp;  ISPICKVAL(Status, &apos;Assigned&apos;)  &amp;&amp;  NOT(ISPICKVAL(Business_Unit__c, &apos;Simply Retirement&apos;))  &amp;&amp; NOT(ISPICKVAL(LeadSource, &apos;Content Syndication&apos;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead - Update - DoNotCall%3DFalse</fullName>
+        <actions>
+            <name>DoNotCallLead_False</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.DoNotCall</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>Update DoNotCallCustom-StageDefault to False if standard lead field DoNotCall is not checked</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead - Update - DoNotCall%3DTrue</fullName>
+        <actions>
+            <name>DoNotCallLead_True</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.DoNotCall</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Update DoNotCallCustom-StageDefault to True if standard lead field DoNotCall is checked</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead - Update - ExpressK LS %26 LSD</fullName>
+        <actions>
+            <name>Update_LSD_to_Website</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_LS_to_Direct</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.LeadSource</field>
+            <operation>equals</operation>
+            <value>Website,Advisor,Decision Tree</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.LeadSourceDetail__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.campaign_code__c</field>
+            <operation>notContain</operation>
+            <value>zenefitsautopurchase</value>
+        </criteriaItems>
+        <description>Update Lead Source (LS)  to Direct and Lead Source Detail (LSD) to Web Site for Express(k) Buys</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead - Update - Integration %3D True for Zen</fullName>
+        <actions>
+            <name>Zenefits_Integrated</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.LeadSourceDetail__c</field>
+            <operation>equals</operation>
+            <value>Zenefits</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Method_of_First_Contact__c</field>
+            <operation>equals</operation>
+            <value>Partner Referral</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Zenefits_Integrated_Payroll_Provider__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>Check Integration if referred directly from Zenefits</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead - Update - MOFC and Product Type for TaxAct</fullName>
+        <actions>
+            <name>MOFC</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Product_Type</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.LeadSource</field>
+            <operation>equals</operation>
+            <value>Accounting</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.LeadSourceDetail__c</field>
+            <operation>equals</operation>
+            <value>TaxACT</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.Product_Type__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Populates empty fields MOFC and Product Type for TaxAct leads</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead - Update - Product Type %3D Partnership</fullName>
+        <actions>
+            <name>Update_ProductType</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Lead.LeadSource</field>
+            <operation>equals</operation>
+            <value>Jigsaw</value>
+        </criteriaItems>
+        <description>Change Product Type on Data.com Leads</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead - Update - SingleK LS %26 LSD Update</fullName>
+        <actions>
+            <name>Update_LSD_Website</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_LS_Direct</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.LeadSource</field>
+            <operation>equals</operation>
+            <value>,Single(k) website - OtherCustodian,Single(k) website - SchwabRetail,Single(k) website - SchwabInstitutional</value>
+        </criteriaItems>
+        <description>Updates Lead Source (LS) and Lead Source Detail (LSD) to confirm source of SingleK lead and site the lead may have come from</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Lead - Update - Status %3D Working</fullName>
+        <actions>
+            <name>Update_Status_to_Working</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.Status</field>
+            <operation>equals</operation>
+            <value>Assigned</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Lead.n2de__Action__c</field>
+            <operation>equals</operation>
+            <value>Contacted</value>
+        </criteriaItems>
+        <description>If activity is logged against Lead and status is still assigned change to Working</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Test Leads</fullName>
+        <actions>
+            <name>Update_Lead</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.Email</field>
+            <operation>contains</operation>
+            <value>@test</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <tasks>
+        <fullName>Call_New</fullName>
+        <assignedToType>owner</assignedToType>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Call New Lead</subject>
+    </tasks>
+</Workflow>

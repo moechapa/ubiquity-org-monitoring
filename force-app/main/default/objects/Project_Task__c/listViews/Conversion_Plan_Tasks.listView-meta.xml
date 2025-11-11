@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conversion_Plan_Tasks</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Actual_Start_Date__c</columns>
+    <columns>Actual_Completion_Date__c</columns>
+    <columns>KPI_Milestone__c</columns>
+    <columns>Responsible_Party__c</columns>
+    <columns>Order_Number__c</columns>
+    <columns>Implementation__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Ready,In Progress</value>
+    </filters>
+    <filters>
+        <field>Implementation_Stage__c</field>
+        <operation>contains</operation>
+        <value>In Progress</value>
+    </filters>
+    <filters>
+        <field>Work_Breakdown_Structure__c</field>
+        <operation>contains</operation>
+        <value>Conversion Plans</value>
+    </filters>
+    <label>Conversion Plan Tasks</label>
+    <sharedTo>
+        <roleAndSubordinates>Implementation_Manager</roleAndSubordinates>
+        <roleAndSubordinates>SVP_Strategy</roleAndSubordinates>
+    </sharedTo>
+</ListView>

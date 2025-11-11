@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Safe_Harbor_Formula__c</fullName>
+    <description>Used for Client Marketing purposes in MC.</description>
+    <inlineHelpText>Used for Client Marketing purposes in MC.</inlineHelpText>
+    <label>Safe Harbor Formula</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

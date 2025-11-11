@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_Handoff_to_CST__c</fullName>
+    <description>Final email from Payroll (K)oncierge to Client Support after Implementation is Complete</description>
+    <inlineHelpText>Final email from Payroll (K)oncierge to Client Support after Implementation is Complete</inlineHelpText>
+    <label>Final Handoff to CST</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

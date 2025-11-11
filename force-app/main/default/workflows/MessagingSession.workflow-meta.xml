@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Agentforce_Chat_CSAT</fullName>
+        <description>Agentforce Chat CSAT</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Survey_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>dontrespond@myubiquity.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>simplesurvey__Simple_Survey/Agentforce_Chat_Survey</template>
+    </alerts>
+</Workflow>

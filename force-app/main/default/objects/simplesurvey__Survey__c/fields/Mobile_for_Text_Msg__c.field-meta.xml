@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mobile_for_Text_Msg__c</fullName>
+    <inlineHelpText>By entering your mobile phone number below, you are confirming that you’d like to receive text messages from Ubiquity Retirement + Savings.</inlineHelpText>
+    <label>Mobile for Text Msg</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Phone</type>
+</CustomField>

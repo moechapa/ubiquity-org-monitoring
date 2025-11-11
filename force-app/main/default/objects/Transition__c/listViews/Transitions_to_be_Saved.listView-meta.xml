@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transitions_to_be_Saved</fullName>
+    <booleanFilter>(1 AND 2 AND 3 AND 5) OR (4 AND 3 AND 2 AND 5) OR (6 AND 1 AND 2)</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Transition_Type__c</columns>
+    <columns>Transition_Reason__c</columns>
+    <columns>Save_Owner__c</columns>
+    <columns>Saved_Notes__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Transition_Type__c</field>
+        <operation>notEqual</operation>
+        <value>Termination/Merger,Abandonment</value>
+    </filters>
+    <filters>
+        <field>Transition_Reason__c</field>
+        <operation>notEqual</operation>
+        <value>Company Closing</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Inquired,Notified,Pending,Save in Process</value>
+    </filters>
+    <filters>
+        <field>OWNER.LAST_NAME</field>
+        <operation>notContain</operation>
+        <value>Transition</value>
+    </filters>
+    <filters>
+        <field>Save_Attempts_Exhausted__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Initial_Questionnaire_Sent,Initial Questionnaire Sent</value>
+    </filters>
+    <label>Transitions to be Saved</label>
+</ListView>

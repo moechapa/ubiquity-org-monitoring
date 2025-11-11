@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_Proceeding_Detail__c</fullName>
+    <inlineHelpText>Please provide nature of legal proceeding</inlineHelpText>
+    <label>Legal Proceeding Detail</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IRS/DOL Investigation</fullName>
+                <default>false</default>
+                <label>IRS/DOL Investigation</label>
+            </value>
+            <value>
+                <fullName>Pending Litigation</fullName>
+                <default>false</default>
+                <label>Pending Litigation</label>
+            </value>
+            <value>
+                <fullName>Bankruptcy Proceeding</fullName>
+                <default>false</default>
+                <label>Bankruptcy Proceeding</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

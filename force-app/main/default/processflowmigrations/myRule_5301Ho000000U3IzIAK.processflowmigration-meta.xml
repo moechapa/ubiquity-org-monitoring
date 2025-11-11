@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProcessFlowMigration xmlns="http://soap.sforce.com/2006/04/metadata">
+    <destinationFlowDefinition>Lead_Map_Defaults_Upon_Conversion_1</destinationFlowDefinition>
+    <destinationFlowVersion>Lead_Map_Defaults_Upon_Conversion_1-6</destinationFlowVersion>
+    <developerName>myRule_5301Ho000000U3IzIAK</developerName>
+    <masterLabel>Lead | Map Defaults Upon Conversion_1</masterLabel>
+    <migratedCriteriaLabel>TPA Lead Converted</migratedCriteriaLabel>
+    <migratedCriteriaName>myRule_5</migratedCriteriaName>
+    <processVersion>Lead_Map_Defaults_Upon_Conversion-9</processVersion>
+</ProcessFlowMigration>

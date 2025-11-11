@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Value_Added__c</fullName>
+    <description>Did user proactively add value to the reply?</description>
+    <inlineHelpText>Where applicable, did the specialist provide helpful guides, website navigation tips, full details to prevent callback/additional inquiries?</inlineHelpText>
+    <label>Value Added</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>QA</valueSetName>
+    </valueSet>
+</CustomField>

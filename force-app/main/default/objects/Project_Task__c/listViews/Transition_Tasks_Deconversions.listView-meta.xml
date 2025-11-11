@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transition_Tasks_Deconversions</fullName>
+    <columns>NAME</columns>
+    <columns>Order_Number__c</columns>
+    <columns>Transition__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Pending,Ready,In Progress</value>
+    </filters>
+    <filters>
+        <field>Transition__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Work_Breakdown_Structure__c</field>
+        <operation>contains</operation>
+        <value>Deconversions</value>
+    </filters>
+    <filters>
+        <field>Liquidation_Date__c</field>
+        <operation>equals</operation>
+        <value>8/2/2022</value>
+    </filters>
+    <label>Transition Tasks - Deconversions</label>
+    <sharedTo>
+        <roleAndSubordinates>SVP_Strategy</roleAndSubordinates>
+        <roleAndSubordinates>Transitions</roleAndSubordinates>
+    </sharedTo>
+</ListView>

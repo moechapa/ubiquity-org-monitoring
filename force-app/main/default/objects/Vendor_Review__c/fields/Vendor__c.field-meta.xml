@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Account Name of the vendor</description>
+    <inlineHelpText>Account Name of the vendor</inlineHelpText>
+    <label>Vendor</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Please choose a vendor account</errorMessage>
+        <filterItems>
+            <field>Account.RecordType.Id</field>
+            <operation>equals</operation>
+            <value>0121G000000bqrQQAQ</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Vendor Reviews</relationshipLabel>
+    <relationshipName>Vendor_Reviews</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

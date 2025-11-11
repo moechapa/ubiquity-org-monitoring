@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Associated_Partner_Id__c</fullName>
+    <description>We can&apos;t directly populate the Associated Partner lookup field on the web to lead forms. This field stores the value, then a flow copies it into the lookup field when the lead is created.</description>
+    <externalId>false</externalId>
+    <label>Associated Partner Id</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

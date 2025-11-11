@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prior_Plan_Doc_Checkbox</fullName>
+    <active>true</active>
+    <description>Prior Plan Doc checkboxes required before Prior Plan Documents</description>
+    <errorConditionFormula>ISPICKVAL( Plan_Type__c, &quot;Conversion Plan&quot;) 
+&amp;&amp;
+ ISCHANGED(Prior_Plan_Documents_Received__c) 
+&amp;&amp;
+ NOT( ISBLANK( Prior_Plan_Documents_Received__c ))  
+&amp;&amp;
+(
+  Signed_Adoption_Agreement__c   = FALSE
+||
+  Participant_Statements_By_Source__c    = FALSE
+)</errorConditionFormula>
+    <errorMessage>Prior Plan Document checkboxes required - Signed Adoption Agreement &amp; Participant Statements by Source</errorMessage>
+</ValidationRule>

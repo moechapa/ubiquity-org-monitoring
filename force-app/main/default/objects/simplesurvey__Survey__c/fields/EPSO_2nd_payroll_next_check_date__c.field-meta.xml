@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EPSO_2nd_payroll_next_check_date__c</fullName>
+    <inlineHelpText>For the 2nd payroll schedule, what is the next pay date - please provide check date</inlineHelpText>
+    <label>2nd payroll next check date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

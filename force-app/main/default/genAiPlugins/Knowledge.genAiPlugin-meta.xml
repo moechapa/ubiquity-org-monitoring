@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canEscalate>false</canEscalate>
+    <description>Brings the knowledge articles with the answers from Knowledge Prompt Template action. If no Answers found always offer to escalate to live agent since there are no articles found.</description>
+    <developerName>Knowledge</developerName>
+    <genAiFunctions>
+        <functionName>Knowledge_Prompt_Template</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Always assume that the questions asked are related to 401(K) Account.</description>
+        <developerName>instruction_alwaysassu0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_alwaysassu0</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If Customer asks to transfer to Live agent then escalate to Live agent.</description>
+        <developerName>instruction_ifcustomer1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifcustomer1</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If Customer is not satisfied with the Answer then always ask if they want to talk to a live agent.</description>
+        <developerName>instruction_ifcustomer2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifcustomer2</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the customer&apos;s question is to vague or general, always ask for more details and clarification to give a better answer.</description>
+        <developerName>instruction_ifthecusto3</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifthecusto3</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the customer is not satisfied with the response or If a user explicitly asks to transfer to a live agent or If there is trouble coming up with the response, run Check Business Hours Agent action. kindly always ask if they would like to speak with a representative for further assistance.</description>
+        <developerName>instruction_ifthecusto4</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifthecusto4</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>if you are unable to help the customer even after asking clarifying questions, always ask the customer if they want to escalate to a Live agent.</description>
+        <developerName>instruction_ifyouareun5</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifyouareun5</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Never provide generic information, advice or troubleshooting steps, unless retrieved from searching articles.</description>
+        <developerName>instruction_neverprovi6</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_neverprovi6</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>This topic is for helping answer customer&apos;s questions by searching through the knowledge articles and providing exact verbiage from those articles. The questions can be about the company and it&apos;s products, policies or business procedures.</description>
+        <developerName>instruction_thistopici7</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_thistopici7</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>When responding always Provide link to the Knowledge articles and wrap it in a html &lt;a/&gt; tag so it will be clickable from the chat window.</description>
+        <developerName>instruction_whenrespon8</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whenrespon8</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Your job is solely to help answer questions about the 401(k) plans or Accounts by searching knowledge articles.</description>
+        <developerName>instruction_yourjobiss9</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_yourjobiss9</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Knowledge</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is only to answer questions about 401(k) plans by gathering necessary information from knowledge articles using the Knowledge Prompt Template action.</scope>
+</GenAiPlugin>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_End_Reason__c</fullName>
+    <description>Reason Client is ending Product</description>
+    <inlineHelpText>Reason Client is ending Product</inlineHelpText>
+    <label>Product End Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cost</fullName>
+                <default>false</default>
+                <label>Cost</label>
+            </value>
+            <value>
+                <fullName>Transitioning from Ubiquity</fullName>
+                <default>false</default>
+                <label>Transitioning from Ubiquity</label>
+            </value>
+            <value>
+                <fullName>No Need</fullName>
+                <default>false</default>
+                <label>No Need</label>
+            </value>
+            <value>
+                <fullName>Ease of Use</fullName>
+                <default>false</default>
+                <label>Ease of Use</label>
+            </value>
+            <value>
+                <fullName>Using New Integration</fullName>
+                <default>false</default>
+                <label>Using New Integration</label>
+            </value>
+            <value>
+                <fullName>Servicing</fullName>
+                <default>false</default>
+                <label>Servicing</label>
+            </value>
+            <value>
+                <fullName>Webform Preferred</fullName>
+                <default>false</default>
+                <label>Webform Preferred</label>
+            </value>
+            <value>
+                <fullName>Doesn’t want to provide full access</fullName>
+                <default>false</default>
+                <label>Doesn’t want to provide full access</label>
+            </value>
+            <value>
+                <fullName>Doesn’t want to provide login credentials</fullName>
+                <default>false</default>
+                <label>Doesn’t want to provide login credentials</label>
+            </value>
+            <value>
+                <fullName>Payroll is not cloud base</fullName>
+                <default>false</default>
+                <label>Payroll is not cloud base</label>
+            </value>
+            <value>
+                <fullName>Payroll doesn’t qualify</fullName>
+                <default>false</default>
+                <label>Payroll doesn’t qualify</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>64.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Comm_on_record</name>
+        <label>Comm on record</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Commissionable_Amount_Editable__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>comm</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Set_Default_Commission</name>
+        <label>Set Default Commission</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>comm</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>defaultComm</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>New_vs_Update_Check</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Subtract_From_Comm</name>
+        <label>Subtract From Comm</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>comm</assignToReference>
+            <operator>Subtract</operator>
+            <value>
+                <elementReference>subtractFromComm</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Promo_Loop</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Subtract_Partner_Fee</name>
+        <label>Subtract Partner Fee</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>comm</assignToReference>
+            <operator>Subtract</operator>
+            <value>
+                <elementReference>$Record.PricebookEntry.Partner_Fee__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Comm_on_record</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Check_if_Promo_Found</name>
+        <label>Check if Promo Found</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Subtract_Partner_Fee</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Promo_on_Opp</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Check_for_promo_comm_adjustment</leftValueReference>
+                <operator>IsEmpty</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Promo_Loop</targetReference>
+            </connector>
+            <label>Promo on Opp</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>New_vs_Update_Check</name>
+        <label>New vs Update Check</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Subtract_Partner_Fee</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Update</defaultConnectorLabel>
+        <rules>
+            <name>New</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>isNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Check_for_promo_comm_adjustment</targetReference>
+            </connector>
+            <label>New</label>
+        </rules>
+    </decisions>
+    <description>Calculates commission for opp product.  Also checks for promos and applies in case product is being created after promo
+
+Added update to assist w launch.  Now runs when comm is blank</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>defaultComm</name>
+        <dataType>Currency</dataType>
+        <expression>BLANKVALUE({!$Record.UnitPrice}, {!$Record.PricebookEntry.UnitPrice}) * {!$Record.Quantity}</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>discountDollarAmount</name>
+        <dataType>Currency</dataType>
+        <expression>{!defaultComm} * ({!Promo_Loop.Discount__c} / 100)</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>isNew</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <formulas>
+        <name>subtractFromComm</name>
+        <dataType>Currency</dataType>
+        <expression>{!discountDollarAmount} - ({!discountDollarAmount} * ({!Promo_Loop.Commission__c} / 100))</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>Opportunity Product | Before Save | Set Commission {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity Product | Before Save | Set Commission</label>
+    <loops>
+        <name>Promo_Loop</name>
+        <label>Promo Loop</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <collectionReference>Check_for_promo_comm_adjustment</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Subtract_From_Comm</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Subtract_Partner_Fee</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Check_for_promo_comm_adjustment</name>
+        <label>Check for promo comm adjustment</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Check_if_Promo_Found</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Opportunity__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.OpportunityId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Product_Family__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Product2.Family</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Opportunity_Promotion__c</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Commission__c</queriedFields>
+        <queriedFields>Discount__c</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Set_Default_Commission</targetReference>
+        </connector>
+        <filterFormula>(ISCHANGED({!$Record.UnitPrice}) || ISNEW() || ISBLANK({!$Record.Commissionable_Amount_Editable__c})) &amp;&amp; 
+NOT({!$Record.Promotion_Applied__c})</filterFormula>
+        <object>OpportunityLineItem</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>comm</name>
+        <dataType>Currency</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+    </variables>
+</Flow>

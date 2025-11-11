@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Safe_Harbor_CF__c</fullName>
+    <description>Safe Harbor descriptions used for client facing communication</description>
+    <inlineHelpText>Safe Harbor descriptions used for client facing communication</inlineHelpText>
+    <label>Safe Harbor CF</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Safe_Harbor__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Match 100% of deferrals up to 4% of compensation</fullName>
+                <default>false</default>
+                <label>Match 100% of deferrals up to 4% of compensation</label>
+            </value>
+            <value>
+                <fullName>Match 100% of deferrals up to 5% of compensation</fullName>
+                <default>false</default>
+                <label>Match 100% of deferrals up to 5% of compensation</label>
+            </value>
+            <value>
+                <fullName>Match 100% of deferrals up to 6% of compensation</fullName>
+                <default>false</default>
+                <label>Match 100% of deferrals up to 6% of compensation</label>
+            </value>
+            <value>
+                <fullName>Match 100% of deferrals on the first 3% of compensation, plus 50% of deferrals on the next 2% of compensation (if the eligible employee defers 5% they will receive a 4% match)</fullName>
+                <default>false</default>
+                <label>Match 100% of deferrals on the first 3% of compensation, plus 50% of deferrals on the next 2% of compensation (if the eligible employee defers 5% they will receive a 4% match)</label>
+            </value>
+            <value>
+                <fullName>Contribute 3% of eligible employee compensation</fullName>
+                <default>false</default>
+                <label>Contribute 3% of eligible employee compensation</label>
+            </value>
+            <value>
+                <fullName>Match of 100% of deferrals on the first 1% of compensation, plus 50% of deferrals on the next 5% of compensation (Ex: if employee defers 6% they will receive a 3.5% match)</fullName>
+                <default>false</default>
+                <label>Match of 100% of deferrals on the first 1% of compensation, plus 50% of deferrals on the next 5% of compensation (Ex: if employee defers 6% they will receive a 3.5% match)</label>
+            </value>
+            <value>
+                <fullName>Match 100% of employee deferrals up to 3.5% of compensation</fullName>
+                <default>false</default>
+                <label>Match 100% of employee deferrals up to 3.5% of compensation</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>5% QACA Match</controllingFieldValue>
+            <controllingFieldValue>5% Enhanced Match</controllingFieldValue>
+            <valueName>Match 100% of deferrals up to 5% of compensation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>6% QACA Match</controllingFieldValue>
+            <controllingFieldValue>6% Enhanced Match</controllingFieldValue>
+            <valueName>Match 100% of deferrals up to 6% of compensation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Match (100% of 1st 3%+50% of next 2%)</controllingFieldValue>
+            <valueName>Match 100% of deferrals on the first 3% of compensation, plus 50% of deferrals on the next 2% of compensation (if the eligible employee defers 5% they will receive a 4% match)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3% QACA non-elective</controllingFieldValue>
+            <controllingFieldValue>3% Non-Elective Contribution (NEC)</controllingFieldValue>
+            <valueName>Contribute 3% of eligible employee compensation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>4% Enhanced Match</controllingFieldValue>
+            <controllingFieldValue>4% QACA Match</controllingFieldValue>
+            <valueName>Match 100% of deferrals up to 4% of compensation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3.5% QACA Match</controllingFieldValue>
+            <valueName>Match 100% of employee deferrals up to 3.5% of compensation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QACA Basic Match (100% up to 1%, 50% up to 6%)</controllingFieldValue>
+            <valueName>Match of 100% of deferrals on the first 1% of compensation, plus 50% of deferrals on the next 5% of compensation (Ex: if employee defers 6% they will receive a 3.5% match)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

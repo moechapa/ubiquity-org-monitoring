@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custodian_Population</fullName>
+    <active>true</active>
+    <description>Insures population of plan Custodian</description>
+    <errorConditionFormula>(ISPICKVAL( Implementation_Status__c, &quot;Completed&quot;)) 
+&amp;&amp; 
+( ISPICKVAL( Custodian__c , &quot;&quot;))</errorConditionFormula>
+    <errorDisplayField>Custodian__c</errorDisplayField>
+    <errorMessage>Please populate the plan Custodian.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NewConvorSinglek__c</fullName>
+    <label>New/Conv or Single(k)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Plan</fullName>
+                <default>false</default>
+                <label>New Plan</label>
+            </value>
+            <value>
+                <fullName>Conversion Plan</fullName>
+                <default>false</default>
+                <label>Conversion Plan</label>
+            </value>
+            <value>
+                <fullName>Single(k)</fullName>
+                <default>false</default>
+                <label>Single(k)</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Express IRA</fullName>
+                <default>false</default>
+                <label>Express IRA</label>
+            </value>
+            <value>
+                <fullName>Single IRA</fullName>
+                <default>false</default>
+                <label>Single IRA</label>
+            </value>
+            <value>
+                <fullName>SIMPLE IRA</fullName>
+                <default>false</default>
+                <label>SIMPLE IRA</label>
+            </value>
+            <value>
+                <fullName>Saver(k)</fullName>
+                <default>false</default>
+                <label>Saver(k)</label>
+            </value>
+            <value>
+                <fullName>R2R Prospect</fullName>
+                <default>false</default>
+                <label>R2R Prospect</label>
+            </value>
+            <value>
+                <fullName>Recordkeeping Only</fullName>
+                <default>false</default>
+                <label>Recordkeeping Only</label>
+            </value>
+            <value>
+                <fullName>Starter(k)</fullName>
+                <default>false</default>
+                <label>Starter(k)</label>
+            </value>
+            <value>
+                <fullName>User Conf Attendee</fullName>
+                <default>false</default>
+                <label>User Conf Attendee</label>
+            </value>
+            <value>
+                <fullName>Fiduciary article recipient</fullName>
+                <default>false</default>
+                <label>Fiduciary article recipient</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

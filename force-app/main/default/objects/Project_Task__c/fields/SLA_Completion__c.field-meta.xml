@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SLA_Completion__c</fullName>
+    <description>Checks time to complete of project task vs SLA for project task deliverable.</description>
+    <formula>IF( ISPICKVAL(Status__c, &quot;Completed&quot;) &amp;&amp; Time_to_Complete_1__c  &lt;=  Project_Deliverable__r.SLA__c,True,False)</formula>
+    <inlineHelpText>Checks time to complete of project task vs SLA for project task deliverable.</inlineHelpText>
+    <label>SLA Completion</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

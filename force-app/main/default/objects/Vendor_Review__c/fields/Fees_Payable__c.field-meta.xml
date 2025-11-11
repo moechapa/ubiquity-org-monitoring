@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fees_Payable__c</fullName>
+    <description>Do we pay fees to this vendor?</description>
+    <inlineHelpText>Do we pay fees to this vendor?</inlineHelpText>
+    <label>Fees Payable</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Vendor_Values</valueSetName>
+    </valueSet>
+</CustomField>

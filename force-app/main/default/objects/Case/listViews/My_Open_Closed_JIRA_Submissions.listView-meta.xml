@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Open_Closed_JIRA_Submissions</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Team_Member__c</columns>
+    <columns>Category__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>PARENT.CASE_NUMBER</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>JIRA_Priority__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Case_Type__c</field>
+        <operation>equals</operation>
+        <value>Parent Case w/ JIRA Child Case,Child Case w/ JIRA Grandchild Case</value>
+    </filters>
+    <label>My Open &amp; Closed JIRA Submissions</label>
+</ListView>

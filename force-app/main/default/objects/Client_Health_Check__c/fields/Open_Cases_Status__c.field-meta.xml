@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_Cases_Status__c</fullName>
+    <description>Are there open Cases on the Plan and what are the Statuses?</description>
+    <inlineHelpText>Are there open Cases on the Plan and what are the Statuses? If Open, update the Case if the Sponsor has new information and provide the SLA.</inlineHelpText>
+    <label>Open Cases Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Open and Expect Quick Resolution</fullName>
+                <default>false</default>
+                <label>Open and Expect Quick Resolution</label>
+            </value>
+            <value>
+                <fullName>Open and Stuck</fullName>
+                <default>false</default>
+                <label>Open and Stuck</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

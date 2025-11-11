@@ -1,0 +1,7 @@
+:host {
+    --brd-orange: #f9513b;
+}
+
+.input-style{
+    --slds-c-input-shadow-focus: 0 0 0 1px var(--brd-orange);
+}

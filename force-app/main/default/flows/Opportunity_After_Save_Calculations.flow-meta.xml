@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>64.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Check_for_Changes</name>
+        <label>Check for Changes</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Needs_Update</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Commissionable_Amount_Editable__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>Run_Calc.comm</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Discount__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>Run_Calc.disc</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Opp</targetReference>
+            </connector>
+            <label>Needs Update</label>
+        </rules>
+    </decisions>
+    <description>Runs calculations that have to be done after save.  Primarily for commission
+
+Added run for when commissionable is blank</description>
+    <environments>Default</environments>
+    <interviewLabel>Opportunity | After Save | Calculations {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity | After Save | Calculations</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Opp</name>
+        <label>Update Opp</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <inputAssignments>
+            <field>Commissionable_Amount_Editable__c</field>
+            <value>
+                <elementReference>Run_Calc.comm</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Discount__c</field>
+            <value>
+                <elementReference>Run_Calc.disc</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Run_Calc</targetReference>
+        </connector>
+        <filterFormula>ISCHANGED({!$Record.Amount}) || ISNEW() || ISBLANK({!$Record.Commissionable_Amount_Editable__c})</filterFormula>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <description>Calculates commission and discount on opp</description>
+        <name>Run_Calc</name>
+        <label>Run Calc</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_for_Changes</targetReference>
+        </connector>
+        <flowName>Opportunity_Autolaunched_Calculate_Commission</flowName>
+        <inputAssignments>
+            <name>oppRecord</name>
+            <value>
+                <elementReference>$Record</elementReference>
+            </value>
+        </inputAssignments>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </subflows>
+</Flow>

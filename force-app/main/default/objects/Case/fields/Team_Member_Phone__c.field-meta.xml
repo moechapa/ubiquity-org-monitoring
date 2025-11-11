@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Member_Phone__c</fullName>
+    <description>Phone Number for Implementations team member to pull into standard reply template</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Phone Number for Implementations team member to pull into standard reply template</inlineHelpText>
+    <label>Team Member Phone</label>
+    <length>20</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Implementation_Steps__c</fullName>
+    <description>Client facing imps steps for email and webpage</description>
+    <inlineHelpText>Client facing imps steps for email and webpage</inlineHelpText>
+    <label>Implementation Steps</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Introductory Tasks</fullName>
+                <default>true</default>
+                <label>Introductory Tasks</label>
+            </value>
+            <value>
+                <fullName>Add Your Employees</fullName>
+                <default>false</default>
+                <label>Add Your Employees</label>
+            </value>
+            <value>
+                <fullName>Funding &amp; Review</fullName>
+                <default>false</default>
+                <label>Funding &amp; Review</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

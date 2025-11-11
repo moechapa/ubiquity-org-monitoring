@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Hold_Reason__c</fullName>
+    <description>Reason Implementation was put on hold</description>
+    <inlineHelpText>Reason Implementation was put on hold</inlineHelpText>
+    <label>Plan Hold Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Business is too busy</fullName>
+                <default>false</default>
+                <label>Business is too busy</label>
+            </value>
+            <value>
+                <fullName>Client out of office/traveling</fullName>
+                <default>false</default>
+                <label>Client out of office/traveling</label>
+            </value>
+            <value>
+                <fullName>COVID-19</fullName>
+                <default>false</default>
+                <label>COVID-19</label>
+            </value>
+            <value>
+                <fullName>Funded a SEP in Current Year</fullName>
+                <default>false</default>
+                <label>Funded a SEP in Current Year</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Prior provider issues/delays</fullName>
+                <default>false</default>
+                <label>Prior provider issues/delays</label>
+            </value>
+            <value>
+                <fullName>Purchased Months in Advanced</fullName>
+                <default>false</default>
+                <label>Purchased Months in Advanced</label>
+            </value>
+            <value>
+                <fullName>Successor Plan Rules</fullName>
+                <default>false</default>
+                <label>Successor Plan Rules</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

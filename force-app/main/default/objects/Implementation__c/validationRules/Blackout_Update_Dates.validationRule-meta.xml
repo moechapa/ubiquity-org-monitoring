@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blackout_Update_Dates</fullName>
+    <active>true</active>
+    <description>If any one of the three blackout update fields has a value, all three need a value.</description>
+    <errorConditionFormula>(
+NOT(ISBLANK(  Blackout_Extension_Reason_Detail__c ))
+||
+NOT(ISBLANK( Prior_Blackout_Dates__c   ))
+||
+NOT(ISBLANK( Blackout_Extension_Date__c ))
+)
+
+&amp;&amp;
+
+(
+ISBLANK(  Blackout_Extension_Reason_Detail__c )
+||
+ISBLANK( Prior_Blackout_Dates__c   )
+||
+ISBLANK( Blackout_Extension_Date__c )
+)</errorConditionFormula>
+    <errorMessage>Confirm Blackout Extension Date, Prior Blackout Dates and Blackout Extension Reason</errorMessage>
+</ValidationRule>

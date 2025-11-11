@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monthly_Admin_Fee__c</fullName>
+    <description>The subscription amount that the client pays monthly for administration. Add-on recurring fees are not included (New Comp, PCRA, etc)</description>
+    <inlineHelpText>The subscription amount that the client pays monthly for administration. Add-on recurring fees are not included (New Comp, PCRA, etc)</inlineHelpText>
+    <label>Monthly Admin Fee</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

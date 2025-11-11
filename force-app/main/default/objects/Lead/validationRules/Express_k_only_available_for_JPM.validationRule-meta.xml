@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Express_k_only_available_for_JPM</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISPICKVAL(Service_Option__c, &quot;Express(k)&quot;) &amp;&amp;
+ NOT(ISPICKVAL( Connected_Partner__c, &quot;JPM&quot;)) &amp;&amp;
+ ISPICKVAL(Status, &quot;Qualified&quot;) &amp;&amp;
+Eligible_for_Contact_Merge__c = FALSE</errorConditionFormula>
+    <errorDisplayField>Service_Option__c</errorDisplayField>
+    <errorMessage>Express(k) is only available for JPM Leads. Please alter the Lead Source Detail to reflect this.</errorMessage>
+</ValidationRule>

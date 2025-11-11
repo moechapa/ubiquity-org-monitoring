@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owners__c</fullName>
+    <description>Please indicate how the owners compensation is reported as this can directly effect the compensation amount used to calculation the contribution</description>
+    <inlineHelpText>Please indicate how the owners compensation is reported as this can directly effect the compensation amount used to calculation the contribution</inlineHelpText>
+    <label>Owners&apos; Compensation Reporting</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>K-1</fullName>
+                <default>false</default>
+                <label>K-1</label>
+            </value>
+            <value>
+                <fullName>Schedule C</fullName>
+                <default>false</default>
+                <label>Schedule C</label>
+            </value>
+            <value>
+                <fullName>W-2</fullName>
+                <default>false</default>
+                <label>W-2</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Doc_Regen_Reason_s__c</fullName>
+    <description>Reason(s) documents were regenerated</description>
+    <inlineHelpText>Reason(s) documents were regenerated</inlineHelpText>
+    <label>Doc Regen Reason(s)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Address change</fullName>
+                <default>false</default>
+                <label>Address change</label>
+            </value>
+            <value>
+                <fullName>Advisor status changes to Green</fullName>
+                <default>false</default>
+                <label>Advisor status changes to Green</label>
+            </value>
+            <value>
+                <fullName>Business Type</fullName>
+                <default>false</default>
+                <label>Business Type</label>
+            </value>
+            <value>
+                <fullName>Company Name change</fullName>
+                <default>false</default>
+                <label>Company Name change</label>
+            </value>
+            <value>
+                <fullName>Effective date changed</fullName>
+                <default>false</default>
+                <label>Effective date changed</label>
+            </value>
+            <value>
+                <fullName>EIN</fullName>
+                <default>false</default>
+                <label>EIN</label>
+            </value>
+            <value>
+                <fullName>Funds list changed</fullName>
+                <default>false</default>
+                <label>Funds list changed</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Plan name change</fullName>
+                <default>false</default>
+                <label>Plan name change</label>
+            </value>
+            <value>
+                <fullName>Plan Provisions Updated</fullName>
+                <default>false</default>
+                <label>Plan Provisions Updated</label>
+            </value>
+            <value>
+                <fullName>Trustee changed</fullName>
+                <default>false</default>
+                <label>Trustee changed</label>
+            </value>
+            <value>
+                <fullName>Trustee email changed</fullName>
+                <default>false</default>
+                <label>Trustee email changed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
