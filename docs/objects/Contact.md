@@ -15,10 +15,10 @@ zoom_app__Zoom_Call_Log__c["zoom_app__Zoom_Call_Log__c"]:::customObjectManaged
 click zoom_app__Zoom_Call_Log__c "/objects/zoom_app__Zoom_Call_Log__c/"
 Vendor_Review__c["Vendor Review"]:::customObject
 click Vendor_Review__c "/objects/Vendor_Review__c/"
-Transition__c["Transition"]:::customObject
-click Transition__c "/objects/Transition__c/"
 User["User"]:::object
 click User "/objects/User/"
+Transition__c["Transition"]:::customObject
+click Transition__c "/objects/Transition__c/"
 Reviews__c["Review"]:::customObject
 click Reviews__c "/objects/Reviews__c/"
 Quality_Assurance_QA__c["Quality Assurance (QA)"]:::customObject

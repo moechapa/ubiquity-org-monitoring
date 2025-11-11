@@ -11,10 +11,10 @@ hide:
 
 ```mermaid
 graph TD
-QA_Question__c["QA Question"]:::customObject
-click QA_Question__c "/objects/QA_Question__c/"
 QA_Question_Info__c["QA Question Info"]:::mainObject
 click QA_Question_Info__c "/objects/QA_Question_Info__c/"
+QA_Question__c["QA Question"]:::customObject
+click QA_Question__c "/objects/QA_Question__c/"
 QA_Design_Version__c["QA Design Version"]:::customObject
 click QA_Design_Version__c "/objects/QA_Design_Version__c/"
 

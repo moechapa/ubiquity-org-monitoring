@@ -4,7 +4,7 @@ Package.xml generated from content of SFDX package force-app (folder force-app)
 
 <div id="jstree-container"></div>
 
-Metadatas: 18379
+Metadatas: 18380
 
 <details><summary>AIApplicationConfig (1)</summary>
 
@@ -16232,7 +16232,7 @@ Metadatas: 18379
 
 </details>
 
-<details><summary>NamedCredential (43)</summary>
+<details><summary>NamedCredential (44)</summary>
 
 
   • <a href="https://myubiquity.my.salesforce.com/lightning/setup/NamedCredentials/home" target="_blank">a5rUo000001fI0QIAU_BI_unbundled_FullCopy_002</a><br/>
@@ -16267,6 +16267,7 @@ Metadatas: 18379
   • <a href="https://myubiquity.my.salesforce.com/lightning/setup/NamedCredentials/home" target="_blank">a5rUo000002pB9xIAE_ColinDelta_009</a><br/>
   • <a href="https://myubiquity.my.salesforce.com/lightning/setup/NamedCredentials/home" target="_blank">a5rUo000002pB9xIAE_ColinPrime_008</a><br/>
   • <a href="https://myubiquity.my.salesforce.com/lightning/setup/NamedCredentials/home" target="_blank">a5rUo000002pB9xIAE_JakeDev2_004</a><br/>
+  • <a href="https://myubiquity.my.salesforce.com/lightning/setup/NamedCredentials/home" target="_blank">a5rUo000002pB9xIAE_JakeDev2_005</a><br/>
   • <a href="https://myubiquity.my.salesforce.com/lightning/setup/NamedCredentials/home" target="_blank">a5rUo000002pB9xIAE_Moe_Agentforce_001</a><br/>
   • <a href="https://myubiquity.my.salesforce.com/lightning/setup/NamedCredentials/home" target="_blank">a5rUo000002pB9xIAE_OmniZone_001</a><br/>
   • <a href="https://myubiquity.my.salesforce.com/lightning/setup/NamedCredentials/home" target="_blank">a5rUo000002pB9xIAE_Transitions_001</a><br/>

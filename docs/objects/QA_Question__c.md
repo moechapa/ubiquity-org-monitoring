@@ -13,10 +13,10 @@ hide:
 graph TD
 Quality_Assurance_QA__c["Quality Assurance (QA)"]:::customObject
 click Quality_Assurance_QA__c "/objects/Quality_Assurance_QA__c/"
-QA_Question__c["QA Question"]:::mainObject
-click QA_Question__c "/objects/QA_Question__c/"
 QA_Question_Info__c["QA Question Info"]:::customObject
 click QA_Question_Info__c "/objects/QA_Question_Info__c/"
+QA_Question__c["QA Question"]:::mainObject
+click QA_Question__c "/objects/QA_Question__c/"
 
 QA_Question__c ==>|Quality_Assurance_QA__c| Quality_Assurance_QA__c
 QA_Question__c ==>|QA_Question_Info__c| QA_Question_Info__c
