@@ -22,15 +22,15 @@ click Complex_Project__c "/objects/Complex_Project__c/"
 Case["Case"]:::object
 click Case "/objects/Case/"
 
-Project_Item__c ==>|Complex_Project__c| Complex_Project__c
 Project_Team__c ==>|Complex_Project__c| Complex_Project__c
+Project_Item__c ==>|Complex_Project__c| Complex_Project__c
 Project_Item_Assignments__c ==>|Item_Assignment__c| Project_Item__c
 Project_Item_Assignments__c ==>|Complex_Project__c| Complex_Project__c
 Project_Item_Assignments__c -->|Assigned_To__c| Project_Team__c
+Complex_Project__c -->|Previous_Complex_Project__c| Complex_Project__c
 Case -->|lntcss__Splited_From__c| Case
 Case -->|Splited_From__c| Case
 Case -->|Complex_Project__c| Complex_Project__c
-Complex_Project__c -->|Previous_Complex_Project__c| Complex_Project__c
 
 classDef object fill:#D6E9FF,stroke:#0070D2,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef customObject fill:#FFF4C2,stroke:#CCAA00,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;

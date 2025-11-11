@@ -20,8 +20,8 @@ click Project_Item_Assignments__c "/objects/Project_Item_Assignments__c/"
 Complex_Project__c["Complex Project"]:::customObject
 click Complex_Project__c "/objects/Complex_Project__c/"
 
-Project_Item__c ==>|Complex_Project__c| Complex_Project__c
 Project_Team__c ==>|Complex_Project__c| Complex_Project__c
+Project_Item__c ==>|Complex_Project__c| Complex_Project__c
 Project_Item_Assignments__c ==>|Item_Assignment__c| Project_Item__c
 Project_Item_Assignments__c ==>|Complex_Project__c| Complex_Project__c
 Project_Item_Assignments__c -->|Assigned_To__c| Project_Team__c

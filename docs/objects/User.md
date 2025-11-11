@@ -15,10 +15,10 @@ dsfs__DocuSign_Status__c["dsfs__DocuSign_Status__c"]:::customObjectManaged
 click dsfs__DocuSign_Status__c "/objects/dsfs__DocuSign_Status__c/"
 Zoom_Users_Info__c["Zoom Users"]:::customObject
 click Zoom_Users_Info__c "/objects/Zoom_Users_Info__c/"
-User["User"]:::mainObject
-click User "/objects/User/"
 Transition__c["Transition"]:::customObject
 click Transition__c "/objects/Transition__c/"
+User["User"]:::mainObject
+click User "/objects/User/"
 Project_Team__c["Project Team"]:::customObject
 click Project_Team__c "/objects/Project_Team__c/"
 Project_Task__c["Project Task"]:::customObject

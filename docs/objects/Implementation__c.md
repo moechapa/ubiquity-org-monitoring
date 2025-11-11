@@ -19,10 +19,10 @@ User["User"]:::object
 click User "/objects/User/"
 Quality_Assurance_QA__c["Quality Assurance (QA)"]:::customObject
 click Quality_Assurance_QA__c "/objects/Quality_Assurance_QA__c/"
-Project_Task__c["Project Task"]:::customObject
-click Project_Task__c "/objects/Project_Task__c/"
 Proposal__c["Proposal"]:::customObject
 click Proposal__c "/objects/Proposal__c/"
+Project_Task__c["Project Task"]:::customObject
+click Project_Task__c "/objects/Project_Task__c/"
 Products_Services__c["Products & Services"]:::customObject
 click Products_Services__c "/objects/Products_Services__c/"
 Plan__c["Plan"]:::customObject

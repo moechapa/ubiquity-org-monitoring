@@ -13,12 +13,12 @@ hide:
 graph TD
 Product_Subscription__c["Product/Subscription"]:::mainObject
 click Product_Subscription__c "/objects/Product_Subscription__c/"
+Product2["Product2"]:::object
+click Product2 "/objects/Product2/"
 Pricebook2["Pricebook2"]:::object
 click Pricebook2 "/objects/Pricebook2/"
 Plan__c["Plan"]:::customObject
 click Plan__c "/objects/Plan__c/"
-Product2["Product2"]:::object
-click Product2 "/objects/Product2/"
 Invoice__c["Invoice"]:::customObject
 click Invoice__c "/objects/Invoice__c/"
 Invoice_Line_Items__c["Invoice Line Item"]:::customObject

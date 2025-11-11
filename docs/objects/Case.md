@@ -37,10 +37,10 @@ Escalation__c["Escalation"]:::customObject
 click Escalation__c "/objects/Escalation__c/"
 Contact["Contact"]:::object
 click Contact "/objects/Contact/"
-Complaint_Form__c["Complaint Form"]:::customObject
-click Complaint_Form__c "/objects/Complaint_Form__c/"
 Complex_Project__c["Complex Project"]:::customObject
 click Complex_Project__c "/objects/Complex_Project__c/"
+Complaint_Form__c["Complaint Form"]:::customObject
+click Complaint_Form__c "/objects/Complaint_Form__c/"
 Case["Case"]:::mainObject
 click Case "/objects/Case/"
 Calculation__c["Calculation"]:::customObject

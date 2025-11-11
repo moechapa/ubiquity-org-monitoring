@@ -11,18 +11,18 @@ hide:
 
 ```mermaid
 graph LR
-dsfs__DocuSign_Status__c["dsfs__DocuSign_Status__c"]:::customObjectManaged
-click dsfs__DocuSign_Status__c "/objects/dsfs__DocuSign_Status__c/"
 dsfs__DocuSign_Recipient_Status__c["dsfs__DocuSign_Recipient_Status__c"]:::customObjectManaged
 click dsfs__DocuSign_Recipient_Status__c "/objects/dsfs__DocuSign_Recipient_Status__c/"
+dsfs__DocuSign_Status__c["dsfs__DocuSign_Status__c"]:::customObjectManaged
+click dsfs__DocuSign_Status__c "/objects/dsfs__DocuSign_Status__c/"
 User["User"]:::object
 click User "/objects/User/"
+Proposal__c["Proposal"]:::customObject
+click Proposal__c "/objects/Proposal__c/"
 Promotions__c["Promotion"]:::customObject
 click Promotions__c "/objects/Promotions__c/"
 Project_Task__c["Project Task"]:::customObject
 click Project_Task__c "/objects/Project_Task__c/"
-Proposal__c["Proposal"]:::customObject
-click Proposal__c "/objects/Proposal__c/"
 Products_Services__c["Products & Services"]:::customObject
 click Products_Services__c "/objects/Products_Services__c/"
 Plan__c["Plan"]:::customObject
@@ -66,13 +66,13 @@ click Account "/objects/Account/"
 n2de__Distribution_engine_details__c["n2de__Distribution_engine_details__c"]:::customObjectManaged
 
 dsfs__DocuSign_Recipient_Status__c -->|Opportunity__c| Opportunity
-Promotions__c -->|Opportunities__c| Opportunity
 Proposal__c -->|Opportunity__c| Opportunity
+Promotions__c -->|Opportunities__c| Opportunity
 Project_Task__c -->|Opportunity__c| Opportunity
 Plan__c -->|Opportunity__c| Opportunity
 Partner_Evaluation__c -->|Opportunity__c| Opportunity
-OpportunitySplit -->|Opportunity__c| Opportunity
 Opportunity_Promotion__c -->|Opportunity__c| Opportunity
+OpportunitySplit -->|Opportunity__c| Opportunity
 Opportunity -->|n2de__Distribution_engine_details__c| n2de__Distribution_engine_details__c
 Opportunity -->|Ubiquity_Employee_Referred__c| Contact
 Opportunity -->|Plan__c| Plan__c
