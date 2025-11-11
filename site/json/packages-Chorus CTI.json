@@ -1,0 +1,1773 @@
+[
+  {
+    "text": " Apex Class (31)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__AffectLayerAdminSettingsController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerAdminSettingsControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerAPIHelper",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerAPIHelperTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerAPIObjects",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerDialerController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerDialerControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerLeadConversionHandler",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerLeadConversionHandlerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerMockHttpGenerator",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerNotesController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerNotesControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerOpportunityHandler",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerOpportunityHandlerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerPostInstallScript",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerPostInstallScriptTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerRESTPermissionService",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerRESTPermissionServiceTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerRESTSearchService",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerTestDataUtility",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerTestDataUtilityTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerUserSettingsController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerUserSettingsControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusContactCountHandler",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusContactCountHandlerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusSyncRequest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusSyncRequestHelper",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusSyncResponse",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusSyncService",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusSyncServiceTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Utility",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Apex Page (9)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__AffectLayerAdminSettings",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerDialer",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerDialerNew",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerDialerTemplate",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerNotes",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerReports",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerSettingsTemplate",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerUserSettings",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__MockLoginWindow",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Apex Trigger (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__ChorusContactCountTrigger",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Canvas Metadata (3)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__AffectLayer_Notes_oauth_c4sCanvas",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayer_R5s_oauth_c4sCanvas",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Chorus_Settings_oauth_c4sCanvas",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Application (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__AffectLayer",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Field (89)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Account (2)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Account.affectlayer__AffectLayer_Notes__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Account.affectlayer__IsCreatedByChorusZI__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Activity (3)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Activity.affectlayer__AffectLayer_Call_Id__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Activity.affectlayer__Chorus_Call_Id__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Activity.affectlayer__ChorusEngagement__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "affectlayer__AffectLayer_Admin_Setting__c (8)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "affectlayer__AffectLayer_Admin_Setting__c.affectlayer__AffectLayer_Is_Default__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayer_Admin_Setting__c.affectlayer__API_Name__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayer_Admin_Setting__c.affectlayer__Label__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayer_Admin_Setting__c.affectlayer__Self_Rating_Duration_min__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayer_Admin_Setting__c.affectlayer__Show_Call_Focus__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayer_Admin_Setting__c.affectlayer__Show_Priority__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayer_Admin_Setting__c.affectlayer__Show_Spoke_To__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayer_Admin_Setting__c.affectlayer__Show_Type__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "affectlayer__AffectLayer_User_Setting__c (5)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "affectlayer__AffectLayer_User_Setting__c.affectlayer__Label__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayer_User_Setting__c.affectlayer__Phone_Number__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayer_User_Setting__c.affectlayer__Selected__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayer_User_Setting__c.affectlayer__Type__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayer_User_Setting__c.affectlayer__User__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "affectlayer__AffectLayerConnectionSettings__c (4)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "affectlayer__AffectLayerConnectionSettings__c.affectlayer__API_Key__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayerConnectionSettings__c.affectlayer__Endpoint__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayerConnectionSettings__c.affectlayer__Password__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayerConnectionSettings__c.affectlayer__Username__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "affectlayer__AffectLayerSettings__c (5)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "affectlayer__AffectLayerSettings__c.affectlayer__API_Key__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayerSettings__c.affectlayer__Endpoint__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayerSettings__c.affectlayer__Password__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayerSettings__c.affectlayer__Send_Data_On_Trigger__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__AffectLayerSettings__c.affectlayer__Username__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "affectlayer__ChorusAiSetting__mdt (1)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "affectlayer__ChorusAiSetting__mdt.affectlayer__Key__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "affectlayer__ChorusEngagementContact__c (6)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "affectlayer__ChorusEngagementContact__c.affectlayer__Contact__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__ChorusEngagementContact__c.affectlayer__ContactEmail__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__ChorusEngagementContact__c.affectlayer__Engagement__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__ChorusEngagementContact__c.affectlayer__EngagementContactId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__ChorusEngagementContact__c.affectlayer__Phone__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__ChorusEngagementContact__c.affectlayer__Title__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "affectlayer__ChorusEngagementUser__c (5)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "affectlayer__ChorusEngagementUser__c.affectlayer__Engagement__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__ChorusEngagementUser__c.affectlayer__EngagementUserId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__ChorusEngagementUser__c.affectlayer__User__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__ChorusEngagementUser__c.affectlayer__UserEmail__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__ChorusEngagementUser__c.affectlayer__UserName__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "affectlayer__Engagement__c (29)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__Account__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__ChorusId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__Compliance__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__ContactCount__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__Date__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__DateTime__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__DemoTime__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__Disposition__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__Duration__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__EngagementId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__EngagingQuestions__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__FillerWords__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__From__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__IsCadence__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__IsReply__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__Language__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__Lead__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__MaxMonologue__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__Opportunity__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__Patience__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__RepTalkRatio__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__SlideTime__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__Stage__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__StartTime__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__Subject__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__TalkSpeed__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__Transcript__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__Type__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Engagement__c.affectlayer__URL__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "affectlayer__Moment__c (13)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "affectlayer__Moment__c.affectlayer__Engagement__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Moment__c.affectlayer__Length__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Moment__c.affectlayer__MomentId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Moment__c.affectlayer__SpeakerContact__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Moment__c.affectlayer__SpeakerUser__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Moment__c.affectlayer__Start__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Moment__c.affectlayer__Title__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Moment__c.affectlayer__TrackerCategory__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Moment__c.affectlayer__TrackerDescription__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Moment__c.affectlayer__TrackerDisposition__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Moment__c.affectlayer__TrackerID__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Moment__c.affectlayer__Transcript__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "affectlayer__Moment__c.affectlayer__URL__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Contact (2)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Contact.affectlayer__AffectLayer_Notes__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Contact.affectlayer__IsCreatedByChorusZI__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Lead (1)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Lead.affectlayer__AffectLayer_Notes__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Opportunity (1)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Opportunity.affectlayer__AffectLayer_Notes__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "User (4)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "User.affectlayer__AffectLayer_Callback_Number__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "User.affectlayer__AffectLayer_Callback_Number_Label__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "User.affectlayer__AffectLayer_Caller_Id__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "User.affectlayer__AffectLayer_Caller_Id_Label__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": " Custom Label (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__AffectLayerEnvironment",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerEnvironment",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Object (8)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__AffectLayer__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayer_Admin_Setting__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayer_User_Setting__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerSettings__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusEngagementContact__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusEngagementUser__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Engagement__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Moment__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Object Translation (8)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__AffectLayer__c-affectlayer__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayer_Admin_Setting__c-affectlayer__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayer_User_Setting__c-affectlayer__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayerSettings__c-affectlayer__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusEngagementContact__c-affectlayer__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusEngagementUser__c-affectlayer__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Engagement__c-affectlayer__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Moment__c-affectlayer__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Tab (5)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__AffectLayer_Reports",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusEngagementContact__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusEngagementUser__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Engagement__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Moment__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Installed Package (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Layout (9)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__AffectLayer__c-AffectLayer Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayer_Admin_Setting__c-AffectLayer Admin Setting Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayer_User_Setting__c-AffectLayer User Setting Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayer_User_Setting__c-User Setting Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusAiSetting__mdt-ChorusAiSetting Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusEngagementContact__c-Chorus Engagement Contact Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusEngagementUser__c-Chorus Engagement User Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Engagement__c-Engagement Layout v3",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Moment__c-Moment Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " List View (8)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__ChorusEngagementContact__c.affectlayer__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusEngagementContact__c.affectlayer__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusEngagementUser__c.affectlayer__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusEngagementUser__c.affectlayer__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Engagement__c.affectlayer__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Engagement__c.affectlayer__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Moment__c.affectlayer__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Moment__c.affectlayer__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Permission Set (3)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__AffectLayer_Admin",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayer_Sales_Manager",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayer_Sales_Rep",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Remote Site Setting (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__AffectLayerProduction",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusProduction",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Report (12)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__ChorusReports/",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusReports/affectlayer__Activity_per_rep_Time_spent_in_meeting_PWN",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusReports/affectlayer__Closing_opps_with_or_wo_leaders_aNr",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusReports/affectlayer__Competitive_oppos_mentions_over_time_RVi",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusReports/affectlayer__Copy_of_Late_stage_opp_price_not_mention_vwP",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusReports/affectlayer__Early_stage_opps_where_pricing_was_menti_djP",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusReports/affectlayer__New_Opportunity_With_Engagement_Report_h4X",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusReports/affectlayer__New_Opportunity_With_Moment_Report_GXG",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusReports/affectlayer__of_opp_not_have_multi_threading",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusReports/affectlayer__of_opp_that_have_multi_threading",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusReports/affectlayer__Percentage_of_opps_that_have_next_steps_R40",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusReports/affectlayer__Win_rate_or_Dollar_amount_of_won_Opps_ssz",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Report Type (3)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__Account_Opportunites_with_enggaement",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Opportunity_With_Engagement",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Opportunity_With_Moment",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Sharing Rules (4)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__AffectLayer__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayer_Admin_Setting__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayer_User_Setting__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Engagement__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Static Resource (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__AffectLayerResources",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusDialer",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Topics For Objects (7)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "affectlayer__AffectLayer__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayer_Admin_Setting__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__AffectLayer_User_Setting__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusEngagementContact__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__ChorusEngagementUser__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Engagement__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "affectlayer__Moment__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  }
+]

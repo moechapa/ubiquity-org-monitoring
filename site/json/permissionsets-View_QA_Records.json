@@ -1,0 +1,3815 @@
+[
+  {
+    "text": "Custom Permissions (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Self_QA_Viewer",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: Self_QA_Viewer",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Field Permissions (114)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "QA_Question__c (6)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "QA_Question__c.Help_Text__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: QA_Question__c.Help_Text__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "QA_Question__c.Order__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: QA_Question__c.Order__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "QA_Question__c.Question_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: QA_Question__c.Question_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "QA_Question__c.Result__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: QA_Question__c.Result__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "QA_Question__c.Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: QA_Question__c.Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "QA_Question__c.Type__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: QA_Question__c.Type__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Quality_Assurance_QA__c (108)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Quality_Assurance_QA__c.Activity__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Activity__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Additional_Assistance_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Additional_Assistance_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Additional_Assistance__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Additional_Assistance__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Alternative_End_Stages_Used_Accurately__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Alternative_End_Stages_Used_Accurately__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Alternative_End_Stages_Used_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Alternative_End_Stages_Used_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Asked_for_Review__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Asked_for_Review__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Background_Noise_Present__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Background_Noise_Present__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Box_folders_subfolders_created_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Box_folders_subfolders_created_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Box_folders_subfolders_created__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Box_folders_subfolders_created__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.CE_Case_QA_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.CE_Case_QA_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Calculated_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Calculated_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Call_Checklist_Completed__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Call_Checklist_Completed__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Call_QA_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Call_QA_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Call_Task__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Call_Task__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Case_Owner_Role__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Case_Owner_Role__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Case__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Case__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Client_Greeting_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Client_Greeting_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Client_Greeting__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Client_Greeting__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Closure_SLA__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Closure_SLA__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Comments__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Comments__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Completed_Each_Owned_Step_w_in_SLA_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Completed_Each_Owned_Step_w_in_SLA_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Completed_Each_Owned_Step_within_SLA__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Completed_Each_Owned_Step_within_SLA__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Completed_Within_SLA__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Completed_Within_SLA__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Comprehensive_Notes_Included_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Comprehensive_Notes_Included_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Comprehensive_Notes_Included__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Comprehensive_Notes_Included__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Contact_Handling_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Contact_Handling_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Contact_Handling__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Contact_Handling__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Controlled_Affiliated_Groups_Addressed__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Controlled_Affiliated_Groups_Addressed__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Controlled_Affiliated_Groups_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Controlled_Affiliated_Groups_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Conversion_5500_Info_Completed_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Conversion_5500_Info_Completed_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Conversion_5500_Info_Completed__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Conversion_5500_Info_Completed__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Conversion_Assets_Completed_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Conversion_Assets_Completed_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Conversion_Assets_Completed__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Conversion_Assets_Completed__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Correct_Answer_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Correct_Answer_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Correct_Answer__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Correct_Answer__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Customer_Authentication__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Customer_Authentication__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Customer_Mistreat_Auto_Fail__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Customer_Mistreat_Auto_Fail__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Date_Fields_Complete_Match_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Date_Fields_Complete_Match_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Date_Fields_Complete_Match_w_Paradigm__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Date_Fields_Complete_Match_w_Paradigm__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Date_Ticket_Resolved__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Date_Ticket_Resolved__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Date__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Department_Dyn__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Department_Dyn__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Department__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Department__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Docs_Complete_in_Box_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Docs_Complete_in_Box_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Docs_Complete_in_Box__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Docs_Complete_in_Box__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Docs_Complete_in_Paradigm_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Docs_Complete_in_Paradigm_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Docs_Complete_in_Paradigm__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Docs_Complete_in_Paradigm__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Documents_Received_and_Completed_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Documents_Received_and_Completed_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Documents_Received_and_Completed__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Documents_Received_and_Completed__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Email_Template_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Email_Template_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Email_Templates__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Email_Templates__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.First_Touch_SLA__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.First_Touch_SLA__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Follow_Up_Provided_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Follow_Up_Provided_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Follow_Up_Provided__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Follow_Up_Provided__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Grammar_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Grammar_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Grammar__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Grammar__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Imp_QA_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Imp_QA_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Implementation_Call_Notes__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Implementation_Call_Notes__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Implementation_Notes_Added__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Implementation_Notes_Added__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Implementation_Role__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Implementation_Role__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Implementation__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Implementation__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Issue_Resolved__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Issue_Resolved__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Jargon_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Jargon_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Jargon__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Jargon__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Knowledge__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Knowledge__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Language_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Language_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Language__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Language__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Operations_QA_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Operations_QA_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Outside_Item__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Outside_Item__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Outstanding_Items__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Outstanding_Items__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Ownership__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Ownership__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Phone__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Phone__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Plan_Provisions__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Plan_Provisions__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Project_Task__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Project_Task__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Provided_Accurate_Guidance_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Provided_Accurate_Guidance_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Provided_Accurate_Guidance__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Provided_Accurate_Guidance__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.QA_Completion__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.QA_Completion__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.QA_Design_Version__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.QA_Design_Version__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.QA_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.QA_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.QA_Type_Dyn__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.QA_Type_Dyn__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.QA_Type__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.QA_Type__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Questioning_Skills_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Questioning_Skills_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Questioning_Skills__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Questioning_Skills__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Refrained_From_Internal_Team_References__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Refrained_From_Internal_Team_References__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Refrained_From_Using_Jargon__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Refrained_From_Using_Jargon__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Regularly_Followed_up_with_client_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Regularly_Followed_up_with_client_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Regularly_Followed_up_with_client__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Regularly_Followed_up_with_client__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Related_Records_Linked_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Related_Records_Linked_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Related_Records_Linked__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Related_Records_Linked__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Request_Completed_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Request_Completed_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Request_Completed__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Request_Completed__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Request_Reason__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Request_Reason__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Reviewer_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Reviewer_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.SLA_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.SLA_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.SOP_Followed__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.SOP_Followed__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.SOP_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.SOP_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.SOPs__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.SOPs__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Scheduling_Next_Stage_Calls__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Scheduling_Next_Stage_Calls__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Successful_Send_Off_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Successful_Send_Off_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Successful_Send_Off__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Successful_Send_Off__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Successful_Transfer_to_CST_Payroll_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Successful_Transfer_to_CST_Payroll_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Successful_Transfer_to_CST_Payroll__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Successful_Transfer_to_CST_Payroll__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Team__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Team__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Timely_Resolution__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Timely_Resolution__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Ubiquity_Employee__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Ubiquity_Employee__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Value_Added_Score__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Value_Added_Score__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.Value_Added__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.Value_Added__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Quality_Assurance_QA__c.X1_Courtesy_Concern__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Quality_Assurance_QA__c.X1_Courtesy_Concern__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Object Permissions (5)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "QA_Design_Version__c",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: QA_Design_Version__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "QA_Design__c",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: QA_Design__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "QA_Question_Info__c",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: QA_Question_Info__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "QA_Question__c",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: QA_Question__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Quality_Assurance_QA__c",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: Quality_Assurance_QA__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,4171 @@
+[
+  {
+    "text": "Class Accesses (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "ProposalTriggerHandler",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Apex Class: ProposalTriggerHandler",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "SimplyCalloutBatch",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Apex Class: SimplyCalloutBatch",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Custom Setting Accesses (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "SimplyCalloutBatchControl__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: SimplyCalloutBatchControl__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Simply_Version__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: Simply_Version__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Field Permissions (17)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "MessagingSession (12)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "MessagingSession.CaseId",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: MessagingSession.CaseId",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "MessagingSession.Company__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: MessagingSession.Company__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "MessagingSession.Department__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: MessagingSession.Department__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "MessagingSession.Email__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: MessagingSession.Email__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "MessagingSession.EndUserLanguage",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: MessagingSession.EndUserLanguage",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "MessagingSession.First_Name__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: MessagingSession.First_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "MessagingSession.Last_Name__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: MessagingSession.Last_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "MessagingSession.LeadId",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: MessagingSession.LeadId",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "MessagingSession.Omni_Role__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: MessagingSession.Omni_Role__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "MessagingSession.OpportunityId",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: MessagingSession.OpportunityId",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "MessagingSession.Plan__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: MessagingSession.Plan__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "MessagingSession.Subject__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: MessagingSession.Subject__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "ProposalsBatch__c (5)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "ProposalsBatch__c.Callout_Failed__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: ProposalsBatch__c.Callout_Failed__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "ProposalsBatch__c.Failed_Message__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: ProposalsBatch__c.Failed_Message__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "ProposalsBatch__c.Failed_Reason__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: ProposalsBatch__c.Failed_Reason__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "ProposalsBatch__c.Proposal__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: ProposalsBatch__c.Proposal__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "ProposalsBatch__c.proposalId__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: ProposalsBatch__c.proposalId__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Object Permissions (14)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Account",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: Account",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Case",
+        "icon": "fa-solid fa-square-pen icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: Case",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Contact",
+        "icon": "fa-solid fa-square-pen icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: Contact",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Contract",
+        "icon": "fa-solid fa-square-pen icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: Contract",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Document",
+        "icon": "fa-solid fa-square-pen icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: Document",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Implementation__c",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: Implementation__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "MessagingEndUser",
+        "icon": "fa-solid fa-magnifying-glass icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: MessagingEndUser",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "MessagingSession",
+        "icon": "fa-solid fa-web-awesome icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: MessagingSession",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Opportunity",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: Opportunity",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Project_Deliverables__c",
+        "icon": "fa-solid fa-web-awesome icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: Project_Deliverables__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Project_Task__c",
+        "icon": "fa-solid fa-web-awesome icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: Project_Task__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ProposalsBatch__c",
+        "icon": "fa-solid fa-square-pen icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: ProposalsBatch__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Solution",
+        "icon": "fa-solid fa-square-pen icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: Solution",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Work_Breakdown_Structure__c",
+        "icon": "fa-solid fa-web-awesome icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: Work_Breakdown_Structure__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Record Type Visibilities (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Project_Task__c.Implementation_Task",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Record Type: Project_Task__c.Implementation_Task",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Visible: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Work_Breakdown_Structure__c.Default_WBS",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Record Type: Work_Breakdown_Structure__c.Default_WBS",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Visible: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tab Settings (3)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Project_Task__c",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Tab: Project_Task__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Visibility: Visible",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Work_Breakdown_Structure__c",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Tab: Work_Breakdown_Structure__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Visibility: Visible",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "standard-MessagingSession",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Tab: standard-MessagingSession",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Visibility: Visible",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "User Permissions (107)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "AICreateInsightObjects",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: AICreateInsightObjects",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "AIViewInsightObjects",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: AIViewInsightObjects",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ActivateContract",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ActivateContract",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "AllowViewEditConvertedLeads",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: AllowViewEditConvertedLeads",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ApiEnabled",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ApiEnabled",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "AssignPermissionSets",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: AssignPermissionSets",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "AuthorApex",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: AuthorApex",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "CanApproveFeedPost",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: CanApproveFeedPost",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "CanEditPrompts",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: CanEditPrompts",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "CanInsertFeedSystemFields",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: CanInsertFeedSystemFields",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "CanManageMaps",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: CanManageMaps",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "CanVerifyComment",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: CanVerifyComment",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ContentAdministrator",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ContentAdministrator",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ContentHubUser",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ContentHubUser",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "CreateCustomizeDashboards",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: CreateCustomizeDashboards",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "CreateCustomizeReports",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: CreateCustomizeReports",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "CreateDashboardFolders",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: CreateDashboardFolders",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "CreateReportFolders",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: CreateReportFolders",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "CreateWorkspaces",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: CreateWorkspaces",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "CustomizeApplication",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: CustomizeApplication",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "DelegatedTwoFactor",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: DelegatedTwoFactor",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "DeleteActivatedContract",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: DeleteActivatedContract",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "DeleteEventMonitoringData",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: DeleteEventMonitoringData",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "DeleteTopics",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: DeleteTopics",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "EditBrandTemplates",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: EditBrandTemplates",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "EditHtmlTemplates",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: EditHtmlTemplates",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "EditKnowledge",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: EditKnowledge",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "EditMyDashboards",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: EditMyDashboards",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "EditMyReports",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: EditMyReports",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "EditOppLineItemUnitPrice",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: EditOppLineItemUnitPrice",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "EditPublicDocuments",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: EditPublicDocuments",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "EditPublicTemplates",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: EditPublicTemplates",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "EditReadonlyFields",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: EditReadonlyFields",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "EditTask",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: EditTask",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "EmailSingle",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: EmailSingle",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "FeedPinning",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: FeedPinning",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "FreezeUsers",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: FreezeUsers",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "GovernNetworks",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: GovernNetworks",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageAuthProviders",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageAuthProviders",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageBusinessHourHolidays",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageBusinessHourHolidays",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageCMS",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageCMS",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageCallCenters",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageCallCenters",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageCases",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageCases",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageCategories",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageCategories",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageCertificates",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageCertificates",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageContentPermissions",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageContentPermissions",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageContentTypes",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageContentTypes",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageCssUsers",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageCssUsers",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageCustomPermissions",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageCustomPermissions",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageCustomReportTypes",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageCustomReportTypes",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageDashbdsInPubFolders",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageDashbdsInPubFolders",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageDataCategories",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageDataCategories",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageEmailClientConfig",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageEmailClientConfig",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageEntitlements",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageEntitlements",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageExchangeConfig",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageExchangeConfig",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageHealthCheck",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageHealthCheck",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageInteraction",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageInteraction",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageInternalUsers",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageInternalUsers",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageIpAddresses",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageIpAddresses",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageKnowledge",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageKnowledge",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageKnowledgeImportExport",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageKnowledgeImportExport",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageLoginAccessPolicies",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageLoginAccessPolicies",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageMobile",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageMobile",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageNetworks",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageNetworks",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManagePasswordPolicies",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManagePasswordPolicies",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageProfilesPermissionsets",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageProfilesPermissionsets",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManagePvtRptsAndDashbds",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManagePvtRptsAndDashbds",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageRemoteAccess",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageRemoteAccess",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageReportsInPubFolders",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageReportsInPubFolders",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageRoles",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageRoles",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageSearchPromotionRules",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageSearchPromotionRules",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageSelfService",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageSelfService",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageSessionPermissionSets",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageSessionPermissionSets",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageSharing",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageSharing",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageSolutions",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageSolutions",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageSubscriptions",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageSubscriptions",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageTerritories",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageTerritories",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageTranslation",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageTranslation",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ManageUsers",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ManageUsers",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "MergeTopics",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: MergeTopics",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ModifyMetadata",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ModifyMetadata",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "MonitorLoginHistory",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: MonitorLoginHistory",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "OverrideForecasts",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: OverrideForecasts",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "PrivacyDataAccess",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: PrivacyDataAccess",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ResetPasswords",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ResetPasswords",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "RunReports",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: RunReports",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "SubmitMacrosAllowed",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: SubmitMacrosAllowed",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "SubscribeDashboardRolesGrps",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: SubscribeDashboardRolesGrps",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "SubscribeDashboardToOtherUsers",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: SubscribeDashboardToOtherUsers",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "SubscribeReportRolesGrps",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: SubscribeReportRolesGrps",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "SubscribeReportToOtherUsers",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: SubscribeReportToOtherUsers",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "SubscribeToLightningDashboards",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: SubscribeToLightningDashboards",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "SubscribeToLightningReports",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: SubscribeToLightningReports",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "TransactionalEmailSend",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: TransactionalEmailSend",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "TransferAnyCase",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: TransferAnyCase",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "UpdateWithInactiveOwner",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: UpdateWithInactiveOwner",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ViewAllUsers",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ViewAllUsers",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ViewArchivedArticles",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ViewArchivedArticles",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ViewDataAssessment",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ViewDataAssessment",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ViewDataCategories",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ViewDataCategories",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ViewDraftArticles",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ViewDraftArticles",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ViewHealthCheck",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ViewHealthCheck",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ViewPublicDashboards",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ViewPublicDashboards",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ViewPublicReports",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ViewPublicReports",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ViewRoles",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ViewRoles",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ViewSetup",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ViewSetup",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "WaveManagePrivateAssetsUser",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: WaveManagePrivateAssetsUser",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

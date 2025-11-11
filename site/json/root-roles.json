@@ -1,0 +1,963 @@
+[
+  {
+    "text": "CEO (1)",
+    "icon": "fa-solid fa-users icon-blue",
+    "children": [
+      {
+        "text": "Salesforce Administrator (4)",
+        "icon": "fa-solid fa-users icon-blue",
+        "children": [
+          {
+            "text": "COO (9)",
+            "icon": "fa-solid fa-users icon-blue",
+            "children": [
+              {
+                "text": "Director - PRKS (1)",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [
+                  {
+                    "text": "Product Success",
+                    "icon": "fa-solid fa-users icon-blue",
+                    "children": [],
+                    "roleData": {
+                      "apiName": "Product_Success",
+                      "caseAccessLevel": "Edit",
+                      "contactAccessLevel": "Edit",
+                      "description": "Product Success",
+                      "mayForecastManagerShare": "",
+                      "name": "Product Success",
+                      "opportunityAccessLevel": "Edit",
+                      "parentRole": "Director_PRKS"
+                    }
+                  }
+                ],
+                "roleData": {
+                  "apiName": "Director_PRKS",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "description": "Director - PRKS",
+                  "mayForecastManagerShare": "",
+                  "name": "Director - PRKS",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "COO"
+                }
+              },
+              {
+                "text": "Director of Compliance (2)",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [
+                  {
+                    "text": "Client Onboarding Manager (1)",
+                    "icon": "fa-solid fa-users icon-blue",
+                    "children": [
+                      {
+                        "text": "Client Onboarding",
+                        "icon": "fa-solid fa-users icon-blue",
+                        "children": [],
+                        "roleData": {
+                          "apiName": "Implementations",
+                          "caseAccessLevel": "Edit",
+                          "contactAccessLevel": "Edit",
+                          "description": "Implementations",
+                          "mayForecastManagerShare": "",
+                          "name": "Client Onboarding",
+                          "opportunityAccessLevel": "Edit",
+                          "parentRole": "Implementation_Manager"
+                        }
+                      }
+                    ],
+                    "roleData": {
+                      "apiName": "Implementation_Manager",
+                      "caseAccessLevel": "Edit",
+                      "contactAccessLevel": "Edit",
+                      "description": "Implementation Manager",
+                      "mayForecastManagerShare": "",
+                      "name": "Client Onboarding Manager",
+                      "opportunityAccessLevel": "Edit",
+                      "parentRole": "Director_of_Compliance"
+                    }
+                  },
+                  {
+                    "text": "Compliance",
+                    "icon": "fa-solid fa-users icon-blue",
+                    "children": [],
+                    "roleData": {
+                      "apiName": "Compliance",
+                      "caseAccessLevel": "Edit",
+                      "contactAccessLevel": "Edit",
+                      "description": "Compliance",
+                      "mayForecastManagerShare": "",
+                      "name": "Compliance",
+                      "opportunityAccessLevel": "Edit",
+                      "parentRole": "Director_of_Compliance"
+                    }
+                  }
+                ],
+                "roleData": {
+                  "apiName": "Director_of_Compliance",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "mayForecastManagerShare": "",
+                  "name": "Director of Compliance",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "COO"
+                }
+              },
+              {
+                "text": "IT Department",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [],
+                "roleData": {
+                  "apiName": "IT_Department",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "mayForecastManagerShare": "",
+                  "name": "IT Department",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "COO"
+                }
+              },
+              {
+                "text": "Learning & Development",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [],
+                "roleData": {
+                  "apiName": "Learning_Development",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "mayForecastManagerShare": "",
+                  "name": "Learning & Development",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "COO"
+                }
+              },
+              {
+                "text": "People & Culture",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [],
+                "roleData": {
+                  "apiName": "People_Culture",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "mayForecastManagerShare": "",
+                  "name": "People & Culture",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "COO"
+                }
+              },
+              {
+                "text": "Product Innovation",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [],
+                "roleData": {
+                  "apiName": "Product_Innovation",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "description": "Product Innovation",
+                  "mayForecastManagerShare": "",
+                  "name": "Product Innovation",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "COO"
+                }
+              },
+              {
+                "text": "SVP of Client Success (1)",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [
+                  {
+                    "text": "VP Of Client Experience (3)",
+                    "icon": "fa-solid fa-users icon-blue",
+                    "children": [
+                      {
+                        "text": "Call Center Director (1)",
+                        "icon": "fa-solid fa-users icon-blue",
+                        "children": [
+                          {
+                            "text": "Call Center Lead (1)",
+                            "icon": "fa-solid fa-users icon-blue",
+                            "children": [
+                              {
+                                "text": "Call Center",
+                                "icon": "fa-solid fa-users icon-blue",
+                                "children": [],
+                                "roleData": {
+                                  "apiName": "Call_Center",
+                                  "caseAccessLevel": "Edit",
+                                  "contactAccessLevel": "Edit",
+                                  "description": "Call Center",
+                                  "mayForecastManagerShare": "",
+                                  "name": "Call Center",
+                                  "opportunityAccessLevel": "Read",
+                                  "parentRole": "Call_Center_Lead"
+                                }
+                              }
+                            ],
+                            "roleData": {
+                              "apiName": "Call_Center_Lead",
+                              "caseAccessLevel": "Edit",
+                              "contactAccessLevel": "Edit",
+                              "description": "Call Center Lead",
+                              "mayForecastManagerShare": "",
+                              "name": "Call Center Lead",
+                              "opportunityAccessLevel": "Read",
+                              "parentRole": "Call_Center_Director"
+                            }
+                          }
+                        ],
+                        "roleData": {
+                          "apiName": "Call_Center_Director",
+                          "caseAccessLevel": "Edit",
+                          "contactAccessLevel": "Edit",
+                          "description": "Call Center Director",
+                          "mayForecastManagerShare": "",
+                          "name": "Call Center Director",
+                          "opportunityAccessLevel": "Edit",
+                          "parentRole": "VP_Of_Client_Experience"
+                        }
+                      },
+                      {
+                        "text": "Director of Client Experience (5)",
+                        "icon": "fa-solid fa-users icon-blue",
+                        "children": [
+                          {
+                            "text": "Platinum Service Manager",
+                            "icon": "fa-solid fa-users icon-blue",
+                            "children": [],
+                            "roleData": {
+                              "apiName": "Platinum_Service_Manager",
+                              "caseAccessLevel": "Edit",
+                              "contactAccessLevel": "Edit",
+                              "description": "Platinum Service Manager",
+                              "mayForecastManagerShare": "",
+                              "name": "Platinum Service Manager",
+                              "opportunityAccessLevel": "Edit",
+                              "parentRole": "Director_of_Client_Experience"
+                            }
+                          },
+                          {
+                            "text": "Service Manager (3)",
+                            "icon": "fa-solid fa-users icon-blue",
+                            "children": [
+                              {
+                                "text": "Platinum Service User",
+                                "icon": "fa-solid fa-users icon-blue",
+                                "children": [],
+                                "roleData": {
+                                  "apiName": "Platinum_Service_User",
+                                  "caseAccessLevel": "Edit",
+                                  "contactAccessLevel": "Edit",
+                                  "description": "Platinum Service User",
+                                  "mayForecastManagerShare": "",
+                                  "name": "Platinum Service User",
+                                  "opportunityAccessLevel": "Edit",
+                                  "parentRole": "Service_Manager"
+                                }
+                              },
+                              {
+                                "text": "Saver User",
+                                "icon": "fa-solid fa-users icon-blue",
+                                "children": [],
+                                "roleData": {
+                                  "apiName": "Saver_User",
+                                  "caseAccessLevel": "Edit",
+                                  "contactAccessLevel": "Edit",
+                                  "description": "Saver User",
+                                  "mayForecastManagerShare": "",
+                                  "name": "Saver User",
+                                  "opportunityAccessLevel": "Edit",
+                                  "parentRole": "Service_Manager"
+                                }
+                              },
+                              {
+                                "text": "Service User",
+                                "icon": "fa-solid fa-users icon-blue",
+                                "children": [],
+                                "roleData": {
+                                  "apiName": "Service_User",
+                                  "caseAccessLevel": "Edit",
+                                  "contactAccessLevel": "Edit",
+                                  "description": "Service User",
+                                  "mayForecastManagerShare": "",
+                                  "name": "Service User",
+                                  "opportunityAccessLevel": "Edit",
+                                  "parentRole": "Service_Manager"
+                                }
+                              }
+                            ],
+                            "roleData": {
+                              "apiName": "Service_Manager",
+                              "caseAccessLevel": "Edit",
+                              "contactAccessLevel": "Edit",
+                              "description": "Service Manager",
+                              "mayForecastManagerShare": "",
+                              "name": "Service Manager",
+                              "opportunityAccessLevel": "Edit",
+                              "parentRole": "Director_of_Client_Experience"
+                            }
+                          },
+                          {
+                            "text": "Service Team 1 Manager (1)",
+                            "icon": "fa-solid fa-users icon-blue",
+                            "children": [
+                              {
+                                "text": "Service Team 1 User",
+                                "icon": "fa-solid fa-users icon-blue",
+                                "children": [],
+                                "roleData": {
+                                  "apiName": "Service_Team_1_User",
+                                  "caseAccessLevel": "Edit",
+                                  "contactAccessLevel": "Edit",
+                                  "description": "Service User",
+                                  "mayForecastManagerShare": "",
+                                  "name": "Service Team 1 User",
+                                  "opportunityAccessLevel": "Edit",
+                                  "parentRole": "Service_Team_1_Manager"
+                                }
+                              }
+                            ],
+                            "roleData": {
+                              "apiName": "Service_Team_1_Manager",
+                              "caseAccessLevel": "Edit",
+                              "contactAccessLevel": "Edit",
+                              "description": "Service Manager",
+                              "mayForecastManagerShare": "",
+                              "name": "Service Team 1 Manager",
+                              "opportunityAccessLevel": "Edit",
+                              "parentRole": "Director_of_Client_Experience"
+                            }
+                          },
+                          {
+                            "text": "Service Team 2 Manager (1)",
+                            "icon": "fa-solid fa-users icon-blue",
+                            "children": [
+                              {
+                                "text": "Service Team 2 User",
+                                "icon": "fa-solid fa-users icon-blue",
+                                "children": [],
+                                "roleData": {
+                                  "apiName": "Service_Team_2_User",
+                                  "caseAccessLevel": "Edit",
+                                  "contactAccessLevel": "Edit",
+                                  "description": "Service User",
+                                  "mayForecastManagerShare": "",
+                                  "name": "Service Team 2 User",
+                                  "opportunityAccessLevel": "Edit",
+                                  "parentRole": "Service_Team_2_Manager"
+                                }
+                              }
+                            ],
+                            "roleData": {
+                              "apiName": "Service_Team_2_Manager",
+                              "caseAccessLevel": "Edit",
+                              "contactAccessLevel": "Edit",
+                              "description": "Service Manager",
+                              "mayForecastManagerShare": "",
+                              "name": "Service Team 2 Manager",
+                              "opportunityAccessLevel": "Edit",
+                              "parentRole": "Director_of_Client_Experience"
+                            }
+                          },
+                          {
+                            "text": "Service Team 3 Manager (2)",
+                            "icon": "fa-solid fa-users icon-blue",
+                            "children": [
+                              {
+                                "text": "Service Team 3 User",
+                                "icon": "fa-solid fa-users icon-blue",
+                                "children": [],
+                                "roleData": {
+                                  "apiName": "Service_Team_3_User",
+                                  "caseAccessLevel": "Edit",
+                                  "contactAccessLevel": "Edit",
+                                  "description": "Service User",
+                                  "mayForecastManagerShare": "",
+                                  "name": "Service Team 3 User",
+                                  "opportunityAccessLevel": "Edit",
+                                  "parentRole": "Service_Team_3_Manager"
+                                }
+                              },
+                              {
+                                "text": "Single(k) User",
+                                "icon": "fa-solid fa-users icon-blue",
+                                "children": [],
+                                "roleData": {
+                                  "apiName": "Single_k_User",
+                                  "caseAccessLevel": "Edit",
+                                  "contactAccessLevel": "Edit",
+                                  "description": "Single(k) User",
+                                  "mayForecastManagerShare": "",
+                                  "name": "Single(k) User",
+                                  "opportunityAccessLevel": "Edit",
+                                  "parentRole": "Service_Team_3_Manager"
+                                }
+                              }
+                            ],
+                            "roleData": {
+                              "apiName": "Service_Team_3_Manager",
+                              "caseAccessLevel": "Edit",
+                              "contactAccessLevel": "Edit",
+                              "description": "Service Manager",
+                              "mayForecastManagerShare": "",
+                              "name": "Service Team 3 Manager",
+                              "opportunityAccessLevel": "Edit",
+                              "parentRole": "Director_of_Client_Experience"
+                            }
+                          }
+                        ],
+                        "roleData": {
+                          "apiName": "Director_of_Client_Experience",
+                          "caseAccessLevel": "Edit",
+                          "contactAccessLevel": "Edit",
+                          "description": "Director of Client Experience",
+                          "mayForecastManagerShare": "",
+                          "name": "Director of Client Experience",
+                          "opportunityAccessLevel": "Edit",
+                          "parentRole": "VP_Of_Client_Experience"
+                        }
+                      },
+                      {
+                        "text": "Senior Manager - Client Onboarding + Saver Success (1)",
+                        "icon": "fa-solid fa-users icon-blue",
+                        "children": [
+                          {
+                            "text": "Enrollment User",
+                            "icon": "fa-solid fa-users icon-blue",
+                            "children": [],
+                            "roleData": {
+                              "apiName": "Enrollment_User",
+                              "caseAccessLevel": "Edit",
+                              "contactAccessLevel": "Edit",
+                              "description": "Enrollment User",
+                              "mayForecastManagerShare": "",
+                              "name": "Enrollment User",
+                              "opportunityAccessLevel": "Edit",
+                              "parentRole": "Senior_Manager_Implementation_Saver_Success"
+                            }
+                          }
+                        ],
+                        "roleData": {
+                          "apiName": "Senior_Manager_Implementation_Saver_Success",
+                          "caseAccessLevel": "Edit",
+                          "contactAccessLevel": "Edit",
+                          "description": "Snr. Manager - Imps + Saver",
+                          "mayForecastManagerShare": "",
+                          "name": "Senior Manager - Client Onboarding + Saver Success",
+                          "opportunityAccessLevel": "Edit",
+                          "parentRole": "VP_Of_Client_Experience"
+                        }
+                      }
+                    ],
+                    "roleData": {
+                      "apiName": "VP_Of_Client_Experience",
+                      "caseAccessLevel": "Edit",
+                      "contactAccessLevel": "Edit",
+                      "description": "VP Of Client Experience",
+                      "mayForecastManagerShare": "",
+                      "name": "VP Of Client Experience",
+                      "opportunityAccessLevel": "Edit",
+                      "parentRole": "SVP_of_Client_Success"
+                    }
+                  }
+                ],
+                "roleData": {
+                  "apiName": "SVP_of_Client_Success",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "description": "SVP of Client Success",
+                  "mayForecastManagerShare": "",
+                  "name": "SVP of Client Success",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "COO"
+                }
+              },
+              {
+                "text": "Vice President of Operations (1)",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [
+                  {
+                    "text": "Director of Operations (4)",
+                    "icon": "fa-solid fa-users icon-blue",
+                    "children": [
+                      {
+                        "text": "FinOps/Distributions Manager (3)",
+                        "icon": "fa-solid fa-users icon-blue",
+                        "children": [
+                          {
+                            "text": "Distributions",
+                            "icon": "fa-solid fa-users icon-blue",
+                            "children": [],
+                            "roleData": {
+                              "apiName": "Distributions",
+                              "caseAccessLevel": "Edit",
+                              "contactAccessLevel": "Edit",
+                              "description": "Operations",
+                              "mayForecastManagerShare": "",
+                              "name": "Distributions",
+                              "opportunityAccessLevel": "Edit",
+                              "parentRole": "FinOps_Distributions_Manager"
+                            }
+                          },
+                          {
+                            "text": "Operations",
+                            "icon": "fa-solid fa-users icon-blue",
+                            "children": [],
+                            "roleData": {
+                              "apiName": "Operations",
+                              "caseAccessLevel": "Edit",
+                              "contactAccessLevel": "Edit",
+                              "description": "Operations",
+                              "mayForecastManagerShare": "",
+                              "name": "Operations",
+                              "opportunityAccessLevel": "Edit",
+                              "parentRole": "FinOps_Distributions_Manager"
+                            }
+                          },
+                          {
+                            "text": "Reconciliations & Withdrawals",
+                            "icon": "fa-solid fa-users icon-blue",
+                            "children": [],
+                            "roleData": {
+                              "apiName": "Reconciliations_Withdrawals",
+                              "caseAccessLevel": "Edit",
+                              "contactAccessLevel": "Edit",
+                              "description": "Reconciliations & Withdrawals Department",
+                              "mayForecastManagerShare": "",
+                              "name": "Reconciliations & Withdrawals",
+                              "opportunityAccessLevel": "Edit",
+                              "parentRole": "FinOps_Distributions_Manager"
+                            }
+                          }
+                        ],
+                        "roleData": {
+                          "apiName": "FinOps_Distributions_Manager",
+                          "caseAccessLevel": "Edit",
+                          "contactAccessLevel": "Edit",
+                          "mayForecastManagerShare": "",
+                          "name": "FinOps/Distributions Manager",
+                          "opportunityAccessLevel": "Edit",
+                          "parentRole": "Director_of_Operations"
+                        }
+                      },
+                      {
+                        "text": "Payroll Koncierge",
+                        "icon": "fa-solid fa-users icon-blue",
+                        "children": [],
+                        "roleData": {
+                          "apiName": "Payroll_Konc",
+                          "caseAccessLevel": "Edit",
+                          "contactAccessLevel": "Edit",
+                          "description": "Payroll Koncierge",
+                          "mayForecastManagerShare": "",
+                          "name": "Payroll Koncierge",
+                          "opportunityAccessLevel": "Edit",
+                          "parentRole": "Director_of_Operations"
+                        }
+                      },
+                      {
+                        "text": "Payroll Manager (1)",
+                        "icon": "fa-solid fa-users icon-blue",
+                        "children": [
+                          {
+                            "text": "Payroll Team",
+                            "icon": "fa-solid fa-users icon-blue",
+                            "children": [],
+                            "roleData": {
+                              "apiName": "Payroll_Team",
+                              "caseAccessLevel": "Edit",
+                              "contactAccessLevel": "Edit",
+                              "description": "Payroll Team",
+                              "mayForecastManagerShare": "",
+                              "name": "Payroll Team",
+                              "opportunityAccessLevel": "Edit",
+                              "parentRole": "Payroll_Manager"
+                            }
+                          }
+                        ],
+                        "roleData": {
+                          "apiName": "Payroll_Manager",
+                          "caseAccessLevel": "Edit",
+                          "contactAccessLevel": "Edit",
+                          "mayForecastManagerShare": "",
+                          "name": "Payroll Manager",
+                          "opportunityAccessLevel": "Edit",
+                          "parentRole": "Director_of_Operations"
+                        }
+                      },
+                      {
+                        "text": "Transitions Manager (1)",
+                        "icon": "fa-solid fa-users icon-blue",
+                        "children": [
+                          {
+                            "text": "Transitions",
+                            "icon": "fa-solid fa-users icon-blue",
+                            "children": [],
+                            "roleData": {
+                              "apiName": "Transitions",
+                              "caseAccessLevel": "Edit",
+                              "contactAccessLevel": "Edit",
+                              "description": "Transitions",
+                              "mayForecastManagerShare": "",
+                              "name": "Transitions",
+                              "opportunityAccessLevel": "Edit",
+                              "parentRole": "Transitions_Manager"
+                            }
+                          }
+                        ],
+                        "roleData": {
+                          "apiName": "Transitions_Manager",
+                          "caseAccessLevel": "Edit",
+                          "contactAccessLevel": "Edit",
+                          "mayForecastManagerShare": "",
+                          "name": "Transitions Manager",
+                          "opportunityAccessLevel": "Edit",
+                          "parentRole": "Director_of_Operations"
+                        }
+                      }
+                    ],
+                    "roleData": {
+                      "apiName": "Director_of_Operations",
+                      "caseAccessLevel": "Edit",
+                      "contactAccessLevel": "Edit",
+                      "mayForecastManagerShare": "",
+                      "name": "Director of Operations",
+                      "opportunityAccessLevel": "Edit",
+                      "parentRole": "Vice_President_of_Operations"
+                    }
+                  }
+                ],
+                "roleData": {
+                  "apiName": "Vice_President_of_Operations",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "description": "VP of Operations",
+                  "mayForecastManagerShare": "",
+                  "name": "Vice President of Operations",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "COO"
+                }
+              },
+              {
+                "text": "VP, Major Accounts - Relationship Management",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [],
+                "roleData": {
+                  "apiName": "VP_Major_Accounts",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "mayForecastManagerShare": "",
+                  "name": "VP, Major Accounts - Relationship Management",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "COO"
+                }
+              }
+            ],
+            "roleData": {
+              "apiName": "COO",
+              "caseAccessLevel": "Edit",
+              "contactAccessLevel": "Edit",
+              "description": "COO",
+              "mayForecastManagerShare": "",
+              "name": "COO",
+              "opportunityAccessLevel": "Edit",
+              "parentRole": "Salesforce_Administrator"
+            }
+          },
+          {
+            "text": "Finance Manager (1)",
+            "icon": "fa-solid fa-users icon-blue",
+            "children": [
+              {
+                "text": "Finance",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [],
+                "roleData": {
+                  "apiName": "Finance",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "description": "Finance User",
+                  "mayForecastManagerShare": "",
+                  "name": "Finance",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "Finance_Manager"
+                }
+              }
+            ],
+            "roleData": {
+              "apiName": "Finance_Manager",
+              "caseAccessLevel": "Edit",
+              "contactAccessLevel": "Edit",
+              "description": "Finance Manager",
+              "mayForecastManagerShare": "",
+              "name": "Finance Manager",
+              "opportunityAccessLevel": "Edit",
+              "parentRole": "Salesforce_Administrator"
+            }
+          },
+          {
+            "text": "SVP - Strategy (4)",
+            "icon": "fa-solid fa-users icon-blue",
+            "children": [
+              {
+                "text": "Contractor",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [],
+                "roleData": {
+                  "apiName": "Contractor",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "description": "Contractor",
+                  "mayForecastManagerShare": "",
+                  "name": "Contractor",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "SVP_Strategy"
+                }
+              },
+              {
+                "text": "Director of Sales (2)",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [
+                  {
+                    "text": "Retirement Plan Consultant",
+                    "icon": "fa-solid fa-users icon-blue",
+                    "children": [],
+                    "roleData": {
+                      "apiName": "RetirementPlanConsultant",
+                      "caseAccessLevel": "Edit",
+                      "contactAccessLevel": "Edit",
+                      "description": "Retirement Plan Consultant",
+                      "mayForecastManagerShare": "",
+                      "name": "Retirement Plan Consultant",
+                      "opportunityAccessLevel": "Read",
+                      "parentRole": "Director_of_Sales"
+                    }
+                  },
+                  {
+                    "text": "SDR",
+                    "icon": "fa-solid fa-users icon-blue",
+                    "children": [],
+                    "roleData": {
+                      "apiName": "SDR",
+                      "caseAccessLevel": "Edit",
+                      "contactAccessLevel": "Edit",
+                      "description": "SDR",
+                      "mayForecastManagerShare": "",
+                      "name": "SDR",
+                      "opportunityAccessLevel": "Edit",
+                      "parentRole": "Director_of_Sales"
+                    }
+                  }
+                ],
+                "roleData": {
+                  "apiName": "Director_of_Sales",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "description": "Director of Sales",
+                  "mayForecastManagerShare": "",
+                  "name": "Director of Sales",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "SVP_Strategy"
+                }
+              },
+              {
+                "text": "Senior Business Intelligence Analyst",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [],
+                "roleData": {
+                  "apiName": "Senior_BI_Analyst",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "description": "Senior Business Intelligence Analyst",
+                  "mayForecastManagerShare": "",
+                  "name": "Senior Business Intelligence Analyst",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "SVP_Strategy"
+                }
+              },
+              {
+                "text": "VP of Partner Ecosystem (2)",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [
+                  {
+                    "text": "BDR",
+                    "icon": "fa-solid fa-users icon-blue",
+                    "children": [],
+                    "roleData": {
+                      "apiName": "BDR",
+                      "caseAccessLevel": "Edit",
+                      "contactAccessLevel": "Edit",
+                      "description": "BDR",
+                      "mayForecastManagerShare": "",
+                      "name": "BDR",
+                      "opportunityAccessLevel": "Edit",
+                      "parentRole": "VP_of_Partner_Ecosystem"
+                    }
+                  },
+                  {
+                    "text": "Partnership Support",
+                    "icon": "fa-solid fa-users icon-blue",
+                    "children": [],
+                    "roleData": {
+                      "apiName": "Partnership_Support",
+                      "caseAccessLevel": "Edit",
+                      "contactAccessLevel": "Edit",
+                      "description": "Partnership Support",
+                      "mayForecastManagerShare": "",
+                      "name": "Partnership Support",
+                      "opportunityAccessLevel": "Edit",
+                      "parentRole": "VP_of_Partner_Ecosystem"
+                    }
+                  }
+                ],
+                "roleData": {
+                  "apiName": "VP_of_Partner_Ecosystem",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "description": "VP of Partner Ecosystem",
+                  "mayForecastManagerShare": "",
+                  "name": "VP of Partner Ecosystem",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "SVP_Strategy"
+                }
+              }
+            ],
+            "roleData": {
+              "apiName": "SVP_Strategy",
+              "caseAccessLevel": "Edit",
+              "contactAccessLevel": "Edit",
+              "description": "SVP - Strategy",
+              "mayForecastManagerShare": "",
+              "name": "SVP - Strategy",
+              "opportunityAccessLevel": "Edit",
+              "parentRole": "Salesforce_Administrator"
+            }
+          },
+          {
+            "text": "SVP Revenue (3)",
+            "icon": "fa-solid fa-users icon-blue",
+            "children": [
+              {
+                "text": "Marketing",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [],
+                "roleData": {
+                  "apiName": "Marketing",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "mayForecastManagerShare": "",
+                  "name": "Marketing",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "SVP_Revenue"
+                }
+              },
+              {
+                "text": "Sr. VP of Business Growth (2)",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [
+                  {
+                    "text": "Business Development",
+                    "icon": "fa-solid fa-users icon-blue",
+                    "children": [],
+                    "roleData": {
+                      "apiName": "BusinessDevelopment",
+                      "caseAccessLevel": "Edit",
+                      "contactAccessLevel": "Edit",
+                      "description": "Business Development",
+                      "mayForecastManagerShare": "",
+                      "name": "Business Development",
+                      "opportunityAccessLevel": "Edit",
+                      "parentRole": "Sr_VP_of_Business_Growth"
+                    }
+                  },
+                  {
+                    "text": "Partnership Manager (1)",
+                    "icon": "fa-solid fa-users icon-blue",
+                    "children": [
+                      {
+                        "text": "Relationship Manager",
+                        "icon": "fa-solid fa-users icon-blue",
+                        "children": [],
+                        "roleData": {
+                          "apiName": "Relationship_Manager",
+                          "caseAccessLevel": "Edit",
+                          "contactAccessLevel": "Edit",
+                          "description": "Relationship Manager",
+                          "mayForecastManagerShare": "",
+                          "name": "Relationship Manager",
+                          "opportunityAccessLevel": "Edit",
+                          "parentRole": "PartnershipManager"
+                        }
+                      }
+                    ],
+                    "roleData": {
+                      "apiName": "PartnershipManager",
+                      "caseAccessLevel": "Edit",
+                      "contactAccessLevel": "Edit",
+                      "description": "Partnership Manager",
+                      "mayForecastManagerShare": "",
+                      "name": "Partnership Manager",
+                      "opportunityAccessLevel": "Edit",
+                      "parentRole": "Sr_VP_of_Business_Growth"
+                    }
+                  }
+                ],
+                "roleData": {
+                  "apiName": "Sr_VP_of_Business_Growth",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "description": "Sr. VP of Business Growth",
+                  "mayForecastManagerShare": "",
+                  "name": "Sr. VP of Business Growth",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "SVP_Revenue"
+                }
+              },
+              {
+                "text": "VP of Sales",
+                "icon": "fa-solid fa-users icon-blue",
+                "children": [],
+                "roleData": {
+                  "apiName": "VP_of_Sales",
+                  "caseAccessLevel": "Edit",
+                  "contactAccessLevel": "Edit",
+                  "description": "VP of Sales",
+                  "mayForecastManagerShare": "",
+                  "name": "VP of Sales",
+                  "opportunityAccessLevel": "Edit",
+                  "parentRole": "SVP_Revenue"
+                }
+              }
+            ],
+            "roleData": {
+              "apiName": "SVP_Revenue",
+              "caseAccessLevel": "Edit",
+              "contactAccessLevel": "Edit",
+              "mayForecastManagerShare": "",
+              "name": "SVP Revenue",
+              "opportunityAccessLevel": "Edit",
+              "parentRole": "Salesforce_Administrator"
+            }
+          }
+        ],
+        "roleData": {
+          "apiName": "Salesforce_Administrator",
+          "caseAccessLevel": "Edit",
+          "contactAccessLevel": "Edit",
+          "description": "Salesforce Admin",
+          "mayForecastManagerShare": "",
+          "name": "Salesforce Administrator",
+          "opportunityAccessLevel": "Edit",
+          "parentRole": "CEO"
+        }
+      }
+    ],
+    "roleData": {
+      "apiName": "CEO",
+      "caseAccessLevel": "Edit",
+      "contactAccessLevel": "Edit",
+      "description": "CEO",
+      "mayForecastManagerShare": "",
+      "name": "CEO",
+      "opportunityAccessLevel": "Edit"
+    }
+  }
+]

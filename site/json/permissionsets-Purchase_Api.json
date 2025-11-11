@@ -1,0 +1,5947 @@
+[
+  {
+    "text": "Class Accesses (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "ParadigmAuthController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Apex Class: ParadigmAuthController",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ParadigmCalloutController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Apex Class: ParadigmCalloutController",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Custom Metadata Type Accesses (5)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "AddSources__mdt",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: AddSources__mdt",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Paradigm_Endpoint__mdt",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: Paradigm_Endpoint__mdt",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Portfolio_Code__mdt",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: Portfolio_Code__mdt",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ProductCode__mdt",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ProductCode__mdt",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Vesting_Id__mdt",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: Vesting_Id__mdt",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "External Credential Principal Accesses (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "ERROR: {\"enabled\":true,\"externalCredentialPrincipal\":\"Paradigm_Purchase_API_PROD-Paradigm Principal\"}",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "External Credential Principal: Paradigm_Purchase_API_PROD-Paradigm Principal",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ERROR: {\"enabled\":true,\"externalCredentialPrincipal\":\"PurchaseAPI-purchase Principal\"}",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "External Credential Principal: PurchaseAPI-purchase Principal",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Field Permissions (181)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Opportunity (5)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Opportunity.Auto_Enroll_Escalation_Type__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Opportunity.Auto_Enroll_Escalation_Type__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Opportunity.Initial_Deferral_Rate__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Opportunity.Initial_Deferral_Rate__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Opportunity.Maximum_Deferral_Rate__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Opportunity.Maximum_Deferral_Rate__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Opportunity.Plan_Number__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Opportunity.Plan_Number__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Opportunity.Restatement_Date__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Opportunity.Restatement_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Opportunity_Promotion__c (2)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Opportunity_Promotion__c.Product_Family__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Opportunity_Promotion__c.Product_Family__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Opportunity_Promotion__c.Promo_Code__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Opportunity_Promotion__c.Promo_Code__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Promotions__c (1)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Promotions__c.Promo_Code__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Promotions__c.Promo_Code__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Proposal__c (173)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Proposal__c.Access_Code__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Access_Code__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Additional_Financial_Professional_Emails__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Additional_Financial_Professional_Emails__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Additional_Financial_Professional_NPNs__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Additional_Financial_Professional_NPNs__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Additional_Financial_Professional_Names__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Additional_Financial_Professional_Names__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Advisor_Account__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Advisor_Account__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Advisor_Broker_Dealer__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Advisor_Broker_Dealer__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Advisor_CRD__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Advisor_CRD__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Advisor_Comp_Collection_Type__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Advisor_Comp_Collection_Type__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Advisor_Compensation_Amount__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Advisor_Compensation_Amount__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Advisor_Compensation_Mode__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Advisor_Compensation_Mode__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Advisor_Contact_Id__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Advisor_Contact_Id__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Advisor_Contact__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Advisor_Contact__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Advisor_Email__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Advisor_Email__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Advisor_Included__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Advisor_Included__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Advisor_NPN__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Advisor_NPN__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Advisor_Zip_Code__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Advisor_Zip_Code__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Annual_Base_Fee__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Annual_Base_Fee__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Annual_Per_Head_Fee__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Annual_Per_Head_Fee__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Any_Current_Legal_Proceedings__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Any_Current_Legal_Proceedings__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Auto_Deferral_Type__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Auto_Deferral_Type__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Auto_Enrollment_Deferral_Escalation_Rate__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Auto_Enrollment_Deferral_Escalation_Rate__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Auto_Enrollment__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Auto_Enrollment__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Basis_Point_Compensation_Amount__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Basis_Point_Compensation_Amount__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Brokerage_Accounts_PCRA__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Brokerage_Accounts_PCRA__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Client_Company_Name__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Client_Company_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Client_Dashboard_Link__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Client_Dashboard_Link__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Close_Date__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Close_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Company_Contact_First_Name__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Company_Contact_First_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Company_Contact_Last_Name__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Company_Contact_Last_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Company_EIN__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Company_EIN__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Company_Email__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Company_Email__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Company_State__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Company_State__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Company_Zip_Code__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Company_Zip_Code__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Company_Zip_Postal_Code__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Company_Zip_Postal_Code__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Contact_Job_Title__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Contact_Job_Title__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Contact_Phone_Number__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Contact_Phone_Number__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Controlled_Affiliated_Group_Company_Name__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Controlled_Affiliated_Group_Company_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Conversion_Needed__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Conversion_Needed__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Credentialed_Advisor__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Credentialed_Advisor__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Current_Plan__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Current_Plan__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Current_Recent_SIMPLE_Plan__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Current_Recent_SIMPLE_Plan__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Current_Sponsor_of_Other_Plans__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Current_Sponsor_of_Other_Plans__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Custodian__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Custodian__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Deferral_Change_Frequency__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Deferral_Change_Frequency__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Discretionary_Match_Formula_Notes__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Discretionary_Match_Formula_Notes__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Discretionary_Match_Formula__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Discretionary_Match_Formula__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Discretionary_Match__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Discretionary_Match__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Eligibility_Age__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Eligibility_Age__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Employee_Loan_Availability__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Employee_Loan_Availability__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Employee_Match__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Employee_Match__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Employer_Contribution_Formula__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Employer_Contribution_Formula__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Employer_Contribution_Type__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Employer_Contribution_Type__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Employer_Contribution__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Employer_Contribution__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Errors__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Errors__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Estimated_Annual_Payroll__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Estimated_Annual_Payroll__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.External_Response__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.External_Response__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Financial_Professional_Email__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Financial_Professional_Email__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Financial_Professional_Fees__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Financial_Professional_Fees__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Financial_Professional_First_Name__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Financial_Professional_First_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Financial_Professional_Last_Name__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Financial_Professional_Last_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Financial_Professional_Phone__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Financial_Professional_Phone__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Financial_Professional_Role__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Financial_Professional_Role__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Financial_Professional_State__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Financial_Professional_State__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Financial_Professional_Zip_Code__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Financial_Professional_Zip_Code__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Firm_Name__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Firm_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Flat_Fee_Compensation_Amount__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Flat_Fee_Compensation_Amount__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Force_Queue__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Force_Queue__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Fund_List__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Fund_List__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Government_Entity__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Government_Entity__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Grandfather_Date__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Grandfather_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Hardships__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Hardships__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Implementation_Status__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Implementation_Status__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Implementation_Step__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Implementation_Step__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Implementation__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Implementation__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Include_Company_in_UBQT_Plan__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Include_Company_in_UBQT_Plan__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Insurance_Agency_NPN__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Insurance_Agency_NPN__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Introductory_Fee__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Introductory_Fee__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Lead_Source_Detail__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Lead_Source_Detail__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Lead_Source__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Lead_Source__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Legal_Proceeding_Explanation__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Legal_Proceeding_Explanation__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Loans__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Loans__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Longer_than_12_Months_with_Zero_Assets__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Longer_than_12_Months_with_Zero_Assets__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.MML_Form_Values__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.MML_Form_Values__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Manual_Callout__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Manual_Callout__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Master_Advisor_Account__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Master_Advisor_Account__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Max_Auto_Deferral_Percentage__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Max_Auto_Deferral_Percentage__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Min_Auto_Deferral_Percentage__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Min_Auto_Deferral_Percentage__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Number_of_Employees__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Number_of_Employees__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Number_of_HCE_s__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Number_of_HCE_s__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Number_of_Non_Owner_Employees__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Number_of_Non_Owner_Employees__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Number_of_non_HCE_s__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Number_of_non_HCE_s__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.OPD_Notes__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.OPD_Notes__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.OPD_Status__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.OPD_Status__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Older_Than_3_Years__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Older_Than_3_Years__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Opportunity__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Opportunity__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Original_Effective_Date__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Original_Effective_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Ownership_Override__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Ownership_Override__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Paradigm_Purchase_Link__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Paradigm_Purchase_Link__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Part_of_Controlled_or_Affiliated_Group__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Part_of_Controlled_or_Affiliated_Group__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Participant_Fee_Payment__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Participant_Fee_Payment__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Payroll_Provider__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Payroll_Provider__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Pending_Alert__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Pending_Alert__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Permissible_Withdrawal_Days__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Permissible_Withdrawal_Days__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Plan_Effective_Date__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Plan_Effective_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Plan_Eligibility__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Plan_Eligibility__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Plan_Entry_Frequency__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Plan_Entry_Frequency__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Plan_ID_First_Synced__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Plan_ID_First_Synced__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Plan_ID__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Plan_ID__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Plan_Name__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Plan_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Plan_Number__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Plan_Number__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Plan_Type__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Plan_Type__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Portfolio_Code__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Portfolio_Code__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Previous_Plan_Effective_Date__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Previous_Plan_Effective_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Previously_Sponsored_401_k_Plan__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Previously_Sponsored_401_k_Plan__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Primary_Advisor_18_Char_Id__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Primary_Advisor_18_Char_Id__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Primary_TPA_18_Char_Id__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Primary_TPA_18_Char_Id__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Principal_Account_Id__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Principal_Account_Id__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Principal_Advisor_Id__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Principal_Advisor_Id__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Principal_Client_Id__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Principal_Client_Id__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Principal_Id__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Principal_Id__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Principal_Opportunity_Closed_Lost_Reason__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Principal_Opportunity_Closed_Lost_Reason__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Principal_Opportunity_Id__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Principal_Opportunity_Id__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Principal_Opportunity_Stage__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Principal_Opportunity_Stage__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Principal_TPA_Id__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Principal_TPA_Id__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Prior_Year_Profit_Sharing_Contribution__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Prior_Year_Profit_Sharing_Contribution__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Product_Code__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Product_Code__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Product_Type__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Product_Type__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Profit_Sharing_Match_Vesting_Schedule__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Profit_Sharing_Match_Vesting_Schedule__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Profit_Sharing_Plan_Effective_Date__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Profit_Sharing_Plan_Effective_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Profit_Sharing__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Profit_Sharing__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Promo_Code__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Promo_Code__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Proposal_Id_18_Char__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Proposal_Id_18_Char__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Proposal_Notes__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Proposal_Notes__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Publicly_Traded__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Publicly_Traded__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.QACA_Safe_Harbor_Vesting_Schedule__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.QACA_Safe_Harbor_Vesting_Schedule__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Queued__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Queued__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Referrer_Email__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Referrer_Email__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Referrer_Phone__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Referrer_Phone__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Referrer_Type__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Referrer_Type__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Region__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Region__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Representative_Number__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Representative_Number__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Restatement_Date__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Restatement_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Roth_Contributions__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Roth_Contributions__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Safe_Harbor_Match_Determination_Period__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Safe_Harbor_Match_Determination_Period__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Safe_Harbor__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Safe_Harbor__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Sallus_ID__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Sallus_ID__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Scheduled_Run__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Scheduled_Run__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Secondary_Advisor_Info__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Secondary_Advisor_Info__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Service_Option__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Service_Option__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Split_Opp__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Split_Opp__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Stage_Flag__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Stage_Flag__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Status__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Status__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.TPA_Account__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.TPA_Account__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.TPA_Annual_Per_Participant_Cost__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.TPA_Annual_Per_Participant_Cost__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.TPA_Contact_Id__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.TPA_Contact_Id__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.TPA_Contact__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.TPA_Contact__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.TPA_EIN__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.TPA_EIN__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.TPA_Firm_Name__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.TPA_Firm_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.TPA_Included__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.TPA_Included__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.TPA_Ops_Contact__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.TPA_Ops_Contact__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.TPA_Ops_Email__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.TPA_Ops_Email__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.TPA_Ops_First_Name__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.TPA_Ops_First_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.TPA_Ops_Last_Name__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.TPA_Ops_Last_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.TPA_Ops_Phone__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.TPA_Ops_Phone__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.TPA_Sales_Email__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.TPA_Sales_Email__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.TPA_Sales_First_Name__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.TPA_Sales_First_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.TPA_Sales_Last_Name__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.TPA_Sales_Last_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.TPA_Setup_Fee__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.TPA_Setup_Fee__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Tax_Exempt__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Tax_Exempt__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Type_of_Current_Legal_Proceedings__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Type_of_Current_Legal_Proceedings__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.X3_38__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.X3_38__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.Yearly_Auto_Deferral_Percentage_Increase__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.Yearly_Auto_Deferral_Percentage_Increase__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Proposal__c.isCalloutTriggered__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Proposal__c.isCalloutTriggered__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Object Permissions (3)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Opportunity",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: Opportunity",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Proposal__c",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: Proposal__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "UserExternalCredential",
+        "icon": "fa-solid fa-magnifying-glass icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: UserExternalCredential",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tab Settings (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Proposal__c",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Tab: Proposal__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Visibility: Visible",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

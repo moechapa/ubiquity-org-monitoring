@@ -1,0 +1,2632 @@
+[
+  {
+    "text": " Apex Class (137)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__ApexClassesSelector",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__ApexTriggersSelector",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__AsyncApexJobsSelector",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__AsyncApexJobsSelectorTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__BypassHandler",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__BypassHandlerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__CronJobDetailsSelector",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__CronTriggersSelector",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__CustomMetadataService",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__CustomMetadataServiceTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_Answer",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_AnswerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_AnyOrder",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_AnyOrderTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_ApexMocks",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_ApexMocksConfig",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_ApexMocksTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_ApexMocksUtils",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_ApexMocksUtilsTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_Application",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_ApplicationTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_ArgumentCaptor",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_ArgumentCaptorTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_IDGenerator",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_IDGeneratorTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_IMatcher",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_Inheritor",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_InheritorTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_InOrder",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_InOrderTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_InvocationOnMock",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_ISObjectDomain",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_ISObjectSelector",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_ISObjectUnitOfWork",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_Match",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_MatcherDefinitions",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_MatcherDefinitionsTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_MatchersReturnValue",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_MatchTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_MethodArgValues",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_MethodArgValuesTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_MethodCountRecorder",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_MethodReturnValue",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_MethodReturnValueRecorder",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_MethodVerifier",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_Mocks",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_MyList",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_QualifiedMethod",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_QualifiedMethodAndArgValues",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_QualifiedMethodTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_QueryFactory",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_QueryFactoryTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_SecurityUtils",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_SecurityUtilsTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_SObjectDescribe",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_SObjectDescribeTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_SObjectDomain",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_SObjectDomainTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_SObjectMocks",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_SObjectSelector",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_SObjectSelectorTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_SObjectUnitOfWork",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_SObjectUnitOfWorkTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_StringBuilder",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_StringBuilderTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_System",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_SystemTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_VerificationMode",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupStatusCheckController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupStatusCheckControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LREngine",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__ManageLookupRollupSummariesController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__ManageLookupRollupSummariesNewController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__ManageLookupRollupSummariesNewTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__MessageService",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__MetadataService",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__MetadataServiceCalloutMock",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__MetadataServiceTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__MLRSControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__ObjectSelectorController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__ObjectSelectorControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__OptimizerComponentController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__OptimizerService",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__OptimizerServiceTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupActionCalculate",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupActionCalculateTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupCalculateController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupCalculateControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupCalculateJob",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupCalculateJobSchedulable",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupCalculateJobSchedulableTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupCalculateJobTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupDmlGuard",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupDmlGuardTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupEditorController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupEditorControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupJob",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupJobTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupScheduledCalculateController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupScheduledCalculateControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupService",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupServiceException",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupServiceMergeTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupServiceTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupServiceTest2",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupServiceTest3",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupServiceTest4",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupServiceTest5",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupServiceTest6",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupSummaries",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupSummariesSelector",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupSummariesSelectorTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupSummariesTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupSummariesTriggerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupSummary",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupSummaryEnhancedController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupSummaryEnhancedControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupSummaryLogDeleteController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupSummaryLogDeleteControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupSummaryScheduleItemsSelector",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupSummaryTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupSummaryViewController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupSummaryViewControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__SchedulerController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__SchedulerControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__TestContext",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__TestLREngine",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__Utilities",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__UtilitiesTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__WelcomeController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__WelcomeControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs_Associated_ContactTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs_ContactTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs_LeadTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs_TaskTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Apex Component (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__zip",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__zipEntry",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Apex Page (14)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__managelookuprollupsummaries",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__managelookuprollupsummaries_New",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__managetrigger",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__managetriggermdt",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__rollupcalculate",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__rollupcalculatemdt",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__rollupscheduledcalculate",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__rollupscheduledcalculatemdt",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__rollupsummaryenhanced",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__rollupsummaryenhancednew",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__rollupsummarylogdelete",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__RollupSummaryView",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__welcome",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__welcometab",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Apex Trigger (5)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__RollupSummariesTrigger",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs_Associated_ContactTrigger",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs_ContactTrigger",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs_LeadTrigger",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs_TaskTrigger",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Aura Definition Bundle (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__optimizer",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__optimizerNotification",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Application (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__DeclarativeLookupRollupSummaries",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__DeclarativeLookupRollupSummaries2",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Field (71)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__DeclarativeLookupRollupSummaries__c (6)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "dlrs__DeclarativeLookupRollupSummaries__c.dlrs__CalculateJobScopeSize__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__DeclarativeLookupRollupSummaries__c.dlrs__DisableDLRSGlobally__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__DeclarativeLookupRollupSummaries__c.dlrs__DisableParentDMLCheck__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__DeclarativeLookupRollupSummaries__c.dlrs__DisableProblemEmails__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__DeclarativeLookupRollupSummaries__c.dlrs__HideManageLookupRollupSummariesInfo__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__DeclarativeLookupRollupSummaries__c.dlrs__ScheduledJobScopeSize__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "dlrs__LookupChild__c (6)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "dlrs__LookupChild__c.dlrs__Amount__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupChild__c.dlrs__Color__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupChild__c.dlrs__Description__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupChild__c.dlrs__Description2__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupChild__c.dlrs__LookupParent__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupChild__c.dlrs__LookupParent2__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "dlrs__LookupParent__c (5)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "dlrs__LookupParent__c.dlrs__Colours__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupParent__c.dlrs__Descriptions__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupParent__c.dlrs__Descriptions2__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupParent__c.dlrs__Total__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupParent__c.dlrs__Total2__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "dlrs__LookupRollupCalculateJob__c (1)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "dlrs__LookupRollupCalculateJob__c.dlrs__LookupRollupSummaryId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "dlrs__LookupRollupSummary__c (20)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__Active__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__AggregateAllRows__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__AggregateOperation__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__AggregateResultField__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__CalculateJobId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__CalculationMode__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__CalculationSharingMode__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__ChildObject__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__ConcatenateDelimiter__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__Description__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__FieldToAggregate__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__FieldToOrderBy__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__ParentObject__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__RelationshipCriteria__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__RelationshipCriteriaFields__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__RelationshipField__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__RowLimit__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__TestCode__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__TestCodeSeeAllData__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary__c.dlrs__UniqueName__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "dlrs__LookupRollupSummary2__mdt (21)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__Active__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__AggregateAllRows__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__AggregateOperation__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__AggregateResultField__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__BypassPermissionApiName__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__CalculationMode__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__CalculationSharingMode__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__ChildObject__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__ConcatenateDelimiter__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__Description__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__FieldToAggregate__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__FieldToOrderBy__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__ParentObject__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__RelationshipCriteria__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__RelationshipCriteriaFields__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__RelationshipField__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__RowLimit__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__TestCode__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__TestCode2__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__TestCodeParent__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummary2__mdt.dlrs__TestCodeSeeAllData__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryLog__c (4)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "dlrs__LookupRollupSummaryLog__c.dlrs__ErrorMessage__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummaryLog__c.dlrs__ParentId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummaryLog__c.dlrs__ParentObject__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummaryLog__c.dlrs__ParentRecord__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryScheduleItems__c (5)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "dlrs__LookupRollupSummaryScheduleItems__c.dlrs__LookupRollupSummary2__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummaryScheduleItems__c.dlrs__ParentId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummaryScheduleItems__c.dlrs__ParentKeyPrefix__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummaryScheduleItems__c.dlrs__ParentRecord__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__LookupRollupSummaryScheduleItems__c.dlrs__QualifiedParentID__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "dlrs__UserNotification__e (3)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "dlrs__UserNotification__e.dlrs__Payload__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__UserNotification__e.dlrs__Recipient__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "dlrs__UserNotification__e.dlrs__Type__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": " Custom Label (14)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__fflib_security_error_field_not_insertable",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_security_error_field_not_insertable",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_security_error_field_not_readable",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_security_error_field_not_readable",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_security_error_field_not_updateable",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_security_error_field_not_updateable",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_security_error_object_not_deletable",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_security_error_object_not_deletable",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_security_error_object_not_insertable",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_security_error_object_not_insertable",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_security_error_object_not_readable",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_security_error_object_not_readable",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_security_error_object_not_updateable",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__fflib_security_error_object_not_updateable",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Metadata (3)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__LookupRollupSummary2.Advisor_Plan_ARR",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary2.Associated_Active_Plan_Count",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary2.Lead_Completed_Activities",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Object (9)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__DeclarativeLookupRollupSummaries__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupChild__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupParent__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupCalculateJob__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary2__mdt",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryLog__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryScheduleItems__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__UserNotification__e",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Object Translation (9)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__DeclarativeLookupRollupSummaries__c-dlrs__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupChild__c-dlrs__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupParent__c-dlrs__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupCalculateJob__c-dlrs__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary__c-dlrs__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary2__mdt-dlrs__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryLog__c-dlrs__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryScheduleItems__c-dlrs__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__UserNotification__e-dlrs__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Page Web Link (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__Welcome",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Tab (9)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__LookupRollupCalculateJob__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupListView",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummariesHome",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryLog__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryScheduleItems__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__ManageLookupRollupSummaries",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__ManageLookupRollupSummaries2",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__Welcome",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Flexi Page (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__LookupRollupSummariesHome",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__ManageLookupRollupSummaries",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Installed Package (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Layout (7)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__LookupChild__c-Lookup Child Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupParent__c-Lookup Parent Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupCalculateJob__c-Lookup Rollup Calculate Job Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary__c-Lookup Rollup Summary Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary2__mdt-Lookup Rollup Summary Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryLog__c-Lookup Rollup Summary Log Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryScheduleItems__c-Lookup Rollup Summary Queue Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Lightning Component Bundle (8)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__autocompleteCombobox",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__classSchedulerModal",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__cronBuilder",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__flexiblePath",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__manageRollups",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__objectSelector",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__rollupEditor",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__rollupEditorError",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " List View (10)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__LookupParent__c.dlrs__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupParent__c.dlrs__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupCalculateJob__c.dlrs__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupCalculateJob__c.dlrs__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary__c.dlrs__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary__c.dlrs__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryLog__c.dlrs__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryLog__c.dlrs__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryScheduleItems__c.dlrs__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryScheduleItems__c.dlrs__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Permission Set (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__LookupRollupSummariesFull",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummariesReadOnly",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Sharing Rules (6)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__LookupChild__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupParent__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupCalculateJob__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryLog__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryScheduleItems__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Static Resource (3)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__dlrs",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__DLRS_Logo",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__jszip",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Topics For Objects (6)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__LookupChild__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupParent__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupCalculateJob__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryLog__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryScheduleItems__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Ui View Definition (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__LookupRollupSummariesHome",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__ManageLookupRollupSummaries",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Validation Rule (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__LookupParent__c.dlrs__Not_42",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Web Link (6)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "dlrs__LookupRollupSummary__c.dlrs__Calculate",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary__c.dlrs__EnhancedEdit",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary__c.dlrs__EnhancedNew",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary__c.dlrs__ManageChildTrigger",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummary__c.dlrs__Schedule_Calculate",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "dlrs__LookupRollupSummaryLog__c.dlrs__DeleteLog",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  }
+]

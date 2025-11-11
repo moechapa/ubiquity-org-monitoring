@@ -1,0 +1,423 @@
+[
+  {
+    "text": " Apex Class (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "CaseTimer19__CaseTimeCount",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "CaseTimer19__CaseTimeCountTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Aura Definition Bundle (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "CaseTimer19__serviceConsoleCaseTimerWrapper",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Field (12)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Case (1)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Case.CaseTimer19__Cumulative_Time__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "CaseTimer19__Buffer_Duration__mdt (1)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "CaseTimer19__Buffer_Duration__mdt.CaseTimer19__Duration_Buffer__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "CaseTimer19__CaseTimer__c (1)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "CaseTimer19__CaseTimer__c.CaseTimer19__Duration_Buffer__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "CaseTimer19__Session_Time__c (9)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "CaseTimer19__Session_Time__c.CaseTimer19__Agent__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "CaseTimer19__Session_Time__c.CaseTimer19__Case__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "CaseTimer19__Session_Time__c.CaseTimer19__Comments__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "CaseTimer19__Session_Time__c.CaseTimer19__Date__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "CaseTimer19__Session_Time__c.CaseTimer19__Duration__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "CaseTimer19__Session_Time__c.CaseTimer19__Manual_Entry__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "CaseTimer19__Session_Time__c.CaseTimer19__Session_Time__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "CaseTimer19__Session_Time__c.CaseTimer19__Time__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "CaseTimer19__Session_Time__c.CaseTimer19__Type__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": " Custom Metadata (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "CaseTimer19__Buffer_Duration.CaseTimer19__Default",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Object (3)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "CaseTimer19__Buffer_Duration__mdt",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "CaseTimer19__CaseTimer__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "CaseTimer19__Session_Time__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Object Translation (3)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "CaseTimer19__Buffer_Duration__mdt-CaseTimer19__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "CaseTimer19__CaseTimer__c-CaseTimer19__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "CaseTimer19__Session_Time__c-CaseTimer19__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Tab (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "CaseTimer19__Session_Time__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Installed Package (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "CaseTimer19",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Layout (3)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "CaseTimer19__Buffer_Duration__mdt-Buffer Duration Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "CaseTimer19__Buffer_Duration_Default__mdt-Buffer Duration Default Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "CaseTimer19__Session_Time__c-Session Time Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Lightning Component Bundle (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "CaseTimer19__lwcSessionItem",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "CaseTimer19__serviceConsoleCaseTimer",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " List View (4)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "CaseTimer19__Session_Time__c.CaseTimer19__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "CaseTimer19__Session_Time__c.CaseTimer19__All",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "CaseTimer19__Session_Time__c.CaseTimer19__All1",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "CaseTimer19__Session_Time__c.CaseTimer19__All1",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Permission Set (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "CaseTimer19__Case_Timer_User",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Static Resource (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "CaseTimer19__timerpause",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "CaseTimer19__timerplay",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Topics For Objects (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "CaseTimer19__Session_Time__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  }
+]

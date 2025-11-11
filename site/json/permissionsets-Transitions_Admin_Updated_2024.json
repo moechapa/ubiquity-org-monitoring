@@ -1,0 +1,3363 @@
+[
+  {
+    "text": "Field Permissions (103)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Transition__c (103)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Transition__c.Abandoned_Letter_Mailed__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Abandoned_Letter_Mailed__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Account__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Account__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Blackout_Date_Today__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Blackout_Date_Today__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Blackout_Notice_End__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Blackout_Notice_End__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Blackout_Notice_Start__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Blackout_Notice_Start__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Blackout_Start_Date__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Blackout_Start_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Cash_Reconciled__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Cash_Reconciled__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Client_Support_Team__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Client_Support_Team__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Connected_Partner__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Connected_Partner__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Contributing_Event__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Contributing_Event__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Custodian_Account_ID__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Custodian_Account_ID__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Custodian__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Custodian__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Decon_Fee_Charged__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Decon_Fee_Charged__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Decon_Prep_Notes__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Decon_Prep_Notes__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Decon_Provider__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Decon_Provider__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Deconversion_Date__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Deconversion_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Deconversion_Email_Sent__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Deconversion_Email_Sent__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Deconversion_Provider__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Deconversion_Provider__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Delinquent_Payer_Termination__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Delinquent_Payer_Termination__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Description__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Description__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Distribution_Waiver_Received__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Distribution_Waiver_Received__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Does_the_Plan_Have_Forfeitures__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Does_the_Plan_Have_Forfeitures__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Exit_Interview_Notes__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Exit_Interview_Notes__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Fee_Paid__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Fee_Paid__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Fees_Disabled__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Fees_Disabled__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Final_5500_Complete__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Final_5500_Complete__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Final_5500_PYE__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Final_5500_PYE__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Final_Census_Payroll_Submitted__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Final_Census_Payroll_Submitted__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Final_Date_for_Distributions_Approval__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Final_Date_for_Distributions_Approval__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Final_Docs__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Final_Docs__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Final_Fees_Paid_Accounting__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Final_Fees_Paid_Accounting__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Final_Invoice_Sent_Accounting__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Final_Invoice_Sent_Accounting__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Final_Payroll_In_Terminated_Year__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Final_Payroll_In_Terminated_Year__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Final_Plan_Balance__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Final_Plan_Balance__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Final_Reporting_Date__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Final_Reporting_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Final_SDBA_Liquidation__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Final_SDBA_Liquidation__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Final_Testing_Calculations_Complete__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Final_Testing_Calculations_Complete__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Final_Valuation_Completed__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Final_Valuation_Completed__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Final_Valuation_Requested__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Final_Valuation_Requested__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Force_Out_Required__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Force_Out_Required__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Forfeiture_Amount__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Forfeiture_Amount__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Forfeiture__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Forfeiture__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Form_Payroll_Provider__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Form_Payroll_Provider__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Has_PCRA__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Has_PCRA__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Inquiry_Date__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Inquiry_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Investments__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Investments__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Is_Plan_Vesting_100__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Is_Plan_Vesting_100__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Last_Date_to_Submit_Distrib__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Last_Date_to_Submit_Distrib__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Last_Payroll__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Last_Payroll__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Liquidation_Date__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Liquidation_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.MEP__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.MEP__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Matrix_Current_Quarter_Fees__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Matrix_Current_Quarter_Fees__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Matrix_Current__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Matrix_Current__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Morley_Stable_Value_Fund__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Morley_Stable_Value_Fund__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Name_Change__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Name_Change__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.New_Plan_EIN__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.New_Plan_EIN__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.New_Plan_Name__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.New_Plan_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.New_Plan_Number__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.New_Plan_Number__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.New_Provider_Contact_Name__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.New_Provider_Contact_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.New_Provider_Email_Address__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.New_Provider_Email_Address__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.New_Provider_Name__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.New_Provider_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Next_Billing_Date__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Next_Billing_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Notification_Date__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Notification_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Number_of_employees__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Number_of_employees__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Offered_Discount__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Offered_Discount__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Offered_Other_See_Notes__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Offered_Other_See_Notes__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Offered_Payroll_Integration__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Offered_Payroll_Integration__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Offered_Priority_Service__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Offered_Priority_Service__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Offered_Upgrade_Downgrade__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Offered_Upgrade_Downgrade__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Other_Transition_Reason__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Other_Transition_Reason__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.PCRA__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.PCRA__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.PEP__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.PEP__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Partner__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Partner__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Plan_Custodian__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Plan_Custodian__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Plan_Sold_Date_Transition__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Plan_Sold_Date_Transition__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.RKO_Plan__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.RKO_Plan__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.RKS_Mail_Restriction__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.RKS_Mail_Restriction__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Safe_Harbor_Allocation_Frequency__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Safe_Harbor_Allocation_Frequency__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Safe_Harbor_Funded_In_Term_Year__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Safe_Harbor_Funded_In_Term_Year__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Safe_Harbor_Plan__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Safe_Harbor_Plan__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Save_Attempts_Exhausted__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Save_Attempts_Exhausted__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Save_Owner__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Save_Owner__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Saved_Date__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Saved_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Saved_Notes__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Saved_Notes__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Sent_to_Penchecks__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Sent_to_Penchecks__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Service_Issue_Details__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Service_Issue_Details__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Service_Option__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Service_Option__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Status__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Status__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.TDA_or_Schwab_Trust__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.TDA_or_Schwab_Trust__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Termination_Complete_Email__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Termination_Complete_Email__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Termination_Effective_Date__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Termination_Effective_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Termination_Information_Sent__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Termination_Information_Sent__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Transition_Cancelled__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Transition_Cancelled__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Transition_Complete__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Transition_Complete__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Transition_Form_Link__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Transition_Form_Link__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Transition_Id_18_Char__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Transition_Id_18_Char__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Transition_Reason__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Transition_Reason__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Transition_Type__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Transition_Type__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Transitions__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Transitions__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Trustee_Administrator_Email_Address__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Trustee_Administrator_Email_Address__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Trustee_Administrator_Name__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Trustee_Administrator_Name__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Uncontrollable__c",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Uncontrollable__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: false",
+                "icon": "fa-solid fa-circle-xmark icon-error",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          },
+          {
+            "text": "Transition__c.Wire_Date__c",
+            "icon": "fa-solid fa-square-pen icon-success",
+            "a_attr": {
+              "href": null
+            },
+            "children": [
+              {
+                "text": "Field: Transition__c.Wire_Date__c",
+                "icon": "",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Editable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              },
+              {
+                "text": "Readable: true",
+                "icon": "fa-solid fa-circle-check icon-success",
+                "a_attr": {
+                  "href": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Object Permissions (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Transition__c",
+        "icon": "fa-solid fa-web-awesome icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Object: Transition__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Create: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Delete: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Edit: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Allow Read: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Modify All Records: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Fields: false",
+            "icon": "fa-solid fa-circle-xmark icon-error",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "View All Records: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Record Type Visibilities (6)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Transition__c.X401_k_Contract_Termination",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Record Type: Transition__c.X401_k_Contract_Termination",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Visible: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Transition__c.X401_k_Deconversion",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Record Type: Transition__c.X401_k_Deconversion",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Visible: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Transition__c.X401_k_Plan_Abandonment",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Record Type: Transition__c.X401_k_Plan_Abandonment",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Visible: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Transition__c.X401_k_Term_Merger",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Record Type: Transition__c.X401_k_Term_Merger",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Visible: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Transition__c.X401_k_Termination",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Record Type: Transition__c.X401_k_Termination",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Visible: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Transition__c.X401_k_to_Single_k_Downgrade",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Record Type: Transition__c.X401_k_to_Single_k_Downgrade",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Visible: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tab Settings (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Transition__c",
+        "icon": "fa-solid fa-eye icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Tab: Transition__c",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Visibility: Visible",
+            "icon": "fa-solid fa-eye icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

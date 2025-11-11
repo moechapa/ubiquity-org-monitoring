@@ -1,0 +1,730 @@
+[
+  {
+    "text": " Apex Class (11)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip__analyzeCreateExtension",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__analyzeCreateExtensionTests",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__analyzeLaunchExtension",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__analyzeLaunchExtensionTests",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__analyzeObject",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__dataQualityExtension",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__dataQualityExtensionTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__fieldTripStatusExtension",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__fieldTripTabController",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__fieldTripTabControllerTest",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__PostInstallScript",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Apex Page (5)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip__analyzeCreate",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__analyzeLaunch",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__dataQualityScore",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__fieldTripStatus",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__fieldTripTab",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Field (23)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip__Field_Analysis__c (8)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Field_Trip__Field_Analysis__c.Field_Trip__isCustom__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Field_Analysis__c.Field_Trip__isRequired__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Field_Analysis__c.Field_Trip__Label__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Field_Analysis__c.Field_Trip__Object_Analysis__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Field_Analysis__c.Field_Trip__Populated_On__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Field_Analysis__c.Field_Trip__Populated_On_Percent__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Field_Analysis__c.Field_Trip__Total_Tally__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Field_Analysis__c.Field_Trip__Type__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Field_Trip__Field_Analytic_Config__c (3)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Field_Trip__Field_Analytic_Config__c.Field_Trip__Field_Name__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Field_Analytic_Config__c.Field_Trip__Field_Weight__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Field_Analytic_Config__c.Field_Trip__Object_Name__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Field_Trip__Logistics__c (1)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Field_Trip__Logistics__c.Field_Trip__Batch_Size__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "Field_Trip__Object_Analysis__c (11)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Field_Trip__Object_Analysis__c.Field_Trip__Fields__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Object_Analysis__c.Field_Trip__Filter__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Object_Analysis__c.Field_Trip__Health_Score__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Object_Analysis__c.Field_Trip__isCustom__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Object_Analysis__c.Field_Trip__Last_Analyzed__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Object_Analysis__c.Field_Trip__Last_Batch_Id__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Object_Analysis__c.Field_Trip__Object_Label__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Object_Analysis__c.Field_Trip__Object_Name__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Object_Analysis__c.Field_Trip__Record_Types__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Object_Analysis__c.Field_Trip__Records__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Field_Trip__Object_Analysis__c.Field_Trip__Tally__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": " Custom Object (4)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip__Field_Analysis__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Field_Analytic_Config__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Logistics__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Object_Analysis__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Object Translation (4)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip__Field_Analysis__c-Field_Trip__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Field_Analytic_Config__c-Field_Trip__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Logistics__c-Field_Trip__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Object_Analysis__c-Field_Trip__en_US",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Custom Tab (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip__Object_Analysis__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Email Template (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip__Field_Trip_Postcards",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Field_Trip_Postcards/Field_Trip__Processing_Completed",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Installed Package (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Layout (3)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip__Field_Analysis__c-Field Analysis Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Field_Analytic_Config__c-Field Analytic Config Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Object_Analysis__c-Object Analysis Layout",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " List View (8)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip__Object_Analysis__c.Field_Trip__All_Field_Trips",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Object_Analysis__c.Field_Trip__All_Field_Trips",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Object_Analysis__c.Field_Trip__Analyzed_Past_30_Days",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Object_Analysis__c.Field_Trip__Analyzed_Past_30_Days",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Object_Analysis__c.Field_Trip__Custom_Object_Field_Trips",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Object_Analysis__c.Field_Trip__Custom_Object_Field_Trips",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Object_Analysis__c.Field_Trip__Standard_Object_Field_Trips",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Object_Analysis__c.Field_Trip__Standard_Object_Field_Trips",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Sharing Rules (2)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip__Field_Analytic_Config__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Object_Analysis__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Static Resource (6)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip__angleDownW",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__FieldTripGear",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__FTGearRingLead",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__iconNews",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__RingLeadLogo",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__staticfiles",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Topics For Objects (3)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip__Field_Analysis__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Field_Analytic_Config__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "Field_Trip__Object_Analysis__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Web Link (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip__Object_Analysis__c.Field_Trip__Analyze",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Workflow (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip__Object_Analysis__c",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Workflow Alert (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip__Object_Analysis__c.Field_Trip__Send_Processing_Complete_Notification2",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  },
+  {
+    "text": " Workflow Rule (1)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "Field_Trip__Object_Analysis__c.Field_Trip__Processing Complete",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      }
+    ]
+  }
+]

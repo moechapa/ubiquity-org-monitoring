@@ -1,0 +1,356 @@
+[
+  {
+    "text": "User Permissions (15)",
+    "icon": "fa-solid fa-folder icon-blue",
+    "a_attr": {
+      "href": null
+    },
+    "children": [
+      {
+        "text": "CreateCustomizeReports",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: CreateCustomizeReports",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "CreateReportFolders",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: CreateReportFolders",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "CreateReportInLightning",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: CreateReportInLightning",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "EditMyReports",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: EditMyReports",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ExportReport",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ExportReport",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "RunReports",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: RunReports",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "SubscribeDashboardRolesGrps",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: SubscribeDashboardRolesGrps",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "SubscribeDashboardToOtherUsers",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: SubscribeDashboardToOtherUsers",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "SubscribeReportRolesGrps",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: SubscribeReportRolesGrps",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "SubscribeReportToOtherUsers",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: SubscribeReportToOtherUsers",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "SubscribeToLightningDashboards",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: SubscribeToLightningDashboards",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "SubscribeToLightningReports",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: SubscribeToLightningReports",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ViewMyTeamsDashboards",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ViewMyTeamsDashboards",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ViewPublicDashboards",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ViewPublicDashboards",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
+        "text": "ViewPublicReports",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "Name: ViewPublicReports",
+            "icon": "",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Enabled: true",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
