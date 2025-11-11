@@ -13,23 +13,23 @@ hide:
 graph TD
 Quality_Assurance_QA__c["Quality Assurance (QA)"]:::customObject
 click Quality_Assurance_QA__c "/objects/Quality_Assurance_QA__c/"
-QA_Question_Info__c["QA Question Info"]:::customObject
-click QA_Question_Info__c "/objects/QA_Question_Info__c/"
 QA_Design__c["QA Design"]:::customObject
 click QA_Design__c "/objects/QA_Design__c/"
+QA_Question_Info__c["QA Question Info"]:::customObject
+click QA_Question_Info__c "/objects/QA_Question_Info__c/"
 QA_Design_Version__c["QA Design Version"]:::mainObject
 click QA_Design_Version__c "/objects/QA_Design_Version__c/"
 
+QA_Design_Version__c ==>|QA_Design__c| QA_Design__c
 Quality_Assurance_QA__c -->|QA_Design_Version__c| QA_Design_Version__c
 QA_Question_Info__c ==>|QA_Design__c| QA_Design_Version__c
-QA_Design_Version__c ==>|QA_Design__c| QA_Design__c
 
 classDef object fill:#D6E9FF,stroke:#0070D2,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef customObject fill:#FFF4C2,stroke:#CCAA00,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef customObjectManaged fill:#FFD8B2,stroke:#CC5500,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef mainObject fill:#FFB3B3,stroke:#A94442,stroke-width:4px,rx:14px,ry:14px,shadow:drop,color:#333,font-weight:bold;
-linkStyle 1,2 stroke:#4C9F70,stroke-width:4px;
-linkStyle 0 stroke:#A6A6A6,stroke-width:2px;
+linkStyle 0,2 stroke:#4C9F70,stroke-width:4px;
+linkStyle 1 stroke:#A6A6A6,stroke-width:2px;
 
 ```
 

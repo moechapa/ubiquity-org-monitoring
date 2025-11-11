@@ -17,20 +17,20 @@ User["User"]:::object
 click User "/objects/User/"
 Transition__c["Transition"]:::customObject
 click Transition__c "/objects/Transition__c/"
-Saver_Rate__c["Saver Rate"]:::customObject
-click Saver_Rate__c "/objects/Saver_Rate__c/"
 Reviews__c["Review"]:::customObject
 click Reviews__c "/objects/Reviews__c/"
+Saver_Rate__c["Saver Rate"]:::customObject
+click Saver_Rate__c "/objects/Saver_Rate__c/"
 Products_Services__c["Products & Services"]:::customObject
 click Products_Services__c "/objects/Products_Services__c/"
 Product_Subscription__c["Product/Subscription"]:::customObject
 click Product_Subscription__c "/objects/Product_Subscription__c/"
 Plan__c["Plan"]:::mainObject
 click Plan__c "/objects/Plan__c/"
-Plan_Assets__c["Plan Assets"]:::customObject
-click Plan_Assets__c "/objects/Plan_Assets__c/"
 Plan_Amendment__c["Plan Amendment"]:::customObject
 click Plan_Amendment__c "/objects/Plan_Amendment__c/"
+Plan_Assets__c["Plan Assets"]:::customObject
+click Plan_Assets__c "/objects/Plan_Assets__c/"
 Opportunity["Opportunity"]:::object
 click Opportunity "/objects/Opportunity/"
 MessagingSession["MessagingSession"]:::object
@@ -68,27 +68,27 @@ click Account "/objects/Account/"
 
 simplesurvey__Survey__c -->|Plan__c| Plan__c
 Transition__c -->|Plan__c| Plan__c
-Saver_Rate__c ==>|Plan__c| Plan__c
 Reviews__c -->|Plan__c| Plan__c
+Saver_Rate__c ==>|Plan__c| Plan__c
 Product_Subscription__c -->|Plan__c| Plan__c
 Plan_Assets__c ==>|Plan__c| Plan__c
-Plan_Amendment__c ==>|Plan__c| Plan__c
 Plan__c -->|Sales_Person__c| User
 Plan__c -->|Products_Services__c| Products_Services__c
 Plan__c -->|Opportunity__c| Opportunity
 Plan__c -->|Implementation__c| Implementation__c
 Plan__c -->|CARES_Act_Distribution_Signer__c| Contact
 Plan__c -->|Account__c| Account
+Plan_Amendment__c ==>|Plan__c| Plan__c
 Opportunity -->|Plan__c| Plan__c
 MessagingSession -->|Plan__c| Plan__c
 Implementation__c -->|Plan__c| Plan__c
-Fund_List__c -->|Plan__c| Plan__c
 Fund_Lineup_Change__c -->|Plan__c| Plan__c
+Fund_List__c -->|Plan__c| Plan__c
 Escalation__c -->|Plan__c| Plan__c
 Enrollment_Meeting__c -->|Plan__c| Plan__c
 Compliance__c -->|Plan__c| Plan__c
-Client_Health_Score__c ==>|Plan__c| Plan__c
 Client_Health_Check__c -->|Plan__c| Plan__c
+Client_Health_Score__c ==>|Plan__c| Plan__c
 Case -->|Plan__c| Plan__c
 Calculation__c -->|Plan__c| Plan__c
 Associated_Partner__c -->|Plan__c| Plan__c
@@ -99,8 +99,8 @@ classDef object fill:#D6E9FF,stroke:#0070D2,stroke-width:3px,rx:12px,ry:12px,sha
 classDef customObject fill:#FFF4C2,stroke:#CCAA00,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef customObjectManaged fill:#FFD8B2,stroke:#CC5500,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef mainObject fill:#FFB3B3,stroke:#A94442,stroke-width:4px,rx:14px,ry:14px,shadow:drop,color:#333,font-weight:bold;
-linkStyle 2,5,6,21 stroke:#4C9F70,stroke-width:4px;
-linkStyle 0,1,3,4,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,23,24,25,26,27 stroke:#A6A6A6,stroke-width:2px;
+linkStyle 3,5,12,22 stroke:#4C9F70,stroke-width:4px;
+linkStyle 0,1,2,4,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,23,24,25,26,27 stroke:#A6A6A6,stroke-width:2px;
 
 ```
 

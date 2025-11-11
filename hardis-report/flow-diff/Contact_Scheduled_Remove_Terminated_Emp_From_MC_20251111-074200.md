@@ -1,0 +1,104 @@
+# Contact | Scheduled | Remove Terminated Emp. From MC
+
+## Flow Diagram [(_View History_)](Contact_Scheduled_Remove_Terminated_Emp_From_MC-history.md)
+
+```mermaid
+%% If you read this, your Markdown visualizer does not handle MermaidJS syntax.
+%% - If you are in VS Code, install extension `Markdown Preview Mermaid Support` at https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
+%% - If you are using sfdx-hardis, try to define env variable `MERMAID_MODES=cli,docker` ,then run again the command to regenerate markdown with SVG images.
+%% - If you are within mkdocs-material, define mermaid plugin in `mkdocs.yml` as described in https://squidfunk.github.io/mkdocs-material/extensions/mermaid/
+%% - As a last resort, you can copy-paste this MermaidJS code into https://mermaid.live/ to see the flow diagram
+
+flowchart TB
+START(["START<br/><b>AutoLaunched Flow</b></br>Type: <b> Scheduled</b>"]):::startClass
+click START "#general-information" "3805436857"
+
+Remove_from_MC[("🛠️ <em></em><br/>Remove from MC")]:::recordUpdates
+click Remove_from_MC "#remove_from_mc" "1071539509"
+
+Remove_from_MC --> END_Remove_from_MC
+START -->  Remove_from_MC
+END_Remove_from_MC(( END )):::endClass
+
+
+classDef actionCalls fill:#D4E4FC,color:black,text-decoration:none,max-height:100px
+classDef assignments fill:#FBEED7,color:black,text-decoration:none,max-height:100px
+classDef collectionProcessors fill:#F0E3FA,color:black,text-decoration:none,max-height:100px
+classDef customErrors fill:#FFE9E9,color:black,text-decoration:none,max-height:100px
+classDef decisions fill:#FDEAF6,color:black,text-decoration:none,max-height:100px
+classDef loops fill:#FDEAF6,color:black,text-decoration:none,max-height:100px
+classDef recordCreates fill:#FFF8C9,color:black,text-decoration:none,max-height:100px
+classDef recordDeletes fill:#FFF8C9,color:black,text-decoration:none,max-height:100px
+classDef recordLookups fill:#EDEAFF,color:black,text-decoration:none,max-height:100px
+classDef recordUpdates fill:#FFF8C9,color:black,text-decoration:none,max-height:100px
+classDef screens fill:#DFF6FF,color:black,text-decoration:none,max-height:100px
+classDef subflows fill:#D4E4FC,color:black,text-decoration:none,max-height:100px
+classDef startClass fill:#D9F2E6,color:black,text-decoration:none,max-height:100px
+classDef endClass fill:#F9BABA,color:black,text-decoration:none,max-height:100px
+classDef transforms fill:#FDEAF6,color:black,text-decoration:none,max-height:100px
+
+
+```
+
+<!-- Flow description -->
+
+## General Information
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Object|Contact|
+|Process Type| Auto Launched Flow|
+|Trigger Type| Scheduled|
+|Label|Contact | Scheduled | Remove Terminated Emp. From MC|
+|Status|Active|
+|Environments|Default|
+|Interview Label|Contact | Scheduled | Remove Terminated Emp. From MC {!$Flow.CurrentDateTime}|
+| Builder Type (PM)|LightningFlowBuilder|
+| Canvas Mode (PM)|AUTO_LAYOUT_CANVAS|
+| Origin Builder Type (PM)|LightningFlowBuilder|
+|Connector|[Remove_from_MC](#remove_from_mc)|
+|Next Node|[Remove_from_MC](#remove_from_mc)|
+
+
+#### Schedules
+
+|Frequency|Start Date|Start Time|
+|:-- |:--:|:--: |
+|Daily|Jul 28, 2023|04:00|
+
+
+#### Filters (logic: **and**)
+
+|Filter Id|Field|Operator|Value|
+|:-- |:-- |:--:|:--: |
+|1|Termination_Date__c| Is Null|<!-- -->|
+|2|MC_Removal__c| Equal To|⬜|
+
+
+## Flow Nodes Details
+
+### Remove_from_MC
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Record Update|
+|Label|Remove from MC|
+|Input Reference|$Record|
+
+
+#### Input Assignments
+
+|Field|Value|
+|:-- |:--: |
+|MC_Removal__c|✅|
+
+
+
+
+
+
+
+
+___
+
+_Documentation generated from branch monitoring_myubiquity by [sfdx-hardis](https://sfdx-hardis.cloudity.com), featuring [salesforce-flow-visualiser](https://github.com/toddhalfpenny/salesforce-flow-visualiser)_

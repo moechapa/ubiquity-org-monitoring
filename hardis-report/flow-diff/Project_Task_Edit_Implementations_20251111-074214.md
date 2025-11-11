@@ -1,0 +1,1240 @@
+# Project Task | Process | Complete Tasks
+
+## Flow Diagram [(_View History_)](Project_Task_Edit_Implementations-history.md)
+
+```mermaid
+%% If you read this, your Markdown visualizer does not handle MermaidJS syntax.
+%% - If you are in VS Code, install extension `Markdown Preview Mermaid Support` at https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
+%% - If you are using sfdx-hardis, try to define env variable `MERMAID_MODES=cli,docker` ,then run again the command to regenerate markdown with SVG images.
+%% - If you are within mkdocs-material, define mermaid plugin in `mkdocs.yml` as described in https://squidfunk.github.io/mkdocs-material/extensions/mermaid/
+%% - As a last resort, you can copy-paste this MermaidJS code into https://mermaid.live/ to see the flow diagram
+
+flowchart TB
+START(["START<br/><b>AutoLaunched Flow</b></br>"]):::startClass
+click START "#general-information" "328646818"
+
+Add_to_Collection[\"🟰 <em></em><br/>Add to Collection"/]:::assignments
+click Add_to_Collection "#add_to_collection" "1625659100"
+
+Assign_Current_User[\"🟰 <em></em><br/>Assign Current User"/]:::assignments
+click Assign_Current_User "#assign_current_user" "2877944160"
+
+Assign_Imp_Owner_0[\"🟰 <em></em><br/>Assign Imp Owner"/]:::assignments
+click Assign_Imp_Owner_0 "#assign_imp_owner_0" "2597228380"
+
+Assign_New_Values[\"🟰 <em></em><br/>Assign New Values"/]:::assignments
+click Assign_New_Values "#assign_new_values" "508665610"
+
+Assign_New_Values_0[\"🟰 <em></em><br/>Assign New Values"/]:::assignments
+click Assign_New_Values_0 "#assign_new_values_0" "4224471856"
+
+Assign_New_Values_0_0[\"🟰 <em></em><br/>Assign New Values"/]:::assignments
+click Assign_New_Values_0_0 "#assign_new_values_0_0" "2685140694"
+
+Assign_Static_Owner[\"🟰 <em></em><br/>Assign Static Owner"/]:::assignments
+click Assign_Static_Owner "#assign_static_owner" "744064538"
+
+Creation_Collection[\"🟰 <em></em><br/>Creation Collection"/]:::assignments
+click Creation_Collection "#creation_collection" "2326611067"
+
+Imp_Owner[\"🟰 <em></em><br/>Imp Owner"/]:::assignments
+click Imp_Owner "#imp_owner" "3557489953"
+
+Trans_Owner[\"🟰 <em></em><br/>Trans Owner"/]:::assignments
+click Trans_Owner "#trans_owner" "124357399"
+
+Update_Collection[\"🟰 <em></em><br/>Update Collection"/]:::assignments
+click Update_Collection "#update_collection" "2011991994"
+
+Actual_Completion_Entered{"🔀 <em></em><br/>Actual Completion Entered"}:::decisions
+click Actual_Completion_Entered "#actual_completion_entered" "2030246475"
+
+Actual_Start_Date_Entered{"🔀 <em></em><br/>Actual Start Date Entered"}:::decisions
+click Actual_Start_Date_Entered "#actual_start_date_entered" "328940400"
+
+Assign_Owner_of_Current_Controlling_Record{"🔀 <em></em><br/>Assign Owner of Current Controlling Record?"}:::decisions
+click Assign_Owner_of_Current_Controlling_Record "#assign_owner_of_current_controlling_record" "1278159733"
+
+Connected_Object{"🔀 <em></em><br/>Connected Object"}:::decisions
+click Connected_Object "#connected_object" "2282266268"
+
+Create_Empty{"🔀 <em></em><br/>Create Empty?"}:::decisions
+click Create_Empty "#create_empty" "4260985023"
+
+Dupe_Found{"🔀 <em></em><br/>Dupe Found?"}:::decisions
+click Dupe_Found "#dupe_found" "1941166524"
+
+Existing_Task_Completed{"🔀 <em></em><br/>Existing Task Completed?"}:::decisions
+click Existing_Task_Completed "#existing_task_completed" "4103480029"
+
+Existing_Task_or_New_Task{"🔀 <em></em><br/>Existing Task or New Task?"}:::decisions
+click Existing_Task_or_New_Task "#existing_task_or_new_task" "1650217078"
+
+Incomplete_Tasks_Found{"🔀 <em></em><br/>Incomplete Tasks Found?"}:::decisions
+click Incomplete_Tasks_Found "#incomplete_tasks_found" "67918457"
+
+Next_Action_is_Null{"🔀 <em></em><br/>Next Action is Null"}:::decisions
+click Next_Action_is_Null "#next_action_is_null" "1146811555"
+
+Owned_by_Queue{"🔀 <em></em><br/>Owned by Queue"}:::decisions
+click Owned_by_Queue "#owned_by_queue" "1822911822"
+
+Owned_by_Queue_0{"🔀 <em></em><br/>Owned by Queue"}:::decisions
+click Owned_by_Queue_0 "#owned_by_queue_0" "893864036"
+
+Part_of_a_Non_Linear_Progression_Group{"🔀 <em></em><br/>Part of a Non-Linear Progression Group"}:::decisions
+click Part_of_a_Non_Linear_Progression_Group "#part_of_a_non_linear_progression_group" "845399683"
+
+Ready_or_In_Progress_Upon_Activation{"🔀 <em></em><br/>Ready or In Progress Upon Activation?"}:::decisions
+click Ready_or_In_Progress_Upon_Activation "#ready_or_in_progress_upon_activation" "398426663"
+
+Update_Empty{"🔀 <em></em><br/>Update Empty?"}:::decisions
+click Update_Empty "#update_empty" "2237687314"
+
+Affected_Deliverable_Loop{{"🔁 <em></em><br/>Affected Deliverable Loop"}}:::loops
+click Affected_Deliverable_Loop "#affected_deliverable_loop" "1820763878"
+
+Find_Duplicate_Task{{"🔁 <em></em><br/>Find Duplicate Task"}}:::loops
+click Find_Duplicate_Task "#find_duplicate_task" "1805071504"
+
+Get_Tasks_to_Activate{{"🔁 <em></em><br/>Get Tasks to Activate"}}:::loops
+click Get_Tasks_to_Activate "#get_tasks_to_activate" "2474635967"
+
+Create_Tasks[("➕ <em></em><br/>Create Tasks")]:::recordCreates
+click Create_Tasks "#create_tasks" "747308403"
+
+Get_Existing_Task[("🔍 <em></em><br/>Get Existing Task")]:::recordLookups
+click Get_Existing_Task "#get_existing_task" "935820117"
+
+Get_Incomplete_Tasks[("🔍 <em></em><br/>Get Incomplete Tasks")]:::recordLookups
+click Get_Incomplete_Tasks "#get_incomplete_tasks" "12995469"
+
+Get_PD[("🔍 <em></em><br/>Get PD")]:::recordLookups
+click Get_PD "#get_pd" "1892793509"
+
+Get_PDs_to_Activate[("🔍 <em></em><br/>Get PDs to Activate")]:::recordLookups
+click Get_PDs_to_Activate "#get_pds_to_activate" "3830240022"
+
+Get_PDs_to_Activate_0[("🔍 <em></em><br/>Get PDs to Activate")]:::recordLookups
+click Get_PDs_to_Activate_0 "#get_pds_to_activate_0" "3542518978"
+
+Get_Task[("🔍 <em></em><br/>Get Task")]:::recordLookups
+click Get_Task "#get_task" "374635781"
+
+Update_Existing[("🛠️ <em></em><br/>Update Existing")]:::recordUpdates
+click Update_Existing "#update_existing" "3736929931"
+
+Update_Status_to_In_Progress[("🛠️ <em></em><br/>Update Status to In Progress")]:::recordUpdates
+click Update_Status_to_In_Progress "#update_status_to_in_progress" "2843337716"
+
+Update_Status_to_In_Progress_0[("🛠️ <em></em><br/>Update Status to In Progress")]:::recordUpdates
+click Update_Status_to_In_Progress_0 "#update_status_to_in_progress_0" "1469109136"
+
+Add_to_Collection --> Get_Tasks_to_Activate
+Assign_Current_User --> Ready_or_In_Progress_Upon_Activation
+Assign_Imp_Owner_0 --> Ready_or_In_Progress_Upon_Activation
+Assign_New_Values --> Find_Duplicate_Task
+Assign_New_Values_0 --> Find_Duplicate_Task
+Assign_New_Values_0_0 --> Find_Duplicate_Task
+Assign_Static_Owner --> Ready_or_In_Progress_Upon_Activation
+Creation_Collection --> Affected_Deliverable_Loop
+Imp_Owner --> Owned_by_Queue_0
+Trans_Owner --> Owned_by_Queue_0
+Update_Collection --> Affected_Deliverable_Loop
+Actual_Completion_Entered --> |"Yes"| Part_of_a_Non_Linear_Progression_Group
+Actual_Completion_Entered --> |"No"| END_Actual_Completion_Entered
+Actual_Start_Date_Entered --> |"Yes"| Owned_by_Queue
+Actual_Start_Date_Entered --> |"No"| Actual_Completion_Entered
+Assign_Owner_of_Current_Controlling_Record --> |"Yes"| Connected_Object
+Assign_Owner_of_Current_Controlling_Record --> |"No"| Assign_Static_Owner
+Connected_Object --> |"Transition"| Trans_Owner
+Connected_Object --> |"Implementation"| Imp_Owner
+Connected_Object --> |"Default Outcome"| END_Connected_Object
+Create_Empty --> |"No"| Create_Tasks
+Dupe_Found --> |"No"| Find_Duplicate_Task
+Existing_Task_Completed --> |"Yes"| Get_Tasks_to_Activate
+Existing_Task_Completed --> |"No"| Assign_Owner_of_Current_Controlling_Record
+Existing_Task_or_New_Task --> |"Existing"| Update_Collection
+Existing_Task_or_New_Task --> |"New"| Creation_Collection
+Incomplete_Tasks_Found --> |"Yes"| Get_PDs_to_Activate_0
+Incomplete_Tasks_Found --> |"No"| Get_PDs_to_Activate
+Next_Action_is_Null --> |"No"| Get_Tasks_to_Activate
+Owned_by_Queue --> |"Yes"| Update_Status_to_In_Progress_0
+Owned_by_Queue --> |"No"| Update_Status_to_In_Progress
+Owned_by_Queue_0 --> |"Yes"| Assign_Current_User
+Owned_by_Queue_0 --> |"No"| Assign_Imp_Owner_0
+Part_of_a_Non_Linear_Progression_Group --> |"Yes"| Get_Incomplete_Tasks
+Part_of_a_Non_Linear_Progression_Group --> |"No"| Get_PDs_to_Activate
+Ready_or_In_Progress_Upon_Activation --> |"Not Needed/Declined"| Assign_New_Values_0
+Ready_or_In_Progress_Upon_Activation --> |"Ready"| Assign_New_Values_0_0
+Ready_or_In_Progress_Upon_Activation --> |"In Progress"| Assign_New_Values
+Ready_or_In_Progress_Upon_Activation --> |"Skip Task"| Find_Duplicate_Task
+Update_Empty --> |"Yes"| Create_Empty
+Update_Empty --> |"No"| Update_Existing
+Affected_Deliverable_Loop --> |"For Each"|Existing_Task_or_New_Task
+Affected_Deliverable_Loop ---> |"After Last"|Update_Empty
+Find_Duplicate_Task --> |"For Each"|Dupe_Found
+Find_Duplicate_Task ---> |"After Last"|Add_to_Collection
+Get_Tasks_to_Activate --> |"For Each"|Get_PD
+Get_Tasks_to_Activate ---> |"After Last"|Affected_Deliverable_Loop
+Create_Tasks --> END_Create_Tasks
+Get_Existing_Task --> Existing_Task_Completed
+Get_Incomplete_Tasks --> Incomplete_Tasks_Found
+Get_PD --> Get_Existing_Task
+Get_PDs_to_Activate --> Next_Action_is_Null
+Get_PDs_to_Activate_0 --> Next_Action_is_Null
+Get_Task --> Actual_Start_Date_Entered
+Update_Existing --> Create_Empty
+Update_Status_to_In_Progress --> Actual_Completion_Entered
+Update_Status_to_In_Progress_0 --> Actual_Completion_Entered
+START -->  Get_Task
+END_Actual_Completion_Entered(( END )):::endClass
+END_Connected_Object(( END )):::endClass
+END_Create_Tasks(( END )):::endClass
+
+
+classDef actionCalls fill:#D4E4FC,color:black,text-decoration:none,max-height:100px
+classDef assignments fill:#FBEED7,color:black,text-decoration:none,max-height:100px
+classDef collectionProcessors fill:#F0E3FA,color:black,text-decoration:none,max-height:100px
+classDef customErrors fill:#FFE9E9,color:black,text-decoration:none,max-height:100px
+classDef decisions fill:#FDEAF6,color:black,text-decoration:none,max-height:100px
+classDef loops fill:#FDEAF6,color:black,text-decoration:none,max-height:100px
+classDef recordCreates fill:#FFF8C9,color:black,text-decoration:none,max-height:100px
+classDef recordDeletes fill:#FFF8C9,color:black,text-decoration:none,max-height:100px
+classDef recordLookups fill:#EDEAFF,color:black,text-decoration:none,max-height:100px
+classDef recordUpdates fill:#FFF8C9,color:black,text-decoration:none,max-height:100px
+classDef screens fill:#DFF6FF,color:black,text-decoration:none,max-height:100px
+classDef subflows fill:#D4E4FC,color:black,text-decoration:none,max-height:100px
+classDef startClass fill:#D9F2E6,color:black,text-decoration:none,max-height:100px
+classDef endClass fill:#F9BABA,color:black,text-decoration:none,max-height:100px
+classDef transforms fill:#FDEAF6,color:black,text-decoration:none,max-height:100px
+
+
+```
+
+<!-- Flow description -->
+
+## General Information
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Process Type| Auto Launched Flow|
+|Label|Project Task | Process | Complete Tasks|
+|Status|Obsolete|
+|Description|Adds update to Implementation Completion Date task #16.   "Owned By Queue" Decision = YES results in task owner/assigned changed to Running User instead of changing to Imp Owner.   Imp Owner remains Client Support and any CST can update tasks.   SF can't change project task owner/assigned (user fields 005) to Queue owner (00G)|
+|Interview Label|Project Task Edit - Implementations {!$Flow.CurrentDateTime}|
+| Builder Type (PM)|LightningFlowBuilder|
+| Canvas Mode (PM)|FREE_FORM_CANVAS|
+| Origin Builder Type (PM)|LightningFlowBuilder|
+|Connector|[Get_Task](#get_task)|
+|Next Node|[Get_Task](#get_task)|
+
+
+## Variables
+
+|Name|Data Type|Is Collection|Is Input|Is Output|Object Type|Description|
+|:-- |:--:|:--:|:--:|:--:|:--:|:--  |
+|CreationCollection|SObject|✅|✅|✅|Project_Task__c|<!-- -->|
+|existingTask|SObject|⬜|✅|✅|Project_Task__c|<!-- -->|
+|incompleteTask|SObject|⬜|✅|✅|Project_Task__c|<!-- -->|
+|loopVar|SObject|⬜|✅|✅|Project_Task__c|<!-- -->|
+|newTask|SObject|⬜|✅|✅|Project_Task__c|<!-- -->|
+|newTaskCollection|SObject|✅|✅|✅|Project_Task__c|<!-- -->|
+|nextActions|SObject|✅|✅|✅|Required_Action__c|<!-- -->|
+|ownerId|String|⬜|✅|✅|<!-- -->|<!-- -->|
+|recordId|String|⬜|✅|✅|<!-- -->|<!-- -->|
+|taskCollection|SObject|✅|✅|✅|Project_Task__c|<!-- -->|
+|toUpdate|SObject|✅|✅|✅|Project_Task__c|<!-- -->|
+|updateCollection|SObject|✅|✅|✅|Project_Task__c|<!-- -->|
+|updateIds|SObject|✅|✅|✅|Project_Task__c|<!-- -->|
+
+
+## Formulas
+
+|Name|Data Type|Expression|Description|
+|:-- |:--:|:-- |:--  |
+|expectedEnd|Date|{!expectedStart}+{!Get_PD.Days_to_Complete__c}|<!-- -->|
+|expectedStart|Date|{!Get_Task.Implementation__r.CreatedDate}+{!Get_PD.Expected_Start_Days_from_Creation__c}|<!-- -->|
+
+
+## Flow Nodes Details
+
+### Add_to_Collection
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Assignment|
+|Label|Add to Collection|
+|Connector|[Get_Tasks_to_Activate](#get_tasks_to_activate)|
+
+
+#### Assignments
+
+|Assign To Reference|Operator|Value|
+|:-- |:--:|:--: |
+|newTaskCollection| Add|newTask|
+
+
+
+
+### Assign_Current_User
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Assignment|
+|Label|Assign Current User|
+|Connector|[Ready_or_In_Progress_Upon_Activation](#ready_or_in_progress_upon_activation)|
+
+
+#### Assignments
+
+|Assign To Reference|Operator|Value|
+|:-- |:--:|:--: |
+|newTask.OwnerId| Assign|$User.Id|
+|newTask.Assigned_To__c| Assign|$User.Id|
+
+
+
+
+### Assign_Imp_Owner_0
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Assignment|
+|Label|Assign Imp Owner|
+|Connector|[Ready_or_In_Progress_Upon_Activation](#ready_or_in_progress_upon_activation)|
+
+
+#### Assignments
+
+|Assign To Reference|Operator|Value|
+|:-- |:--:|:--: |
+|newTask.OwnerId| Assign|ownerId|
+|newTask.Assigned_To__c| Assign|ownerId|
+
+
+
+
+### Assign_New_Values
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Assignment|
+|Label|Assign New Values|
+|Connector|[Find_Duplicate_Task](#find_duplicate_task)|
+
+
+#### Assignments
+
+|Assign To Reference|Operator|Value|
+|:-- |:--:|:--: |
+|newTask.Status__c| Assign|Get_PD.Status_Upon_Activation__c|
+|newTask.Actual_Start_Date__c| Assign|Get_Task.Actual_Completion_Date__c|
+|newTask.Name| Assign|Get_PD.Name|
+|newTask.Implementation__c| Assign|Get_Task.Implementation__c|
+|newTask.KPI_Milestone__c| Assign|Get_PD.KPI_Milestone__c|
+|newTask.Responsible_Party__c| Assign|Get_PD.Responsible_Party__c|
+|newTask.Order_Number__c| Assign|Get_PD.Order_Number__c|
+|newTask.Project_Deliverable__c| Assign|Get_PD.Id|
+|newTask.Expected_Start_Date__c| Assign|expectedStart|
+|newTask.Expected_Completion_Date__c| Assign|expectedEnd|
+|newTask.Transition__c| Assign|Get_Task.Transition__c|
+|newTask.Opportunity__c| Assign|Get_Task.Opportunity__c|
+|newTask.Add_On_Product__c| Assign|Get_Task.Add_On_Product__c|
+|newTask.Team_Member__c| Assign|Get_PD.Team_Member__c|
+
+
+
+
+### Assign_New_Values_0
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Assignment|
+|Label|Assign New Values|
+|Connector|[Find_Duplicate_Task](#find_duplicate_task)|
+
+
+#### Assignments
+
+|Assign To Reference|Operator|Value|
+|:-- |:--:|:--: |
+|newTask.Status__c| Assign|Get_Task.Status__c|
+|newTask.Actual_Start_Date__c| Assign|Get_Task.Actual_Completion_Date__c|
+|newTask.Name| Assign|Get_PD.Name|
+|newTask.Implementation__c| Assign|Get_Task.Implementation__c|
+|newTask.KPI_Milestone__c| Assign|Get_PD.KPI_Milestone__c|
+|newTask.Responsible_Party__c| Assign|Get_PD.Responsible_Party__c|
+|newTask.Order_Number__c| Assign|Get_PD.Order_Number__c|
+|newTask.Project_Deliverable__c| Assign|Get_PD.Id|
+|newTask.Expected_Start_Date__c| Assign|expectedStart|
+|newTask.Expected_Completion_Date__c| Assign|expectedEnd|
+|newTask.Actual_Completion_Date__c| Assign|Get_Task.Actual_Completion_Date__c|
+|newTask.Transition__c| Assign|Get_Task.Transition__c|
+|newTask.Opportunity__c| Assign|Get_Task.Opportunity__c|
+|newTask.Add_On_Product__c| Assign|Get_Task.Add_On_Product__c|
+|newTask.Team_Member__c| Assign|Get_PD.Team_Member__c|
+
+
+
+
+### Assign_New_Values_0_0
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Assignment|
+|Label|Assign New Values|
+|Connector|[Find_Duplicate_Task](#find_duplicate_task)|
+
+
+#### Assignments
+
+|Assign To Reference|Operator|Value|
+|:-- |:--:|:--: |
+|newTask.Status__c| Assign|Get_PD.Status_Upon_Activation__c|
+|newTask.Name| Assign|Get_PD.Name|
+|newTask.Implementation__c| Assign|Get_Task.Implementation__c|
+|newTask.KPI_Milestone__c| Assign|Get_PD.KPI_Milestone__c|
+|newTask.Responsible_Party__c| Assign|Get_PD.Responsible_Party__c|
+|newTask.Order_Number__c| Assign|Get_PD.Order_Number__c|
+|newTask.Project_Deliverable__c| Assign|Get_PD.Id|
+|newTask.Expected_Start_Date__c| Assign|expectedStart|
+|newTask.Expected_Completion_Date__c| Assign|expectedEnd|
+|newTask.Actual_Start_Date__c| Assign|Get_Task.Actual_Completion_Date__c|
+|newTask.Transition__c| Assign|Get_Task.Transition__c|
+|newTask.Opportunity__c| Assign|Get_Task.Opportunity__c|
+|newTask.Add_On_Product__c| Assign|Get_Task.Add_On_Product__c|
+|newTask.Team_Member__c| Assign|Get_PD.Team_Member__c|
+
+
+
+
+### Assign_Static_Owner
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Assignment|
+|Label|Assign Static Owner|
+|Connector|[Ready_or_In_Progress_Upon_Activation](#ready_or_in_progress_upon_activation)|
+
+
+#### Assignments
+
+|Assign To Reference|Operator|Value|
+|:-- |:--:|:--: |
+|newTask.OwnerId| Assign|Get_PD.Assigned_To__c|
+|newTask.Assigned_To__c| Assign|Get_PD.Assigned_To__c|
+
+
+
+
+### Creation_Collection
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Assignment|
+|Label|Creation Collection|
+|Connector|[Affected_Deliverable_Loop](#affected_deliverable_loop)|
+
+
+#### Assignments
+
+|Assign To Reference|Operator|Value|
+|:-- |:--:|:--: |
+|CreationCollection| Add|[Affected_Deliverable_Loop](#affected_deliverable_loop)|
+
+
+
+
+### Imp_Owner
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Assignment|
+|Label|Imp Owner|
+|Connector|[Owned_by_Queue_0](#owned_by_queue_0)|
+
+
+#### Assignments
+
+|Assign To Reference|Operator|Value|
+|:-- |:--:|:--: |
+|ownerId| Assign|Get_Task.Implementation__r.OwnerId|
+|newTask.RecordTypeId| Assign|0121G000000TjhAQAS|
+
+
+
+
+### Trans_Owner
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Assignment|
+|Label|Trans Owner|
+|Connector|[Owned_by_Queue_0](#owned_by_queue_0)|
+
+
+#### Assignments
+
+|Assign To Reference|Operator|Value|
+|:-- |:--:|:--: |
+|ownerId| Assign|Get_Task.Transition__r.OwnerId|
+|newTask.RecordTypeId| Assign|0121G000000RlRgQAK|
+
+
+
+
+### Update_Collection
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Assignment|
+|Label|Update Collection|
+|Connector|[Affected_Deliverable_Loop](#affected_deliverable_loop)|
+
+
+#### Assignments
+
+|Assign To Reference|Operator|Value|
+|:-- |:--:|:--: |
+|updateCollection| Add|[Affected_Deliverable_Loop](#affected_deliverable_loop)|
+
+
+
+
+### Actual_Completion_Entered
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Decision|
+|Label|Actual Completion Entered|
+|Default Connector Label|No|
+
+
+#### Rule YesCompetion (Yes)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Connector|[Part_of_a_Non_Linear_Progression_Group](#part_of_a_non_linear_progression_group)|
+|Condition Logic|(1 AND 2) OR (1 AND 3) OR (1 AND 4)|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|Get_Task.Actual_Completion_Date__c| Is Null|⬜|
+|2|Get_Task.Status__c| Equal To|Completed|
+|3|Get_Task.Status__c| Equal To|Not Needed|
+|4|Get_Task.Status__c| Equal To|Declined|
+
+
+
+
+### Actual_Start_Date_Entered
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Decision|
+|Label|Actual Start Date Entered|
+|Default Connector|[Actual_Completion_Entered](#actual_completion_entered)|
+|Default Connector Label|No|
+
+
+#### Rule YesActual (Yes)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Connector|[Owned_by_Queue](#owned_by_queue)|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|Get_Task.Actual_Start_Date__c| Is Null|⬜|
+|2|Get_Task.Actual_Completion_Date__c| Is Null|✅|
+|3|Get_Task.Status__c| Not Equal To|In Progress|
+|4|Get_Task.Status__c| Not Equal To|Not Needed|
+|5|Get_Task.Status__c| Not Equal To|Declined|
+
+
+
+
+### Assign_Owner_of_Current_Controlling_Record
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Decision|
+|Label|Assign Owner of Current Controlling Record?|
+|Default Connector|[Assign_Static_Owner](#assign_static_owner)|
+|Default Connector Label|No|
+
+
+#### Rule YesCurrent (Yes)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Connector|[Connected_Object](#connected_object)|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|Get_PD.Assign_to_Current_Owner__c| Equal To|✅|
+
+
+
+
+### Connected_Object
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Decision|
+|Label|Connected Object|
+|Default Connector Label|Default Outcome|
+
+
+#### Rule Transition (Transition)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Connector|[Trans_Owner](#trans_owner)|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|Get_Task.Transition__c| Is Null|⬜|
+|2|Get_Task.Implementation__c| Is Null|✅|
+
+
+
+
+#### Rule Implementation (Implementation)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Connector|[Imp_Owner](#imp_owner)|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|Get_Task.Implementation__c| Is Null|⬜|
+|2|Get_Task.Transition__c| Is Null|✅|
+
+
+
+
+### Create_Empty
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Decision|
+|Label|Create Empty?|
+|Default Connector|[Create_Tasks](#create_tasks)|
+|Default Connector Label|No|
+
+
+#### Rule YesEmpty_0 (Yes)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|CreationCollection| Is Null|✅|
+
+
+
+
+### Dupe_Found
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Decision|
+|Label|Dupe Found?|
+|Default Connector|[Find_Duplicate_Task](#find_duplicate_task)|
+|Default Connector Label|No|
+
+
+#### Rule YesDupe (Yes)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|Find_Duplicate_Task.Project_Deliverable__c| Equal To|newTask.Project_Deliverable__c|
+
+
+
+
+### Existing_Task_Completed
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Decision|
+|Label|Existing Task Completed?|
+|Default Connector|[Assign_Owner_of_Current_Controlling_Record](#assign_owner_of_current_controlling_record)|
+|Default Connector Label|No|
+
+
+#### Rule YesCompleted (Yes)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Connector|[Get_Tasks_to_Activate](#get_tasks_to_activate)|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|newTask.Status__c| Equal To|Completed|
+
+
+
+
+### Existing_Task_or_New_Task
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Decision|
+|Label|Existing Task or New Task?|
+|Default Connector|[Creation_Collection](#creation_collection)|
+|Default Connector Label|New|
+
+
+#### Rule Existing (Existing)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Connector|[Update_Collection](#update_collection)|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|Affected_Deliverable_Loop.Id| Is Null|⬜|
+
+
+
+
+### Incomplete_Tasks_Found
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Decision|
+|Label|Incomplete Tasks Found?|
+|Default Connector|[Get_PDs_to_Activate](#get_pds_to_activate)|
+|Default Connector Label|No|
+
+
+#### Rule Yes (Yes)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Connector|[Get_PDs_to_Activate_0](#get_pds_to_activate_0)|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|incompleteTask.Id| Is Null|⬜|
+
+
+
+
+### Next_Action_is_Null
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Decision|
+|Label|Next Action is Null|
+|Default Connector|[Get_Tasks_to_Activate](#get_tasks_to_activate)|
+|Default Connector Label|No|
+
+
+#### Rule YesNull (Yes)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|nextActions| Is Null|✅|
+
+
+
+
+### Owned_by_Queue
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Decision|
+|Label|Owned by Queue|
+|Default Connector|[Update_Status_to_In_Progress](#update_status_to_in_progress)|
+|Default Connector Label|No|
+
+
+#### Rule YesQueue (Yes)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Connector|[Update_Status_to_In_Progress_0](#update_status_to_in_progress_0)|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|Get_Task.Implementation__r.OwnerId| Starts With|00G|
+
+
+
+
+### Owned_by_Queue_0
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Decision|
+|Label|Owned by Queue|
+|Default Connector|[Assign_Imp_Owner_0](#assign_imp_owner_0)|
+|Default Connector Label|No|
+
+
+#### Rule YesQueue_0 (Yes)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Connector|[Assign_Current_User](#assign_current_user)|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|ownerId| Starts With|00G|
+
+
+
+
+### Part_of_a_Non_Linear_Progression_Group
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Decision|
+|Label|Part of a Non-Linear Progression Group|
+|Default Connector|[Get_PDs_to_Activate](#get_pds_to_activate)|
+|Default Connector Label|No|
+
+
+#### Rule YesNonLinear (Yes)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Connector|[Get_Incomplete_Tasks](#get_incomplete_tasks)|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|Get_Task.Non_Linear_Progression_Group__c| Is Null|⬜|
+
+
+
+
+### Ready_or_In_Progress_Upon_Activation
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Decision|
+|Label|Ready or In Progress Upon Activation?|
+|Default Connector|[Find_Duplicate_Task](#find_duplicate_task)|
+|Default Connector Label|Skip Task|
+
+
+#### Rule Not_Needed_Declined (Not Needed/Declined)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Connector|[Assign_New_Values_0](#assign_new_values_0)|
+|Condition Logic|(1 OR 2) AND 3 AND 4 AND 5 AND 6|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|Get_Task.Status__c| Equal To|Not Needed|
+|2|Get_Task.Status__c| Equal To|Declined|
+|3|Get_Tasks_to_Activate.Not_Needed_Declined_at_Creation__c| Was Set|✅|
+|4|newTask.Status__c| Not Equal To|Completed|
+|5|newTask.Status__c| Not Equal To|Not Needed|
+|6|newTask.Status__c| Not Equal To|Declined|
+
+
+
+
+#### Rule Ready (Ready)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Connector|[Assign_New_Values_0_0](#assign_new_values_0_0)|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|Get_PD.Status_Upon_Activation__c| Equal To|Ready|
+|2|newTask.Status__c| Not Equal To|Completed|
+|3|newTask.Status__c| Not Equal To|Declined|
+|4|newTask.Status__c| Not Equal To|Not Needed|
+
+
+
+
+#### Rule In_Progress (In Progress)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Connector|[Assign_New_Values](#assign_new_values)|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|Get_PD.Status_Upon_Activation__c| Equal To|In Progress|
+|2|newTask.Status__c| Not Equal To|Completed|
+|3|newTask.Status__c| Not Equal To|Not Needed|
+|4|newTask.Status__c| Not Equal To|Declined|
+
+
+
+
+### Update_Empty
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Decision|
+|Label|Update Empty?|
+|Default Connector|[Update_Existing](#update_existing)|
+|Default Connector Label|No|
+
+
+#### Rule YesEmpty (Yes)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Connector|[Create_Empty](#create_empty)|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|updateCollection| Is Null|✅|
+
+
+
+
+### Affected_Deliverable_Loop
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Loop|
+|Label|Affected Deliverable Loop|
+|Collection Reference|newTaskCollection|
+|Iteration Order|Asc|
+|Next Value Connector|[Existing_Task_or_New_Task](#existing_task_or_new_task)|
+|No More Values Connector|[Update_Empty](#update_empty)|
+
+
+### Find_Duplicate_Task
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Loop|
+|Label|Find Duplicate Task|
+|Collection Reference|newTaskCollection|
+|Iteration Order|Asc|
+|Next Value Connector|[Dupe_Found](#dupe_found)|
+|No More Values Connector|[Add_to_Collection](#add_to_collection)|
+
+
+### Get_Tasks_to_Activate
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Loop|
+|Label|Get Tasks to Activate|
+|Collection Reference|nextActions|
+|Iteration Order|Asc|
+|Next Value Connector|[Get_PD](#get_pd)|
+|No More Values Connector|[Affected_Deliverable_Loop](#affected_deliverable_loop)|
+
+
+### Create_Tasks
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Record Create|
+|Label|Create Tasks|
+|Input Reference|CreationCollection|
+
+
+### Get_Existing_Task
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Record Lookup|
+|Object|Project_Task__c|
+|Label|Get Existing Task|
+|Assign Null Values If No Records Found|✅|
+|Output Assignments|- assignToReference: newTask.Id<br/>&nbsp;&nbsp;field: Id<br/>- assignToReference: newTask.Status__c<br/>&nbsp;&nbsp;field: Status__c<br/>|
+|Connector|[Existing_Task_Completed](#existing_task_completed)|
+
+
+#### Filters (logic: **1 AND ((2 AND 3) OR (4 AND 5))**)
+
+|Filter Id|Field|Operator|Value|
+|:-- |:-- |:--:|:--: |
+|1|Project_Deliverable__c| Equal To|Get_PD.Id|
+|2|Implementation__c| Equal To|Get_Task.Implementation__c|
+|3|Implementation__c| Is Null|<!-- -->|
+|4|Transition__c| Equal To|Get_Task.Transition__c|
+|5|Transition__c| Is Null|<!-- -->|
+
+
+
+
+### Get_Incomplete_Tasks
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Record Lookup|
+|Object|Project_Task__c|
+|Label|Get Incomplete Tasks|
+|Assign Null Values If No Records Found|✅|
+|Output Assignments|assignToReference: incompleteTask.Id<br/>field: Id<br/>|
+|Connector|[Incomplete_Tasks_Found](#incomplete_tasks_found)|
+
+
+#### Filters (logic: **1 AND 2 AND 3 AND 4 AND 5 AND ((6 AND 8) OR (7 AND 9))**)
+
+|Filter Id|Field|Operator|Value|
+|:-- |:-- |:--:|:--: |
+|1|Non_Linear_Progression_Group__c| Equal To|Get_Task.Non_Linear_Progression_Group__c|
+|2|Status__c| Not Equal To|Completed|
+|3|Status__c| Not Equal To|Not Needed|
+|4|Status__c| Not Equal To|Declined|
+|5|Non_Linear_Progression_Group__c| Is Null|<!-- -->|
+|6|Implementation__c| Equal To|Get_Task.Implementation__c|
+|7|Transition__c| Equal To|Get_Task.Transition__c|
+|8|Implementation__c| Is Null|<!-- -->|
+|9|Transition__c| Is Null|<!-- -->|
+
+
+
+
+### Get_PD
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Record Lookup|
+|Object|Project_Deliverables__c|
+|Label|Get PD|
+|Assign Null Values If No Records Found|⬜|
+|Get First Record Only|✅|
+|Store Output Automatically|✅|
+|Connector|[Get_Existing_Task](#get_existing_task)|
+
+
+#### Filters (logic: **and**)
+
+|Filter Id|Field|Operator|Value|
+|:-- |:-- |:--:|:--: |
+|1|Id| Equal To|Get_Tasks_to_Activate.Affected_Deliverable__c|
+
+
+
+
+### Get_PDs_to_Activate
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Record Lookup|
+|Object|Required_Action__c|
+|Label|Get PDs to Activate|
+|Assign Null Values If No Records Found|✅|
+|Output Reference|nextActions|
+|Queried Fields|- Id<br/>- Affected_Deliverable__c<br/>|
+|Connector|[Next_Action_is_Null](#next_action_is_null)|
+
+
+#### Filters (logic: **1 OR (2 AND 3)**)
+
+|Filter Id|Field|Operator|Value|
+|:-- |:-- |:--:|:--: |
+|1|Finish_before_Activation__c| Equal To|Get_Task.Project_Deliverable__c|
+|2|Non_Linear_Progression_Trigger__c| Equal To|Get_Task.Non_Linear_Progression_Group__c|
+|3|Non_Linear_Progression_Trigger__c| Is Null|<!-- -->|
+
+
+
+
+### Get_PDs_to_Activate_0
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Record Lookup|
+|Object|Required_Action__c|
+|Label|Get PDs to Activate|
+|Assign Null Values If No Records Found|✅|
+|Output Reference|nextActions|
+|Queried Fields|- Id<br/>- Affected_Deliverable__c<br/>|
+|Connector|[Next_Action_is_Null](#next_action_is_null)|
+
+
+#### Filters (logic: **and**)
+
+|Filter Id|Field|Operator|Value|
+|:-- |:-- |:--:|:--: |
+|1|Finish_before_Activation__c| Equal To|Get_Task.Project_Deliverable__c|
+|2|Non_Linear_Progression_Trigger__c| Is Null|<!-- -->|
+
+
+
+
+### Get_Task
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Record Lookup|
+|Object|Project_Task__c|
+|Label|Get Task|
+|Assign Null Values If No Records Found|⬜|
+|Get First Record Only|✅|
+|Store Output Automatically|✅|
+|Connector|[Actual_Start_Date_Entered](#actual_start_date_entered)|
+
+
+#### Filters (logic: **and**)
+
+|Filter Id|Field|Operator|Value|
+|:-- |:-- |:--:|:--: |
+|1|Id| Equal To|recordId|
+
+
+
+
+### Update_Existing
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Record Update|
+|Label|Update Existing|
+|Input Reference|updateCollection|
+|Connector|[Create_Empty](#create_empty)|
+
+
+### Update_Status_to_In_Progress
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Record Update|
+|Object|Project_Task__c|
+|Label|Update Status to In Progress|
+|Connector|[Actual_Completion_Entered](#actual_completion_entered)|
+
+
+#### Filters (logic: **and**)
+
+|Filter Id|Field|Operator|Value|
+|:-- |:-- |:--:|:--: |
+|1|Id| Equal To|recordId|
+
+
+
+
+#### Input Assignments
+
+|Field|Value|
+|:-- |:--: |
+|Status__c|In Progress|
+
+
+
+
+### Update_Status_to_In_Progress_0
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Record Update|
+|Object|Project_Task__c|
+|Label|Update Status to In Progress|
+|Connector|[Actual_Completion_Entered](#actual_completion_entered)|
+
+
+#### Filters (logic: **and**)
+
+|Filter Id|Field|Operator|Value|
+|:-- |:-- |:--:|:--: |
+|1|Id| Equal To|recordId|
+
+
+
+
+#### Input Assignments
+
+|Field|Value|
+|:-- |:--: |
+|Assigned_To__c|$User.Id|
+|OwnerId|$User.Id|
+|Status__c|In Progress|
+
+
+
+
+
+
+
+
+___
+
+_Documentation generated from branch monitoring_myubiquity by [sfdx-hardis](https://sfdx-hardis.cloudity.com), featuring [salesforce-flow-visualiser](https://github.com/toddhalfpenny/salesforce-flow-visualiser)_

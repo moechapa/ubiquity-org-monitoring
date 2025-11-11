@@ -11,26 +11,26 @@ hide:
 
 ```mermaid
 graph TD
-Zoom_Users_Info__c["Zoom Users"]:::mainObject
-click Zoom_Users_Info__c "/objects/Zoom_Users_Info__c/"
 Zoom_Phone_Calls_Info__c["Zoom Calls"]:::customObject
 click Zoom_Phone_Calls_Info__c "/objects/Zoom_Phone_Calls_Info__c/"
+Zoom_Users_Info__c["Zoom Users"]:::mainObject
+click Zoom_Users_Info__c "/objects/Zoom_Users_Info__c/"
 Zoom_Event_Info__c["Zoom Event Info"]:::customObject
 click Zoom_Event_Info__c "/objects/Zoom_Event_Info__c/"
 User["User"]:::object
 click User "/objects/User/"
 
-Zoom_Users_Info__c -->|Zoom_Phone_Calls_Info__c| Zoom_Phone_Calls_Info__c
-Zoom_Users_Info__c -->|User__c| User
 Zoom_Phone_Calls_Info__c ==>|Zoom_Users_Info__c| Zoom_Users_Info__c
 Zoom_Event_Info__c ==>|Zoom_Users_Info__c| Zoom_Users_Info__c
+Zoom_Users_Info__c -->|Zoom_Phone_Calls_Info__c| Zoom_Phone_Calls_Info__c
+Zoom_Users_Info__c -->|User__c| User
 
 classDef object fill:#D6E9FF,stroke:#0070D2,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef customObject fill:#FFF4C2,stroke:#CCAA00,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef customObjectManaged fill:#FFD8B2,stroke:#CC5500,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef mainObject fill:#FFB3B3,stroke:#A94442,stroke-width:4px,rx:14px,ry:14px,shadow:drop,color:#333,font-weight:bold;
-linkStyle 2,3 stroke:#4C9F70,stroke-width:4px;
-linkStyle 0,1 stroke:#A6A6A6,stroke-width:2px;
+linkStyle 0,1 stroke:#4C9F70,stroke-width:4px;
+linkStyle 2,3 stroke:#A6A6A6,stroke-width:2px;
 
 ```
 
