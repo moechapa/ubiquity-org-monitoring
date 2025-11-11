@@ -38,24 +38,24 @@
         <name>CustomObjectTranslation</name>
     </types>
 
-    <!-- Uncomment if you have too many metadatas
+   
     <types>
         <members>*</members>
         <name>Dashboard</name>
     </types>
-    -->
+  
 
     <types>
         <members>*</members>
         <name>Document</name>
     </types>
 
-    <!-- Uncomment if you have too many metadatas
+ 
     <types>
         <members>*</members>
         <name>EmailTemplate</name>
     </types>
-    -->
+ 
 
     <!-- Uncomment if you have too many metadatas
     <types>
@@ -81,19 +81,19 @@
     </types>
     -->
 
-    <!-- Uncomment if you have too many metadatas
+   
     <types>
         <members>*</members>
         <name>Report</name>
     </types>
-    -->
 
-    <!-- Uncomment if you have too many metadatas
+
+ 
     <types>
         <members>*</members>
         <name>ReportType</name>
     </types>
-    -->
+
 
     <!-- SSO Config contain certificates -->
     <types>
@@ -115,24 +115,24 @@
     </types>
     -->
 
-    <!-- Uncomment if you have too many metadatas
+   
     <types>
         <members>*</members>
         <name>StaticResource</name>
     </types>
-    -->
+   
 
     <types>
         <members>*</members>
         <name>UiViewDefinition</name>
     </types>
 
-    <!-- Uncomment if you have too many metadatas
+
     <types>
         <members>*</members>
         <name>Translation</name>
     </types>
-    -->
+
 
     <!-- Uncomment if you have too many metadatas
     <types>
