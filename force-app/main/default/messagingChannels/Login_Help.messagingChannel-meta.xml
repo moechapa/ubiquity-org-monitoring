@@ -63,12 +63,6 @@
     </standardParameters>
     <standardParameters>
         <actionParameterMappings>
-            <actionParameterName>Subject</actionParameterName>
-        </actionParameterMappings>
-        <parameterType>Subject</parameterType>
-    </standardParameters>
-    <standardParameters>
-        <actionParameterMappings>
             <actionParameterName>LastName</actionParameterName>
         </actionParameterMappings>
         <parameterType>LastName</parameterType>
@@ -78,5 +72,11 @@
             <actionParameterName>FirstName</actionParameterName>
         </actionParameterMappings>
         <parameterType>FirstName</parameterType>
+    </standardParameters>
+    <standardParameters>
+        <actionParameterMappings>
+            <actionParameterName>Subject</actionParameterName>
+        </actionParameterMappings>
+        <parameterType>Subject</parameterType>
     </standardParameters>
 </MessagingChannel>

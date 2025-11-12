@@ -8,7 +8,7 @@ hide:
 This class manages the Service Level Agreement (SLA) for Cases, calculating and assigning response and closure goals based on business hours and project deliverables. 
 Also sets expected days to close.
 
-**Class** 
+**Class**
 
 CaseSLA
 
@@ -223,7 +223,7 @@ public with sharing class CaseSLA {
 
 A map of BusinessHours records keyed by their Id. It caches active business hours for efficient access.
 
-**Property** 
+**Property**
 
 bizMap
 
@@ -241,7 +241,7 @@ Map&lt;Id,BusinessHours&gt;
 
 The default BusinessHours record used when no specific business hours are assigned to a case.
 
-**Property** 
+**Property**
 
 defaultBizHours
 
@@ -259,7 +259,7 @@ BusinessHours
 
 A map of Work Breakdown Structure records keyed by the managed case record type or &#x27;Default&#x27; for global defaults.
 
-**Property** 
+**Property**
 
 wbsMap
 
@@ -277,7 +277,7 @@ Map&lt;String,Work_Breakdown_Structure__c&gt;
 
 A map of RecordTypeInfo for the Case object, used to retrieve record type details.
 
-**Property** 
+**Property**
 
 recordTypeMap
 
@@ -294,7 +294,7 @@ Map&lt;Id,Schema.RecordTypeInfo&gt;
 
 Checks the cases and assigns a project deliverable to each case.
 
-**Method** 
+**Method**
 
 check
 
@@ -317,7 +317,7 @@ public static void check(List<Case> cases)
 
 Calculates and sets the actual values for the case&#x27;s SLA stamp fields and expected days to close.
 
-**Method** 
+**Method**
 
 assign
 
@@ -343,7 +343,7 @@ Case - The updated case with assigned deliverable and goal timestamps.
 
 Evaluates if a case should be skipped for checks.  If the case is an insert, always execute.
 
-**Method** 
+**Method**
 
 skipCheck
 

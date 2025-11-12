@@ -9,44 +9,44 @@ hide:
 Get, Upsert and Delete relevent sObject declared in the Lightning and Community Builder 
 ──────────────────────────────────────────────────────────────────────────────────────────────────
 
-**Salesfore** 
+**Salesfore**
 
 .com&gt;
 
-**ModifiedBy** 
+**ModifiedBy**
 
 Randy Grewal   &lt;rgrewal
 
-**Salesfore** 
+**Salesfore**
 
 .com&gt;
 
-**MaintainedBy** 
+**MaintainedBy**
 
 Randy Grewal   &lt;rgrewal
 
-**Salesfore** 
+**Salesfore**
 
 .com&gt;
 
-**Version** 
+**Version**
 
 1.1
 
-**Created** 
+**Created**
 
 2017-05-01
 
-**Modified** 
+**Modified**
 
 2017-06-12 
 ──────────────────────────────────────────────────────────────────────────────────────────────────
 
-**Changes** 
+**Changes**
 
 v1.1            rgrewal
 
-**Salesfore** 
+**Salesfore**
 
 .com 
 2017-06-08     	Added option to filter query by logged in user and removed System.debug logs 

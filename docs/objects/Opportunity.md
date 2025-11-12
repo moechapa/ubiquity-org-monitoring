@@ -66,8 +66,8 @@ click Account "/objects/Account/"
 n2de__Distribution_engine_details__c["n2de__Distribution_engine_details__c"]:::customObjectManaged
 
 dsfs__DocuSign_Recipient_Status__c -->|Opportunity__c| Opportunity
-Promotions__c -->|Opportunities__c| Opportunity
 Proposal__c -->|Opportunity__c| Opportunity
+Promotions__c -->|Opportunities__c| Opportunity
 Project_Task__c -->|Opportunity__c| Opportunity
 Plan__c -->|Opportunity__c| Opportunity
 Partner_Evaluation__c -->|Opportunity__c| Opportunity

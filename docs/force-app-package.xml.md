@@ -4,7 +4,7 @@ Package.xml generated from content of SFDX package force-app (folder force-app)
 
 <div id="jstree-container"></div>
 
-Metadatas: 18380
+Metadatas: 18383
 
 <details><summary>AIApplicationConfig (1)</summary>
 
@@ -12664,7 +12664,7 @@ Metadatas: 18380
 
 </details>
 
-<details><summary>ExternalAIModel (571)</summary>
+<details><summary>ExternalAIModel (574)</summary>
 
 
   • HAWKING_ARTICLE_RECOMMENDATION_1706031203996<br/>
@@ -13236,6 +13236,9 @@ Metadatas: 18380
   • HAWKING_FAQ_1762821435746<br/>
   • HAWKING_FAQ_1762821793975<br/>
   • HAWKING_FAQ_1762821794012<br/>
+  • HAWKING_FAQ_1762907447221<br/>
+  • HAWKING_FAQ_1762907774339<br/>
+  • HAWKING_FAQ_1762907774370<br/>
   • HAWKING_REPLY_RECOMMENDATION_1704917557833<br/>
   • HAWKING_UTTERANCE_RECOMMENDATION_1730233611442<br/>
 
