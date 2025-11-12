@@ -57,15 +57,15 @@
     <sessionHandlerType>Flow</sessionHandlerType>
     <standardParameters>
         <actionParameterMappings>
-            <actionParameterName>Email</actionParameterName>
-        </actionParameterMappings>
-        <parameterType>Email</parameterType>
-    </standardParameters>
-    <standardParameters>
-        <actionParameterMappings>
             <actionParameterName>LastName</actionParameterName>
         </actionParameterMappings>
         <parameterType>LastName</parameterType>
+    </standardParameters>
+    <standardParameters>
+        <actionParameterMappings>
+            <actionParameterName>Subject</actionParameterName>
+        </actionParameterMappings>
+        <parameterType>Subject</parameterType>
     </standardParameters>
     <standardParameters>
         <actionParameterMappings>
@@ -75,8 +75,8 @@
     </standardParameters>
     <standardParameters>
         <actionParameterMappings>
-            <actionParameterName>Subject</actionParameterName>
+            <actionParameterName>Email</actionParameterName>
         </actionParameterMappings>
-        <parameterType>Subject</parameterType>
+        <parameterType>Email</parameterType>
     </standardParameters>
 </MessagingChannel>

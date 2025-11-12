@@ -74,10 +74,10 @@ Transition__c -->|Contact__c| Contact
 Reviews__c -->|Reviewer_Contact__c| Contact
 Reviews__c -->|Most_Recent_Ubiquity_Contact__c| Contact
 Quality_Assurance_QA__c -->|Ubiquity_Employee__c| Contact
+Project_Team__c ==>|Team_Member__c| Contact
 Proposal__c -->|TPA_Ops_Contact__c| Contact
 Proposal__c -->|TPA_Contact__c| Contact
 Proposal__c -->|Advisor_Contact__c| Contact
-Project_Team__c ==>|Team_Member__c| Contact
 Plan__c -->|CARES_Act_Distribution_Signer__c| Contact
 Partner_Resource_Request__c -->|Primary_Project_Contact__c| Contact
 Partner_Contact_Add_On_Association__c ==>|Partner_Contact__c| Contact
@@ -111,8 +111,8 @@ classDef object fill:#D6E9FF,stroke:#0070D2,stroke-width:3px,rx:12px,ry:12px,sha
 classDef customObject fill:#FFF4C2,stroke:#CCAA00,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef customObjectManaged fill:#FFD8B2,stroke:#CC5500,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef mainObject fill:#FFB3B3,stroke:#A94442,stroke-width:4px,rx:14px,ry:14px,shadow:drop,color:#333,font-weight:bold;
-linkStyle 10,13,29,37 stroke:#4C9F70,stroke-width:4px;
-linkStyle 0,1,2,3,4,5,6,7,8,9,11,12,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,30,31,32,33,34,35,36,38 stroke:#A6A6A6,stroke-width:2px;
+linkStyle 7,13,29,37 stroke:#4C9F70,stroke-width:4px;
+linkStyle 0,1,2,3,4,5,6,8,9,10,11,12,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,30,31,32,33,34,35,36,38 stroke:#A6A6A6,stroke-width:2px;
 
 ```
 
