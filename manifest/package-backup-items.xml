@@ -5244,6 +5244,131 @@
         <members>Case.original_number__c</members>
         <members>Case.ref_Id__c</members>
         <members>Case.simplesurvey__Survey_Sent__c</members>
+        <members>Case_Home__dll.AccountId__c</members>
+        <members>Case_Home__dll.BusinessHoursId__c</members>
+        <members>Case_Home__dll.CaseNumber__c</members>
+        <members>Case_Home__dll.CaseTimer19_Cumulative_Time_c__c</members>
+        <members>Case_Home__dll.Case_Age_In_Business_Hours_c__c</members>
+        <members>Case_Home__dll.Case_Age_c__c</members>
+        <members>Case_Home__dll.Case_Flag_c__c</members>
+        <members>Case_Home__dll.Case_Sent_to_External_Team_c__c</members>
+        <members>Case_Home__dll.Case_Sentiment_c__c</members>
+        <members>Case_Home__dll.Case_Source_c__c</members>
+        <members>Case_Home__dll.Case_Team_c__c</members>
+        <members>Case_Home__dll.Case_Type_c__c</members>
+        <members>Case_Home__dll.Category_c__c</members>
+        <members>Case_Home__dll.Child_Case_Instructions_c__c</members>
+        <members>Case_Home__dll.Client_Satisfaction_CSAT_c__c</members>
+        <members>Case_Home__dll.Client_Support_Team_CST_c__c</members>
+        <members>Case_Home__dll.ClosedDate__c</members>
+        <members>Case_Home__dll.Comments__c</members>
+        <members>Case_Home__dll.ConnectionReceivedId__c</members>
+        <members>Case_Home__dll.ConnectionSentId__c</members>
+        <members>Case_Home__dll.ContactEmail__c</members>
+        <members>Case_Home__dll.ContactFax__c</members>
+        <members>Case_Home__dll.ContactId__c</members>
+        <members>Case_Home__dll.ContactMobile__c</members>
+        <members>Case_Home__dll.ContactPhone__c</members>
+        <members>Case_Home__dll.CreatedById__c</members>
+        <members>Case_Home__dll.CreatedDate__c</members>
+        <members>Case_Home__dll.Customer_Re_Opened_Case_c__c</members>
+        <members>Case_Home__dll.DataSourceObject__c</members>
+        <members>Case_Home__dll.DataSource__c</members>
+        <members>Case_Home__dll.Department_c__c</members>
+        <members>Case_Home__dll.Description__c</members>
+        <members>Case_Home__dll.First_Response_c__c</members>
+        <members>Case_Home__dll.HasCommentsUnreadByOwner__c</members>
+        <members>Case_Home__dll.HasSelfServiceComments__c</members>
+        <members>Case_Home__dll.Id__c</members>
+        <members>Case_Home__dll.Implementation_c__c</members>
+        <members>Case_Home__dll.IsClosedOnCreate__c</members>
+        <members>Case_Home__dll.IsClosed__c</members>
+        <members>Case_Home__dll.IsDeleted__c</members>
+        <members>Case_Home__dll.IsEscalated__c</members>
+        <members>Case_Home__dll.JIRA_Priority_c__c</members>
+        <members>Case_Home__dll.JIRA_Status_c__c</members>
+        <members>Case_Home__dll.KQ_Id__c</members>
+        <members>Case_Home__dll.Language__c</members>
+        <members>Case_Home__dll.LastModifiedById__c</members>
+        <members>Case_Home__dll.LastModifiedDate__c</members>
+        <members>Case_Home__dll.LastReferencedDate__c</members>
+        <members>Case_Home__dll.LastViewedDate__c</members>
+        <members>Case_Home__dll.Last_Status_Change_c__c</members>
+        <members>Case_Home__dll.MasterRecordId__c</members>
+        <members>Case_Home__dll.MilestoneStatus__c</members>
+        <members>Case_Home__dll.Origin__c</members>
+        <members>Case_Home__dll.OwnerId__c</members>
+        <members>Case_Home__dll.ParentId__c</members>
+        <members>Case_Home__dll.Plan_c__c</members>
+        <members>Case_Home__dll.Priority__c</members>
+        <members>Case_Home__dll.Reason__c</members>
+        <members>Case_Home__dll.RecordTypeId__c</members>
+        <members>Case_Home__dll.Reopened_Count_c__c</members>
+        <members>Case_Home__dll.Request_Reason_c__c</members>
+        <members>Case_Home__dll.Sentiment_Score_c__c</members>
+        <members>Case_Home__dll.SfdcOrganizationId__c</members>
+        <members>Case_Home__dll.Status__c</members>
+        <members>Case_Home__dll.Subject__c</members>
+        <members>Case_Home__dll.SuppliedCompany__c</members>
+        <members>Case_Home__dll.SuppliedEmail__c</members>
+        <members>Case_Home__dll.SuppliedName__c</members>
+        <members>Case_Home__dll.SuppliedPhone__c</members>
+        <members>Case_Home__dll.SystemModstamp__c</members>
+        <members>Case_Home__dll.Team_Member_c__c</members>
+        <members>Case_Home__dll.Time_Open_c__c</members>
+        <members>Case_Home__dll.Time_With_Customer_c__c</members>
+        <members>Case_Home__dll.Time_With_Support_c__c</members>
+        <members>Case_Home__dll.Time_to_Action_SLA_Met_c__c</members>
+        <members>Case_Home__dll.Time_to_Close_c__c</members>
+        <members>Case_Home__dll.Type__c</members>
+        <members>Case_Home__dll.Ubiquity_Leader_c__c</members>
+        <members>Case_Home__dll.Web_First_Name_c__c</members>
+        <members>Case_Home__dll.Web_Form_Category_c__c</members>
+        <members>Case_Home__dll.Web_Form_Role_c__c</members>
+        <members>Case_Home__dll.Web_Last_Name_c__c</members>
+        <members>Case_Home__dll.cdp_sys_SourceVersion__c</members>
+        <members>Case_Home__dll.gaconnector_Browser_c__c</members>
+        <members>Case_Home__dll.gaconnector_City_c__c</members>
+        <members>Case_Home__dll.gaconnector_Country_c__c</members>
+        <members>Case_Home__dll.gaconnector_Device_c__c</members>
+        <members>Case_Home__dll.gaconnector_First_Click_Campaign_c__c</members>
+        <members>Case_Home__dll.gaconnector_First_Click_Channel_c__c</members>
+        <members>Case_Home__dll.gaconnector_First_Click_Content_c__c</members>
+        <members>Case_Home__dll.gaconnector_First_Click_Landing_Page_c__c</members>
+        <members>Case_Home__dll.gaconnector_First_Click_Medium_c__c</members>
+        <members>Case_Home__dll.gaconnector_First_Click_Referrer_c__c</members>
+        <members>Case_Home__dll.gaconnector_First_Click_Source_c__c</members>
+        <members>Case_Home__dll.gaconnector_First_Click_Term_c__c</members>
+        <members>Case_Home__dll.gaconnector_GCLID_c__c</members>
+        <members>Case_Home__dll.gaconnector_Google_Analytics_Client_ID_c__c</members>
+        <members>Case_Home__dll.gaconnector_Google_Analytics_Link_c__c</members>
+        <members>Case_Home__dll.gaconnector_IP_Address_c__c</members>
+        <members>Case_Home__dll.gaconnector_Last_Click_Campaign_c__c</members>
+        <members>Case_Home__dll.gaconnector_Last_Click_Channel_c__c</members>
+        <members>Case_Home__dll.gaconnector_Last_Click_Content_c__c</members>
+        <members>Case_Home__dll.gaconnector_Last_Click_Landing_Page_c__c</members>
+        <members>Case_Home__dll.gaconnector_Last_Click_Medium_c__c</members>
+        <members>Case_Home__dll.gaconnector_Last_Click_Referrer_c__c</members>
+        <members>Case_Home__dll.gaconnector_Last_Click_Source_c__c</members>
+        <members>Case_Home__dll.gaconnector_Last_Click_Term_c__c</members>
+        <members>Case_Home__dll.gaconnector_Latitude_from_IP_c__c</members>
+        <members>Case_Home__dll.gaconnector_Location_approx_c__c</members>
+        <members>Case_Home__dll.gaconnector_Longitude_c__c</members>
+        <members>Case_Home__dll.gaconnector_Number_of_Website_Visits_c__c</members>
+        <members>Case_Home__dll.gaconnector_Operating_System_c__c</members>
+        <members>Case_Home__dll.gaconnector_Pages_visited_c__c</members>
+        <members>Case_Home__dll.gaconnector_Time_Spent_on_Website_c__c</members>
+        <members>Case_Home__dll.gaconnector_Time_Spent_on_Website_formul__c</members>
+        <members>Case_Home__dll.gaconnector_Time_Zone_c__c</members>
+        <members>Case_Home__dll.lntcss_Splited_From_c__c</members>
+        <members>Case_Home__dll.n2de_Action_c__c</members>
+        <members>Case_Home__dll.n2de_Is_distributed_c__c</members>
+        <members>Case_Home__dll.n2de_Is_reassigned_c__c</members>
+        <members>Case_Home__dll.n2de_Is_trigger_enabled_c__c</members>
+        <members>Case_Home__dll.n2de_Is_triggered_c__c</members>
+        <members>Case_Home__dll.n2de_Last_distributed_c__c</members>
+        <members>Case_Home__dll.n2de_Last_reassigned_c__c</members>
+        <members>Case_Home__dll.n2de_Time_to_action_mins_c__c</members>
         <members>Client_Feedback__c.Client_Comments__c</members>
         <members>Client_Feedback__c.Contact__c</members>
         <members>Client_Health_Check__c.ADP_ACP_Test_Results__c</members>
@@ -11570,6 +11695,7 @@
         <members>AiAgentSession_dll</members>
         <members>BotDefinition_Home</members>
         <members>BotVersion_Home</members>
+        <members>Case_Home</members>
         <members>ConversationDefinitionSession_Home</members>
         <members>CopilotEvents</members>
         <members>DataCategoryGroup_Home</members>
@@ -11619,6 +11745,7 @@
         <members>AiAgentSessionParticipant</members>
         <members>BotDefinition_Home</members>
         <members>BotVersion_Home</members>
+        <members>Case_Home</members>
         <members>ConversationDefinitionSession_Home</members>
         <members>CopilotEvents</members>
         <members>DataCategoryGroup_Home</members>
@@ -14458,6 +14585,7 @@
         <members>ExpressionSetMessageToken-Expression Set Message Token Layout</members>
         <members>ExpressionSetVersion-Expression Set Version Layout</members>
         <members>ExtDataShare-Data Share Layout</members>
+        <members>ExtDataShareTarget-Data Share Target Layout</members>
         <members>External_Response__c-External Response Layout</members>
         <members>Fee_Waiver__c-Fee Waiver Layout</members>
         <members>FeedItem-Feed Item Layout</members>
@@ -14930,6 +15058,7 @@
         <members>AiAgentSessionParticipant</members>
         <members>BotDefinition_Home</members>
         <members>BotVersion_Home</members>
+        <members>Case_Home</members>
         <members>ConversationDefinitionSession_Home</members>
         <members>CopilotEvents</members>
         <members>DataCategoryGroup_Home</members>
@@ -15257,6 +15386,7 @@
         <members>AiRetrieverQualityMetric_map_AiRetrieverQualityMetric_1761258259028</members>
         <members>BotDefinition_Home_map_BotDefinition_Home_1740436886672</members>
         <members>BotVersion_Home_map_BotVersion_Home_1743825636444</members>
+        <members>Case_Home_map_Case_Home_1762995942309</members>
         <members>ConversationDefinitionSession_Home_map_ConversationDefinitionSession_Home_1740436872765</members>
         <members>CopilotAnalyticsCalculator_map_CopilotAnalyticsCalculator_1740437026826</members>
         <members>CopilotEvents_map_CopilotEvents_1740436990440</members>

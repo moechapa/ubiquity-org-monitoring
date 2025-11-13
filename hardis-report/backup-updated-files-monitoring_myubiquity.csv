@@ -1,9 +1,231 @@
 File,ChangeType,FileHuman,WorkingDir,PrevName,severity,severityIcon
 cleanDataServices/DataCloudGeoLocation.cleanDataService-meta.xml," ",CleanDataService DataCloudGeoLocation,M,,log,📰
+dataSourceObjects/Case_Home.dataSourceObject-meta.xml,A,dataSourceObjects/Case_Home.dataSourceObject-meta.xml,,,log,📰
+dataStreamDefinitions/Case_Home.dataStreamDefinition-meta.xml,A,DataStreamDefinition Case_Home,,,log,📰
 datacategorygroups/Global_Categories.datacategorygroup-meta.xml," ",DataCategoryGroup Global_Categories,M,,log,📰
+flexipages/Default_Contact_Layout.flexipage-meta.xml," ",FlexiPage Default_Contact_Layout,M,,log,📰
+flowDefinitions/Email_Message_After_Trigger_Update_Case_Activity_Dates.flowDefinition-meta.xml," ",FlowDefinition Email_Message_After_Trigger_Update_Case_Activity_Dates,M,,log,📰
+flows/Email_Message_After_Trigger_Update_Case_Activity_Dates.flow-meta.xml," ",Flow Email_Message_After_Trigger_Update_Case_Activity_Dates,M,,log,📰
+globalValueSets/QA_Departments.globalValueSet-meta.xml," ",GlobalValueSet QA_Departments,M,,log,📰
+layouts/ExtDataShareTarget-Data Share Target Layout.layout-meta.xml,A,Layout ExtDataShareTarget-Data Share Target Layout,,,log,📰
 messagingChannels/Login_Help.messagingChannel-meta.xml," ",MessagingChannel Login_Help,M,,log,📰
 messagingChannels/Omni_Messaging.messagingChannel-meta.xml," ",MessagingChannel Omni_Messaging,M,,log,📰
 messagingChannels/Sales_Chat.messagingChannel-meta.xml," ",MessagingChannel Sales_Chat,M,,log,📰
+mktDataTranObjects/Case_Home.mktDataTranObject-meta.xml,A,MktDataTranObject Case_Home,,,log,📰
+objectSourceTargetMaps/Case_Home_map_Case_Home_1762995942309.objectSourceTargetMap-meta.xml,A,ObjectSourceTargetMap Case_Home_map_Case_Home_1762995942309,,,log,📰
+objects/Case_Home__dll/Case_Home__dll.object-meta.xml,A,CustomObject Case_Home__dll/Case_Home__dll,,,log,📰
+objects/Case_Home__dll/fields/AccountId__c.field-meta.xml,A,CustomField AccountId__c,,,log,📰
+objects/Case_Home__dll/fields/BusinessHoursId__c.field-meta.xml,A,CustomField BusinessHoursId__c,,,log,📰
+objects/Case_Home__dll/fields/CaseNumber__c.field-meta.xml,A,CustomField CaseNumber__c,,,log,📰
+objects/Case_Home__dll/fields/CaseTimer19_Cumulative_Time_c__c.field-meta.xml,A,CustomField CaseTimer19_Cumulative_Time_c__c,,,log,📰
+objects/Case_Home__dll/fields/Case_Age_In_Business_Hours_c__c.field-meta.xml,A,CustomField Case_Age_In_Business_Hours_c__c,,,log,📰
+objects/Case_Home__dll/fields/Case_Age_c__c.field-meta.xml,A,CustomField Case_Age_c__c,,,log,📰
+objects/Case_Home__dll/fields/Case_Flag_c__c.field-meta.xml,A,CustomField Case_Flag_c__c,,,log,📰
+objects/Case_Home__dll/fields/Case_Sent_to_External_Team_c__c.field-meta.xml,A,CustomField Case_Sent_to_External_Team_c__c,,,log,📰
+objects/Case_Home__dll/fields/Case_Sentiment_c__c.field-meta.xml,A,CustomField Case_Sentiment_c__c,,,log,📰
+objects/Case_Home__dll/fields/Case_Source_c__c.field-meta.xml,A,CustomField Case_Source_c__c,,,log,📰
+objects/Case_Home__dll/fields/Case_Team_c__c.field-meta.xml,A,CustomField Case_Team_c__c,,,log,📰
+objects/Case_Home__dll/fields/Case_Type_c__c.field-meta.xml,A,CustomField Case_Type_c__c,,,log,📰
+objects/Case_Home__dll/fields/Category_c__c.field-meta.xml,A,CustomField Category_c__c,,,log,📰
+objects/Case_Home__dll/fields/Child_Case_Instructions_c__c.field-meta.xml,A,CustomField Child_Case_Instructions_c__c,,,log,📰
+objects/Case_Home__dll/fields/Client_Satisfaction_CSAT_c__c.field-meta.xml,A,CustomField Client_Satisfaction_CSAT_c__c,,,log,📰
+objects/Case_Home__dll/fields/Client_Support_Team_CST_c__c.field-meta.xml,A,CustomField Client_Support_Team_CST_c__c,,,log,📰
+objects/Case_Home__dll/fields/ClosedDate__c.field-meta.xml,A,CustomField ClosedDate__c,,,log,📰
+objects/Case_Home__dll/fields/Comments__c.field-meta.xml,A,CustomField Comments__c,,,log,📰
+objects/Case_Home__dll/fields/ConnectionReceivedId__c.field-meta.xml,A,CustomField ConnectionReceivedId__c,,,log,📰
+objects/Case_Home__dll/fields/ConnectionSentId__c.field-meta.xml,A,CustomField ConnectionSentId__c,,,log,📰
+objects/Case_Home__dll/fields/ContactEmail__c.field-meta.xml,A,CustomField ContactEmail__c,,,log,📰
+objects/Case_Home__dll/fields/ContactFax__c.field-meta.xml,A,CustomField ContactFax__c,,,log,📰
+objects/Case_Home__dll/fields/ContactId__c.field-meta.xml,A,CustomField ContactId__c,,,log,📰
+objects/Case_Home__dll/fields/ContactMobile__c.field-meta.xml,A,CustomField ContactMobile__c,,,log,📰
+objects/Case_Home__dll/fields/ContactPhone__c.field-meta.xml,A,CustomField ContactPhone__c,,,log,📰
+objects/Case_Home__dll/fields/CreatedById__c.field-meta.xml,A,CustomField CreatedById__c,,,log,📰
+objects/Case_Home__dll/fields/CreatedDate__c.field-meta.xml,A,CustomField CreatedDate__c,,,log,📰
+objects/Case_Home__dll/fields/Customer_Re_Opened_Case_c__c.field-meta.xml,A,CustomField Customer_Re_Opened_Case_c__c,,,log,📰
+objects/Case_Home__dll/fields/DataSourceObject__c.field-meta.xml,A,CustomField DataSourceObject__c,,,log,📰
+objects/Case_Home__dll/fields/DataSource__c.field-meta.xml,A,CustomField DataSource__c,,,log,📰
+objects/Case_Home__dll/fields/Department_c__c.field-meta.xml,A,CustomField Department_c__c,,,log,📰
+objects/Case_Home__dll/fields/Description__c.field-meta.xml,A,CustomField Description__c,,,log,📰
+objects/Case_Home__dll/fields/First_Response_c__c.field-meta.xml,A,CustomField First_Response_c__c,,,log,📰
+objects/Case_Home__dll/fields/HasCommentsUnreadByOwner__c.field-meta.xml,A,CustomField HasCommentsUnreadByOwner__c,,,log,📰
+objects/Case_Home__dll/fields/HasSelfServiceComments__c.field-meta.xml,A,CustomField HasSelfServiceComments__c,,,log,📰
+objects/Case_Home__dll/fields/Id__c.field-meta.xml,A,CustomField Id__c,,,log,📰
+objects/Case_Home__dll/fields/Implementation_c__c.field-meta.xml,A,CustomField Implementation_c__c,,,log,📰
+objects/Case_Home__dll/fields/IsClosedOnCreate__c.field-meta.xml,A,CustomField IsClosedOnCreate__c,,,log,📰
+objects/Case_Home__dll/fields/IsClosed__c.field-meta.xml,A,CustomField IsClosed__c,,,log,📰
+objects/Case_Home__dll/fields/IsDeleted__c.field-meta.xml,A,CustomField IsDeleted__c,,,log,📰
+objects/Case_Home__dll/fields/IsEscalated__c.field-meta.xml,A,CustomField IsEscalated__c,,,log,📰
+objects/Case_Home__dll/fields/JIRA_Priority_c__c.field-meta.xml,A,CustomField JIRA_Priority_c__c,,,log,📰
+objects/Case_Home__dll/fields/JIRA_Status_c__c.field-meta.xml,A,CustomField JIRA_Status_c__c,,,log,📰
+objects/Case_Home__dll/fields/KQ_Id__c.field-meta.xml,A,CustomField KQ_Id__c,,,log,📰
+objects/Case_Home__dll/fields/Language__c.field-meta.xml,A,CustomField Language__c,,,log,📰
+objects/Case_Home__dll/fields/LastModifiedById__c.field-meta.xml,A,CustomField LastModifiedById__c,,,log,📰
+objects/Case_Home__dll/fields/LastModifiedDate__c.field-meta.xml,A,CustomField LastModifiedDate__c,,,log,📰
+objects/Case_Home__dll/fields/LastReferencedDate__c.field-meta.xml,A,CustomField LastReferencedDate__c,,,log,📰
+objects/Case_Home__dll/fields/LastViewedDate__c.field-meta.xml,A,CustomField LastViewedDate__c,,,log,📰
+objects/Case_Home__dll/fields/Last_Status_Change_c__c.field-meta.xml,A,CustomField Last_Status_Change_c__c,,,log,📰
+objects/Case_Home__dll/fields/MasterRecordId__c.field-meta.xml,A,CustomField MasterRecordId__c,,,log,📰
+objects/Case_Home__dll/fields/MilestoneStatus__c.field-meta.xml,A,CustomField MilestoneStatus__c,,,log,📰
+objects/Case_Home__dll/fields/Origin__c.field-meta.xml,A,CustomField Origin__c,,,log,📰
+objects/Case_Home__dll/fields/OwnerId__c.field-meta.xml,A,CustomField OwnerId__c,,,log,📰
+objects/Case_Home__dll/fields/ParentId__c.field-meta.xml,A,CustomField ParentId__c,,,log,📰
+objects/Case_Home__dll/fields/Plan_c__c.field-meta.xml,A,CustomField Plan_c__c,,,log,📰
+objects/Case_Home__dll/fields/Priority__c.field-meta.xml,A,CustomField Priority__c,,,log,📰
+objects/Case_Home__dll/fields/Reason__c.field-meta.xml,A,CustomField Reason__c,,,log,📰
+objects/Case_Home__dll/fields/RecordTypeId__c.field-meta.xml,A,CustomField RecordTypeId__c,,,log,📰
+objects/Case_Home__dll/fields/Reopened_Count_c__c.field-meta.xml,A,CustomField Reopened_Count_c__c,,,log,📰
+objects/Case_Home__dll/fields/Request_Reason_c__c.field-meta.xml,A,CustomField Request_Reason_c__c,,,log,📰
+objects/Case_Home__dll/fields/Sentiment_Score_c__c.field-meta.xml,A,CustomField Sentiment_Score_c__c,,,log,📰
+objects/Case_Home__dll/fields/SfdcOrganizationId__c.field-meta.xml,A,CustomField SfdcOrganizationId__c,,,log,📰
+objects/Case_Home__dll/fields/Status__c.field-meta.xml,A,CustomField Status__c,,,log,📰
+objects/Case_Home__dll/fields/Subject__c.field-meta.xml,A,CustomField Subject__c,,,log,📰
+objects/Case_Home__dll/fields/SuppliedCompany__c.field-meta.xml,A,CustomField SuppliedCompany__c,,,log,📰
+objects/Case_Home__dll/fields/SuppliedEmail__c.field-meta.xml,A,CustomField SuppliedEmail__c,,,log,📰
+objects/Case_Home__dll/fields/SuppliedName__c.field-meta.xml,A,CustomField SuppliedName__c,,,log,📰
+objects/Case_Home__dll/fields/SuppliedPhone__c.field-meta.xml,A,CustomField SuppliedPhone__c,,,log,📰
+objects/Case_Home__dll/fields/SystemModstamp__c.field-meta.xml,A,CustomField SystemModstamp__c,,,log,📰
+objects/Case_Home__dll/fields/Team_Member_c__c.field-meta.xml,A,CustomField Team_Member_c__c,,,log,📰
+objects/Case_Home__dll/fields/Time_Open_c__c.field-meta.xml,A,CustomField Time_Open_c__c,,,log,📰
+objects/Case_Home__dll/fields/Time_With_Customer_c__c.field-meta.xml,A,CustomField Time_With_Customer_c__c,,,log,📰
+objects/Case_Home__dll/fields/Time_With_Support_c__c.field-meta.xml,A,CustomField Time_With_Support_c__c,,,log,📰
+objects/Case_Home__dll/fields/Time_to_Action_SLA_Met_c__c.field-meta.xml,A,CustomField Time_to_Action_SLA_Met_c__c,,,log,📰
+objects/Case_Home__dll/fields/Time_to_Close_c__c.field-meta.xml,A,CustomField Time_to_Close_c__c,,,log,📰
+objects/Case_Home__dll/fields/Type__c.field-meta.xml,A,CustomField Type__c,,,log,📰
+objects/Case_Home__dll/fields/Ubiquity_Leader_c__c.field-meta.xml,A,CustomField Ubiquity_Leader_c__c,,,log,📰
+objects/Case_Home__dll/fields/Web_First_Name_c__c.field-meta.xml,A,CustomField Web_First_Name_c__c,,,log,📰
+objects/Case_Home__dll/fields/Web_Form_Category_c__c.field-meta.xml,A,CustomField Web_Form_Category_c__c,,,log,📰
+objects/Case_Home__dll/fields/Web_Form_Role_c__c.field-meta.xml,A,CustomField Web_Form_Role_c__c,,,log,📰
+objects/Case_Home__dll/fields/Web_Last_Name_c__c.field-meta.xml,A,CustomField Web_Last_Name_c__c,,,log,📰
+objects/Case_Home__dll/fields/cdp_sys_SourceVersion__c.field-meta.xml,A,CustomField cdp_sys_SourceVersion__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Browser_c__c.field-meta.xml,A,CustomField gaconnector_Browser_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_City_c__c.field-meta.xml,A,CustomField gaconnector_City_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Country_c__c.field-meta.xml,A,CustomField gaconnector_Country_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Device_c__c.field-meta.xml,A,CustomField gaconnector_Device_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_First_Click_Campaign_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Campaign_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_First_Click_Channel_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Channel_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_First_Click_Content_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Content_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_First_Click_Landing_Page_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Landing_Page_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_First_Click_Medium_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Medium_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_First_Click_Referrer_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Referrer_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_First_Click_Source_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Source_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_First_Click_Term_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Term_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_GCLID_c__c.field-meta.xml,A,CustomField gaconnector_GCLID_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Google_Analytics_Client_ID_c__c.field-meta.xml,A,CustomField gaconnector_Google_Analytics_Client_ID_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Google_Analytics_Link_c__c.field-meta.xml,A,CustomField gaconnector_Google_Analytics_Link_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_IP_Address_c__c.field-meta.xml,A,CustomField gaconnector_IP_Address_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Last_Click_Campaign_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Campaign_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Last_Click_Channel_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Channel_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Last_Click_Content_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Content_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Last_Click_Landing_Page_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Landing_Page_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Last_Click_Medium_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Medium_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Last_Click_Referrer_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Referrer_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Last_Click_Source_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Source_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Last_Click_Term_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Term_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Latitude_from_IP_c__c.field-meta.xml,A,CustomField gaconnector_Latitude_from_IP_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Location_approx_c__c.field-meta.xml,A,CustomField gaconnector_Location_approx_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Longitude_c__c.field-meta.xml,A,CustomField gaconnector_Longitude_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Number_of_Website_Visits_c__c.field-meta.xml,A,CustomField gaconnector_Number_of_Website_Visits_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Operating_System_c__c.field-meta.xml,A,CustomField gaconnector_Operating_System_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Pages_visited_c__c.field-meta.xml,A,CustomField gaconnector_Pages_visited_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Time_Spent_on_Website_c__c.field-meta.xml,A,CustomField gaconnector_Time_Spent_on_Website_c__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Time_Spent_on_Website_formul__c.field-meta.xml,A,CustomField gaconnector_Time_Spent_on_Website_formul__c,,,log,📰
+objects/Case_Home__dll/fields/gaconnector_Time_Zone_c__c.field-meta.xml,A,CustomField gaconnector_Time_Zone_c__c,,,log,📰
+objects/Case_Home__dll/fields/lntcss_Splited_From_c__c.field-meta.xml,A,CustomField lntcss_Splited_From_c__c,,,log,📰
+objects/Case_Home__dll/fields/n2de_Action_c__c.field-meta.xml,A,CustomField n2de_Action_c__c,,,log,📰
+objects/Case_Home__dll/fields/n2de_Is_distributed_c__c.field-meta.xml,A,CustomField n2de_Is_distributed_c__c,,,log,📰
+objects/Case_Home__dll/fields/n2de_Is_reassigned_c__c.field-meta.xml,A,CustomField n2de_Is_reassigned_c__c,,,log,📰
+objects/Case_Home__dll/fields/n2de_Is_trigger_enabled_c__c.field-meta.xml,A,CustomField n2de_Is_trigger_enabled_c__c,,,log,📰
+objects/Case_Home__dll/fields/n2de_Is_triggered_c__c.field-meta.xml,A,CustomField n2de_Is_triggered_c__c,,,log,📰
+objects/Case_Home__dll/fields/n2de_Last_distributed_c__c.field-meta.xml,A,CustomField n2de_Last_distributed_c__c,,,log,📰
+objects/Case_Home__dll/fields/n2de_Last_reassigned_c__c.field-meta.xml,A,CustomField n2de_Last_reassigned_c__c,,,log,📰
+objects/Case_Home__dll/fields/n2de_Time_to_action_mins_c__c.field-meta.xml,A,CustomField n2de_Time_to_action_mins_c__c,,,log,📰
+objects/Quality_Assurance_QA__c/recordTypes/Dynamic_QA_Form.recordType-meta.xml," ",RecordType Dynamic_QA_Form,M,,log,📰
+profiles/Admin.profile-meta.xml," ",Profile Admin,M,,log,📰
+profiles/Analytics Cloud Integration User.profile-meta.xml," ",Profile Analytics Cloud Integration User,M,,log,📰
+profiles/Analytics Cloud Security User.profile-meta.xml," ",Profile Analytics Cloud Security User,M,,log,📰
+profiles/Anypoint Integration.profile-meta.xml," ",Profile Anypoint Integration,M,,log,📰
+profiles/B2BMA Integration User.profile-meta.xml," ",Profile B2BMA Integration User,M,,log,📰
+profiles/Billing User.profile-meta.xml," ",Profile Billing User,M,,log,📰
+profiles/Bot Profile.profile-meta.xml," ",Profile Bot Profile,M,,log,📰
+profiles/Business Development.profile-meta.xml," ",Profile Business Development,M,,log,📰
+profiles/Call Center.profile-meta.xml," ",Profile Call Center,M,,log,📰
+profiles/Chatter External User.profile-meta.xml," ",Profile Chatter External User,M,,log,📰
+profiles/Chatter Free User.profile-meta.xml," ",Profile Chatter Free User,M,,log,📰
+profiles/Chatter Moderator User.profile-meta.xml," ",Profile Chatter Moderator User,M,,log,📰
+profiles/Client Onboarding - Admin.profile-meta.xml," ",Profile Client Onboarding - Admin,M,,log,📰
+profiles/Client Onboarding - RM.profile-meta.xml," ",Profile Client Onboarding - RM,M,,log,📰
+profiles/Client Servicing Team.profile-meta.xml," ",Profile Client Servicing Team,M,,log,📰
+profiles/Compliance Manager.profile-meta.xml," ",Profile Compliance Manager,M,,log,📰
+profiles/ContractManager.profile-meta.xml," ",Profile ContractManager,M,,log,📰
+profiles/Director of Operations.profile-meta.xml," ",Profile Director of Operations,M,,log,📰
+profiles/Director of Sales.profile-meta.xml," ",Profile Director of Sales,M,,log,📰
+profiles/Distributions.profile-meta.xml," ",Profile Distributions,M,,log,📰
+profiles/ESW_Agentforce_MIAW_1748035300267 Profile.profile-meta.xml," ",Profile ESW_Agentforce_MIAW_1748035300267 Profile,M,,log,📰
+profiles/ESW_Agentforce_MIAW_1748385215843 Profile.profile-meta.xml," ",Profile ESW_Agentforce_MIAW_1748385215843 Profile,M,,log,📰
+profiles/ESW_CE_Chat_1692890394498 Profile.profile-meta.xml," ",Profile ESW_CE_Chat_1692890394498 Profile,M,,log,📰
+profiles/ESW_CE_Chat_Moe_1693182845676 Profile.profile-meta.xml," ",Profile ESW_CE_Chat_Moe_1693182845676 Profile,M,,log,📰
+profiles/ESW_Login_Help_1697133738638 Profile.profile-meta.xml," ",Profile ESW_Login_Help_1697133738638 Profile,M,,log,📰
+profiles/ESW_Login_Help_Simply_1700075140889 Profile.profile-meta.xml," ",Profile ESW_Login_Help_Simply_1700075140889 Profile,M,,log,📰
+profiles/ESW_Omni_Messaging_1694183770479 Profile.profile-meta.xml," ",Profile ESW_Omni_Messaging_1694183770479 Profile,M,,log,📰
+profiles/ESW_Omni_Messaging_CO_1696448547822 Profile.profile-meta.xml," ",Profile ESW_Omni_Messaging_CO_1696448547822 Profile,M,,log,📰
+profiles/ESW_Omni_Messaging_Sallus_1700075448386 Profile.profile-meta.xml," ",Profile ESW_Omni_Messaging_Sallus_1700075448386 Profile,M,,log,📰
+profiles/ESW_Omni_Messaging_Simply_1700076370188 Profile.profile-meta.xml," ",Profile ESW_Omni_Messaging_Simply_1700076370188 Profile,M,,log,📰
+profiles/ESW_QA_Login_1699666348585 Profile.profile-meta.xml," ",Profile ESW_QA_Login_1699666348585 Profile,M,,log,📰
+profiles/ESW_QA_Messaging_1699974036493 Profile.profile-meta.xml," ",Profile ESW_QA_Messaging_1699974036493 Profile,M,,log,📰
+profiles/ESW_Sales_Chat_1697460991337 Profile.profile-meta.xml," ",Profile ESW_Sales_Chat_1697460991337 Profile,M,,log,📰
+profiles/ESW_Sallus_Login_Chat_1700072925200 Profile.profile-meta.xml," ",Profile ESW_Sallus_Login_Chat_1700072925200 Profile,M,,log,📰
+profiles/Einstein Agent User.profile-meta.xml," ",Profile Einstein Agent User,M,,log,📰
+profiles/External Apps Login User.profile-meta.xml," ",Profile External Apps Login User,M,,log,📰
+profiles/Finance Manager Lightning.profile-meta.xml," ",Profile Finance Manager Lightning,M,,log,📰
+profiles/Guest License User.profile-meta.xml," ",Profile Guest License User,M,,log,📰
+profiles/Help Center Profile.profile-meta.xml," ",Profile Help Center Profile,M,,log,📰
+profiles/IT.profile-meta.xml," ",Profile IT,M,,log,📰
+profiles/Identity User.profile-meta.xml," ",Profile Identity User,M,,log,📰
+profiles/Incoming_SMS Profile.profile-meta.xml," ",Profile Incoming_SMS Profile,M,,log,📰
+profiles/Leadership Lightning.profile-meta.xml," ",Profile Leadership Lightning,M,,log,📰
+profiles/Leadership.profile-meta.xml," ",Profile Leadership,M,,log,📰
+profiles/Learning %26 Development.profile-meta.xml," ",Profile Learning %26 Development,M,,log,📰
+profiles/Lightning Client Onboarding.profile-meta.xml," ",Profile Lightning Client Onboarding,M,,log,📰
+profiles/Lightning Compliance.profile-meta.xml," ",Profile Lightning Compliance,M,,log,📰
+profiles/Lightning Saver User.profile-meta.xml," ",Profile Lightning Saver User,M,,log,📰
+profiles/Lightning Service Manager.profile-meta.xml," ",Profile Lightning Service Manager,M,,log,📰
+profiles/Lightning Service User.profile-meta.xml," ",Profile Lightning Service User,M,,log,📰
+profiles/Marketing Team.profile-meta.xml," ",Profile Marketing Team,M,,log,📰
+profiles/MarketingProfile.profile-meta.xml," ",Profile MarketingProfile,M,,log,📰
+profiles/Master Administrator.profile-meta.xml," ",Profile Master Administrator,M,,log,📰
+profiles/Minimum Access - API Only Integrations.profile-meta.xml," ",Profile Minimum Access - API Only Integrations,M,,log,📰
+profiles/Minimum Access - Salesforce.profile-meta.xml," ",Profile Minimum Access - Salesforce,M,,log,📰
+profiles/Operations VP.profile-meta.xml," ",Profile Operations VP,M,,log,📰
+profiles/Operations.profile-meta.xml," ",Profile Operations,M,,log,📰
+profiles/PSM Team.profile-meta.xml," ",Profile PSM Team,M,,log,📰
+profiles/Paradigm Help Center Profile.profile-meta.xml," ",Profile Paradigm Help Center Profile,M,,log,📰
+profiles/Payroll Koncierge.profile-meta.xml," ",Profile Payroll Koncierge,M,,log,📰
+profiles/Payroll Team.profile-meta.xml," ",Profile Payroll Team,M,,log,📰
+profiles/People %26 Culture.profile-meta.xml," ",Profile People %26 Culture,M,,log,📰
+profiles/Pre-chat Site Profile.profile-meta.xml," ",Profile Pre-chat Site Profile,M,,log,📰
+profiles/Product Innovation Leadership.profile-meta.xml," ",Profile Product Innovation Leadership,M,,log,📰
+profiles/Product Innovation User.profile-meta.xml," ",Profile Product Innovation User,M,,log,📰
+profiles/R%26W.profile-meta.xml," ",Profile R%26W,M,,log,📰
+profiles/Read Only.profile-meta.xml," ",Profile Read Only,M,,log,📰
+profiles/Sales Administrator.profile-meta.xml," ",Profile Sales Administrator,M,,log,📰
+profiles/Sales Coordinator.profile-meta.xml," ",Profile Sales Coordinator,M,,log,📰
+profiles/Sales Insights Integration User.profile-meta.xml," ",Profile Sales Insights Integration User,M,,log,📰
+profiles/Sales Team - Limited.profile-meta.xml," ",Profile Sales Team - Limited,M,,log,📰
+profiles/Sales Team.profile-meta.xml," ",Profile Sales Team,M,,log,📰
+profiles/Salesforce API Only System Integrations.profile-meta.xml," ",Profile Salesforce API Only System Integrations,M,,log,📰
+profiles/SalesforceIQ Integration User.profile-meta.xml," ",Profile SalesforceIQ Integration User,M,,log,📰
+profiles/Saver Manager.profile-meta.xml," ",Profile Saver Manager,M,,log,📰
+profiles/Simple Survey Profile.profile-meta.xml," ",Profile Simple Survey Profile,M,,log,📰
+profiles/Simply Help Center Profile.profile-meta.xml," ",Profile Simply Help Center Profile,M,,log,📰
+profiles/SolutionManager.profile-meta.xml," ",Profile SolutionManager,M,,log,📰
+profiles/Standard.profile-meta.xml," ",Profile Standard,M,,log,📰
+profiles/StandardAul.profile-meta.xml," ",Profile StandardAul,M,,log,📰
+profiles/Super System Administrator.profile-meta.xml," ",Profile Super System Administrator,M,,log,📰
+profiles/Sys Dev Admin.profile-meta.xml," ",Profile Sys Dev Admin,M,,log,📰
+profiles/Transitions Team.profile-meta.xml," ",Profile Transitions Team,M,,log,📰
+profiles/Ubiquity Help Center Profile.profile-meta.xml," ",Profile Ubiquity Help Center Profile,M,,log,📰
+profiles/Zoom Webhooks Profile.profile-meta.xml," ",Profile Zoom Webhooks Profile,M,,log,📰
+profiles/myubiquity Profile.profile-meta.xml," ",Profile myubiquity Profile,M,,log,📰
 siteDotComSites/Help_Center1.site," ",SiteDotCom Help_Center1,M,,log,📰
 siteDotComSites/Paradigm_Help_Center1.site," ",SiteDotCom Paradigm_Help_Center1,M,,log,📰
 siteDotComSites/Simply_Help_Center1.site," ",SiteDotCom Simply_Help_Center1,M,,log,📰
@@ -24,3 +246,6 @@ wave/Setup_Audit_Trail.wdash," ",VirtualWave Setup_Audit_Trail.wdash,M,,log,📰
 wave/User_Logins.wdash," ",VirtualWave User_Logins.wdash,M,,log,📰
 wave/Visualforce_Requests.wdash," ",VirtualWave Visualforce_Requests.wdash,M,,log,📰
 wave/Wave_Adoption.wdash," ",VirtualWave Wave_Adoption.wdash,M,,log,📰
+workflows/Opportunity.workflow-meta.xml," ",Workflow Opportunity,M,,log,📰
+manifest/package-all-org-items.xml," ",manifest/package-all-org-items.xml,M,,log,📰
+manifest/package-backup-items.xml," ",manifest/package-backup-items.xml,M,,log,📰

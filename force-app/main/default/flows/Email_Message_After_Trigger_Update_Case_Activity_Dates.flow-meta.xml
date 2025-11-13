@@ -4,7 +4,7 @@
         <name>Log_Failed_Case_Creation</name>
         <label>Log Failed Case Creation</label>
         <locationX>314</locationX>
-        <locationY>755</locationY>
+        <locationY>863</locationY>
         <actionName>FlowRecordLogEntry</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -62,7 +62,7 @@
         <name>Assign_Case_Values</name>
         <label>Assign Case Values</label>
         <locationX>765</locationX>
-        <locationY>323</locationY>
+        <locationY>431</locationY>
         <assignmentItems>
             <assignToReference>associatedCase.Id</assignToReference>
             <operator>Assign</operator>
@@ -99,7 +99,7 @@
         <name>Assign_new_activity_datetime</name>
         <label>Assign new activity datetime</label>
         <locationX>633</locationX>
-        <locationY>1523</locationY>
+        <locationY>1631</locationY>
         <assignmentItems>
             <assignToReference>associatedCase.Last_Activity_Date__c</assignToReference>
             <operator>Assign</operator>
@@ -115,7 +115,7 @@
         <name>Assign_new_inbound_date</name>
         <label>Assign new inbound date</label>
         <locationX>578</locationX>
-        <locationY>755</locationY>
+        <locationY>863</locationY>
         <assignmentItems>
             <assignToReference>associatedCase.Last_Inbound_Activity__c</assignToReference>
             <operator>Assign</operator>
@@ -131,7 +131,7 @@
         <name>Assign_new_outbound_date</name>
         <label>Assign new outbound date</label>
         <locationX>1018</locationX>
-        <locationY>647</locationY>
+        <locationY>755</locationY>
         <assignmentItems>
             <assignToReference>associatedCase.Last_Outbound_Activity__c</assignToReference>
             <operator>Assign</operator>
@@ -147,7 +147,7 @@
         <name>Set_RR_Status</name>
         <label>Set RR Status</label>
         <locationX>578</locationX>
-        <locationY>1055</locationY>
+        <locationY>1163</locationY>
         <assignmentItems>
             <assignToReference>associatedCase.Status</assignToReference>
             <operator>Assign</operator>
@@ -163,7 +163,7 @@
         <name>Stamp_First_Response</name>
         <label>Stamp First Response</label>
         <locationX>1018</locationX>
-        <locationY>947</locationY>
+        <locationY>1055</locationY>
         <assignmentItems>
             <assignToReference>associatedCase.First_Response__c</assignToReference>
             <operator>Assign</operator>
@@ -186,7 +186,7 @@
         <name>Check_if_need_general_update</name>
         <label>Check if need general update</label>
         <locationX>765</locationX>
-        <locationY>1415</locationY>
+        <locationY>1523</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Needs_Activity_Update</name>
@@ -208,7 +208,7 @@
         <name>Check_if_need_inbound_update</name>
         <label>Check if need inbound update</label>
         <locationX>710</locationX>
-        <locationY>647</locationY>
+        <locationY>755</locationY>
         <defaultConnector>
             <targetReference>Check_if_need_response_received</targetReference>
         </defaultConnector>
@@ -234,7 +234,7 @@
         <name>Check_if_Need_New_Case</name>
         <label>Check if Need New Case</label>
         <locationX>380</locationX>
-        <locationY>539</locationY>
+        <locationY>647</locationY>
         <defaultConnector>
             <targetReference>Check_if_need_inbound_update</targetReference>
         </defaultConnector>
@@ -266,7 +266,7 @@
         <name>Check_if_need_outbound_update</name>
         <label>Check if need outbound update</label>
         <locationX>1150</locationX>
-        <locationY>539</locationY>
+        <locationY>647</locationY>
         <defaultConnector>
             <targetReference>Stamp_First_Response_on_Case</targetReference>
         </defaultConnector>
@@ -291,7 +291,7 @@
         <name>Check_if_need_response_received</name>
         <label>Check if need response received</label>
         <locationX>710</locationX>
-        <locationY>947</locationY>
+        <locationY>1055</locationY>
         <defaultConnector>
             <targetReference>Check_if_need_general_update</targetReference>
         </defaultConnector>
@@ -320,10 +320,33 @@
         </rules>
     </decisions>
     <decisions>
+        <description>Checks if the email&apos;s message date is less than an hour ago. If so, it&apos;s probably being unarchived and this flow shouldn&apos;t run.</description>
+        <name>Email_Age_Check</name>
+        <label>Email Age Check</label>
+        <locationX>275</locationX>
+        <locationY>323</locationY>
+        <defaultConnector>
+            <targetReference>Assign_Case_Values</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Old_Email</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.MessageDate</leftValueReference>
+                <operator>LessThan</operator>
+                <rightValue>
+                    <elementReference>oneHourAgo</elementReference>
+                </rightValue>
+            </conditions>
+            <label>Old Email</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Inbound_vs_Outbound_Split</name>
         <label>Inbound vs Outbound Split</label>
         <locationX>765</locationX>
-        <locationY>431</locationY>
+        <locationY>539</locationY>
         <defaultConnector>
             <targetReference>Check_if_need_outbound_update</targetReference>
         </defaultConnector>
@@ -348,7 +371,7 @@
         <name>Stamp_First_Response_on_Case</name>
         <label>Stamp First Response on Case?</label>
         <locationX>1150</locationX>
-        <locationY>839</locationY>
+        <locationY>947</locationY>
         <defaultConnector>
             <targetReference>Check_if_need_general_update</targetReference>
         </defaultConnector>
@@ -378,6 +401,11 @@
     </decisions>
     <description>Sets values for last inbound, last outbound, and last activity date when an email is sent or received on a case.  Also creates new case if email is received on a case that&apos;s been closed for 30+ days.</description>
     <environments>Default</environments>
+    <formulas>
+        <name>oneHourAgo</name>
+        <dataType>DateTime</dataType>
+        <expression>{!$Flow.CurrentDateTime} - (1/24)</expression>
+    </formulas>
     <formulas>
         <name>trimmedDescription</name>
         <dataType>String</dataType>
@@ -423,7 +451,7 @@
         <name>Create_Email_Copy</name>
         <label>Create Email Copy</label>
         <locationX>50</locationX>
-        <locationY>755</locationY>
+        <locationY>863</locationY>
         <inputAssignments>
             <field>BccAddress</field>
             <value>
@@ -491,7 +519,7 @@
         <name>Create_New_Case</name>
         <label>Create New Case</label>
         <locationX>50</locationX>
-        <locationY>647</locationY>
+        <locationY>755</locationY>
         <connector>
             <targetReference>Create_Email_Copy</targetReference>
         </connector>
@@ -571,14 +599,14 @@
         <name>Update_Case</name>
         <label>Update Case</label>
         <locationX>633</locationX>
-        <locationY>1631</locationY>
+        <locationY>1739</locationY>
         <inputReference>associatedCase</inputReference>
     </recordUpdates>
     <start>
-        <locationX>639</locationX>
+        <locationX>149</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Assign_Case_Values</targetReference>
+            <targetReference>Email_Age_Check</targetReference>
         </connector>
         <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterLogic>and</filterLogic>

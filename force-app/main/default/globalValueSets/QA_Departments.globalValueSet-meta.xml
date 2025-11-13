@@ -26,10 +26,15 @@
         <label>Client Onboarding</label>
     </customValue>
     <customValue>
+        <fullName>Compliance</fullName>
+        <default>false</default>
+        <label>Compliance</label>
+    </customValue>
+    <customValue>
         <fullName>Payroll</fullName>
         <default>false</default>
         <label>Payroll</label>
     </customValue>
     <masterLabel>QA Departments</masterLabel>
-    <sorted>false</sorted>
+    <sorted>true</sorted>
 </GlobalValueSet>

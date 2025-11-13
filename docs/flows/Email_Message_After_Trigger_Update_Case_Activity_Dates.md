@@ -49,6 +49,9 @@ click Check_if_need_outbound_update "#check_if_need_outbound_update" "1050873845
 Check_if_need_response_received{"🔀 <em></em><br/>Check if need response received"}:::decisions
 click Check_if_need_response_received "#check_if_need_response_received" "1259227781"
 
+Email_Age_Check{"🔀 <em></em><br/>Email Age Check"}:::decisions
+click Email_Age_Check "#email_age_check" "572163616"
+
 Inbound_vs_Outbound_Split{"🔀 <em></em><br/>Inbound vs Outbound Split"}:::decisions
 click Inbound_vs_Outbound_Split "#inbound_vs_outbound_split" "3517732822"
 
@@ -81,6 +84,7 @@ Check_if_need_outbound_update --> |"Needs Outbound Stamp"| Assign_new_outbound_d
 Check_if_need_outbound_update --> |"Default Outcome"| Stamp_First_Response_on_Case
 Check_if_need_response_received --> |"Need RR Status"| Set_RR_Status
 Check_if_need_response_received --> |"Default Outcome"| Check_if_need_general_update
+Email_Age_Check --> |"Default Outcome"| Assign_Case_Values
 Inbound_vs_Outbound_Split --> |"Inbound Email"| Check_if_Need_New_Case
 Inbound_vs_Outbound_Split --> |"Outbound"| Check_if_need_outbound_update
 Stamp_First_Response_on_Case --> |"Yes, Stamp First Response"| Stamp_First_Response
@@ -89,7 +93,7 @@ Create_Email_Copy --> END_Create_Email_Copy
 Create_New_Case --> Create_Email_Copy
 Create_New_Case -. Fault .->Log_Failed_Case_Creation
 Update_Case --> END_Update_Case
-START -->  Assign_Case_Values
+START -->  Email_Age_Check
 END_Check_if_need_general_update(( END )):::endClass
 END_Create_Email_Copy(( END )):::endClass
 END_Update_Case(( END )):::endClass
@@ -133,8 +137,8 @@ classDef transforms fill:#FDEAF6,color:black,text-decoration:none,max-height:100
 | Builder Type (PM)|LightningFlowBuilder|
 | Canvas Mode (PM)|AUTO_LAYOUT_CANVAS|
 | Origin Builder Type (PM)|LightningFlowBuilder|
-|Connector|[Assign_Case_Values](#assign_case_values)|
-|Next Node|[Assign_Case_Values](#assign_case_values)|
+|Connector|[Email_Age_Check](#email_age_check)|
+|Next Node|[Email_Age_Check](#email_age_check)|
 
 
 #### Filters (logic: **and**)
@@ -156,6 +160,7 @@ classDef transforms fill:#FDEAF6,color:black,text-decoration:none,max-height:100
 
 |Name|Data Type|Expression|Description|
 |:-- |:--:|:-- |:--  |
+|oneHourAgo|DateTime|{!$Flow.CurrentDateTime} - (1/24)|<!-- -->|
 |trimmedDescription|String|TRIM(LEFT({!$Record.TextBody},300))|<!-- -->|
 |trimmedSubject|String|TRIM(LEFT({!$Record.Subject},255))|<!-- -->|
 |twoMinutesAgo|DateTime|{!$Flow.CurrentDateTime} - (2/60/24)|<!-- -->|
@@ -437,6 +442,33 @@ classDef transforms fill:#FDEAF6,color:black,text-decoration:none,max-height:100
 |:-- |:-- |:--:|:--: |
 |1|$Record.Parent.Status| Not Equal To|Response Received|
 |2|$Record.Parent.CreatedDate| Less Than|twoMinutesAgo|
+
+
+
+
+### Email_Age_Check
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Type|Decision|
+|Label|Email Age Check|
+|Description|Checks if the email's message date is less than an hour ago. If so, it's probably being unarchived and this flow shouldn't run.|
+|Default Connector|[Assign_Case_Values](#assign_case_values)|
+|Default Connector Label|Default Outcome|
+
+
+#### Rule Old_Email (Old Email)
+
+|<!-- -->|<!-- -->|
+|:---|:---|
+|Condition Logic|and|
+
+
+
+
+|Condition Id|Left Value Reference|Operator|Right Value|
+|:-- |:-- |:--:|:--: |
+|1|$Record.MessageDate| Less Than|oneHourAgo|
 
 
 
