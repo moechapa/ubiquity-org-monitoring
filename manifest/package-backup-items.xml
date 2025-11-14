@@ -4184,6 +4184,156 @@
         <members>Account.x1stbilldate__c</members>
         <members>Account.x401kProvider__c</members>
         <members>Account.zzCONVERSIONFEE__c</members>
+        <members>Account_Home__dll.AccountNumber__c</members>
+        <members>Account_Home__dll.AccountSource__c</members>
+        <members>Account_Home__dll.Accounts_c__c</members>
+        <members>Account_Home__dll.ActivityMetricId__c</members>
+        <members>Account_Home__dll.ActivityMetricRollupId__c</members>
+        <members>Account_Home__dll.All_Traffic_Sources_c__c</members>
+        <members>Account_Home__dll.AnnualRevenue__c</members>
+        <members>Account_Home__dll.Asset_Manager_c__c</members>
+        <members>Account_Home__dll.Auto_Enrollment_c__c</members>
+        <members>Account_Home__dll.BD_Parent_c__c</members>
+        <members>Account_Home__dll.BD_Type_c__c</members>
+        <members>Account_Home__dll.BillingCity__c</members>
+        <members>Account_Home__dll.BillingCountryCode__c</members>
+        <members>Account_Home__dll.BillingCountry__c</members>
+        <members>Account_Home__dll.BillingGeocodeAccuracy__c</members>
+        <members>Account_Home__dll.BillingLatitude__c</members>
+        <members>Account_Home__dll.BillingLongitude__c</members>
+        <members>Account_Home__dll.BillingPostalCode__c</members>
+        <members>Account_Home__dll.BillingStateCode__c</members>
+        <members>Account_Home__dll.BillingState__c</members>
+        <members>Account_Home__dll.BillingStreet__c</members>
+        <members>Account_Home__dll.Campaign_code_c__c</members>
+        <members>Account_Home__dll.ChannelProgramLevelName__c</members>
+        <members>Account_Home__dll.ChannelProgramName__c</members>
+        <members>Account_Home__dll.Channel_c__c</members>
+        <members>Account_Home__dll.Client_Support_Teams_c__c</members>
+        <members>Account_Home__dll.Company_size_c__c</members>
+        <members>Account_Home__dll.Competitive_Summary_c__c</members>
+        <members>Account_Home__dll.ConnectionReceivedId__c</members>
+        <members>Account_Home__dll.ConnectionSentId__c</members>
+        <members>Account_Home__dll.CreatedById__c</members>
+        <members>Account_Home__dll.CreatedDate__c</members>
+        <members>Account_Home__dll.Current_Plan_c__c</members>
+        <members>Account_Home__dll.Custodian_c__c</members>
+        <members>Account_Home__dll.DOZISF_ZoomInfo_Enrich_Status_c__c</members>
+        <members>Account_Home__dll.DOZISF_ZoomInfo_First_Updated_c__c</members>
+        <members>Account_Home__dll.DOZISF_ZoomInfo_Id_c__c</members>
+        <members>Account_Home__dll.DOZISF_ZoomInfo_InboxAI_ID_c__c</members>
+        <members>Account_Home__dll.DOZISF_ZoomInfo_Last_Updated_c__c</members>
+        <members>Account_Home__dll.DataSourceObject__c</members>
+        <members>Account_Home__dll.DataSource__c</members>
+        <members>Account_Home__dll.Date_last_shopped_c__c</members>
+        <members>Account_Home__dll.Description__c</members>
+        <members>Account_Home__dll.DesiredPlanStartDate_c__c</members>
+        <members>Account_Home__dll.Employer_Identification_Number_EIN_c__c</members>
+        <members>Account_Home__dll.Fax__c</members>
+        <members>Account_Home__dll.Fund_List_c__c</members>
+        <members>Account_Home__dll.GA_Client_ID_Formula_c__c</members>
+        <members>Account_Home__dll.How_did_you_hear_about_us_c__c</members>
+        <members>Account_Home__dll.How_did_you_hear_about_us_details_c__c</members>
+        <members>Account_Home__dll.Id__c</members>
+        <members>Account_Home__dll.Industry__c</members>
+        <members>Account_Home__dll.Investment_selection_c__c</members>
+        <members>Account_Home__dll.Investments_c__c</members>
+        <members>Account_Home__dll.IsCustomerPortal__c</members>
+        <members>Account_Home__dll.IsDeleted__c</members>
+        <members>Account_Home__dll.IsPartner__c</members>
+        <members>Account_Home__dll.IsPriorityRecord__c</members>
+        <members>Account_Home__dll.JigsawCompanyId__c</members>
+        <members>Account_Home__dll.Jigsaw__c</members>
+        <members>Account_Home__dll.KQ_Id__c</members>
+        <members>Account_Home__dll.Knows_Rep_c__c</members>
+        <members>Account_Home__dll.LID_LinkedIn_Company_Id_c__c</members>
+        <members>Account_Home__dll.LastActivityDate__c</members>
+        <members>Account_Home__dll.LastModifiedById__c</members>
+        <members>Account_Home__dll.LastModifiedDate__c</members>
+        <members>Account_Home__dll.LastReferencedDate__c</members>
+        <members>Account_Home__dll.LastViewedDate__c</members>
+        <members>Account_Home__dll.MasterRecordId__c</members>
+        <members>Account_Home__dll.Message_from_Lead_c__c</members>
+        <members>Account_Home__dll.Multiple_Business_c__c</members>
+        <members>Account_Home__dll.Name__c</members>
+        <members>Account_Home__dll.New_Comp_c__c</members>
+        <members>Account_Home__dll.NumberOfEmployees__c</members>
+        <members>Account_Home__dll.Ongoing_Service_Issues_c__c</members>
+        <members>Account_Home__dll.Other_Payroll_Provider_c__c</members>
+        <members>Account_Home__dll.Other_c__c</members>
+        <members>Account_Home__dll.OwnerId__c</members>
+        <members>Account_Home__dll.PCRAAnnualFee_c__c</members>
+        <members>Account_Home__dll.ParentId__c</members>
+        <members>Account_Home__dll.Partner_Integration_Type_c__c</members>
+        <members>Account_Home__dll.PayPartner_c__c</members>
+        <members>Account_Home__dll.Payroll_Provider_c__c</members>
+        <members>Account_Home__dll.Payroll_Submission_Type_c__c</members>
+        <members>Account_Home__dll.Payroll_partner_notes_c__c</members>
+        <members>Account_Home__dll.Phone__c</members>
+        <members>Account_Home__dll.PhotoUrl__c</members>
+        <members>Account_Home__dll.Priority_c__c</members>
+        <members>Account_Home__dll.RecordTypeId__c</members>
+        <members>Account_Home__dll.Record_Keeping_System_c__c</members>
+        <members>Account_Home__dll.Relationship_Manager_c__c</members>
+        <members>Account_Home__dll.Revenue_Share_Option_c__c</members>
+        <members>Account_Home__dll.Safe_Harbor_c__c</members>
+        <members>Account_Home__dll.Sales_Notes_c__c</members>
+        <members>Account_Home__dll.Service_Option_c__c</members>
+        <members>Account_Home__dll.Setup_fee_c__c</members>
+        <members>Account_Home__dll.SfdcOrganizationId__c</members>
+        <members>Account_Home__dll.SicDesc__c</members>
+        <members>Account_Home__dll.Sic__c</members>
+        <members>Account_Home__dll.Software_Vendor_Payroll_c__c</members>
+        <members>Account_Home__dll.SourceSystemIdentifier__c</members>
+        <members>Account_Home__dll.SpecialFees_c__c</members>
+        <members>Account_Home__dll.Strategic_Partner_c__c</members>
+        <members>Account_Home__dll.SystemModstamp__c</members>
+        <members>Account_Home__dll.Timeframe_c__c</members>
+        <members>Account_Home__dll.TimezoneDELETE_c__c</members>
+        <members>Account_Home__dll.Type__c</members>
+        <members>Account_Home__dll.TypeofBusiness_c__c</members>
+        <members>Account_Home__dll.Volume_Level_c__c</members>
+        <members>Account_Home__dll.Website__c</members>
+        <members>Account_Home__dll.affectlayer_AffectLayer_Notes_c__c</members>
+        <members>Account_Home__dll.affectlayer_IsCreatedByChorusZI_c__c</members>
+        <members>Account_Home__dll.cdp_sys_SourceVersion__c</members>
+        <members>Account_Home__dll.cdp_sys_record_currency__c</members>
+        <members>Account_Home__dll.gaconnector_Browser_c__c</members>
+        <members>Account_Home__dll.gaconnector_City_c__c</members>
+        <members>Account_Home__dll.gaconnector_Country_c__c</members>
+        <members>Account_Home__dll.gaconnector_Device_c__c</members>
+        <members>Account_Home__dll.gaconnector_First_Click_Campaign_c__c</members>
+        <members>Account_Home__dll.gaconnector_First_Click_Channel_c__c</members>
+        <members>Account_Home__dll.gaconnector_First_Click_Content_c__c</members>
+        <members>Account_Home__dll.gaconnector_First_Click_Landing_Page_c__c</members>
+        <members>Account_Home__dll.gaconnector_First_Click_Medium_c__c</members>
+        <members>Account_Home__dll.gaconnector_First_Click_Referrer_c__c</members>
+        <members>Account_Home__dll.gaconnector_First_Click_Source_c__c</members>
+        <members>Account_Home__dll.gaconnector_First_Click_Term_c__c</members>
+        <members>Account_Home__dll.gaconnector_GCLID_c__c</members>
+        <members>Account_Home__dll.gaconnector_Google_Analytics_Client_ID_c__c</members>
+        <members>Account_Home__dll.gaconnector_Google_Analytics_Link_c__c</members>
+        <members>Account_Home__dll.gaconnector_IP_Address_c__c</members>
+        <members>Account_Home__dll.gaconnector_Last_Click_Campaign_c__c</members>
+        <members>Account_Home__dll.gaconnector_Last_Click_Channel_c__c</members>
+        <members>Account_Home__dll.gaconnector_Last_Click_Content_c__c</members>
+        <members>Account_Home__dll.gaconnector_Last_Click_Landing_Page_c__c</members>
+        <members>Account_Home__dll.gaconnector_Last_Click_Medium_c__c</members>
+        <members>Account_Home__dll.gaconnector_Last_Click_Referrer_c__c</members>
+        <members>Account_Home__dll.gaconnector_Last_Click_Source_c__c</members>
+        <members>Account_Home__dll.gaconnector_Last_Click_Term_c__c</members>
+        <members>Account_Home__dll.gaconnector_Latitude_from_IP_c__c</members>
+        <members>Account_Home__dll.gaconnector_Location_approx_c__c</members>
+        <members>Account_Home__dll.gaconnector_Longitude_c__c</members>
+        <members>Account_Home__dll.gaconnector_Number_of_Website_Visits_c__c</members>
+        <members>Account_Home__dll.gaconnector_Operating_System_c__c</members>
+        <members>Account_Home__dll.gaconnector_Pages_visited_c__c</members>
+        <members>Account_Home__dll.gaconnector_Time_Spent_on_Website_c__c</members>
+        <members>Account_Home__dll.gaconnector_Time_Spent_on_Website_formul__c</members>
+        <members>Account_Home__dll.gaconnector_Time_Zone_c__c</members>
+        <members>Account_Home__dll.x1stbilldate_c__c</members>
+        <members>Account_Home__dll.x401kProvider_c__c</members>
+        <members>Account_Home__dll.zzCONVERSIONFEE_c__c</members>
         <members>Account_Snapshot__c.Account__c</members>
         <members>Account_Snapshot__c.CSAT_Average__c</members>
         <members>Account_Snapshot__c.Client_Sentiment__c</members>
@@ -8803,6 +8953,7 @@
         <members>Partner_Evaluation__c.Ubiquity_Sales_Forecast__c</members>
         <members>Partner_Partner_Association__c.Approval_Status__c</members>
         <members>Partner_Partner_Association__c.Notes__c</members>
+        <members>Partner_Partner_Association__c.Owner__c</members>
         <members>Partner_Partner_Association__c.Partner_Competitor__c</members>
         <members>Partner_Partner_Association__c.Partner_Role__c</members>
         <members>Partner_Partner_Association__c.Partner__c</members>
@@ -10177,6 +10328,27 @@
         <members>UserEngagement__dlm.Score__c</members>
         <members>UserEngagement__dlm.Type__c</members>
         <members>UserEngagement__dlm.UserId__c</members>
+        <members>UserRole_Home__dll.CaseAccessForAccountOwner__c</members>
+        <members>UserRole_Home__dll.ContactAccessForAccountOwner__c</members>
+        <members>UserRole_Home__dll.DataSourceObject__c</members>
+        <members>UserRole_Home__dll.DataSource__c</members>
+        <members>UserRole_Home__dll.DeveloperName__c</members>
+        <members>UserRole_Home__dll.ForecastUserId__c</members>
+        <members>UserRole_Home__dll.Id__c</members>
+        <members>UserRole_Home__dll.KQ_Id__c</members>
+        <members>UserRole_Home__dll.LastModifiedById__c</members>
+        <members>UserRole_Home__dll.LastModifiedDate__c</members>
+        <members>UserRole_Home__dll.MayForecastManagerShare__c</members>
+        <members>UserRole_Home__dll.Name__c</members>
+        <members>UserRole_Home__dll.ParentRoleId__c</members>
+        <members>UserRole_Home__dll.PortalAccountId__c</members>
+        <members>UserRole_Home__dll.PortalAccountOwnerId__c</members>
+        <members>UserRole_Home__dll.PortalRole__c</members>
+        <members>UserRole_Home__dll.PortalType__c</members>
+        <members>UserRole_Home__dll.RollupDescription__c</members>
+        <members>UserRole_Home__dll.SfdcOrganizationId__c</members>
+        <members>UserRole_Home__dll.SystemModstamp__c</members>
+        <members>UserRole_Home__dll.cdp_sys_SourceVersion__c</members>
         <members>User_Home__dll.DataSourceObject__c</members>
         <members>User_Home__dll.DataSource__c</members>
         <members>User_Home__dll.Email__c</members>
@@ -11683,6 +11855,7 @@
     <types>
         <members>AIRetrieverRequest_dll</members>
         <members>AIRetrieverResponse_dll</members>
+        <members>Account_Home</members>
         <members>AgentOpt_Tag_12FE69E9_dll</members>
         <members>AgentOpt_Tag_Def_12FE69E7_dll</members>
         <members>AgentOpt_Tag_Def_Association_12FE69E9_dll</members>
@@ -11722,6 +11895,7 @@
         <members>TenantEntitlementTransaction</members>
         <members>TenantUsageTypeMultiplier</members>
         <members>UserEngagement</members>
+        <members>UserRole_Home</members>
         <members>User_Home</members>
         <name>DataSourceObject</name>
     </types>
@@ -11733,6 +11907,7 @@
     <types>
         <members>AIRetrieverRequest</members>
         <members>AIRetrieverResponse</members>
+        <members>Account_Home</members>
         <members>AgentOpt_Tag_12FE69E9</members>
         <members>AgentOpt_Tag_Def_12FE69E7</members>
         <members>AgentOpt_Tag_Def_Association_12FE69E9</members>
@@ -11772,6 +11947,7 @@
         <members>TenantEntitlementTransaction</members>
         <members>TenantUsageTypeMultiplier</members>
         <members>UserEngagement</members>
+        <members>UserRole_Home</members>
         <members>User_Home</members>
         <name>DataStreamDefinition</name>
     </types>
@@ -12361,6 +12537,7 @@
         <members>HAWKING_ARTICLE_RECOMMENDATION_1762418984046</members>
         <members>HAWKING_ARTICLE_RECOMMENDATION_1762505869527</members>
         <members>HAWKING_ARTICLE_RECOMMENDATION_1762821641251</members>
+        <members>HAWKING_ARTICLE_RECOMMENDATION_1763081746879</members>
         <members>HAWKING_FAQ_1726165876670</members>
         <members>HAWKING_FAQ_1726532303483</members>
         <members>HAWKING_FAQ_1726598154627</members>
@@ -12691,6 +12868,9 @@
         <members>HAWKING_FAQ_1762907447221</members>
         <members>HAWKING_FAQ_1762907774339</members>
         <members>HAWKING_FAQ_1762907774370</members>
+        <members>HAWKING_FAQ_1763080674582</members>
+        <members>HAWKING_FAQ_1763080674628</members>
+        <members>HAWKING_FAQ_1763080901646</members>
         <members>HAWKING_REPLY_RECOMMENDATION_1704917557833</members>
         <members>HAWKING_UTTERANCE_RECOMMENDATION_1730233611442</members>
         <name>ExternalAIModel</name>
@@ -15046,6 +15226,7 @@
     <types>
         <members>AIRetrieverRequest</members>
         <members>AIRetrieverResponse</members>
+        <members>Account_Home</members>
         <members>AgentOpt_Tag_12FE69E9</members>
         <members>AgentOpt_Tag_Def_12FE69E7</members>
         <members>AgentOpt_Tag_Def_Association_12FE69E9</members>
@@ -15085,6 +15266,7 @@
         <members>TenantEntitlementTransaction</members>
         <members>TenantUsageTypeMultiplier</members>
         <members>UserEngagement</members>
+        <members>UserRole_Home</members>
         <members>User_Home</members>
         <name>MktDataTranObject</name>
     </types>
@@ -15365,6 +15547,7 @@
     <types>
         <members>AIRetrieverRequest_map_AIRetrieverRequest_1761258196040</members>
         <members>AIRetrieverResponse_map_AIRetrieverResponse_1761258203953</members>
+        <members>Account_Home_map_Account_Home_1763079822343</members>
         <members>AgentOpt_Tag_12FE69E9_map_AgentOpt_Tag_12FE69E9_1761255254538</members>
         <members>AgentOpt_Tag_12FE69E9_map_AiAgentTag_1761255320737</members>
         <members>AgentOpt_Tag_Def_12FE69E7_map_AgentOpt_Tag_Def_12FE69E7_1761255254535</members>
@@ -15445,6 +15628,7 @@
         <members>TenantUsageTypeMultiplier_map_TenantUsageTypeMultiplier_1735847700226</members>
         <members>UserEngagement_map_UserEngagement_1740436910709</members>
         <members>UserEngagement_map_UserEngagement_1740436921618</members>
+        <members>UserRole_Home_map_UserRole_Home_1763080258007</members>
         <members>User_Home_map_User_Home_1740436896909</members>
         <members>sfm_AiAgentMomentInteraction_map_AiAgentMomentInteraction_1761254904829</members>
         <members>sfm_AiAgentMoment_map_AiAgentMoment_1761255012579</members>

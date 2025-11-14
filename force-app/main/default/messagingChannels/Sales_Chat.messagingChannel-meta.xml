@@ -64,15 +64,15 @@
     <sessionHandlerType>Flow</sessionHandlerType>
     <standardParameters>
         <actionParameterMappings>
-            <actionParameterName>Email</actionParameterName>
-        </actionParameterMappings>
-        <parameterType>Email</parameterType>
-    </standardParameters>
-    <standardParameters>
-        <actionParameterMappings>
             <actionParameterName>First_Name</actionParameterName>
         </actionParameterMappings>
         <parameterType>FirstName</parameterType>
+    </standardParameters>
+    <standardParameters>
+        <actionParameterMappings>
+            <actionParameterName>Email</actionParameterName>
+        </actionParameterMappings>
+        <parameterType>Email</parameterType>
     </standardParameters>
     <standardParameters>
         <actionParameterMappings>

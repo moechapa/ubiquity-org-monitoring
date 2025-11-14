@@ -23,7 +23,12 @@
     <filters>
         <field>TITLE</field>
         <operation>contains</operation>
-        <value>late</value>
+        <value>contribution</value>
+    </filters>
+    <filters>
+        <field>IS_CHANNEL_PKB</field>
+        <operation>equals</operation>
+        <value>1</value>
     </filters>
     <label>Published Articles</label>
 </ListView>

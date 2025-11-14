@@ -335,16 +335,10 @@
                 <componentName>rewardsgenius:rewardStatus</componentName>
                 <identifier>rewardsgenius_rewardStatus</identifier>
                 <visibilityRule>
-                    <booleanFilter>1 OR 2</booleanFilter>
                     <criteria>
-                        <leftValue>{!$User.Profile.Name}</leftValue>
-                        <operator>CONTAINS</operator>
-                        <rightValue>Service</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!$User.Profile.Name}</leftValue>
-                        <operator>CONTAINS</operator>
-                        <rightValue>Administrator</rightValue>
+                        <leftValue>{!$Permission.CustomPermission.rewardsgenius__Tango_Read_Rewards}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>true</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>

@@ -20117,6 +20117,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Partner_Partner_Association__c.Owner__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Partner_Partner_Association__c.Partner_Role__c</field>
         <readable>true</readable>

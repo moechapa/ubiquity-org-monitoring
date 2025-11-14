@@ -1,145 +1,200 @@
 File,ChangeType,FileHuman,WorkingDir,PrevName,severity,severityIcon
 cleanDataServices/DataCloudGeoLocation.cleanDataService-meta.xml," ",CleanDataService DataCloudGeoLocation,M,,log,📰
-dataSourceObjects/Case_Home.dataSourceObject-meta.xml,A,dataSourceObjects/Case_Home.dataSourceObject-meta.xml,,,log,📰
-dataStreamDefinitions/Case_Home.dataStreamDefinition-meta.xml,A,DataStreamDefinition Case_Home,,,log,📰
+dataSourceObjects/Account_Home.dataSourceObject-meta.xml,A,dataSourceObjects/Account_Home.dataSourceObject-meta.xml,,,log,📰
+dataSourceObjects/UserRole_Home.dataSourceObject-meta.xml,A,dataSourceObjects/UserRole_Home.dataSourceObject-meta.xml,,,log,📰
+dataStreamDefinitions/Account_Home.dataStreamDefinition-meta.xml,A,DataStreamDefinition Account_Home,,,log,📰
+dataStreamDefinitions/UserRole_Home.dataStreamDefinition-meta.xml,A,DataStreamDefinition UserRole_Home,,,log,📰
 datacategorygroups/Global_Categories.datacategorygroup-meta.xml," ",DataCategoryGroup Global_Categories,M,,log,📰
+externalAIModels/HAWKING_ARTICLE_RECOMMENDATION_1762821641251.externalAIModel-meta.xml," ",externalAIModels/HAWKING_ARTICLE_RECOMMENDATION_1762821641251.externalAIModel-meta.xml,M,,log,📰
+externalAIModels/HAWKING_ARTICLE_RECOMMENDATION_1763081746879.externalAIModel-meta.xml,A,externalAIModels/HAWKING_ARTICLE_RECOMMENDATION_1763081746879.externalAIModel-meta.xml,,,log,📰
+externalAIModels/HAWKING_FAQ_1762907447221.externalAIModel-meta.xml," ",externalAIModels/HAWKING_FAQ_1762907447221.externalAIModel-meta.xml,M,,log,📰
+externalAIModels/HAWKING_FAQ_1763080674582.externalAIModel-meta.xml,A,externalAIModels/HAWKING_FAQ_1763080674582.externalAIModel-meta.xml,,,log,📰
+externalAIModels/HAWKING_FAQ_1763080674628.externalAIModel-meta.xml,A,externalAIModels/HAWKING_FAQ_1763080674628.externalAIModel-meta.xml,,,log,📰
+externalAIModels/HAWKING_FAQ_1763080901646.externalAIModel-meta.xml,A,externalAIModels/HAWKING_FAQ_1763080901646.externalAIModel-meta.xml,,,log,📰
 flexipages/Default_Contact_Layout.flexipage-meta.xml," ",FlexiPage Default_Contact_Layout,M,,log,📰
-flowDefinitions/Email_Message_After_Trigger_Update_Case_Activity_Dates.flowDefinition-meta.xml," ",FlowDefinition Email_Message_After_Trigger_Update_Case_Activity_Dates,M,,log,📰
-flows/Email_Message_After_Trigger_Update_Case_Activity_Dates.flow-meta.xml," ",Flow Email_Message_After_Trigger_Update_Case_Activity_Dates,M,,log,📰
-globalValueSets/QA_Departments.globalValueSet-meta.xml," ",GlobalValueSet QA_Departments,M,,log,📰
-layouts/ExtDataShareTarget-Data Share Target Layout.layout-meta.xml,A,Layout ExtDataShareTarget-Data Share Target Layout,,,log,📰
 messagingChannels/Login_Help.messagingChannel-meta.xml," ",MessagingChannel Login_Help,M,,log,📰
 messagingChannels/Omni_Messaging.messagingChannel-meta.xml," ",MessagingChannel Omni_Messaging,M,,log,📰
 messagingChannels/Sales_Chat.messagingChannel-meta.xml," ",MessagingChannel Sales_Chat,M,,log,📰
-mktDataTranObjects/Case_Home.mktDataTranObject-meta.xml,A,MktDataTranObject Case_Home,,,log,📰
-objectSourceTargetMaps/Case_Home_map_Case_Home_1762995942309.objectSourceTargetMap-meta.xml,A,ObjectSourceTargetMap Case_Home_map_Case_Home_1762995942309,,,log,📰
-objects/Case_Home__dll/Case_Home__dll.object-meta.xml,A,CustomObject Case_Home__dll/Case_Home__dll,,,log,📰
-objects/Case_Home__dll/fields/AccountId__c.field-meta.xml,A,CustomField AccountId__c,,,log,📰
-objects/Case_Home__dll/fields/BusinessHoursId__c.field-meta.xml,A,CustomField BusinessHoursId__c,,,log,📰
-objects/Case_Home__dll/fields/CaseNumber__c.field-meta.xml,A,CustomField CaseNumber__c,,,log,📰
-objects/Case_Home__dll/fields/CaseTimer19_Cumulative_Time_c__c.field-meta.xml,A,CustomField CaseTimer19_Cumulative_Time_c__c,,,log,📰
-objects/Case_Home__dll/fields/Case_Age_In_Business_Hours_c__c.field-meta.xml,A,CustomField Case_Age_In_Business_Hours_c__c,,,log,📰
-objects/Case_Home__dll/fields/Case_Age_c__c.field-meta.xml,A,CustomField Case_Age_c__c,,,log,📰
-objects/Case_Home__dll/fields/Case_Flag_c__c.field-meta.xml,A,CustomField Case_Flag_c__c,,,log,📰
-objects/Case_Home__dll/fields/Case_Sent_to_External_Team_c__c.field-meta.xml,A,CustomField Case_Sent_to_External_Team_c__c,,,log,📰
-objects/Case_Home__dll/fields/Case_Sentiment_c__c.field-meta.xml,A,CustomField Case_Sentiment_c__c,,,log,📰
-objects/Case_Home__dll/fields/Case_Source_c__c.field-meta.xml,A,CustomField Case_Source_c__c,,,log,📰
-objects/Case_Home__dll/fields/Case_Team_c__c.field-meta.xml,A,CustomField Case_Team_c__c,,,log,📰
-objects/Case_Home__dll/fields/Case_Type_c__c.field-meta.xml,A,CustomField Case_Type_c__c,,,log,📰
-objects/Case_Home__dll/fields/Category_c__c.field-meta.xml,A,CustomField Category_c__c,,,log,📰
-objects/Case_Home__dll/fields/Child_Case_Instructions_c__c.field-meta.xml,A,CustomField Child_Case_Instructions_c__c,,,log,📰
-objects/Case_Home__dll/fields/Client_Satisfaction_CSAT_c__c.field-meta.xml,A,CustomField Client_Satisfaction_CSAT_c__c,,,log,📰
-objects/Case_Home__dll/fields/Client_Support_Team_CST_c__c.field-meta.xml,A,CustomField Client_Support_Team_CST_c__c,,,log,📰
-objects/Case_Home__dll/fields/ClosedDate__c.field-meta.xml,A,CustomField ClosedDate__c,,,log,📰
-objects/Case_Home__dll/fields/Comments__c.field-meta.xml,A,CustomField Comments__c,,,log,📰
-objects/Case_Home__dll/fields/ConnectionReceivedId__c.field-meta.xml,A,CustomField ConnectionReceivedId__c,,,log,📰
-objects/Case_Home__dll/fields/ConnectionSentId__c.field-meta.xml,A,CustomField ConnectionSentId__c,,,log,📰
-objects/Case_Home__dll/fields/ContactEmail__c.field-meta.xml,A,CustomField ContactEmail__c,,,log,📰
-objects/Case_Home__dll/fields/ContactFax__c.field-meta.xml,A,CustomField ContactFax__c,,,log,📰
-objects/Case_Home__dll/fields/ContactId__c.field-meta.xml,A,CustomField ContactId__c,,,log,📰
-objects/Case_Home__dll/fields/ContactMobile__c.field-meta.xml,A,CustomField ContactMobile__c,,,log,📰
-objects/Case_Home__dll/fields/ContactPhone__c.field-meta.xml,A,CustomField ContactPhone__c,,,log,📰
-objects/Case_Home__dll/fields/CreatedById__c.field-meta.xml,A,CustomField CreatedById__c,,,log,📰
-objects/Case_Home__dll/fields/CreatedDate__c.field-meta.xml,A,CustomField CreatedDate__c,,,log,📰
-objects/Case_Home__dll/fields/Customer_Re_Opened_Case_c__c.field-meta.xml,A,CustomField Customer_Re_Opened_Case_c__c,,,log,📰
-objects/Case_Home__dll/fields/DataSourceObject__c.field-meta.xml,A,CustomField DataSourceObject__c,,,log,📰
-objects/Case_Home__dll/fields/DataSource__c.field-meta.xml,A,CustomField DataSource__c,,,log,📰
-objects/Case_Home__dll/fields/Department_c__c.field-meta.xml,A,CustomField Department_c__c,,,log,📰
-objects/Case_Home__dll/fields/Description__c.field-meta.xml,A,CustomField Description__c,,,log,📰
-objects/Case_Home__dll/fields/First_Response_c__c.field-meta.xml,A,CustomField First_Response_c__c,,,log,📰
-objects/Case_Home__dll/fields/HasCommentsUnreadByOwner__c.field-meta.xml,A,CustomField HasCommentsUnreadByOwner__c,,,log,📰
-objects/Case_Home__dll/fields/HasSelfServiceComments__c.field-meta.xml,A,CustomField HasSelfServiceComments__c,,,log,📰
-objects/Case_Home__dll/fields/Id__c.field-meta.xml,A,CustomField Id__c,,,log,📰
-objects/Case_Home__dll/fields/Implementation_c__c.field-meta.xml,A,CustomField Implementation_c__c,,,log,📰
-objects/Case_Home__dll/fields/IsClosedOnCreate__c.field-meta.xml,A,CustomField IsClosedOnCreate__c,,,log,📰
-objects/Case_Home__dll/fields/IsClosed__c.field-meta.xml,A,CustomField IsClosed__c,,,log,📰
-objects/Case_Home__dll/fields/IsDeleted__c.field-meta.xml,A,CustomField IsDeleted__c,,,log,📰
-objects/Case_Home__dll/fields/IsEscalated__c.field-meta.xml,A,CustomField IsEscalated__c,,,log,📰
-objects/Case_Home__dll/fields/JIRA_Priority_c__c.field-meta.xml,A,CustomField JIRA_Priority_c__c,,,log,📰
-objects/Case_Home__dll/fields/JIRA_Status_c__c.field-meta.xml,A,CustomField JIRA_Status_c__c,,,log,📰
-objects/Case_Home__dll/fields/KQ_Id__c.field-meta.xml,A,CustomField KQ_Id__c,,,log,📰
-objects/Case_Home__dll/fields/Language__c.field-meta.xml,A,CustomField Language__c,,,log,📰
-objects/Case_Home__dll/fields/LastModifiedById__c.field-meta.xml,A,CustomField LastModifiedById__c,,,log,📰
-objects/Case_Home__dll/fields/LastModifiedDate__c.field-meta.xml,A,CustomField LastModifiedDate__c,,,log,📰
-objects/Case_Home__dll/fields/LastReferencedDate__c.field-meta.xml,A,CustomField LastReferencedDate__c,,,log,📰
-objects/Case_Home__dll/fields/LastViewedDate__c.field-meta.xml,A,CustomField LastViewedDate__c,,,log,📰
-objects/Case_Home__dll/fields/Last_Status_Change_c__c.field-meta.xml,A,CustomField Last_Status_Change_c__c,,,log,📰
-objects/Case_Home__dll/fields/MasterRecordId__c.field-meta.xml,A,CustomField MasterRecordId__c,,,log,📰
-objects/Case_Home__dll/fields/MilestoneStatus__c.field-meta.xml,A,CustomField MilestoneStatus__c,,,log,📰
-objects/Case_Home__dll/fields/Origin__c.field-meta.xml,A,CustomField Origin__c,,,log,📰
-objects/Case_Home__dll/fields/OwnerId__c.field-meta.xml,A,CustomField OwnerId__c,,,log,📰
-objects/Case_Home__dll/fields/ParentId__c.field-meta.xml,A,CustomField ParentId__c,,,log,📰
-objects/Case_Home__dll/fields/Plan_c__c.field-meta.xml,A,CustomField Plan_c__c,,,log,📰
-objects/Case_Home__dll/fields/Priority__c.field-meta.xml,A,CustomField Priority__c,,,log,📰
-objects/Case_Home__dll/fields/Reason__c.field-meta.xml,A,CustomField Reason__c,,,log,📰
-objects/Case_Home__dll/fields/RecordTypeId__c.field-meta.xml,A,CustomField RecordTypeId__c,,,log,📰
-objects/Case_Home__dll/fields/Reopened_Count_c__c.field-meta.xml,A,CustomField Reopened_Count_c__c,,,log,📰
-objects/Case_Home__dll/fields/Request_Reason_c__c.field-meta.xml,A,CustomField Request_Reason_c__c,,,log,📰
-objects/Case_Home__dll/fields/Sentiment_Score_c__c.field-meta.xml,A,CustomField Sentiment_Score_c__c,,,log,📰
-objects/Case_Home__dll/fields/SfdcOrganizationId__c.field-meta.xml,A,CustomField SfdcOrganizationId__c,,,log,📰
-objects/Case_Home__dll/fields/Status__c.field-meta.xml,A,CustomField Status__c,,,log,📰
-objects/Case_Home__dll/fields/Subject__c.field-meta.xml,A,CustomField Subject__c,,,log,📰
-objects/Case_Home__dll/fields/SuppliedCompany__c.field-meta.xml,A,CustomField SuppliedCompany__c,,,log,📰
-objects/Case_Home__dll/fields/SuppliedEmail__c.field-meta.xml,A,CustomField SuppliedEmail__c,,,log,📰
-objects/Case_Home__dll/fields/SuppliedName__c.field-meta.xml,A,CustomField SuppliedName__c,,,log,📰
-objects/Case_Home__dll/fields/SuppliedPhone__c.field-meta.xml,A,CustomField SuppliedPhone__c,,,log,📰
-objects/Case_Home__dll/fields/SystemModstamp__c.field-meta.xml,A,CustomField SystemModstamp__c,,,log,📰
-objects/Case_Home__dll/fields/Team_Member_c__c.field-meta.xml,A,CustomField Team_Member_c__c,,,log,📰
-objects/Case_Home__dll/fields/Time_Open_c__c.field-meta.xml,A,CustomField Time_Open_c__c,,,log,📰
-objects/Case_Home__dll/fields/Time_With_Customer_c__c.field-meta.xml,A,CustomField Time_With_Customer_c__c,,,log,📰
-objects/Case_Home__dll/fields/Time_With_Support_c__c.field-meta.xml,A,CustomField Time_With_Support_c__c,,,log,📰
-objects/Case_Home__dll/fields/Time_to_Action_SLA_Met_c__c.field-meta.xml,A,CustomField Time_to_Action_SLA_Met_c__c,,,log,📰
-objects/Case_Home__dll/fields/Time_to_Close_c__c.field-meta.xml,A,CustomField Time_to_Close_c__c,,,log,📰
-objects/Case_Home__dll/fields/Type__c.field-meta.xml,A,CustomField Type__c,,,log,📰
-objects/Case_Home__dll/fields/Ubiquity_Leader_c__c.field-meta.xml,A,CustomField Ubiquity_Leader_c__c,,,log,📰
-objects/Case_Home__dll/fields/Web_First_Name_c__c.field-meta.xml,A,CustomField Web_First_Name_c__c,,,log,📰
-objects/Case_Home__dll/fields/Web_Form_Category_c__c.field-meta.xml,A,CustomField Web_Form_Category_c__c,,,log,📰
-objects/Case_Home__dll/fields/Web_Form_Role_c__c.field-meta.xml,A,CustomField Web_Form_Role_c__c,,,log,📰
-objects/Case_Home__dll/fields/Web_Last_Name_c__c.field-meta.xml,A,CustomField Web_Last_Name_c__c,,,log,📰
-objects/Case_Home__dll/fields/cdp_sys_SourceVersion__c.field-meta.xml,A,CustomField cdp_sys_SourceVersion__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Browser_c__c.field-meta.xml,A,CustomField gaconnector_Browser_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_City_c__c.field-meta.xml,A,CustomField gaconnector_City_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Country_c__c.field-meta.xml,A,CustomField gaconnector_Country_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Device_c__c.field-meta.xml,A,CustomField gaconnector_Device_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_First_Click_Campaign_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Campaign_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_First_Click_Channel_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Channel_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_First_Click_Content_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Content_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_First_Click_Landing_Page_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Landing_Page_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_First_Click_Medium_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Medium_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_First_Click_Referrer_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Referrer_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_First_Click_Source_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Source_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_First_Click_Term_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Term_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_GCLID_c__c.field-meta.xml,A,CustomField gaconnector_GCLID_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Google_Analytics_Client_ID_c__c.field-meta.xml,A,CustomField gaconnector_Google_Analytics_Client_ID_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Google_Analytics_Link_c__c.field-meta.xml,A,CustomField gaconnector_Google_Analytics_Link_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_IP_Address_c__c.field-meta.xml,A,CustomField gaconnector_IP_Address_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Last_Click_Campaign_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Campaign_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Last_Click_Channel_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Channel_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Last_Click_Content_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Content_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Last_Click_Landing_Page_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Landing_Page_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Last_Click_Medium_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Medium_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Last_Click_Referrer_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Referrer_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Last_Click_Source_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Source_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Last_Click_Term_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Term_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Latitude_from_IP_c__c.field-meta.xml,A,CustomField gaconnector_Latitude_from_IP_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Location_approx_c__c.field-meta.xml,A,CustomField gaconnector_Location_approx_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Longitude_c__c.field-meta.xml,A,CustomField gaconnector_Longitude_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Number_of_Website_Visits_c__c.field-meta.xml,A,CustomField gaconnector_Number_of_Website_Visits_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Operating_System_c__c.field-meta.xml,A,CustomField gaconnector_Operating_System_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Pages_visited_c__c.field-meta.xml,A,CustomField gaconnector_Pages_visited_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Time_Spent_on_Website_c__c.field-meta.xml,A,CustomField gaconnector_Time_Spent_on_Website_c__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Time_Spent_on_Website_formul__c.field-meta.xml,A,CustomField gaconnector_Time_Spent_on_Website_formul__c,,,log,📰
-objects/Case_Home__dll/fields/gaconnector_Time_Zone_c__c.field-meta.xml,A,CustomField gaconnector_Time_Zone_c__c,,,log,📰
-objects/Case_Home__dll/fields/lntcss_Splited_From_c__c.field-meta.xml,A,CustomField lntcss_Splited_From_c__c,,,log,📰
-objects/Case_Home__dll/fields/n2de_Action_c__c.field-meta.xml,A,CustomField n2de_Action_c__c,,,log,📰
-objects/Case_Home__dll/fields/n2de_Is_distributed_c__c.field-meta.xml,A,CustomField n2de_Is_distributed_c__c,,,log,📰
-objects/Case_Home__dll/fields/n2de_Is_reassigned_c__c.field-meta.xml,A,CustomField n2de_Is_reassigned_c__c,,,log,📰
-objects/Case_Home__dll/fields/n2de_Is_trigger_enabled_c__c.field-meta.xml,A,CustomField n2de_Is_trigger_enabled_c__c,,,log,📰
-objects/Case_Home__dll/fields/n2de_Is_triggered_c__c.field-meta.xml,A,CustomField n2de_Is_triggered_c__c,,,log,📰
-objects/Case_Home__dll/fields/n2de_Last_distributed_c__c.field-meta.xml,A,CustomField n2de_Last_distributed_c__c,,,log,📰
-objects/Case_Home__dll/fields/n2de_Last_reassigned_c__c.field-meta.xml,A,CustomField n2de_Last_reassigned_c__c,,,log,📰
-objects/Case_Home__dll/fields/n2de_Time_to_action_mins_c__c.field-meta.xml,A,CustomField n2de_Time_to_action_mins_c__c,,,log,📰
-objects/Quality_Assurance_QA__c/recordTypes/Dynamic_QA_Form.recordType-meta.xml," ",RecordType Dynamic_QA_Form,M,,log,📰
+mktDataTranObjects/Account_Home.mktDataTranObject-meta.xml,A,MktDataTranObject Account_Home,,,log,📰
+mktDataTranObjects/UserRole_Home.mktDataTranObject-meta.xml,A,MktDataTranObject UserRole_Home,,,log,📰
+objectSourceTargetMaps/Account_Home_map_Account_Home_1763079822343.objectSourceTargetMap-meta.xml,A,ObjectSourceTargetMap Account_Home_map_Account_Home_1763079822343,,,log,📰
+objectSourceTargetMaps/UserRole_Home_map_UserRole_Home_1763080258007.objectSourceTargetMap-meta.xml,A,ObjectSourceTargetMap UserRole_Home_map_UserRole_Home_1763080258007,,,log,📰
+objects/Account_Home__dll/Account_Home__dll.object-meta.xml,A,CustomObject Account_Home__dll/Account_Home__dll,,,log,📰
+objects/Account_Home__dll/fields/AccountNumber__c.field-meta.xml,A,CustomField AccountNumber__c,,,log,📰
+objects/Account_Home__dll/fields/AccountSource__c.field-meta.xml,A,CustomField AccountSource__c,,,log,📰
+objects/Account_Home__dll/fields/Accounts_c__c.field-meta.xml,A,CustomField Accounts_c__c,,,log,📰
+objects/Account_Home__dll/fields/ActivityMetricId__c.field-meta.xml,A,CustomField ActivityMetricId__c,,,log,📰
+objects/Account_Home__dll/fields/ActivityMetricRollupId__c.field-meta.xml,A,CustomField ActivityMetricRollupId__c,,,log,📰
+objects/Account_Home__dll/fields/All_Traffic_Sources_c__c.field-meta.xml,A,CustomField All_Traffic_Sources_c__c,,,log,📰
+objects/Account_Home__dll/fields/AnnualRevenue__c.field-meta.xml,A,CustomField AnnualRevenue__c,,,log,📰
+objects/Account_Home__dll/fields/Asset_Manager_c__c.field-meta.xml,A,CustomField Asset_Manager_c__c,,,log,📰
+objects/Account_Home__dll/fields/Auto_Enrollment_c__c.field-meta.xml,A,CustomField Auto_Enrollment_c__c,,,log,📰
+objects/Account_Home__dll/fields/BD_Parent_c__c.field-meta.xml,A,CustomField BD_Parent_c__c,,,log,📰
+objects/Account_Home__dll/fields/BD_Type_c__c.field-meta.xml,A,CustomField BD_Type_c__c,,,log,📰
+objects/Account_Home__dll/fields/BillingCity__c.field-meta.xml,A,CustomField BillingCity__c,,,log,📰
+objects/Account_Home__dll/fields/BillingCountryCode__c.field-meta.xml,A,CustomField BillingCountryCode__c,,,log,📰
+objects/Account_Home__dll/fields/BillingCountry__c.field-meta.xml,A,CustomField BillingCountry__c,,,log,📰
+objects/Account_Home__dll/fields/BillingGeocodeAccuracy__c.field-meta.xml,A,CustomField BillingGeocodeAccuracy__c,,,log,📰
+objects/Account_Home__dll/fields/BillingLatitude__c.field-meta.xml,A,CustomField BillingLatitude__c,,,log,📰
+objects/Account_Home__dll/fields/BillingLongitude__c.field-meta.xml,A,CustomField BillingLongitude__c,,,log,📰
+objects/Account_Home__dll/fields/BillingPostalCode__c.field-meta.xml,A,CustomField BillingPostalCode__c,,,log,📰
+objects/Account_Home__dll/fields/BillingStateCode__c.field-meta.xml,A,CustomField BillingStateCode__c,,,log,📰
+objects/Account_Home__dll/fields/BillingState__c.field-meta.xml,A,CustomField BillingState__c,,,log,📰
+objects/Account_Home__dll/fields/BillingStreet__c.field-meta.xml,A,CustomField BillingStreet__c,,,log,📰
+objects/Account_Home__dll/fields/Campaign_code_c__c.field-meta.xml,A,CustomField Campaign_code_c__c,,,log,📰
+objects/Account_Home__dll/fields/ChannelProgramLevelName__c.field-meta.xml,A,CustomField ChannelProgramLevelName__c,,,log,📰
+objects/Account_Home__dll/fields/ChannelProgramName__c.field-meta.xml,A,CustomField ChannelProgramName__c,,,log,📰
+objects/Account_Home__dll/fields/Channel_c__c.field-meta.xml,A,CustomField Channel_c__c,,,log,📰
+objects/Account_Home__dll/fields/Client_Support_Teams_c__c.field-meta.xml,A,CustomField Client_Support_Teams_c__c,,,log,📰
+objects/Account_Home__dll/fields/Company_size_c__c.field-meta.xml,A,CustomField Company_size_c__c,,,log,📰
+objects/Account_Home__dll/fields/Competitive_Summary_c__c.field-meta.xml,A,CustomField Competitive_Summary_c__c,,,log,📰
+objects/Account_Home__dll/fields/ConnectionReceivedId__c.field-meta.xml,A,CustomField ConnectionReceivedId__c,,,log,📰
+objects/Account_Home__dll/fields/ConnectionSentId__c.field-meta.xml,A,CustomField ConnectionSentId__c,,,log,📰
+objects/Account_Home__dll/fields/CreatedById__c.field-meta.xml,A,CustomField CreatedById__c,,,log,📰
+objects/Account_Home__dll/fields/CreatedDate__c.field-meta.xml,A,CustomField CreatedDate__c,,,log,📰
+objects/Account_Home__dll/fields/Current_Plan_c__c.field-meta.xml,A,CustomField Current_Plan_c__c,,,log,📰
+objects/Account_Home__dll/fields/Custodian_c__c.field-meta.xml,A,CustomField Custodian_c__c,,,log,📰
+objects/Account_Home__dll/fields/DOZISF_ZoomInfo_Enrich_Status_c__c.field-meta.xml,A,CustomField DOZISF_ZoomInfo_Enrich_Status_c__c,,,log,📰
+objects/Account_Home__dll/fields/DOZISF_ZoomInfo_First_Updated_c__c.field-meta.xml,A,CustomField DOZISF_ZoomInfo_First_Updated_c__c,,,log,📰
+objects/Account_Home__dll/fields/DOZISF_ZoomInfo_Id_c__c.field-meta.xml,A,CustomField DOZISF_ZoomInfo_Id_c__c,,,log,📰
+objects/Account_Home__dll/fields/DOZISF_ZoomInfo_InboxAI_ID_c__c.field-meta.xml,A,CustomField DOZISF_ZoomInfo_InboxAI_ID_c__c,,,log,📰
+objects/Account_Home__dll/fields/DOZISF_ZoomInfo_Last_Updated_c__c.field-meta.xml,A,CustomField DOZISF_ZoomInfo_Last_Updated_c__c,,,log,📰
+objects/Account_Home__dll/fields/DataSourceObject__c.field-meta.xml,A,CustomField DataSourceObject__c,,,log,📰
+objects/Account_Home__dll/fields/DataSource__c.field-meta.xml,A,CustomField DataSource__c,,,log,📰
+objects/Account_Home__dll/fields/Date_last_shopped_c__c.field-meta.xml,A,CustomField Date_last_shopped_c__c,,,log,📰
+objects/Account_Home__dll/fields/Description__c.field-meta.xml,A,CustomField Description__c,,,log,📰
+objects/Account_Home__dll/fields/DesiredPlanStartDate_c__c.field-meta.xml,A,CustomField DesiredPlanStartDate_c__c,,,log,📰
+objects/Account_Home__dll/fields/Employer_Identification_Number_EIN_c__c.field-meta.xml,A,CustomField Employer_Identification_Number_EIN_c__c,,,log,📰
+objects/Account_Home__dll/fields/Fax__c.field-meta.xml,A,CustomField Fax__c,,,log,📰
+objects/Account_Home__dll/fields/Fund_List_c__c.field-meta.xml,A,CustomField Fund_List_c__c,,,log,📰
+objects/Account_Home__dll/fields/GA_Client_ID_Formula_c__c.field-meta.xml,A,CustomField GA_Client_ID_Formula_c__c,,,log,📰
+objects/Account_Home__dll/fields/How_did_you_hear_about_us_c__c.field-meta.xml,A,CustomField How_did_you_hear_about_us_c__c,,,log,📰
+objects/Account_Home__dll/fields/How_did_you_hear_about_us_details_c__c.field-meta.xml,A,CustomField How_did_you_hear_about_us_details_c__c,,,log,📰
+objects/Account_Home__dll/fields/Id__c.field-meta.xml,A,CustomField Id__c,,,log,📰
+objects/Account_Home__dll/fields/Industry__c.field-meta.xml,A,CustomField Industry__c,,,log,📰
+objects/Account_Home__dll/fields/Investment_selection_c__c.field-meta.xml,A,CustomField Investment_selection_c__c,,,log,📰
+objects/Account_Home__dll/fields/Investments_c__c.field-meta.xml,A,CustomField Investments_c__c,,,log,📰
+objects/Account_Home__dll/fields/IsCustomerPortal__c.field-meta.xml,A,CustomField IsCustomerPortal__c,,,log,📰
+objects/Account_Home__dll/fields/IsDeleted__c.field-meta.xml,A,CustomField IsDeleted__c,,,log,📰
+objects/Account_Home__dll/fields/IsPartner__c.field-meta.xml,A,CustomField IsPartner__c,,,log,📰
+objects/Account_Home__dll/fields/IsPriorityRecord__c.field-meta.xml,A,CustomField IsPriorityRecord__c,,,log,📰
+objects/Account_Home__dll/fields/JigsawCompanyId__c.field-meta.xml,A,CustomField JigsawCompanyId__c,,,log,📰
+objects/Account_Home__dll/fields/Jigsaw__c.field-meta.xml,A,CustomField Jigsaw__c,,,log,📰
+objects/Account_Home__dll/fields/KQ_Id__c.field-meta.xml,A,CustomField KQ_Id__c,,,log,📰
+objects/Account_Home__dll/fields/Knows_Rep_c__c.field-meta.xml,A,CustomField Knows_Rep_c__c,,,log,📰
+objects/Account_Home__dll/fields/LID_LinkedIn_Company_Id_c__c.field-meta.xml,A,CustomField LID_LinkedIn_Company_Id_c__c,,,log,📰
+objects/Account_Home__dll/fields/LastActivityDate__c.field-meta.xml,A,CustomField LastActivityDate__c,,,log,📰
+objects/Account_Home__dll/fields/LastModifiedById__c.field-meta.xml,A,CustomField LastModifiedById__c,,,log,📰
+objects/Account_Home__dll/fields/LastModifiedDate__c.field-meta.xml,A,CustomField LastModifiedDate__c,,,log,📰
+objects/Account_Home__dll/fields/LastReferencedDate__c.field-meta.xml,A,CustomField LastReferencedDate__c,,,log,📰
+objects/Account_Home__dll/fields/LastViewedDate__c.field-meta.xml,A,CustomField LastViewedDate__c,,,log,📰
+objects/Account_Home__dll/fields/MasterRecordId__c.field-meta.xml,A,CustomField MasterRecordId__c,,,log,📰
+objects/Account_Home__dll/fields/Message_from_Lead_c__c.field-meta.xml,A,CustomField Message_from_Lead_c__c,,,log,📰
+objects/Account_Home__dll/fields/Multiple_Business_c__c.field-meta.xml,A,CustomField Multiple_Business_c__c,,,log,📰
+objects/Account_Home__dll/fields/Name__c.field-meta.xml,A,CustomField Name__c,,,log,📰
+objects/Account_Home__dll/fields/New_Comp_c__c.field-meta.xml,A,CustomField New_Comp_c__c,,,log,📰
+objects/Account_Home__dll/fields/NumberOfEmployees__c.field-meta.xml,A,CustomField NumberOfEmployees__c,,,log,📰
+objects/Account_Home__dll/fields/Ongoing_Service_Issues_c__c.field-meta.xml,A,CustomField Ongoing_Service_Issues_c__c,,,log,📰
+objects/Account_Home__dll/fields/Other_Payroll_Provider_c__c.field-meta.xml,A,CustomField Other_Payroll_Provider_c__c,,,log,📰
+objects/Account_Home__dll/fields/Other_c__c.field-meta.xml,A,CustomField Other_c__c,,,log,📰
+objects/Account_Home__dll/fields/OwnerId__c.field-meta.xml,A,CustomField OwnerId__c,,,log,📰
+objects/Account_Home__dll/fields/PCRAAnnualFee_c__c.field-meta.xml,A,CustomField PCRAAnnualFee_c__c,,,log,📰
+objects/Account_Home__dll/fields/ParentId__c.field-meta.xml,A,CustomField ParentId__c,,,log,📰
+objects/Account_Home__dll/fields/Partner_Integration_Type_c__c.field-meta.xml,A,CustomField Partner_Integration_Type_c__c,,,log,📰
+objects/Account_Home__dll/fields/PayPartner_c__c.field-meta.xml,A,CustomField PayPartner_c__c,,,log,📰
+objects/Account_Home__dll/fields/Payroll_Provider_c__c.field-meta.xml,A,CustomField Payroll_Provider_c__c,,,log,📰
+objects/Account_Home__dll/fields/Payroll_Submission_Type_c__c.field-meta.xml,A,CustomField Payroll_Submission_Type_c__c,,,log,📰
+objects/Account_Home__dll/fields/Payroll_partner_notes_c__c.field-meta.xml,A,CustomField Payroll_partner_notes_c__c,,,log,📰
+objects/Account_Home__dll/fields/Phone__c.field-meta.xml,A,CustomField Phone__c,,,log,📰
+objects/Account_Home__dll/fields/PhotoUrl__c.field-meta.xml,A,CustomField PhotoUrl__c,,,log,📰
+objects/Account_Home__dll/fields/Priority_c__c.field-meta.xml,A,CustomField Priority_c__c,,,log,📰
+objects/Account_Home__dll/fields/RecordTypeId__c.field-meta.xml,A,CustomField RecordTypeId__c,,,log,📰
+objects/Account_Home__dll/fields/Record_Keeping_System_c__c.field-meta.xml,A,CustomField Record_Keeping_System_c__c,,,log,📰
+objects/Account_Home__dll/fields/Relationship_Manager_c__c.field-meta.xml,A,CustomField Relationship_Manager_c__c,,,log,📰
+objects/Account_Home__dll/fields/Revenue_Share_Option_c__c.field-meta.xml,A,CustomField Revenue_Share_Option_c__c,,,log,📰
+objects/Account_Home__dll/fields/Safe_Harbor_c__c.field-meta.xml,A,CustomField Safe_Harbor_c__c,,,log,📰
+objects/Account_Home__dll/fields/Sales_Notes_c__c.field-meta.xml,A,CustomField Sales_Notes_c__c,,,log,📰
+objects/Account_Home__dll/fields/Service_Option_c__c.field-meta.xml,A,CustomField Service_Option_c__c,,,log,📰
+objects/Account_Home__dll/fields/Setup_fee_c__c.field-meta.xml,A,CustomField Setup_fee_c__c,,,log,📰
+objects/Account_Home__dll/fields/SfdcOrganizationId__c.field-meta.xml,A,CustomField SfdcOrganizationId__c,,,log,📰
+objects/Account_Home__dll/fields/SicDesc__c.field-meta.xml,A,CustomField SicDesc__c,,,log,📰
+objects/Account_Home__dll/fields/Sic__c.field-meta.xml,A,CustomField Sic__c,,,log,📰
+objects/Account_Home__dll/fields/Software_Vendor_Payroll_c__c.field-meta.xml,A,CustomField Software_Vendor_Payroll_c__c,,,log,📰
+objects/Account_Home__dll/fields/SourceSystemIdentifier__c.field-meta.xml,A,CustomField SourceSystemIdentifier__c,,,log,📰
+objects/Account_Home__dll/fields/SpecialFees_c__c.field-meta.xml,A,CustomField SpecialFees_c__c,,,log,📰
+objects/Account_Home__dll/fields/Strategic_Partner_c__c.field-meta.xml,A,CustomField Strategic_Partner_c__c,,,log,📰
+objects/Account_Home__dll/fields/SystemModstamp__c.field-meta.xml,A,CustomField SystemModstamp__c,,,log,📰
+objects/Account_Home__dll/fields/Timeframe_c__c.field-meta.xml,A,CustomField Timeframe_c__c,,,log,📰
+objects/Account_Home__dll/fields/TimezoneDELETE_c__c.field-meta.xml,A,CustomField TimezoneDELETE_c__c,,,log,📰
+objects/Account_Home__dll/fields/Type__c.field-meta.xml,A,CustomField Type__c,,,log,📰
+objects/Account_Home__dll/fields/TypeofBusiness_c__c.field-meta.xml,A,CustomField TypeofBusiness_c__c,,,log,📰
+objects/Account_Home__dll/fields/Volume_Level_c__c.field-meta.xml,A,CustomField Volume_Level_c__c,,,log,📰
+objects/Account_Home__dll/fields/Website__c.field-meta.xml,A,CustomField Website__c,,,log,📰
+objects/Account_Home__dll/fields/affectlayer_AffectLayer_Notes_c__c.field-meta.xml,A,CustomField affectlayer_AffectLayer_Notes_c__c,,,log,📰
+objects/Account_Home__dll/fields/affectlayer_IsCreatedByChorusZI_c__c.field-meta.xml,A,CustomField affectlayer_IsCreatedByChorusZI_c__c,,,log,📰
+objects/Account_Home__dll/fields/cdp_sys_SourceVersion__c.field-meta.xml,A,CustomField cdp_sys_SourceVersion__c,,,log,📰
+objects/Account_Home__dll/fields/cdp_sys_record_currency__c.field-meta.xml,A,CustomField cdp_sys_record_currency__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Browser_c__c.field-meta.xml,A,CustomField gaconnector_Browser_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_City_c__c.field-meta.xml,A,CustomField gaconnector_City_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Country_c__c.field-meta.xml,A,CustomField gaconnector_Country_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Device_c__c.field-meta.xml,A,CustomField gaconnector_Device_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_First_Click_Campaign_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Campaign_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_First_Click_Channel_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Channel_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_First_Click_Content_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Content_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_First_Click_Landing_Page_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Landing_Page_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_First_Click_Medium_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Medium_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_First_Click_Referrer_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Referrer_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_First_Click_Source_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Source_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_First_Click_Term_c__c.field-meta.xml,A,CustomField gaconnector_First_Click_Term_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_GCLID_c__c.field-meta.xml,A,CustomField gaconnector_GCLID_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Google_Analytics_Client_ID_c__c.field-meta.xml,A,CustomField gaconnector_Google_Analytics_Client_ID_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Google_Analytics_Link_c__c.field-meta.xml,A,CustomField gaconnector_Google_Analytics_Link_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_IP_Address_c__c.field-meta.xml,A,CustomField gaconnector_IP_Address_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Last_Click_Campaign_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Campaign_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Last_Click_Channel_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Channel_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Last_Click_Content_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Content_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Last_Click_Landing_Page_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Landing_Page_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Last_Click_Medium_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Medium_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Last_Click_Referrer_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Referrer_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Last_Click_Source_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Source_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Last_Click_Term_c__c.field-meta.xml,A,CustomField gaconnector_Last_Click_Term_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Latitude_from_IP_c__c.field-meta.xml,A,CustomField gaconnector_Latitude_from_IP_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Location_approx_c__c.field-meta.xml,A,CustomField gaconnector_Location_approx_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Longitude_c__c.field-meta.xml,A,CustomField gaconnector_Longitude_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Number_of_Website_Visits_c__c.field-meta.xml,A,CustomField gaconnector_Number_of_Website_Visits_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Operating_System_c__c.field-meta.xml,A,CustomField gaconnector_Operating_System_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Pages_visited_c__c.field-meta.xml,A,CustomField gaconnector_Pages_visited_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Time_Spent_on_Website_c__c.field-meta.xml,A,CustomField gaconnector_Time_Spent_on_Website_c__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Time_Spent_on_Website_formul__c.field-meta.xml,A,CustomField gaconnector_Time_Spent_on_Website_formul__c,,,log,📰
+objects/Account_Home__dll/fields/gaconnector_Time_Zone_c__c.field-meta.xml,A,CustomField gaconnector_Time_Zone_c__c,,,log,📰
+objects/Account_Home__dll/fields/x1stbilldate_c__c.field-meta.xml,A,CustomField x1stbilldate_c__c,,,log,📰
+objects/Account_Home__dll/fields/x401kProvider_c__c.field-meta.xml,A,CustomField x401kProvider_c__c,,,log,📰
+objects/Account_Home__dll/fields/zzCONVERSIONFEE_c__c.field-meta.xml,A,CustomField zzCONVERSIONFEE_c__c,,,log,📰
+objects/Knowledge__kav/listViews/published_articles.listView-meta.xml," ",ListView published_articles,M,,log,📰
+objects/Partner_Partner_Association__c/fields/Owner__c.field-meta.xml,A,CustomField Owner__c,,,log,📰
+objects/UserRole_Home__dll/UserRole_Home__dll.object-meta.xml,A,CustomObject UserRole_Home__dll/UserRole_Home__dll,,,log,📰
+objects/UserRole_Home__dll/fields/CaseAccessForAccountOwner__c.field-meta.xml,A,CustomField CaseAccessForAccountOwner__c,,,log,📰
+objects/UserRole_Home__dll/fields/ContactAccessForAccountOwner__c.field-meta.xml,A,CustomField ContactAccessForAccountOwner__c,,,log,📰
+objects/UserRole_Home__dll/fields/DataSourceObject__c.field-meta.xml,A,CustomField DataSourceObject__c,,,log,📰
+objects/UserRole_Home__dll/fields/DataSource__c.field-meta.xml,A,CustomField DataSource__c,,,log,📰
+objects/UserRole_Home__dll/fields/DeveloperName__c.field-meta.xml,A,CustomField DeveloperName__c,,,log,📰
+objects/UserRole_Home__dll/fields/ForecastUserId__c.field-meta.xml,A,CustomField ForecastUserId__c,,,log,📰
+objects/UserRole_Home__dll/fields/Id__c.field-meta.xml,A,CustomField Id__c,,,log,📰
+objects/UserRole_Home__dll/fields/KQ_Id__c.field-meta.xml,A,CustomField KQ_Id__c,,,log,📰
+objects/UserRole_Home__dll/fields/LastModifiedById__c.field-meta.xml,A,CustomField LastModifiedById__c,,,log,📰
+objects/UserRole_Home__dll/fields/LastModifiedDate__c.field-meta.xml,A,CustomField LastModifiedDate__c,,,log,📰
+objects/UserRole_Home__dll/fields/MayForecastManagerShare__c.field-meta.xml,A,CustomField MayForecastManagerShare__c,,,log,📰
+objects/UserRole_Home__dll/fields/Name__c.field-meta.xml,A,CustomField Name__c,,,log,📰
+objects/UserRole_Home__dll/fields/ParentRoleId__c.field-meta.xml,A,CustomField ParentRoleId__c,,,log,📰
+objects/UserRole_Home__dll/fields/PortalAccountId__c.field-meta.xml,A,CustomField PortalAccountId__c,,,log,📰
+objects/UserRole_Home__dll/fields/PortalAccountOwnerId__c.field-meta.xml,A,CustomField PortalAccountOwnerId__c,,,log,📰
+objects/UserRole_Home__dll/fields/PortalRole__c.field-meta.xml,A,CustomField PortalRole__c,,,log,📰
+objects/UserRole_Home__dll/fields/PortalType__c.field-meta.xml,A,CustomField PortalType__c,,,log,📰
+objects/UserRole_Home__dll/fields/RollupDescription__c.field-meta.xml,A,CustomField RollupDescription__c,,,log,📰
+objects/UserRole_Home__dll/fields/SfdcOrganizationId__c.field-meta.xml,A,CustomField SfdcOrganizationId__c,,,log,📰
+objects/UserRole_Home__dll/fields/SystemModstamp__c.field-meta.xml,A,CustomField SystemModstamp__c,,,log,📰
+objects/UserRole_Home__dll/fields/cdp_sys_SourceVersion__c.field-meta.xml,A,CustomField cdp_sys_SourceVersion__c,,,log,📰
+permissionsets/sfdcInternalInt__sfdc_slack.permissionset-meta.xml," ",PermissionSet sfdcInternalInt__sfdc_slack,M,,log,📰
 profiles/Admin.profile-meta.xml," ",Profile Admin,M,,log,📰
 profiles/Analytics Cloud Integration User.profile-meta.xml," ",Profile Analytics Cloud Integration User,M,,log,📰
 profiles/Analytics Cloud Security User.profile-meta.xml," ",Profile Analytics Cloud Security User,M,,log,📰
@@ -226,6 +281,7 @@ profiles/Transitions Team.profile-meta.xml," ",Profile Transitions Team,M,,log,�
 profiles/Ubiquity Help Center Profile.profile-meta.xml," ",Profile Ubiquity Help Center Profile,M,,log,📰
 profiles/Zoom Webhooks Profile.profile-meta.xml," ",Profile Zoom Webhooks Profile,M,,log,📰
 profiles/myubiquity Profile.profile-meta.xml," ",Profile myubiquity Profile,M,,log,📰
+settings/EAC.settings-meta.xml," ",Settings EAC,M,,log,📰
 siteDotComSites/Help_Center1.site," ",SiteDotCom Help_Center1,M,,log,📰
 siteDotComSites/Paradigm_Help_Center1.site," ",SiteDotCom Paradigm_Help_Center1,M,,log,📰
 siteDotComSites/Simply_Help_Center1.site," ",SiteDotCom Simply_Help_Center1,M,,log,📰
@@ -246,6 +302,5 @@ wave/Setup_Audit_Trail.wdash," ",VirtualWave Setup_Audit_Trail.wdash,M,,log,📰
 wave/User_Logins.wdash," ",VirtualWave User_Logins.wdash,M,,log,📰
 wave/Visualforce_Requests.wdash," ",VirtualWave Visualforce_Requests.wdash,M,,log,📰
 wave/Wave_Adoption.wdash," ",VirtualWave Wave_Adoption.wdash,M,,log,📰
-workflows/Opportunity.workflow-meta.xml," ",Workflow Opportunity,M,,log,📰
 manifest/package-all-org-items.xml," ",manifest/package-all-org-items.xml,M,,log,📰
 manifest/package-backup-items.xml," ",manifest/package-backup-items.xml,M,,log,📰

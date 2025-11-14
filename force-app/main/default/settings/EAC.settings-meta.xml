@@ -3,7 +3,7 @@
     <addRcCompToFlexiPages>false</addRcCompToFlexiPages>
     <autoContactCreationPref>false</autoContactCreationPref>
     <autoPopulateGoogleMeetLinks>false</autoPopulateGoogleMeetLinks>
-    <automatedEmailFilter>true</automatedEmailFilter>
+    <automatedEmailFilter>false</automatedEmailFilter>
     <dSThresholdNotification>true</dSThresholdNotification>
     <enableActivityAnalyticsPref>false</enableActivityAnalyticsPref>
     <enableActivityCapture>true</enableActivityCapture>
@@ -19,7 +19,7 @@
     <relationshipGraphPref>true</relationshipGraphPref>
     <s2XSvcAccEmail>true</s2XSvcAccEmail>
     <salesforceEventsOnlyPref>true</salesforceEventsOnlyPref>
-    <sensitiveEmailFilter>true</sensitiveEmailFilter>
+    <sensitiveEmailFilter>false</sensitiveEmailFilter>
     <showEACCalendarPref>false</showEACCalendarPref>
     <syncInternalEvents>false</syncInternalEvents>
 </EACSettings>

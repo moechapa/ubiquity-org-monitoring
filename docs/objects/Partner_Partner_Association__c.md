@@ -39,6 +39,7 @@ linkStyle 0,2,3 stroke:#A6A6A6,stroke-width:2px;
 | :-------- | :---- | :--: | :---------- | 
 | Approval_Status__c | Approval Status | Picklist | Has partner been approved to sell product. Used for Simply Retirement. |
 | Notes__c | Notes | LongTextArea | Any notes on relationship |
+| Owner__c | Owner | Text | Partner Account Owner Full Name |
 | Partner__c | Partner | Lookup | Partner of Ubiquity partner or competitor |
 | Partner_Competitor__c | Ubiquity Partner/Competitor | MasterDetail | Ubiquity partner or competitor account |
 | Partner_Role__c | Partner Role | Picklist | Role partner plays for Ubiquity partner or competitor |
