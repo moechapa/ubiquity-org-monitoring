@@ -73,6 +73,30 @@
         <sourceFormula>IsActive</sourceFormula>
         <targetField>User_Home__dll.IsActive__c</targetField>
     </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>User_Home.UserRoleId__c</sourceField>
+        <sourceFormula>UserRoleId</sourceFormula>
+        <targetField>User_Home__dll.UserRoleId__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>User_Home.Username__c</sourceField>
+        <sourceFormula>Username</sourceFormula>
+        <targetField>User_Home__dll.Username__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>User_Home.Name__c</sourceField>
+        <sourceFormula>Name</sourceFormula>
+        <targetField>User_Home__dll.Name__c</targetField>
+    </fieldSourceTargetMaps>
     <masterLabel>User_Home_map_User_Home_1740436896909</masterLabel>
     <sourceObjectName>User_Home</sourceObjectName>
     <targetObjectName>User_Home__dll</targetObjectName>

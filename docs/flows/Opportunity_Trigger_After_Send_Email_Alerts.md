@@ -29,7 +29,7 @@ Is_Product_Change_Close{"🔀 <em></em><br/>Is Product Change Close?"}:::decisio
 click Is_Product_Change_Close "#is_product_change_close" "36470220"
 
 Plan_Sale{"🔀 <em></em><br/>Plan Sale?"}:::decisions
-click Plan_Sale "#plan_sale" "3057707264"
+click Plan_Sale "#plan_sale" "1086754175"
 
 Upgrade{"🔀 <em></em><br/>Upgrade?"}:::decisions
 click Upgrade "#upgrade" "4013852983"
@@ -238,6 +238,8 @@ classDef transforms fill:#FDEAF6,color:black,text-decoration:none,max-height:100
 |Condition Id|Left Value Reference|Operator|Right Value|
 |:-- |:-- |:--:|:--: |
 |1|$Record.Type| Equal To|401(k) Plan Sale|
+|2|$Record.Service_Option__c| Not Equal To|Single(k)|
+|3|$Record.Service_Option__c| Not Equal To|Mega Roth Single(k)|
 
 
 

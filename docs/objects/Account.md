@@ -29,10 +29,10 @@ Pricebook2["Pricebook2"]:::object
 click Pricebook2 "/objects/Pricebook2/"
 Plan__c["Plan"]:::customObject
 click Plan__c "/objects/Plan__c/"
-Partner_Resource_Request__c["Partner Resource Request"]:::customObject
-click Partner_Resource_Request__c "/objects/Partner_Resource_Request__c/"
 Partner_Partner_Association__c["Account Partner Association"]:::customObject
 click Partner_Partner_Association__c "/objects/Partner_Partner_Association__c/"
+Partner_Resource_Request__c["Partner Resource Request"]:::customObject
+click Partner_Resource_Request__c "/objects/Partner_Resource_Request__c/"
 Partner_Evaluation__c["Partner Evaluation"]:::customObject
 click Partner_Evaluation__c "/objects/Partner_Evaluation__c/"
 Partner_Add_On_Association__c["Partner Add-On Association"]:::customObject
@@ -123,8 +123,8 @@ Calculation__c -->|Account__c| Account
 Associated_Partner__c ==>|Account__c| Account
 Associated_Contact__c -->|Account__c| Account
 Add_On_Products__c -->|Account__c| Account
-Activity -->|Account__c| Account
 Account_Snapshot__c ==>|Account__c| Account
+Activity -->|Account__c| Account
 Account -->|n2de__Distribution_engine_details__c| n2de__Distribution_engine_details__c
 Account -->|Price_Book__c| Pricebook2
 Account -->|Linked_Company__c| Account
@@ -136,8 +136,8 @@ classDef object fill:#D6E9FF,stroke:#0070D2,stroke-width:3px,rx:12px,ry:12px,sha
 classDef customObject fill:#FFF4C2,stroke:#CCAA00,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef customObjectManaged fill:#FFD8B2,stroke:#CC5500,stroke-width:3px,rx:12px,ry:12px,shadow:drop,color:#333;
 classDef mainObject fill:#FFB3B3,stroke:#A94442,stroke-width:4px,rx:14px,ry:14px,shadow:drop,color:#333,font-weight:bold;
-linkStyle 12,14,20,26,33,37 stroke:#4C9F70,stroke-width:4px;
-linkStyle 0,1,2,3,4,5,6,7,8,9,10,11,13,15,16,17,18,19,21,22,23,24,25,27,28,29,30,31,32,34,35,36,38,39,40,41,42,43 stroke:#A6A6A6,stroke-width:2px;
+linkStyle 12,14,20,26,33,36 stroke:#4C9F70,stroke-width:4px;
+linkStyle 0,1,2,3,4,5,6,7,8,9,10,11,13,15,16,17,18,19,21,22,23,24,25,27,28,29,30,31,32,34,35,37,38,39,40,41,42,43 stroke:#A6A6A6,stroke-width:2px;
 
 ```
 

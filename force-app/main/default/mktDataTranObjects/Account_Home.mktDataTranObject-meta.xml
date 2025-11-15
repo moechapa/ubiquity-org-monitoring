@@ -6,6 +6,19 @@
     <dataSourceObject>Account_Home</dataSourceObject>
     <masterLabel>Account_Home</masterLabel>
     <mktDataTranFields>
+        <fullName>Account_ID_18_Char_c</fullName>
+        <creationType>Custom</creationType>
+        <datatype>S</datatype>
+        <externalName>Account_ID_18_Char__c</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Account ID (18 Char)</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>89</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
         <fullName>AccountNumber</fullName>
         <creationType>Custom</creationType>
         <datatype>S</datatype>
@@ -71,6 +84,19 @@
         <sequence>48</sequence>
     </mktDataTranFields>
     <mktDataTranFields>
+        <fullName>Advisory_Firm_c</fullName>
+        <creationType>Custom</creationType>
+        <datatype>S</datatype>
+        <externalName>Advisory_Firm__c</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Advisory Firm</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>85</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
         <fullName>affectlayer_AffectLayer_Notes_c</fullName>
         <creationType>Custom</creationType>
         <datatype>S</datatype>
@@ -108,6 +134,19 @@
         <primaryIndexOrder>0</primaryIndexOrder>
         <scale>0</scale>
         <sequence>68</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Amount_Due_on_Invoices_c</fullName>
+        <creationType>Custom</creationType>
+        <datatype>C</datatype>
+        <externalName>Amount_Due_on_Invoices__c</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Amount Due on Invoices</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>69</sequence>
     </mktDataTranFields>
     <mktDataTranFields>
         <fullName>AnnualRevenue</fullName>
@@ -173,6 +212,19 @@
         <primaryIndexOrder>0</primaryIndexOrder>
         <scale>0</scale>
         <sequence>130</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Billing_Status_c</fullName>
+        <creationType>Custom</creationType>
+        <datatype>S</datatype>
+        <externalName>Billing_Status__c</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Billing Status</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>82</sequence>
     </mktDataTranFields>
     <mktDataTranFields>
         <fullName>BillingCity</fullName>
@@ -305,6 +357,58 @@
         <sequence>7</sequence>
     </mktDataTranFields>
     <mktDataTranFields>
+        <fullName>Broker_CRD_c</fullName>
+        <creationType>Custom</creationType>
+        <datatype>S</datatype>
+        <externalName>Broker_CRD__c</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Broker CRD</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>120</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Business_Entity_c</fullName>
+        <creationType>Custom</creationType>
+        <datatype>S</datatype>
+        <externalName>Business_Entity__c</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Business Entity</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>81</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Business_Industry_c</fullName>
+        <creationType>Custom</creationType>
+        <datatype>S</datatype>
+        <externalName>Business_Industry__c</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Business/Industry</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>270</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Business_Unit_c</fullName>
+        <creationType>Custom</creationType>
+        <datatype>S</datatype>
+        <externalName>Business_Unit__c</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Business Unit</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>311</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
         <fullName>Campaign_code_c</fullName>
         <creationType>Custom</creationType>
         <datatype>S</datatype>
@@ -355,6 +459,32 @@
         <primaryIndexOrder>0</primaryIndexOrder>
         <scale>0</scale>
         <sequence>39</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Client_c</fullName>
+        <creationType>Custom</creationType>
+        <datatype>B</datatype>
+        <externalName>Client__c</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Client</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>216</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Client_Sentiment_c</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>Client_Sentiment__c</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Client Sentiment</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>228</sequence>
     </mktDataTranFields>
     <mktDataTranFields>
         <fullName>Client_Support_Teams_c</fullName>
@@ -422,6 +552,32 @@
         <sequence>46</sequence>
     </mktDataTranFields>
     <mktDataTranFields>
+        <fullName>Count_of_Employees_Census_c</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>Count_of_Employees_Census__c</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Count of Employees (Census)</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>121</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>CRD_Number_c</fullName>
+        <creationType>Custom</creationType>
+        <datatype>S</datatype>
+        <externalName>CRD_Number__c</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>CRD Number</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>305</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
         <fullName>CreatedById</fullName>
         <creationType>Custom</creationType>
         <datatype>S</datatype>
@@ -447,6 +603,19 @@
         <primaryIndexOrder>0</primaryIndexOrder>
         <scale>0</scale>
         <sequence>28</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>CSAT_Average_c</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>CSAT_Average__c</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>CSAT Average</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>227</sequence>
     </mktDataTranFields>
     <mktDataTranFields>
         <fullName>Current_Plan_c</fullName>
@@ -1393,6 +1562,32 @@
         <sequence>25</sequence>
     </mktDataTranFields>
     <mktDataTranFields>
+        <fullName>of_Add_On_Products_c</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>of_Add_On_Products__c</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel># of Add On Products</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>117</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>of_Current_Plans_c</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>of_Current_Plans__c</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel># of Current Plans</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>115</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
         <fullName>Ongoing_Service_Issues_c</fullName>
         <creationType>Custom</creationType>
         <datatype>S</datatype>
@@ -1874,6 +2069,19 @@
         <primaryIndexOrder>0</primaryIndexOrder>
         <scale>0</scale>
         <sequence>53</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>X3_38_c</fullName>
+        <creationType>Custom</creationType>
+        <datatype>B</datatype>
+        <externalName>X3_38__c</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>3(38)</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>194</sequence>
     </mktDataTranFields>
     <mktDataTranFields>
         <fullName>x401kProvider_c</fullName>

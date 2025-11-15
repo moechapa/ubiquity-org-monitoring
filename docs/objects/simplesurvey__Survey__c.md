@@ -90,6 +90,7 @@ linkStyle 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 stroke:#A6A6A6,stroke-widt
 | Commissions_Bonus_Variable_Pay__c | Commissions Bonus Variable Pay? | Picklist | undefined |
 | Company_payroll_contact__c | Company payroll contact | TextArea | undefined |
 | Compliance__c | Compliance | Lookup | Compliance associated with the Survey |
+| Contact_Email__c | Contact Email | Text | undefined |
 | Contact_Id_18_Char__c | Contact Id (18 Char) | Text | undefined |
 | Contact_Role__c | Contact Role | Text | Contact Role of Contact related to the survey. |
 | Contacttolearnmoreaboutfeedback__c | Contact_to_learn_more_about_feedback | Picklist | Question Created by the Survey Builder |

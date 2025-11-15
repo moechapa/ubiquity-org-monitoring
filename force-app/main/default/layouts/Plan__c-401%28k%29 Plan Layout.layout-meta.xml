@@ -1013,6 +1013,7 @@
         <relatedList>Calculation__c.Plan__c</relatedList>
     </relatedLists>
     <relatedLists>
+        <excludeButtons>MassChangeOwner</excludeButtons>
         <fields>NAME</fields>
         <fields>Amendment_Status__c</fields>
         <fields>Amendment_Effective_Date__c</fields>

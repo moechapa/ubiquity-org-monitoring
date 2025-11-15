@@ -26501,6 +26501,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>simplesurvey__Survey__c.Contact_Email__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>simplesurvey__Survey__c.Contact_Id_18_Char__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -31727,6 +31732,16 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>Plan_Amendment__c</object>
+        <viewAllFields>true</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Plan_Assets__c</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
@@ -33389,7 +33404,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Plan_Amendment__c</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Plan__c</tab>

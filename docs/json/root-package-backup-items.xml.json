@@ -26793,19 +26793,26 @@
     ]
   },
   {
-    "text": " Custom Field (6959)",
+    "text": " Custom Field (7219)",
     "icon": "fa-solid fa-folder icon-blue",
     "a_attr": {
       "href": null
     },
     "children": [
       {
-        "text": "Account_Home__dll (150)",
+        "text": "Account_Home__dll (166)",
         "icon": "fa-solid fa-folder icon-blue",
         "a_attr": {
           "href": null
         },
         "children": [
+          {
+            "text": "Account_Home__dll.Account_ID_18_Char_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
           {
             "text": "Account_Home__dll.AccountNumber__c",
             "icon": "fa-solid fa-circle-check icon-success",
@@ -26842,6 +26849,13 @@
             }
           },
           {
+            "text": "Account_Home__dll.Advisory_Firm_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Account_Home__dll.affectlayer_AffectLayer_Notes_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -26857,6 +26871,13 @@
           },
           {
             "text": "Account_Home__dll.All_Traffic_Sources_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Account_Home__dll.Amount_Due_on_Invoices_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -26892,6 +26913,13 @@
           },
           {
             "text": "Account_Home__dll.BD_Type_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Account_Home__dll.Billing_Status_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -26968,6 +26996,34 @@
             }
           },
           {
+            "text": "Account_Home__dll.Broker_CRD_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Account_Home__dll.Business_Entity_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Account_Home__dll.Business_Industry_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Account_Home__dll.Business_Unit_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Account_Home__dll.Campaign_code_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -27010,6 +27066,20 @@
             }
           },
           {
+            "text": "Account_Home__dll.Client_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Account_Home__dll.Client_Sentiment_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Account_Home__dll.Client_Support_Teams_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -27045,6 +27115,20 @@
             }
           },
           {
+            "text": "Account_Home__dll.Count_of_Employees_Census_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Account_Home__dll.CRD_Number_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Account_Home__dll.CreatedById__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -27053,6 +27137,13 @@
           },
           {
             "text": "Account_Home__dll.CreatedDate__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Account_Home__dll.CSAT_Average_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -27584,6 +27675,20 @@
             }
           },
           {
+            "text": "Account_Home__dll.of_Add_On_Products_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Account_Home__dll.of_Current_Plans_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Account_Home__dll.Ongoing_Service_Issues_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -27837,6 +27942,13 @@
           },
           {
             "text": "Account_Home__dll.x1stbilldate_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Account_Home__dll.X3_38_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -35566,14 +35678,189 @@
         ]
       },
       {
-        "text": "Case_Home__dll (125)",
+        "text": "Case_Home__dll (347)",
         "icon": "fa-solid fa-folder icon-blue",
         "a_attr": {
           "href": null
         },
         "children": [
           {
+            "text": "Case_Home__dll.Abandoned_Review_Result_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Abandoned_Review_Type_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.AccountId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Activity_Checkbox_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Address_Name_Change_Child_Cases_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Adjustment_Reason_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Adjustment_Spreadsheet_Attached_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Adjustment_Type_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Aged_Payroll_Amount_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Aged_Payroll_As_Of_Date_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Aged_Payroll_Check_Date_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Aged_Payroll_ID_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Alert_Email_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.All_Fund_Change_Docs_Attached_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Ancillary_Billing_Amount_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Approval_Status_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Asked_for_Referral_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Asked_for_Referral_Date_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Asked_for_Review_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Asked_for_Review_Date_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.AssetId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Assign_Client_to_Existing_Portfolio_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Billing_ForceDist_Amount_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Blackout_Start_Date_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Bounced_Sponsor_Trustee_Emails_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Box_LOI_Link_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -35601,7 +35888,84 @@
             }
           },
           {
+            "text": "Case_Home__dll.Case_Close_SLA_Met_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Case_Close_SLA_Violation_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Case_Closed_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Case_Complexity_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Case_Email_ForceDisto_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.Case_Flag_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Case_ID_18_Char_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Case_Next_Steps_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Case_notes_new_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Case_Owner_Name_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Case_Owner_Role_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Case_Resolution_CSAT_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -35636,6 +36000,13 @@
             }
           },
           {
+            "text": "Case_Home__dll.Case_Team_New_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.Case_Type_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -35644,6 +36015,13 @@
           },
           {
             "text": "Case_Home__dll.CaseNumber__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Cases_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -35664,7 +36042,35 @@
             }
           },
           {
+            "text": "Case_Home__dll.cdp_sys_record_currency__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.cdp_sys_SourceVersion__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Certified_Notice_Count_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Certified_Notice_Name_List_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Certified_Notice_Sent_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -35685,7 +36091,28 @@
             }
           },
           {
+            "text": "Case_Home__dll.Client_Sentiment_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.Client_Support_Team_CST_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Closed_Date_Delay_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Closed_Status_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -35706,6 +36133,48 @@
             }
           },
           {
+            "text": "Case_Home__dll.Complaint_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Complaint_Tier_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Complex_Project_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Compliance_Review_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Connected_Partner_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Connected_to_Project_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.ConnectionReceivedId__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -35714,6 +36183,13 @@
           },
           {
             "text": "Case_Home__dll.ConnectionSentId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Contact_Role_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -35755,6 +36231,41 @@
             }
           },
           {
+            "text": "Case_Home__dll.Control_2_4_1_Findings_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Control_2_4_1_Situation_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Control_2_4_1_Summary_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Correct_Plan_Year_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Created_By_Role_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.CreatedById__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -35769,7 +36280,35 @@
             }
           },
           {
+            "text": "Case_Home__dll.Current_Threshold_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Custodian_Account_Id_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Custom_SLA_Active_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.Customer_Re_Opened_Case_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Dashes_to_add_Case_to_Subject_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -35790,6 +36329,27 @@
             }
           },
           {
+            "text": "Case_Home__dll.Date_Requested_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Days_Behind_On_Payroll_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Days_Since_Last_Activity_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.Department_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -35804,7 +36364,266 @@
             }
           },
           {
+            "text": "Case_Home__dll.Document_Link_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Dollar_Amount_of_Adjustment_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Eligible_for_Archive_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Enhancement_Status_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Enhancement_System_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.EntitlementId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Escalated_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.escalatedImg_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Estimated_Due_Date_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.EvenOdd_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Excess_Cash_Amount_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Excess_Cash_Date_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Expected_Days_to_Close_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Feedback_Category_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Final_Notice_Sent_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.First_Response_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.First_Response_SLA_Met_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.First_Response_SLA_Violation_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Follow_Up_Date_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Force_Out_Count_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Force_Out_Name_List_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Force_Out_Threshold_Increase_Fee_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.ForceDist_Address_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.ForceDist_Billing_Amount_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.ForceDist_CityStateZip_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.ForceDist_Email_Date_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.ForceDist_Phone_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.ForceDist_Plan_Name_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.ForceOut_Threshold_Fee_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Forfeiture_Plan_Asset_Amount_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.FPS_EIN_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.FPS_Required_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Full_Case_Archive_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Fund_Change_Effective_Date_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Fund_List_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Funding_Information_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Funds_Vetted_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Future_Review_Date_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -36042,6 +36861,34 @@
             }
           },
           {
+            "text": "Case_Home__dll.Goal_Close_DT_Stamp_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Goal_Close_Formatted_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Goal_FR_DT_Stamp_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Gross_Amount_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.HasCommentsUnreadByOwner__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -36064,6 +36911,48 @@
           },
           {
             "text": "Case_Home__dll.Implementation_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Implementation_Owner_Full_Name_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Implementation_Owner_Phone_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Implementation_Owner_Title_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Inquiry_Source_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Inquiry_Source_Team_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Is_Ancillary_Billing_Needed_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -36098,6 +36987,41 @@
             }
           },
           {
+            "text": "Case_Home__dll.IsSelfServiceClosed__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.IsStopped__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.IsVisibleInSelfService__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.JIRA_Component_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.JIRA_End_User_Type_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.JIRA_Priority_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -36105,7 +37029,28 @@
             }
           },
           {
+            "text": "Case_Home__dll.JIRA_Severity_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.JIRA_Status_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.JIRA_Ticket_Number_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.JIRA_Ticket_Owner_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -36120,6 +37065,41 @@
           },
           {
             "text": "Case_Home__dll.Language__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Last_Activity_Date_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Last_Health_Check_Date_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Last_Health_Check_Type_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Last_Inbound_Activity_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Last_Outbound_Activity_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -36161,7 +37141,49 @@
             }
           },
           {
+            "text": "Case_Home__dll.Liquidate_Forfeitures_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.List_Link_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.List_Source_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.lntcss_Splited_From_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Look_Up_Name_Count_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Look_Up_Name_List_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Marketing_Stage_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -36182,7 +37204,63 @@
             }
           },
           {
+            "text": "Case_Home__dll.Most_Recent_1099R_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Most_Recent_Payroll_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Most_Recent_Payroll_Submitted_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.n2de_Action_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.n2de_DE_Status_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.n2de_DE_Territory_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.n2de_Distribution_count_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.n2de_Distribution_engine_details_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.n2de_Is_archived_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -36217,6 +37295,13 @@
             }
           },
           {
+            "text": "Case_Home__dll.n2de_Last_archive_date_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.n2de_Last_distributed_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -36231,7 +37316,49 @@
             }
           },
           {
+            "text": "Case_Home__dll.n2de_Source_queue_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.n2de_Time_to_action_mins_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Number_of_Child_Cases_Closed_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Number_of_Child_Cases_Open_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Number_of_Participants_to_Adjust_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.of_Activities_Emails_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Opportunity_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -36245,7 +37372,56 @@
             }
           },
           {
+            "text": "Case_Home__dll.Original_Check_Date_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Original_Close_Date_Time_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.original_number_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Original_Plan_Year_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Overnight_check_detail_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Owner_s_Manager_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.OwnerId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Paradigm_Plan_Link_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -36259,6 +37435,62 @@
             }
           },
           {
+            "text": "Case_Home__dll.Partner_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Past_Due_5500_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Past_Due_Payroll_Survey_Link_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Past_Due_Survey_Received_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Past_Due_Survey_Sent_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Payroll_ID_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Payroll_Schedule_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Person_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.Plan_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -36266,7 +37498,133 @@
             }
           },
           {
+            "text": "Case_Home__dll.Plan_over_125_EEs_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Plan_Payroll_Status_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Plan_Value_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Plan07CNumber_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.PlanAccountNumber_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Portfolio_Name_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Preferred_Completion_Date_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Primary_Audience_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.Priority__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Priority_Service_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.ProductId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Project_Deliverable_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.QA_Status_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.ReAm_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.ReAm_confirm_timeline_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.ReAm_Fee_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.ReAm_Loan_type_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.ReAm_Waiver_Reason_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.ReAmParticipant_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -36287,7 +37645,70 @@
             }
           },
           {
+            "text": "Case_Home__dll.ref_Id_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Reference_Memo_Line_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Reissue_Address_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Reissue_Custodian_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Reissue_Fee_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Reissue_Method_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Reissue_Payee_Wire_Info_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Reissue_Reason_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.Reopened_Count_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Request_Level_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -36301,7 +37722,56 @@
             }
           },
           {
+            "text": "Case_Home__dll.Requestor_s_Department_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.RKO_Plan_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.ROI_Touched_Case_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.RPC_Request_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Sender_Role_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.Sentiment_Score_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Service_Option_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.ServiceContractId__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -36315,7 +37785,63 @@
             }
           },
           {
+            "text": "Case_Home__dll.simplesurvey_Survey_Sent_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.SlaExitDate__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.SlaStartDate__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.SMS_Opt_In_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.SourceId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Splited_From_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.Status__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.StopStartDate__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Sub_Category_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -36357,6 +37883,27 @@
             }
           },
           {
+            "text": "Case_Home__dll.Surface_to_Ubiquity_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Survey_Other_Response_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Survey_Response_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.SystemModstamp__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -36371,7 +37918,35 @@
             }
           },
           {
+            "text": "Case_Home__dll.Team_Member_Phone_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Team_Member_Title_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Terminated_Sponsor_Trustee_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.Time_Open_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Time_to_Action_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -36392,6 +37967,20 @@
             }
           },
           {
+            "text": "Case_Home__dll.Time_to_Resolve_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Time_to_Respond_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.Time_With_Customer_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -36406,6 +37995,27 @@
             }
           },
           {
+            "text": "Case_Home__dll.Timezone_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Transition_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Trigger_Milestones_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.Type__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -36413,7 +38023,42 @@
             }
           },
           {
+            "text": "Case_Home__dll.Ubiquity_Admin_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "Case_Home__dll.Ubiquity_Leader_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Unique_Flow_Identifier_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Unknown_Deposit_Amount_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Unknown_Deposit_Date_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Unknown_Deposit_Name_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -36442,6 +38087,27 @@
           },
           {
             "text": "Case_Home__dll.Web_Last_Name_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Work_Metric_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.X3_16_c__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "Case_Home__dll.Yearly_Hours_c__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -69625,6 +71291,141 @@
         ]
       },
       {
+        "text": "RecordType_Home__dll (18)",
+        "icon": "fa-solid fa-folder icon-blue",
+        "a_attr": {
+          "href": null
+        },
+        "children": [
+          {
+            "text": "RecordType_Home__dll.BusinessProcessId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.cdp_sys_SourceVersion__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.CreatedById__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.CreatedDate__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.DataSource__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.DataSourceObject__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.Description__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.DeveloperName__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.Id__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.IsActive__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.KQ_Id__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.LastModifiedById__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.LastModifiedDate__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.Name__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.NamespacePrefix__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.SfdcOrganizationId__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.SobjectType__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "RecordType_Home__dll.SystemModstamp__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          }
+        ]
+      },
+      {
         "text": "Required_Action__c (7)",
         "icon": "fa-solid fa-folder icon-blue",
         "a_attr": {
@@ -71517,7 +73318,7 @@
         ]
       },
       {
-        "text": "simplesurvey__Survey__c (195)",
+        "text": "simplesurvey__Survey__c (196)",
         "icon": "fa-solid fa-folder icon-blue",
         "a_attr": {
           "href": null
@@ -71700,6 +73501,13 @@
           },
           {
             "text": "simplesurvey__Survey__c.Compliance__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "simplesurvey__Survey__c.Contact_Email__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -75568,7 +77376,7 @@
         ]
       },
       {
-        "text": "User_Home__dll (11)",
+        "text": "User_Home__dll (14)",
         "icon": "fa-solid fa-folder icon-blue",
         "a_attr": {
           "href": null
@@ -75638,6 +77446,13 @@
             }
           },
           {
+            "text": "User_Home__dll.Name__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
             "text": "User_Home__dll.SfdcOrganizationId__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
@@ -75646,6 +77461,20 @@
           },
           {
             "text": "User_Home__dll.SystemModstamp__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "User_Home__dll.Username__c",
+            "icon": "fa-solid fa-circle-check icon-success",
+            "a_attr": {
+              "href": null
+            }
+          },
+          {
+            "text": "User_Home__dll.UserRoleId__c",
             "icon": "fa-solid fa-circle-check icon-success",
             "a_attr": {
               "href": null
@@ -84608,7 +86437,7 @@
     ]
   },
   {
-    "text": " Data Source Object (44)",
+    "text": " Data Source Object (45)",
     "icon": "fa-solid fa-folder icon-blue",
     "a_attr": {
       "href": null
@@ -84881,6 +86710,13 @@
         }
       },
       {
+        "text": "RecordType_Home",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
         "text": "TenantBillingUsageEvent",
         "icon": "fa-solid fa-circle-check icon-success",
         "a_attr": {
@@ -84948,7 +86784,7 @@
     ]
   },
   {
-    "text": " Data Stream Definition (44)",
+    "text": " Data Stream Definition (45)",
     "icon": "fa-solid fa-folder icon-blue",
     "a_attr": {
       "href": null
@@ -85215,6 +87051,13 @@
       },
       {
         "text": "ProvisionedFeature",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "RecordType_Home",
         "icon": "fa-solid fa-circle-check icon-success",
         "a_attr": {
           "href": null
@@ -87486,7 +89329,7 @@
     ]
   },
   {
-    "text": " External A I Model (578)",
+    "text": " External A I Model (582)",
     "icon": "fa-solid fa-folder icon-blue",
     "a_attr": {
       "href": null
@@ -89188,6 +91031,13 @@
       },
       {
         "text": "HAWKING_ARTICLE_RECOMMENDATION_1763081746879",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "HAWKING_ARTICLE_RECOMMENDATION_1763167487028",
         "icon": "fa-solid fa-circle-check icon-success",
         "a_attr": {
           "href": null
@@ -91519,6 +93369,27 @@
       },
       {
         "text": "HAWKING_FAQ_1763080901646",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "HAWKING_FAQ_1763167275759",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "HAWKING_FAQ_1763167342390",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "HAWKING_FAQ_1763167342427",
         "icon": "fa-solid fa-circle-check icon-success",
         "a_attr": {
           "href": null
@@ -107461,7 +109332,7 @@
     ]
   },
   {
-    "text": " Mkt Data Tran Object (44)",
+    "text": " Mkt Data Tran Object (45)",
     "icon": "fa-solid fa-folder icon-blue",
     "a_attr": {
       "href": null
@@ -107728,6 +109599,13 @@
       },
       {
         "text": "ProvisionedFeature",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "RecordType_Home",
         "icon": "fa-solid fa-circle-check icon-success",
         "a_attr": {
           "href": null
@@ -109624,7 +111502,7 @@
     ]
   },
   {
-    "text": " Object Source Target Map (91)",
+    "text": " Object Source Target Map (92)",
     "icon": "fa-solid fa-folder icon-blue",
     "a_attr": {
       "href": null
@@ -110143,6 +112021,13 @@
       },
       {
         "text": "ProvisionedFeature_map_ProvisionedFeature_1739001617115",
+        "icon": "fa-solid fa-circle-check icon-success",
+        "a_attr": {
+          "href": null
+        }
+      },
+      {
+        "text": "RecordType_Home_map_RecordType_Home_1763144916756",
         "icon": "fa-solid fa-circle-check icon-success",
         "a_attr": {
           "href": null

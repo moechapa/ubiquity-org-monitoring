@@ -26505,6 +26505,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>simplesurvey__Survey__c.Contact_Email__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>simplesurvey__Survey__c.Contact_Id_18_Char__c</field>
         <readable>true</readable>
     </fieldPermissions>

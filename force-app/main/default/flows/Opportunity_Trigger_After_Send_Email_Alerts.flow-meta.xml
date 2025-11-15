@@ -130,6 +130,20 @@
                     <stringValue>401(k) Plan Sale</stringValue>
                 </rightValue>
             </conditions>
+            <conditions>
+                <leftValueReference>$Record.Service_Option__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Single(k)</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Service_Option__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Mega Roth Single(k)</stringValue>
+                </rightValue>
+            </conditions>
             <connector>
                 <targetReference>Advisor_Channel</targetReference>
             </connector>

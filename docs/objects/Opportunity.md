@@ -17,10 +17,10 @@ dsfs__DocuSign_Recipient_Status__c["dsfs__DocuSign_Recipient_Status__c"]:::custo
 click dsfs__DocuSign_Recipient_Status__c "/objects/dsfs__DocuSign_Recipient_Status__c/"
 User["User"]:::object
 click User "/objects/User/"
-Proposal__c["Proposal"]:::customObject
-click Proposal__c "/objects/Proposal__c/"
 Promotions__c["Promotion"]:::customObject
 click Promotions__c "/objects/Promotions__c/"
+Proposal__c["Proposal"]:::customObject
+click Proposal__c "/objects/Proposal__c/"
 Project_Task__c["Project Task"]:::customObject
 click Project_Task__c "/objects/Project_Task__c/"
 Products_Services__c["Products & Services"]:::customObject
